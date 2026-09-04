@@ -1,0 +1,19 @@
+{
+  "name": "Learning Guide",
+  "short_name": "Learning Guide",
+  "description": "Deep, readable, fully cited guides to whole subjects: physics, chemistry, economics, mathematics, artificial intelligence, and history. Works offline.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F4F5F8",
+  "theme_color": "#2A4BA0",
+  "lang": "en",
+  "categories": ["education", "books"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" role="img" aria-label="Table of Standard Model particles">
+  <style>
+    .cell { rx: 6; stroke-width: 1.2; }
+    .sym { font-size: 22px; font-weight: 600; }
+    .nm { font-size: 11px; }
+  </style>
+  <!-- column headers -->
+  <text x="80" y="22" text-anchor="middle" class="small">generation I</text>
+  <text x="180" y="22" text-anchor="middle" class="small">generation II</text>
+  <text x="280" y="22" text-anchor="middle" class="small">generation III</text>
+  <text x="430" y="22" text-anchor="middle" class="small">force carriers</text>
+  <text x="600" y="22" text-anchor="middle" class="small">mass-giver</text>
+  <!-- row labels -->
+  <text x="14" y="70" class="small" transform="rotate(-90 14 70)" text-anchor="middle">quarks</text>
+  <text x="14" y="230" class="small" transform="rotate(-90 14 230)" text-anchor="middle">leptons</text>
+
+  <!-- quarks: soft-fill accent -->
+  <g class="soft-fill accent">
+    <rect x="40" y="34" width="80" height="70" class="cell"/>
+    <rect x="140" y="34" width="80" height="70" class="cell"/>
+    <rect x="240" y="34" width="80" height="70" class="cell"/>
+    <rect x="40" y="112" width="80" height="70" class="cell"/>
+    <rect x="140" y="112" width="80" height="70" class="cell"/>
+    <rect x="240" y="112" width="80" height="70" class="cell"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="80" y="64" class="sym">u</text><text x="80" y="82" class="nm">up</text><text x="80" y="96" class="nm small">2.2 MeV</text>
+    <text x="180" y="64" class="sym">c</text><text x="180" y="82" class="nm">charm</text><text x="180" y="96" class="nm small">1.27 GeV</text>
+    <text x="280" y="64" class="sym">t</text><text x="280" y="82" class="nm">top</text><text x="280" y="96" class="nm small">173 GeV</text>
+    <text x="80" y="142" class="sym">d</text><text x="80" y="160" class="nm">down</text><text x="80" y="174" class="nm small">4.7 MeV</text>
+    <text x="180" y="142" class="sym">s</text><text x="180" y="160" class="nm">strange</text><text x="180" y="174" class="nm small">93 MeV</text>
+    <text x="280" y="142" class="sym">b</text><text x="280" y="160" class="nm">bottom</text><text x="280" y="174" class="nm small">4.18 GeV</text>
+  </g>
+
+  <!-- leptons: slate -->
+  <g fill="none" class="line" stroke-width="1.2">
+    <rect x="40" y="196" width="80" height="70" class="cell"/>
+    <rect x="140" y="196" width="80" height="70" class="cell"/>
+    <rect x="240" y="196" width="80" height="70" class="cell"/>
+    <rect x="40" y="274" width="80" height="70" class="cell"/>
+    <rect x="140" y="274" width="80" height="70" class="cell"/>
+    <rect x="240" y="274" width="80" height="70" class="cell"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="80" y="226" class="sym">e</text><text x="80" y="244" class="nm">electron</text><text x="80" y="258" class="nm small">0.511 MeV</text>
+    <text x="180" y="226" class="sym">μ</text><text x="180" y="244" class="nm">muon</text><text x="180" y="258" class="nm small">106 MeV</text>
+    <text x="280" y="226" class="sym">τ</text><text x="280" y="244" class="nm">tau</text><text x="280" y="258" class="nm small">1.78 GeV</text>
+    <text x="80" y="304" class="sym">ν<tspan font-size="13">e</tspan></text><text x="80" y="322" class="nm">e-neutrino</text><text x="80" y="336" class="nm small">&lt; 1 eV</text>
+    <text x="180" y="304" class="sym">ν<tspan font-size="13">μ</tspan></text><text x="180" y="322" class="nm">μ-neutrino</text><text x="180" y="336" class="nm small">&lt; 1 eV</text>
+    <text x="280" y="304" class="sym">ν<tspan font-size="13">τ</tspan></text><text x="280" y="322" class="nm">τ-neutrino</text><text x="280" y="336" class="nm small">&lt; 1 eV</text>
+  </g>
+
+  <!-- bosons: amber -->
+  <g class="amber-soft-fill amber">
+    <rect x="390" y="34" width="80" height="70" class="cell"/>
+    <rect x="390" y="112" width="80" height="70" class="cell"/>
+    <rect x="390" y="196" width="80" height="70" class="cell"/>
+    <rect x="390" y="274" width="80" height="70" class="cell"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="430" y="64" class="sym">γ</text><text x="430" y="82" class="nm">photon</text><text x="430" y="96" class="nm small">electromagnetism</text>
+    <text x="430" y="142" class="sym">g</text><text x="430" y="160" class="nm">gluon (×8)</text><text x="430" y="174" class="nm small">strong force</text>
+    <text x="430" y="226" class="sym">W<tspan font-size="13">±</tspan></text><text x="430" y="244" class="nm">W boson</text><text x="430" y="258" class="nm small">weak · 80.4 GeV</text>
+    <text x="430" y="304" class="sym">Z</text><text x="430" y="322" class="nm">Z boson</text><text x="430" y="336" class="nm small">weak · 91.2 GeV</text>
+  </g>
+
+  <!-- Higgs -->
+  <g class="accent" fill="none" stroke-width="2"><rect x="560" y="34" width="80" height="70" rx="6"/></g>
+  <g text-anchor="middle">
+    <text x="600" y="64" class="sym">H</text><text x="600" y="82" class="nm">Higgs boson</text><text x="600" y="96" class="nm small">125 GeV</text>
+  </g>
+  <!-- gravity note -->
+  <g class="muted" fill="none" stroke-width="1.2" stroke-dasharray="5 4"><rect x="560" y="196" width="80" height="70" rx="6"/></g>
+  <g text-anchor="middle">
+    <text x="600" y="226" class="sym" style="fill:var(--muted)">?</text><text x="600" y="244" class="nm">graviton</text><text x="600" y="258" class="nm small">gravity · not in the model</text>
+  </g>
+  <!-- footnote -->
+  <text x="40" y="378" class="small">Masses in electron-volts (eV): 1 GeV ≈ 1.07 proton masses. Every matter particle also has an antiparticle. Values from the Particle Data Group, 2024.</text>
+</svg>

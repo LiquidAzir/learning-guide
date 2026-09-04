@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Top row: five squares from a clean image to pure noise, with arrows labeled add noise. Bottom row: the reverse, from noise to a clean image, with arrows labeled predict and remove noise, and a caption box feeding into each step.">
+  <defs>
+    <marker id="af" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="muted-fill"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="accent-fill"/></marker>
+    <pattern id="n1" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" class="soft-fill"/><rect x="2" y="1" width="2" height="2" class="muted-fill" opacity=".35"/></pattern>
+    <pattern id="n2" width="5" height="5" patternUnits="userSpaceOnUse"><rect width="5" height="5" class="soft-fill"/><rect x="1" y="2" width="2" height="2" class="muted-fill" opacity=".6"/><rect x="3" y="0" width="1" height="1" class="ink-fill" opacity=".4"/></pattern>
+    <pattern id="n3" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" class="muted-fill" opacity=".5"/><rect x="0" y="0" width="2" height="2" class="ink-fill" opacity=".5"/><rect x="2" y="2" width="1" height="1" class="soft-fill"/></pattern>
+    <pattern id="n4" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="4" class="ink-fill" opacity=".55"/><rect x="1" y="1" width="2" height="1" class="soft-fill"/><rect x="0" y="3" width="1" height="1" class="muted-fill"/></pattern>
+  </defs>
+  <!-- top row: forward, y=40..100 -->
+  <g class="line" stroke-width="1">
+    <rect x="40" y="40" width="60" height="60" class="soft-fill"/>
+    <rect x="180" y="40" width="60" height="60" fill="url(#n1)"/>
+    <rect x="320" y="40" width="60" height="60" fill="url(#n2)"/>
+    <rect x="460" y="40" width="60" height="60" fill="url(#n3)"/>
+    <rect x="600" y="40" width="60" height="60" fill="url(#n4)"/>
+  </g>
+  <!-- simple "image": a house shape in the clean square -->
+  <g class="ink" fill="none" stroke-width="1.8"><path d="M52,88 L52,66 L70,52 L88,66 L88,88 Z M64,88 L64,76 L76,76 L76,88"/></g>
+  <g class="ink" fill="none" stroke-width="1.8" opacity=".7"><path d="M192,88 L192,66 L210,52 L228,66 L228,88 Z"/></g>
+  <g class="ink" fill="none" stroke-width="1.8" opacity=".35"><path d="M332,88 L332,66 L350,52 L368,66 L368,88 Z"/></g>
+  <g class="muted-line" stroke-width="1.6" fill="none">
+    <line x1="106" y1="70" x2="174" y2="70" marker-end="url(#af)"/><line x1="246" y1="70" x2="314" y2="70" marker-end="url(#af)"/><line x1="386" y1="70" x2="454" y2="70" marker-end="url(#af)"/><line x1="526" y1="70" x2="594" y2="70" marker-end="url(#af)"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="140" y="62">add noise</text><text x="280" y="62">add noise</text><text x="420" y="62">add noise</text><text x="560" y="62">add noise</text>
+    <text x="70" y="118">x₀ (training image)</text><text x="630" y="118">x_T (pure static)</text>
+  </g>
+  <text x="350" y="24" class="lbl" text-anchor="middle">Forward: destroy the image (no learning needed)</text>
+  <!-- bottom row: reverse, y=170..230 -->
+  <g class="line" stroke-width="1">
+    <rect x="600" y="170" width="60" height="60" fill="url(#n4)"/>
+    <rect x="460" y="170" width="60" height="60" fill="url(#n3)"/>
+    <rect x="320" y="170" width="60" height="60" fill="url(#n2)"/>
+    <rect x="180" y="170" width="60" height="60" fill="url(#n1)"/>
+    <rect x="40" y="170" width="60" height="60" class="soft-fill"/>
+  </g>
+  <g class="ink" fill="none" stroke-width="1.8" opacity=".35"><path d="M332,218 L332,196 L350,182 L368,196 L368,218 Z"/></g>
+  <g class="ink" fill="none" stroke-width="1.8" opacity=".7"><path d="M192,218 L192,196 L210,182 L228,196 L228,218 Z"/></g>
+  <g class="ink" fill="none" stroke-width="1.8"><path d="M52,218 L52,196 L70,182 L88,196 L88,218 Z M64,218 L64,206 L76,206 L76,218"/></g>
+  <g class="accent" stroke-width="1.8" fill="none">
+    <line x1="594" y1="200" x2="526" y2="200" marker-end="url(#ag)"/><line x1="454" y1="200" x2="386" y2="200" marker-end="url(#ag)"/><line x1="314" y1="200" x2="246" y2="200" marker-end="url(#ag)"/><line x1="174" y1="200" x2="106" y2="200" marker-end="url(#ag)"/>
+  </g>
+  <g class="lbl small accent-text" text-anchor="middle">
+    <text x="560" y="192">predict noise, subtract</text><text x="420" y="192">predict, subtract</text><text x="280" y="192">predict, subtract</text><text x="140" y="192">predict, subtract</text>
+  </g>
+  <text x="350" y="154" class="lbl" text-anchor="middle">Reverse: the learned network removes noise, step by step</text>
+  <!-- caption conditioning -->
+  <rect x="250" y="252" width="200" height="30" rx="6" class="amber-soft-fill amber" stroke-width="1.4"/>
+  <text x="350" y="272" class="lbl small" text-anchor="middle">caption embedding: "a small house"</text>
+  <g class="amber" stroke-width="1.2" fill="none" stroke-dasharray="3 3">
+    <path d="M300,252 L280,232 M350,252 L350,232 M400,252 L420,232"/>
+  </g>
+</svg>

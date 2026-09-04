@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Prospect theory value function: concave for gains, steeper and convex for losses">
+  <defs>
+    <marker id="pt-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- axes through origin -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#pt-arr)">
+    <line x1="320" y1="200" x2="600" y2="200"/>
+    <line x1="320" y1="200" x2="40" y2="200"/>
+    <line x1="320" y1="200" x2="320" y2="30"/>
+    <line x1="320" y1="200" x2="320" y2="380"/>
+  </g>
+  <text x="560" y="222" text-anchor="middle" class="small">gains</text>
+  <text x="80" y="222" text-anchor="middle" class="small">losses</text>
+  <text x="332" y="40" class="small">feels good</text>
+  <text x="332" y="376" class="small">feels bad</text>
+  <!-- gains curve: concave -->
+  <path d="M320 200 C 380 150, 450 122, 580 110" fill="none" class="accent" stroke-width="3"/>
+  <!-- losses curve: convex, steeper -->
+  <path d="M320 200 C 290 260, 230 320, 60 345" fill="none" class="amber" stroke-width="3"/>
+  <!-- reference point -->
+  <circle cx="320" cy="200" r="5" class="ink-fill"/>
+  <text x="330" y="196" class="small" style="font-weight:600">reference point</text>
+  <text x="330" y="210" class="small">(usually where you are now)</text>
+  <!-- comparison markers: +100 vs -100 -->
+  <line x1="420" y1="200" x2="420" y2="140" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="220" y1="200" x2="220" y2="312" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="420" y="236" text-anchor="middle" class="small">+100</text>
+  <text x="220" y="190" text-anchor="middle" class="small">−100</text>
+  <line x1="596" y1="140" x2="425" y2="140" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="596" y1="312" x2="225" y2="312" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="596" y="134" text-anchor="end" class="small">gain of 100: worth this much</text>
+  <text x="596" y="306" text-anchor="end" class="small">loss of 100: hurts about twice as much</text>
+  <text x="470" y="90" text-anchor="middle" class="small">curve flattens: the 2nd hundred</text>
+  <text x="470" y="104" text-anchor="middle" class="small">matters less than the 1st</text>
+</svg>

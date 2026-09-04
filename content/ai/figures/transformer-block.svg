@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="A vertical stack: input tokens, embedding plus position, then a repeated block containing masked self-attention with a residual add and norm and a feedforward network with a residual add and norm, repeated L times, then a linear layer and softmax giving next-token probabilities.">
+  <defs><marker id="tu" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="ink-fill"/></marker></defs>
+  <!-- bottom to top flow at x=250 -->
+  <g class="lbl small" text-anchor="middle">
+    <text x="250" y="305">"The cat sat on the" → tokens [464, 3797, 3332, 319, 262]</text>
+  </g>
+  <rect x="150" y="262" width="200" height="26" rx="5" class="soft-fill accent" stroke-width="1.2"/>
+  <text x="250" y="280" class="lbl small" text-anchor="middle">embedding + positional encoding</text>
+  <!-- block box -->
+  <rect x="120" y="70" width="260" height="176" rx="8" fill="none" class="line" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="392" y="160" class="lbl small" transform="rotate(90 392 160)" text-anchor="middle">× L layers (12 to 128)</text>
+  <rect x="150" y="196" width="200" height="30" rx="5" class="amber-soft-fill amber" stroke-width="1.2"/>
+  <text x="250" y="215" class="lbl small" text-anchor="middle">masked multi-head self-attention</text>
+  <rect x="150" y="160" width="200" height="22" rx="5" class="soft-fill line" stroke-width="1"/>
+  <text x="250" y="175" class="lbl small" text-anchor="middle">add (residual); normalize next input</text>
+  <rect x="150" y="118" width="200" height="30" rx="5" class="amber-soft-fill amber" stroke-width="1.2"/>
+  <text x="250" y="137" class="lbl small" text-anchor="middle">feedforward network (per token)</text>
+  <rect x="150" y="82" width="200" height="22" rx="5" class="soft-fill line" stroke-width="1"/>
+  <text x="250" y="97" class="lbl small" text-anchor="middle">add (residual); normalize next input</text>
+  <!-- residual skip lines -->
+  <g class="accent" fill="none" stroke-width="1.4">
+    <path d="M150,240 L132,240 L132,171 L150,171"/>
+    <path d="M150,155 L132,155 L132,93 L150,93"/>
+  </g>
+  <!-- arrows -->
+  <g class="ink" fill="none" stroke-width="1.6">
+    <line x1="250" y1="262" x2="250" y2="230" marker-end="url(#tu)"/>
+    <line x1="250" y1="196" x2="250" y2="186" marker-end="url(#tu)"/>
+    <line x1="250" y1="160" x2="250" y2="152" marker-end="url(#tu)"/>
+    <line x1="250" y1="118" x2="250" y2="108" marker-end="url(#tu)"/>
+    <line x1="250" y1="82" x2="250" y2="60" marker-end="url(#tu)"/>
+  </g>
+  <rect x="150" y="30" width="200" height="26" rx="5" class="soft-fill accent" stroke-width="1.2"/>
+  <text x="250" y="48" class="lbl small" text-anchor="middle">linear → softmax over vocabulary</text>
+  <!-- output distribution -->
+  <g class="lbl small">
+    <text x="440" y="46">next token probabilities</text>
+    <text x="440" y="70">mat</text><rect x="480" y="61" width="150" height="10" class="accent-fill" opacity=".8"/><text x="636" y="70">0.41</text>
+    <text x="440" y="90">floor</text><rect x="480" y="81" width="70" height="10" class="accent-fill" opacity=".8"/><text x="636" y="90">0.19</text>
+    <text x="440" y="110">couch</text><rect x="480" y="101" width="40" height="10" class="accent-fill" opacity=".8"/><text x="636" y="110">0.11</text>
+    <text x="440" y="130">…</text>
+    <text x="440" y="160">sample one, append, repeat</text>
+  </g>
+  <text x="560" y="230" class="lbl small" text-anchor="middle">"attention: tokens talk to each other</text>
+  <text x="560" y="246" class="lbl small" text-anchor="middle">feedforward: each token thinks alone"</text>
+</svg>

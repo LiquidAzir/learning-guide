@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Solow model: output rises with capital but with diminishing returns; the steady state is where investment equals depreciation">
+  <defs>
+    <marker id="so-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#so-arr)">
+    <line x1="70" y1="340" x2="600" y2="340"/>
+    <line x1="70" y1="340" x2="70" y2="30"/>
+  </g>
+  <text x="340" y="372" text-anchor="middle" class="small">capital per worker</text>
+  <text x="28" y="185" text-anchor="middle" class="small" transform="rotate(-90 28 185)">output per worker</text>
+  <!-- output curve: concave -->
+  <path d="M70 340 C 120 200, 220 120, 580 70" fill="none" class="ink" stroke-width="2.5"/>
+  <text x="480" y="62" class="small" style="font-weight:600">output</text>
+  <text x="480" y="76" class="small">flattens: diminishing returns</text>
+  <!-- investment curve: fraction of output -->
+  <path d="M70 340 C 120 260, 220 215, 580 185" fill="none" class="accent" stroke-width="2.5"/>
+  <text x="500" y="176" class="small" style="font-weight:600;fill:var(--accent)">saving and investment</text>
+  <!-- depreciation line -->
+  <line x1="70" y1="340" x2="560" y2="150" class="amber" stroke-width="2.5"/>
+  <text x="440" y="160" class="small" style="font-weight:600;fill:var(--amber)">wear and tear to replace</text>
+  <!-- steady state -->
+  <circle cx="330" cy="239" r="5" class="ink-fill"/>
+  <line x1="330" y1="239" x2="330" y2="340" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="330" y="358" text-anchor="middle" class="small" style="font-weight:600">steady state</text>
+  <!-- arrows showing convergence -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#so-arr)">
+    <line x1="170" y1="325" x2="300" y2="325"/>
+    <line x1="500" y1="325" x2="365" y2="325"/>
+  </g>
+  <text x="235" y="316" text-anchor="middle" class="small">poor: invest more than wear, grow</text>
+  <text x="435" y="316" text-anchor="middle" class="small">rich: growth from capital stops</text>
+  <!-- productivity shift -->
+  <path d="M70 340 C 120 170, 220 80, 580 30" fill="none" class="ink" stroke-width="1.5" stroke-dasharray="6 4" opacity=".6"/>
+  <text x="200" y="100" class="small" style="font-style:italic">better ideas (higher A) lift the whole curve:</text>
+  <text x="200" y="114" class="small" style="font-style:italic">the only source of growth that does not run out</text>
+</svg>

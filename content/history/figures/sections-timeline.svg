@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" role="img" aria-label="Timeline from 3500 BCE to the present showing the spans of the three sections: Ancient History from 3500 BCE to 500 CE, European History from 500 CE to the present, and East Asian History from 1600 BCE to the present">
+  <!-- x(year) = 40 + (year + 3500) / 5526 * 640; ticks at -3000, -2000, -1000, 1, 1000, 2000 -->
+  <g class="axis" fill="none" stroke-width="1.2"><path d="M40,200 L680,200"/></g>
+  <g class="muted-line" fill="none" stroke-width="1" stroke-dasharray="3 4">
+    <path d="M97.9,45 L97.9,200 M213.7,45 L213.7,200 M329.5,45 L329.5,200 M445.4,45 L445.4,200 M561.2,45 L561.2,200 M677,45 L677,200"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="97.9" y="218">3000 BCE</text><text x="213.7" y="218">2000 BCE</text><text x="329.5" y="218">1000 BCE</text><text x="445.4" y="218">1 CE</text><text x="561.2" y="218">1000 CE</text><text x="677" y="218">2000</text>
+  </g>
+  <!-- Ancient: -3500 to 500 -->
+  <rect class="amber-fill" x="40" y="58" width="463.3" height="22" rx="4"/>
+  <text class="lbl small" x="46" y="52">Ancient History, chapters 2 to 13: first cities to the fall of Rome</text>
+  <!-- Europe: 500 to 2026 -->
+  <rect class="accent-fill" x="503.3" y="108" width="176.7" height="22" rx="4"/>
+  <text class="lbl small" x="503.3" y="102">European History, chapters 14 to 25</text>
+  <!-- East Asia: -1600 to 2026 -->
+  <rect class="teal-fill" x="260" y="158" width="420" height="22" rx="4"/>
+  <text class="lbl small" x="260" y="152">East Asian History, chapters 26 to 37: Shang to the present</text>
+  <text class="lbl small" x="40" y="30">Chapter 2 also covers the two and a half million years before this axis begins.</text>
+</svg>

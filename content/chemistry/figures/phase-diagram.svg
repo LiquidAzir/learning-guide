@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" role="img" aria-label="Phase diagram of water with solid, liquid, and gas regions">
+  <defs>
+    <marker id="pd-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- regions -->
+  <path d="M80 320 L80 40 L215 40 L200 190 Z" class="soft-fill" opacity=".9"/>
+  <path d="M215 40 L520 40 L520 120 L200 190 Z" class="amber-soft-fill" opacity=".9"/>
+  <path d="M80 320 L200 190 L520 120 L520 320 Z" fill="none"/>
+  <!-- boundaries -->
+  <path d="M80 320 Q150 250 200 190" fill="none" class="accent" stroke-width="2"/>
+  <path d="M200 190 Q380 160 520 120" fill="none" class="accent" stroke-width="2"/>
+  <path d="M200 190 L215 40" fill="none" class="accent" stroke-width="2"/>
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#pd-arr)">
+    <line x1="80" y1="320" x2="600" y2="320"/>
+    <line x1="80" y1="320" x2="80" y2="20"/>
+  </g>
+  <text x="340" y="350" text-anchor="middle" class="small">temperature</text>
+  <text x="34" y="180" text-anchor="middle" class="small" transform="rotate(-90 34 180)">pressure</text>
+  <!-- labels -->
+  <text x="135" y="110" text-anchor="middle" style="font-weight:600">solid (ice)</text>
+  <text x="370" y="95" text-anchor="middle" style="font-weight:600">liquid</text>
+  <text x="380" y="260" text-anchor="middle" style="font-weight:600">gas (vapor)</text>
+  <!-- points -->
+  <circle cx="200" cy="190" r="5" class="ink-fill"/>
+  <text x="212" y="212" class="small">triple point</text>
+  <text x="212" y="226" class="small">0.01 °C, 0.006 atm</text>
+  <circle cx="520" cy="120" r="5" class="ink-fill"/>
+  <text x="530" y="112" class="small">critical point</text>
+  <text x="530" y="126" class="small">374 °C, 218 atm</text>
+  <text x="530" y="150" class="small" style="font-style:italic">supercritical fluid</text>
+  <text x="530" y="164" class="small" style="font-style:italic">beyond here</text>
+  <!-- 1 atm line -->
+  <line x1="80" y1="215" x2="600" y2="215" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="596" y="211" text-anchor="end" class="small">1 atm (sea level)</text>
+  <circle cx="213" cy="215" r="3.5" class="amber-fill"/>
+  <text x="213" y="238" text-anchor="middle" class="small">melts, 0 °C</text>
+  <circle cx="337" cy="215" r="3.5" class="amber-fill"/>
+  <text x="337" y="238" text-anchor="middle" class="small">boils, 100 °C</text>
+  <!-- note on leaning line -->
+  <text x="150" y="300" class="small">solid–liquid line leans left:</text>
+  <text x="150" y="314" class="small">pressure melts ice (ice is less dense)</text>
+</svg>

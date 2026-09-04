@@ -1,0 +1,50 @@
+[
+  {
+    "id": "physics",
+    "title": "Physics",
+    "tagline": "How the universe works, from falling apples to the edge of what anyone knows.",
+    "icon": "⚛",
+    "description": "A complete tour: the ideas, the people, the math that matters, the experiments that settled arguments, and the questions still open. Each chapter stands alone, but they build on one another if you read in order.",
+    "researchIntro": "What physicists have actually found in the last few years, checked against the original papers."
+  },
+  {
+    "id": "chemistry",
+    "title": "Chemistry",
+    "tagline": "What everything is made of, and how it turns into everything else.",
+    "icon": "⚗",
+    "description": "From alchemy to atoms, from the periodic table to the molecules of life: how atoms bond, why reactions happen, how fast, how far, and how chemists actually see any of it. Every term defined, every claim cited, the frontier kept current.",
+    "researchIntro": "What chemists have actually found in the last few years, checked against the original papers."
+  },
+  {
+    "id": "economics",
+    "title": "Economics",
+    "tagline": "How people choose under scarcity, and what happens when eight billion of them do it at once.",
+    "icon": "⚖",
+    "description": "From Adam Smith to the credibility revolution: how markets coordinate, where they fail, why some nations are rich, what money and central banks actually do, and how economists test any of it. The math that matters, explained; the debates left honest; the latest research kept current.",
+    "researchIntro": "What economists have actually found in the last few years, checked against the original papers and reports."
+  },
+  {
+    "id": "mathematics",
+    "title": "Mathematics",
+    "tagline": "The patterns that hold no matter what they are patterns of, and how to use them.",
+    "icon": "∑",
+    "description": "A practical tour with the history kept in: numbers, algebra, geometry, functions, calculus, probability, statistics, linear algebra, logic, money math, and estimation. Every chapter has step-by-step procedures for the calculations you will actually meet, key-formula boxes, the story of who worked it out and why, and a formula sheet at the end.",
+    "researchIntro": "What mathematicians have actually proved, discovered, or measured in the last few years, including what AI systems have and have not done, checked against the original papers."
+  },
+  {
+    "id": "ai",
+    "title": "Artificial Intelligence",
+    "tagline": "How machines learn from data, from a line through a scatter plot to a model that writes back.",
+    "icon": "⚙",
+    "description": "The whole arc in one place: statistical learning (regression, classification, trees, clustering), how to tell whether a model is any good, neural networks and how they are trained, vision, sequences, image generators, reinforcement learning, and then the transformer, scaling, alignment, and what large language models are and are not. Practical throughout, with the history of the false starts and the arguments still running.",
+    "researchIntro": "What AI researchers have actually shown in the last few years, from the papers that built the field to the safety, labor, and interpretability results of 2024–2026, checked against the originals."
+  },
+  {
+    "id": "history",
+    "title": "History",
+    "tagline": "What happened, how we know, and why the people involved thought they were doing the right thing.",
+    "icon": "⌛",
+    "description": "In sections, more to come: the ancient world from the first farmers to the fall of Rome; Europe from Charlemagne to the present; East Asia from the Shang to the Taiwan Strait. Each section tells the story in order, names the sources it rests on, gives the arguments historians are still having, and keeps the dates you actually need in one place.",
+    "researchIntro": "What historians, archaeologists, and geneticists have actually found in the last few years: deciphered scrolls, ancient genomes, climate archives, and the debates that rewrote a chapter, checked against the original papers."
+  }
+]

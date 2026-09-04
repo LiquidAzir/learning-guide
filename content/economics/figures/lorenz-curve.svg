@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 560 440" role="img" aria-label="Lorenz curve with the Gini coefficient shown as the area between the curve and the line of equality">
+  <defs>
+    <marker id="lz-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- gini area between diagonal and curve -->
+  <path d="M80 360 L440 0 L440 360 Z" fill="none"/>
+  <path d="M80 360 L440 0 C 400 70, 330 200, 300 262 C 270 320, 180 350, 80 360 Z" class="amber-soft-fill" opacity=".95"/>
+  <!-- note: path drawn from origin(80,360) to (440,0) is the diagonal; curve returns -->
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#lz-arr)">
+    <line x1="80" y1="360" x2="500" y2="360"/>
+    <line x1="80" y1="360" x2="80" y2="-10"/>
+  </g>
+  <text x="290" y="392" text-anchor="middle" class="small">share of people, poorest first (0% to 100%)</text>
+  <text x="36" y="180" text-anchor="middle" class="small" transform="rotate(-90 36 180)">share of total income</text>
+  <!-- diagonal -->
+  <line x1="80" y1="360" x2="440" y2="0" class="muted" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="250" y="145" class="small" transform="rotate(-45 250 145)">perfect equality</text>
+  <!-- Lorenz curve -->
+  <path d="M80 360 C 180 350, 270 320, 300 262 C 330 200, 400 70, 440 0" fill="none" class="accent" stroke-width="3"/>
+  <text x="330" y="300" class="small" style="font-weight:600;fill:var(--accent)">Lorenz curve</text>
+  <!-- box -->
+  <line x1="440" y1="0" x2="440" y2="360" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="80" y1="0" x2="440" y2="0" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- annotation -->
+  <text x="235" y="255" text-anchor="middle" class="small" style="font-weight:600">A</text>
+  <text x="380" y="330" text-anchor="middle" class="small" style="font-weight:600">B</text>
+  <text x="120" y="45" class="small" style="font-weight:600">Gini = A ÷ (A + B)</text>
+  <text x="120" y="61" class="small">0 = everyone equal · 1 = one person has it all</text>
+  <text x="120" y="82" class="small">Nordics ≈ 0.25 · United States ≈ 0.40 · South Africa ≈ 0.6</text>
+  <!-- example point -->
+  <circle cx="300" cy="262" r="4" class="ink-fill"/>
+  <text x="300" y="376" text-anchor="middle" class="small">60%</text>
+  <line x1="300" y1="262" x2="300" y2="360" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="80" y1="262" x2="300" y2="262" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="74" y="266" text-anchor="end" class="small">27%</text>
+  <text x="306" y="240" class="small">the poorest 60% receive 27%</text>
+</svg>

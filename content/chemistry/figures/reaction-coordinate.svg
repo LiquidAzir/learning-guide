@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="Reaction energy diagram showing activation energy, transition state, and the effect of a catalyst">
+  <defs>
+    <marker id="rc2-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+    <marker id="rc2-both" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#rc2-arr)">
+    <line x1="60" y1="310" x2="600" y2="310"/>
+    <line x1="60" y1="310" x2="60" y2="20"/>
+  </g>
+  <text x="330" y="340" text-anchor="middle" class="small">progress of the reaction</text>
+  <text x="26" y="165" text-anchor="middle" class="small" transform="rotate(-90 26 165)">free energy</text>
+  <!-- uncatalyzed path -->
+  <path d="M80 200 C 160 200, 200 60, 300 60 C 400 60, 440 250, 560 250" fill="none" class="ink" stroke-width="2.5"/>
+  <!-- catalyzed path -->
+  <path d="M80 200 C 150 200, 180 140, 240 140 C 280 140, 300 170, 320 170 C 340 170, 360 130, 400 130 C 450 130, 480 250, 560 250" fill="none" class="accent" stroke-width="2" stroke-dasharray="7 5"/>
+  <!-- levels -->
+  <line x1="60" y1="200" x2="110" y2="200" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="300" y1="60" x2="300" y2="200" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="530" y1="250" x2="600" y2="250" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="560" y1="200" x2="600" y2="200" class="line" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- Ea arrow -->
+  <line x1="300" y1="196" x2="300" y2="64" class="amber" stroke-width="1.5" marker-start="url(#rc2-both)" marker-end="url(#rc2-both)"/>
+  <text x="310" y="132" class="small" style="font-weight:600">activation energy</text>
+  <text x="310" y="146" class="small">sets the speed</text>
+  <!-- delta G arrow -->
+  <line x1="585" y1="204" x2="585" y2="246" class="amber" stroke-width="1.5" marker-start="url(#rc2-both)" marker-end="url(#rc2-both)"/>
+  <text x="575" y="228" text-anchor="end" class="small" style="font-weight:600">ΔG</text>
+  <text x="575" y="242" text-anchor="end" class="small">sets the direction</text>
+  <!-- labels -->
+  <text x="80" y="190" class="small" style="font-weight:600">reactants</text>
+  <text x="300" y="50" text-anchor="middle" class="small" style="font-weight:600">transition state</text>
+  <text x="545" y="272" text-anchor="middle" class="small" style="font-weight:600">products</text>
+  <text x="240" y="128" text-anchor="middle" class="small" style="fill:var(--accent)">catalyzed path: lower passes</text>
+  <text x="320" y="190" text-anchor="middle" class="small" style="fill:var(--accent)">intermediate</text>
+</svg>

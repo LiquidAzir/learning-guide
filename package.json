@@ -1,0 +1,22 @@
+{
+  "name": "learning-guide",
+  "version": "1.0.0",
+  "description": "A general-purpose learning guide web app (PWA). Content in Markdown, compiled to a single HTML file.",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "node build.js && npx --yes serve dist -l 5173"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "katex": "^0.16.47",
+    "marked": "^15.0.12"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

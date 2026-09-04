@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Left: linear, quadratic and exponential curves on a linear scale; the exponential overtakes the others. Right: the same three on a logarithmic vertical scale, where the exponential is a straight line.">
+  <g class="axis" fill="none" stroke-width="1.2">
+    <line x1="50" y1="260" x2="330" y2="260"/>
+    <line x1="50" y1="260" x2="50" y2="30"/>
+    <line x1="420" y1="260" x2="700" y2="260"/>
+    <line x1="420" y1="260" x2="420" y2="30"/>
+  </g>
+  <text x="190" y="290" class="lbl small" text-anchor="middle">time (linear scale)</text>
+  <text x="560" y="290" class="lbl small" text-anchor="middle">time (log vertical scale)</text>
+  <!-- left panel: x 50..330 maps t 0..10; y: value 0..1000 maps 260..40 -->
+  <!-- linear y=10+40t : t=0 ->10, t=10 -> 410 -->
+  <polyline class="green" fill="none" stroke-width="2.2" points="50,257.8 330,169.8"/>
+  <!-- quadratic y=10+ 6 t^2: t=10 -> 610 -->
+  <path class="amber" fill="none" stroke-width="2.2" d="M50,257.8 Q190,257.8 330,125.8"/>
+  <!-- exponential y=10*1.585^t : t=10 -> 1000. sample points -->
+  <path class="accent" fill="none" stroke-width="2.4" d="M50,257.8 L78,256.5 106,254.4 134,251.1 162,245.9 190,237.6 218,224.5 246,203.7 274,170.8 302,118.6 330,40"/>
+  <text x="300" y="60" class="lbl small accent-text" text-anchor="end">exponential</text>
+  <text x="333" y="128" class="lbl small amber-text">quadratic</text>
+  <text x="333" y="172" class="lbl small green-text">linear</text>
+  <text x="44" y="46" class="lbl small" text-anchor="end">1000</text>
+  <text x="44" y="264" class="lbl small" text-anchor="end">0</text>
+  <!-- right panel: log scale: value 10..1000 maps y 260..40 (each decade 110px) -->
+  <!-- exponential: straight line -->
+  <line class="accent" x1="420" y1="260" x2="700" y2="40" stroke-width="2.4"/>
+  <!-- linear 10+40t on log: t=0:10->260; t=1:50 -> 260-110*log10(5)=183.1; t=2:90->155.0; t=4:170->124.7; t=6:250->106.3; t=8:330->93; t=10:410->82.7 -->
+  <path class="green" fill="none" stroke-width="2.2" d="M420,260 L448,183.1 476,155 532,124.7 588,106.3 644,93 700,82.7"/>
+  <!-- quadratic 10+6t^2: t=1:16->237.5; t=2:34->201.5; t=3:64->171.3; t=4:106->147.2; t=6:226->111.1; t=8:394->84.6; t=10:610->63.7 -->
+  <path class="amber" fill="none" stroke-width="2.2" d="M420,260 L448,237.5 476,201.5 504,171.3 532,147.2 588,111.1 644,84.6 700,63.7"/>
+  <text x="414" y="46" class="lbl small" text-anchor="end">1000</text>
+  <text x="414" y="154" class="lbl small" text-anchor="end">100</text>
+  <text x="414" y="264" class="lbl small" text-anchor="end">10</text>
+  <text x="640" y="56" class="lbl small accent-text" text-anchor="end">exponential = straight line</text>
+  <text x="704" y="68" class="lbl small amber-text">quadratic</text>
+  <text x="704" y="87" class="lbl small green-text">linear</text>
+</svg>

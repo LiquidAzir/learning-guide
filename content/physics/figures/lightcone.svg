@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" role="img" aria-label="Spacetime diagram with past and future light cones">
+  <defs>
+    <marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- cones -->
+  <polygon points="280,180 130,30 430,30" class="soft-fill" opacity="0.9"/>
+  <polygon points="280,180 130,330 430,330" class="amber-soft-fill" opacity="0.9"/>
+  <!-- light lines -->
+  <g class="accent" stroke-width="1.5" stroke-dasharray="5 4">
+    <line x1="130" y1="30" x2="430" y2="330"/>
+    <line x1="430" y1="30" x2="130" y2="330"/>
+  </g>
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" marker-end="url(#ax)">
+    <line x1="280" y1="345" x2="280" y2="12"/>
+    <line x1="40" y1="180" x2="530" y2="180"/>
+  </g>
+  <text x="292" y="22" class="small">time</text>
+  <text x="500" y="200" class="small">space</text>
+  <!-- worldline of a slower-than-light traveler -->
+  <path d="M280 180 C 300 130, 330 100, 345 40" fill="none" class="ink" stroke-width="2"/>
+  <text x="352" y="60" class="small">a possible path</text>
+  <text x="352" y="74" class="small">(always steeper than 45°)</text>
+  <!-- event -->
+  <circle cx="280" cy="180" r="5" class="ink-fill"/>
+  <text x="290" y="172" style="font-weight:600">here, now</text>
+  <!-- labels -->
+  <text x="280" y="70" text-anchor="middle" style="font-weight:600">future</text>
+  <text x="280" y="86" text-anchor="middle" class="small">can be affected by this event</text>
+  <text x="280" y="300" text-anchor="middle" style="font-weight:600">past</text>
+  <text x="280" y="316" text-anchor="middle" class="small">could have affected this event</text>
+  <text x="95" y="140" text-anchor="middle" style="font-style:italic">elsewhere</text>
+  <text x="95" y="156" text-anchor="middle" class="small">no cause-and-effect link;</text>
+  <text x="95" y="170" text-anchor="middle" class="small">time order depends on observer</text>
+  <text x="465" y="140" text-anchor="middle" style="font-style:italic">elsewhere</text>
+  <text x="392" y="125" class="small" transform="rotate(45 392 125)">light</text>
+</svg>

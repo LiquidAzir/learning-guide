@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="Six tokens in a row: the, bank, of, the, river, was. From the token bank, lines of varying thickness go to every other token's key, thickest to river, and the weighted values combine into a new vector for bank.">
+  <g class="lbl" text-anchor="middle">
+    <text x="80" y="60">the</text><text x="190" y="60">bank</text><text x="300" y="60">of</text><text x="410" y="60">the</text><text x="520" y="60">river</text><text x="630" y="60">was</text>
+  </g>
+  <!-- key boxes under each token -->
+  <g class="amber-soft-fill amber" stroke-width="1.2">
+    <rect x="55" y="80" width="50" height="22" rx="4"/><rect x="165" y="80" width="50" height="22" rx="4"/><rect x="275" y="80" width="50" height="22" rx="4"/><rect x="385" y="80" width="50" height="22" rx="4"/><rect x="495" y="80" width="50" height="22" rx="4"/><rect x="605" y="80" width="50" height="22" rx="4"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="80" y="96">k₁</text><text x="190" y="96">k₂</text><text x="300" y="96">k₃</text><text x="410" y="96">k₄</text><text x="520" y="96">k₅</text><text x="630" y="96">k₆</text>
+  </g>
+  <!-- query from bank -->
+  <rect x="160" y="130" width="60" height="24" rx="4" class="soft-fill accent" stroke-width="1.4"/>
+  <text x="190" y="147" class="lbl small" text-anchor="middle">q₂ (bank)</text>
+  <!-- attention lines from query to keys, thickness = weight: the .05, bank .15, of .05, the .05, river .60, was .10 -->
+  <g class="accent" fill="none" opacity=".85">
+    <line x1="190" y1="130" x2="80" y2="102" stroke-width="1"/>
+    <line x1="190" y1="130" x2="190" y2="102" stroke-width="2.5"/>
+    <line x1="190" y1="130" x2="300" y2="102" stroke-width="1"/>
+    <line x1="190" y1="130" x2="410" y2="102" stroke-width="1"/>
+    <line x1="190" y1="130" x2="520" y2="102" stroke-width="7"/>
+    <line x1="190" y1="130" x2="630" y2="102" stroke-width="1.8"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="80" y="118">.05</text><text x="215" y="120">.15</text><text x="300" y="118">.05</text><text x="410" y="118">.05</text><text x="520" y="118" font-weight="600">.60</text><text x="630" y="118">.10</text>
+  </g>
+  <text x="360" y="176" class="lbl small" text-anchor="middle">weights = softmax(q₂·kⱼ / √d_k) — they sum to 1</text>
+  <!-- values combine -->
+  <g class="green-fill" opacity=".85">
+    <rect x="55" y="196" width="50" height="16" rx="3" opacity=".25"/><rect x="165" y="196" width="50" height="16" rx="3" opacity=".4"/><rect x="275" y="196" width="50" height="16" rx="3" opacity=".25"/><rect x="385" y="196" width="50" height="16" rx="3" opacity=".25"/><rect x="495" y="196" width="50" height="16" rx="3"/><rect x="605" y="196" width="50" height="16" rx="3" opacity=".35"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="80" y="228">v₁</text><text x="190" y="228">v₂</text><text x="300" y="228">v₃</text><text x="410" y="228">v₄</text><text x="520" y="228">v₅</text><text x="630" y="228">v₆</text>
+  </g>
+  <text x="360" y="258" class="lbl" text-anchor="middle">new "bank" = .05·v₁ + .15·v₂ + .05·v₃ + .05·v₄ + .60·v₅ + .10·v₆   → a river bank, not a money bank</text>
+  <text x="360" y="28" class="lbl small" text-anchor="middle">one head, one token; every token does this at once, and each head learns different weights</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Left: the area under a curve between a and b approximated by six rectangles. Right: the same area with many thin rectangles, nearly filling the region exactly.">
+  <g class="axis" fill="none" stroke-width="1.2">
+    <line x1="30" y1="270" x2="340" y2="270"/>
+    <line x1="30" y1="270" x2="30" y2="40"/>
+    <line x1="390" y1="270" x2="700" y2="270"/>
+    <line x1="390" y1="270" x2="390" y2="40"/>
+  </g>
+  <!-- curve f: y = 270 - (60 + 40 sin((x-a)/80) + 0.3(x-a)) roughly; define heights at x offsets -->
+  <!-- left: a at x=70, b at x=310, 6 rectangles width 40; heights (screen y of curve at left edge of each) -->
+  <g class="soft-fill" stroke="none">
+    <rect x="70" y="200" width="40" height="70"/>
+    <rect x="110" y="170" width="40" height="100"/>
+    <rect x="150" y="150" width="40" height="120"/>
+    <rect x="190" y="145" width="40" height="125"/>
+    <rect x="230" y="128" width="40" height="142"/>
+    <rect x="270" y="100" width="40" height="170"/>
+  </g>
+  <g class="accent" fill="none" stroke-width="1.2">
+    <rect x="70" y="200" width="40" height="70"/>
+    <rect x="110" y="170" width="40" height="100"/>
+    <rect x="150" y="150" width="40" height="120"/>
+    <rect x="190" y="145" width="40" height="125"/>
+    <rect x="230" y="128" width="40" height="142"/>
+    <rect x="270" y="100" width="40" height="170"/>
+  </g>
+  <path class="ink" fill="none" stroke-width="2.2" d="M40,215 C90,185 130,155 160,150 C200,143 220,140 250,120 C280,100 300,75 335,60"/>
+  <text x="70" y="290" class="lbl small" text-anchor="middle">a</text>
+  <text x="310" y="290" class="lbl small" text-anchor="middle">b</text>
+  <text x="185" y="310" class="lbl small" text-anchor="middle">6 rectangles: rough</text>
+  <text x="330" y="55" class="lbl small" text-anchor="end">f(x)</text>
+  <!-- right panel: many thin rectangles, width 8, from x=430 to 670 -->
+  <g class="soft-fill" stroke="none">
+    <rect x="430" y="200" width="8" height="70"/><rect x="438" y="195" width="8" height="75"/><rect x="446" y="190" width="8" height="80"/><rect x="454" y="184" width="8" height="86"/><rect x="462" y="178" width="8" height="92"/><rect x="470" y="172" width="8" height="98"/><rect x="478" y="167" width="8" height="103"/><rect x="486" y="162" width="8" height="108"/><rect x="494" y="158" width="8" height="112"/><rect x="502" y="154" width="8" height="116"/><rect x="510" y="151" width="8" height="119"/><rect x="518" y="149" width="8" height="121"/><rect x="526" y="147" width="8" height="123"/><rect x="534" y="145" width="8" height="125"/><rect x="542" y="143" width="8" height="127"/><rect x="550" y="140" width="8" height="130"/><rect x="558" y="136" width="8" height="134"/><rect x="566" y="132" width="8" height="138"/><rect x="574" y="128" width="8" height="142"/><rect x="582" y="123" width="8" height="147"/><rect x="590" y="118" width="8" height="152"/><rect x="598" y="113" width="8" height="157"/><rect x="606" y="108" width="8" height="162"/><rect x="614" y="102" width="8" height="168"/><rect x="622" y="96" width="8" height="174"/><rect x="630" y="90" width="8" height="180"/><rect x="638" y="84" width="8" height="186"/><rect x="646" y="78" width="8" height="192"/><rect x="654" y="72" width="8" height="198"/><rect x="662" y="66" width="8" height="204"/>
+  </g>
+  <g class="accent" fill="none" stroke-width=".6">
+    <rect x="430" y="200" width="8" height="70"/><rect x="438" y="195" width="8" height="75"/><rect x="446" y="190" width="8" height="80"/><rect x="454" y="184" width="8" height="86"/><rect x="462" y="178" width="8" height="92"/><rect x="470" y="172" width="8" height="98"/><rect x="478" y="167" width="8" height="103"/><rect x="486" y="162" width="8" height="108"/><rect x="494" y="158" width="8" height="112"/><rect x="502" y="154" width="8" height="116"/><rect x="510" y="151" width="8" height="119"/><rect x="518" y="149" width="8" height="121"/><rect x="526" y="147" width="8" height="123"/><rect x="534" y="145" width="8" height="125"/><rect x="542" y="143" width="8" height="127"/><rect x="550" y="140" width="8" height="130"/><rect x="558" y="136" width="8" height="134"/><rect x="566" y="132" width="8" height="138"/><rect x="574" y="128" width="8" height="142"/><rect x="582" y="123" width="8" height="147"/><rect x="590" y="118" width="8" height="152"/><rect x="598" y="113" width="8" height="157"/><rect x="606" y="108" width="8" height="162"/><rect x="614" y="102" width="8" height="168"/><rect x="622" y="96" width="8" height="174"/><rect x="630" y="90" width="8" height="180"/><rect x="638" y="84" width="8" height="186"/><rect x="646" y="78" width="8" height="192"/><rect x="654" y="72" width="8" height="198"/><rect x="662" y="66" width="8" height="204"/>
+  </g>
+  <path class="ink" fill="none" stroke-width="2.2" d="M400,215 C450,185 490,155 520,150 C560,143 580,140 610,120 C640,100 660,75 695,60"/>
+  <text x="430" y="290" class="lbl small" text-anchor="middle">a</text>
+  <text x="670" y="290" class="lbl small" text-anchor="middle">b</text>
+  <text x="545" y="310" class="lbl small" text-anchor="middle">30 rectangles: nearly exact → ∫ f(x) dx</text>
+</svg>

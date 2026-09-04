@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Left: a decision tree with a root question about income, a second question about prior default, and leaves labeled pay or default. Right: three small trees each trained on different data, with arrows to a ballot box labeled majority vote.">
+  <!-- tree -->
+  <g class="line" fill="none" stroke-width="1.4">
+    <path d="M170,60 L100,120 M170,60 L240,120 M100,120 L60,190 M100,120 L140,190 M240,120 L200,190 M240,120 L280,190"/>
+  </g>
+  <g>
+    <rect x="105" y="35" width="130" height="34" rx="6" class="soft-fill accent" stroke-width="1.4"/>
+    <text x="170" y="57" class="lbl small" text-anchor="middle">income &gt; $40k?</text>
+    <rect x="40" y="100" width="120" height="34" rx="6" class="soft-fill accent" stroke-width="1.4"/>
+    <text x="100" y="122" class="lbl small" text-anchor="middle">prior default?</text>
+    <rect x="180" y="100" width="120" height="34" rx="6" class="soft-fill accent" stroke-width="1.4"/>
+    <text x="240" y="122" class="lbl small" text-anchor="middle">loan &gt; $20k?</text>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="122" y="92">no</text><text x="216" y="92">yes</text>
+    <text x="70" y="160">yes</text><text x="132" y="160">no</text>
+    <text x="210" y="160">no</text><text x="272" y="160">yes</text>
+  </g>
+  <g>
+    <rect x="30" y="180" width="60" height="28" rx="14" class="red-fill" opacity=".85"/><text x="60" y="199" class="lbl small" text-anchor="middle" fill="#fff">default</text>
+    <rect x="110" y="180" width="60" height="28" rx="14" class="green-fill" opacity=".85"/><text x="140" y="199" class="lbl small" text-anchor="middle" fill="#fff">pay</text>
+    <rect x="170" y="180" width="60" height="28" rx="14" class="green-fill" opacity=".85"/><text x="200" y="199" class="lbl small" text-anchor="middle" fill="#fff">pay</text>
+    <rect x="250" y="180" width="60" height="28" rx="14" class="red-fill" opacity=".85"/><text x="280" y="199" class="lbl small" text-anchor="middle" fill="#fff">default</text>
+  </g>
+  <text x="170" y="245" class="lbl" text-anchor="middle">One decision tree</text>
+  <text x="170" y="265" class="lbl small" text-anchor="middle">readable, but memorizes the training data</text>
+  <!-- ensemble -->
+  <g class="line" fill="none" stroke-width="1.2">
+    <path d="M430,60 L410,95 M430,60 L450,95 M410,95 L398,125 M410,95 L422,125"/>
+    <path d="M530,60 L510,95 M530,60 L550,95 M550,95 L538,125 M550,95 L562,125"/>
+    <path d="M630,60 L610,95 M630,60 L650,95 M610,95 L598,125 M610,95 L622,125 M650,95 L638,125 M650,95 L662,125"/>
+  </g>
+  <g class="accent-fill">
+    <circle cx="430" cy="60" r="6"/><circle cx="410" cy="95" r="6"/><circle cx="450" cy="95" r="6"/><circle cx="398" cy="125" r="5"/><circle cx="422" cy="125" r="5"/>
+    <circle cx="530" cy="60" r="6"/><circle cx="510" cy="95" r="6"/><circle cx="550" cy="95" r="6"/><circle cx="538" cy="125" r="5"/><circle cx="562" cy="125" r="5"/>
+    <circle cx="630" cy="60" r="6"/><circle cx="610" cy="95" r="6"/><circle cx="650" cy="95" r="6"/><circle cx="598" cy="125" r="5"/><circle cx="622" cy="125" r="5"/><circle cx="638" cy="125" r="5"/><circle cx="662" cy="125" r="5"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="430" y="150">tree 1</text><text x="530" y="150">tree 2</text><text x="630" y="150">tree 3 … tree 500</text>
+    <text x="430" y="40">data sample A</text><text x="530" y="40">data sample B</text><text x="630" y="40">data sample C</text>
+  </g>
+  <g class="muted-line" fill="none" stroke-width="1.4">
+    <path d="M430,158 L520,200 M530,158 L530,200 M630,158 L540,200"/>
+  </g>
+  <rect x="470" y="200" width="120" height="36" rx="6" class="amber-soft-fill amber" stroke-width="1.4"/>
+  <text x="530" y="223" class="lbl small" text-anchor="middle">majority vote</text>
+  <text x="530" y="265" class="lbl" text-anchor="middle">A random forest</text>
+  <text x="530" y="285" class="lbl small" text-anchor="middle">independent errors cancel; the vote beats every single tree</text>
+</svg>

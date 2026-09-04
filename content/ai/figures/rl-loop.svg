@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Two boxes, Agent and Environment, connected in a loop: an action arrow from agent to environment, and state and reward arrows from environment back to agent. Below, a note that learning adjusts the policy inside the agent.">
+  <defs><marker id="rk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="ink-fill"/></marker><marker id="rg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="green-fill"/></marker></defs>
+  <rect x="80" y="70" width="200" height="110" rx="10" class="soft-fill accent" stroke-width="1.6"/>
+  <text x="180" y="105" class="lbl" text-anchor="middle" font-weight="600">Agent</text>
+  <text x="180" y="128" class="lbl small" text-anchor="middle">policy π(action | state)</text>
+  <text x="180" y="146" class="lbl small" text-anchor="middle">value estimate V(state)</text>
+  <rect x="440" y="70" width="200" height="110" rx="10" class="amber-soft-fill amber" stroke-width="1.6"/>
+  <text x="540" y="105" class="lbl" text-anchor="middle" font-weight="600">Environment</text>
+  <text x="540" y="128" class="lbl small" text-anchor="middle">board, market, road, user…</text>
+  <text x="540" y="146" class="lbl small" text-anchor="middle">responds to the action</text>
+  <!-- action arrow top -->
+  <path class="ink" fill="none" stroke-width="2" d="M280,95 L434,95" marker-end="url(#rk)"/>
+  <text x="357" y="86" class="lbl small" text-anchor="middle">action aₜ</text>
+  <!-- state arrow bottom -->
+  <path class="ink" fill="none" stroke-width="2" d="M440,160 L286,160" marker-end="url(#rk)"/>
+  <text x="363" y="178" class="lbl small" text-anchor="middle">new state sₜ₊₁</text>
+  <!-- reward arrow -->
+  <path class="green" fill="none" stroke-width="2" d="M440,135 L286,135" marker-end="url(#rg)"/>
+  <text x="363" y="127" class="lbl small green-text" text-anchor="middle">reward rₜ (often 0 until the end)</text>
+  <!-- learning note -->
+  <path class="accent" fill="none" stroke-width="1.6" stroke-dasharray="5 4" d="M180,180 L180,215"/>
+  <text x="180" y="232" class="lbl small accent-text" text-anchor="middle">learning: make actions that led to high total reward more likely</text>
+  <text x="360" y="40" class="lbl" text-anchor="middle">Goal: maximize the sum of rewards over time, not the next one</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Unit circle on the left with a point at angle theta and its sine and cosine; on the right the sine wave traced as theta increases">
+  <g class="axis" fill="none" stroke-width="1.2">
+    <line x1="20" y1="150" x2="290" y2="150"/>
+    <line x1="155" y1="15" x2="155" y2="285"/>
+    <line x1="340" y1="150" x2="705" y2="150"/>
+    <line x1="340" y1="35" x2="340" y2="265"/>
+  </g>
+  <circle cx="155" cy="150" r="110" fill="none" class="ink" stroke-width="1.6"/>
+  <!-- angle theta = 40 degrees; cos=0.766 sin=0.643 -->
+  <path d="M 195 150 A 40 40 0 0 0 185.6 124.3" fill="none" class="amber" stroke-width="1.5"/>
+  <text x="200" y="138" class="lbl small">θ</text>
+  <line x1="155" y1="150" x2="239.3" y2="79.3" class="ink" stroke-width="2"/>
+  <line x1="239.3" y1="150" x2="239.3" y2="79.3" class="accent" stroke-width="3"/>
+  <line x1="155" y1="150" x2="239.3" y2="150" class="green" stroke-width="3"/>
+  <circle cx="239.3" cy="79.3" r="4.5" class="ink-fill"/>
+  <text x="247" y="72" class="lbl small">(cos θ, sin θ)</text>
+  <text x="248" y="120" class="lbl small accent-text">sin θ</text>
+  <text x="178" y="168" class="lbl small green-text">cos θ</text>
+  <text x="262" y="164" class="lbl small">1</text>
+  <text x="140" y="32" class="lbl small">y</text>
+  <text x="280" y="144" class="lbl small">x</text>
+  <text x="60" y="270" class="lbl small">radius 1</text>
+  <!-- sine wave: theta 0..2pi maps x 340..680, y = 150 - 70 sin -->
+  <polyline class="accent" fill="none" stroke-width="2" points="340,150 354.2,131.9 368.3,115 382.5,100.5 396.7,89.4 410.8,82.4 425,80 439.2,82.4 453.3,89.4 467.5,100.5 481.7,115 495.8,131.9 510,150 524.2,168.1 538.3,185 552.5,199.5 566.7,210.6 580.8,217.6 595,220 609.2,217.6 623.3,210.6 637.5,199.5 651.7,185 665.8,168.1 680,150"/>
+  <!-- marker for theta=40deg: x=340+340*(40/360)=377.8, y=150-70*0.643=105 -->
+  <line x1="377.8" y1="150" x2="377.8" y2="105" class="accent" stroke-width="3"/>
+  <circle cx="377.8" cy="105" r="4.5" class="ink-fill"/>
+  <line x1="239.3" y1="79.3" x2="377.8" y2="105" class="muted-line" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="377.8" y="172" class="lbl small" text-anchor="middle">θ</text>
+  <text x="425" y="172" class="lbl small" text-anchor="middle">90°</text>
+  <text x="510" y="172" class="lbl small" text-anchor="middle">180°</text>
+  <text x="595" y="172" class="lbl small" text-anchor="middle">270°</text>
+  <text x="680" y="172" class="lbl small" text-anchor="middle">360°</text>
+  <text x="346" y="86" class="lbl small">1</text>
+  <text x="340" y="228" class="lbl small">−1</text>
+  <text x="560" y="60" class="lbl">sin θ</text>
+  <text x="690" y="144" class="lbl small">θ</text>
+</svg>

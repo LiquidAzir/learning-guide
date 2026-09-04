@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Supply and demand curves crossing at an equilibrium price and quantity">
+  <defs>
+    <marker id="sd-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- surplus / shortage shading -->
+  <polygon points="140,120 470,120 386,204 224,204" class="amber-soft-fill" opacity=".7"/>
+  <polygon points="224,204 386,204 460,278 150,278" class="soft-fill" opacity=".7"/>
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#sd-arr)">
+    <line x1="80" y1="340" x2="600" y2="340"/>
+    <line x1="80" y1="340" x2="80" y2="30"/>
+  </g>
+  <text x="340" y="372" text-anchor="middle" class="small">quantity</text>
+  <text x="34" y="185" text-anchor="middle" class="small" transform="rotate(-90 34 185)">price</text>
+  <!-- demand: down slope -->
+  <line x1="110" y1="80" x2="540" y2="330" class="accent" stroke-width="2.5"/>
+  <text x="548" y="334" class="small" style="font-weight:600;fill:var(--accent)">demand</text>
+  <!-- supply: up slope -->
+  <line x1="110" y1="330" x2="540" y2="80" class="amber" stroke-width="2.5"/>
+  <text x="548" y="84" class="small" style="font-weight:600;fill:var(--amber)">supply</text>
+  <!-- equilibrium -->
+  <circle cx="325" cy="205" r="5" class="ink-fill"/>
+  <line x1="80" y1="205" x2="325" y2="205" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="325" y1="205" x2="325" y2="340" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="72" y="209" text-anchor="end" class="small" style="font-weight:600">P*</text>
+  <text x="325" y="358" text-anchor="middle" class="small" style="font-weight:600">Q*</text>
+  <text x="338" y="200" class="small" style="font-weight:600">equilibrium</text>
+  <!-- labels -->
+  <text x="305" y="150" text-anchor="middle" class="small">price too high: surplus</text>
+  <text x="305" y="164" text-anchor="middle" class="small">sellers cut prices ↓</text>
+  <text x="305" y="252" text-anchor="middle" class="small">price too low: shortage</text>
+  <text x="305" y="266" text-anchor="middle" class="small">buyers bid prices up ↑</text>
+</svg>

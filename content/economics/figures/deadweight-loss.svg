@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Effect of a tax: revenue rectangle and deadweight loss triangle">
+  <defs>
+    <marker id="dw-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- tax revenue rectangle: between Pb and Ps, width Q1 -->
+  <rect x="80" y="160" width="190" height="90" class="soft-fill" opacity=".85"/>
+  <!-- deadweight loss triangle: from Q1 to Q*, between curves -->
+  <polygon points="270,160 325,205 270,250" class="amber-soft-fill" opacity=".95"/>
+  <polygon points="270,160 325,205 270,250" fill="none" class="amber" stroke-width="1.5"/>
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#dw-arr)">
+    <line x1="80" y1="340" x2="600" y2="340"/>
+    <line x1="80" y1="340" x2="80" y2="30"/>
+  </g>
+  <text x="340" y="372" text-anchor="middle" class="small">quantity</text>
+  <text x="34" y="185" text-anchor="middle" class="small" transform="rotate(-90 34 185)">price</text>
+  <!-- curves -->
+  <line x1="110" y1="80" x2="540" y2="330" class="accent" stroke-width="2.5"/>
+  <line x1="110" y1="330" x2="540" y2="80" class="amber" stroke-width="2.5"/>
+  <text x="548" y="334" class="small" style="font-weight:600;fill:var(--accent)">demand</text>
+  <text x="548" y="84" class="small" style="font-weight:600;fill:var(--amber)">supply</text>
+  <!-- price lines -->
+  <line x1="80" y1="160" x2="270" y2="160" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="80" y1="250" x2="270" y2="250" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="270" y1="160" x2="270" y2="340" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="325" y1="205" x2="325" y2="340" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="72" y="164" text-anchor="end" class="small" style="font-weight:600">buyers pay</text>
+  <text x="72" y="254" text-anchor="end" class="small" style="font-weight:600">sellers get</text>
+  <text x="270" y="358" text-anchor="middle" class="small" style="font-weight:600">Q₁</text>
+  <text x="325" y="358" text-anchor="middle" class="small" style="font-weight:600">Q*</text>
+  <!-- tax wedge bracket -->
+  <line x1="255" y1="160" x2="255" y2="250" class="ink" stroke-width="1.5"/>
+  <line x1="250" y1="160" x2="260" y2="160" class="ink" stroke-width="1.5"/>
+  <line x1="250" y1="250" x2="260" y2="250" class="ink" stroke-width="1.5"/>
+  <text x="248" y="209" text-anchor="end" class="small" style="font-weight:600">tax</text>
+  <!-- labels -->
+  <text x="165" y="200" text-anchor="middle" class="small" style="font-weight:600">tax revenue</text>
+  <text x="165" y="214" text-anchor="middle" class="small">(a transfer, not a loss)</text>
+  <text x="400" y="180" class="small" style="font-weight:600">deadweight loss</text>
+  <text x="400" y="194" class="small">trades that no longer happen;</text>
+  <text x="400" y="208" class="small">their value is gone, not moved</text>
+  <line x1="396" y1="190" x2="300" y2="205" class="muted" stroke-width="1"/>
+</svg>

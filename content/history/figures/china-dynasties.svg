@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-label="Timeline of Chinese dynasties from the Shang around 1600 BCE to the present, showing Shang, Zhou, Qin, Han, the age of division, Sui and Tang, Song, Yuan, Ming, Qing, and the Republic and People's Republic, with the durations proportional to length">
+  <!-- x(year) = 40 + (year + 1600) / 3626 * 640 -->
+  <g class="axis" fill="none" stroke-width="1.2"><path d="M40,180 L680,180"/></g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="40" y="198">1600 BCE</text><text x="145.9" y="198">1000 BCE</text><text x="322.4" y="198">1 CE</text><text x="498.9" y="198">1000</text><text x="675.4" y="198">2000</text>
+  </g>
+  <g class="muted-line" fill="none" stroke-width="1" stroke-dasharray="3 4"><path d="M145.9,60 L145.9,180 M322.4,60 L322.4,180 M498.9,60 L498.9,180 M675.4,60 L675.4,180"/></g>
+  <!-- upper row (y=80) -->
+  <rect class="amber-fill" x="40" y="80" width="97.8" height="22" rx="3"/>
+  <text class="lbl small" x="44" y="74">Shang</text>
+  <rect class="accent-fill" x="137.8" y="80" width="139.4" height="22" rx="3"/>
+  <text class="lbl small" x="141" y="74">Zhou</text>
+  <rect class="red-fill" x="283.4" y="80" width="2.6" height="22"/>
+  <text class="lbl small" x="272" y="74">Qin (15 yrs)</text>
+  <rect class="teal-fill" x="286" y="80" width="75.2" height="22" rx="3"/>
+  <text class="lbl small" x="310" y="74">Han</text>
+  <rect class="muted-fill" x="361.2" y="80" width="65.2" height="22" rx="3"/>
+  <text class="lbl small" x="364" y="74">Division</text>
+  <rect class="green-fill" x="425" y="80" width="57.5" height="22" rx="3"/>
+  <text class="lbl small" x="424" y="74">Sui, Tang</text>
+  <!-- lower row (y=120) -->
+  <rect class="accent-fill" x="491.9" y="120" width="56.3" height="22" rx="3"/>
+  <text class="lbl small" x="493" y="158">Song</text>
+  <rect class="red-fill" x="546.8" y="120" width="17.1" height="22" rx="2"/>
+  <text class="lbl small" x="536" y="158">Yuan</text>
+  <rect class="amber-fill" x="563.9" y="120" width="48.7" height="22" rx="3"/>
+  <text class="lbl small" x="568" y="158">Ming</text>
+  <rect class="teal-fill" x="612.6" y="120" width="47.3" height="22" rx="3"/>
+  <text class="lbl small" x="616" y="158">Qing</text>
+  <rect class="green-fill" x="659.9" y="120" width="20.1" height="22" rx="3"/>
+  <text class="lbl small" x="640" y="172">Republic, PRC</text>
+  <text class="lbl small" x="40" y="40">Two thousand years of empire from 221 BCE to 1912; the "Division" is 220 to 589, with the Sui's reunification in 581.</text>
+</svg>

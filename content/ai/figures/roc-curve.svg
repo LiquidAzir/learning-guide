@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="An ROC curve rising steeply from the origin toward the top-left, above a dashed diagonal representing random guessing; points on the curve are labeled as thresholds">
+  <g class="axis" fill="none" stroke-width="1.2">
+    <path d="M120,280 L620,280 M120,280 L120,30"/>
+  </g>
+  <!-- unit square 120..620 x, 280..30 y (250px per unit) -->
+  <line class="muted-line" x1="120" y1="280" x2="620" y2="30" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <!-- area between curve and diagonal (shaded lightly) -->
+  <path class="soft-fill" stroke="none" d="M120,280 L124,205 L135,150 L160,105 L200,72 L260,52 L340,40 L440,34 L620,30 Z"/>
+  <!-- ROC curve: points (FPR,TPR): (0,0)(0.016,0.3)(0.06,0.52)(0.16,0.7)(0.32,0.83)(0.56,0.91)(0.88,0.96)(1,1) -->
+  <polyline class="accent" fill="none" stroke-width="2.6" points="120,280 124,205 135,150 160,105 200,72 260,52 340,40 440,34 620,30"/>
+  <g class="ink-fill">
+    <circle cx="135" cy="150" r="4.5"/>
+    <circle cx="200" cy="72" r="4.5"/>
+    <circle cx="340" cy="40" r="4.5"/>
+  </g>
+  <g class="lbl small">
+    <text x="143" y="146">threshold 0.8: few alarms, misses half</text>
+    <text x="208" y="68">threshold 0.5</text>
+    <text x="348" y="58">threshold 0.2: catches nearly all, many alarms</text>
+  </g>
+  <text x="400" y="200" class="lbl small" text-anchor="middle" transform="rotate(-26 400 200)">random guessing (AUC = 0.5)</text>
+  <text x="370" y="305" class="lbl small" text-anchor="middle">False positive rate (healthy people flagged)</text>
+  <text x="40" y="160" class="lbl small" text-anchor="middle" transform="rotate(-90 40 160)">True positive rate (cases caught)</text>
+  <g class="lbl small">
+    <text x="112" y="294" text-anchor="end">0</text><text x="620" y="294" text-anchor="middle">1</text><text x="112" y="34" text-anchor="end">1</text>
+  </g>
+  <text x="235" y="125" class="lbl small accent-text">shaded area: how much better than chance</text>
+</svg>

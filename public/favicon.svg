@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="13" fill="#2A4BA0"/>
+  <g stroke="#fff" stroke-opacity=".28" stroke-width="2.4" stroke-linecap="round"><path d="M40 9h14M40 14h14M40 19h14"/></g>
+  <text x="32" y="49" text-anchor="middle" font-family="'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="32" fill="#fff" letter-spacing="-1">LG</text>
+</svg>

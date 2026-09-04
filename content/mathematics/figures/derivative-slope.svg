@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="A curve with a point P. A secant line through P and a second point Q has slope equal to the average rate of change. As Q slides toward P the secant approaches the tangent line at P, whose slope is the derivative.">
+  <g class="axis" fill="none" stroke-width="1.2">
+    <line x1="60" y1="280" x2="690" y2="280"/>
+    <line x1="60" y1="280" x2="60" y2="30"/>
+  </g>
+  <text x="690" y="300" class="lbl small" text-anchor="end">x</text>
+  <text x="46" y="40" class="lbl small" text-anchor="end">f(x)</text>
+  <!-- curve: y = 280 - (x-60)^2/900 - 20 ... use smooth cubic-ish path -->
+  <path class="ink" fill="none" stroke-width="2.2" d="M70,270 C200,262 300,225 380,170 C450,122 540,70 680,45"/>
+  <!-- P at x=300: on curve approx (300,215)? compute along path: choose P=(300,214) Q=(500,88) -->
+  <!-- tangent at P (slope approx -0.72 in screen coords) -->
+  <line class="accent" x1="140" y1="288" x2="480" y2="131" stroke-width="2" stroke-dasharray="7 5"/>
+  <!-- secant P to Q -->
+  <line class="amber" x1="230" y1="254" x2="560" y2="66" stroke-width="2"/>
+  <circle cx="300" cy="214" r="5" class="ink-fill"/>
+  <circle cx="500" cy="100" r="5" class="amber-fill"/>
+  <text x="290" y="236" class="lbl">P</text>
+  <text x="508" y="94" class="lbl amber-text">Q</text>
+  <!-- rise/run for secant -->
+  <line class="muted-line" x1="300" y1="214" x2="500" y2="214" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line class="muted-line" x1="500" y1="214" x2="500" y2="100" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="400" y="232" class="lbl small" text-anchor="middle">h</text>
+  <text x="508" y="160" class="lbl small">f(x+h) − f(x)</text>
+  <!-- arrow showing Q sliding toward P -->
+  <path class="amber" fill="none" stroke-width="1.5" d="M470,60 Q400,40 345,120" marker-end="url(#arr)"/>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="amber-fill"/></marker></defs>
+  <text x="400" y="36" class="lbl small amber-text" text-anchor="middle">Q slides toward P</text>
+  <text x="620" y="128" class="lbl small amber-text" text-anchor="end">secant: average rate</text>
+  <text x="120" y="300" class="lbl small accent-text">tangent: slope = f′(x)</text>
+</svg>

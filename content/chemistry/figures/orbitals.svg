@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Shapes of s, p, and d orbitals">
+  <defs>
+    <radialGradient id="orb-s" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="currentColor" stop-opacity=".85"/><stop offset="1" stop-color="currentColor" stop-opacity=".15"/></radialGradient>
+  </defs>
+  <!-- s orbital -->
+  <g class="accent-fill">
+    <circle cx="90" cy="110" r="55" fill="url(#orb-s)" style="color:var(--accent)"/>
+  </g>
+  <circle cx="90" cy="110" r="2.5" class="ink-fill"/>
+  <text x="90" y="200" text-anchor="middle" style="font-weight:600">s</text>
+  <text x="90" y="216" text-anchor="middle" class="small">sphere · 1 per shell</text>
+  <text x="90" y="230" text-anchor="middle" class="small">holds 2 electrons</text>
+  <!-- p orbitals: three dumbbells -->
+  <g class="accent-fill" opacity=".75">
+    <ellipse cx="250" cy="72" rx="16" ry="34"/><ellipse cx="250" cy="148" rx="16" ry="34"/>
+    <ellipse cx="328" cy="110" rx="34" ry="16" transform="rotate(0 328 110)"/><ellipse cx="404" cy="110" rx="34" ry="16"/>
+  </g>
+  <g class="accent-fill" opacity=".45">
+    <ellipse cx="342" cy="75" rx="13" ry="30" transform="rotate(-50 342 75)"/><ellipse cx="390" cy="145" rx="13" ry="30" transform="rotate(-50 390 145)"/>
+  </g>
+  <circle cx="250" cy="110" r="2.5" class="ink-fill"/><circle cx="366" cy="110" r="2.5" class="ink-fill"/>
+  <text x="250" y="200" text-anchor="middle" style="font-weight:600">p</text>
+  <text x="366" y="200" text-anchor="middle" class="small">(the three p orbitals point along x, y, z)</text>
+  <text x="310" y="216" text-anchor="middle" class="small">dumbbell · 3 per shell from n = 2</text>
+  <text x="310" y="230" text-anchor="middle" class="small">hold 6 electrons</text>
+  <!-- d orbital: four-leaf clover -->
+  <g class="amber-fill" opacity=".8">
+    <ellipse cx="560" cy="80" rx="15" ry="26" transform="rotate(-45 560 80)"/>
+    <ellipse cx="620" cy="80" rx="15" ry="26" transform="rotate(45 620 80)"/>
+    <ellipse cx="560" cy="140" rx="15" ry="26" transform="rotate(45 560 140)"/>
+    <ellipse cx="620" cy="140" rx="15" ry="26" transform="rotate(-45 620 140)"/>
+  </g>
+  <circle cx="590" cy="110" r="2.5" class="ink-fill"/>
+  <text x="590" y="200" text-anchor="middle" style="font-weight:600">d</text>
+  <text x="590" y="216" text-anchor="middle" class="small">clover · 5 per shell from n = 3</text>
+  <text x="590" y="230" text-anchor="middle" class="small">hold 10 electrons</text>
+  <text x="360" y="252" text-anchor="middle" class="small">Dot = nucleus. Shapes show where the electron is likely to be; f orbitals (7 per shell from n = 4, 14 electrons) are more complex still.</text>
+</svg>

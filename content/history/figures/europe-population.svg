@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-label="Line chart of Europe's estimated population in millions from 1000 to 1800, rising from about 38 million to about 80 million by 1300, falling sharply to about 50 million after the Black Death of 1347 to 1352, recovering the 1300 level only around 1550, then rising to about 150 million by 1800">
+  <!-- x(year) = 50 + (year - 1000) / 800 * 620 ; y(m) = 190 - m / 160 * 150 -->
+  <g class="axis" fill="none" stroke-width="1.2"><path d="M50,190 L670,190 M50,190 L50,40"/></g>
+  <g class="muted-line" fill="none" stroke-width="1" stroke-dasharray="3 4"><path d="M50,143.1 L670,143.1 M50,96.3 L670,96.3 M50,49.4 L670,49.4"/></g>
+  <g class="lbl small" text-anchor="end"><text x="44" y="194">0</text><text x="44" y="147">50</text><text x="44" y="100">100</text><text x="44" y="53">150</text></g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="50" y="210">1000</text><text x="127.5" y="210">1100</text><text x="205" y="210">1200</text><text x="282.5" y="210">1300</text><text x="360" y="210">1400</text><text x="437.5" y="210">1500</text><text x="515" y="210">1600</text><text x="592.5" y="210">1700</text><text x="670" y="210">1800</text>
+    <text x="360" y="230">estimated population of Europe, millions</text>
+  </g>
+  <path class="accent" fill="none" stroke-width="2.5" d="M50,154.4 L127.5,145 L205,134.7 L282.5,115.9 L318.9,115 L322.8,143.1 L360,141.3 L398.8,138.4 L437.5,127.2 L476.3,116.9 L515,106.6 L553.8,105.6 L592.5,96.3 L631.3,77.5 L670,49.4"/>
+  <circle class="red-fill" cx="318.9" cy="115" r="4"/>
+  <circle class="red-fill" cx="322.8" cy="143.1" r="4"/>
+  <text class="small red-text" x="330" y="160">Black Death, 1347 to 1352</text>
+  <text class="lbl small" x="480" y="98">1300 level regained c. 1550</text>
+  <path class="muted-line" fill="none" stroke-width="1" d="M282.5,115.9 L476.3,115.9"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="A bell curve centered on the mean with bands at one, two and three standard deviations marked 68 percent, 95 percent and 99.7 percent">
+  <line class="axis" x1="40" y1="240" x2="680" y2="240" stroke-width="1.2"/>
+  <!-- bell: center 360, sigma = 90px, peak height 190 above baseline (y=50) -->
+  <!-- shaded bands -->
+  <path class="soft-fill" stroke="none" d="M270,240 L270,125.3 C300,80 330,50 360,50 C390,50 420,80 450,125.3 L450,240 Z"/>
+  <path class="ink" fill="none" stroke-width="2.2" d="M40,239.5 C110,239 150,232 180,214 C210,196 240,165 270,125.3 C300,80 330,50 360,50 C390,50 420,80 450,125.3 C480,165 510,196 540,214 C570,232 610,239 680,239.5"/>
+  <g class="muted-line" stroke-width="1.2" stroke-dasharray="4 4">
+    <line x1="360" y1="50" x2="360" y2="240"/>
+    <line x1="270" y1="125" x2="270" y2="240"/>
+    <line x1="450" y1="125" x2="450" y2="240"/>
+    <line x1="180" y1="214" x2="180" y2="240"/>
+    <line x1="540" y1="214" x2="540" y2="240"/>
+    <line x1="90" y1="238" x2="90" y2="240"/>
+    <line x1="630" y1="238" x2="630" y2="240"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="360" y="262">mean</text>
+    <text x="270" y="262">−1σ</text>
+    <text x="450" y="262">+1σ</text>
+    <text x="180" y="262">−2σ</text>
+    <text x="540" y="262">+2σ</text>
+    <text x="90" y="262">−3σ</text>
+    <text x="630" y="262">+3σ</text>
+  </g>
+  <!-- brackets -->
+  <g class="accent" fill="none" stroke-width="1.4">
+    <path d="M270,275 L270,283 L450,283 L450,275"/>
+    <path d="M180,288 L180,296 L540,296 L540,288"/>
+  </g>
+  <text x="360" y="281" class="lbl small accent-text" text-anchor="middle">68%</text>
+  <text x="360" y="294" class="lbl small accent-text" text-anchor="middle">95%</text>
+  <text x="600" y="60" class="lbl small" text-anchor="end">99.7% within ±3σ</text>
+  <text x="360" y="200" class="lbl" text-anchor="middle">68%</text>
+</svg>

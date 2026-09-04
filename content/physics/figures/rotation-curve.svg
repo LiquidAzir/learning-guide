@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-label="Galaxy rotation curve: measured speeds stay flat while the prediction from visible matter falls">
+  <defs>
+    <marker id="rc-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+  <!-- axes -->
+  <g class="muted" stroke-width="1.5" fill="none" marker-end="url(#rc-arr)">
+    <line x1="70" y1="270" x2="600" y2="270"/>
+    <line x1="70" y1="270" x2="70" y2="30"/>
+  </g>
+  <text x="335" y="300" text-anchor="middle" class="small">distance from the galaxy's center</text>
+  <text x="30" y="150" text-anchor="middle" class="small" transform="rotate(-90 30 150)">orbital speed of stars and gas</text>
+  <!-- edge of visible disk -->
+  <line x1="300" y1="270" x2="300" y2="60" class="line" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="300" y="52" text-anchor="middle" class="small">edge of the visible stars</text>
+  <!-- expected (Keplerian falloff) -->
+  <path d="M70 270 C 110 140, 150 110, 190 110 C 260 110, 340 160, 420 190 C 490 212, 550 226, 600 234" fill="none" class="muted" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="600" y="252" text-anchor="end" class="small">expected if visible matter</text>
+  <text x="600" y="266" text-anchor="end" class="small">were all there is</text>
+  <!-- measured (flat) -->
+  <path d="M70 270 C 105 150, 140 112, 180 108 C 260 100, 380 104, 600 106" fill="none" class="accent" stroke-width="2.5"/>
+  <g class="accent-fill">
+    <circle cx="120" cy="150" r="3.5"/><circle cx="160" cy="114" r="3.5"/><circle cx="210" cy="106" r="3.5"/><circle cx="270" cy="103" r="3.5"/>
+    <circle cx="330" cy="105" r="3.5"/><circle cx="390" cy="103" r="3.5"/><circle cx="450" cy="106" r="3.5"/><circle cx="510" cy="104" r="3.5"/><circle cx="570" cy="106" r="3.5"/>
+  </g>
+  <text x="380" y="90" class="small" style="font-weight:600">measured</text>
+  <!-- annotation -->
+  <line x1="480" y1="120" x2="480" y2="216" class="amber" stroke-width="1.5"/>
+  <text x="488" y="160" class="small">this gap is dark matter</text>
+  <text x="488" y="174" class="small">(or something that acts like it)</text>
+</svg>

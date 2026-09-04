@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Four stages left to right: an input image grid, then panels labeled edges and colors, textures and parts, and objects, with arrows between them and decreasing spatial size, ending in a class label.">
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" class="muted-fill"/></marker></defs>
+  <!-- input image: pixel grid -->
+  <g class="line" fill="none" stroke-width=".8">
+    <rect x="30" y="60" width="110" height="110" class="soft-fill"/>
+    <path d="M30,82 H140 M30,104 H140 M30,126 H140 M30,148 H140 M52,60 V170 M74,60 V170 M96,60 V170 M118,60 V170"/>
+  </g>
+  <text x="85" y="195" class="lbl small" text-anchor="middle">pixels</text>
+  <text x="85" y="211" class="lbl small" text-anchor="middle">224×224×3 numbers</text>
+  <!-- stage 1: edges -->
+  <g>
+    <rect x="190" y="70" width="90" height="90" rx="4" class="soft-fill line" stroke-width="1"/>
+    <g class="ink" stroke-width="2.4" fill="none">
+      <path d="M205,85 L235,85 M205,100 L235,100"/>
+      <path d="M250,80 L250,110"/>
+      <path d="M205,125 L235,150"/>
+      <path d="M265,120 L245,150"/>
+    </g>
+    <text x="235" y="195" class="lbl small" text-anchor="middle">edges, colors</text>
+    <text x="235" y="211" class="lbl small" text-anchor="middle">layers 1–2</text>
+  </g>
+  <!-- stage 2: textures/parts -->
+  <g>
+    <rect x="330" y="78" width="80" height="80" rx="4" class="soft-fill line" stroke-width="1"/>
+    <g class="ink" fill="none" stroke-width="1.8">
+      <circle cx="352" cy="100" r="8"/><circle cx="352" cy="100" r="3"/>
+      <path d="M375,95 q8,-8 16,0 q8,8 16,0"/>
+      <path d="M340,130 l8,10 l8,-10 l8,10 l8,-10 l8,10 l8,-10"/>
+      <path d="M372,140 q10,12 20,0"/>
+    </g>
+    <text x="370" y="195" class="lbl small" text-anchor="middle">textures, parts</text>
+    <text x="370" y="211" class="lbl small" text-anchor="middle">middle layers</text>
+  </g>
+  <!-- stage 3: objects -->
+  <g>
+    <rect x="460" y="86" width="64" height="64" rx="4" class="soft-fill line" stroke-width="1"/>
+    <g class="ink" fill="none" stroke-width="1.8">
+      <circle cx="492" cy="120" r="18"/>
+      <path d="M478,106 l-6,-12 l12,6 M506,106 l6,-12 l-12,6"/>
+      <circle cx="486" cy="116" r="2" class="ink-fill"/><circle cx="498" cy="116" r="2" class="ink-fill"/>
+      <path d="M488,127 q4,4 8,0"/>
+    </g>
+    <text x="492" y="195" class="lbl small" text-anchor="middle">objects</text>
+    <text x="492" y="211" class="lbl small" text-anchor="middle">late layers</text>
+  </g>
+  <!-- output -->
+  <rect x="580" y="98" width="110" height="40" rx="6" class="amber-soft-fill amber" stroke-width="1.4"/>
+  <text x="635" y="116" class="lbl small" text-anchor="middle">"cat" 0.93</text>
+  <text x="635" y="130" class="lbl small" text-anchor="middle">"dog" 0.05  …</text>
+  <text x="635" y="195" class="lbl small" text-anchor="middle">softmax</text>
+  <!-- arrows -->
+  <g class="muted-line" stroke-width="1.6" fill="none">
+    <line x1="146" y1="115" x2="184" y2="115" marker-end="url(#ar)"/>
+    <line x1="286" y1="115" x2="324" y2="115" marker-end="url(#ar)"/>
+    <line x1="416" y1="115" x2="454" y2="115" marker-end="url(#ar)"/>
+    <line x1="530" y1="115" x2="574" y2="115" marker-end="url(#ar)"/>
+  </g>
+  <text x="360" y="40" class="lbl" text-anchor="middle">each layer sees a larger region and detects something more abstract</text>
+  <text x="360" y="245" class="lbl small" text-anchor="middle">spatial size shrinks (pooling) while the number of feature types grows</text>
+</svg>

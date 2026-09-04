@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 250" role="img" aria-label="Molecular shapes predicted by electron pair repulsion">
+  <style>.at{font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:central}.ang{font-size:10px}</style>
+  <!-- linear: CO2 -->
+  <g>
+    <line x1="45" y1="90" x2="115" y2="90" class="ink" stroke-width="2"/>
+    <line x1="45" y1="86" x2="115" y2="86" class="ink" stroke-width="2"/>
+    <line x1="45" y1="94" x2="115" y2="94" class="ink" stroke-width="2"/>
+    <circle cx="40" cy="90" r="14" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="80" cy="90" r="15" class="amber-soft-fill amber" stroke-width="1.2"/>
+    <circle cx="120" cy="90" r="14" class="soft-fill accent" stroke-width="1.2"/>
+    <text x="40" y="90" class="at">O</text><text x="80" y="90" class="at">C</text><text x="120" y="90" class="at">O</text>
+    <text x="80" y="130" text-anchor="middle" style="font-weight:600">linear</text>
+    <text x="80" y="146" text-anchor="middle" class="small">2 pairs · 180°</text>
+    <text x="80" y="162" text-anchor="middle" class="small">carbon dioxide</text>
+  </g>
+  <!-- trigonal planar: BF3 -->
+  <g transform="translate(200,0)">
+    <line x1="80" y1="90" x2="80" y2="50" class="ink" stroke-width="2"/>
+    <line x1="80" y1="90" x2="46" y2="110" class="ink" stroke-width="2"/>
+    <line x1="80" y1="90" x2="114" y2="110" class="ink" stroke-width="2"/>
+    <circle cx="80" cy="46" r="14" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="42" cy="112" r="14" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="118" cy="112" r="14" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="80" cy="90" r="15" class="amber-soft-fill amber" stroke-width="1.2"/>
+    <text x="80" y="46" class="at">F</text><text x="42" y="112" class="at">F</text><text x="118" y="112" class="at">F</text><text x="80" y="90" class="at">B</text>
+    <text x="80" y="150" text-anchor="middle" style="font-weight:600">trigonal planar</text>
+    <text x="80" y="166" text-anchor="middle" class="small">3 pairs · 120°</text>
+    <text x="80" y="182" text-anchor="middle" class="small">boron trifluoride</text>
+  </g>
+  <!-- tetrahedral: CH4 -->
+  <g transform="translate(390,0)">
+    <line x1="80" y1="90" x2="80" y2="48" class="ink" stroke-width="2"/>
+    <line x1="80" y1="90" x2="44" y2="118" class="ink" stroke-width="2"/>
+    <line x1="80" y1="90" x2="116" y2="118" class="ink" stroke-width="2"/>
+    <line x1="80" y1="90" x2="98" y2="74" class="ink" stroke-width="2" stroke-dasharray="3 3"/>
+    <circle cx="80" cy="44" r="13" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="40" cy="120" r="13" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="120" cy="120" r="13" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="104" cy="68" r="11" class="soft-fill accent" stroke-width="1.2" opacity=".7"/>
+    <circle cx="80" cy="90" r="15" class="amber-soft-fill amber" stroke-width="1.2"/>
+    <text x="80" y="44" class="at">H</text><text x="40" y="120" class="at">H</text><text x="120" y="120" class="at">H</text><text x="104" y="68" class="at" style="font-size:10px">H</text><text x="80" y="90" class="at">C</text>
+    <text x="80" y="150" text-anchor="middle" style="font-weight:600">tetrahedral</text>
+    <text x="80" y="166" text-anchor="middle" class="small">4 pairs · 109.5°</text>
+    <text x="80" y="182" text-anchor="middle" class="small">methane</text>
+  </g>
+  <!-- bent: H2O with lone pairs -->
+  <g transform="translate(580,0)">
+    <line x1="80" y1="90" x2="46" y2="118" class="ink" stroke-width="2"/>
+    <line x1="80" y1="90" x2="114" y2="118" class="ink" stroke-width="2"/>
+    <ellipse cx="66" cy="60" rx="9" ry="14" transform="rotate(-20 66 60)" class="amber-fill" opacity=".45"/>
+    <ellipse cx="96" cy="60" rx="9" ry="14" transform="rotate(20 96 60)" class="amber-fill" opacity=".45"/>
+    <circle cx="42" cy="120" r="13" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="118" cy="120" r="13" class="soft-fill accent" stroke-width="1.2"/>
+    <circle cx="80" cy="90" r="15" class="amber-soft-fill amber" stroke-width="1.2"/>
+    <text x="42" y="120" class="at">H</text><text x="118" y="120" class="at">H</text><text x="80" y="90" class="at">O</text>
+    <text x="80" y="36" text-anchor="middle" class="small">two lone pairs</text>
+    <text x="80" y="150" text-anchor="middle" style="font-weight:600">bent</text>
+    <text x="80" y="166" text-anchor="middle" class="small">4 pairs, 2 bonds · 104.5°</text>
+    <text x="80" y="182" text-anchor="middle" class="small">water</text>
+  </g>
+  <text x="380" y="222" text-anchor="middle" class="small">Electron pairs around the central atom (amber) push as far apart as they can. Lone pairs take slightly more room than bonding pairs,</text>
+  <text x="380" y="238" text-anchor="middle" class="small">which is why water's angle is 104.5° rather than the tetrahedral 109.5°. That squeeze is what gives water its dipole.</text>
+</svg>

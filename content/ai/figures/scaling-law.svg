@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Log-log plot of test loss against training compute with points for models of increasing size falling along a straight downward line across eight orders of magnitude">
+  <g class="axis" fill="none" stroke-width="1.2"><path d="M90,250 L690,250 M90,250 L90,30"/></g>
+  <!-- x ticks: compute 1e17..1e25, 8 decades over 600px => 75px each -->
+  <g class="lbl small" text-anchor="middle">
+    <text x="90" y="270">10¹⁷</text><text x="165" y="270">10¹⁸</text><text x="240" y="270">10¹⁹</text><text x="315" y="270">10²⁰</text><text x="390" y="270">10²¹</text><text x="465" y="270">10²²</text><text x="540" y="270">10²³</text><text x="615" y="270">10²⁴</text><text x="690" y="270">10²⁵</text>
+    <text x="390" y="292">training compute (floating-point operations, log scale)</text>
+  </g>
+  <!-- y ticks: loss 1.8..5 log scale -->
+  <g class="lbl small" text-anchor="end">
+    <text x="82" y="54">5.0</text><text x="82" y="120">3.5</text><text x="82" y="186">2.5</text><text x="82" y="246">1.8</text>
+  </g>
+  <text x="34" y="140" class="lbl small" text-anchor="middle" transform="rotate(-90 34 140)">test loss, nats per token (log scale)</text>
+  <!-- fitted line: from (90,52) to (690,232) -->
+  <line class="accent" x1="90" y1="52" x2="690" y2="232" stroke-width="2.2"/>
+  <!-- points with slight scatter -->
+  <g class="ink-fill">
+    <circle cx="105" cy="58" r="4"/><circle cx="150" cy="68" r="4"/><circle cx="195" cy="86" r="4"/><circle cx="240" cy="94" r="4"/><circle cx="290" cy="114" r="4"/><circle cx="340" cy="124" r="4"/><circle cx="390" cy="144" r="4"/><circle cx="440" cy="154" r="4"/><circle cx="490" cy="174" r="4"/><circle cx="545" cy="186" r="4"/><circle cx="600" cy="206" r="4"/><circle cx="660" cy="220" r="4"/>
+  </g>
+  <g class="lbl small">
+    <text x="112" y="50">small models</text>
+    <text x="436" y="150" text-anchor="end">GPT-2 (2019, ~10²¹)</text>
+    <text x="596" y="200" text-anchor="end">GPT-3 (2020, ~3×10²³)</text>
+    <text x="656" y="216" text-anchor="end">2024 frontier (~10²⁵)</text>
+  </g>
+  <text x="400" y="230" class="lbl small accent-text">L ∝ C^(−0.05): ten times the compute, about 11% less loss</text>
+</svg>

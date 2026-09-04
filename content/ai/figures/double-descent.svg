@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Test error versus model size. A dashed classical U-curve; a solid curve that rises to a peak at the interpolation threshold and then descends again to a lower level; a dotted training-error curve falling to zero.">
+  <g class="axis" fill="none" stroke-width="1.2">
+    <path d="M60,250 L690,250 M60,250 L60,30"/>
+  </g>
+  <text x="375" y="285" class="lbl small" text-anchor="middle">model size (parameters) →</text>
+  <text x="30" y="140" class="lbl small" text-anchor="middle" transform="rotate(-90 30 140)">error</text>
+  <!-- interpolation threshold at x=330 -->
+  <line class="muted-line" x1="330" y1="40" x2="330" y2="250" stroke-width="1.2" stroke-dasharray="5 5"/>
+  <text x="330" y="270" class="lbl small" text-anchor="middle">interpolation threshold</text>
+  <text x="180" y="270" class="lbl small" text-anchor="middle">underparameterized</text>
+  <text x="520" y="270" class="lbl small" text-anchor="middle">overparameterized</text>
+  <!-- classical U (dashed): min around x=200, rises after -->
+  <path class="muted-line" fill="none" stroke-width="2" stroke-dasharray="7 5" d="M70,90 C120,140 170,160 200,158 C240,156 290,150 330,120 C380,85 430,60 480,45"/>
+  <text x="470" y="40" class="lbl small">classical picture: keeps rising</text>
+  <!-- double descent (solid accent) -->
+  <path class="accent" fill="none" stroke-width="2.6" d="M70,90 C120,140 170,160 200,158 C240,156 290,150 330,90 C350,120 400,150 450,175 C520,205 600,215 690,222"/>
+  <text x="560" y="205" class="lbl small accent-text">observed: double descent</text>
+  <!-- training error (dotted) -->
+  <path class="green" fill="none" stroke-width="2" stroke-dasharray="2 4" d="M70,120 C150,200 250,240 330,249 L690,249"/>
+  <text x="120" y="215" class="lbl small green-text">training error → 0</text>
+  <circle cx="330" cy="90" r="4.5" class="red-fill"/>
+  <text x="338" y="84" class="lbl small red-text">worst point: just enough to memorize</text>
+</svg>

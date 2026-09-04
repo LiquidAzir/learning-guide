@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="Three panels showing the same ten curved, noisy data points fitted by a straight line that misses the bend (underfit), a smooth curve that follows it (good fit), and a wiggly curve through every point (overfit)">
+  <g class="axis" fill="none" stroke-width="1.2">
+    <path d="M30,220 L230,220 M30,220 L30,30"/>
+    <path d="M270,220 L470,220 M270,220 L270,30"/>
+    <path d="M510,220 L710,220 M510,220 L510,30"/>
+  </g>
+  <!-- data: true curve y = 205 - 0.0042 x'^2 (x' from panel left edge L = 40/280/520), plus noise -->
+  <g class="ink-fill">
+    <circle cx="45" cy="196" r="3.5"/><circle cx="65" cy="209" r="3.5"/><circle cx="85" cy="190" r="3.5"/><circle cx="105" cy="194" r="3.5"/><circle cx="125" cy="168" r="3.5"/><circle cx="145" cy="165" r="3.5"/><circle cx="165" cy="132" r="3.5"/><circle cx="185" cy="123" r="3.5"/><circle cx="205" cy="83" r="3.5"/><circle cx="222" cy="72" r="3.5"/>
+    <circle cx="285" cy="196" r="3.5"/><circle cx="305" cy="209" r="3.5"/><circle cx="325" cy="190" r="3.5"/><circle cx="345" cy="194" r="3.5"/><circle cx="365" cy="168" r="3.5"/><circle cx="385" cy="165" r="3.5"/><circle cx="405" cy="132" r="3.5"/><circle cx="425" cy="123" r="3.5"/><circle cx="445" cy="83" r="3.5"/><circle cx="462" cy="72" r="3.5"/>
+    <circle cx="525" cy="196" r="3.5"/><circle cx="545" cy="209" r="3.5"/><circle cx="565" cy="190" r="3.5"/><circle cx="585" cy="194" r="3.5"/><circle cx="605" cy="168" r="3.5"/><circle cx="625" cy="165" r="3.5"/><circle cx="645" cy="132" r="3.5"/><circle cx="665" cy="123" r="3.5"/><circle cx="685" cy="83" r="3.5"/><circle cx="702" cy="72" r="3.5"/>
+  </g>
+  <!-- underfit: least-squares-like straight line, below the points at both ends and above them in the middle -->
+  <line class="amber" x1="40" y1="214" x2="230" y2="78" stroke-width="2.4"/>
+  <!-- good fit: the parabola y = 205 - 0.0042 x'^2 as an exact quadratic Bezier (control at midpoint x'=95, y=201) -->
+  <path class="accent" fill="none" stroke-width="2.4" d="M285,204.9 Q375,201 465,61.3"/>
+  <!-- overfit: smooth curve forced through every point, wiggling between them -->
+  <path class="red" fill="none" stroke-width="2.4" d="M518,180 C521,188 522,196 525,196 C532,196 538,222 545,209 C552,196 558,178 565,190 C572,202 578,208 585,194 C592,180 598,160 605,168 C612,176 618,178 625,165 C632,152 638,124 645,132 C652,140 658,136 665,123 C672,110 678,76 685,83 C692,90 697,80 702,72 C705,68 708,58 711,48"/>
+  <g class="lbl small" text-anchor="middle">
+    <text x="130" y="245">Underfit: a line misses the bend</text>
+    <text x="370" y="245">Good fit</text>
+    <text x="610" y="245">Overfit: memorized the noise</text>
+  </g>
+  <g class="lbl small">
+    <text x="36" y="24">y</text><text x="276" y="24">y</text><text x="516" y="24">y</text>
+    <text x="222" y="236">x</text><text x="462" y="236">x</text><text x="702" y="236">x</text>
+  </g>
+</svg>
