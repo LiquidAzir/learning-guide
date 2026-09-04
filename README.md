@@ -121,6 +121,8 @@ How it works: `public/sw.js` is a service worker that caches the single HTML fil
 
 ## Deploy on Render (free)
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/LiquidAzir/learning-guide)
+
 `render.yaml` describes a free static site: Render runs `npm ci && npm run build` and serves `dist/`. To deploy your own copy:
 
 1. Fork or push this repository to GitHub.
