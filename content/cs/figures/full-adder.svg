@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="A full adder built from two XOR gates, two AND gates and an OR gate, grouped into two half adders">
+  <defs>
+    <marker id="cs-fa-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+
+  <!-- half adder grouping boxes: HA1 covers XOR1 (54-98) and AND1 (140-184); HA2 covers XOR2 (100-144) and AND2 (190-234) -->
+  <rect x="126" y="38" width="108" height="160" rx="8" fill="none" class="muted-line" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text class="lbl small" x="180" y="214" text-anchor="middle">half adder</text>
+  <rect x="326" y="86" width="108" height="162" rx="8" fill="none" class="muted-line" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text class="lbl small" x="380" y="264" text-anchor="middle">half adder</text>
+
+  <!-- wires -->
+  <g class="muted-line" fill="none" stroke-width="1.6">
+    <path d="M42,60 H100 V66 H140"/>
+    <path d="M100,60 V150 H140"/>
+    <path d="M42,110 H120 V88 H140"/>
+    <path d="M120,110 V174 H140"/>
+    <path d="M42,250 H300 V134 H340"/>
+    <path d="M300,250 V224 H340"/>
+    <path d="M220,76 H270 V110 H340"/>
+    <path d="M270,76 V200 H340"/>
+    <path d="M220,162 H470 V182 H520"/>
+    <path d="M420,212 H480 V202 H520"/>
+  </g>
+  <g class="muted-line" fill="none" stroke-width="1.8" marker-end="url(#cs-fa-arr)">
+    <path d="M420,122 H646"/>
+    <path d="M600,192 H646"/>
+  </g>
+  <circle cx="100" cy="60" r="3.5" class="muted-fill"/>
+  <circle cx="120" cy="110" r="3.5" class="muted-fill"/>
+  <circle cx="300" cy="250" r="3.5" class="muted-fill"/>
+  <circle cx="270" cy="76" r="3.5" class="muted-fill"/>
+
+  <!-- gates -->
+  <g stroke-width="1.6">
+    <rect x="140" y="54" width="80" height="44" rx="6" class="soft-fill accent"/>
+    <rect x="140" y="140" width="80" height="44" rx="6" class="soft-fill accent"/>
+    <rect x="340" y="100" width="80" height="44" rx="6" class="soft-fill accent"/>
+    <rect x="340" y="190" width="80" height="44" rx="6" class="soft-fill accent"/>
+    <rect x="520" y="170" width="80" height="44" rx="6" class="soft-fill accent"/>
+  </g>
+  <g class="lbl" text-anchor="middle" style="font-weight:600">
+    <text x="180" y="82">XOR</text>
+    <text x="180" y="168">AND</text>
+    <text x="380" y="128">XOR</text>
+    <text x="380" y="218">AND</text>
+    <text x="560" y="198">OR</text>
+  </g>
+
+  <!-- input and output labels -->
+  <g class="lbl" style="font-weight:600">
+    <text x="20" y="65">A</text>
+    <text x="20" y="115">B</text>
+    <text x="20" y="255">C<tspan class="small">in</tspan></text>
+    <text x="654" y="127">Sum</text>
+    <text x="654" y="197">C<tspan class="small">out</tspan></text>
+  </g>
+  <text class="lbl small" x="246" y="70">A ⊕ B</text>
+  <text class="lbl small" x="246" y="156">A · B</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Encapsulation diagram: application data gains a TCP header, then an IP header, then an Ethernet header and trailer, as it descends the protocol stack">
+  <defs>
+    <marker id="cs-ps-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+
+  <g class="lbl small" text-anchor="end">
+    <text x="92" y="64">Application</text>
+    <text x="92" y="124">Transport</text>
+    <text x="92" y="184">Internet</text>
+    <text x="92" y="244">Link</text>
+  </g>
+
+  <!-- row 1: application data only -->
+  <rect x="280" y="40" width="380" height="34" rx="4" class="soft-fill accent" stroke-width="1.6"/>
+  <text class="lbl small" x="470" y="62" text-anchor="middle">your data (HTTP request, e-mail, video frame)</text>
+
+  <!-- row 2: TCP header + data -->
+  <rect x="220" y="100" width="60" height="34" rx="4" class="amber-soft-fill amber" stroke-width="1.6"/>
+  <rect x="280" y="100" width="380" height="34" rx="4" class="soft-fill accent" stroke-width="1.6"/>
+  <text class="lbl small" x="250" y="122" text-anchor="middle">TCP</text>
+  <text class="lbl small" x="470" y="122" text-anchor="middle">payload</text>
+
+  <!-- row 3: IP header + TCP + data -->
+  <rect x="160" y="160" width="60" height="34" rx="4" class="green-fill green" stroke-width="1.6" opacity="0.45"/>
+  <rect x="160" y="160" width="60" height="34" rx="4" fill="none" class="green" stroke-width="1.6"/>
+  <rect x="220" y="160" width="60" height="34" rx="4" class="amber-soft-fill amber" stroke-width="1.6"/>
+  <rect x="280" y="160" width="380" height="34" rx="4" class="soft-fill accent" stroke-width="1.6"/>
+  <text class="lbl small" x="190" y="182" text-anchor="middle">IP</text>
+  <text class="lbl small" x="250" y="182" text-anchor="middle">TCP</text>
+  <text class="lbl small" x="470" y="182" text-anchor="middle">payload</text>
+
+  <!-- row 4: Ethernet header + IP + TCP + data + FCS -->
+  <rect x="100" y="220" width="60" height="34" rx="4" class="amber-soft-fill muted-line" stroke-width="1.6"/>
+  <rect x="160" y="220" width="60" height="34" rx="4" class="green-fill green" stroke-width="1.6" opacity="0.45"/>
+  <rect x="160" y="220" width="60" height="34" rx="4" fill="none" class="green" stroke-width="1.6"/>
+  <rect x="220" y="220" width="60" height="34" rx="4" class="amber-soft-fill amber" stroke-width="1.6"/>
+  <rect x="280" y="220" width="380" height="34" rx="4" class="soft-fill accent" stroke-width="1.6"/>
+  <rect x="660" y="220" width="40" height="34" rx="4" class="amber-soft-fill muted-line" stroke-width="1.6"/>
+  <text class="lbl small" x="130" y="242" text-anchor="middle">Eth</text>
+  <text class="lbl small" x="190" y="242" text-anchor="middle">IP</text>
+  <text class="lbl small" x="250" y="242" text-anchor="middle">TCP</text>
+  <text class="lbl small" x="470" y="242" text-anchor="middle">payload</text>
+  <text class="lbl small" x="680" y="242" text-anchor="middle">FCS</text>
+
+  <!-- header sizes -->
+  <g class="lbl small">
+    <text x="130" y="272" text-anchor="middle">14 B</text>
+    <text x="190" y="272" text-anchor="middle">20 B</text>
+    <text x="250" y="272" text-anchor="middle">20 B</text>
+    <text x="470" y="272" text-anchor="middle">up to 1,460 B</text>
+    <text x="680" y="272" text-anchor="middle">4 B</text>
+  </g>
+
+  <path class="muted-line" d="M60,44 V236" fill="none" stroke-width="1.4" marker-end="url(#cs-ps-arr)"/>
+  <text class="lbl small" x="20" y="150">down</text>
+
+  <text class="lbl small" x="100" y="294">Headers total about 58 bytes on a 1,518-byte frame: under 4 percent overhead.</text>
+</svg>

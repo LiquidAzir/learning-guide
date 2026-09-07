@@ -54,5 +54,13 @@
     "icon": "☘",
     "description": "From the cell to the biosphere: the molecules of life, how energy flows through it, what genes are and how they are inherited, how evolution works and what it has produced, the microbes, plants, and animals, the brain and the immune system, how bodies develop and age, how ecosystems hold together, and the biotechnology that is now rewriting all of it. Real mechanisms, real numbers, the history of how each idea was won, and what is still open.",
     "researchIntro": "What biologists have actually shown in the last few years, from complete genomes and brain maps to gene-editing cures and the state of the living planet, checked against the original papers."
+  },
+  {
+    "id": "cs",
+    "title": "Computer Science",
+    "tagline": "What a computation is, what machines can and cannot do, and how the ones we built actually work.",
+    "icon": "⌘",
+    "description": "Not a programming course: the science under the software. Bits and information, what an algorithm is and what no algorithm can do, logic gates and processors, operating systems, languages and compilers, data structures and the algorithms worth knowing, the P versus NP question, concurrency, databases, networks, cryptography, graphics, how software is really built and why it fails, and what quantum machines would change. Real math, every symbol explained, every claim cited.",
+    "researchIntro": "What computer scientists have actually proved, built, or measured recently, from a 2025 algorithm that beat Dijkstra to the state of quantum error correction and post-quantum encryption on the live internet, checked against the original papers."
   }
 ]

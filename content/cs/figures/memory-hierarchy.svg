@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="Bar chart of memory and network latencies on a logarithmic time axis, from a register access at under a nanosecond to a transoceanic round trip at 150 milliseconds">
+  <!-- log10 axis: x = 190 + (log10(ns) + 1) * 52.63, covering 0.1 ns to about 300 ms -->
+  <g class="axis" stroke-width="1.2">
+    <path d="M190,44 V312"/>
+  </g>
+
+  <!-- decade gridlines at 1 ns (242.6), 1 us (400.5), 1 ms (558.4) -->
+  <g class="muted-line" stroke-width="1" stroke-dasharray="3 4" opacity="0.65">
+    <path d="M242.6,44 V312"/>
+    <path d="M400.5,44 V312"/>
+    <path d="M558.4,44 V312"/>
+  </g>
+  <g class="lbl small" text-anchor="middle">
+    <text x="242.6" y="330">1 ns</text>
+    <text x="400.5" y="330">1 µs</text>
+    <text x="558.4" y="330">1 ms</text>
+  </g>
+
+  <text class="lbl small" x="190" y="30">each gridline is a thousandfold</text>
+
+  <!-- rows: y = 52 + i*29, bar height 15 -->
+  <g class="accent-fill">
+    <rect x="190" y="52" width="25" height="15" rx="2"/>
+    <rect x="190" y="81" width="53" height="15" rx="2"/>
+    <rect x="190" y="110" width="84" height="15" rx="2"/>
+    <rect x="190" y="139" width="115" height="15" rx="2"/>
+    <rect x="190" y="168" width="153" height="15" rx="2"/>
+  </g>
+  <g class="amber-fill">
+    <rect x="190" y="197" width="316" height="15" rx="2"/>
+    <rect x="190" y="255" width="405" height="15" rx="2"/>
+  </g>
+  <g class="teal-fill">
+    <rect x="190" y="226" width="353" height="15" rx="2"/>
+    <rect x="190" y="284" width="483" height="15" rx="2"/>
+  </g>
+
+  <g class="lbl small" text-anchor="end">
+    <text x="180" y="64">Register</text>
+    <text x="180" y="93">L1 cache</text>
+    <text x="180" y="122">L2 cache</text>
+    <text x="180" y="151">L3 cache</text>
+    <text x="180" y="180">Main memory</text>
+    <text x="180" y="209">SSD read</text>
+    <text x="180" y="238">Datacentre round trip</text>
+    <text x="180" y="267">Disk seek</text>
+    <text x="180" y="296">Round trip, ocean</text>
+  </g>
+
+  <g class="lbl small mono">
+    <text x="221" y="64">0.3 ns</text>
+    <text x="249" y="93">1 ns</text>
+    <text x="280" y="122">4 ns</text>
+    <text x="311" y="151">15 ns</text>
+    <text x="349" y="180">80 ns</text>
+    <text x="512" y="209">100 µs</text>
+    <text x="549" y="238">0.5 ms</text>
+    <text x="601" y="267">5 ms</text>
+    <text x="673" y="311" text-anchor="end">150 ms</text>
+  </g>
+
+  <text class="lbl small" x="190" y="352">Registers and caches, in blue, are on the chip. Storage is amber, the network teal.</text>
+</svg>

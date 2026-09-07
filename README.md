@@ -2,7 +2,7 @@
 
 A general-purpose learning web app. Each subject is a set of Markdown chapters compiled into one self-contained HTML page that works on phones and desktops, offline, with no server.
 
-Seven subjects so far, each with its own chapters, cited sources, and a separately maintained feed of recent research:
+Eight subjects so far, each with its own chapters, cited sources, and a separately maintained feed of recent research:
 
 | Subject | Chapters | Words | Sources | Research entries |
 |---|---|---|---|---|
@@ -13,6 +13,7 @@ Seven subjects so far, each with its own chapters, cited sources, and a separate
 | Artificial Intelligence | 24 | ~50,000 | 241 | 55 |
 | History | 40 | ~82,000 | 412 | 54 |
 | Biology | 21 | ~37,200 | 181 | 54 |
+| Computer Science | 24 | ~43,100 | 136 | 49 |
 
 ## Quick start
 
