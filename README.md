@@ -111,6 +111,8 @@ Reading progress is tracked per chapter and per subject, and a chapter counts as
 
 ## Install as an app, use offline
 
+Live site: **https://learning-guide.onrender.com** (rebuilds automatically on every push to main).
+
 The site is a progressive web app. Open it once in a browser and it keeps working with no connection.
 
 - **iPhone / iPad (Safari):** tap Share, then **Add to Home Screen**.
