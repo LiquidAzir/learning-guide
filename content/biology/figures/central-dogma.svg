@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="Diagram of the central dogma: a gene in double-stranded DNA is transcribed into messenger RNA, which is read by a ribosome three bases at a time using transfer RNAs to build a chain of amino acids that folds into a protein">
+  <defs>
+    <marker id="bio-arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="muted-fill"/></marker>
+  </defs>
+
+  <!-- DNA -->
+  <text class="lbl" x="20" y="30" style="font-weight:600">DNA</text>
+  <g class="accent" fill="none" stroke-width="2.5">
+    <path d="M20,54 H320"/><path d="M20,80 H320"/>
+  </g>
+  <g class="muted-line" stroke-width="1.4">
+    <path d="M40,54 V80 M60,54 V80 M80,54 V80 M100,54 V80 M120,54 V80 M140,54 V80 M160,54 V80 M180,54 V80 M200,54 V80 M220,54 V80 M240,54 V80 M260,54 V80 M280,54 V80 M300,54 V80"/>
+  </g>
+  <rect class="soft-fill" x="86" y="46" width="140" height="42" rx="4" opacity="0.55"/>
+  <text class="lbl small" x="156" y="42" text-anchor="middle">one gene</text>
+  <text class="lbl small mono" x="92" y="68">A T G  C C T  G A A  A A G</text>
+
+  <!-- transcription arrow -->
+  <path class="muted" fill="none" stroke-width="1.6" marker-end="url(#bio-arr)" d="M156,96 V126"/>
+  <text class="lbl small" x="166" y="116">transcription (RNA polymerase copies one strand)</text>
+
+  <!-- mRNA -->
+  <text class="lbl" x="20" y="152" style="font-weight:600">mRNA</text>
+  <path class="teal" fill="none" stroke-width="3" d="M86,150 H620"/>
+  <g class="lbl small mono" text-anchor="middle">
+    <text x="118" y="142">AUG</text><text x="186" y="142">CCU</text><text x="254" y="142">GAA</text><text x="322" y="142">AAG</text><text x="390" y="142">UCA</text><text x="458" y="142">GGC</text><text x="526" y="142">UUU</text><text x="594" y="142">UAA</text>
+  </g>
+  <g class="muted-line" stroke-width="1"><path d="M152,144 V156 M220,144 V156 M288,144 V156 M356,144 V156 M424,144 V156 M492,144 V156 M560,144 V156"/></g>
+  <text class="lbl small" x="118" y="170" text-anchor="middle">start</text>
+  <text class="lbl small" x="594" y="170" text-anchor="middle">stop</text>
+
+  <!-- ribosome -->
+  <ellipse class="amber-soft-fill" cx="356" cy="196" rx="66" ry="34"/>
+  <ellipse class="amber" cx="356" cy="196" rx="66" ry="34" fill="none" stroke-width="2"/>
+  <text class="lbl small" x="356" y="200" text-anchor="middle" style="font-weight:600">ribosome</text>
+  <text class="lbl small" x="356" y="216" text-anchor="middle">reads 3 bases at a time</text>
+
+  <!-- tRNA -->
+  <path class="green" fill="none" stroke-width="2" d="M420,214 L438,238 L456,214"/>
+  <circle class="green-fill" cx="438" cy="246" r="6"/>
+  <text class="lbl small" x="468" y="244">transfer RNA brings the matching amino acid</text>
+
+  <!-- protein chain -->
+  <text class="lbl" x="20" y="262" style="font-weight:600">protein</text>
+  <g class="purple-fill">
+    <circle cx="96" cy="262" r="9"/><circle cx="120" cy="252" r="9"/><circle cx="146" cy="264" r="9"/><circle cx="172" cy="252" r="9"/><circle cx="198" cy="266" r="9"/><circle cx="224" cy="254" r="9"/>
+  </g>
+  <path class="purple" fill="none" stroke-width="2" d="M96,262 L120,252 L146,264 L172,252 L198,266 L224,254"/>
+  <path class="muted" fill="none" stroke-width="1.6" marker-end="url(#bio-arr)" d="M244,258 H286"/>
+  <path class="purple" fill="none" stroke-width="2.5" d="M300,266 C318,232 348,286 372,250 C396,214 424,278 448,252 C466,232 448,282 420,272 C392,262 380,240 356,244 C332,248 320,276 300,266 Z"/>
+  <text class="lbl small" x="474" y="268">folds into a shape; the shape is the function</text>
+
+  <text class="lbl small" x="20" y="292">The one common exception: retroviruses such as HIV copy RNA back into DNA (reverse transcription).</text>
+</svg>

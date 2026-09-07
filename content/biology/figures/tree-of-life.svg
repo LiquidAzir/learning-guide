@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" role="img" aria-label="Tree of life with three domains: Bacteria on one branch, Archaea on another, and Eukarya arising from within the archaea, with animals, plants, and fungi as small twigs on the eukaryote branch">
+  <!-- root -->
+  <path class="ink" fill="none" stroke-width="3" d="M60,300 H130"/>
+  <text class="lbl small" x="34" y="318">last universal</text>
+  <text class="lbl small" x="34" y="332">common ancestor</text>
+
+  <!-- split -->
+  <path class="ink" fill="none" stroke-width="3" d="M130,300 V96 M130,300 V262"/>
+
+  <!-- Bacteria branch (upper) -->
+  <path class="teal" fill="none" stroke-width="3" d="M130,96 H250"/>
+  <g class="teal" fill="none" stroke-width="2">
+    <path d="M250,96 V40 M250,96 V150 M250,40 H360 M250,150 H360 M250,96 H360"/>
+    <path d="M360,40 H430 M360,96 H430 M360,150 H430"/>
+  </g>
+  <text class="lbl" x="140" y="86" style="font-weight:600">BACTERIA</text>
+  <g class="lbl small">
+    <text x="438" y="44">cyanobacteria (made the oxygen)</text>
+    <text x="438" y="100">proteobacteria (ancestors of mitochondria)</text>
+    <text x="438" y="154">and dozens more phyla, most never cultured</text>
+  </g>
+
+  <!-- Archaea branch (lower) -->
+  <path class="accent" fill="none" stroke-width="3" d="M130,262 H230"/>
+  <text class="lbl" x="140" y="252" style="font-weight:600">ARCHAEA</text>
+  <g class="accent" fill="none" stroke-width="2">
+    <path d="M230,262 V212 M230,262 V300 M230,212 H330 M230,300 H430 M230,262 H330"/>
+  </g>
+  <text class="lbl small" x="438" y="304">methanogens, halophiles, thermophiles</text>
+
+  <!-- Asgard to Eukarya -->
+  <path class="accent" fill="none" stroke-width="2" d="M330,212 H392"/>
+  <text class="lbl small" x="336" y="206">Asgard archaea</text>
+  <path class="purple" fill="none" stroke-width="3" d="M392,212 V180 H470"/>
+  <circle class="red-fill" cx="392" cy="212" r="5"/>
+  <text class="lbl small red-text" x="300" y="238">merger with a bacterium, ~2 billion years ago</text>
+  <path class="muted-line" fill="none" stroke-width="1" d="M330,232 L386,216"/>
+
+  <text class="lbl" x="470" y="172" style="font-weight:600">EUKARYA</text>
+  <g class="purple" fill="none" stroke-width="2">
+    <path d="M540,180 V140 M540,180 V220 M540,140 H600 M540,180 H600 M540,220 H600"/>
+    <path d="M470,180 H540"/>
+  </g>
+  <g class="lbl small">
+    <text x="608" y="144">animals</text>
+    <text x="608" y="184">fungi</text>
+    <text x="608" y="224">plants</text>
+  </g>
+  <text class="lbl small" x="470" y="256">plus protists: most eukaryotic diversity</text>
+
+  <text class="lbl small" x="20" y="20">Nearly all of life's genetic diversity is microbial. Everything visible to the eye sits on the three short twigs at the right.</text>
+</svg>

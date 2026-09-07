@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" role="img" aria-label="Cutaway diagram of an animal cell showing the plasma membrane, nucleus with nuclear pores and chromatin, rough and smooth endoplasmic reticulum, Golgi apparatus, mitochondria, lysosome, ribosomes, and cytoskeleton filaments">
+  <!-- cell outline -->
+  <ellipse class="ink" cx="360" cy="190" rx="330" ry="165" fill="none" stroke-width="3"/>
+  <ellipse class="soft-fill" cx="360" cy="190" rx="327" ry="162" opacity="0.35"/>
+  <text class="lbl small" x="18" y="26">plasma membrane (two lipid layers, ~5 nm thick)</text>
+  <path class="muted-line" fill="none" stroke-width="1" d="M150,32 L96,68"/>
+
+  <!-- cytoskeleton -->
+  <g class="muted-line" fill="none" stroke-width="1" opacity="0.55">
+    <path d="M120,150 L250,110 M140,240 L280,270 M430,90 L560,130 M420,300 L570,255 M250,170 L430,150 M300,240 L470,230"/>
+  </g>
+  <text class="lbl small" x="128" y="330">cytoskeleton</text>
+  <path class="muted-line" fill="none" stroke-width="1" d="M160,322 L200,285"/>
+
+  <!-- nucleus -->
+  <circle class="accent" cx="330" cy="190" r="86" fill="none" stroke-width="2.5"/>
+  <circle class="accent" cx="330" cy="190" r="80" fill="none" stroke-width="1.5"/>
+  <circle class="soft-fill" cx="330" cy="190" r="79"/>
+  <g class="accent-fill" opacity="0.9">
+    <circle cx="330" cy="104" r="4"/><circle cx="400" cy="145" r="4"/><circle cx="405" cy="238" r="4"/><circle cx="330" cy="276" r="4"/><circle cx="256" cy="238" r="4"/><circle cx="253" cy="143" r="4"/>
+  </g>
+  <g class="accent" fill="none" stroke-width="2" opacity="0.7">
+    <path d="M292,168 C312,150 350,196 372,172 M288,208 C316,232 348,190 378,214 M300,240 C326,252 352,244 366,230"/>
+  </g>
+  <text class="lbl" x="330" y="196" text-anchor="middle" style="font-weight:600">nucleus</text>
+  <text class="lbl small" x="330" y="212" text-anchor="middle">DNA, 46 chromosomes</text>
+  <text class="lbl small" x="196" y="96">nuclear pores</text>
+  <path class="muted-line" fill="none" stroke-width="1" d="M244,100 L252,138"/>
+
+  <!-- rough ER -->
+  <g class="teal" fill="none" stroke-width="2.5">
+    <path d="M436,140 C470,120 500,150 534,132 M440,158 C474,138 504,168 538,150 M444,176 C478,156 508,186 542,168"/>
+  </g>
+  <g class="teal-fill"><circle cx="452" cy="134" r="2.6"/><circle cx="480" cy="130" r="2.6"/><circle cx="512" cy="146" r="2.6"/><circle cx="456" cy="152" r="2.6"/><circle cx="488" cy="150" r="2.6"/><circle cx="520" cy="163" r="2.6"/><circle cx="460" cy="170" r="2.6"/><circle cx="496" cy="168" r="2.6"/></g>
+  <text class="lbl small" x="452" y="118">rough endoplasmic reticulum (with ribosomes)</text>
+
+  <!-- Golgi -->
+  <g class="purple" fill="none" stroke-width="2.5">
+    <path d="M470,236 C500,224 536,236 566,226 M474,252 C504,240 540,252 570,242 M478,268 C508,256 544,268 574,258"/>
+  </g>
+  <text class="lbl small" x="486" y="292">Golgi apparatus (sorting and shipping)</text>
+
+  <!-- mitochondria -->
+  <g>
+    <ellipse class="red" cx="176" cy="150" rx="46" ry="24" fill="none" stroke-width="2.5" transform="rotate(-18 176 150)"/>
+    <path class="red" fill="none" stroke-width="1.6" d="M144,158 C158,138 162,168 176,146 C190,126 194,156 208,136" transform="rotate(-18 176 150)"/>
+    <ellipse class="red" cx="218" cy="272" rx="42" ry="21" fill="none" stroke-width="2.5" transform="rotate(14 218 272)"/>
+    <path class="red" fill="none" stroke-width="1.6" d="M190,278 C202,260 206,288 218,268 C230,250 234,278 246,260" transform="rotate(14 218 272)"/>
+  </g>
+  <text class="lbl small red-text" x="106" y="118">mitochondria (ATP)</text>
+
+  <!-- lysosome -->
+  <circle class="amber" cx="432" cy="316" r="22" fill="none" stroke-width="2.5"/>
+  <circle class="amber-soft-fill" cx="432" cy="316" r="20"/>
+  <text class="lbl small" x="392" y="352">lysosome</text>
+
+  <!-- free ribosomes -->
+  <g class="ink-fill" opacity="0.75"><circle cx="150" cy="200" r="3"/><circle cx="168" cy="216" r="3"/><circle cx="196" cy="196" r="3"/><circle cx="180" cy="182" r="3"/><circle cx="214" cy="214" r="3"/><circle cx="586" cy="182" r="3"/><circle cx="600" cy="200" r="3"/><circle cx="572" cy="204" r="3"/></g>
+  <text class="lbl small" x="576" y="238">free ribosomes</text>
+
+  <text class="lbl small" x="18" y="372">A bacterium at this scale would be a single compartment about the size of one mitochondrion, with no nucleus and no organelles.</text>
+</svg>

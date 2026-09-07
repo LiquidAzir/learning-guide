@@ -223,6 +223,7 @@
     'reinforcement-learning': 'reinforcement learning', 'weather-climate': 'weather and climate', 'bias-fairness': 'bias and fairness',
     'open-weights': 'open weights',
     'ancient-dna': 'ancient DNA', 'climate-history': 'climate and history', 'economic-history': 'economic history', 'early-modern': 'early modern', 'texts': 'texts and decipherment', 'prizes': 'prizes and awards', 'archives': 'archives',
+    'gene-therapy': 'gene therapy', 'origin-of-life': 'origin of life', 'cell-biology': 'cell biology', 'protein-science': 'protein science', 'public-health': 'public health', 'climate-biology': 'climate and life', 'stem-cells': 'stem cells', 'biodiversity': 'biodiversity', 'conservation': 'conservation', 'microbiology': 'microbiology', 'immunology': 'immunology', 'physiology': 'physiology', 'pharmacology': 'pharmacology', 'vaccines': 'vaccines', 'aging': 'aging', 'development': 'development', 'genomics': 'genomics', 'evolution': 'evolution', 'ecology': 'ecology', 'plants': 'plants', 'medicine': 'medicine', 'neuroscience': 'neuroscience',
   };
   const topicLabel = (t) => TOPIC_LABELS[t] || t.replace(/-/g, ' ');
   const STATUS_KEY = '<strong>Confirmed</strong> means independent groups agree; <strong>preliminary</strong> means a first result awaiting confirmation; <strong>disputed</strong> means serious experts disagree; <strong>retracted</strong> means it was withdrawn.';

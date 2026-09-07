@@ -2,7 +2,7 @@
 
 A general-purpose learning web app. Each subject is a set of Markdown chapters compiled into one self-contained HTML page that works on phones and desktops, offline, with no server.
 
-Six subjects so far, each with its own chapters, cited sources, and a separately maintained feed of recent research:
+Seven subjects so far, each with its own chapters, cited sources, and a separately maintained feed of recent research:
 
 | Subject | Chapters | Words | Sources | Research entries |
 |---|---|---|---|---|
@@ -12,6 +12,7 @@ Six subjects so far, each with its own chapters, cited sources, and a separately
 | Mathematics | 18 | ~39,200 | 168 | 43 |
 | Artificial Intelligence | 24 | ~50,000 | 241 | 55 |
 | History | 40 | ~82,000 | 412 | 54 |
+| Biology | 21 | ~37,200 | 181 | 54 |
 
 ## Quick start
 
@@ -40,6 +41,7 @@ content/
   mathematics/             same layout, 18 chapters (practical: howto/formulas/know boxes, formula sheet)
   ai/                      same layout, 24 chapters (statistical learning → ML → neural networks → LLMs)
   history/                 same layout, 40 chapters in sections (parts): Ancient, European, East Asian, plus frontier/people/glossary
+  biology/                 same layout, 21 chapters: cell and molecules, genes and evolution, the living world, brain/immunity/development, ecology, health, biotechnology
 src/
   styles.css               all styling (light and dark themes)
   app.js                   router, reader, progress, search, research view

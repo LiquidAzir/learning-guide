@@ -46,5 +46,13 @@
     "icon": "⌛",
     "description": "In sections, more to come: the ancient world from the first farmers to the fall of Rome; Europe from Charlemagne to the present; East Asia from the Shang to the Taiwan Strait. Each section tells the story in order, names the sources it rests on, gives the arguments historians are still having, and keeps the dates you actually need in one place.",
     "researchIntro": "What historians, archaeologists, and geneticists have actually found in the last few years: deciphered scrolls, ancient genomes, climate archives, and the debates that rewrote a chapter, checked against the original papers."
+  },
+  {
+    "id": "biology",
+    "title": "Biology",
+    "tagline": "What living things are made of, how they work, how they came to be, and what we can now do to them.",
+    "icon": "☘",
+    "description": "From the cell to the biosphere: the molecules of life, how energy flows through it, what genes are and how they are inherited, how evolution works and what it has produced, the microbes, plants, and animals, the brain and the immune system, how bodies develop and age, how ecosystems hold together, and the biotechnology that is now rewriting all of it. Real mechanisms, real numbers, the history of how each idea was won, and what is still open.",
+    "researchIntro": "What biologists have actually shown in the last few years, from complete genomes and brain maps to gene-editing cures and the state of the living planet, checked against the original papers."
   }
 ]

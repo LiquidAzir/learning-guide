@@ -171,7 +171,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .subject-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); margin-top: 28px; }
 @media (min-width: 980px) {
   .subject-grid { grid-template-columns: repeat(2, 1fr); }
-  .subject-grid:has(> :nth-child(3):last-child), .subject-grid:has(> :nth-child(5):last-child), .subject-grid:has(> :nth-child(6):last-child) { grid-template-columns: repeat(3, 1fr); }
+  .subject-grid:has(> :nth-child(3):last-child), .subject-grid:has(> :nth-child(5):last-child), .subject-grid:has(> :nth-child(6):last-child), .subject-grid:has(> :nth-child(7):last-child), .subject-grid:has(> :nth-child(8):last-child), .subject-grid:has(> :nth-child(9):last-child) { grid-template-columns: repeat(3, 1fr); }
 }
 .subject-body .continue { font-family: var(--font-ui); font-size: .88rem; color: var(--accent); font-weight: 500; }
 .subject-card { display: grid; grid-template-columns: 56px 1fr; gap: 16px; padding: 22px 22px 20px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; color: var(--ink); transition: border-color .15s, transform .15s; }
