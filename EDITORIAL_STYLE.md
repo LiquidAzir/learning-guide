@@ -49,6 +49,10 @@ For research entries, write a short plain-language `headline` and retain the ori
 
 `sourceType` describes the source's format. `status` describes the claim's recorded treatment: `reported`, `preliminary`, `disputed`, or `retracted`. A journal publication, conference paper, award, or official announcement does not by itself establish independent replication. The `verified` date records the source check already made; do not advance it merely for a wording change.
 
+Optional research explainers live in `explainer.paragraphs` (an array of plain-text paragraphs) and `explainer.source` (the primary-source URL used to check the explanation). Aim for 80–150 words. Explain the finding, offer a concrete example, and state a consequential limitation. Keep the existing detailed summary and bibliographic fields. These are stored explanations, not generated on demand. Read the source before adding or revising one.
+
+Keep research item IDs stable: bookmarks and the new-since-last-visit view use the subject ID plus item ID. Editing an existing entry must not give it a new identity. The browser compares collection snapshots; a newly added older paper can be new to the reader without changing its publication date. Entries already present on the reader's first visit establish the baseline. Visits separated by less than 30 minutes of inactivity share a baseline, including reloads. Research preferences use separate browser storage keys from chapter progress; they do not sync between devices. The collection is still maintained with the site, not automatically fetched.
+
 ## Check before shipping
 
 Check worked arithmetic and code examples, summary/body consistency, dates and attribution, cross-references, table rendering, math rendering, answer disclosure, glossary search, and narrow-screen layout. Keep original sources and substantive caveats when simplifying language.

@@ -468,7 +468,14 @@
       "status": "reported",
       "verified": "2026-09-03",
       "headline": "AlphaFold 3 models interactions among proteins and other molecules",
-      "sourceType": "Journal publication"
+      "sourceType": "Journal publication",
+      "explainer": {
+        "paragraphs": [
+          "A protein rarely works alone. Its shape affects how it joins other molecules, including DNA and potential drugs. AlphaFold 3 predicts a three-dimensional arrangement for these molecular partnerships, extending the task beyond predicting a protein on its own.",
+          "Think of asking whether two oddly shaped pieces could fit together. A predicted fit gives researchers a starting point for experiments. The model improved accuracy on several tests of molecular interactions, but it can still produce incorrect structures. A plausible-looking fit does not prove that a drug binds strongly, changes a cell in the intended way, or works safely in a person. Those questions still need experiments."
+        ],
+        "source": "https://www.nature.com/articles/s41586-024-07487-w"
+      }
     },
     {
       "id": "graphcast-2023",

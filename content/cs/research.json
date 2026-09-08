@@ -18,7 +18,14 @@
       "status": "reported",
       "verified": "2026-09-07",
       "headline": "A shortest-path algorithm breaks through a sorting-based time bound",
-      "sourceType": "Conference paper"
+      "sourceType": "Conference paper",
+      "explainer": {
+        "paragraphs": [
+          "Imagine finding the cheapest route from one depot to every destination on a map of one-way roads. The familiar Dijkstra algorithm works outward in order of distance. Maintaining that order adds work, even though the question asks for route lengths, not a ranked list of destinations.",
+          "This paper proves that the distance problem can be solved without paying the full cost of that ordering. Its advantage is a better growth rate on sparse networks, where roads are relatively few compared with all possible connections, and costs cannot be negative. The result changes a theoretical limit; it does not establish that this method makes a navigation app faster on everyday maps."
+        ],
+        "source": "https://arxiv.org/abs/2504.17033"
+      }
     },
     {
       "id": "time-vs-space-sqrt-2025",
@@ -36,7 +43,14 @@
       "status": "reported",
       "verified": "2026-09-07",
       "headline": "A theorem shows how computations can use much less working memory",
-      "sourceType": "Conference paper"
+      "sourceType": "Conference paper",
+      "explainer": {
+        "paragraphs": [
+          "Computers use temporary working memory to keep track of a calculation. This theorem proves that computations in a standard mathematical model can be reorganized to use much less memory than the previous general bound allowed. Think of completing the same calculation on a smaller desk: workspace and time are different resources.",
+          "The precise bound is roughly the square root of the running time, with an additional logarithmic factor. That changes our understanding of the relationship between time and memory. It does not mean existing apps suddenly use half the RAM, run faster, or gain a ready-made optimization."
+        ],
+        "source": "https://arxiv.org/abs/2502.17779"
+      }
     },
     {
       "id": "matmul-exponent-alphaevolve-2026",

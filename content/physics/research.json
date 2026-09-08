@@ -36,7 +36,14 @@
       "status": "preliminary",
       "verified": "2026-09-01",
       "headline": "DESI's larger map sharpens the test of dark energy",
-      "sourceType": "Journal publication"
+      "sourceType": "Journal publication",
+      "explainer": {
+        "paragraphs": [
+          "Ancient sound waves left a characteristic spacing in the distribution of galaxies. Astronomers use that pattern as a cosmic ruler: its apparent size at different distances helps reconstruct how the universe expanded. DESI measured this pattern using more than 14 million galaxies and quasars.",
+          "Combined with other observations, the measurements favor some models in which dark energy changes over time. Dark energy is the name for the unknown cause of accelerating expansion. If the hint holds up, a constant value would no longer be enough to describe it. But the strength of the hint depends on which other measurements are included. This is a reason to investigate, not proof that dark energy changes."
+        ],
+        "source": "https://arxiv.org/abs/2503.14738"
+      }
     },
     {
       "id": "desi-dr2-lya-2026",

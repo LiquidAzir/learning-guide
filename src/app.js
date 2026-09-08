@@ -8,7 +8,7 @@
   // ---------- storage (always guarded: may be unavailable) ----------
   const store = {
     get(k, fallback) { try { const v = localStorage.getItem('lg:' + k); if (v == null) return fallback; const p = JSON.parse(v); return p == null ? fallback : p; } catch { return fallback; } },
-    set(k, v) { try { if (v == null) localStorage.removeItem('lg:' + k); else localStorage.setItem('lg:' + k, JSON.stringify(v)); } catch { /* ignore */ } },
+    set(k, v) { try { if (v == null) localStorage.removeItem('lg:' + k); else localStorage.setItem('lg:' + k, JSON.stringify(v)); return true; } catch { return false; } },
   };
   let progress = store.get('progress', {});
   // Progress keys gained a subject prefix when the guide grew past one subject.
@@ -24,6 +24,7 @@
     if (changed) store.set('progress', progress);
   })();
   const saveProgress = () => store.set('progress', progress);
+  const researchState = createResearchState(store);
 
   // ---------- theme & type size ----------
   // The Artifact host stamps data-theme on the root element; remember it so "system" restores
@@ -230,6 +231,8 @@
   const STATUS_KEY = '<strong>Reported</strong> means the cited source reports the result or event. <strong>Preliminary</strong> flags early evidence; <strong>disputed</strong> flags a substantive challenge; <strong>retracted</strong> means the work was withdrawn. Source format is shown separately: publication or an official announcement does not establish independent replication. The summary explains the specific limits.';
 
   function researchItem(i, subject) {
+    const key = subject.id + '/' + i.id;
+    const saved = researchState.isSaved(key);
     return h`
       <li class="research-item">
         <div class="top"><span>${esc(i.date || i.year)}</span>${i._showSubject ? h`<span class="badge subject">${esc(subject.title)}</span>` : ''}<span class="badge topic">${esc(topicLabel(i.topic))}</span><span class="badge">${esc(i.sourceType || 'Source document')}</span><span class="badge ${esc(i.status)}">${esc(i.status)}</span></div>
@@ -241,7 +244,10 @@
 ${i.verified ? h`<p class="source-check">Source check recorded: ${esc(i.verified)}. This date records a source check, not independent confirmation of the finding.</p>` : ""}
 </details>
         <p class="summary">${esc(i.summary)}</p>
+        ${i.explainer ? h`<details class="research-explainer"><summary>What does this mean?</summary>${i.explainer.paragraphs.map(p => h`<p>${esc(p)}</p>`).join('')}<a href="${/^https?:/.test(i.explainer.source) ? esc(i.explainer.source) : '#'}" target="_blank" rel="noopener">Explainer source ↗</a></details>` : ''}
         <div class="links">
+          <button type="button" class="research-save" data-save="${esc(key)}" aria-pressed="${saved}" aria-label="${saved ? 'Unsave' : 'Save'}: ${esc(i.headline || i.title)}">${saved ? 'Saved' : 'Save for later'}</button>
+          ${researchState.isNew(key) ? '<span class="badge subject">New to the guide</span>' : ''}
           ${i.arxiv ? h`<a href="https://arxiv.org/abs/${esc(i.arxiv)}" target="_blank" rel="noopener">arXiv:${esc(i.arxiv)}</a>` : ''}
           ${i.doi ? h`<a href="https://doi.org/${esc(i.doi)}" target="_blank" rel="noopener">doi:${esc(i.doi)}</a>` : ''}
           ${i.chapter ? h`<a href="#/${subject.id}/${esc(i.chapter)}">Read the chapter →</a>` : ''}
@@ -250,45 +256,102 @@ ${i.verified ? h`<p class="source-check">Source check recorded: ${esc(i.verified
   }
 
   function viewResearch(subject, query) {
-    const items = (subject.research && subject.research.items || []).slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-    const counts = items.reduce((m, i) => (m[i.topic] = (m[i.topic] || 0) + 1, m), {});
-    const topics = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
-    const active = query.get('topic') || '';
-    const shown = active ? items.filter(i => i.topic === active) : items;
-    return h`
-      <section class="research-head reveal">
-        <a class="label" href="#/${subject.id}">${esc(subject.title)}</a>
-        <h1 style="margin:10px 0 6px;letter-spacing:-.02em;text-wrap:balance">Latest research</h1>
-        <p>${esc(subject.researchIntro || `Recent findings in ${subject.title.toLowerCase()}, checked against the original papers.`)} Each entry explains what the source reports, why it matters, and what the evidence leaves open. ${STATUS_KEY}</p>
-        <p class="label">Last updated ${esc(subject.research.updated || DATA.built)} · ${items.length} entries · <a href="#/research">all subjects →</a></p>
-        <nav class="chips" aria-label="Filter by topic">
-          <a class="chip" href="#/${subject.id}/research" ${!active ? 'aria-current="true"' : ''}>All <span class="n">${items.length}</span></a>
-          ${topics.map(t => h`<a class="chip" href="#/${subject.id}/research?topic=${encodeURIComponent(t)}" ${active === t ? 'aria-current="true"' : ''}>${esc(topicLabel(t))} <span class="n">${counts[t]}</span></a>`).join('')}
-        </nav>
-      </section>
-      <ol class="research-list">${shown.map(i => researchItem(i, subject)).join('')}</ol>
-      ${shown.length ? '' : '<p class="empty">Nothing in this topic yet.</p>'}`;
+    return researchFeed(subject, query);
   }
 
-  function viewResearchAll(query) {
-    const all = [];
-    for (const s of DATA.subjects) for (const i of (s.research && s.research.items) || []) all.push({ ...i, _s: s, _showSubject: true });
-    all.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-    const active = query.get('subject') || '';
-    const shown = active ? all.filter(i => i._s.id === active) : all;
-    const latest = DATA.subjects.map(s => (s.research && s.research.updated) || '').sort().pop() || DATA.built;
+  function researchHref(subject, query, changes) {
+    const params = new URLSearchParams(query);
+    for (const [key, value] of Object.entries(changes)) {
+      if (value) params.set(key, value); else params.delete(key);
+    }
+    return `#/${subject ? subject.id + '/' : ''}research${params.size ? '?' + params : ''}`;
+  }
+
+  function researchFeed(subject, query) {
+    const all = DATA.subjects.flatMap(s => (s.research?.items || []).map(i => ({ ...i, _s: s, _showSubject: !subject })));
+    researchState.visit(all.map(i => i._s.id + '/' + i.id));
+    const items = all.filter(i => !subject || i._s.id === subject.id).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+    const active = query.get(subject ? 'topic' : 'subject') || '';
+    const mode = ['new', 'saved', 'week'].includes(query.get('view')) ? query.get('view') : '';
+    const search = (query.get('q') || '').trim();
+    const words = search.toLocaleLowerCase().split(/\s+/).filter(Boolean);
+    const today = new Date().toISOString().slice(0, 10);
+    const weekStart = new Date(Date.parse(today) - 6 * 86400000).toISOString().slice(0, 10);
+    const shown = items.filter(i => {
+      const key = i._s.id + '/' + i.id;
+      if (active && (subject ? i.topic : i._s.id) !== active) return false;
+      if (mode === 'new' && !researchState.isNew(key)) return false;
+      if (mode === 'saved' && !researchState.isSaved(key)) return false;
+      if (mode === 'week' && (!i.date || i.date < weekStart || i.date > today)) return false;
+      const text = [i.headline, i.title, i.summary, i.authors, i.venue, i.sourceType, i.status, i.doi, i.arxiv, topicLabel(i.topic), i._s.title, ...(i.explainer?.paragraphs || [])].join(' ').toLocaleLowerCase();
+      return words.every(word => text.includes(word));
+    });
+    const counts = items.reduce((m, i) => (m[i.topic] = (m[i.topic] || 0) + 1, m), {});
+    const topics = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+    const latest = subject ? subject.research.updated : DATA.subjects.map(s => s.research?.updated || '').sort().pop();
+    const filters = subject ? topics.map(t => [t, topicLabel(t), counts[t]]) : DATA.subjects.map(s => [s.id, s.title, s.research?.items.length || 0]);
+    const href = changes => esc(researchHref(subject, query, changes));
+    const empty = mode === 'new' && !search && !active
+      ? (researchState.hasPrevious ? 'You’re caught up. No entries have been added since your previous visit.' : 'This visit is your starting point. Newly added entries will appear here when you return.')
+      : mode === 'saved' && !search && !active ? 'Your reading list is empty. Choose “Save for later” on any entry.'
+      : 'No entries match these filters. Try a different search or browse all entries.';
     return h`
       <section class="research-head reveal">
-        <a class="label" href="#/">Learning Guide</a>
+        <a class="label" href="#/${subject ? subject.id : ''}">${esc(subject ? subject.title : 'Learning Guide')}</a>
         <h1 style="margin:10px 0 6px;letter-spacing:-.02em;text-wrap:balance">Latest research</h1>
-        <p>Recent results across every subject in the guide, checked against the original papers and reports, newest first. ${STATUS_KEY}</p>
-        <p class="label">Last updated ${esc(latest)} · ${all.length} entries</p>
-        <nav class="chips" aria-label="Filter by subject">
-          <a class="chip" href="#/research" ${!active ? 'aria-current="true"' : ''}>All <span class="n">${all.length}</span></a>
-          ${DATA.subjects.map(s => h`<a class="chip" href="#/research?subject=${s.id}" ${active === s.id ? 'aria-current="true"' : ''}>${esc(s.title)} <span class="n">${((s.research && s.research.items) || []).length}</span></a>`).join('')}
+        <p>${subject ? esc(subject.researchIntro || `Recent findings in ${subject.title.toLowerCase()}.`) : 'Recent results across every subject in the guide, checked against the original papers and reports, newest first.'}</p>
+        <details class="research-source research-legend"><summary>What these labels mean</summary><p>${STATUS_KEY}</p></details>
+        <p class="label">Collection updated ${esc(latest || DATA.built)} · ${items.length} entries${subject ? ' · <a href="#/research">all subjects →</a>' : ''}</p>
+        <nav class="chips" aria-label="Filter by ${subject ? 'topic' : 'subject'}">
+          <a class="chip" href="${href({ [subject ? 'topic' : 'subject']: '' })}" ${!active ? 'aria-current="true"' : ''}>All <span class="n">${items.length}</span></a>
+          ${filters.map(([id, title, count]) => h`<a class="chip" href="${href({ [subject ? 'topic' : 'subject']: id })}" ${active === id ? 'aria-current="true"' : ''}>${esc(title)} <span class="n">${count}</span></a>`).join('')}
         </nav>
+        <form id="research-search" role="search" aria-label="Search research">
+          <label for="research-query">Search research</label>
+          <div class="research-search-row"><input id="research-query" class="search-input" type="search" value="${esc(search)}" placeholder="Topic, author, title, or DOI…"><button class="chip" type="submit">Search</button>${search ? h`<a href="${href({ q: '' })}">Clear search</a>` : ''}</div>
+        </form>
+        <nav class="chips research-views" aria-label="Research view">
+          ${[['', 'All entries'], ['new', 'New since your last visit'], ['week', 'Past week'], ['saved', 'Saved']].map(([value, label]) => h`<a class="chip" href="${href({ view: value })}" ${mode === value ? 'aria-current="true"' : ''}>${label}</a>`).join('')}
+        </nav>
+        <p class="research-note" id="research-storage">${researchState.available ? 'Bookmarks and visits are remembered in this browser only.' : 'Browser storage is unavailable. Bookmarks and visits last only while this page stays open.'}</p>
+        ${mode === 'new' ? '<p class="research-note">New means added to the guide since your previous visit, regardless of the paper’s date. Short return visits count as the same visit.</p>' : mode === 'week' ? '<p class="research-note">Entries dated within the past seven days, including today.</p>' : ''}
       </section>
-      <ol class="research-list">${shown.map(i => researchItem(i, i._s)).join('')}</ol>`;
+      <p id="research-count" class="research-note" role="status" tabindex="-1">${shown.length} ${shown.length === 1 ? 'entry' : 'entries'} shown${search ? h` for “${esc(search)}”` : ''}</p>
+      <ol class="research-list">${shown.map(i => researchItem(i, i._s)).join('')}</ol>
+      <p class="empty" id="research-empty" ${shown.length ? 'hidden' : ''}>${empty} <a href="${esc(researchHref(subject, new URLSearchParams(), {}))}">Browse all entries →</a></p>`;
+  }
+
+  function wireResearch() {
+    const form = document.getElementById('research-search');
+    if (!form) return;
+    const { parts, query } = parseRoute();
+    const subject = parts[0] === 'research' ? null : subjectById(parts[0]);
+    form.addEventListener('submit', event => {
+      event.preventDefault();
+      location.hash = researchHref(subject, query, { q: document.getElementById('research-query').value.trim() });
+    });
+    app.querySelectorAll('[data-save]').forEach(button => button.addEventListener('click', () => {
+      const saved = researchState.toggleSaved(button.dataset.save);
+      button.textContent = saved ? 'Saved' : 'Save for later';
+      button.setAttribute('aria-pressed', String(saved));
+      button.setAttribute('aria-label', button.getAttribute('aria-label').replace(/^(Unsave|Save):/, saved ? 'Unsave:' : 'Save:'));
+      if (!researchState.available) document.getElementById('research-storage').textContent = 'Browser storage is unavailable. Bookmarks and visits last only while this page stays open.';
+      toast(saved ? 'Saved for later' : 'Removed from saved entries');
+      if (!saved && query.get('view') === 'saved') {
+        const card = button.closest('.research-item');
+        const next = card.nextElementSibling || card.previousElementSibling;
+        card.remove();
+        const count = app.querySelectorAll('.research-item').length;
+        document.getElementById('research-count').textContent = `${count} ${count === 1 ? 'entry' : 'entries'} shown`;
+        document.getElementById('research-empty').hidden = !!count;
+        (next?.querySelector('[data-save]') || document.getElementById('research-count')).focus({ preventScroll: true });
+      }
+    }));
+  }
+
+  /* Subject and combined routes share the same controls and state. */
+  function viewResearchAll(query) {
+    return researchFeed(null, query);
   }
 
   function viewHome() {
@@ -366,6 +429,7 @@ ${i.verified ? h`<p class="source-check">Source check recorded: ${esc(i.verified
       : (subject ? (parts[1] === 'research' ? `Latest research · ${subject.title} · Learning Guide` : `${subject.title} · Learning Guide`)
         : (parts[0] === 'research' ? 'Latest research · Learning Guide' : 'Learning Guide'));
     wireShell();
+    wireResearch();
     if (current.chapter) wireReader(subject, current.chapter, parts[2]);
     if (!parts[2]) {
       const y = scrollMemory[location.hash];

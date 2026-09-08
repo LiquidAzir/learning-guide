@@ -36,7 +36,14 @@
       "status": "reported",
       "verified": "2026-09-01",
       "headline": "The 2023 Nobel recognizes quantum dots",
-      "sourceType": "Announcement"
+      "sourceType": "Announcement",
+      "explainer": {
+        "paragraphs": [
+          "Usually, changing the size of a piece of material does not change its color. Quantum dots are so small that confining their electrons changes the energies those electrons can have. For dots of the same semiconductor material, changing the dot size can therefore change the color of light they emit.",
+          "That gives manufacturers a size-based way to tune color, useful in displays, and gives researchers bright labels for tracking biological structures. Making dots with consistent sizes was essential to making them useful. The 2023 prize recognized decades of discovery and manufacturing advances; it was not an announcement that quantum dots had just been invented."
+        ],
+        "source": "https://www.nobelprize.org/prizes/chemistry/2023/press-release"
+      }
     },
     {
       "id": "nobel-chemistry-2024-protein-design",

@@ -232,7 +232,7 @@ for (const s of subjects) {
 }
 
 const css = read(path.join(SRC, 'styles.css'));
-const js = read(path.join(SRC, 'app.js'));
+const js = read(path.join(SRC, 'research-state.js')) + '\n' + read(path.join(SRC, 'app.js'));
 // "\/" is a valid JSON escape; "\!" is not, so use the unicode escape for the comment opener.
 const json = JSON.stringify(data).replace(/<\/script/gi, '<\\/script').replace(/<!--/g, '<\\u0021--');
 const fonts = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
