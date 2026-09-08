@@ -1,0 +1,119 @@
+{
+  "updated": "2026-09-07",
+  "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
+  "items": [
+    {
+      "id": "adaptive-recovery-2026",
+      "title": "Getting robots back on track by reconstituting control in unexpected situations with online learning",
+      "authors": "Maxime Allard, Manon Flageat et al.",
+      "venue": "Nature Communications",
+      "year": 2026,
+      "date": "2026-03-09",
+      "url": "https://www.nature.com/articles/s41467-026-70256-y",
+      "topic": "robotics-control",
+      "chapter": "control",
+      "summary": "The researchers tested a system that updates an onboard model rapidly to compensate for unexpected changes affecting a robot. It improved recovery relative to the tested control baselines. The useful question is how adaptation behaves when the original model becomes wrong. The reported gains apply to the experimental disturbances and performance measures, not a guarantee of recovery from arbitrary damage.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "An online learning controller helps robots recover from disturbances",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41467-026-70256-y"
+    },
+    {
+      "id": "cold-sodium-2026",
+      "title": "Enhanced sodium storage in hard carbon via solvent co-intercalation electrolyte enabling Ah-level pouch cells at low temperatures",
+      "authors": "Meng Li, Zeping Liu et al.",
+      "venue": "Nature Communications",
+      "year": 2026,
+      "date": "2026-02-06",
+      "url": "https://www.nature.com/articles/s41467-026-69237-y",
+      "topic": "energy-storage",
+      "chapter": "power",
+      "summary": "A solvent co-intercalation strategy helps sodium enter hard-carbon electrodes without the usual slow solvent-removal step. The authors report ampere-hour-scale cells with low-temperature performance, including 107 Wh/kg at −50°C on a cell-stack basis excluding packaging. This boundary matters: the result is not a complete battery-pack specification, and commercial cost, safety, and long-term durability require further assessment.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "An electrolyte design improves sodium-cell performance in extreme cold",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41467-026-69237-y",
+      "explainer": {
+        "paragraphs": [
+          "Ions normally travel with surrounding solvent molecules and must reorganize that surrounding layer to enter an electrode. Cold can slow this step. The design changes how ions and solvent enter together. To judge the advance fairly, compare the same temperature, test current, lifetime, and mass boundary; a packaged battery carries more than the active stack."
+        ],
+        "source": "https://www.nature.com/articles/s41467-026-69237-y"
+      }
+    },
+    {
+      "id": "tandem-area-2025",
+      "title": "60 cm2 perovskite-silicon tandem solar cells with an efficiency of 28.9% by homogeneous passivation",
+      "authors": "Kerem Artuk, Aleksandra Oranskaia et al.",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "date": "2025-09-30",
+      "url": "https://www.nature.com/articles/s41467-025-63673-y",
+      "topic": "solar-energy",
+      "chapter": "power",
+      "summary": "The study combines treatments that reduce losses at perovskite surfaces and interfaces, reporting certified efficiency of 28.9% over a 60-square-centimeter active area. Uniformity matters because a method effective on a tiny cell may not scale. This is a device-level result; module production, outdoor lifetime, and total system cost remain separate engineering questions.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Surface treatments carry tandem-cell efficiency to a larger active area",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41467-025-63673-y"
+    },
+    {
+      "id": "printed-concrete-metrology-2025",
+      "title": "Cementitious Materials",
+      "authors": "National Institute of Standards and Technology",
+      "venue": "NIST Additive Manufacturing",
+      "year": 2025,
+      "date": "2025-04-16",
+      "url": "https://www.nist.gov/additive-manufacturing/research-areas/materials/cementitious-materials",
+      "topic": "construction-materials",
+      "chapter": "manufacturing",
+      "summary": "NIST describes work on measurement tools and standards for additive construction with cement-based materials. Printing requires a mix that flows through equipment yet supports layers as they accumulate, making timing and material behavior central design variables. This source describes a research programme and demonstrations, not a completed comparative trial or a certification that printed buildings meet every requirement.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Printed concrete needs measurements that connect process and strength",
+      "sourceType": "Research programme"
+    },
+    {
+      "id": "elastocaloric-scale-2025",
+      "title": "Achieving kilowatt-scale elastocaloric cooling by a multi-cell architecture",
+      "authors": "Guoan Zhou, Lingyun Zhang et al.",
+      "venue": "Nature",
+      "year": 2025,
+      "date": "2025-02-26",
+      "url": "https://www.nature.com/articles/s41586-024-08549-9",
+      "topic": "thermal-systems",
+      "chapter": "heat",
+      "summary": "A prototype combines mechanically compressed nickel–titanium tubes with a heat-transfer fluid and a multi-cell arrangement to achieve kilowatt-scale cooling. The study addresses the challenge of scaling useful heat movement, not only changing a material’s temperature. Actuator work, heat transfer, fatigue, manufacturing, and cost still determine whether such devices can compete in practical applications.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A multi-cell design brings solid-state cooling to kilowatt scale",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41586-024-08549-9",
+      "explainer": {
+        "paragraphs": [
+          "Some materials change temperature when stress changes their internal structure. A cooling device must coordinate that change with moving heat into and out of the material. A large temperature change alone is insufficient: the actuator, fluid, timing, and repeated-cycle durability determine whether the complete machine can cool a useful load."
+        ],
+        "source": "https://www.nature.com/articles/s41586-024-08549-9"
+      }
+    },
+    {
+      "id": "metal-am-inspection-2024",
+      "title": "In-process monitoring and non-destructive evaluation for metal additive manufacturing processes",
+      "authors": "Alkan Donmez et al.",
+      "venue": "NIST IR 8538",
+      "year": 2024,
+      "date": "2024-09",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8538.pdf",
+      "topic": "manufacturing-quality",
+      "chapter": "manufacturing",
+      "summary": "NIST reviews monitoring and non-destructive evaluation for metal additive manufacturing, with particular attention to qualification of nuclear-power components. The report helps distinguish a process signal from evidence about a finished part’s defects and performance. It is a technical assessment of methods and gaps, not proof that any particular printed component is qualified for service.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A technical report examines how to qualify printed metal parts",
+      "sourceType": "Technical report",
+      "doi": "10.6028/NIST.IR.8538"
+    }
+  ]
+}

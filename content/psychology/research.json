@@ -1,0 +1,120 @@
+{
+  "updated": "2026-09-07",
+  "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
+  "items": [
+    {
+      "id": "thalamic-states-2026",
+      "title": "Thalamic oscillations distinguish natural states of consciousness in humans",
+      "authors": "Aditya Chowdhury et al.",
+      "venue": "Nature Human Behaviour",
+      "year": 2026,
+      "date": "2026-05-27",
+      "url": "https://www.nature.com/articles/s41562-026-02446-z",
+      "topic": "consciousness",
+      "chapter": "sleep-states",
+      "summary": "Direct recordings in a human clinical sample identified a roughly 19–45 Hz central-thalamic rhythm during wakefulness and REM sleep, absent during non-REM sleep in these recordings. The result offers a target for studying how deep brain systems regulate states. It is an association in the studied conditions, not a universal test for conscious experience; non-REM sleep can also include experience.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Thalamic recordings reveal a rhythm associated with wakefulness and REM sleep",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41562-026-02446-z",
+      "explainer": {
+        "paragraphs": [
+          "The thalamus is a deep brain structure involved in communication and state regulation. Researchers found a rhythm that differed across recorded sleep and waking states. A useful signature can guide experiments without being a consciousness meter: a pattern that tracks some states does not necessarily identify every experience or explain why experience exists."
+        ],
+        "source": "https://www.nature.com/articles/s41562-026-02446-z"
+      }
+    },
+    {
+      "id": "detection-bias-2026",
+      "title": "The act of detecting a stimulus contaminates measures of conscious experience with decision biases",
+      "authors": "Nicolás Sánchez-Fuenzalida, Chris Jungerius, Stephen M. Fleming",
+      "venue": "Nature Communications",
+      "year": 2026,
+      "date": "2026-05-08",
+      "url": "https://www.nature.com/articles/s41467-026-72567-6",
+      "topic": "research-methods",
+      "chapter": "evidence",
+      "summary": "Experiments with 505 participants combined detection judgments and reproductions of faint visual stimuli. Changes in base rates and rewards affected response criteria, while attention affected a modeled perceptual component. Adding detection judgments also influenced reproduction reports. The study shows why reporting a signal and experiencing it need careful separation; its decomposition depends on the model and tasks used.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Saying whether a faint image appeared can change how perception is measured",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41467-026-72567-6"
+    },
+    {
+      "id": "cogitate-2025",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "authors": "Cogitate Consortium",
+      "venue": "Nature",
+      "year": 2025,
+      "date": "2025-04-30",
+      "url": "https://www.nature.com/articles/s41586-025-08888-1",
+      "topic": "consciousness",
+      "chapter": "consciousness",
+      "summary": "The consortium preregistered competing predictions and measured brain activity while 256 people viewed clearly visible stimuli. Results matched some predictions and challenged key commitments of both integrated information and global neuronal workspace theories. The work tests specified claims about visual experience; it neither settles consciousness nor establishes a different theory by elimination.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A joint experiment challenges predictions from two consciousness theories",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41586-025-08888-1",
+      "explainer": {
+        "paragraphs": [
+          "Instead of each group choosing a favorable experiment, advocates agreed beforehand on predictions their theories should meet. The results exposed difficulties for both accounts. That makes the study useful even without a winner: theories now need to explain the mismatches and make new predictions that can be tested independently."
+        ],
+        "source": "https://www.nature.com/articles/s41586-025-08888-1"
+      }
+    },
+    {
+      "id": "microns-2025",
+      "title": "Functional connectomics spanning multiple areas of mouse visual cortex",
+      "authors": "MICrONS Consortium",
+      "venue": "Nature",
+      "year": 2025,
+      "date": "2025-04-09",
+      "url": "https://www.nature.com/articles/s41586-025-08790-w",
+      "topic": "neuroscience",
+      "chapter": "networks",
+      "summary": "The project paired calcium imaging of about 75,000 neurons with electron-microscopy reconstructions containing more than 200,000 cells and roughly half a billion synapses. Researchers can investigate how measured responses relate to physical connections in visual cortex. This is an open resource from one mouse, with reconstruction and sampling limits; a wiring diagram does not by itself explain a mind.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A mouse-brain dataset links neural activity with detailed wiring",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41586-025-08790-w"
+    },
+    {
+      "id": "streaming-speech-2025",
+      "title": "A streaming brain-to-voice neuroprosthesis to restore naturalistic communication",
+      "authors": "Kaylo T. Littlejohn et al.",
+      "venue": "Nature Neuroscience",
+      "year": 2025,
+      "date": "2025-03-31",
+      "url": "https://www.nature.com/articles/s41593-025-01905-6",
+      "topic": "brain-computer-interfaces",
+      "chapter": "frontier",
+      "summary": "In one clinical-trial participant with severe paralysis, a system used cortical surface recordings and trained neural networks to synthesize speech in a continuous stream. Decoding proceeded in 80-millisecond increments. The demonstration targets attempted speech under a specialized recording and training setup; it does not establish general thought reading or equivalent performance across people.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A trained brain interface turns attempted speech into streaming audio",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41593-025-01905-6"
+    },
+    {
+      "id": "sleep-replay-2025",
+      "title": "Sleep microstructure organizes memory replay",
+      "authors": "Hongyu Chang, Wenbo Tang et al.",
+      "venue": "Nature",
+      "year": 2025,
+      "date": "2025-01-01",
+      "url": "https://www.nature.com/articles/s41586-024-08340-w",
+      "topic": "sleep-memory",
+      "chapter": "sleep-states",
+      "summary": "Simultaneous neural recordings and pupil measurements distinguished non-REM sleep substates associated with replay of recent versus older experiences. Disrupting sharp-wave ripples in the recent-memory-associated substate impaired later recall. The experiment links timing to a memory effect in mice; it is not evidence that monitoring or changing human pupil size can improve learning.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Mouse sleep substates separate replay of recent and older memories",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41586-024-08340-w"
+    }
+  ]
+}

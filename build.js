@@ -223,6 +223,14 @@ for (const s of subjects) {
   const chapters = files.map(f => compileChapter(path.join(dir, f), dir, s.id, orderToSlug));
   const researchPath = path.join(dir, 'research.json');
   const research = fs.existsSync(researchPath) ? JSON.parse(read(researchPath)) : { updated: null, items: [] };
+  if (s.id === 'politics') {
+    const formats = new Set(['Journal publication', 'Conference paper', 'Preprint or working paper', 'Technical report', 'Data or tracker']);
+    for (const item of research.items) {
+      if (!formats.has(item.sourceType) || !['question', 'method', 'limitations'].every(k => typeof item.evidence?.[k] === 'string' && item.evidence[k].trim())) {
+        throw new Error(`Political science research needs an eligible source format and question, method, and limitations: ${item.id}`);
+      }
+    }
+  }
   const slugs = new Set(chapters.map(c => c.id));
   for (const item of research.items) if (item.chapter && !slugs.has(item.chapter)) console.warn(`research.json: unknown chapter "${item.chapter}" in ${item.id}`);
   data.subjects.push({ ...s, chapters, research });

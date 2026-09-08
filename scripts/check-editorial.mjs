@@ -33,8 +33,33 @@ for (const subject of data.subjects) {
     entries++;
   }
 }
-assert.equal(answers, 155);
-assert.equal(entries, 399);
+const originalIds = new Set(['physics', 'chemistry', 'economics', 'mathematics', 'ai', 'history', 'biology', 'cs']);
+const originals = data.subjects.filter(s => originalIds.has(s.id));
+assert.equal(originals.flatMap(s => s.chapters).reduce((n, c) => n + (c.html.match(/<details class="callout callout-answer">/g) || []).length, 0), 155);
+assert.equal(originals.reduce((n, s) => n + s.research.items.length, 0), 399);
+for (const id of ['psychology', 'engineering', 'politics']) {
+  const subject = data.subjects.find(s => s.id === id);
+  assert(subject, `Missing subject: ${id}`);
+  assert.equal(subject.chapters.length, 14);
+  assert.equal(subject.research.items.length, 6);
+  assert(subject.chapters.filter(c => c.order > 1 && c.order < 13).every(c => c.words >= 300), `Incomplete core chapter: ${id}`);
+  for (const chapter of subject.chapters) {
+    const anchors = new Set([...chapter.html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]));
+    for (const [, target] of chapter.html.matchAll(/href="#([^"]+)"/g)) {
+      if (target.startsWith('/')) {
+        const [subjectId, chapterId, anchor] = target.slice(1).split('/');
+        const linkedSubject = data.subjects.find(s => s.id === subjectId);
+        assert(linkedSubject, `Broken subject link: ${target}`);
+        if (!chapterId || chapterId === 'research') continue;
+        const linkedChapter = linkedSubject.chapters.find(c => c.id === chapterId);
+        assert(linkedChapter, `Broken chapter link: ${target}`);
+        assert(!anchor || linkedChapter.html.includes(`id="${anchor}"`), `Broken section link: ${target}`);
+      } else {
+        assert(anchors.has(target), `Broken footnote or local anchor: ${id}/${chapter.id}#${target}`);
+      }
+    }
+  }
+}
 const math = data.subjects.find(s => s.id === 'mathematics');
 assert(math.chapters.find(c => c.id === 'geometry').html.includes('A point moving around a circle at constant speed'), 'The paragraph after the trigonometry table must survive Markdown rendering');
 const cs = data.subjects.find(s => s.id === 'cs');

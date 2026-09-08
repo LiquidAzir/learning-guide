@@ -74,7 +74,7 @@
 
   // ---------- shell ----------
   function shell(subject, body, opts = {}) {
-    const tabs = DATA.subjects.map(s => h`<a class="tab" href="#/${s.id}" ${subject && subject.id === s.id ? 'aria-current="page"' : ''}>${esc(s.title)}</a>`).join('');
+    const tabs = DATA.subjects.map(s => h`<a class="tab" href="#/${s.id}" ${subject && subject.id === s.id ? 'aria-current="page"' : ''}>${esc(s.navTitle || s.title)}</a>`).join('');
     return h`
       <a class="skip" href="#main">Skip to content</a>
       <header class="topbar">
@@ -129,7 +129,7 @@
               <span>
                 <h3>${esc(c.title)}</h3>
                 <p>${esc(c.subtitle)}</p>
-                <span class="meta"><span>${c.minutes} min</span>${c.sourceCount ? h`<span>${c.sourceCount} sources</span>` : ''}${isDone(subject, c) ? '<span class="done-tag">finished</span>' : (pctOf(subject, c) >= 10 ? h`<span>${pctOf(subject, c)}% read</span>` : '')}</span>
+                <span class="meta"><span>${c.minutes} min</span>${c.sourceCount ? h`<span>${c.sourceCount} ${c.sourceCount === 1 ? 'source' : 'sources'}</span>` : ''}${isDone(subject, c) ? '<span class="done-tag">finished</span>' : (pctOf(subject, c) >= 10 ? h`<span>${pctOf(subject, c)}% read</span>` : '')}</span>
               </span>
             </a>`).join('')}
         </div>
@@ -144,7 +144,7 @@
             <span class="chapter-num" aria-hidden="true">↗</span>
             <span>
               <h3>Latest research</h3>
-              <p>${research.length} papers, reports, and announcements from ${Math.min(...research.map(r => r.year))} to ${Math.max(...research.map(r => r.year))}, with plain-English summaries. Updated ${esc(subject.research.updated || DATA.built)}.</p>
+              <p>${research.length} research entries from ${Math.min(...research.map(r => r.year))} to ${Math.max(...research.map(r => r.year))}, with plain-English summaries. Updated ${esc(subject.research.updated || DATA.built)}.</p>
             </span>
           </a>
         </div>
@@ -187,7 +187,7 @@
             </div>
             <h1>${esc(chapter.title)}</h1>
             <p class="subtitle">${esc(chapter.subtitle)}</p>
-            <div class="meta"><span>Chapter ${chapter.order}</span><span>${chapter.minutes} min read</span>${chapter.sourceCount ? h`<span>${chapter.sourceCount} sources</span>` : ''}</div>
+            <div class="meta"><span>Chapter ${chapter.order}</span><span>${chapter.minutes} min read</span>${chapter.sourceCount ? h`<span>${chapter.sourceCount} ${chapter.sourceCount === 1 ? 'source' : 'sources'}</span>` : ''}</div>
           </header>
           ${chapter.toc.length > 2 ? h`<details class="toc-mobile" id="toc-mobile"><summary>In this chapter</summary><ol>${tocItems}</ol></details>` : ''}
           <div class="prose" id="prose">${chapter.html}</div>
@@ -242,6 +242,7 @@
 <p><strong>Original title:</strong> ${esc(i.title)}</p>
 <p class="who">${esc(i.authors)} · ${esc(i.venue)}${i.year ? ", " + i.year : ""}</p>
 ${i.verified ? h`<p class="source-check">Source check recorded: ${esc(i.verified)}. This date records a source check, not independent confirmation of the finding.</p>` : ""}
+${i.evidence ? h`<p><strong>Research question:</strong> ${esc(i.evidence.question)}</p><p><strong>Method:</strong> ${esc(i.evidence.method)}</p><p><strong>Limits:</strong> ${esc(i.evidence.limitations)}</p>` : ''}
 </details>
         <p class="summary">${esc(i.summary)}</p>
         ${i.explainer ? h`<details class="research-explainer"><summary>What does this mean?</summary>${i.explainer.paragraphs.map(p => h`<p>${esc(p)}</p>`).join('')}<a href="${/^https?:/.test(i.explainer.source) ? esc(i.explainer.source) : '#'}" target="_blank" rel="noopener">Explainer source ↗</a></details>` : ''}
@@ -378,7 +379,7 @@ ${i.verified ? h`<p class="source-check">Source check recorded: ${esc(i.verified
       <section class="hero reveal">
         <span class="label">Learning Guide</span>
         <h1>Understand the ideas behind the world around you.</h1>
-        <p class="tagline">Explore eight subjects through clear explanations, worked examples, the stories behind the discoveries, and questions you can try. Start with the foundations, or follow a question that interests you.</p>
+        <p class="tagline">Explore ${DATA.subjects.length} subjects through clear explanations, worked examples, the stories behind the discoveries, and questions you can try. Start with the foundations, or follow a question that interests you.</p>
       </section>
       <div class="subject-grid">${cards}</div>
       ${researchTotal ? h`

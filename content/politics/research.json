@@ -1,0 +1,138 @@
+{
+  "updated": "2026-09-07",
+  "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
+  "items": [
+    {
+      "id": "temporal-sortition-2026",
+      "title": "Temporal Panel Selection in Ongoing Citizens' Assemblies",
+      "authors": "Yusuf Hakan Kalayci and Evi Micha",
+      "venue": "arXiv; accepted to AAMAS 2026",
+      "year": 2026,
+      "date": "2026-02-18",
+      "url": "https://arxiv.org/abs/2602.16194",
+      "topic": "institutional-design",
+      "chapter": "frontier",
+      "summary": "The paper formalizes representation over a sequence of rotating panels and presents algorithms with different fairness and proportionality guarantees. It extends a one-time selection question into an ongoing institutional design problem. The guarantees hold within a mathematical model; this is not an experiment showing that rotating assemblies improve real-world policy.",
+      "status": "preliminary",
+      "verified": "2026-09-07",
+      "headline": "Selection algorithms consider representation across successive citizen panels",
+      "sourceType": "Preprint or working paper",
+      "arxiv": "2602.16194",
+      "evidence": {
+        "question": "How can rotating panels represent people fairly over time?",
+        "method": "Formal model and algorithmic analysis of temporal selection.",
+        "limitations": "Guarantees depend on the modeled population and fairness definitions; governance outcomes are not tested."
+      }
+    },
+    {
+      "id": "eligibility-letters-2025",
+      "title": "Communicating Program Eligibility: A Supplemental Security Income (SSI) Field Experiment",
+      "authors": "Jeffrey Hemmeter, John Phillips, Elana Safran, Nicholas Wilson",
+      "venue": "American Economic Journal: Economic Policy 17(2)",
+      "year": 2025,
+      "date": "2025-05",
+      "url": "https://oes.gsa.gov/assets/publications/1723.pdf",
+      "topic": "public-administration",
+      "chapter": "bureaucracy",
+      "summary": "A randomized direct-mail experiment covering more than four million older individuals tested messages about likely program eligibility. Letters increased take-up, and some behavioral wording improved their effects, but application rates remained no greater than 7% over the full follow-up. Information is one administrative barrier, not a complete explanation of participation; application growth also involved trade-offs in award likelihood and amounts.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Eligibility letters increase benefit take-up but leave substantial barriers",
+      "sourceType": "Journal publication",
+      "doi": "10.1257/pol.20210560",
+      "evidence": {
+        "question": "Can clearer eligibility communication improve access to a public program?",
+        "method": "Randomized field experiment comparing mail interventions, with administrative follow-up.",
+        "limitations": "Specific population and program; applications, awards, and broader welfare effects are distinct outcomes."
+      }
+    },
+    {
+      "id": "electronic-transfer-spillovers-2025",
+      "title": "Financial Spillover Effects from Electronic Government Transfers: Evidence from an At-Scale Experiment in Indonesia",
+      "authors": "Abhijit Banerjee, Rema Hanna, Benjamin A. Olken, Elan Satriawan, Sudarno Sumarto",
+      "venue": "AEA Papers and Proceedings 115",
+      "year": 2025,
+      "date": "2025-05",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/pandp.20251059",
+      "topic": "policy-evaluation",
+      "chapter": "policy",
+      "summary": "Using a randomized district rollout in Indonesia, the study examines whether banking agents established for electronic benefit distribution also increase household use of other financial services. It finds no detectable effect on those other services, alongside a small increase in neighborhood shops. The result separates successful transfer delivery from an assumed broader financial-inclusion effect; it does not establish that digital delivery has no benefits.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Electronic benefit delivery does not automatically expand other financial services",
+      "sourceType": "Conference paper",
+      "doi": "10.1257/pandp.20251059",
+      "evidence": {
+        "question": "Do delivery reforms create financial-service spillovers beyond their primary purpose?",
+        "method": "Analysis of an at-scale randomized district rollout in Indonesia.",
+        "limitations": "No detectable effect is not proof of an exact zero; results belong to the studied outcomes, setting, and period."
+      }
+    },
+    {
+      "id": "participatory-budgeting-2024",
+      "title": "A large-scale field experiment on participatory decision-making in China",
+      "authors": "Sherry Jueyu Wu, Ke Michael Mai, Ming Zhuang, Fangxin Yi",
+      "venue": "Nature Human Behaviour",
+      "year": 2024,
+      "date": "2024-08-26",
+      "url": "https://www.nature.com/articles/s41562-024-01964-y",
+      "topic": "participation",
+      "chapter": "frontier",
+      "summary": "Communities were randomly assigned invitations to deliberate and allocate local budgets. Six months later, the study found increased civic engagement beyond budgeting, alongside changes in evaluations of government and society. The intervention offers evidence about participation in one institutional setting. It does not show that consultation and binding decision authority are equivalent, or establish the same effects in other political systems.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Community budgeting participation changes civic engagement in a field experiment",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41562-024-01964-y",
+      "evidence": {
+        "question": "Does participation in community budgeting affect wider civic engagement?",
+        "method": "Community-level randomized field intervention with follow-up outcome measurement.",
+        "limitations": "Setting-specific intervention and follow-up; reported attitudes and observed institutional change are different measures."
+      }
+    },
+    {
+      "id": "civil-service-origins-2024",
+      "title": "Civil Service Adoption in America: The Political Influence of City Employees",
+      "authors": "Sarah F. Anzia and Jessica Trounstine",
+      "venue": "American Political Science Review; online 2024, issue 2025",
+      "year": 2025,
+      "date": "2024-05-27",
+      "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/civil-service-adoption-in-america-the-political-influence-of-city-employees/29DBF25076D5A7E175FDECA2C85CC001",
+      "topic": "bureaucratic-institutions",
+      "chapter": "bureaucracy",
+      "summary": "The authors combine historical municipal data and qualitative evidence to investigate how public employees helped advance civil-service rules. Organized firefighters and other employees appear as participants in institutional change, rather than merely its beneficiaries. The observational historical design supports a mechanism to examine; it does not isolate all competing causes or establish that every civil-service arrangement has the same effects.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Historical evidence links employee organization to civil-service adoption",
+      "sourceType": "Journal publication",
+      "doi": "10.1017/S0003055424000431",
+      "evidence": {
+        "question": "Which groups helped bring about municipal civil-service rules?",
+        "method": "Historical quantitative comparison and qualitative evidence from American cities.",
+        "limitations": "Observational evidence and historical measurement limits; adoption and later performance are separate questions."
+      }
+    },
+    {
+      "id": "fair-sortition-2021",
+      "title": "Fair algorithms for selecting citizens’ assemblies",
+      "authors": "Bailey Flanigan, Paul Gölz, Anupam Gupta, Brett Hennig, Ariel D. Procaccia",
+      "venue": "Nature",
+      "year": 2021,
+      "date": "2021-08-04",
+      "url": "https://www.nature.com/articles/s41586-021-03788-6",
+      "topic": "institutional-design",
+      "chapter": "frontier",
+      "summary": "The study develops algorithms balancing representative panels with more equal individual selection probabilities, and evaluates them on real assembly datasets. It is useful background for newer work on rotating assemblies. Fairness within a volunteer pool does not solve recruitment bias, agenda-setting, or implementation of recommendations; those remain distinct institutional choices.",
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Fair selection requires more than drawing volunteers one at a time",
+      "sourceType": "Journal publication",
+      "doi": "10.1038/s41586-021-03788-6",
+      "evidence": {
+        "question": "How can panel selection balance quotas and individual chances fairly?",
+        "method": "Formal algorithmic guarantees and evaluation on ten real assembly datasets.",
+        "limitations": "Model-defined fairness within recruitment pools; no causal test of policy quality or population-wide participation."
+      }
+    }
+  ]
+}

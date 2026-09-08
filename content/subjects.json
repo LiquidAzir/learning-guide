@@ -62,5 +62,32 @@
     "icon": "⌘",
     "description": "Trace a page request from bits and logic to networks, databases, and security. Along the way, learn what algorithms can do, what makes them efficient, and why systems fail. Small examples connect the theory with decisions programmers and users encounter.",
     "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
+  },
+  {
+    "id": "psychology",
+    "navTitle": "Psychology",
+    "title": "Psychology and Cognitive Science",
+    "icon": "◉",
+    "tagline": "How minds learn, brains work, and experience becomes a scientific question.",
+    "description": "Follow experiments from perception and memory to emotion, development, and social behavior. Learn how neurons and brain networks support these abilities, then examine sleep, consciousness theories, brain decoding, and the limits of the evidence.",
+    "researchIntro": "Studies of cognition, neuroscience, and consciousness. Each entry distinguishes the measured result from its interpretation, including the participants, methods, and limits on generalization."
+  },
+  {
+    "id": "engineering",
+    "navTitle": "Engineering",
+    "title": "Engineering and How Things Work",
+    "icon": "⚒",
+    "tagline": "Trace forces, energy, and information through the things people build.",
+    "description": "Use kettles, bridges, gears, pipes, circuits, and robots to understand design. Worked calculations connect physical laws with materials, manufacturing, control, reliability, and the trade-offs that turn a prototype into a useful system.",
+    "researchIntro": "Research on materials, energy, control, manufacturing, and reliable systems. Results keep their test conditions and scale attached: a material sample, laboratory device, and deployed system are different achievements."
+  },
+  {
+    "id": "politics",
+    "navTitle": "Political Science",
+    "title": "Political Science and Institutions",
+    "icon": "⚑",
+    "tagline": "How rules distribute power, organize disagreement, and make public decisions work.",
+    "description": "Compare states, constitutions, voting rules, parties, public administration, courts, and international cooperation. Worked examples and research methods explain what institutions change, who they serve, and how to evaluate their results.",
+    "researchIntro": "Research on institutions, public services, and collective decisions, selected for methods and lasting learning value. Every entry explains its question, method, and limitations. Campaign coverage, daily polling, opinion pieces, and party messaging are excluded."
   }
 ]

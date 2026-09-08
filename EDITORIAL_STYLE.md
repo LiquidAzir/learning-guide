@@ -55,6 +55,8 @@ Keep research item IDs stable: bookmarks and the new-since-last-visit view use t
 
 ## Check before shipping
 
+For new research entries, also follow [the research selection policy](RESEARCH_POLICY.md). Political-science entries require a primary research source, eligible source format, and explicit question, method, and limitations. Editorial review must assess learning value and evidentiary quality; metadata validation alone cannot do that.
+
 Check worked arithmetic and code examples, summary/body consistency, dates and attribution, cross-references, table rendering, math rendering, answer disclosure, glossary search, and narrow-screen layout. Keep original sources and substantive caveats when simplifying language.
 
 A browser check can establish that the guide works. It cannot establish that a newcomer understands it. For reader testing, give someone a chapter, ask them to explain its main idea and attempt its question, then revise the point where their reasoning stalls. Record actual observations rather than predicting a reader's experience on their behalf.

@@ -2,7 +2,7 @@
 
 A general-purpose learning web app. Each subject is a set of Markdown chapters compiled into one self-contained HTML page that works on phones and desktops, offline, with no server.
 
-Eight subjects so far, each with its own chapters, cited sources, and a separately maintained feed of recent research:
+Eleven subjects, each with its own chapters, cited sources, and a separately maintained research feed:
 
 | Subject | Chapters | Words | Sources | Research entries |
 |---|---|---|---|---|
@@ -14,6 +14,11 @@ Eight subjects so far, each with its own chapters, cited sources, and a separate
 | History | 40 | ~85,300 | 412 | 54 |
 | Biology | 21 | ~38,800 | 181 | 54 |
 | Computer Science | 24 | ~45,000 | 136 | 49 |
+| Psychology and Cognitive Science | 14 | ~5,900 | 21 | 6 |
+| Engineering and How Things Work | 14 | ~5,200 | 14 | 6 |
+| Political Science and Institutions | 14 | ~5,400 | 14 | 6 |
+
+The three new subjects include 33 worked practice questions. Psychology incorporates neuroscience, sleep, competing consciousness theories, and brain decoding. Engineering follows forces, energy, control, manufacture, and reliability. Political science emphasizes institutions and methods; its feed excludes campaign coverage, daily polling, punditry, and party messaging. See [research selection policy](RESEARCH_POLICY.md) for the inclusion criteria and source requirements.
 
 ## Quick start
 
@@ -55,7 +60,7 @@ dist/
 
 ## Writing chapters
 
-Follow [the editorial style guide](EDITORIAL_STYLE.md) for voice, worked examples, evidence, and reference entries. The 155 core chapters include a short application question with an expandable answer; the introductory and reference chapters serve different purposes.
+Follow [the editorial style guide](EDITORIAL_STYLE.md) for voice, worked examples, evidence, and reference entries. The 188 core chapters include a short application question with an expandable answer; the introductory and reference chapters serve different purposes.
 
 A chapter is a Markdown file with a frontmatter block:
 
