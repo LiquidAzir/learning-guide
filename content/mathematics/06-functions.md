@@ -4,7 +4,7 @@ subtitle: How one quantity depends on another. Reading a graph, recognizing line
 part: II · The Core Toolkit
 ---
 
-## Recap
+## What does a function let you predict?
 
 Algebra (chapter 4) manipulates relationships; coordinates (chapter 5) draw them. A **function** is the idea that joins the two: a rule that takes an input and gives back exactly one output. Nearly every quantitative claim you meet, in news, at work, in science, is a claim about a function, and the most valuable skill this chapter teaches is recognizing *which kind* of function you are looking at, because the kinds behave in utterly different ways.
 
@@ -107,6 +107,14 @@ Given data at equal time steps:
 - $e$ is the base of continuous growth. $e^x$ and $\ln x$ undo each other.
 - Read the axes before the curve. A truncated axis or a log scale changes what the shape means.
 - Exponential growth in the real world always becomes an S-curve. The question is when.
+:::
+
+:::try Put the idea to work
+A phone plan costs 10 plus 3 for each unit of data used. Is the cost directly proportional to usage? What does the graph look like?
+
+:::answer Show the reasoning
+The function is C(x) = 10 + 3x. It is a straight line with slope 3 and vertical intercept 10, but not direct proportionality because C(0) is not zero. Doubling usage does not double the total bill; it doubles only the usage-dependent part.
+:::
 :::
 
 ## Summary

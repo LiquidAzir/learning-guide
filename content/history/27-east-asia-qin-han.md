@@ -4,7 +4,7 @@ subtitle: 221 BCE to 220 CE. The First Emperor builds the template of the Chines
 part: IV · East Asian History
 ---
 
-## Recap
+## How did imperial China combine conquest with institutions that outlasted a dynasty?
 
 Chapter 26 ended with Qin's conquest of the last rival state in 221 BCE. This chapter covers the two dynasties that made the Chinese empire: the Qin, which lasted fifteen years and built everything, and the Han, which lasted four hundred and decided what the empire would mean. The Han were contemporaries of the Roman Republic and Empire, knew of each other dimly through the Silk Road, and never met; the comparison runs through the chapter because it is the best way to see what was distinctive about each.
 
@@ -57,6 +57,14 @@ The Qin built the state in fifteen years and were destroyed by the hatred it ear
 - 2 CE: census of 57.7 million.
 - 105 CE: paper.
 - 184 CE: Yellow Turbans. 220: Han abdicates; Three Kingdoms.
+:::
+
+:::try Put the idea to work
+A later dynasty keeps administrative practices developed under an earlier one it condemns. Is that inconsistent behavior?
+
+:::answer One way to reason it through
+It can be politically useful: condemn a predecessor's rule while retaining workable tools of taxation, law, or administration. Dynastic legitimacy and institutional continuity answer different questions. A change of ruling house need not mean the state is rebuilt from scratch.
+:::
 :::
 
 ## Summary

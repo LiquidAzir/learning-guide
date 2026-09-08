@@ -4,7 +4,7 @@ subtitle: The derivative. What speed really means, why the top of a hill is wher
 part: III · Change and Chance
 ---
 
-## Recap
+## How do you measure change at an instant?
 
 Chapter 6 asked what kind of function you are looking at. Calculus asks how fast it is changing at a given instant, and that question, which sounds simple, took two thousand years to answer properly. Once answered, it made physics possible, and it now sits inside every optimization, from a delivery route to the training of a neural network. This chapter is the first half of calculus; chapter 8 is the second half and the surprise that connects them.
 
@@ -56,7 +56,7 @@ Here is the payoff, and it is the reason calculus is taught to millions who will
 
 *Example.* You have 100 m of fence for a rectangular pen against a barn wall (so only three sides need fencing). Width $w$, length $l$, with $2w + l = 100$, so $l = 100 - 2w$. Area $A = wl = w(100 - 2w) = 100w - 2w^2$. Then $A' = 100 - 4w = 0$ gives $w = 25$, $l = 50$, area 1,250 m². The second derivative is $-4$, negative, so it is a maximum. Any other split, say 20 by 60, gives less (1,200).
 
-*Example 2.* A can must hold 500 ml. What proportions use the least metal? Volume $\pi r^2 h = 500$ gives $h = 500/\pi r^2$. Surface $S = 2\pi r^2 + 2\pi r h = 2\pi r^2 + 1000/r$. Then $S' = 4\pi r - 1000/r^2 = 0$; multiply through by $r^2$ to get $r^3 = 1000/4\pi$, so $r \approx 4.30$ cm. Then $h = 500/\pi r^2 = 500 / (\pi \cdot 1000/4\pi) \cdot 1/r = 2r \approx 8.60$ cm: height equals diameter. Real cans are taller because the top and bottom are thicker metal, and because that shape is easier to hold, which is a reminder that the mathematics optimizes what you told it to.
+*Example 2.* A can must hold 500 ml. What proportions use the least metal? Volume $\pi r^2 h = 500$ gives $h = 500/\pi r^2$. Surface $S = 2\pi r^2 + 2\pi r h = 2\pi r^2 + 1000/r$. Then $S' = 4\pi r - 1000/r^2 = 0$; multiply through by $r^2$ to get $r^3 = 1000/4\pi$, so $r \approx 4.30$ cm. Since $r^3 = 250/\pi$, we have $500 = 2\pi r^3$. Substituting into the volume equation gives $h = 500/(\pi r^2) = 2\pi r^3/(\pi r^2) = 2r \approx 8.60$ cm: height equals diameter. Real cans are taller because the top and bottom are thicker metal, and because that shape is easier to hold, which is a reminder that the mathematics optimizes what you told it to.
 :::
 
 This procedure is the engine inside a staggering range of things: the shape of a soap bubble, the route a light ray takes, the price that maximizes profit, the design of a wing, and the training of every neural network, which is nothing but finding the minimum of an error function of billions of variables by walking downhill along the derivative, a method called **gradient descent** that chapter 11 describes.[^4]
@@ -97,6 +97,14 @@ The Bishop of Cloyne, George Berkeley, objected in 1734 that the whole method re
 - The chain rule handles functions inside functions and is the rule people forget.
 - A differential equation says how a quantity changes; exponentials are the solution whenever the rate is proportional to the amount.
 - The derivative tells you the rate now, not later. Watch the second derivative.
+:::
+
+:::try Put the idea to work
+For f(x) = x², the derivative at x = 3 is 6. Use it to estimate 3.1², then compare with the exact result. Why are they different?
+
+:::answer Show the reasoning
+The change in x is 0.1, so the tangent estimate is 9 + 6 × 0.1 = 9.6. The exact square is 9.61. The derivative gives the local linear change; curvature contributes the extra 0.01. A derivative is not a promise that the tangent line stays exact away from the point.
+:::
 :::
 
 ## Summary

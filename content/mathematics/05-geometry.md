@@ -4,7 +4,7 @@ subtitle: Shapes, areas, volumes, angles, and the triangle trick that measures a
 part: II · The Core Toolkit
 ---
 
-## Recap
+## How can you measure a distance you cannot reach?
 
 Chapter 3 described Euclid's *Elements*, the book that made geometry the model of proof. This chapter is about what geometry lets you *do*: compute the area of a floor, the volume of a tank, the height of a tree from its shadow, the distance across a river. Then it turns to trigonometry, the mathematics of triangles, which is the tool behind surveying, navigation, and every wave in physics. The chapter ends with the nineteenth-century discovery that changed what geometry means.
 
@@ -61,7 +61,9 @@ The Babylonians knew it, the Chinese knew it, and Euclid proved it as Propositio
 2. If you want the hypotenuse: square the legs, add, take the root.
 3. If you want a leg: square the hypotenuse, subtract the square of the known leg, take the root.
 
-*Example.* A ladder 5 m long leans against a wall with its foot 1.5 m out. How high does it reach? $h = \sqrt{5^2 - 1.5^2} = \sqrt{25 - 2.25} = \sqrt{22.75} \approx 4.77$ m. And a TV advertised as 65 inches (the diagonal) with a 16:9 shape is about 56.7 inches wide and 31.9 high, found by setting width $= 16k$, height $= 9k$, and solving $(16k)^2 + (9k)^2 = 65^2$: $337k^2 = 4225$, so $k = 3.54$.
+*Example.* A ladder 5 m long leans against a wall with its foot 1.5 m out. How high does it reach? First find $h^2 = 5^2 - 1.5^2 = 25 - 2.25 = 22.75$. Then take the square root: $h = \sqrt{22.75} \approx 4.77$ m.
+
+*Another use.* A TV advertised as 65 inches (the diagonal) with a 16:9 shape is about 56.7 inches wide and 31.9 high. Set width $= 16k$ and height $= 9k$, then solve $(16k)^2 + (9k)^2 = 65^2$: $337k^2 = 4225$, so $k = 3.54$.
 :::
 
 Some triples of whole numbers satisfy the equation exactly: 3-4-5, 5-12-13, 8-15-17. Builders have used 3-4-5 to lay out right angles for four thousand years, with a knotted rope. Whether the equation $a^n + b^n = c^n$ has whole-number solutions for any power higher than 2 was Fermat's question of 1637; the answer, no, took until 1995 (chapter 16).
@@ -105,7 +107,9 @@ Now the angle can be anything. At 90° the point is straight up, so $\sin 90^\ci
 |---|---|---|---|---|---|
 | $\sin$ | 0 | $\tfrac{1}{2}$ | $\tfrac{\sqrt2}{2} \approx 0.707$ | $\tfrac{\sqrt3}{2} \approx 0.866$ | 1 |
 | $\cos$ | 1 | $\tfrac{\sqrt3}{2}$ | $\tfrac{\sqrt2}{2}$ | $\tfrac{1}{2}$ | 0 |
-| $\tan$ | 0 | $\tfrac{1}{\sqrt3} \approx 0.577$ | 1 | $\sqrt3 \approx 1.732$ | undefined | Every periodic phenomenon, sound, light, tides, alternating current, the seasons, is described by sines and cosines, because every rotation seen from the side is a sine wave.[^6] Pythagoras applied to the unit circle gives the identity that every trigonometric fact descends from: $\sin^2\theta + \cos^2\theta = 1$.
+| $\tan$ | 0 | $\tfrac{1}{\sqrt3} \approx 0.577$ | 1 | $\sqrt3 \approx 1.732$ | undefined |
+
+A point moving around a circle at constant speed traces a sine wave when viewed from the side. More complicated repeating signals, including sounds and tides, can be analyzed as combinations of sines and cosines.[^6] Applying Pythagoras to the unit circle gives a central trigonometric identity: $\sin^2\theta + \cos^2\theta = 1$.
 
 ## Any triangle
 
@@ -114,7 +118,7 @@ Most triangles are not right triangles. Two laws handle the rest. The **law of s
 :::howto Finding a distance you cannot walk
 You stand on a riverbank at point $A$; a tree on the far bank is at $C$. Walk 80 m along your bank to $B$. From $A$ the tree is at 90° to your path; from $B$ it is at 62°.
 1. The triangle $ABC$ has a right angle at $A$, so $\tan 62° = AC / 80$ and $AC = 80 \tan 62° \approx 80 \times 1.881 = 150$ m. That is the river's width.
-2. If the angle at $A$ were not a right angle, use the law of cosines. Two roads leave a junction at 40° to each other; you drive 3 km along one and a friend 5 km along the other. Distance between you: $d^2 = 3^2 + 5^2 - 2(3)(5)\cos 40° = 9 + 25 - 22.98 = 11.02$, so $d \approx 3.3$ km.
+2. If the angle at $A$ were not a right angle, use the law of cosines. Two roads leave a junction at 40° to each other; you drive 3 km along one and a friend 5 km along the other. Distance between you: $d^2 = 3^2 + 5^2 - 2(3)(5)\cos 40°$. Numerically, $d^2 = 9 + 25 - 22.98 = 11.02$, so $d \approx 3.3$ km.
 :::
 
 ## Coordinates, and the geometry of curves
@@ -135,6 +139,14 @@ The discovery meant that Euclid's axioms were not truths about space but *choice
 - SOH-CAH-TOA: one side and one angle fix a right triangle. Inverse functions give the angle from the ratio. Check the calculator is in degree mode.
 - $\sin^2\theta + \cos^2\theta = 1$. Rotation seen from the side is a sine wave.
 - Euclid's geometry is one of several consistent ones. Which describes space is a question for experiment.
+:::
+
+:::try Put the idea to work
+At a 45° angle of elevation, a building's top is seen from 20 m away horizontally. How far above your eye level is the top? What must you add to get the building's height?
+
+:::answer Show the reasoning
+Since tan 45° = 1, the height above eye level equals the horizontal distance: 20 m. Add the observer's eye height if the observer and the building stand on the same level ground. The diagram and reference level matter as much as the trigonometric calculation.
+:::
 :::
 
 ## Summary

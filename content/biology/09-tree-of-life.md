@@ -4,7 +4,7 @@ subtitle: Four billion years in one chapter. Three domains, five mass extinction
 part: III · Inheritance and Evolution
 ---
 
-## Recap
+## What does a family tree of life explain?
 
 Chapter 8 gave the mechanism. This chapter is the result: what has actually lived, in what order, and how the whole of it is related. It is biology's history chapter, and it ends with us.
 
@@ -80,6 +80,14 @@ What made the difference is argued. Bipedalism freed the hands; tool use and mea
 
 :::key
 The tree of life is mostly microbial, mostly single-celled for most of its history, and mostly not visible. Complex life is a late, contingent development that depended on an oxygen atmosphere made by bacteria, a merger of two cells that happened once, and at least five near-annihilations that cleared the field for whatever survived. Humans are one twig on one branch, three hundred thousand years old on a four-billion-year tree, and the branch we sit on exists because an asteroid hit the Yucatán.
+:::
+
+:::try Put the idea to work
+Two living species share a recent common ancestor. Does that mean one of those living species evolved from the other?
+
+:::answer Show the reasoning
+No. Both descend from ancestral populations and have continued evolving. A branching tree represents shared ancestry, not a ladder from “primitive” living species to “advanced” ones. Their shared traits may reflect inheritance, while differences arose along their separate branches.
+:::
 :::
 
 ## Summary

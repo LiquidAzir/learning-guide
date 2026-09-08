@@ -4,7 +4,7 @@ subtitle: Prices as a knowledge system, who gains from trade, what taxes and pri
 part: II · History and Markets
 ---
 
-## Recap
+## Who really pays when a tax is introduced?
 
 Smith claimed that self-interest under competition serves the public; the marginalists located value in the buyer's mind; Marshall drew the supply-and-demand diagram. This chapter takes the diagram seriously and asks what markets actually accomplish, how to measure it, and what happens when you interfere.
 
@@ -89,6 +89,14 @@ Two further cautions. Pareto efficiency says nothing about fairness: an economy 
 ## What planning tried and learned
 
 The twentieth century ran the experiment. From 1928 the Soviet Union replaced prices with plans, setting output targets for every factory. It industrialized fast, at enormous human cost, and then stagnated. Managers met quotas by weight (heavy nails), by count (tiny nails), or by falsifying reports; shortages of some goods coexisted with warehouses of others; innovation had no channel to spread. By the 1980s Soviet income per person was perhaps a third of the American level and falling behind (Western intelligence estimates at the time put it nearer half; they were later judged too generous).[^7] China's turn toward markets after 1978 produced the fastest sustained growth in history (chapter 10). The point is not that planning cannot work at all; wartime economies and large corporations plan extensively. It is that nobody has found a substitute for prices as a way of discovering what things are worth.
+
+:::try Put the idea to work
+A sales tax is legally collected from sellers. Buyers have few substitutes; sellers can switch to other products easily. Which side is likely to bear more of the economic burden?
+
+:::answer Show the reasoning
+Buyers, because their demand is relatively less elastic than supply. Prices paid by buyers can rise while sellers adjust what they supply. The legal duty to remit a tax does not determine its economic incidence; the ability of each side to change behavior matters.
+:::
+:::
 
 ## Summary
 

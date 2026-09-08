@@ -4,7 +4,7 @@ subtitle: What nobody knows, what the leading ideas are, and how to tell a live 
 part: V · The Edge
 ---
 
-## Recap
+## How do you judge a claim at the edge of physics?
 
 You now have the whole map: mechanics, thermodynamics, electromagnetism, relativity, quantum mechanics, the Standard Model, condensed matter, and cosmology. This chapter walks the edge of that map. Each section states a problem precisely, explains why it is hard, and describes the leading attempts. None of these problems has an accepted solution. Anyone who tells you otherwise is selling something.
 
@@ -70,10 +70,18 @@ A field guide, from the material above:
 2. **Ask who else has seen it.** One lab is a claim; independent replication is a result. Room-temperature superconductivity died here, and so did the 7-sigma W-mass anomaly once a second experiment measured the Standard Model value.
 3. **Distinguish "consistent with" from "detected."** Most theoretical results are the former.
 4. **Ask what it would take to be wrong.** A theory that cannot fail is not yet physics. This is the serious objection to some multiverse and string-landscape ideas.
-5. **Check the Latest Research list** in this guide, where each result carries a status: confirmed, preliminary, disputed, or retracted.
+5. **Check the Latest Research list** in this guide, where each result carries a status: reported, preliminary, disputed, or retracted.
 
 :::key
 The open questions are not signs of a field in trouble. They are the normal condition of a science that is honest about its edges. In 1900 Lord Kelvin gave a lecture on the "two clouds" hanging over physics: the failure to detect the Earth's motion through the ether (the Michelson–Morley result) and the failure of Maxwell and Boltzmann's statistics to predict the heat capacities of gases.[^18] Those two clouds became relativity and quantum mechanics. Today's clouds are bigger, and it is reasonable to expect that whatever resolves them will look as strange to us as quantum mechanics did to Kelvin.
+:::
+
+:::try Put the idea to work
+Two independent instruments report a similar anomaly. What should you ask before calling it a new law of nature?
+
+:::answer Show the reasoning
+Ask whether they share calibration assumptions, analysis methods, or a background model that could produce the same error. Check the uncertainty, the number of comparisons made, and whether a new theory predicts other testable effects. Agreement strengthens a claim only to the extent that the evidence is independent.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: How one cell becomes a body with no blueprint and no builder, and why 
 part: V · Systems
 ---
 
-## Recap
+## How do cells with similar DNA become different tissues?
 
 Chapter 7 covered how genes pass between generations. This chapter covers what they do in one lifetime: build an organism from a single cell, run it, and lose the ability to maintain it. Development and aging are treated together because the second is increasingly understood as the failure of the maintenance programs the first installs.
 
@@ -46,6 +46,14 @@ Development works without a blueprint because cells read local signals and inter
 
 :::story The worm that lived twice as long
 In 1988 Thomas Johnson reported that a mutation in a single gene, *age-1*, extended the life of the roundworm *C. elegans* by 65 percent. The result was hard to believe: aging was supposed to be the accumulation of a thousand kinds of wear, not something a single gene could govern. In 1993 Cynthia Kenyon's laboratory found that mutating another single gene, *daf-2*, doubled the worm's lifespan, and that the long-lived worms were not merely surviving but remained active and youthful.[^10] *daf-2* turned out to encode a receptor for insulin-like signals, and the pathway is present, doing related things, in flies, mice, and humans, where variants in it are enriched among centenarians. Aging, it emerged, is regulated rather than merely suffered, which is why the field became a field. What has not followed, thirty years on, is a human treatment, and the distance between "regulated in a worm" and "modifiable in a person" is the honest summary of longevity science.
+:::
+
+:::try Put the idea to work
+A neuron and a muscle cell largely share the same genome. What can make them so different?
+
+:::answer Show the reasoning
+They express different combinations of genes and maintain different regulatory states. Signals, transcription factors, and chromatin help establish those patterns during development. Having a gene in the genome is different from using it at a particular time and level.
+:::
 :::
 
 ## Summary

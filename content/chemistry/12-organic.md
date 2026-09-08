@@ -4,7 +4,7 @@ subtitle: One element makes more compounds than all the others combined. Organic
 part: V · The Elements at Work
 ---
 
-## Recap
+## Why does carbon support so many different molecules?
 
 You now have bonding, shapes, energy, rates, and equilibrium. **Organic chemistry**, the chemistry of carbon compounds, is where all of them are applied at once to the largest family of molecules there is: the great majority of known compounds contain carbon, and nearly everything in a living cell, a pharmacy, or a plastics factory is organic.[^15]
 
@@ -82,6 +82,14 @@ The field's recent turn is toward reactions that are reliable, simple, and selec
 
 :::frontier
 The number of possible small drug-like molecules has been estimated at $10^{60}$; all of chemistry has made perhaps $10^{8}$.[^14] Exploring that space is now partly automated: robots run reactions around the clock, machine-learning models propose syntheses, and language-model agents have planned and executed real experiments. What has not been automated is deciding which molecules are worth making. Meanwhile the field's biggest open problem is arguably its oldest product: hundreds of millions of tonnes a year of plastics that were designed to be durable and are, with chemical recycling and plastic-eating enzymes among the responses.
+:::
+
+:::try Put the idea to work
+Two compounds have the same molecular formula. What information is still missing before you can expect the same smell, reactivity, or biological effect?
+
+:::answer Show the reasoning
+You need the connections between atoms and their arrangement in space. Structural isomers connect atoms differently; stereoisomers differ in spatial arrangement. A formula is an inventory, not a complete structure, and receptors and reactions can distinguish those structures.
+:::
 :::
 
 ## Summary

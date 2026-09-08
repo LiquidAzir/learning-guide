@@ -4,7 +4,7 @@ subtitle: Where the power comes from. Sunlight into sugar, sugar into ATP, and t
 part: II · The Cell and Its Chemistry
 ---
 
-## Recap
+## How does a cell make energy usable?
 
 Chapter 4 introduced ATP as the cell's energy currency and enzymes as the machinery. This chapter is about the two great processes that make and spend the currency: **photosynthesis**, which captures sunlight into sugar, and **respiration**, which burns sugar back to make ATP. Between them they move nearly all the energy in the living world, and they are, at the molecular level, the same machinery run in opposite directions.
 
@@ -55,6 +55,14 @@ A food **calorie** (properly a kilocalorie, 4.18 kilojoules) is the energy relea
 
 :::story Mitchell's barn
 Peter Mitchell proposed in 1961 that mitochondria made ATP not by a chemical intermediate, as everyone assumed, but by pumping protons across a membrane and letting them flow back: energy stored as a gradient, like water behind a dam. The idea was so foreign to biochemists, who thought in terms of molecules reacting, that it was largely dismissed; Mitchell, in poor health, left academia in 1963, restored a manor house in Cornwall with his own money, set up a private laboratory in it, where he and Jennifer Moyle spent fifteen years accumulating the evidence.[^9] By the mid-1970s the field had come round; he won the Nobel Prize in Chemistry in 1978, alone. The story is told to students as a lesson in persistence. It is also a lesson in how a correct idea can be invisible to a whole discipline because it is stated in the wrong vocabulary: Mitchell was talking physics to chemists.
+:::
+
+:::try Put the idea to work
+A cell couples an unfavorable reaction to ATP hydrolysis. Does breaking ATP's bond, by itself, explain the energy release?
+
+:::answer Show the reasoning
+Breaking a bond costs energy. The net free-energy change includes the entire reaction: bonds broken and formed, interactions with water, and the conditions in the cell. Coupling works when the combined process has a favorable free-energy change, not because one bond releases energy merely by breaking.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: The halting problem, proved in four lines; why almost every function i
 part: I · Foundations
 ---
 
-## Recap
+## Why are some precise questions impossible to automate fully?
 
 Chapter 5 defined computation and showed that one universal machine can run any program. This chapter uses that fact against itself. The results here are not about today's computers being too slow. They hold for every machine that will ever be built, of any speed, running for any length of time.
 
@@ -85,12 +85,20 @@ The next question is not what is possible but what is affordable, and that is ch
 
 The exact value of $BB(6)$, and whether it is knowable within standard mathematics at all: $BB(748)$ has been shown to be independent of the usual axioms of set theory, so somewhere between 6 and 748 the function passes out of mathematics as we have it. Whether the many undecidable problems in verification admit restrictions broad enough to cover the code people actually write. And whether large learned models, which are pattern matchers rather than deciders, change the practical picture even though they change nothing about the theory.
 
+:::try Put the idea to work
+A program-analysis tool sometimes answers “unknown.” Does that alone make it badly designed?
+
+:::answer Show the reasoning
+No. For an undecidable property over unrestricted programs, a tool cannot always terminate with a correct yes-or-no answer. “Unknown” can be an honest way to preserve correctness where the analysis cannot conclude. Judge the guarantees and the supported cases, rather than expecting a universal decision procedure.
+:::
+:::
+
 ## Summary
 
 - No program can decide, for arbitrary programs and inputs, whether they halt; the proof builds a program that must do the opposite of whatever the decider predicts.
 - There are countably many programs and uncountably many functions, so almost every function is uncomputable.
 - Rice's theorem generalizes: every non-trivial property of a program's behaviour is undecidable, including "is this a virus."
-- Undecidability is not about difficulty; it forbids one procedure that is always correct, always terminating, and always conclusive, so every real tool gives up exactly one of the three.
+- Undecidability is not about difficulty; it forbids one procedure that is always correct, always terminating, and always conclusive, so a tool tackling the unrestricted problem must give up at least one of the three, or restrict the cases it handles.
 - Practical responses: analysers that answer "don't know," deliberately weakened languages, and proof assistants that check human-supplied proofs, as used for seL4 and CompCert.
 - The busy beaver function grows faster than anything computable; $BB(5) = 47{,}176{,}870$ was settled and machine-checked in 2024, and $BB(6)$ is beyond ordinary notation.
 

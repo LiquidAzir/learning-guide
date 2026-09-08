@@ -4,7 +4,7 @@ subtitle: Primes, remainders, and the "useless" mathematics that now protects ev
 part: IV · Structure
 ---
 
-## Recap
+## Why do whole numbers hide such difficult patterns?
 
 Chapter 2 built the number system; this chapter studies the whole numbers themselves, which turn out to be far stranger than they look. **Number theory** was for two thousand years the purest of pure mathematics, prized precisely because it had no applications; Gauss called it the queen of mathematics, and Hardy in 1940 boasted that no one had found a warlike use for it.[^1] Within forty years of Hardy's remark it had become the foundation of internet security. This chapter explains the ideas and how they came to guard your bank account.
 
@@ -100,6 +100,14 @@ Number theory is where the most celebrated problems live, because its questions 
 - Modular arithmetic is clock arithmetic; it gives weekday calculations, check digits, and the last digits of huge powers.
 - RSA: multiplying two primes is easy, factoring their product is not. That gap is the internet's security.
 - Quantum computers would close the gap; post-quantum standards exist and are being deployed.
+:::
+
+:::try Put the idea to work
+A clock shows 10 and you advance it by 5 hours. Explain the result using modular arithmetic. What information has the clock discarded?
+
+:::answer Show the reasoning
+On a 12-hour clock, 10 + 5 = 15 has remainder 3 modulo 12, so the display shows 3. The display discards the number of complete 12-hour cycles. Modular arithmetic groups numbers that differ by a multiple of the modulus; it does not claim ordinary 15 equals ordinary 3.
+:::
 :::
 
 ## Summary

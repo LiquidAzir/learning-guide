@@ -4,7 +4,7 @@ subtitle: 27 BCE to 235 CE. Sixty million people, one government, two centuries 
 part: II · Ancient History
 ---
 
-## Recap
+## How did Rome turn conquest into a durable imperial system?
 
 Augustus ended the republic in 27 BCE while pretending not to. This chapter is about the empire he founded at its height, the two and a half centuries historians call the **Principate**, from *princeps*, "first citizen," the title Augustus preferred to king. It is less about emperors, who are the least representative Romans, than about the empire as a system: how it was governed, who lived in it, what it built, and the two things born in it, Roman law and Christianity, that outlasted it by two thousand years.
 
@@ -61,6 +61,14 @@ The Roman empire governed a quarter of humanity for two centuries with a few tho
 - 122: Hadrian's Wall begun.
 - 161–180: Marcus Aurelius; the Antonine plague from 165.
 - 212: Caracalla grants citizenship to all free inhabitants.
+:::
+
+:::try Put the idea to work
+A Roman road connects a province to an imperial center. Give two benefits and two forms of control the same road could support.
+
+:::answer One way to reason it through
+It could facilitate trade and travel, while also moving troops and tax collections. Infrastructure can serve residents and imperial power at once. Its existence does not by itself settle whether rule was welcomed; local costs, coercion, and access to its benefits still matter.
+:::
 :::
 
 ## Summary

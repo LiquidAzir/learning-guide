@@ -4,7 +4,7 @@ subtitle: Predict the next word, on the whole internet, with a network the size 
 part: IV · Large Language Models
 ---
 
-## Recap
+## Why does making a model larger sometimes change what it can do?
 
 Chapter 15 gave the architecture. This chapter gives it data and compute, and describes the most consequential empirical discovery of the last decade: that a transformer trained on nothing but next-word prediction improves smoothly and predictably as it grows, with no ceiling yet found, and appears to acquire abilities nobody trained it for.
 
@@ -21,7 +21,7 @@ Tokenization is why models are oddly bad at spelling and counting letters (they 
 That is all. The objective is the autoregressive factorization of chapter 13: maximize the probability the model assigns to the text that actually exists. It is self-supervised (chapter 7): the labels are the text itself, so every byte of writing humans have produced is training data. The resulting **base model** is a probability distribution over text. Given any prefix, it produces a distribution over what comes next that reflects, in enormous statistical detail, how humans write.
 
 :::key
-Why does predicting the next word produce something that can translate, summarize, code, and answer questions? Because predicting text well *requires* those abilities. To predict the next word of "The capital of Australia is," the model must know it is Canberra. To predict the next line of a Python function, it must understand the function. To predict a character's next line in a novel, it must model the character's beliefs. The training objective is trivial to state; achieving low loss on it demands a compressed model of everything in the text, including the world the text is about. Prediction is a proxy for understanding, and at scale the proxy became good enough to be useful.[^3]
+Why can next-token prediction support translation, summarization, coding, and question answering? Text contains patterns about language and the world, so learning to predict it can reward useful representations of both. Predicting “The capital of Australia is” might draw on a memorized association; continuing a new program may require tracking more complex relationships. One influential view is that sufficiently good prediction encourages an internal model of the world.[^3] How far that model amounts to understanding, and when it fails to generalize, remain questions we take up in chapter 19.
 :::
 
 The cost is staggering. A frontier pretraining run in 2025 used on the order of $10^{26}$ floating-point operations, tens of thousands of GPUs running for months, tens of trillions of tokens, and, by public estimates, hundreds of millions of dollars in compute alone; the electricity for one run rivals a small city's annual use.[^4] Chapter 21 takes up what that concentration of resources means.
@@ -84,6 +84,14 @@ The scaling laws describe loss on the training distribution. They do not say the
 - In-context learning and chain-of-thought appeared with scale; whether abilities "emerge" discontinuously or improve smoothly under coarse metrics is debated.
 - Pretraining data is running out; the newest gains come from inference-time compute and reinforcement learning, not bigger pretraining alone.
 - Scaling improves prediction, not truthfulness or alignment. Those are added after.
+:::
+
+:::try Put the idea to work
+A larger model has lower average prediction loss. Does that guarantee it is more reliable on a particular task your team cares about?
+
+:::answer Show the reasoning
+No. An average over training-like data can hide weaknesses on a narrow domain, rare case, or changed environment. Scaling trends motivate a prediction, but task-specific evaluation tests it. Cost, latency, and failure severity can also change which model is useful.
+:::
 :::
 
 ## Summary

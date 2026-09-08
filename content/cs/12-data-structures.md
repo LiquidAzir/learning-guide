@@ -4,13 +4,13 @@ subtitle: How you arrange the data decides what is cheap and what is ruinous. Ar
 part: III · Methods
 ---
 
-## Recap
+## How do you choose where to put the data?
 
 Part II built a machine. Part III is about using it well, and this chapter comes first because the choice of data structure usually determines the algorithm, rather than the other way round. A **data structure** is a way of arranging data so that certain operations are cheap, and every one of them is a trade: making one operation fast makes another slow.
 
 ## Notation, briefly
 
-Costs are written with **big-O notation**, which describes how the work grows with the size of the input, $n$, ignoring constant factors. $O(1)$ means the cost does not depend on $n$; $O(\log n)$ means it grows like the number of times you can halve $n$, so a billion items cost about thirty steps; $O(n)$ is proportional; $O(n \log n)$ is a little worse; $O(n^2)$ means a hundredfold more data costs ten thousand times more work. Chapter 13 defines this properly. For now: the letter under the O is what matters at scale, and the constant that big-O throws away is what matters at small scale, which is why this chapter keeps mentioning the cache.
+Costs are written with **big-O notation**, which describes how the work grows with the size of the input, $n$, ignoring constant factors. $O(1)$ means the cost does not depend on $n$; $O(\log n)$ means it grows like the number of times you can halve $n$, so a billion items cost about thirty steps; $O(n)$ is proportional; $O(n \log n)$ is a little worse; $O(n^2)$ means a hundredfold more data costs ten thousand times more work. Chapter 14 defines this properly. For now: the letter under the O is what matters at scale, and the constant that big-O throws away is what matters at small scale, which is why this chapter keeps mentioning the cache.
 
 ## The two ways to store a sequence
 
@@ -86,6 +86,14 @@ Choosing a data structure is choosing which operation you want to be cheap. Hash
 ## What we still argue about
 
 How much the theoretical analysis is worth when cache behaviour dominates, and whether the standard cost model should be replaced by one that charges for memory hierarchy (cache-oblivious structures, which are asymptotically optimal at every level of a hierarchy without knowing its parameters, are the elegant answer and are not widely used). Whether learned index structures, which train a small model to predict where a key sits instead of navigating a tree, are a real advance or a special case. And how to make concurrent data structures, where several threads read and write at once, both correct and fast, which is chapter 15's problem.
+
+:::try Put the idea to work
+You need frequent lookup by customer ID and occasional sorted reports. Is one data structure automatically best for both jobs?
+
+:::answer Show the reasoning
+No. A hash table can make ordinary key lookup fast, while an ordered structure supports sorted traversal and range queries. Sorting on demand or maintaining an extra index may be worthwhile. The choice depends on the workload, memory, update costs, and required guarantees.
+:::
+:::
 
 ## Summary
 

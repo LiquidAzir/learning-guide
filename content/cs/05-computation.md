@@ -4,7 +4,7 @@ subtitle: A machine made of paper: states, a tape, and a table of rules. Why thr
 part: I · Foundations
 ---
 
-## Recap
+## What makes a procedure a computation?
 
 Chapter 4 measured information. Now we need to be exact about processing it. This chapter defines computation without reference to any hardware, which is what lets chapter 6 prove that certain things are impossible for every computer that will ever exist.
 
@@ -74,7 +74,7 @@ Add a single stack and you get a **pushdown automaton**, which can match bracket
 | Turing machine | unbounded tape | recursively enumerable languages | everything computable |
 
 :::try Think about it
-Design a finite automaton for a turnstile that takes a coin: it has two states, locked and unlocked, and two inputs, coin and push. Write out all four transitions. Then try to add "let the third person through free," and notice that you need a new state for every count, which is the exact reason finite automata cannot count without a bound.
+Design a turnstile with two states, locked and unlocked, and two inputs, coin and push. Write its four transitions. Then add “every third admission is free.” A repeating count of zero, one, or two admissions since the last free entry is finite, so extra states can handle it. Compare that with checking arbitrarily deep nested parentheses: each open parenthesis creates an obligation to match a later close, and no fixed number of states can track an unbounded number of those obligations.
 :::
 
 ## What "computable" means
@@ -86,6 +86,14 @@ That gap between deciding and recognizing looks like a technicality. Chapter 6 s
 ## What we still argue about
 
 Whether the Church–Turing thesis holds as a claim about *physics*, that no physically constructible device can compute a non-computable function; proposed counterexamples all require infinite precision, infinite time, or exotic spacetimes. Whether the model's charge of one step per operation, which ignores that real memory access costs more the further away it is, distorts the theory of what is efficient (chapter 8 shows the gap is a factor of hundreds in practice). And whether analogue and biological systems compute in a sense the model misses, or merely compute the same things with different engineering.
+
+:::try Put the idea to work
+Could a finite-state machine give every third visitor free entry? Could it recognize arbitrarily deep balanced parentheses using only a fixed number of states?
+
+:::answer Show the reasoning
+The repeating visitor rule needs only a finite count cycle, combined with the gate's other states. Arbitrarily nested parentheses require remembering an unbounded nesting depth, so a fixed finite-state machine cannot recognize all such strings. Repeating a bounded count differs from storing an unbounded count.
+:::
+:::
 
 ## Summary
 

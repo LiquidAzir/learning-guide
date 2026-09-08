@@ -4,7 +4,7 @@ subtitle: Four kinds of molecule, one solvent, and a way of paying for order. Bi
 part: V · The Elements at Work
 ---
 
-## Recap
+## How does chemistry become the machinery of life?
 
 Every rule so far applies inside a living cell: bonds, intermolecular forces, redox, free energy, catalysis, equilibrium, organic mechanisms. What makes **biochemistry** special is not different chemistry but different organization. A cell runs thousands of reactions at once, in water, at one temperature, each one controlled by a catalyst built to order. This chapter shows how.
 
@@ -64,6 +64,14 @@ Three recent technologies show biochemistry turning into engineering. **mRNA vac
 
 :::frontier
 The frontier of biochemistry is construction. Can we design enzymes for reactions nature never invented? (Yes, increasingly.) Can we build a minimal cell from defined chemicals? (A synthetic genome has run a bacterial cell since 2010; a cell from scratch has not been made.) Can we find life's origin, or a second origin elsewhere? The Latest Research section tracks prebiotic chemistry, protein design, and the asteroid-sample results.
+:::
+
+:::try Put the idea to work
+An enzyme binds one substrate well but a similar molecule poorly. What might the analogy “a lock and key” hide?
+
+:::answer Show the reasoning
+Fit includes charge, hydrogen bonding, water, flexibility, and changes in shape during binding and reaction. An enzyme is a moving molecule, not a rigid lock. The analogy introduces specificity, but the mechanism requires interactions and the stabilization of a reaction pathway.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: 2000 to the present. China becomes the world's second economy and a pe
 part: IV · East Asian History
 ---
 
-## Recap
+## How do population change, economic power, and security shape East Asia today?
 
 Chapter 36 ended in 2000 with China entering the world economy, Japan stalled, and Korea and Taiwan democratic. This chapter takes the story to the present, with the same warning as chapter 25: these events are not over, the historian has no hindsight, and the chapter stays with what is documented, marks what is argued, and stops where history becomes news.
 
@@ -16,7 +16,7 @@ Under **Xi Jinping**, general secretary from 2012, the terms changed. He central
 
 ## The demographic turn
 
-The most consequential fact about East Asia in the 2020s may be one no policy made. All three societies are aging faster than any in history, and two are shrinking.
+One of East Asia’s most consequential changes is demographic. China, Japan, and South Korea all face aging populations and population decline, shaped by long-running changes in fertility, longevity, migration, and public policy.
 
 Japan's population peaked at 128 million in 2008 and is falling by about half a million a year; nearly 30 percent of Japanese are over sixty-five, the highest share in the world, and the fertility rate is around 1.2 children per woman, against the 2.1 needed to hold a population steady. South Korea's fertility rate, the lowest ever recorded for any country, fell to 0.72 in 2023 before a slight recovery, which means each generation is roughly a third the size of the one before; its population peaked in 2020. And China, which had enforced a **one-child policy** from 1980 to 2015 to slow its growth, found when it lifted the policy that the growth had already stopped: the population fell for the first time in 2022, and by the end of 2025 had declined for four straight years to about 1,405 million, with 7.9 million births against 11.3 million deaths and a fertility rate near 1.0.[^4] India passed China as the most populous country in 2023. The consequences, shrinking workforces, pension systems built for a pyramid supporting a column, emptying villages and schools, and, for China, the prospect of growing old before it grows rich, are the region's structural condition for the rest of the century, and no government has found a policy that changes the trend.
 
@@ -55,10 +55,18 @@ East Asia in the 2020s is the region where the twenty-first century's largest qu
 - 2024–2025: South Korea's martial-law attempt reversed; president removed.
 :::
 
+:::try Put the idea to work
+Why does an aging population not imply the same future for China, Japan, and South Korea?
+
+:::answer One way to reason it through
+Starting incomes, pension systems, migration, family arrangements, labor participation, and productivity differ. Demographic measures constrain possible futures but do not specify one policy or outcome. Compare those conditions, and keep projections distinct from events that have already occurred.
+:::
+:::
+
 ## Summary
 
 - China became the world's second economy and largest trader after 2001, moved 400 million people to cities, and under Xi Jinping recentralized power, interned Uyghurs, ended Hong Kong's autonomy, and entered open rivalry with the United States.
-- All three East Asian societies are aging faster than any in history; Japan's and South Korea's populations are falling, and China's has declined four years running to about 1.4 billion with fertility near 1.0.
+- Japan, South Korea, and China all face aging populations and population decline. The timing and policy responses differ; low fertility, longer lives, and migration together shape the pressure on workers, families, and public services.
 - Japan managed decline and began rearming; South Korea became a cultural and technological power and passed a test of its democracy in 2024–2025; North Korea built a nuclear arsenal.
 - Taiwan became a democracy with a Taiwanese identity and the world's most important semiconductor industry, beside a China that claims it; the strait is the likeliest flashpoint for great-power war.
 - The region's politics run on contested memory of the twentieth century; the Western frame for China has shifted from convergence to challenge to "peak China," and each frame has been overtaken.

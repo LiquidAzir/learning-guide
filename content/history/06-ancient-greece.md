@@ -4,7 +4,7 @@ subtitle: 800 to 338 BCE. A thousand quarrelsome towns invent citizenship, democ
 part: II · Ancient History
 ---
 
-## Recap
+## Why did Greek city-states produce both participation and exclusion?
 
 Chapter 5 left the Greeks on the edge of the Persian empire, having just adopted the alphabet. This chapter is about what they did with it and with the two centuries of freedom from imperial control that geography gave them. It is the most written-about period in ancient history, and the reason is not that Greeks were cleverer than Babylonians but that they wrote about themselves, argued in public, and left the arguments for us to read.
 
@@ -60,6 +60,14 @@ Athens is the most consequential small town in history, and the reason is not an
 - 431–404 BCE: the Peloponnesian War.
 - 399 BCE: Socrates executed.
 - 338 BCE: Chaeronea; Macedon dominates Greece.
+:::
+
+:::try Put the idea to work
+Athens allowed citizens to debate public policy. Why is “everyone had a voice” still misleading?
+
+:::answer One way to reason it through
+Citizenship excluded women, enslaved people, and resident foreigners from formal political participation. The institutions expanded direct participation for a defined group, not for every resident. Describing both the innovation and its boundaries gives a clearer account than simply applying a modern label.
+:::
 :::
 
 ## Summary

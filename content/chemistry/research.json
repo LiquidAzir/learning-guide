@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-01",
-  "note": "Each entry was checked against a live page on the date in its 'verified' field. Add new entries anywhere; the app sorts by date. Keep 'status' honest: confirmed, preliminary, disputed, or retracted. 'chapter' must match a chapter file slug (filename without the number prefix).",
+  "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
       "id": "nobel-chemistry-2022-click",
@@ -15,8 +15,10 @@
       "topic": "prizes",
       "chapter": "organic",
       "summary": "The prize honoured click chemistry, a design philosophy for reactions that snap two building blocks together quickly, in high yield, in water, and with no unwanted by-products. Meldal and Sharpless independently found the archetypal reaction, a copper-catalysed joining of an azide and an alkyne. Bertozzi then developed copper-free versions that run harmlessly inside living organisms, letting chemists label and track molecules in cells.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The 2022 Nobel honors click chemistry and reactions inside living systems",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-chemistry-2023-quantum-dots",
@@ -31,8 +33,10 @@
       "topic": "prizes",
       "chapter": "materials",
       "summary": "The prize recognised the discovery and synthesis of quantum dots, crystals only a few nanometres wide whose colour depends on their size rather than their composition, because squeezing an electron into a smaller space raises the energy of the light it emits. Ekimov saw the effect in coloured glass in 1981 and Brus in free-floating particles in 1983. Bawendi's 1993 method for growing dots of uniform size made them practical, and they now light television screens and tag tumours for surgeons.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The 2023 Nobel recognizes quantum dots",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-chemistry-2024-protein-design",
@@ -47,8 +51,10 @@
       "topic": "prizes",
       "chapter": "life",
       "summary": "Half the prize went to Hassabis and Jumper for AlphaFold 2, which predicts a protein's three-dimensional shape from its amino-acid sequence with accuracy rivalling experiment, solving a problem open for fifty years. The other half went to Baker for computational protein design: building proteins that do not exist in nature, including new enzymes and vaccine components. Together they turned protein structure from something painstakingly measured into something predicted and designed.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The 2024 Nobel honors protein design and structure prediction",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-chemistry-2025-mofs",
@@ -63,8 +69,10 @@
       "topic": "prizes",
       "chapter": "materials",
       "summary": "The prize honoured metal-organic frameworks, crystals built from metal ions joined by organic linker molecules into open scaffolds that are mostly empty space. Robson showed in 1989 that such frameworks could be built deliberately, Kitagawa that gases could flow in and out of them, and Yaghi that they could be made stable and tuned by design. A single gram can have the internal surface area of a football field, which is why they are being used to capture carbon dioxide and harvest water from desert air.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The 2025 Nobel recognizes metal-organic frameworks",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-medicine-2023-mrna",
@@ -79,8 +87,10 @@
       "topic": "prizes",
       "chapter": "life",
       "summary": "Karikó and Weissman found in 2005 that swapping one of RNA's four building blocks for a slightly modified version stops the immune system from destroying the RNA on sight. That single chemical change is what made messenger RNA usable as a medicine, because unmodified RNA provoked inflammation and was cleared before it could work. It underpins the COVID-19 mRNA vaccines and the cancer vaccines now in trials.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The 2023 medicine Nobel honors discoveries behind mRNA vaccines",
+      "sourceType": "Announcement"
     },
     {
       "id": "cof-999-direct-air-capture",
@@ -95,8 +105,10 @@
       "topic": "materials-energy",
       "chapter": "materials",
       "summary": "Chemists built COF-999, a porous crystalline solid (a covalent organic framework: a sponge-like material made of light atoms linked into a repeating lattice) whose pores are lined with amine groups that grab carbon dioxide directly from ordinary outdoor air. It absorbed about 2 millimoles of carbon dioxide per gram from humid air at the 400 parts-per-million level found in the atmosphere, worked through more than 100 capture-and-release cycles, and releases the gas at only 60 degrees Celsius. That combination of capacity, durability and low regeneration heat is what direct-air-capture technology has lacked.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A porous material captures carbon dioxide directly from air",
+      "sourceType": "Journal publication"
     },
     {
       "id": "mof-303-death-valley-water-harvester",
@@ -111,8 +123,10 @@
       "topic": "materials-energy",
       "chapter": "materials",
       "summary": "A device packed with MOF-303, a metal-organic framework built from aluminium atoms and small organic linkers that soaks up water vapour even from very dry air, was field-tested in Death Valley and Berkeley. Powered only by sunlight, it delivered 210 and 285 grams of drinking water per kilogram of framework per day, roughly double earlier harvesters. It shows that porous chemistry can pull usable water out of desert air with no electricity.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A water harvester draws moisture from desert air using sunlight",
+      "sourceType": "Journal publication"
     },
     {
       "id": "constriction-susceptible-anode-solid-state-battery",
@@ -127,8 +141,10 @@
       "topic": "materials-energy",
       "chapter": "reactions",
       "summary": "Solid-state batteries replace the flammable liquid inside a battery with a solid, but lithium metal tends to grow needle-like spikes that short them out. This team found that micron-sized silicon particles pressed against the solid electrolyte react only at their surface, which forces lithium to plate as a smooth, thick layer instead of needles. Their pouch cells charged in minutes and survived thousands of cycles, a step toward safer, longer-range electric-vehicle batteries.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "An anode design tackles repeated charging in solid-state lithium batteries",
+      "sourceType": "Journal publication"
     },
     {
       "id": "catl-naxtra-sodium-ion-launch",
@@ -143,8 +159,10 @@
       "topic": "materials-energy",
       "chapter": "reactions",
       "summary": "The world's largest battery maker announced Naxtra, which it calls the first mass-produced sodium-ion battery; these cells store charge with abundant, cheap sodium instead of scarce lithium. CATL reports 175 watt-hours per kilogram, on par with the lithium iron phosphate cells used in many electric cars, more than 10,000 charge cycles, and 90 percent usable power at minus 40 degrees Celsius. In February 2026 it announced the first mass-production passenger car using the cells, marking sodium-ion's move from laboratory curiosity to product.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "CATL announces a sodium-ion battery and a combined battery architecture",
+      "sourceType": "Announcement"
     },
     {
       "id": "toughened-sam-perovskite-26-92",
@@ -159,8 +177,10 @@
       "topic": "materials-energy",
       "chapter": "materials",
       "summary": "Perovskite solar cells, made from a cheap printable crystal that absorbs light extremely well, rely on a layer one molecule thick to carry away positive charge, and that layer loosens under heat. The authors added a molecule that cross-links the layer into a dense, heat-stable film. The result was a certified 26.92 percent efficiency, among the highest ever for a single perovskite cell, with negligible loss after 1,000 hours at 85 degrees Celsius.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A stronger molecular coating helps perovskite solar cells last",
+      "sourceType": "Journal publication"
     },
     {
       "id": "acid-stable-mno2-pem-electrolysis",
@@ -175,8 +195,10 @@
       "topic": "materials-energy",
       "chapter": "kinetics",
       "summary": "Green hydrogen is made by splitting water with renewable electricity, but the best acid-tolerant catalysts need iridium, one of the rarest metals on Earth. By tuning the crystal structure of manganese oxide so its manganese-oxygen bonds resist dissolving, the team ran the oxygen-producing half of the reaction in strong acid for over a month at high current, and over 1,000 hours in a working electrolyser. It shows a cheap, abundant metal can potentially replace iridium.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Manganese oxides are tested as catalysts for acidic water electrolysis",
+      "sourceType": "Journal publication"
     },
     {
       "id": "la-mn-cobalt-spinel-pem-oer",
@@ -191,8 +213,10 @@
       "topic": "materials-energy",
       "chapter": "kinetics",
       "summary": "This work attacks the same iridium problem from another angle: a cobalt oxide catalyst doped with small amounts of lanthanum and manganese. Simulations and experiments showed the lanthanum stabilises the surface against corrosion while the manganese improves electrical conduction inside the crystal. The catalyst ran stably in an acidic electrolyser, making it a credible Earth-abundant replacement for precious-metal electrodes in hydrogen production.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A modified cobalt catalyst improves oxygen production in acidic electrolysis",
+      "sourceType": "Journal publication"
     },
     {
       "id": "continuous-flow-lithium-mediated-ammonia",
@@ -207,8 +231,10 @@
       "topic": "materials-energy",
       "chapter": "kinetics",
       "summary": "Ammonia for fertiliser is made by the Haber-Bosch process, which needs high heat and pressure and emits roughly one percent of global carbon dioxide. Here nitrogen gas is turned into ammonia at room temperature in a flowing electrochemical cell, using lithium metal deposited on the electrode to break the nitrogen triple bond and hydrogen gas on the other electrode to supply the protons. About 61 percent of the electrons went into ammonia rather than side reactions, though the energy efficiency was 13 percent, a milestone for making fertiliser from renewable electricity.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A continuous-flow process makes ammonia using electricity",
+      "sourceType": "Journal publication"
     },
     {
       "id": "dual-phase-cu-nitrate-to-ammonia",
@@ -223,8 +249,10 @@
       "topic": "materials-energy",
       "chapter": "kinetics",
       "summary": "Nitrate is a widespread water pollutant from fertiliser runoff. This copper catalyst, which mixes ordered and disordered regions in one material, converts it electrically into ammonia. It kept about 90 percent of the current going to ammonia at industrial-scale currents for 300 hours and, in a hand-sized cell, produced nearly 12 grams of ammonia an hour, turning a pollutant into a useful chemical using electricity rather than fossil fuel.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A copper catalyst converts nitrate into ammonia",
+      "sourceType": "Journal publication"
     },
     {
       "id": "alphafold-3",
@@ -239,8 +267,10 @@
       "topic": "ai-computation",
       "chapter": "life",
       "summary": "AlphaFold 3 predicts the three-dimensional shape of molecules from the sequence of their building blocks. Unlike earlier versions that handled only proteins, it predicts how proteins fit together with DNA, RNA, small drug molecules and metal ions in one shared model, beating specialist tools in each category. Knowing these shapes lets researchers work out how a drug binds its target before doing the experiment.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "AlphaFold 3 predicts how proteins interact with other molecules",
+      "sourceType": "Journal publication"
     },
     {
       "id": "gnome-materials-discovery",
@@ -256,7 +286,9 @@
       "chapter": "materials",
       "summary": "Google DeepMind trained a neural network called GNoME to guess which combinations of elements would form stable crystals, then checked the best guesses with physics calculations. The team reported 2.2 million predicted structures, about 380,000 of them classed as new and stable. Other chemists have since argued that most are minor variations on known compounds, so the headline count is contested.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "AI predicts a large collection of candidate stable materials",
+      "sourceType": "Journal publication"
     },
     {
       "id": "a-lab-autonomous-synthesis",
@@ -272,7 +304,9 @@
       "chapter": "materials",
       "summary": "The A-Lab is a robot-run laboratory that picks powder recipes, mixes and heats them, and reads the X-ray patterns of what it made, with no person at the bench. Over 17 days it reported making 41 new compounds out of 58 computer-suggested targets. Independent chemists re-examined those X-ray patterns and concluded the robot had mostly remade known materials; the paper carries an author correction and its title was changed from 'novel materials' to 'inorganic materials'.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "An automated laboratory attempts to make predicted inorganic materials",
+      "sourceType": "Journal publication"
     },
     {
       "id": "materials-ai-critique-leeman",
@@ -287,8 +321,10 @@
       "topic": "ai-computation",
       "chapter": "frontier",
       "summary": "A team of solid-state chemists went through all the compounds the Berkeley robot laboratory claimed as new and re-analysed the evidence themselves. They found the automated fitting of X-ray data unreliable and the computer predictions blind to 'disorder', where atoms of different elements share the same site at random. Their conclusion was that no genuinely new materials had been discovered, and this is the central published challenge to AI materials-discovery claims.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A critique questions claims from automated materials discovery",
+      "sourceType": "Journal publication"
     },
     {
       "id": "coscientist-llm-agent",
@@ -303,8 +339,10 @@
       "topic": "ai-computation",
       "chapter": "frontier",
       "summary": "Coscientist is a system built around a large language model that can search the web, read equipment manuals, write code and drive real robotic pipetting machines. Given a goal in plain language it planned and ran chemistry experiments, including optimising a palladium-catalysed coupling, a bond-making reaction widely used in drug manufacture. It is an early demonstration of a language model acting as a laboratory assistant rather than a text generator.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Language models coordinate laboratory work in an automated chemistry system",
+      "sourceType": "Journal publication"
     },
     {
       "id": "rfdiffusion-protein-design",
@@ -319,8 +357,10 @@
       "topic": "ai-computation",
       "chapter": "life",
       "summary": "RFdiffusion invents proteins that do not exist in nature, starting from random noise and gradually sculpting it into a sensible folded shape. The same tool can build proteins that grip a chosen target, form symmetric assemblies, or hold a catalytic site in place. The designs were made in the laboratory and checked by electron microscopy, and one designed binder for a flu virus protein matched its blueprint almost exactly.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A diffusion model designs new protein structures",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nitrogen-deletion-skeletal-editing",
@@ -335,8 +375,10 @@
       "topic": "synthesis",
       "chapter": "organic",
       "summary": "Chemists normally build molecules bond by bond, but this reaction simply removes a single nitrogen atom from the middle of a finished molecule and stitches the two neighbouring carbons together. The reagent turns the nitrogen into ordinary nitrogen gas, which bubbles away. It launched the field of skeletal editing, in which a molecule's core framework is altered directly instead of rebuilt from scratch.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Removing nitrogen edits a molecule's central structure",
+      "sourceType": "Journal publication"
     },
     {
       "id": "carbon-to-nitrogen-transmutation",
@@ -351,8 +393,10 @@
       "topic": "synthesis",
       "chapter": "organic",
       "summary": "This method swaps one carbon atom in a ring for a nitrogen atom, converting quinolines into quinazolines, two families of ring compounds common in medicines. The trick is to cut the ring open, leaving reactive ends, then close it again while a nitrogen comes in and a carbon leaves. Drug designers often want exactly this one-atom change to tune how a candidate behaves in the body.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Replacing a ring carbon with nitrogen changes a molecule's framework",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ch-arylation-free-alcohols",
@@ -367,8 +411,10 @@
       "topic": "synthesis",
       "chapter": "organic",
       "summary": "Carbon-hydrogen bonds are everywhere in organic molecules and are usually inert, so turning one specific bond into something new is hard. This work designs helper molecules for a palladium catalyst that latch onto an alcohol's OH group by hydrogen bonding, a weak attraction acting as a handle. That grip lets the catalyst reach a distant carbon-hydrogen bond and replace it, without first having to mask the alcohol.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A catalyst modifies a distant carbon bond in an alcohol",
+      "sourceType": "Journal publication"
     },
     {
       "id": "organocatalytic-alpha-ch-amines",
@@ -383,8 +429,10 @@
       "topic": "synthesis",
       "chapter": "kinetics",
       "summary": "Organocatalysis uses a small metal-free organic molecule to speed a reaction and steer it toward one mirror-image form of the product, which matters because the two mirror images of a drug can act very differently. Here cheap alkyl amines are temporarily disguised so the carbon next to the nitrogen becomes reactive, and the catalyst adds a new group at just that position. The result is a direct route from simple amines to single-handed, more complex ones.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A catalyst adds chemical groups next to nitrogen with controlled handedness",
+      "sourceType": "Journal publication"
     },
     {
       "id": "saxitoxin-scalable-synthesis",
@@ -399,8 +447,10 @@
       "topic": "synthesis",
       "chapter": "organic",
       "summary": "Saxitoxin is the shellfish poison behind paralytic shellfish poisoning, and it is also studied as a powerful painkiller because it blocks nerve signalling. The team built it in fewer than ten steps by combining radical chemistry, enzymes as catalysts, and direct editing of carbon-hydrogen bonds. They also completed the first synthesis of a related natural compound that had reached clinical trials, and made enough material to test variants.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A synthesis route makes saxitoxin and related molecules more accessible",
+      "sourceType": "Journal publication"
     },
     {
       "id": "pfas-low-temp-mineralization",
@@ -415,8 +465,10 @@
       "topic": "environment",
       "chapter": "organic",
       "summary": "PFAS are 'forever chemicals' whose carbon-fluorine bonds are among the strongest in chemistry, so they barely break down in nature. This team showed that a common class of them falls apart in a mixture of lye and a mild solvent at only 80 to 120 degrees Celsius. Once the acid end-group is knocked off, the whole fluorinated chain unravels into harmless fluoride salts and small carbon compounds, showing that gentle conditions can beat these tough molecules.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Some PFAS compounds can be broken down at relatively low temperatures",
+      "sourceType": "Journal publication"
     },
     {
       "id": "pfas-mechanochemical-fluoride-reuse",
@@ -431,8 +483,10 @@
       "topic": "environment",
       "chapter": "frontier",
       "summary": "Researchers ground PFAS pollutants, and even fluorine-containing plastics such as Teflon, together with potassium phosphate salts in a ball mill, a jar of steel balls that smashes powders together with no solvent at all. The mechanical energy broke the carbon-fluorine bonds and captured almost all the fluorine as useful salts. The recovered fluoride was then used to make new fluorine chemicals, turning a waste problem into a raw material.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Mechanical processing breaks down PFAS and recovers fluoride",
+      "sourceType": "Journal publication"
     },
     {
       "id": "fast-petase-plastic-enzyme",
@@ -447,8 +501,10 @@
       "topic": "environment",
       "chapter": "organic",
       "summary": "PET is the plastic used in drink bottles and polyester clothing. Using a machine-learning model to suggest helpful mutations, the team redesigned a natural plastic-eating enzyme into a version called FAST-PETase. It breaks whole PET products back into their starting building blocks within days at mild temperatures, and those building blocks can be used to make new plastic.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "An engineered enzyme breaks down PET plastic",
+      "sourceType": "Journal publication"
     },
     {
       "id": "dac-cost-projection-joule",
@@ -463,8 +519,10 @@
       "topic": "environment",
       "chapter": "frontier",
       "summary": "Direct air capture means machines that pull carbon dioxide out of ordinary air so it can be stored underground. This study compared the main designs, including the solid-filter type used in the large plants in Iceland, and estimated how costs might fall as more units are built. It concluded that costs will likely drop substantially but stay well above the cheapest targets often quoted, so direct air capture complements cutting emissions rather than replacing it.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Technology-specific assumptions change projections for carbon-capture costs",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ozone-assessment-2022",
@@ -479,8 +537,10 @@
       "topic": "environment",
       "chapter": "frontier",
       "summary": "Every four years an international panel reviews the health of the ozone layer, the high-altitude shield that absorbs harmful ultraviolet light. This assessment found that nearly 99 percent of the banned ozone-destroying chemicals have been phased out under the Montreal Protocol and that the layer is healing. If current rules hold, ozone should return to 1980 levels around 2040 for most of the world, 2045 over the Arctic and 2066 over Antarctica. The next assessment is due at the end of 2026.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The ozone assessment tracks recovery and remaining threats",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "livermorium-ti50-prl-2024",
@@ -495,8 +555,10 @@
       "topic": "elements",
       "chapter": "periodic-table",
       "summary": "Superheavy elements do not exist in nature; they are made by smashing two lighter nuclei together so they fuse. Almost all the heaviest elements so far were made with a calcium-48 beam, a route that cannot reach past element 118. This team fired titanium-50 at plutonium-244 for 22 days and made two atoms of livermorium, element 116, proving the titanium beam works and opening a realistic path to element 120.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Making livermorium with titanium tests a route to heavier elements",
+      "sourceType": "Journal publication"
     },
     {
       "id": "seaborgium-257-prl-2025",
@@ -511,8 +573,10 @@
       "topic": "elements",
       "chapter": "periodic-table",
       "summary": "An isotope is a version of an element with a particular number of neutrons. A team at the GSI accelerator in Germany, with partners in Mainz, Finland, Japan and India, created a previously unknown isotope of seaborgium, element 106, detecting 22 nuclei that survived about 12.6 milliseconds each. Studying how it splits apart tests theories about the shell structure that is predicted to give some superheavy nuclei extra stability.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A new seaborgium isotope tests how nuclear structure affects fission",
+      "sourceType": "Journal publication"
     },
     {
       "id": "iupac-atomic-weights-2024",
@@ -527,8 +591,10 @@
       "topic": "elements",
       "chapter": "periodic-table",
       "summary": "An element's atomic weight is the average mass of its atoms, weighted by how common each isotope is on Earth. The international body that sets chemistry's standards announced revised values for gadolinium, lutetium and zirconium, based on new and more precise measurements of their isotope mixtures. Small updates like these matter for precision work in electronics, medicine and nuclear technology.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Three elements receive revised standard atomic weights",
+      "sourceType": "Announcement"
     },
     {
       "id": "single-molecule-redox-bond-control",
@@ -543,8 +609,10 @@
       "topic": "elements",
       "chapter": "bonds",
       "summary": "Using the atom-sharp needle of a scanning probe microscope, researchers applied tiny voltage pulses to one molecule at a time on a salt surface. By choosing the sign and size of the pulse they could add or remove a single electron, which made specific bonds break or form and steered the molecule into different shapes on demand. The bond-resolved images show chemistry being controlled and watched one molecule and one bond at a time.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A microscope tip steers reactions one molecule at a time",
+      "sourceType": "Journal publication"
     },
     {
       "id": "mhra-casgevy-crispr-approval-2023",
@@ -559,8 +627,10 @@
       "topic": "biochemistry",
       "chapter": "life",
       "summary": "The UK regulator became the first in the world to license a treatment made with CRISPR, the molecular tool that cuts DNA at a chosen spot so the cell's own repair machinery changes the gene. Doctors take blood-forming stem cells from a patient's marrow, edit them so the cells switch back on a fetal form of haemoglobin, and infuse them back. In the trials, 28 of 29 sickle-cell patients went at least a year without a severe pain crisis and 39 of 42 thalassaemia patients needed no transfusions for a year.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The UK authorizes a gene-editing treatment for two inherited blood diseases",
+      "sourceType": "Announcement"
     },
     {
       "id": "cps1-patient-specific-base-editing-2025",
@@ -576,7 +646,9 @@
       "chapter": "life",
       "summary": "A baby born with a fatal liver enzyme disorder, unable to clear the ammonia produced when the body breaks down protein, was treated with a therapy designed and built for him alone in about six months. The team used base editing, a refined form of gene editing that chemically converts one DNA letter into another without cutting the strand, delivered to the liver inside tiny fat bubbles. Afterwards he tolerated more dietary protein and needed half the dose of his medicine, with no serious side effects reported.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "A custom gene-editing treatment is tested in one infant",
+      "sourceType": "Journal publication"
     },
     {
       "id": "rna-peptide-world-2022",
@@ -591,8 +663,10 @@
       "topic": "biochemistry",
       "chapter": "life",
       "summary": "Chemists showed that unusual, non-standard building blocks still found in RNA today can grab amino acids and stitch them into short peptides, the small protein-like chains that do chemical work in cells. All of this happened in water under conditions plausible for the early Earth, with no enzymes involved. The result suggests RNA and peptides could have grown up together rather than one strictly preceding the other.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "An experiment explores how RNA and peptides could have developed together",
+      "sourceType": "Journal publication"
     },
     {
       "id": "thioester-rna-aminoacylation-2025",
@@ -607,8 +681,10 @@
       "topic": "biochemistry",
       "chapter": "life",
       "summary": "Living cells attach amino acids onto RNA before joining them into proteins, but how that step could have started without enzymes was unclear. This work shows that sulfur-containing versions of amino acids latch onto RNA cleanly in plain water at neutral acidity, then hand the amino acids on to form peptide chains. It offers a simple chemical route to the loading step at the heart of protein synthesis.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Water-based chemistry links amino acids with RNA",
+      "sourceType": "Journal publication"
     },
     {
       "id": "in-cell-cryoet-translation-2022",
@@ -623,8 +699,10 @@
       "topic": "biochemistry",
       "chapter": "analysis",
       "summary": "Researchers flash-froze whole bacteria and imaged them with cryo-electron tomography, which combines many electron-microscope views into a three-dimensional reconstruction. By averaging thousands of copies they resolved ribosomes, the machines that build proteins, in near-atomic detail while still inside the crowded living cell. They caught the ribosomes in thirteen different working states and watched how antibiotics change that pattern.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Imaging resolves protein production inside a bacterial cell",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bennu-ammonia-nitrogen-organics-2025",
@@ -639,8 +717,10 @@
       "topic": "space-origins",
       "chapter": "life",
       "summary": "NASA's OSIRIS-REx spacecraft brought back dust and pebbles from the asteroid Bennu, and chemists found them unusually rich in carbon, nitrogen and ammonia. The samples contain 14 of the 20 amino acids life uses to build proteins, plus all five nucleobases, the letters that spell out genetic information. The chemistry points to these molecules forming in cold, ammonia-rich water inside Bennu's parent body far from the Sun.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Bennu samples contain ammonia and nitrogen-rich organic compounds",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bennu-evaporite-brine-2025",
@@ -655,8 +735,10 @@
       "topic": "space-origins",
       "chapter": "analysis",
       "summary": "In the same Bennu samples, scientists identified salts left behind when salty water dried up: carbonates, sulfates, chlorides, fluorides and phosphates, in the layered order a brine deposits as it evaporates. This is direct evidence that liquid water once pooled and evaporated inside the asteroid's parent body. These salts decay after long exposure to damp air, so they could only be seen because the sample was returned sealed rather than picked up as a meteorite.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Minerals in Bennu samples preserve traces of ancient salty water",
+      "sourceType": "Journal publication"
     },
     {
       "id": "jwst-ice-age-molecular-cloud-ices-2023",
@@ -671,8 +753,10 @@
       "topic": "space-origins",
       "chapter": "frontier",
       "summary": "The James Webb Space Telescope looked at starlight passing through a cold dark cloud of gas and dust and measured which wavelengths the icy grains absorbed, a fingerprint of the frozen molecules present. The survey catalogued water, carbon dioxide, carbon monoxide, ammonia and methane ices along with carbon compounds such as methanol, all before any planet has formed. The raw ingredients later delivered to young planets are already assembled in interstellar clouds.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Webb identifies frozen molecules in a dense interstellar cloud",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ryugu-uracil-2023",
@@ -687,8 +771,10 @@
       "topic": "space-origins",
       "chapter": "life",
       "summary": "Japan's Hayabusa2 mission returned sealed samples from the asteroid Ryugu, and soaking the grains in hot water released uracil, one of the four letters of RNA's genetic alphabet. The team also found nicotinic acid, better known as vitamin B3, which cells use in an energy-handling helper molecule. Because the material was collected and sealed in space, contamination from Earth can be ruled out, so these molecules genuinely formed in an asteroid.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Ryugu samples contain uracil, a building block of RNA",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ryugu-canonical-nucleobases-2026",
@@ -703,8 +789,10 @@
       "topic": "space-origins",
       "chapter": "life",
       "summary": "Follow-up analysis of the Ryugu samples turned up all five nucleobases at once: adenine, guanine, cytosine, thymine and uracil, the complete set of chemical letters that DNA and RNA use to store genetic instructions. Earlier work on this asteroid had found only some of them. Finding the full set strengthens the case that space rocks delivered a ready-made starter kit of life's chemical parts to the early Earth.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Ryugu samples contain the full set of canonical DNA and RNA bases",
+      "sourceType": "Journal publication"
     },
     {
       "id": "arsenic-life-retraction-2025",
@@ -720,7 +808,9 @@
       "chapter": "frontier",
       "summary": "In 2010 a NASA-funded team claimed a bacterium from Mono Lake could replace phosphorus with arsenic in its DNA, which would have meant life could be built from a different set of elements. Other laboratories could not reproduce the result and showed the bacterium simply tolerated arsenic while still requiring traces of phosphorus. Fifteen years later the journal retracted the paper, making it a standard case study in how extraordinary claims are tested and, eventually, corrected.",
       "status": "retracted",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "The arsenic-based-life paper is retracted",
+      "sourceType": "Journal publication"
     }
   ]
 }

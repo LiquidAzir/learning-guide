@@ -4,7 +4,7 @@ subtitle: Einstein takes Maxwell's equations at their word, and space and time s
 part: III · The Two Revolutions
 ---
 
-## Recap
+## What must change if everyone measures the same speed of light?
 
 Maxwell's equations say light always travels at $c$, no matter who measures it. Galileo's common-sense rule says velocities add, so light from a moving source should travel faster. Michelson and Morley looked for the ether and found nothing. Something in the foundations of physics was broken, and in 1905 Albert Einstein, working at the Swiss patent office in Bern, identified what.
 
@@ -92,6 +92,14 @@ The theory is called *special* because it only covers the special case of observ
 
 :::people Einstein in 1905
 Einstein was 26, had been unable to get an academic job, and worked as a patent examiner (third class). In one year he published four papers that each would have justified a career: the light-quantum paper that helped start quantum mechanics, the Brownian motion paper that proved atoms exist, special relativity, and $E = mc^2$. Physicists call it the *annus mirabilis*, the miracle year. Hendrik Lorentz and Henri Poincaré had found most of the mathematics before him; Einstein's contribution was to see that the mathematics was not a patch on the ether theory but a statement about the nature of time.[^8]
+:::
+
+:::try Put the idea to work
+A spaceship passes Earth at high speed. People on each say the other's clocks run slow. Why is that not, by itself, a contradiction?
+
+:::answer Show the reasoning
+They compare distant clocks using different definitions of simultaneity. The statements do not refer to the same pair of time comparisons in one shared universal “now.” To compare elapsed time when clocks reunite, specify their complete paths through spacetime; that is a different experiment.
+:::
 :::
 
 ## Summary

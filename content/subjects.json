@@ -2,65 +2,65 @@
   {
     "id": "physics",
     "title": "Physics",
-    "tagline": "How the universe works, from falling apples to the edge of what anyone knows.",
+    "tagline": "Why falling objects, light, atoms, and the expanding universe follow related rules.",
     "icon": "⚛",
-    "description": "A complete tour: the ideas, the people, the math that matters, the experiments that settled arguments, and the questions still open. Each chapter stands alone, but they build on one another if you read in order.",
-    "researchIntro": "What physicists have actually found in the last few years, checked against the original papers."
+    "description": "Follow the experiments and arguments behind motion, heat, light, relativity, and quantum physics. Worked examples unpack the equations; short questions let you test the ideas before exploring what remains unresolved.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   },
   {
     "id": "chemistry",
     "title": "Chemistry",
-    "tagline": "What everything is made of, and how it turns into everything else.",
+    "tagline": "How atoms join, reactions unfold, and new substances acquire useful properties.",
     "icon": "⚗",
-    "description": "From alchemy to atoms, from the periodic table to the molecules of life: how atoms bond, why reactions happen, how fast, how far, and how chemists actually see any of it. Every term defined, every claim cited, the frontier kept current.",
-    "researchIntro": "What chemists have actually found in the last few years, checked against the original papers."
+    "description": "Start with atoms and bonds, then follow reactions through energy, speed, and equilibrium. Use that foundation to understand medicines, materials, living chemistry, and the instruments that identify an unknown sample.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   },
   {
     "id": "economics",
     "title": "Economics",
-    "tagline": "How people choose under scarcity, and what happens when eight billion of them do it at once.",
+    "tagline": "How choices, incentives, and institutions shape the economy people live in.",
     "icon": "⚖",
-    "description": "From Adam Smith to the credibility revolution: how markets coordinate, where they fail, why some nations are rich, what money and central banks actually do, and how economists test any of it. The math that matters, explained; the debates left honest; the latest research kept current.",
-    "researchIntro": "What economists have actually found in the last few years, checked against the original papers and reports."
+    "description": "Work through prices, market failures, jobs, growth, money, trade, and finance. Numerical examples make the models concrete; historical cases and research show where they help, where they fail, and who gains or loses.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   },
   {
     "id": "mathematics",
     "title": "Mathematics",
-    "tagline": "The patterns that hold no matter what they are patterns of, and how to use them.",
+    "tagline": "Understand the patterns, work the calculations, and see why the methods hold.",
     "icon": "∑",
-    "description": "A practical tour with the history kept in: numbers, algebra, geometry, functions, calculus, probability, statistics, linear algebra, logic, money math, and estimation. Every chapter has step-by-step procedures for the calculations you will actually meet, key-formula boxes, the story of who worked it out and why, and a formula sheet at the end.",
-    "researchIntro": "What mathematicians have actually proved, discovered, or measured in the last few years, including what AI systems have and have not done, checked against the original papers."
+    "description": "Build from arithmetic and algebra to calculus, probability, statistics, and linear algebra. Follow worked calculations, try a question yourself, and use the formula sheet when you need a method again. The history explains what problems led people to invent these tools.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   },
   {
     "id": "ai",
     "title": "Artificial Intelligence",
-    "tagline": "How machines learn from data, from a line through a scatter plot to a model that writes back.",
+    "tagline": "How models learn patterns, generate answers, and fail in revealing ways.",
     "icon": "⚙",
-    "description": "The whole arc in one place: statistical learning (regression, classification, trees, clustering), how to tell whether a model is any good, neural networks and how they are trained, vision, sequences, image generators, reinforcement learning, and then the transformer, scaling, alignment, and what large language models are and are not. Practical throughout, with the history of the false starts and the arguments still running.",
-    "researchIntro": "What AI researchers have actually shown in the last few years, from the papers that built the field to the safety, labor, and interpretability results of 2024–2026, checked against the originals."
+    "description": "Start with a fitted line and build toward neural networks, image generators, and language models. Learn how training works, how to judge a result, and how data and design choices shape behavior. Practical examples connect the mechanisms with their uses and limits.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   },
   {
     "id": "history",
     "title": "History",
-    "tagline": "What happened, how we know, and why the people involved thought they were doing the right thing.",
+    "tagline": "What happened, how we know, and how people understood their own choices.",
     "icon": "⌛",
-    "description": "In sections, more to come: the ancient world from the first farmers to the fall of Rome; Europe from Charlemagne to the present; East Asia from the Shang to the Taiwan Strait. Each section tells the story in order, names the sources it rests on, gives the arguments historians are still having, and keeps the dates you actually need in one place.",
-    "researchIntro": "What historians, archaeologists, and geneticists have actually found in the last few years: deciphered scrolls, ancient genomes, climate archives, and the debates that rewrote a chapter, checked against the original papers."
+    "description": "Three connected routes through the past: the ancient world, Europe, and East Asia. Follow events in sequence, compare the sources behind them, and examine competing explanations. Timelines and reference entries help you return to the dates and people you need.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   },
   {
     "id": "biology",
     "title": "Biology",
-    "tagline": "What living things are made of, how they work, how they came to be, and what we can now do to them.",
+    "tagline": "How living systems turn molecules into cells, bodies, and ecosystems.",
     "icon": "☘",
-    "description": "From the cell to the biosphere: the molecules of life, how energy flows through it, what genes are and how they are inherited, how evolution works and what it has produced, the microbes, plants, and animals, the brain and the immune system, how bodies develop and age, how ecosystems hold together, and the biotechnology that is now rewriting all of it. Real mechanisms, real numbers, the history of how each idea was won, and what is still open.",
-    "researchIntro": "What biologists have actually shown in the last few years, from complete genomes and brain maps to gene-editing cures and the state of the living planet, checked against the original papers."
+    "description": "Follow energy and information through cells, genes, evolution, organs, and ecosystems. Mechanisms and scale estimates explain how the parts work together; experiments show how biologists know, and biotechnology tests what they can change.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   },
   {
     "id": "cs",
     "title": "Computer Science",
-    "tagline": "What a computation is, what machines can and cannot do, and how the ones we built actually work.",
+    "tagline": "The ideas behind working software: computation, information, and reliable systems.",
     "icon": "⌘",
-    "description": "Not a programming course: the science under the software. Bits and information, what an algorithm is and what no algorithm can do, logic gates and processors, operating systems, languages and compilers, data structures and the algorithms worth knowing, the P versus NP question, concurrency, databases, networks, cryptography, graphics, how software is really built and why it fails, and what quantum machines would change. Real math, every symbol explained, every claim cited.",
-    "researchIntro": "What computer scientists have actually proved, built, or measured recently, from a 2025 algorithm that beat Dijkstra to the state of quantum error correction and post-quantum encryption on the live internet, checked against the original papers."
+    "description": "Trace a page request from bits and logic to networks, databases, and security. Along the way, learn what algorithms can do, what makes them efficient, and why systems fail. Small examples connect the theory with decisions programmers and users encounter.",
+    "researchIntro": "Recent papers, reports, and announcements, with an explanation of the result, its relevance, and the limits described in the source."
   }
 ]

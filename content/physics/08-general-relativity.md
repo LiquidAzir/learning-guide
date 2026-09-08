@@ -4,7 +4,7 @@ subtitle: Gravity is not a force. It is the shape of spacetime, and the shape is
 part: III · The Two Revolutions
 ---
 
-## Recap
+## What does it mean for gravity to be geometry?
 
 Special relativity fused space and time and set $c$ as a universal speed limit. But Newton's gravity acts instantly across any distance, which the speed limit forbids. Einstein needed a new theory of gravity that respected relativity. It took him from 1907 to 1915. It began with an insight he later called the happiest thought of his life, and it ended with what is widely regarded as the most beautiful physical theory ever constructed.
 
@@ -82,6 +82,14 @@ Second, general relativity is a classical theory. It describes a smooth, definit
 
 :::frontier
 Gravitational-wave astronomy has become routine: the LIGO-Virgo-KAGRA network has catalogued hundreds of mergers, including in 2025 the heaviest black hole merger yet seen, with a combined mass above 225 Suns.[^15] In 2023 teams timing dozens of pulsars for fifteen years detected a background hum of very-long-wavelength gravitational waves, probably from pairs of supermassive black holes across the universe.[^16] The Event Horizon Telescope imaged the black hole at the center of our own galaxy in 2022.[^17] Meanwhile the search continues for any deviation from Einstein's predictions that might point toward quantum gravity. None has been found. See the Latest Research section for the running list.
+:::
+
+:::try Put the idea to work
+An astronaut in orbit floats even though Earth's gravity remains strong there. Explain why floating does not show that gravity has disappeared.
+
+:::answer Show the reasoning
+The astronaut and spacecraft are falling together. Their sideways motion carries them around Earth as they fall, and there is no floor pushing steadily against the astronaut. Floating reflects the absence of that support force, not the absence of gravity.
+:::
 :::
 
 ## Summary

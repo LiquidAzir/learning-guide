@@ -258,6 +258,11 @@ math { font-size: 1.05em; white-space: nowrap; }
 .callout-body { font-size: .95em; }
 .callout-body > :last-child { margin-bottom: 1em; }
 .callout-body > :first-child { margin-top: 0; }
+.callout-answer { background: var(--surface); border: 1px solid var(--line); padding-bottom: 6px; }
+.callout-answer > summary { cursor: pointer; padding: 4px 0; color: var(--ink); }
+.callout-answer > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.callout-answer[open] > summary { margin-bottom: 14px; }
+.glossary-anchor { scroll-margin-top: 100px; }
 .callout-key { background: var(--amber-soft); border-left-color: var(--amber); } .callout-key .callout-title { color: var(--amber); }
 .callout-math { background: var(--accent-soft); border-left-color: var(--accent); } .callout-math .callout-title { color: var(--accent); }
 .callout-try { background: var(--green-soft); border-left-color: var(--green); } .callout-try .callout-title { color: var(--green); }
@@ -330,6 +335,11 @@ math { font-size: 1.05em; white-space: nowrap; }
 .research-item .top { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-family: var(--font-mono); font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .research-item h3 { margin: 0; font-size: 1.08rem; line-height: 1.35; letter-spacing: -.01em; }
 .research-item .who { color: var(--ink-2); font-size: .9rem; }
+.research-source { font-size: .9rem; color: var(--ink-2); }
+.research-source summary { cursor: pointer; width: fit-content; }
+.research-source p { margin: .6em 0; overflow-wrap: anywhere; }
+.research-source summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.research-item .badge.reported { color: var(--ink-2); background: var(--slate-soft); }
 .research-item .summary { font-family: var(--font-body); color: var(--ink); line-height: 1.6; margin: 2px 0 0; }
 .research-item .links { display: flex; gap: 14px; flex-wrap: wrap; font-size: .88rem; font-family: var(--font-mono); }
 .badge { padding: 2px 8px; border-radius: 999px; font-family: var(--font-mono); font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }

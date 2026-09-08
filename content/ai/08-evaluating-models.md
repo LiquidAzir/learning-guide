@@ -4,7 +4,7 @@ subtitle: Cross-validation, the statistics under the loss functions, the differe
 part: II · Learning from Data
 ---
 
-## Recap
+## How do you tell whether a model will hold up outside the experiment?
 
 Chapters 3 to 7 built the toolkit. This chapter is about trust: how to know, before deployment, whether a model will work, whether its confidence means anything, whether it has learned the world or an accident of the data, and whether it can tell you *why*. It also closes Part II with the most surprising finding in recent machine learning theory, which explains why the enormous models of Parts III and IV work at all.
 
@@ -33,7 +33,7 @@ The losses of the earlier chapters were not arbitrary. Each is a statistical pri
 
 **Cross-entropy is maximum likelihood for categories.** Minimizing log loss is choosing the parameters under which the observed labels were most probable. So a classifier trained on cross-entropy is a probability model, which is why it can be calibrated and why its outputs can be combined with Bayes' rule.
 
-**Regularization is a prior.** Adding $\lambda\sum w^2$ to the loss is equivalent to assuming, before seeing data, that the weights are probably small (normally distributed around zero), and finding the most probable weights given both the prior and the data. Lasso corresponds to a prior that puts weight exactly at zero. The **Bayesian** view makes all of this explicit: rather than one best set of parameters, compute a probability distribution over parameters given the data, and predict by averaging over it.[^3] Full Bayesian inference is expensive for large models, but the perspective explains what regularization is doing and provides the tools, such as uncertainty estimates, that point predictions lack.
+**Regularization is a prior.** Adding $\lambda\sum w^2$ to the loss is equivalent to assuming, before seeing data, that the weights are probably small (normally distributed around zero), and finding the most probable weights given both the prior and the data. Lasso corresponds to a Laplace prior, whose density has a sharp peak at zero. The resulting maximum-a-posteriori estimate can set weights exactly to zero; the prior itself does not assign a point mass there. The **Bayesian** view makes all of this explicit: rather than one best set of parameters, compute a probability distribution over parameters given the data, and predict by averaging over it.[^3] Full Bayesian inference is expensive for large models, but the perspective explains what regularization is doing and provides the tools, such as uncertainty estimates, that point predictions lack.
 
 :::key
 Every loss function encodes an assumption about how the data were generated, and every regularizer encodes an assumption about what a plausible model looks like. Machine learning is statistics with a bigger computer and a narrower question. When a model fails, the assumption behind its loss is often why: squared error on data with outliers, cross-entropy on labels that are themselves noisy, a Gaussian prior on weights that should be sparse.
@@ -86,6 +86,14 @@ The theory of why large networks generalize is one of the field's central open p
 - Models decay under distribution shift. Monitor them.
 - Published results are often not reproducible; leakage and tuned baselines are the usual reasons.
 - Past the interpolation threshold, bigger models generalize *better*. The classical overfitting picture is right for small models and wrong at scale.
+:::
+
+:::try Put the idea to work
+You compare 100 models on the same test set and publish the best test score. Why is that set no longer a clean final test?
+
+:::answer Show the reasoning
+Its results guided model selection, so development has adapted to it even without gradient updates on its examples. Some apparent improvement can be selection noise. Use validation data for those comparisons and a separate untouched test set for the final estimate.
+:::
 :::
 
 ## Summary

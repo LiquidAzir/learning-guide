@@ -4,7 +4,7 @@ subtitle: GDP, unemployment, and inflation: how the numbers on the news are buil
 part: IV · The Economy as a Whole
 ---
 
-## Recap
+## What does a country's headline growth number leave out?
 
 Everything so far has been about individual markets and the people in them. **Macroeconomics** asks about the whole: how much a country produces, how many people are working, how fast prices rise. Before any of that can be explained it has to be measured, and the measurements are less obvious and more consequential than they look.
 
@@ -59,6 +59,14 @@ Since the end of the Second World War the United States has had twelve recession
 
 :::key
 Every macroeconomic number is a construction with choices inside it: which basket, which base year, who counts as looking for work. The choices are made openly by statistical agencies whose independence is one of the quiet foundations of good policy. When a government starts interfering with its statistics, as Argentina did with its inflation numbers from 2007 to 2015 and Greece did with its deficit before 2010, markets stop believing anything it says, and the cost of that is measured in crises.[^10]
+:::
+
+:::try Put the idea to work
+A country's GDP rises after an expensive rebuilding effort following a disaster. Does that show the disaster made its residents better off?
+
+:::answer Show the reasoning
+No. GDP measures production over a period, not the value of everything people own or their overall welfare. Rebuilding adds to measured activity while replacing lost assets and responding to suffering. A flow of spending cannot by itself reveal the change in wealth or well-being.
+:::
 :::
 
 ## Summary

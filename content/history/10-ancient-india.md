@@ -4,7 +4,7 @@ subtitle: 1500 BCE to 550 CE. The Vedas, the caste order, the Buddha, an emperor
 part: II · Ancient History
 ---
 
-## Recap
+## How do we write a history larger than its surviving royal texts?
 
 Chapter 4 left the Indus cities dispersing into villages around 1900 BCE. This chapter picks up the subcontinent from there: the arrival of the Indo-Aryan languages, the composition of the Vedas, the rise of cities and kingdoms in the Ganges valley, the two religions born there in one generation, and the two empires, Mauryan and Gupta, that briefly unified most of the land. India's ancient history is harder to date than Rome's, because its literature is vast and its chronicles few, and this chapter says so where it matters.
 
@@ -54,6 +54,14 @@ Ancient Indian history was largely reconstructed by British colonial scholars fr
 - c. 260 BCE: Kalinga war; Ashoka's conversion.
 - c. 320–550 CE: the Gupta dynasty.
 - 499 CE: Aryabhata's treatise.
+:::
+
+:::try Put the idea to work
+An edict describes a ruler's moral ideals. Does it tell you how every official and subject behaved?
+
+:::answer One way to reason it through
+It tells you what the ruler chose to proclaim, and may reveal policy and aspiration. Compliance is a separate question. Other inscriptions, material evidence, and local variation can test whether the announced ideal describes practice, an effort to change practice, or a public image.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: Heat is not the whole story. The quantity that decides whether a react
 part: IV · Change
 ---
 
-## Recap
+## What makes a reaction energetically favorable?
 
 Reactions rearrange atoms and electrons. Some, like burning, release energy; others, like charging a battery, need energy put in. This chapter is about the accounting, and about the question the accounting was invented to answer: given a possible reaction, will it actually happen?
 
@@ -67,6 +67,14 @@ $\Delta G$ says whether a reaction *can* proceed and how far. It says nothing ab
 
 :::frontier
 Gibbs's framework is complete for systems at equilibrium, but most interesting chemistry, above all in living cells, happens far from equilibrium, with energy constantly flowing through. Extending thermodynamics to such systems is an active field. Ilya Prigogine won the 1977 Nobel Prize for showing how order can arise spontaneously in driven systems, and the last twenty years have produced exact results, the fluctuation theorems, relating the work done on small systems to their entropy production, verified on single molecules pulled by laser tweezers.[^7] Whether there is a general principle that explains why life is so good at coupling remains open.
+:::
+
+:::try Put the idea to work
+An exothermic reaction is possible on paper but barely proceeds at room temperature. Is there a contradiction?
+
+:::answer Show the reasoning
+No. The overall energy change and the activation barrier answer different questions. A reaction can release energy overall yet require a difficult initial rearrangement. Thermodynamics addresses favorability; kinetics addresses rate. Free energy, rather than heat release alone, determines favorability at specified temperature and pressure.
+:::
 :::
 
 ## Summary

@@ -1,10 +1,10 @@
 ---
 title: Iron, Empire, and the Alphabet
-subtitle: 1150 to 330 BCE. Assyria invents the terror state, Babylon builds the library, Persia rules from India to Greece with a light hand, and small peoples on the edges write books that outlast all of them.
+subtitle: 1150 to 330 BCE. Assyria rules through conquest and assembles a library at Nineveh, Babylon rises again, and Persia governs a vast, varied empire. Smaller peoples leave texts that outlast these states.
 part: II · Ancient History
 ---
 
-## Recap
+## How did empires govern far more people than they could know?
 
 The Bronze Age system fell around 1150 BCE. This chapter follows the Near East through the next eight centuries, in which empires returned at a scale never seen before and, on the margins of those empires, three small peoples, Phoenicians, Israelites, and Greeks, produced the alphabet, the Bible, and the city-state. The Greeks get their own chapter next. This one is about the empires, and about the two inventions that made empires of that size possible: iron, and administration.
 
@@ -58,6 +58,14 @@ That work is the beginning of a new kind of religion, which chapter 12 takes up:
 - 559–530 BCE: Cyrus the Great.
 - 539 BCE: Persia takes Babylon.
 - 522–486 BCE: Darius I organizes the Persian empire.
+:::
+
+:::try Put the idea to work
+An Assyrian inscription boasts of extreme punishment. Should you read it only as a literal count of events?
+
+:::answer One way to reason it through
+It may preserve evidence of violence, but it was also a performance of royal power meant to intimidate and legitimize. Compare its claims with archaeology and other texts. Taking propaganda seriously as evidence includes asking what its author wanted an audience to believe.
+:::
 :::
 
 ## Summary

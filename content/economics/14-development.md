@@ -4,7 +4,7 @@ subtitle: Why some countries stay poor, what has actually worked to change that,
 part: V · The World
 ---
 
-## Recap
+## How do you find out which development policies work?
 
 Chapter 10 asked why growth started and where it spread. **Development economics** asks the question from the other side: for the billion people still living in deep poverty, what works? It is the field where economics has been most humbled by evidence and where, since about 2000, it has changed its methods most completely.
 
@@ -22,7 +22,7 @@ The record was mixed to poor. Aid financed some clear successes, notably the era
 
 ## The randomized turn
 
-The breakthrough was methodological. In the late 1990s a group of economists, led by Abhijit Banerjee and Esther Duflo at MIT and Michael Kremer at Harvard, began doing to development programs what medicine had done to drugs: **randomized controlled trials**, assigning a program to some villages or schools by lottery and comparing outcomes with those that did not get it. Because the lottery decides who is treated, any difference in outcomes is caused by the program and nothing else. Chapter 16 has the method; this chapter has what it found. The three received the 2019 Nobel Prize.
+The breakthrough was methodological. In the late 1990s a group of economists, led by Abhijit Banerjee and Esther Duflo at MIT and Michael Kremer at Harvard, began doing to development programs what medicine had done to drugs: **randomized controlled trials**, assigning a program to some villages or schools by lottery and comparing outcomes with those that did not get it. Random assignment makes the groups comparable on average, helping isolate the program’s effect. Chance differences remain, so the estimate needs uncertainty bounds; attrition, spillovers, and implementation can also complicate the comparison. Chapter 16 has the method; this chapter has what it found. The three received the 2019 Nobel Prize.
 
 The findings were often small, specific, and surprising, and they overturned intuitions on every side.
 
@@ -60,6 +60,14 @@ Extreme poverty is now concentrated where growth has been weakest: fragile state
 
 :::frontier
 The open fights are about scale and about growth. Do the interventions that work in a trial of a hundred villages work when a government rolls them out to a nation, where the implementers are less careful and the politics intrude? Early evidence says effects shrink but often survive. And can anything be done deliberately to start growth where it has not started? The industrial-policy literature of chapter 13 offers the most hopeful recent answer; the record of the last seventy years offers the strongest caution.
+:::
+
+:::try Put the idea to work
+A randomized program raises average income in one district. Why should a government still investigate before applying it nationwide?
+
+:::answer Show the reasoning
+The estimate has uncertainty, and the larger program may face different participants, prices, staff capacity, or spillovers. A causal effect in the trial's setting does not automatically identify the effect at national scale. Ask what mechanism produced the gain and whether the new setting preserves it.
+:::
 :::
 
 ## Summary

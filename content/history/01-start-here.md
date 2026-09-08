@@ -72,6 +72,12 @@ History is written here in **sections**, each a self-contained course, and more 
 
 Each section tells its story in chronological order, so its chapters build. The sections can be read independently, and they cross-reference where the stories touch: the Mongols appear in both European and East Asian history; Buddhism is born in the Ancient section and reshapes East Asia; the Opium Wars are a European and an East Asian event. Chapters 38 to 40 serve the whole subject: what new methods are finding, who the historians and actors were, and every term and date in one place.
 
+:::howto A useful first pass
+Choose the ancient, European, or East Asian route and read its chapters in order. Keep the timeline nearby, and distinguish what a source records from what a historian infers.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
+
 ## The conventions
 
 - **Bold terms** are defined where they appear and collected in the glossary (chapter 40).
@@ -79,7 +85,7 @@ Each section tells its story in chronological order, so its chapters build. The 
 - **How we got here** boxes tell how historians' understanding of the topic changed: what the old story was, why it made sense, and what overturned it.
 - **The story** boxes tell one episode in detail, because a single well-documented event teaches more than a paragraph of generalization.
 - **Where it stands today** boxes mark live arguments.
-- Every factual claim points to a numbered source at the bottom of the chapter, with a link where the source is free to read. For antiquity, many primary sources are free online in translation and the footnotes point to them; go and read a page of Herodotus, or the Analects, or the Anglo-Saxon Chronicle, and you will understand the period better than any summary can manage.
+- Key factual claims point to a numbered source at the bottom of the chapter, with a link where the source is free to read. For antiquity, many primary sources are free online in translation and the footnotes point to them; go and read a page of Herodotus, or the Analects, or the Anglo-Saxon Chronicle, and you will understand the period better than any summary can manage.
 - Names are given in the forms most used in English scholarship (Confucius, not Kong Fuzi; Beijing, not Peking), with the alternative on first use where it helps.
 
 :::try

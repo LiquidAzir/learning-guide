@@ -82,6 +82,14 @@ The rest of this guide is organized by topic rather than by time, so here, compr
 
 **The empirical turn (1990–).** Cheap computing, enormous administrative datasets, and a new insistence on research designs that mimic experiments transformed what counts as evidence. Long-standing beliefs were tested; several failed. This **credibility revolution** is the subject of chapter 16 and the reason the applied chapters of this guide can cite results rather than opinions.
 
+:::try Put the idea to work
+A model explains prices well in ordinary times but fails during a banking panic. Does that make it useless in every setting?
+
+:::answer Show the reasoning
+Not necessarily. Ask which mechanisms and conditions the model includes. A model can remain useful within a limited domain while missing feedback, credit constraints, or coordination failures that dominate in a crisis. The failure should narrow its claim and motivate better tests, not be waved away.
+:::
+:::
+
 ## Summary
 
 - Ancient and medieval thinkers asked whether prices were *just*, not where they came from.

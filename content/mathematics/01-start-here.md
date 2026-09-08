@@ -26,7 +26,7 @@ The math is real and it is explained. When an equation appears, every symbol is 
 
 ## Why mathematics is hard, and why it is not
 
-Mathematics has a reputation for difficulty that is partly deserved and partly a failure of how it is taught. It is genuinely hard in one way: it is *cumulative*. You cannot understand a derivative without functions, or functions without algebra, or algebra without arithmetic. A gap anywhere in the chain makes everything above it feel like magic. Most people who "are not math people" are people with an early gap, often around fractions or negative numbers, that was never closed. This guide closes those gaps deliberately, and chapter 2 is where to start if you have any doubt.
+Mathematics has a reputation for difficulty that is partly deserved and partly a failure of how it is taught. It is genuinely hard in one way: it is *cumulative*. You cannot understand a derivative without functions, or functions without algebra, or algebra without arithmetic. A gap anywhere in the chain makes everything above it feel like magic. If fractions or negative numbers feel shaky, chapter 2 offers a refresher. You can return to it whenever a later calculation exposes something you want to practice.
 
 It is *not* hard in the way people fear. Mathematics does not require a special kind of brain. It requires patience, the willingness to work through examples rather than read past them, and the knowledge that confusion is the normal state while learning it. Professional mathematicians spend most of their time confused; the difference is that they have learned confusion is where the work happens, not a sign to stop.[^1]
 
@@ -84,12 +84,18 @@ The same handful of ideas serve at every scale, which is the subject's great eco
 
 Mathematicians work in universities, but far more mathematics is done by engineers, programmers, statisticians, actuaries, analysts, and scientists who would not call themselves mathematicians. Since about 1950 much of the calculating has been done by machines, which has not made the subject less important but has changed which parts of it matter: understanding what to compute and whether the answer makes sense now matters more than doing the arithmetic. Since 2024 artificial intelligence systems have begun proving competition-level theorems and, in a few cases, resolving open problems, which chapter 16 discusses with the honesty the topic needs.[^2]
 
+:::howto A useful first pass
+Use chapter 2 to refresh arithmetic, then work through an algebra example in chapter 4. If a later calculation stalls, follow its prerequisite back rather than trying to memorize the finished line.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
+
 ## How to read this guide
 
 - **Bold terms** are being defined where they appear. The glossary (chapter 18) collects them.
 - Colored boxes mark kinds of interruption: a **key idea**, a **how to do it** procedure with a worked example, a **key formulas** box, a **things to know** list, a **math box** that derives or explains an equation, a **think about it** prompt, a **common confusion**, and a **where it stands today** note.
-- Every factual and historical claim points to a numbered source at the bottom of the chapter, with a link where the source is free to read. Free, complete textbooks from OpenStax are cited throughout for anyone who wants exercises.[^3]
-- Read chapters 2 and 4 with a pencil. Mathematics read without working examples does not stick; mathematics worked once sticks for years.
+- Key factual and historical claims point to a numbered source at the bottom of the chapter, with a link where the source is free to read. Free, complete textbooks from OpenStax are cited throughout for anyone who wants exercises.[^3]
+- Read chapters 2 and 4 with a pencil. Work an example, try a variation without looking, and return to it later. Recalling a method and choosing when to use it take practice.
 
 :::try
 Before going on, try three things without a calculator and note how confident you feel: work out 15 percent of \$80; decide whether 3/7 or 4/9 is larger; and say roughly how many seconds there are in a year. All three are in chapter 2 and chapter 15. Whether you find them easy or not, you will know where to slow down.

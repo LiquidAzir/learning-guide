@@ -4,7 +4,7 @@ subtitle: 1945 to 1976. China's civil war ends in a Communist victory and the de
 part: IV · East Asian History
 ---
 
-## Recap
+## How did postwar states rebuild under sharply different political systems?
 
 Chapter 34 ended in August 1945 with Japan's surrender, China exhausted, and Korea liberated. This chapter covers the three decades in which the region took its Cold War shape: the Chinese Communist victory and the Mao era, the American occupation and reconstruction of Japan, the division of Korea and the war that fixed it. It ends with Mao's death in 1976, when China was poor, isolated, and about to change direction, Japan was rich, and the two Koreas were a dictatorship and a dictatorship.
 
@@ -53,6 +53,14 @@ Between 1945 and 1976 East Asia became three experiments in how to build a moder
 - 1966–1976: Cultural Revolution.
 - 1972: Nixon in Beijing.
 - 9 September 1976: Mao dies.
+:::
+
+:::try Put the idea to work
+A regime's statistics report spectacular production gains during a political campaign. What checks would help assess them?
+
+:::answer One way to reason it through
+Examine incentives to exaggerate, definitions and counting methods, independent records, local accounts, and indirect indicators such as consumption or shortages. Official statistics can be indispensable and still require criticism. Confidence should reflect how the numbers were produced and corroborated.
+:::
 :::
 
 ## Summary

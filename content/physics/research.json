@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-01",
-  "note": "Each entry was checked against a live page on the date in its 'verified' field. Add new entries anywhere; the app sorts by date. Keep 'status' honest: confirmed, preliminary, disputed, or retracted. 'chapter' must match a chapter file slug (filename without the number prefix).",
+  "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
       "id": "desi-dr1-bao-2024",
@@ -16,7 +16,9 @@
       "chapter": "cosmos",
       "summary": "Using the positions of over 6 million galaxies and quasars, DESI measured 'baryon acoustic oscillations' (a fixed-size ripple pattern left in the distribution of galaxies by sound waves in the early universe) to chart how fast the universe has expanded over time. Combined with supernova data, the results hinted that dark energy (the unknown push accelerating cosmic expansion) may be weakening rather than constant, in mild tension with the standard cosmological model at up to about 3.9 sigma.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "A galaxy survey tests whether dark energy changes over time",
+      "sourceType": "Journal publication"
     },
     {
       "id": "desi-dr2-bao-2025",
@@ -32,7 +34,9 @@
       "chapter": "cosmos",
       "summary": "DESI's second data release, built from more than 14 million galaxies and quasars, sharpened the 2024 hint: models in which dark energy changes over time fit the data better than a constant cosmological constant, at 3.1 sigma when combined with the cosmic microwave background and higher when supernovae are added. It is not yet a discovery (5 sigma is the usual bar), but it is the strongest evidence so far that dark energy may not be constant.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "DESI's larger map sharpens the test of dark energy",
+      "sourceType": "Journal publication"
     },
     {
       "id": "desi-dr2-lya-2026",
@@ -48,7 +52,9 @@
       "chapter": "cosmos",
       "summary": "In 2026 DESI used the 'Lyman-alpha forest' (absorption lines imprinted on quasar light by hydrogen gas clouds along the line of sight) to measure the expansion history at distances beyond redshift 1, where galaxies are too faint to survey directly. The result again favors time-evolving dark energy over a constant (2.7 sigma with CMB data, 3.2 sigma adding supernovae) and slightly reduces the mismatch between DESI and CMB measurements.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "Intergalactic gas offers another check on cosmic expansion",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "sh0es-riess-2022",
@@ -63,8 +69,10 @@
       "topic": "cosmology",
       "chapter": "cosmos",
       "summary": "The SH0ES team used pulsating Cepheid stars observed by Hubble to calibrate distances to exploding stars and measured the Hubble constant (today's cosmic expansion rate) as 73.04 plus or minus 1.04 km/s/Mpc. This is about 5 sigma higher than the 67.4 predicted from the early universe by Planck, making the 'Hubble tension' one of the sharpest unresolved problems in cosmology.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Nearby stars and supernovae measure the universe's expansion rate",
+      "sourceType": "Journal publication"
     },
     {
       "id": "cchp-freedman-jwst-2025",
@@ -80,7 +88,9 @@
       "chapter": "cosmos",
       "summary": "Freedman's team used JWST to measure distances with three different kinds of stars and found a Hubble constant of about 70.4 km/s/Mpc, sitting between the Planck and SH0ES values. They argue the Hubble tension may be smaller than claimed once measurement systematics are accounted for, though the SH0ES team disagrees.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "A different distance ladder tests the expansion-rate disagreement",
+      "sourceType": "Journal publication"
     },
     {
       "id": "riess-jwst-validates-hst-2024",
@@ -96,7 +106,9 @@
       "chapter": "cosmos",
       "summary": "Riess and collaborators compared JWST and Hubble distance measurements to the same galaxies and found they agree to within about 1 percent, ruling out a Hubble camera error as the cause of the Hubble tension. Combining all JWST methods they obtain 72.6 plus or minus 2.0 km/s/Mpc, and argue the lower CCHP value comes from which supernova host galaxies were selected.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "Webb observations check Hubble's cosmic distance measurements",
+      "sourceType": "Journal publication"
     },
     {
       "id": "jwst-early-massive-galaxies-2023",
@@ -112,7 +124,9 @@
       "chapter": "cosmos",
       "summary": "In JWST's first deep images, six candidate galaxies appeared to contain more than 10 billion suns' worth of stars only 500 to 700 million years after the Big Bang, far earlier than standard galaxy-formation models expect such heavy galaxies. Follow-up spectroscopy has since shown some candidates are less massive or closer than they seemed, but the puzzle of surprisingly mature early galaxies remains an active JWST research theme.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "Surprisingly bright early galaxies challenge estimates of their mass",
+      "sourceType": "Journal publication"
     },
     {
       "id": "euclid-q1-2025",
@@ -127,8 +141,10 @@
       "topic": "cosmology",
       "chapter": "cosmos",
       "summary": "ESA's Euclid space telescope, launched in 2023 to map dark matter and dark energy, released its first public data in March 2025: 63 square degrees of deep-field imaging containing about 30 million objects. It is a preview of a six-year survey that will image a third of the sky to test whether gravity and dark energy behave as Einstein's theory predicts.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Euclid releases an early view of its cosmic survey",
+      "sourceType": "Paper and supporting material"
     },
     {
       "id": "planck-2018-parameters",
@@ -143,8 +159,10 @@
       "topic": "cosmology",
       "chapter": "cosmos",
       "summary": "The final analysis of the Planck satellite's map of the cosmic microwave background (the afterglow of the Big Bang) pinned down the universe's ingredients: about 5 percent ordinary matter, 27 percent dark matter, 68 percent dark energy, and a Hubble constant of 67.4 plus or minus 0.5 km/s/Mpc. It remains the baseline against which all newer cosmology results, including the Hubble tension and DESI's dark energy hints, are compared.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The cosmic microwave background sets a benchmark for cosmology",
+      "sourceType": "Journal publication"
     },
     {
       "id": "gw231123-massive-bbh-2025",
@@ -159,8 +177,10 @@
       "topic": "gravitational-waves",
       "chapter": "general-relativity",
       "summary": "On 23 November 2023 the two LIGO detectors recorded gravitational waves (ripples in spacetime) from two black holes of roughly 100 and 140 solar masses merging into one of more than 225 solar masses, the heaviest merger ever seen. Both black holes were spinning near the maximum allowed, and their masses fall in a range where ordinary stars should not be able to make black holes, suggesting they may themselves be products of earlier mergers.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Gravitational waves reveal an unusually massive black-hole merger",
+      "sourceType": "Journal publication"
     },
     {
       "id": "gwtc-4-catalog-2025",
@@ -175,8 +195,10 @@
       "topic": "gravitational-waves",
       "chapter": "general-relativity",
       "summary": "The fourth gravitational-wave catalog adds the events from the first half of the O4 observing run (May 2023 to January 2024) to the roughly 90 previously confirmed detections, more than doubling the total. Larger catalogs let astronomers measure how common black hole and neutron star mergers are and how their masses are distributed, which in turn tests theories of how massive stars live and die.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A larger catalog brings more black-hole and neutron-star mergers",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "gwtc-5-catalog-2026",
@@ -191,8 +213,10 @@
       "topic": "gravitational-waves",
       "chapter": "general-relativity",
       "summary": "Released in May 2026, the fifth catalog covers April 2024 to January 2025 and adds 161 new merger candidates, bringing the confirmed total since 2015 to 390. Highlights include GW240615, localized on the sky to just 6 square degrees (the most precise ever), GW250114 with the loudest signal yet, and hints of 'second-generation' black holes formed from earlier mergers.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The next gravitational-wave catalog expands the merger census",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "nanograv-15yr-gwb-2023",
@@ -207,8 +231,10 @@
       "topic": "gravitational-waves",
       "chapter": "general-relativity",
       "summary": "By timing the ultra-regular radio pulses of 67 pulsars (spinning dead stars) for 15 years, NANOGrav found the tell-tale correlated wobble expected from a background hum of very-long-wavelength gravitational waves washing over the galaxy. The most likely source is the combined signal of pairs of supermassive black holes slowly orbiting each other in distant galaxies, a completely different window from LIGO's stellar-mass mergers.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Pulsar timing finds evidence of a gravitational-wave background",
+      "sourceType": "Journal publication"
     },
     {
       "id": "muon-g2-final-2025",
@@ -223,8 +249,10 @@
       "topic": "particle",
       "chapter": "particles",
       "summary": "Fermilab's final measurement of how strongly the muon (a heavy cousin of the electron) wobbles in a magnetic field reached a precision of 127 parts per billion, beating the experiment's design goal. The value agrees with earlier runs; whether it disagrees with the Standard Model now depends entirely on the theory prediction, which changed in 2025.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A precise muon measurement puts the theory under pressure",
+      "sourceType": "Journal publication"
     },
     {
       "id": "muon-g2-theory-update-2025",
@@ -239,8 +267,10 @@
       "topic": "particle",
       "chapter": "particles",
       "summary": "The theory community's 2025 white paper replaced older data-driven estimates of the hardest part of the calculation with lattice QCD (brute-force supercomputer simulations of the strong force). The new Standard Model prediction agrees with the Fermilab measurement within uncertainties, so the long-standing 'muon g-2 anomaly' that once hinted at new particles is, for now, largely resolved.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "An updated calculation changes the muon comparison",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "atlas-higgs-ten-years-2022",
@@ -255,8 +285,10 @@
       "topic": "particle",
       "chapter": "particles",
       "summary": "Ten years after discovering the Higgs boson, ATLAS combined all its LHC Run 2 data to measure how strongly the Higgs couples to each known particle. Every measured coupling matches the Standard Model prediction to within about 10 percent, confirming that the Higgs field is what gives particles their mass in the way the theory describes.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Ten years of measurements map how the Higgs interacts",
+      "sourceType": "Journal publication"
     },
     {
       "id": "atlas-hh-self-coupling-2024",
@@ -271,8 +303,10 @@
       "topic": "particle",
       "chapter": "particles",
       "summary": "ATLAS searched for events in which two Higgs bosons are produced at once, a process sensitive to the Higgs 'self-coupling' (how strongly the Higgs interacts with itself, which shapes the vacuum of the universe). No signal was seen yet, but the rate is limited to under 2.9 times the Standard Model prediction and the self-coupling is constrained to between -1.2 and 7.2 times its expected value, the tightest bounds so far.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The search for Higgs pairs tests how the Higgs interacts with itself",
+      "sourceType": "Journal publication"
     },
     {
       "id": "cdf-w-mass-2022",
@@ -288,7 +322,9 @@
       "chapter": "particles",
       "summary": "Analyzing old Tevatron data, CDF reported the W boson (carrier of the weak nuclear force) weighs 80,433 plus or minus 9 MeV, about 7 sigma heavier than the Standard Model predicts. If correct it would demand new physics, but it disagrees with all other measurements, including the CMS result, so most physicists treat it as an unexplained outlier.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "One W-boson mass measurement challenges the standard prediction",
+      "sourceType": "Journal publication"
     },
     {
       "id": "cms-w-mass-2026",
@@ -303,8 +339,10 @@
       "topic": "particle",
       "chapter": "particles",
       "summary": "CMS at the LHC measured the W boson mass as 80,360.2 plus or minus 9.9 MeV, matching the CDF result's precision but landing squarely on the Standard Model prediction. First announced in September 2024 and published in Nature in 2026, it strongly undercuts the CDF anomaly and reaffirms the Standard Model's internal consistency.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "CMS supplies a separate precision measurement of the W boson",
+      "sourceType": "Journal publication"
     },
     {
       "id": "katrin-neutrino-mass-2025",
@@ -319,8 +357,10 @@
       "topic": "particle",
       "chapter": "particles",
       "summary": "KATRIN weighs neutrinos by precisely measuring the energies of electrons released in tritium radioactive decay; any missing energy goes to the neutrino's mass. With 259 days of data it set an upper limit of 0.45 electronvolts (less than a millionth of the electron's mass), twice as tight as before, and the only laboratory method that does not rely on cosmological assumptions.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "KATRIN tightens the direct limit on neutrino mass",
+      "sourceType": "Journal publication"
     },
     {
       "id": "juno-first-results-2025",
@@ -336,7 +376,9 @@
       "chapter": "particles",
       "summary": "China's JUNO detector, a 20,000-tonne sphere of liquid scintillator 52.5 km from nuclear reactors, released results after only 59 days of running. It measured two neutrino 'oscillation' parameters (numbers describing how neutrinos change type as they travel) 1.6 times more precisely than all previous experiments combined, and showed it is on track to determine which neutrino is heaviest.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "JUNO begins measuring how reactor neutrinos change identity",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "nobel-physics-2022",
@@ -351,8 +393,10 @@
       "topic": "quantum",
       "chapter": "quantum-meaning",
       "summary": "The 2022 Nobel Prize honored experiments with 'entangled photons' (pairs of light particles whose properties stay linked no matter how far apart they are) that violated Bell's inequalities, ruling out the idea that particles carry hidden pre-set answers. Their work settled a debate dating back to Einstein and laid the groundwork for quantum computing and quantum cryptography.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The 2022 Nobel honors experimental tests of quantum entanglement",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-physics-2025",
@@ -367,8 +411,10 @@
       "topic": "quantum",
       "chapter": "quantum-meaning",
       "summary": "The 2025 prize recognized 1984–85 experiments showing that an electrical circuit made of superconductors (a Josephson junction) can 'tunnel' through an energy barrier and has discrete energy levels, quantum behaviors previously seen only in atoms. This demonstration that quantum mechanics works for hand-sized objects is the foundation of today's superconducting quantum computers.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The 2025 Nobel recognizes quantum behavior in electrical circuits",
+      "sourceType": "Announcement"
     },
     {
       "id": "google-willow-below-threshold-2024",
@@ -383,8 +429,10 @@
       "topic": "quantum",
       "chapter": "frontier",
       "summary": "Google's Willow chip showed that grouping physical qubits into a larger 'logical qubit' with error correction makes errors go down, not up: each step up in code size cut the error rate by a factor of 2.14. This 'below threshold' behavior had been the key unproven assumption behind fault-tolerant quantum computing since the 1990s.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Adding physical qubits can reduce a protected qubit's errors",
+      "sourceType": "Journal publication"
     },
     {
       "id": "harvard-quera-fault-tolerant-architecture-2025",
@@ -399,8 +447,10 @@
       "topic": "quantum",
       "chapter": "frontier",
       "summary": "Using up to 448 neutral atoms held in laser tweezers, the Harvard-led team demonstrated the main building blocks of a fault-tolerant quantum computer at once: below-threshold error correction, dozens of logical qubits, hundreds of logical teleportations, and the 'magic state' operations needed for universal computation. It shows neutral-atom machines are a serious rival to superconducting chips.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Neutral atoms offer a route toward fault-tolerant quantum computing",
+      "sourceType": "Paper and supporting material"
     },
     {
       "id": "quantinuum-fault-tolerant-algorithms-2026",
@@ -416,7 +466,9 @@
       "chapter": "frontier",
       "summary": "On its trapped-ion H2 and 98-qubit Helios machines, Quantinuum ran complete optimization algorithms entirely on error-corrected logical qubits (up to 12 logical qubits using 97 physical ions), with the encoded versions outperforming the raw hardware. It is among the first demonstrations of a useful-style algorithm executed end to end in a fault-tolerant way rather than as an isolated memory test.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "Error-corrected quantum algorithms move beyond protecting stored states",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "microsoft-majorana-1-2025",
@@ -432,7 +484,9 @@
       "chapter": "matter",
       "summary": "Alongside its 'Majorana 1' chip announcement, Microsoft published a measurement it says reads out the parity (even or odd electron count) of a nanowire that may host Majorana modes, exotic states proposed as naturally error-resistant qubits. Nature's own editorial note stressed the paper does not prove Majoranas exist, and a Matters Arising critique by Henry Legg, with Microsoft's reply, appeared in Nature on 24 June 2026; the topological-qubit claim remains unproven.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "A semiconductor device measures a property needed for a quantum-bit proposal",
+      "sourceType": "Journal publication"
     },
     {
       "id": "legg-comment-microsoft-majorana-2025",
@@ -448,7 +502,9 @@
       "chapter": "matter",
       "summary": "Physicist Henry Legg re-analyzed Microsoft's publicly released data and argued the nanowire regions used were 'gapless' (lacking the protective energy gap Majorana modes require) and that the screening test Microsoft used gives inconsistent answers depending on analysis choices. Microsoft disputes this and says its evidence rests on a different measurement; the exchange is a live example of how extraordinary claims get scrutinized.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "Researchers challenge the interpretation of Microsoft's quantum-device result",
+      "sourceType": "Paper and supporting material"
     },
     {
       "id": "dias-lutetium-hydride-retracted-2023",
@@ -464,7 +520,9 @@
       "chapter": "matter",
       "summary": "Ranga Dias's group claimed a lutetium-hydrogen-nitrogen compound became a superconductor (a material that carries electricity with zero resistance) at room temperature and modest pressure. No other lab could reproduce it, eight co-authors asked for withdrawal, and Nature retracted the paper on 7 November 2023, the third retraction for the group; room-temperature superconductivity remains unachieved.",
       "status": "retracted",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "A near-room-temperature superconductivity claim was retracted",
+      "sourceType": "Journal publication"
     },
     {
       "id": "lk99-single-crystal-refutation-2023",
@@ -479,8 +537,10 @@
       "topic": "condensed-matter",
       "chapter": "matter",
       "summary": "After a viral July 2023 claim that a copper-doped lead phosphate called LK-99 superconducts at room temperature, this group grew pure single crystals and found the material is a transparent electrical insulator with no superconductivity at all. Together with other labs showing that copper sulfide impurities explain the original resistance drop, this ended the LK-99 episode within weeks.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Crystal measurements test the LK-99 superconductivity claim",
+      "sourceType": "Paper and supporting material"
     },
     {
       "id": "la3ni2o7-nickelate-80k-2023",
@@ -495,8 +555,10 @@
       "topic": "condensed-matter",
       "chapter": "matter",
       "summary": "Squeezed to about 14 gigapascals (140,000 atmospheres), the layered nickel oxide La3Ni2O7 began superconducting near 80 kelvin, the first nickel-based material to cross the liquid-nitrogen temperature line long dominated by copper oxides. It opened a new family of high-temperature superconductors for testing theories of how electrons pair up.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A nickelate shows signs of superconductivity under high pressure",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nickelate-thin-film-ambient-2024",
@@ -511,8 +573,10 @@
       "topic": "condensed-matter",
       "chapter": "matter",
       "summary": "By growing La3Ni2O7 as an ultra-thin film on a substrate that squeezes its crystal lattice, the team mimicked the effect of high pressure and saw superconductivity begin at 26 to 42 kelvin at ordinary atmospheric pressure. Removing the need for a diamond pressure cell makes nickelate superconductors far easier to study and potentially use.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Nickelate films show signs of superconductivity without extreme pressure",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nickelate-bulk-96k-2025",
@@ -527,8 +591,10 @@
       "topic": "condensed-matter",
       "chapter": "matter",
       "summary": "High-quality single crystals of a samarium-substituted bilayer nickelate showed superconductivity beginning at 96 kelvin under about 20 gigapascals, a new record for nickel-based materials, along with a clear Meissner effect (expulsion of magnetic field, the definitive superconductivity signature). Linking higher transition temperatures to lattice distortion points the way to pushing nickelates even higher.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Pressurized nickelate crystals show bulk superconductivity up to 96 K",
+      "sourceType": "Journal publication"
     },
     {
       "id": "fqah-graphene-moire-2024",
@@ -543,8 +609,10 @@
       "topic": "condensed-matter",
       "chapter": "matter",
       "summary": "In five-layer graphene stacked on boron nitride at a slight twist (a 'moiré' pattern), electrons organized themselves into states carrying fractions of an electron's charge with no external magnetic field, the 'fractional quantum anomalous Hall effect' first seen months earlier in twisted MoTe2. Such states could host 'anyons', exotic particles proposed as the basis of intrinsically error-protected quantum computers.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Graphene hosts a fractional Hall effect without an applied magnetic field",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nif-ignition-prl-2024",
@@ -559,8 +627,10 @@
       "topic": "nuclear-atomic",
       "chapter": "particles",
       "summary": "This is the peer-reviewed account of the 5 December 2022 shot at the National Ignition Facility in which 192 lasers delivered 2.05 megajoules to a peppercorn-sized fuel capsule and the fusion reactions released 3.1 megajoules, a 'target gain' of 1.5. It was the first time any laboratory fusion experiment produced more energy than the light energy that triggered it, though far less than the electricity the lasers consumed.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A fusion target releases more energy than the laser delivers to it",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nif-record-8-6-mj-2025",
@@ -575,8 +645,10 @@
       "topic": "nuclear-atomic",
       "chapter": "particles",
       "summary": "On 7 April 2025 NIF's eighth ignition shot produced 8.6 megajoules of fusion energy from 2.08 megajoules of laser light, a gain above 4 and nearly triple the 2022 record. The jump came from a new capsule design with gradually varying tungsten doping in its diamond shell, showing that steady engineering improvements, not just luck, are driving yields upward.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A redesigned target raises the fusion yield at NIF",
+      "sourceType": "Announcement"
     },
     {
       "id": "th229-laser-excitation-2024",
@@ -591,8 +663,10 @@
       "topic": "nuclear-atomic",
       "chapter": "particles",
       "summary": "After decades of searching, physicists used a laser to directly excite the nucleus of thorium-229, the only known nucleus with an energy jump small enough (148 nm ultraviolet) to reach with laser light. Because a nucleus is shielded from outside disturbances far better than an atom's electrons, this transition is the basis for a future 'nuclear clock' and for sensitive tests of whether nature's constants change over time.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A laser excites a thorium nucleus, opening a path to nuclear clocks",
+      "sourceType": "Journal publication"
     },
     {
       "id": "th229-nuclear-clock-frequency-ratio-2024",
@@ -607,8 +681,10 @@
       "topic": "nuclear-atomic",
       "chapter": "particles",
       "summary": "Jun Ye's group used a frequency comb (a laser producing millions of precisely spaced colors) to measure the thorium-229 nuclear transition a million times more precisely than before and compare it directly against a strontium atomic clock. This is the essential step from 'we can excite the nucleus' to 'we can build a clock from it', and resolved fine structure inside the nuclear line for the first time.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A nuclear transition is compared with an atomic-clock reference",
+      "sourceType": "Journal publication"
     },
     {
       "id": "si-second-redefinition-roadmap-2024",
@@ -623,8 +699,10 @@
       "topic": "nuclear-atomic",
       "chapter": "toolkit",
       "summary": "The international metrology community laid out the conditions for replacing the 1967 caesium microwave definition of the second with an optical atomic clock definition, which would be about 100 times more accurate. Key requirements include at least three optical clocks from different labs agreeing at the 2 parts in 10^18 level and reliable clock comparisons between continents, with a decision targeted for around 2030.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Metrologists plan how to redefine the second",
+      "sourceType": "Journal publication"
     },
     {
       "id": "alpha-antihydrogen-gravity-2023",
@@ -639,8 +717,10 @@
       "topic": "nuclear-atomic",
       "chapter": "general-relativity",
       "summary": "CERN's ALPHA-g experiment trapped antihydrogen atoms (an antiproton orbited by a positron) in a vertical magnetic bottle, slowly opened it, and watched where the atoms annihilated: about 80 percent fell downward, exactly as ordinary hydrogen would. It is the first direct observation that antimatter falls under gravity, ruling out 'antigravity' at the 20 percent level and confirming a prediction of general relativity.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "An experiment tests how antimatter falls",
+      "sourceType": "Journal publication"
     },
     {
       "id": "lz-wimp-limits-2024",
@@ -655,8 +735,10 @@
       "topic": "dark-matter",
       "chapter": "cosmos",
       "summary": "LZ, a 7-tonne tank of liquid xenon a mile underground in South Dakota, watched for 280 days for the tiny flash a dark matter particle would make bumping a xenon nucleus and saw nothing beyond expected backgrounds. The result excludes WIMPs (weakly interacting massive particles, the leading dark matter candidate) interacting more strongly than 2.2 x 10^-48 cm^2 at 40 GeV, the world's tightest limit and a factor of several beyond any previous experiment.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A larger LZ exposure narrows the search for dark matter",
+      "sourceType": "Journal publication"
     },
     {
       "id": "lz-2-6-sigma-hint-2026",
@@ -672,7 +754,9 @@
       "chapter": "cosmos",
       "summary": "Re-analyzing 220 days of data for higher-energy interactions than earlier searches, LZ found a single event that is hard to explain with known backgrounds, at 2.6 sigma significance (roughly a 1-in-200 chance of being a fluke). If it were dark matter it would point to a WIMP heavier than 200 proton masses with a non-standard interaction, but the collaboration stresses this is far below the 5-sigma discovery threshold and more data are needed.",
       "status": "preliminary",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "An unexpected LZ signal needs explanation, not a discovery label",
+      "sourceType": "Announcement"
     },
     {
       "id": "xenonnt-first-wimp-search-2023",
@@ -687,8 +771,10 @@
       "topic": "dark-matter",
       "chapter": "cosmos",
       "summary": "XENONnT, LZ's rival beneath Italy's Gran Sasso mountain, reported its first WIMP search with an exceptionally clean 5.9-tonne xenon target and found no dark matter signal, limiting the interaction strength to 2.58 x 10^-47 cm^2 at 28 GeV. Two independent experiments reaching the same null result strengthens the conclusion that simple WIMPs, if they exist, are extraordinarily elusive.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "XENONnT reports its first search for dark-matter nuclear recoils",
+      "sourceType": "Journal publication"
     },
     {
       "id": "admx-axion-search-2025",
@@ -703,8 +789,10 @@
       "topic": "dark-matter",
       "chapter": "cosmos",
       "summary": "ADMX hunts for axions, ultralight hypothetical particles that could make up dark matter, by using a strong magnet to convert them into faint microwave photons inside a tunable cavity cooled near absolute zero. This run scanned 1.10 to 1.31 GHz with sensitivity to one of the two main theoretical axion models and found nothing, excluding that mass range at the benchmark coupling.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A microwave experiment searches a new band for axion dark matter",
+      "sourceType": "Journal publication"
     },
     {
       "id": "snowmass-black-holes-emergence-2022",
@@ -719,8 +807,10 @@
       "topic": "theory",
       "chapter": "frontier",
       "summary": "Seven leading theorists summarize the 'island' calculations of 2019–2021 showing that information falling into a black hole is not lost but returns encoded in Hawking radiation, resolving the core of the black hole information paradox. The paper lays out the open questions, including what lies inside black holes and how spacetime itself emerges from quantum entanglement.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Black holes motivate competing ideas about quantum spacetime",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "carrollian-celestial-holography-2022",
@@ -735,8 +825,10 @@
       "topic": "theory",
       "chapter": "frontier",
       "summary": "Holography is the idea that gravity in a region of space can be fully described by a theory without gravity living on its boundary; it is well developed for curved 'anti-de Sitter' universes but not for the flat spacetime we actually inhabit. This paper shows that a 'Carrollian' field theory (one where the speed of light is effectively zero) living on the boundary at infinity has the right structure to describe flat-space gravity, linking two approaches to a flat-space hologram.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "A proposed boundary description explores how spacetime might be encoded",
+      "sourceType": "Journal publication"
     },
     {
       "id": "wormhole-quantum-processor-2022",
@@ -752,7 +844,9 @@
       "chapter": "frontier",
       "summary": "Researchers ran a 9-qubit simulation on Google's Sycamore chip of a toy quantum system that, under holography, is dual to a traversable wormhole, and saw a quantum message pass through as gravity predicts. Critics (Kobrin, Schuster and Yao, arXiv:2302.07897) showed the simplified model does not behave like gravity in key ways, so the result is best seen as an interesting quantum simulation rather than a wormhole in the lab.",
       "status": "disputed",
-      "verified": "2026-09-01"
+      "verified": "2026-09-01",
+      "headline": "A quantum simulation explores a model linked to wormhole physics",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eht-sgr-a-star-2022",
@@ -767,8 +861,10 @@
       "topic": "astrophysics",
       "chapter": "general-relativity",
       "summary": "Linking radio telescopes across the Earth into one planet-sized instrument, the EHT produced the first image of Sagittarius A*, the 4-million-solar-mass black hole at the center of our galaxy: a glowing ring of hot gas around a dark central 'shadow'. The ring's size matches general relativity's prediction for a black hole of the mass already measured from orbiting stars, a second successful test after M87 in 2019.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "The Event Horizon Telescope images our galaxy's central black hole",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eht-m87-variability-2017-2021",
@@ -783,8 +879,10 @@
       "topic": "astrophysics",
       "chapter": "general-relativity",
       "summary": "Comparing EHT images of the M87 black hole from 2017, 2018 and 2021, the ring stayed the same size (about 44 microarcseconds, as a stable black hole should) while the bright spot moved and the polarization pattern, which traces magnetic fields, flipped direction between years. The 2021 data also caught faint emission from the base of M87's jet for the first time, connecting the black hole to the beam it launches.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Repeated observations track changes around the M87 black hole",
+      "sourceType": "Journal publication"
     },
     {
       "id": "rubin-first-look-2025",
@@ -799,8 +897,10 @@
       "topic": "astrophysics",
       "chapter": "cosmos",
       "summary": "The Rubin Observatory in Chile, with an 8.4-meter mirror and the largest digital camera ever built (3,200 megapixels), unveiled its first images on 23 June 2025 after just over 10 hours of test observing. Those hours alone captured millions of galaxies and found 2,104 previously unknown asteroids, a preview of a 10-year survey that will film the entire southern sky every few nights.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Rubin's first images preview a survey of the changing sky",
+      "sourceType": "Announcement"
     },
     {
       "id": "rubin-first-alerts-2026",
@@ -815,8 +915,10 @@
       "topic": "astrophysics",
       "chapter": "cosmos",
       "summary": "On the night of 24 February 2026 Rubin began broadcasting public 'alerts', automatic notices sent within about two minutes whenever something in the sky changes or moves, issuing 800,000 on the first night. At full operation it will send up to 7 million alerts nightly, letting astronomers worldwide chase supernovae, asteroids and other transient events as they happen.",
-      "status": "confirmed",
-      "verified": "2026-09-01"
+      "status": "reported",
+      "verified": "2026-09-01",
+      "headline": "Rubin begins sending alerts about changes in the night sky",
+      "sourceType": "Announcement"
     }
   ]
 }

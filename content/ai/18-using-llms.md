@@ -1,10 +1,10 @@
 ---
 title: Using Them Well
-subtitle: Why the model makes things up, how to ask so that it doesn't, what a context window is, how retrieval and tools extend it, and where the evidence says these systems help and where they quietly hurt.
+subtitle: Why language models make things up, how to reduce errors and check answers, and how context, retrieval, and tools change what they can do. Where these systems help, and where they can quietly hurt.
 part: IV · Large Language Models
 ---
 
-## Recap
+## How do you make a language model useful without trusting it blindly?
 
 Chapters 15 to 17 explained what a language model is and how it was shaped. This is the practical chapter: how to get good work out of one, how to recognize when it is failing, and what the studies of real use have found. It is the chapter most people will use most, and it rests on one idea from chapter 15 that is worth repeating. The model is producing plausible continuations of its context. Everything about using it well follows from that.
 
@@ -36,7 +36,7 @@ The model is completing a document. Make the document one whose natural continua
 
 ## Retrieval: giving it the right documents
 
-The cure for hallucination about specifics is to put the specifics in the context. **Retrieval-augmented generation** (RAG) automates this: the user's question is embedded (chapter 12), the most similar passages are retrieved from a document store, and they are inserted into the prompt with an instruction to answer from them and cite them.[^4] The model now grounds its answer in real text rather than reconstructed memory, its knowledge can be updated by updating the store rather than retraining, and its answers can be checked against the passages it cites.
+Putting relevant source material in the context can reduce unsupported claims about specifics, though it does not guarantee a faithful answer. **Retrieval-augmented generation** (RAG) automates this: the user's question is embedded (chapter 12), the most similar passages are retrieved from a document store, and they are inserted into the prompt with an instruction to answer from them and cite them.[^4] The model now grounds its answer in real text rather than reconstructed memory, its knowledge can be updated by updating the store rather than retraining, and its answers can be checked against the passages it cites.
 
 RAG is how every enterprise chatbot answers questions about a company's own documents, how AI search engines work, and how models are kept current past their training cutoff. Its failure modes are retrieval failures (the right passage was not found, so the model answers from memory or says it cannot), the model ignoring the retrieved text in favor of its priors, and **prompt injection**: a retrieved document that contains instructions ("ignore your previous instructions and…") which the model may follow, because it cannot reliably distinguish content from commands in its context. Prompt injection is unsolved and is the main security problem for any system that feeds a model untrusted text.[^5]
 
@@ -100,6 +100,14 @@ Models are sold by the token, in and out, with prices that fell more than a hund
 - Retrieval grounds answers in real text and keeps them current; prompt injection is its unsolved security problem.
 - Tools and agents extend reach; errors compound over steps, so reliability, not capability, limits deployment.
 - The evidence: large gains for less-skilled workers on tasks within the model's competence; harm when output is trusted on tasks outside it, and to learning when it does the work for you.
+:::
+
+:::try Put the idea to work
+A retrieval system finds a relevant document and the model cites it. What still needs checking before relying on the answer?
+
+:::answer Show the reasoning
+Check whether the document is authoritative and current for the question, whether the cited passage supports the specific claim, and whether other relevant passages were missed. Retrieval supplies evidence to use; it does not ensure that the model interprets or cites it faithfully.
+:::
 :::
 
 ## Summary

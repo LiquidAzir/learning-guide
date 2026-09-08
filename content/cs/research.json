@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-07",
-  "note": "Checked against the original papers, standards documents, conference award pages, and vendor or agency announcements on 2026-09-07. Status: confirmed (peer-reviewed, standardized, or officially announced), preliminary (preprint, single result, or an estimate awaiting independent confirmation), disputed (published challenge), retracted (withdrawn).",
+  "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
       "id": "sssp-sorting-barrier-2025",
@@ -15,8 +15,10 @@
       "topic": "algorithms",
       "chapter": "algorithms",
       "summary": "Dijkstra's algorithm, published in 1959, was widely assumed optimal for shortest paths with non-negative weights, because settling nodes in distance order effectively sorts them and sorting costs n log n. This paper gives a deterministic algorithm running in O(m log^(2/3) n) on directed graphs, beating that bound on sparse graphs by never computing a full ordering: it recursively partitions the frontier and finds a small set of pivot nodes for each part. The practical impact today is nil, since the constants are large, but a barrier that appeared structural turned out not to be.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A shortest-path algorithm breaks through a sorting-based time bound",
+      "sourceType": "Conference paper"
     },
     {
       "id": "time-vs-space-sqrt-2025",
@@ -31,8 +33,10 @@
       "topic": "complexity-theory",
       "chapter": "complexity",
       "summary": "Every multitape Turing machine running in time t can be simulated using only about the square root of t in space. This improves a fifty-year-old bound of Hopcroft, Paul, and Valiant, which achieved t/log t, and it is the first substantial movement on the relationship between time and space in decades. A corollary is that some problems solvable in linear space require close to quadratic time, which is progress, if partial, on separating P from PSPACE.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A theorem shows how computations can use much less working memory",
+      "sourceType": "Conference paper"
     },
     {
       "id": "matmul-exponent-alphaevolve-2026",
@@ -48,7 +52,9 @@
       "chapter": "frontier",
       "summary": "The exponent omega governs how fast two n-by-n matrices can be multiplied; the schoolbook method gives 3 and the long campaign since Strassen's 2.807 in 1969 has been creeping towards a suspected value of 2. This paper reformulates the optimization problem at the heart of the laser method, applies machine-learned search including DeepMind's AlphaEvolve, and reports omega < 2.371177, improving the previous 2.371339. The authorship is notable: the machine-assisted result was produced with the same researchers who set the two previous records. As with all bounds in this line, no practical algorithm follows.",
       "status": "preliminary",
-      "verified": "2026-09-07"
+      "verified": "2026-09-07",
+      "headline": "Optimization and AI search improve a matrix-multiplication bound",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "bb5-coq-2024",
@@ -63,8 +69,10 @@
       "topic": "complexity-theory",
       "chapter": "limits",
       "summary": "The busy beaver function BB(n) gives the most steps any halting n-state Turing machine takes on a blank tape, and it grows faster than any computable function. After decades of partial progress, an open collaboration of amateurs and professionals settled the five-state case and formalized the entire argument in the Coq proof assistant, so the result rests on a machine-checked proof rather than on trust in a large computation. BB(6) is out of reach: its best known lower bound cannot be written in ordinary notation, and one of the machines blocking progress encodes an open Collatz-like question.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A machine-checked proof settles the five-state Busy Beaver problem",
+      "sourceType": "Project or community publication"
     },
     {
       "id": "lossless-vertex-expanders-2025",
@@ -79,8 +87,10 @@
       "topic": "complexity-theory",
       "chapter": "complexity",
       "summary": "Expander graphs are sparse graphs that are nevertheless extremely well connected, and they are a workhorse of theoretical computer science, used in error-correcting codes, derandomization, and network design. This paper gives the first explicit construction of constant-degree graphs with lossless vertex expansion, meaning every small set of vertices has almost the maximum possible number of neighbours. The construction also yields new families of quantum low-density parity-check codes with linear-time decoding, connecting it directly to the error-correction problem in quantum hardware.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A new graph construction preserves expansion with few lost neighbors",
+      "sourceType": "Conference paper"
     },
     {
       "id": "owf-kolmogorov-2020",
@@ -95,8 +105,10 @@
       "topic": "complexity-theory",
       "chapter": "frontier",
       "summary": "All of modern cryptography assumes that one-way functions exist: functions easy to compute and hard to invert. Nobody has ever proved that a single one does, and a proof would imply P is not equal to NP. This paper shows the assumption is exactly equivalent to a precise statement about the average-case hardness of computing time-bounded Kolmogorov complexity, giving the first characterization of cryptography's central assumption in terms of a natural computational problem.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A theorem connects one-way functions with the complexity of describing strings",
+      "sourceType": "Conference paper"
     },
     {
       "id": "gasarch-poll-2019",
@@ -111,8 +123,10 @@
       "topic": "complexity-theory",
       "chapter": "complexity",
       "summary": "A survey of 124 theorists on the field's central open question. Roughly four in five said P is not equal to NP, and among respondents who had worked seriously on the problem the figure was close to unanimous; opinion has hardened since the first such poll in 2002. Belief is not evidence, and the poll is worth reading mainly for the reasons respondents give, and for the range of guesses about when, and by what kind of argument, it might be settled.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A poll records researchers' views on P versus NP",
+      "sourceType": "Journal publication"
     },
     {
       "id": "alphadev-sorting-2023",
@@ -127,8 +141,10 @@
       "topic": "algorithms",
       "chapter": "algorithms",
       "summary": "Treating the choice of machine instructions as a single-player game, a reinforcement-learning system found sorting routines for very short sequences that use a few instructions fewer than the hand-written ones in the C++ standard library, and the results were merged upstream. It is a genuine improvement to code that billions of devices run, and it is narrow: the search space was framed by humans and the gain is in constants rather than in asymptotic behaviour.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Reinforcement learning discovers faster short sorting routines",
+      "sourceType": "Journal publication"
     },
     {
       "id": "timsort-bug-2015",
@@ -143,8 +159,10 @@
       "topic": "formal-verification",
       "chapter": "algorithms",
       "summary": "An attempt to verify TimSort, the standard sort in Python, Java, and Android, failed, and the reason was a real defect: the invariant governing its merge stack was too weak, so arrays above about 67 million elements could overflow the stack and crash. The bug had been in production for over a decade with every test passing, because triggering it required an input larger than anyone had tried. The authors proved a corrected bound and the libraries were fixed.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A sorting bug exposes the gap between common tests and worst cases",
+      "sourceType": "Conference paper"
     },
     {
       "id": "siphash-2012",
@@ -159,8 +177,10 @@
       "topic": "security",
       "chapter": "data-structures",
       "summary": "Hash tables give expected constant-time lookup only if keys are spread across slots. An attacker who chooses the keys can force every one into a single slot, turning each request into quadratic work; this was demonstrated in 2003 and used to take down most web frameworks in a wave of disclosures in 2011. SipHash is a keyed hash designed for short inputs and speed, so that a per-process random key makes the attack impossible to aim. It is now the default hash in many language runtimes.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "SipHash provides a keyed hash function for short inputs",
+      "sourceType": "Conference paper"
     },
     {
       "id": "spectre-2019",
@@ -175,8 +195,10 @@
       "topic": "security",
       "chapter": "architecture",
       "summary": "Processors guess which way a branch will go and execute ahead; on a wrong guess they discard the results but not the effects on the caches. An attacker who can time memory accesses precisely can therefore read data that was only speculatively touched, crossing process and kernel boundaries. This was not a bug in one product but a consequence of an optimization present in nearly every high-performance processor since the mid-1990s, and mitigations cost measurable performance. Variants have continued to appear every year since.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Spectre turns speculative execution into a way to leak secrets",
+      "sourceType": "Conference paper"
     },
     {
       "id": "top500-june-2026",
@@ -191,8 +213,10 @@
       "topic": "computer-architecture",
       "chapter": "architecture",
       "summary": "A system at the National Supercomputing Centre in Shenzhen took first place with 2.198 exaflops on the standard dense linear algebra benchmark, ending El Capitan's run at 1.809 and becoming the first China-based system to lead since 2017. Aggregate performance across the whole list reached 18.74 exaflops, up from 14.99 six months earlier, with 277 of the 500 systems using accelerators. The benchmark measures one workload and is a poor proxy for most real computing, but it remains the field's standard yardstick.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A new system leads the TOP500 supercomputer ranking",
+      "sourceType": "Data or tracker"
     },
     {
       "id": "tsmc-n2-production-2025",
@@ -207,8 +231,10 @@
       "topic": "chips",
       "chapter": "architecture",
       "summary": "The N2 process entered volume production at the end of 2025, the company's first using gate-all-around transistors, in which the gate wraps the channel on all sides to keep control as devices shrink. Reported gains are in the range of a tenth to a fifth in speed or power against the previous node, with a faster ramp planned through 2026. The node name is a marketing label rather than a measured dimension: nothing on the chip is two nanometres across.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Chip manufacturing moves into the 2-nanometer class",
+      "sourceType": "Announcement"
     },
     {
       "id": "iea-energy-and-ai-2025",
@@ -223,8 +249,10 @@
       "topic": "energy-computing",
       "chapter": "frontier",
       "summary": "The first systematic agency assessment of computing's electricity demand in the AI era puts data centre consumption at roughly 415 terawatt-hours in 2024, about 1.5 percent of world electricity, heavily concentrated in a few countries and grids. Projections to 2030 vary by more than a factor of two depending on assumptions about efficiency, and the historical record is that efficiency gains have repeatedly cancelled predicted growth. Energy, rather than transistor density, is now the binding constraint on large-scale computing.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "The IEA estimates data centers' electricity use and AI's contribution",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "landauer-experimental-2012",
@@ -239,8 +267,10 @@
       "topic": "energy-computing",
       "chapter": "frontier",
       "summary": "Landauer argued in 1961 that erasing one bit must dissipate at least kT ln 2 of energy, about three zeptojoules at room temperature, tying information directly to thermodynamics. This experiment, using a single colloidal particle in a double-well optical trap, measured the heat released during erasure and confirmed the bound. Current processors spend around a million times that per operation, so the physical floor is not the near-term constraint, but it does bound where the industry can eventually go without reversible computing.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "An experiment measures the energy cost of erasing information",
+      "sourceType": "Journal publication"
     },
     {
       "id": "willow-below-threshold-2024",
@@ -255,8 +285,10 @@
       "topic": "quantum-hardware",
       "chapter": "quantum",
       "summary": "On a 105-qubit superconducting chip, enlarging the error-correcting code reduced the logical error rate rather than increasing it, roughly halving it at each step up in code size. That is the qualitative behaviour the threshold theorem predicts and the whole programme of fault-tolerant quantum computing depends on, observed rather than assumed for the first time at this scale. It does not deliver a useful computation; it establishes that the scaling path exists.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Quantum error correction improves as a protected system grows",
+      "sourceType": "Journal publication"
     },
     {
       "id": "quantum-echoes-otoc-2025",
@@ -272,7 +304,9 @@
       "chapter": "quantum",
       "summary": "An algorithm measuring an out-of-time-order correlator ran on the Willow chip in about two hours, a task the authors estimate would take roughly 13,000 times longer on a leading classical supercomputer. The claimed advance over the 2019 sampling experiment is verifiability: the output is a physical expectation value that another quantum computer should reproduce, rather than a distribution that is hard to check. The classical cost remains an estimate, and the history of such claims is that improved classical simulation narrows the gap, so this is filed as preliminary.",
       "status": "preliminary",
-      "verified": "2026-09-07"
+      "verified": "2026-09-07",
+      "headline": "Quantum Echoes tests a computation based on interference",
+      "sourceType": "Journal publication"
     },
     {
       "id": "rsa2048-million-qubits-2025",
@@ -288,7 +322,9 @@
       "chapter": "quantum",
       "summary": "A resource estimate, not an experiment: it argues that a quantum computer with fewer than a million noisy physical qubits could factor a 2048-bit RSA key in under a week, using approximate residue arithmetic, cheaper storage of idle logical qubits, and cheaper preparation of the special states error-corrected computation consumes. That is a twentyfold reduction on the same author's 2019 estimate of 20 million qubits, and it came mostly from algorithms rather than hardware. Machines today have thousands of physical qubits, so the gap remains about three orders of magnitude.",
       "status": "preliminary",
-      "verified": "2026-09-07"
+      "verified": "2026-09-07",
+      "headline": "A resource estimate reduces the proposed hardware needed to factor RSA keys",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "ibm-quantum-loon-nighthawk-2025",
@@ -304,7 +340,9 @@
       "chapter": "quantum",
       "summary": "IBM announced Nighthawk, a 120-qubit processor aimed at running deeper circuits, and Loon, an experimental chip demonstrating the components needed for quantum low-density parity-check codes, which promise to cut the physical-qubit overhead of error correction substantially against the surface code. The published target is Starling, a machine with around 200 logical qubits, in 2029. Roadmaps are intentions rather than results, and this one has so far been met on schedule.",
       "status": "preliminary",
-      "verified": "2026-09-07"
+      "verified": "2026-09-07",
+      "headline": "IBM announces processors and a roadmap toward fault tolerance",
+      "sourceType": "Announcement"
     },
     {
       "id": "turing-award-2025-bennett-brassard",
@@ -319,8 +357,10 @@
       "topic": "prizes",
       "chapter": "people",
       "summary": "The field's highest honour went to the founders of quantum information science, above all for the 1984 BB84 protocol, which uses the fact that measuring a quantum state disturbs it to build a key exchange in which eavesdropping is detectable rather than merely difficult. Their work also covers quantum teleportation and the thermodynamics of computation. The award was announced on 18 March 2026 and carries one million dollars.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "The 2025 Turing Award honors Bennett and Brassard",
+      "sourceType": "Announcement"
     },
     {
       "id": "nist-pqc-standards-2024",
@@ -335,8 +375,10 @@
       "topic": "post-quantum",
       "chapter": "security",
       "summary": "After an eight-year open competition, NIST published three standards: ML-KEM for key agreement and ML-DSA and SLH-DSA for signatures. Two are lattice-based and one is hash-based, chosen so that a break of lattice assumptions would not take everything down at once. The standards matter now rather than when a quantum computer arrives, because encrypted traffic recorded today can be decrypted later, and because migrating the world's infrastructure takes a decade.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "NIST publishes its first post-quantum cryptography standards",
+      "sourceType": "Standard"
     },
     {
       "id": "nist-hqc-2025",
@@ -351,8 +393,10 @@
       "topic": "post-quantum",
       "chapter": "security",
       "summary": "Hamming Quasi-Cyclic, a key-encapsulation scheme built on error-correcting codes rather than lattices, was selected as a backup to ML-KEM, with a draft standard expected in 2026 and finalization targeted for 2027. The reasoning is deliberate hedging: lattice cryptography is younger and less attacked than RSA was at a comparable point, and a structural weakness in it would otherwise leave no alternative in place.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "NIST chooses an additional post-quantum algorithm based on different mathematics",
+      "sourceType": "Announcement"
     },
     {
       "id": "cloudflare-pq-majority-2026",
@@ -367,8 +411,10 @@
       "topic": "post-quantum",
       "chapter": "security",
       "summary": "More than half the human-originated traffic through one of the largest content networks now negotiates a hybrid key agreement combining classical X25519 with post-quantum ML-KEM, so that breaking either alone is insufficient. Adoption was driven by browsers enabling it by default, and it is fast by the standards of internet transitions, which usually take a decade or more. Signatures and long-lived infrastructure such as certificate chains are the harder remaining half of the migration.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A large network reports post-quantum protection for over half of human traffic",
+      "sourceType": "Data or tracker"
     },
     {
       "id": "shattered-sha1-2017",
@@ -383,8 +429,10 @@
       "topic": "cryptography",
       "chapter": "security",
       "summary": "Two different PDF files with the same SHA-1 hash, produced at a cost of roughly 6,500 processor-years and 100 GPU-years bought at ordinary cloud prices. The theoretical break dated from 2005; this made it concrete and forced migrations that had been deferred for a decade. Both SHA-1 and the older MD5 remain in production systems, which is the recurring lesson: cryptographic primitives are deprecated long before they are removed.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Researchers produce the first collision for the full SHA-1 hash",
+      "sourceType": "Conference paper"
     },
     {
       "id": "xz-backdoor-2024",
@@ -399,8 +447,10 @@
       "topic": "security",
       "chapter": "security",
       "summary": "An attacker spent about two years contributing useful code to a compression library under a persona, became a maintainer, and hid a payload in binary test fixtures that the build process assembled into a hook allowing remote command execution over SSH for the holder of a private key. It was caught before reaching most stable distributions by an engineer investigating why logins were taking half a second longer than expected. The attack succeeded on the social layer, against a critical dependency maintained by one unpaid volunteer.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "The xz backdoor shows how a patient attacker can target open-source trust",
+      "sourceType": "Project or community publication"
     },
     {
       "id": "tls13-rfc8446-2018",
@@ -415,8 +465,10 @@
       "topic": "cryptography",
       "chapter": "security",
       "summary": "The redesign of the protocol behind the padlock: legacy options that had produced a decade of attacks were removed rather than deprecated, the handshake was cut to a single round trip, and forward secrecy became mandatory, so recording traffic today and stealing the server key tomorrow does not decrypt it. It was also the first major protocol whose design was accompanied by machine-checked security proofs developed alongside the specification.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "TLS 1.3 specifies a faster, more restrictive secure-connection protocol",
+      "sourceType": "Standard"
     },
     {
       "id": "cisa-nsa-memory-safe-2025",
@@ -431,8 +483,10 @@
       "topic": "memory-safety",
       "chapter": "languages",
       "summary": "Government agencies from several countries now treat the choice of programming language as a national security matter, on the evidence that roughly 70 percent of severe vulnerabilities at large vendors are memory-safety errors, a proportion stable for two decades. The guidance covers migration obstacles honestly: rewriting billions of lines is not feasible, so the recommendation is memory-safe languages for new components, hardened interfaces at the boundary, and published roadmaps for the rest.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A security report recommends languages that prevent common memory errors",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "rust-kernel-permanent-2025",
@@ -447,8 +501,10 @@
       "topic": "memory-safety",
       "chapter": "operating-systems",
       "summary": "After five years of argument, the maintainers agreed that the Rust experiment had succeeded and removed the experimental label, making a second language a permanent part of the kernel for the first time. The agreed policy is coexistence: Rust for new code, C for existing subsystems, and no forced migrations. It is the first structural change in systems-programming practice in thirty years, and it is a change in social process as much as in technology.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Rust support in Linux moves beyond experimental status",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "sel4-verification-2009",
@@ -463,8 +519,10 @@
       "topic": "formal-verification",
       "chapter": "operating-systems",
       "summary": "The first machine-checked proof that a complete general-purpose operating system kernel implements its specification: about 8,700 lines of C and 600 of assembler, with the proof carried out in Isabelle/HOL. Functional correctness here implies the kernel cannot crash or perform an unsafe operation, and later work extended the guarantees to information flow and to the compiled binary. It remains the benchmark for what verification can achieve at small scale, and the contrast with a forty-million-line monolithic kernel is the point.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "The seL4 project proves core properties of an operating-system kernel",
+      "sourceType": "Conference paper"
     },
     {
       "id": "basilisk-osdi-2025",
@@ -479,8 +537,10 @@
       "topic": "formal-verification",
       "chapter": "concurrency",
       "summary": "Proving that a distributed protocol never violates safety is undecidable in general, and doing it by hand takes expert months. This work automates a large part of the job by inferring invariants about where each piece of state came from, and applies it to consensus and replication protocols of the kind chapter 15 describes. It is part of a broader shift in systems research from testing distributed protocols to proving them.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Basilisk automates proofs for a class of distributed protocols",
+      "sourceType": "Conference paper"
     },
     {
       "id": "compcert-2009",
@@ -495,8 +555,10 @@
       "topic": "formal-verification",
       "chapter": "compilers",
       "summary": "A C compiler carrying a machine-checked proof, in the Coq proof assistant, that the machine code it emits behaves as the source language's semantics say it should. The strongest independent evidence for it is negative: a random-testing campaign that found hundreds of bugs in every other C compiler found none in CompCert's verified core. It is slower and produces somewhat slower code than aggressive optimizers, and is used where certification costs outweigh that.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A verified compiler connects source code with machine-code behavior",
+      "sourceType": "Journal publication"
     },
     {
       "id": "csmith-2011",
@@ -511,8 +573,10 @@
       "topic": "programming-languages",
       "chapter": "compilers",
       "summary": "A tool that generates random C programs with well-defined behaviour and compares what different compilers produce from them found and reported 325 bugs in production compilers, including in every commercial one tested. These are cases where correct source code was compiled into a program that did the wrong thing. The exercise measurably improved the compilers, and random differential testing is now standard practice in the field.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Generated test programs uncover bugs in C compilers",
+      "sourceType": "Conference paper"
     },
     {
       "id": "llvm-2004",
@@ -527,8 +591,10 @@
       "topic": "programming-languages",
       "chapter": "compilers",
       "summary": "A shared intermediate representation and optimizer, so that m languages and n target processors need m plus n pieces of compiler rather than m times n. It is now the back end for C, C++, Rust, Swift, Julia and many others, and its existence is a large part of why new languages can reach production performance quickly. The design lesson generalizes well beyond compilers.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "LLVM offers reusable infrastructure for compiler analysis and optimization",
+      "sourceType": "Conference paper"
     },
     {
       "id": "unicode-18-2026",
@@ -543,8 +609,10 @@
       "topic": "standards",
       "chapter": "representation",
       "summary": "The latest version adds about 13,000 characters, roughly nine tenths of them historical scripts rather than the handful of new emoji that get the coverage. The standard's scale is the point: one number for every character in every writing system, encoded almost universally as UTF-8, whose backward compatibility with 1963-era ASCII is why it won. The distinction between bytes, code points, and what a reader would call a character remains a reliable source of bugs.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Unicode 18 expands the shared character standard",
+      "sourceType": "Standard"
     },
     {
       "id": "ipv6-fifty-percent-2026",
@@ -559,8 +627,10 @@
       "topic": "internet-measurement",
       "chapter": "networks",
       "summary": "Native IPv6 access to Google's services crossed half of users for the first time in late March 2026. The protocol was standardized in 1998, so the transition has taken nearly three decades, held up by the fact that network address translation made the old addresses stretch far enough to remove the urgency. It is the clearest available measurement of how long it takes to change something in the middle of the internet, which is the reason QUIC was built on top of UDP rather than as a new protocol.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "IPv6 reaches more than half of Google's measured users",
+      "sourceType": "Data or tracker"
     },
     {
       "id": "quic-rfc9000-2021",
@@ -575,8 +645,10 @@
       "topic": "networking",
       "chapter": "networks",
       "summary": "TCP could not be fixed because middleboxes drop anything that does not look like the TCP they know, so the transport layer was rebuilt on top of UDP where those devices see only an opaque payload. QUIC gives independent streams so one lost packet stalls only its own, encrypts nearly all of its own control information to prevent the same ossification recurring, sets up an encrypted connection in one round trip, and lives in application code so it can be updated at browser speed.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "QUIC combines secure transport with independently managed streams",
+      "sourceType": "Standard"
     },
     {
       "id": "mosaic-sigcomm-2025",
@@ -591,8 +663,10 @@
       "topic": "networking",
       "chapter": "networks",
       "summary": "Short links inside data centres face an awkward choice: copper is cheap and power-efficient but cannot go far, and optics reach further at higher cost and power. This design uses many slow parallel channels driven by micro-LEDs instead of few fast ones, which changes the economics at exactly the distances that matter for connecting accelerators. It is representative of where networking research has moved: the interesting distances are now inside the building rather than between cities.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A microLED design explores new ways to move data between chips",
+      "sourceType": "Conference paper"
     },
     {
       "id": "spanner-2013",
@@ -607,8 +681,10 @@
       "topic": "distributed-systems",
       "chapter": "concurrency",
       "summary": "The system that made globally consistent transactions work at planetary scale, by buying better clocks: atomic clocks and GPS receivers in every data centre, and an interface that returns not a timestamp but an interval guaranteed to contain the true time. To commit, the system waits out the uncertainty, typically a few milliseconds. It is the standing counterexample to the claim that strong consistency is impossible at scale, and a demonstration of how expensive the alternative to giving up on time is.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Spanner combines distributed transactions with bounded clock uncertainty",
+      "sourceType": "Journal publication"
     },
     {
       "id": "flp-impossibility-1985",
@@ -623,8 +699,10 @@
       "topic": "distributed-systems",
       "chapter": "concurrency",
       "summary": "In a system with no bound on message delay, and with even one process that may crash, no deterministic protocol can guarantee that all nodes agree on a value. The reason is simple to state and impossible to engineer around: a slow node and a dead node cannot be distinguished from outside. Every practical consensus protocol, Paxos and Raft included, works by assuming the network is usually timely, guaranteeing safety always and progress only when that assumption holds.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A proof exposes a limit of consensus in asynchronous systems",
+      "sourceType": "Journal publication"
     },
     {
       "id": "pods-2025-join-aggregate",
@@ -639,8 +717,10 @@
       "topic": "databases",
       "chapter": "databases",
       "summary": "Join-aggregate queries — join several tables and then group and total the result — are the workhorse of analytics, and how efficiently they can be evaluated in terms of both input and output size had been open for years. This paper establishes output-optimal bounds for an important class of them. Database theory of this kind takes a long time to reach products, and when it does it usually arrives as a change in what the query optimizer of chapter 16 is willing to attempt.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "New algorithms reduce the work needed for combined joins and aggregates",
+      "sourceType": "Conference paper"
     },
     {
       "id": "gaussian-splatting-2023",
@@ -655,8 +735,10 @@
       "topic": "graphics",
       "chapter": "graphics",
       "summary": "Reconstructing a scene from photographs and rendering it from new viewpoints had been done with neural radiance fields, at minutes per image. This work represents the scene as millions of small translucent ellipsoids that can be rasterized directly by conventional graphics hardware, reaching comparable quality at real-time rates. It displaced the neural approach for most practical use within about a year, and is now appearing in mapping, film production, and telepresence.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "Gaussian splatting renders reconstructed scenes in real time",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nerf-2020",
@@ -671,8 +753,10 @@
       "topic": "graphics",
       "chapter": "graphics",
       "summary": "Instead of building geometry, train a small neural network to answer what colour and density exist at a point when viewed from a direction, then render by integrating along rays. The image quality from a few dozen photographs was startling and opened a subfield, though the original was far too slow for interactive use. It is the clearest example of learned representations replacing hand-built ones inside a classical pipeline.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "NeRF learns a scene representation that can generate new viewpoints",
+      "sourceType": "Conference paper"
     },
     {
       "id": "metr-ai-productivity-rct-2025",
@@ -687,8 +771,10 @@
       "topic": "software-engineering",
       "chapter": "software-engineering",
       "summary": "Sixteen experienced maintainers completed 246 real tasks in repositories they had worked on for years, randomized to allow or forbid AI assistance. They took 19 percent longer with the tools, and estimated afterwards that they had been 20 percent faster. The authors are explicit that this is the setting least favourable to assistance — deep familiarity with a mature codebase — and that the sample is small and the tools have since changed; METR revised its experimental design in February 2026. The durable finding is that self-reported speedup is unreliable.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "An experiment finds that tested AI tools slowed experienced open-source developers",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "dora-ai-report-2025",
@@ -703,8 +789,10 @@
       "topic": "software-engineering",
       "chapter": "software-engineering",
       "summary": "The long-running survey programme behind the four delivery metrics turned to AI adoption, which it found near-universal among respondents. Its central finding is that AI acts as an amplifier: it raises throughput, and where testing, review, and deployment practice are weak it raises instability too, because the constraint was never how fast code could be written. Survey evidence of this kind shows correlation across self-selected respondents, and should be read alongside controlled studies rather than instead of them.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A survey tracks how developers use and assess AI assistance",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "utboost-swebench-audit-2025",
@@ -720,7 +808,9 @@
       "chapter": "software-engineering",
       "summary": "The standard benchmark for AI coding agents scores a fix as correct if the repository's tests pass. Generating stronger tests for the same tasks showed that a substantial share of solutions counted as correct on leaderboards — around a fifth of audited cases among top entries — pass by coincidence or by exploiting the harness rather than by fixing the issue. Headline percentages from this benchmark should therefore be treated as upper bounds.",
       "status": "preliminary",
-      "verified": "2026-09-07"
+      "verified": "2026-09-07",
+      "headline": "A coding benchmark audit tests whether apparent fixes survive stronger checks",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "aws-formal-methods-2015",
@@ -735,8 +825,10 @@
       "topic": "formal-verification",
       "chapter": "software-engineering",
       "summary": "Engineers specified production distributed protocols in TLA+ and model-checked the specifications, finding design bugs that required long, improbable sequences of events and had survived extensive testing and review. The paper is the standard citation for the practical position: formalize the design, where a defect is cheap to find and catastrophic to ship, rather than attempting to verify the whole implementation.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "AWS describes using formal methods to examine system designs",
+      "sourceType": "Journal publication"
     },
     {
       "id": "crowdstrike-outage-2024",
@@ -751,8 +843,10 @@
       "topic": "software-engineering",
       "chapter": "software-engineering",
       "summary": "On 19 July 2024 a configuration update to endpoint security software crashed about 8.5 million Windows machines, grounding flights and halting hospitals and banks; direct losses were estimated in the billions. The content update did not go through the staged rollout used for code updates, and a mismatch between the number of input fields the sensor expected and the number supplied caused an out-of-bounds read in kernel context. The recurring lesson is that whatever you do not consider part of the software is what takes production down.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "A root-cause report explains the CrowdStrike update failure",
+      "sourceType": "Technical report"
     },
     {
       "id": "horizon-inquiry-2025",
@@ -767,8 +861,10 @@
       "topic": "software-engineering",
       "chapter": "software-engineering",
       "summary": "Accounting software produced shortfalls that operators had not caused, and the Post Office prosecuted more than 700 sub-postmasters for theft and false accounting while internally aware of defects and while asserting in court that the system was reliable. Convictions were quashed in bulk by legislation in 2024. The inquiry published the first volume of its final report on 8 July 2025, covering the human cost and compensation and making nineteen recommendations; the volumes analysing how it happened are still to come. The technical defects were ordinary; what turned them into a catastrophe was an organization that believed a computer over hundreds of people.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "The Horizon inquiry documents human harm and the need for redress",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "oss-fuzz-continuous",
@@ -783,8 +879,10 @@
       "topic": "software-engineering",
       "chapter": "software-engineering",
       "summary": "Fuzzing throws malformed input at a program and uses coverage feedback to steer the generator towards new code paths. Run continuously across many hundreds of widely used open-source projects, it has reported tens of thousands of bugs, a large share of them security-relevant, found by machines with no understanding of the code. It is the most cost-effective automated bug-finding technique currently known for anything that parses untrusted input.",
-      "status": "confirmed",
-      "verified": "2026-09-07"
+      "status": "reported",
+      "verified": "2026-09-07",
+      "headline": "OSS-Fuzz continuously searches open-source programs for failures",
+      "sourceType": "Data or tracker"
     }
   ]
 }

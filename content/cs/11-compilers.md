@@ -4,7 +4,7 @@ subtitle: How text becomes instructions: five stages, one intermediate form, a h
 part: II · The Machine
 ---
 
-## Recap
+## How can a compiler change code without changing its meaning?
 
 Chapter 10 described languages. This chapter describes the program that translates one into another, usually into the machine code of chapter 8. Compilers are worth understanding even if you never write one, because they explain why your code runs faster or slower than it looks, and because the same structure — read text, build a tree, check it, transform it, emit something — is the shape of an enormous amount of software that has nothing to do with programming languages.
 
@@ -65,6 +65,14 @@ His conclusion was that you cannot trust code you did not write yourself, and ca
 ## What we still argue about
 
 Whether the freedom that undefined behaviour gives optimizers is worth the surprises, an argument that has grown sharper as the security consequences accumulated. Whether machine learning should choose the optimization heuristics, where early results are promising and the failure modes are unfamiliar. Whether verified compilation can be made competitive with aggressive optimization rather than a trade against it. And how to compile for hardware that is increasingly heterogeneous, where the target is not one instruction set but a processor, a vector unit, and an accelerator that must be scheduled together.
+
+:::try Put the idea to work
+Why can't a compiler always reorder two operations that look independent in a small excerpt of a program?
+
+:::answer Show the reasoning
+They may access overlapping memory, affect visible output, throw errors, or depend on shared state elsewhere. An optimization needs to preserve the language's observable behavior under its rules. Local appearance is not enough; the compiler must establish the relevant dependencies or use explicit assumptions.
+:::
+:::
 
 ## Summary
 

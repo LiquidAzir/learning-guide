@@ -10,6 +10,12 @@ const SHELL_CACHE = 'lg-shell-' + VERSION;
 const FONT_CACHE = 'lg-fonts-v1';
 const SHELL = ['/', '/index.html', '/manifest.webmanifest', '/icons/icon-192.png', '/icons/icon-512.png', '/icons/icon-512-maskable.png', '/icons/apple-touch-icon.png', '/favicon.svg'];
 
+// Some static hosts redirect /index.html to /. Navigation requests can reject a
+// redirected response returned by a worker, even when its final body is valid.
+const navigationResponse = (res) => res && res.redirected
+  ? new Response(res.body, { status: res.status, statusText: res.statusText, headers: res.headers })
+  : res;
+
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(SHELL_CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
 });
@@ -52,9 +58,10 @@ self.addEventListener('fetch', (event) => {
         if (res && res.ok) cache.put(key, res.clone());
         return res;
       }).catch(() => null);
-      if (cached) { network.catch(() => {}); return cached; }
+      if (cached) { network.catch(() => {}); return isNav ? navigationResponse(cached) : cached; }
       const res = await network;
-      return res || (isNav ? (await cache.match('/index.html')) : Response.error());
+      const fallback = res || (isNav ? (await cache.match('/index.html')) : Response.error());
+      return isNav ? navigationResponse(fallback) : fallback;
     })
   );
 });

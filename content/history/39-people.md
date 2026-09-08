@@ -33,7 +33,7 @@ Each entry gives dates, what the person did that matters for this guide, and the
 - **Trajan** (r. 98–117), **Hadrian** (r. 117–138), **Marcus Aurelius** (r. 161–180). The empire at its height. Chapter 9.
 - **Pliny the Younger** (61–c. 113). Eyewitness to Vesuvius; the exchange with Trajan on Christians. Chapter 9.
 - **Ulpian** (d. 223). Roman jurist. Chapter 9.
-- **Zoroaster** (date unknown, c. 1200–600 BCE), **the Buddha** (c. 480–400 BCE), **Mahavira** (c. 5th century BCE). Chapters 10, 12.
+- **Zoroaster** (date uncertain, often placed within c. 1500–600 BCE), **the Buddha** (c. 480–400 BCE), **Mahavira** (c. 5th century BCE). Chapters 10, 12.
 - **Chandragupta Maurya** (r. c. 321–297 BCE), **Ashoka** (r. c. 268–232 BCE). Chapter 10.
 - **Aryabhata** (476–550). Indian mathematician and astronomer. Chapter 10.
 - **Diocletian** (r. 284–305), **Constantine** (r. 306–337), **Theodosius I** (r. 379–395), **Justinian** (r. 527–565). Chapter 13.

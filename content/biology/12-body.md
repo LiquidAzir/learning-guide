@@ -4,7 +4,7 @@ subtitle: Eleven systems, one problem: keeping a few trillion cells supplied and
 part: IV · The Living World
 ---
 
-## Recap
+## How do organs cooperate to keep conditions stable?
 
 Chapters 3 to 6 built the cell; this chapter builds the organism from it. The animal body is a solution to a logistics problem: a single cell can exchange everything it needs with its surroundings by diffusion, but diffusion is hopeless over more than about a millimeter, so any animal larger than that needs pumps, pipes, and pumps for the pipes. Everything below follows from that.
 
@@ -18,7 +18,7 @@ The mechanism is nearly always **negative feedback**: a sensor detects a deviati
 
 **Circulatory.** The heart is two pumps in one: the right sends blood to the lungs, the left to the body. It beats about 100,000 times a day, moving about 5 liters a minute at rest and up to 25 during hard exercise, through some 100,000 kilometers of vessels of which nearly all the length is capillaries, one cell thick, where the actual exchange happens. No cell in the body is more than about 100 micrometers from a capillary. Blood is about 45 percent cells by volume, nearly all red cells, of which you have about 25 trillion, each carrying about 270 million hemoglobin molecules and living about 120 days.[^2]
 
-**Respiratory.** The lungs contain roughly 480 million alveoli with a combined surface area of about 130 square meters, genuinely about half a tennis court, and a barrier to the blood 0.5 micrometers thick. You breathe about 12 times a minute at rest, moving 6 to 8 liters of air a minute, and the driver of breathing is not low oxygen but rising carbon dioxide, which is why hyperventilating before a breath-hold dive is dangerous: it removes the urge to breathe without adding much oxygen.
+**Respiratory.** The lungs pack hundreds of millions of tiny air sacs, **alveoli**, into the chest. Their large surface and thin barrier let oxygen enter the blood and carbon dioxide leave it. Surface-area estimates depend on inflation and measurement method: one electron-microscopy study of eight adult lungs found about 140 m² on average.[^2] Treat that as a scale estimate, not a fixed dimension of every person. At rest, rising carbon dioxide is normally the main chemical drive to breathe; oxygen also matters, especially when it falls substantially.
 
 **Digestive.** A tube nine meters long with specialized regions: the stomach's acid (pH 1.5 to 3.5) kills microbes and starts protein digestion; the small intestine, with a surface area of about 30 square meters after villi and microvilli are counted, does nearly all absorption; the large intestine reclaims water and houses the microbiome (chapter 10). The liver, the largest internal organ, is the body's chemical plant: it stores and releases glucose, makes plasma proteins and bile, and detoxifies drugs and alcohol.
 
@@ -68,11 +68,19 @@ Two interventions have effects on human health so large and so well replicated t
 In 1822 a French-Canadian trapper named Alexis St. Martin was shot in the side at close range. He survived, but the wound healed into a permanent opening into his stomach. The army surgeon who treated him, William Beaumont, realized what he had and spent a decade running experiments through it: tying pieces of food on a string, lowering them in, and pulling them out at intervals to see what had dissolved; extracting gastric juice and testing whether it digested food outside the body (it did, settling an argument about whether digestion was chemical or mechanical); observing that the stomach lining reddened when St. Martin was angry.[^8] The 238 experiments Beaumont published in 1833 founded the physiology of digestion. The relationship was also exploitative: St. Martin was Beaumont's servant under contract, was paid little, tried repeatedly to leave, and outlived him by 27 years. The history of physiology has many episodes like this, and the modern rules on informed consent exist because of them.
 :::
 
+:::try Put the idea to work
+After a meal, blood glucose rises and regulatory responses bring it back toward its usual range. Why is that negative feedback rather than “negative” in the sense of harmful?
+
+:::answer Show the reasoning
+The response opposes the original change. “Negative” describes the direction of the feedback, not whether it is desirable. Stable regulation needs sensing, a response, and limits; it does not imply that the measured value never fluctuates.
+:::
+:::
+
 ## Summary
 
 - Bodies exist because diffusion fails beyond about a millimeter; every system is a delivery or removal solution.
 - Homeostasis holds temperature, pH, glucose, and salts in narrow bands by negative feedback; most chronic disease is a broken feedback loop.
-- The numbers matter: 100,000 km of vessels, 70 m² of lung, 30 m² of gut, 180 liters filtered daily by the kidneys, a skeleton replaced every decade.
+- Body systems work by moving materials across large exchange surfaces and keeping conditions within workable ranges. The lungs, gut, and kidneys use different structures to solve related transport problems.
 - Surface area scales as mass to the 2/3 and metabolic rate as mass to the 3/4, which sets how fast animals of different sizes must eat, cool, and dose drugs.
 - Exercise and sleep have unusually large, well-replicated effects on health; what sleep is actually for remains argued.
 

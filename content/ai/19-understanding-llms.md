@@ -4,7 +4,7 @@ subtitle: Stochastic parrot or world model? What interpretability has actually f
 part: IV · Large Language Models
 ---
 
-## Recap
+## What would count as understanding inside a language model?
 
 A language model is a few hundred matrix multiplications and a coin flip (chapter 15), trained to predict text (chapter 16), shaped by feedback (chapter 17). It writes working code, passes professional exams, and explains jokes. It also tells you a paper exists that does not. What is it, and does it understand anything? This chapter gives the evidence on both sides, the tools that let researchers look inside, and the reasons the question is harder than it sounds. It is the most contested chapter in the guide and it tries to be fair to everyone.
 
@@ -81,6 +81,14 @@ Interpretability's practical goal is an audit: to check, from the inside, whethe
 - Benchmarks saturate, get contaminated, and measure the measurable. Read the date, the baseline, the prompting, and who ran it.
 - Models both memorize and generalize, and you cannot tell which from outside.
 - Fixed computation per token, no persistent memory, no learning after training, no ground truth: structural limits addressed today by scaffolding.
+:::
+
+:::try Put the idea to work
+A model answers a familiar question correctly, then fails a small variation. What does that tell you, and what does it leave uncertain?
+
+:::answer Show the reasoning
+The success did not establish robust generalization across those cases. It may rely on a shortcut, memorized pattern, or fragile representation. The pair of outputs constrains what the model can do; it does not by itself settle every claim about its internal understanding.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: 1644 to 1800. Manchu emperors rule the largest, richest, most populous
 part: IV · East Asian History
 ---
 
-## Recap
+## What made Qing and Tokugawa rule stable, and where were its limits?
 
 The Manchus took Beijing in 1644; Tokugawa Ieyasu won Sekigahara in 1600. This chapter covers the two regimes they founded at their height, in the century and a half before the West arrived in force: the **Qing** at the peak of Chinese imperial power and the **Tokugawa** peace in Japan. It also takes up the Great Divergence argument from chapter 29 at the point where it is sharpest, around 1750, when the richest parts of China and Japan and the richest parts of Europe were, on most measures, about equally well off, and asks what the eighteenth century looked like from Beijing and Edo.
 
@@ -43,7 +43,7 @@ The Qing were, for most of the twentieth century, the dynasty of decline: Chines
 :::
 
 :::key
-The High Qing and Tokugawa Japan were the two most successful regimes in East Asian history by the measures their own civilizations used: peace, population, prosperity, and order. The Qing doubled China's territory and population and governed the largest state on Earth with a bureaucracy of 20,000; the Tokugawa gave Japan the longest peace any large society has had and the world's biggest city. Both did it by controlling contact with outsiders on their own terms, and both were built for a world in which they were the center. In 1800 they were; twenty years later a power they had classified as a tributary would show that they were not, and the same institutions that had produced the peace would make the response slow.
+The High Qing and Tokugawa Japan were the two most successful regimes in East Asian history by the measures their own civilizations used: peace, population, prosperity, and order. The Qing doubled China's territory and population and governed the largest state on Earth with a bureaucracy of 20,000; the Tokugawa gave Japan the longest peace any large society has had and the world's biggest city. Both did it by controlling contact with outsiders on their own terms, and both were built for a world in which they were the center. In 1800 they were; roughly four decades later a power they had classified as a tributary would show that they were not, and the same institutions that had produced the peace would make the response slow.
 :::
 
 :::know Dates to hold onto
@@ -56,6 +56,14 @@ The High Qing and Tokugawa Japan were the two most successful regimes in East As
 - 1735–1796: Qianlong. 1750s: Xinjiang conquered.
 - 1774: Japanese translation of a Dutch anatomy.
 - 1793: Macartney embassy.
+:::
+
+:::try Put the idea to work
+Why is calling Tokugawa Japan “completely isolated” less informative than asking who could travel and trade, where, and under whose control?
+
+:::answer One way to reason it through
+The latter questions identify regulated channels of contact and the political purposes of restrictions. Isolation suggests an absence of exchange, obscuring permitted trade and information flows. The key issue is the organization and control of contact, not a simple open-or-closed switch.
+:::
 :::
 
 ## Summary

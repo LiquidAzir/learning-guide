@@ -4,7 +4,7 @@ subtitle: The questions the field cannot answer, the physical limits it is appro
 part: V · The Edge
 ---
 
-## Recap
+## What remains difficult even as computers get faster?
 
 Twenty-one chapters of settled material. This one collects what is not settled, separated into three kinds: mathematical questions nobody can answer, physical limits nobody can cross, and engineering transitions currently underway. The first kind may outlive everyone reading this; the third will look dated in five years, which is why it is dated explicitly.
 
@@ -66,9 +66,17 @@ Reading back over twenty-two chapters, these are the places where the honest ans
 
 That list is a fair summary of the field's edge. It is shorter than the list of things that were open in 1980, and the items on it are harder.
 
+:::try Put the idea to work
+A paper improves an algorithm's asymptotic bound but its implementation is slower on current inputs. Can both claims be true?
+
+:::answer Show the reasoning
+Yes. The proof concerns growth under a stated model, while measured performance includes constants, overhead, hardware, and input size. The theoretical result can change what is known to be possible without immediately replacing a practical method. Keep those two contributions distinct.
+:::
+:::
+
 ## Summary
 
-- P versus NP remains open with all known proof techniques ruled out; we cannot even prove superlinear circuit lower bounds for NP problems.
+- P versus NP remains open, with major barriers limiting several broad families of proof techniques; we cannot even prove superlinear circuit lower bounds for NP problems.
 - Time versus space moved in 2025 for the first time since 1975; the matrix multiplication exponent moved in 2026 to below 2.371177, with machine assistance, and remains far from the suspected value of 2.
 - Whether one-way functions exist is unproved and is now known to be equivalent to a statement about Kolmogorov complexity.
 - The Landauer limit puts a floor of about $3 \times 10^{-21}$ joules on erasing a bit; current hardware is five to six orders of magnitude above it, and only reversible computation escapes the bound.

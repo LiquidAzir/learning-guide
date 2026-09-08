@@ -4,7 +4,7 @@ subtitle: 1415 to 1700. Portuguese caravels round Africa, a Genoese sailor lands
 part: III · European History
 ---
 
-## Recap
+## How did ocean voyages become conquest and a transformed world?
 
 Chapters 16 and 17 have mentioned 1492 and American silver as if they were background. They were not; they were the beginning of Europe's relation to the rest of the world, and this chapter tells that story from the first Portuguese voyages down the African coast to the point, around 1700, when Europeans controlled the world's oceans and were arguing about what that meant. It also asks the question every historian of the period asks: why did a poor, quarrelsome peninsula on the edge of Eurasia, and not the far richer Chinese or Islamic worlds, do this?
 
@@ -59,10 +59,18 @@ The European expansion was made possible by things Europeans had not invented (t
 - 1652: Dutch found Cape Town.
 :::
 
+:::try Put the idea to work
+Why is explaining American conquest only through European weapons incomplete?
+
+:::answer One way to reason it through
+Indigenous alliances and rivalries shaped campaigns; introduced diseases, warfare, enslavement, and disrupted food systems magnified losses. Europeans also depended on local knowledge and supplies. A multi-causal account gives Indigenous people political agency while recognizing the devastating inequalities and coercion of conquest.
+:::
+:::
+
 ## Summary
 
 - Portugal opened the Atlantic and Indian Ocean routes with caravels and ship-mounted cannon, and took the spice trade from Venice and the Arabs by 1515.
-- Columbus reached a hemisphere of 50 million people and two great empires; Cortés and Pizarro destroyed them with steel, horses, native allies, and above all smallpox, which killed perhaps 90 percent of the indigenous population within a century.
+- European conquest depended on Indigenous allies as well as weapons and horses. Introduced diseases, warfare, enslavement, and famine devastated Indigenous populations; estimates vary by place and period, and losses in some regions approached 90 percent.
 - The Columbian exchange moved crops, animals, and diseases across the world; American silver, dug by forced labor, made the first global economy and flowed to China.
 - The Atlantic slave trade carried 12.5 million Africans to the plantations of Brazil and the Caribbean as ordinary, financed, insured business.
 - The Dutch and English replaced Spain and Portugal with chartered companies, stock exchanges, and navies; historians explain "why Europe" by fragmentation, geography, germs, and need rather than superiority.

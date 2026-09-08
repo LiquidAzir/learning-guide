@@ -11,7 +11,7 @@ Physics is the attempt to find the smallest set of rules that explains the large
 That sounds modest. It is not. The same handful of rules that tell you why a dropped phone accelerates toward the floor also tell you why the Sun shines, why your GPS needs to correct for the warping of time, and why a hard drive can hold anything at all. Physics is arguably the most successful idea humans have ever had, and it is successful in a way nobody fully understands. In 1960 the physicist Eugene Wigner wrote a famous essay about this, calling it "the unreasonable effectiveness of mathematics in the natural sciences."[^1] Why should the universe obey equations a person can write on a napkin? Nobody knows. It just does.
 
 :::key
-Physics does not ask *why* the universe exists. It asks *how it behaves*, and then insists on checking the answer against reality. Every claim in this guide, however strange, survived because somebody measured it.
+Physics does not ask *why* the universe exists. It asks *how it behaves*, and then insists on checking the answer against reality. Established theories earn their place by surviving tests. Open proposals are marked as such, and the frontier chapters explain where evidence is still incomplete.
 :::
 
 ## How physics actually makes progress
@@ -66,13 +66,19 @@ Physics splits into two overlapping crafts. **Theorists** build mathematical mod
 
 Over the last century the work has also become collaborative on a scale that would astonish Newton. The 2012 discovery of the Higgs boson was announced in papers with roughly 3,000 authors each.[^3] The 2015 detection of gravitational waves involved about a thousand scientists.[^4] The chapter on people in this guide names the individuals whose ideas mattered most, but keep in mind that modern discoveries are made by crowds.
 
+:::howto A useful first pass
+Start with units and estimation in chapter 2, then try motion in chapter 3. Return to derivatives, fields, and complex numbers when a later chapter needs them.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
+
 ## How to read this guide
 
 Each chapter is built the same way, so you can settle into a rhythm.
 
 - **Bold terms** are being defined right where they appear. If you forget one, the glossary chapter collects them all.
 - Colored boxes mark seven kinds of interruption: a **key idea** you should not skim, a **story** from the history, a **math box** that shows the actual equation and explains every symbol, a **think about it** prompt, a **who did this** portrait, a **common confusion** to avoid, and a **where it stands today** note on what is unsettled.
-- Every factual claim points to a numbered source at the bottom of the chapter. Where the original paper is free to read, the link goes to it.
+- Key factual claims point to a numbered source at the bottom of the chapter. Where the original paper is free to read, the link goes to it.
 - The math is real but never decorative. When an equation appears, it is because the idea is genuinely easier to grasp with it than without it. You do not need to compute anything; you need to read the equation as a sentence.
 
 :::try

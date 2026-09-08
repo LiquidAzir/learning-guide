@@ -4,7 +4,7 @@ subtitle: Why hot things cool, why eggs don't unscramble, and how a count of pos
 part: II · The Classical World
 ---
 
-## Recap
+## Why does heat flow one way?
 
 Energy is conserved. But conservation alone cannot explain the most obvious fact about the world: things run down. Coffee cools, batteries drain, and nobody has ever seen a shattered cup reassemble. Energy is not lost in any of these. Something else is going on, and figuring out what took the entire 19th century.
 
@@ -100,6 +100,14 @@ Statistical mechanics did more than explain steam engines. In 1900 Max Planck us
 
 :::frontier
 Entropy has become a bridge between fields. In biology, life is understood as a local decrease in entropy paid for by a larger increase elsewhere: you are a low-entropy structure maintained by exporting disorder as heat and waste. In cosmology, the past hypothesis remains unexplained: no accepted theory says why the early universe had such low entropy. And in quantum gravity, the discovery that black hole entropy scales with *area* rather than *volume* suggests that the information content of any region of space is limited by its boundary, an idea called the **holographic principle** that reshaped theoretical physics after 1995.
+:::
+
+:::try Put the idea to work
+A refrigerator makes its interior colder. Does that violate the second law of thermodynamics? Include the room in your explanation.
+
+:::answer Show the reasoning
+The refrigerator uses electrical work to move heat from the cold interior to the warmer room. It releases both the removed heat and the energy supplied as work into the room. The entropy of the contents can fall while the total entropy of the contents, refrigerator, and surroundings increases.
+:::
 :::
 
 ## Summary

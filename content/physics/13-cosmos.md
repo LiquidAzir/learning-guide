@@ -4,7 +4,7 @@ subtitle: The universe had a beginning, is mostly made of things we cannot see, 
 part: IV · Building Everything
 ---
 
-## Recap
+## How do we reconstruct a universe we cannot watch from the beginning?
 
 General relativity said the universe could not sit still. Einstein did not believe it. This chapter is about the century in which astronomers found out he was wrong to doubt, and then found two more things nobody was ready for.
 
@@ -84,6 +84,14 @@ The simplest estimate is Hubble's law run backward. If galaxies at distance $d$ 
 
 :::frontier
 This is a golden age for cosmology data. DESI continues; the Euclid space telescope began its survey in 2024; the Vera Rubin Observatory released its first images in 2025 and began its ten-year survey of the whole southern sky in June 2026. Within this decade these should decide whether the Hubble tension is real and whether dark energy evolves. The Latest Research section tracks each result as it arrives.
+:::
+
+:::try Put the idea to work
+A distant galaxy is observed as it was billions of years ago. Is that the same as seeing its present-day condition? Why is the old view useful?
+
+:::answer Show the reasoning
+Light takes time to reach us, so we see the galaxy at an earlier stage of its history. Looking at objects at different distances gives samples from different cosmic times. Comparing those samples can test an evolutionary account, while selection effects and differences between galaxies still need attention.
+:::
 :::
 
 ## Summary

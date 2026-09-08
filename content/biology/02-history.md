@@ -4,7 +4,7 @@ subtitle: From Aristotle's dissections to the double helix and the gene editor, 
 part: I · Foundations
 ---
 
-## Recap
+## How did biology become a science of mechanisms?
 
 Chapter 1 said biology's wrong ideas were held by intelligent people for good reasons. This chapter goes through them: what people believed about life, why, and what changed their minds. Later chapters return to each episode in more detail; this one gives the shape, so that when Mendel or Darwin appears you know where they stand.
 
@@ -62,6 +62,14 @@ Every wrong idea in this chapter was reasonable on its evidence. Spontaneous gen
 - 1944: Avery, DNA is the genetic material. 1953: the double helix.
 - 1966: genetic code complete. 1973: recombinant DNA. 1977: Sanger sequencing; archaea.
 - 2003: human genome. 2012: CRISPR. 2020: AlphaFold; mRNA vaccines. 2023: first CRISPR cure.
+:::
+
+:::try Put the idea to work
+A historical experiment supports one explanation over another. Why is “the scientist was brilliant” an incomplete account of the discovery?
+
+:::answer Show the reasoning
+The explanation needs the competing hypotheses, what was measured, the controls, and why the outcomes differed between hypotheses. Instruments, prior work, and collaborators matter too. A person's achievement is easier to understand when you can reconstruct the test that made the idea persuasive.
+:::
 :::
 
 ## Summary

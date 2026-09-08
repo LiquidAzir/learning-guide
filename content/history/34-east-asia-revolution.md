@@ -4,7 +4,7 @@ subtitle: 1900 to 1945. China ends two thousand years of empire and falls into w
 part: IV · East Asian History
 ---
 
-## Recap
+## How did revolution, invasion, and civil war change East Asia?
 
 Chapter 33 ended in 1900 with the Qing eleven years from extinction, Japan a great power, and Korea a protectorate-in-waiting. This chapter covers the first half of the twentieth century, in which China had its revolution and then its two decades of chaos and civil war, Japan built an empire and then a war it could not win, and the two collided in the largest war in Asian history. It is the most violent period in East Asia's history, and the one whose memory most shapes the region's politics today.
 
@@ -46,6 +46,14 @@ In 1900 China was an empire, Japan a rising power, Korea a kingdom. By 1945 Chin
 - 7 July 1937: full-scale Sino-Japanese War. December 1937: Nanjing.
 - 7 December 1941: Pearl Harbor.
 - 6 and 9 August 1945: Hiroshima and Nagasaki. 15 August: Japan surrenders.
+:::
+
+:::try Put the idea to work
+Two governments describe the same uprising as liberation and rebellion. How should you use those labels as evidence?
+
+:::answer One way to reason it through
+Attribute each label and identify its political purpose. Then reconstruct participants, grievances, actions, and consequences from multiple sources. Competing descriptions are evidence of the struggle over legitimacy; they are not substitutes for establishing what happened.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: How a thing that cannot move eats, drinks, defends itself, and has sex
 part: IV · The Living World
 ---
 
-## Recap
+## How does a plant build itself from air, water, and light?
 
 Chapter 5 covered photosynthesis, the chemistry that makes plants possible. This chapter is about the organisms: how they are built, the problems they solve differently from animals, the fungi that made land life possible and that most people misclassify, and the agriculture that both depends on them and is the largest thing humans do to the planet.
 
@@ -46,6 +46,14 @@ The current agenda: engineering better photosynthesis (RuBisCO is slow and waste
 
 :::key
 Plants solve the problems of a sessile life by growing rather than moving, by chemistry rather than flight, and by paying animals to carry their gametes and seeds. Fungi, which are closer relatives of animals than of plants, recycle the world's wood and partner with the roots of most plants. Between them they make every calorie humans eat, and the modern food supply rests on about fifteen domesticated species, industrial nitrogen fixation, and a few decades of plant breeding.
+:::
+
+:::try Put the idea to work
+A seedling gains substantial dry mass while growing in soil. Where does much of the carbon in that new mass come from?
+
+:::answer Show the reasoning
+Atmospheric carbon dioxide supplies the carbon fixed through photosynthesis. Water and mineral nutrients are essential too, but the plant does not simply turn soil into its body. Tracking atoms separately from energy makes the explanation clear: carbon comes from CO₂; light supplies energy for the process.
+:::
 :::
 
 ## Summary

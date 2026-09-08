@@ -4,7 +4,7 @@ subtitle: Taking matter apart until it stops coming apart, and the strange, test
 part: IV · Building Everything
 ---
 
-## Recap
+## What are particles made of, and how do they interact?
 
 Quantum mechanics describes electrons in atoms. But what is the atom made of, what holds the nucleus together, and what is the electron itself? This chapter descends through the layers of matter to the current floor, the **Standard Model**, the most precisely tested theory in science and one everybody agrees is incomplete.
 
@@ -57,7 +57,7 @@ To understand the Standard Model you need one conceptual upgrade. In the 1930s a
 Forces, too, are fields, and their quanta are particles. The electromagnetic force is carried by the photon: two electrons repel by exchanging photons. This picture, **quantum electrodynamics** (QED), was made to give finite, sensible answers by Richard Feynman, Julian Schwinger, and Sin-Itiro Tomonaga in the late 1940s, using a technique called **renormalization** to tame infinities that had plagued it for twenty years.[^9] Feynman introduced diagrams, now **Feynman diagrams**, that turn each term in the calculation into a picture of particles meeting and exchanging force carriers. QED predicts the electron's magnetic strength to about one part in a trillion, in agreement with measurement: roughly the precision of measuring the distance from the Earth to the Moon to within the width of a human hair.[^10] Nothing else in science is checked to that precision.
 
 :::key
-In quantum field theory, the vacuum is not empty. Every field is always fluctuating, thanks to the uncertainty principle, and these fluctuations have measurable effects: they shift atomic energy levels (the Lamb shift), they push conducting plates together (the Casimir effect), and they are what a particle "borrows" from during tunneling. "Nothing" is a busy place.
+In quantum field theory, the vacuum is the lowest-energy state of the fields, not an absence of fields. Quantum fluctuations contribute to measurable effects, including shifts in atomic energy levels (the Lamb shift) and forces between conducting plates (the Casimir effect). This does not mean a tunneling particle borrows energy from the vacuum: as chapter 9 explains, tunneling follows from a wavefunction extending through a barrier, with energy conserved.
 :::
 
 ## The Standard Model
@@ -102,6 +102,14 @@ Everyone who works on the Standard Model agrees it is not the final theory. The 
 
 :::frontier
 The LHC has been running since 2010 and has found the Higgs and nothing else new, which is itself a profound result: many favored extensions of the Standard Model are now ruled out. The long-standing hint of new physics in the muon's magnetism, the "muon g-2 anomaly," largely dissolved in 2025 when improved supercomputer calculations of the Standard Model prediction moved to agree with Fermilab's final measurement.[^16] A 2022 claim that the W boson is heavier than predicted was contradicted by a more precise LHC measurement.[^17] Neutrino experiments (KATRIN, JUNO, and the forthcoming DUNE) are pinning down neutrino masses and ordering.[^18] The Standard Model, infuriatingly, keeps winning. See Latest Research for the running scorecard.
+:::
+
+:::try Put the idea to work
+An experiment finds a heavy particle that rapidly decays. Does its short lifetime make it less real than an electron? What would make the claim convincing?
+
+:::answer Show the reasoning
+Stability and existence are different questions. A short-lived particle can leave a reproducible pattern in the energies and momenta of its decay products. A convincing claim needs a signal that survives background estimates, uncertainty checks, and independent scrutiny, not a long enough lifetime to hold the particle in a container.
+:::
 :::
 
 ## Summary

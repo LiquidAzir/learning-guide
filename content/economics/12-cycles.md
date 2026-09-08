@@ -4,7 +4,7 @@ subtitle: The Great Depression, Keynes, the fights that followed, 2008, and the 
 part: IV · The Economy as a Whole
 ---
 
-## Recap
+## Why does spending sometimes collapse together?
 
 Chapter 9 defined recessions and noted that they recur. Chapter 11 gave central banks their tools. This chapter asks why an economy that was working stops working, and what the century since the Great Depression has taught about the answer. It is the most contested chapter in the guide, because it is where economics has been most publicly wrong and where it has learned the most.
 
@@ -26,7 +26,7 @@ $$\Delta Y = \frac{1}{1 - c}\,\Delta G$$
 With $c = 0.8$, the **multiplier** $1/(1-c)$ is 5: a dollar of spending raises output by five. That is the textbook version, and it is too large, because it ignores taxes, imports, and the central bank's response. Empirical estimates of the multiplier for US government spending mostly run between 0.6 and 1 in normal times, with some estimates near 2 in deep recessions when resources are idle and interest rates are stuck at zero; in booms the extra spending mostly bids up prices.[^3] The disagreement over that range is the disagreement over fiscal policy.
 :::
 
-Keynes also identified the **liquidity trap**: when interest rates have fallen to zero, the central bank can do no more, and only fiscal policy is left. The idea seemed antique for fifty years. Then Japan hit zero in 1999 and the rest of the rich world in 2008.
+Keynes also identified the **liquidity trap**: when conventional rate cuts lose traction near the effective lower bound, fiscal policy becomes especially relevant. Later central banks also developed tools such as asset purchases and forward guidance. The idea seemed antique for fifty years. Then Japan hit zero in 1999 and the rest of the rich world in 2008.
 
 :::story Japan's lost decades
 Japan in 1989 was the economy everyone expected to dominate the century. Its stock market and land prices had roughly tripled in five years; at the peak, the grounds of the Imperial Palace were said to be worth more than all the real estate in California. Then the Bank of Japan raised rates, the bubble burst, and the economy did not recover. Banks carrying loans secured on collapsed land values stopped lending; firms spent a decade paying down debt rather than investing; prices began to fall, and falling prices made debts heavier in real terms and gave everyone a reason to wait before spending. The Bank of Japan cut its rate to zero in 1999, invented quantitative easing in 2001, and still could not lift inflation to its target for twenty years.[^15] Japan is the case that revived Keynes's liquidity trap, showed that a country borrowing in its own currency can carry debt above 200 percent of GDP without a crisis, and taught the rest of the world what to expect after 2008. It was also less of a catastrophe than the headlines: output per working-age person kept growing at nearly the American pace; what shrank was the number of working-age people.
@@ -60,20 +60,34 @@ The deeper lesson was about finance. Hyman Minsky had argued in the 1980s that s
 
 Governments have two levers. **Automatic stabilizers** work without anyone deciding: in a recession tax receipts fall and unemployment payments rise, so the deficit widens and cushions the drop, and the reverse in a boom. **Discretionary stimulus** is deliberate: tax cuts, transfers, or spending passed in response to a downturn. The first is fast and reliable; the second is slower and its size is the multiplier fight above.
 
-Both add to **public debt**, and how much debt is too much is the other permanent argument. The arithmetic turns on two rates. If the interest rate the government pays, $r$, is below the economy's growth rate, $g$, then the debt-to-GDP ratio falls on its own even with a modest deficit, because the economy outgrows the debt. Olivier Blanchard pointed out in 2019 that $r < g$ had been the normal condition in the United States for decades, so debt was cheaper than the conventional wisdom assumed.[^12] Since 2022, interest rates have risen and the condition is no longer comfortably met; the US Congressional Budget Office projects debt rising from 100 percent of GDP to about 175 percent by 2056 under current law, with interest costs exceeding defense spending.[^13] Nobody knows the level at which markets balk, because it depends on a country's credibility, and countries that borrow in their own currency (the United States, Japan) have far more room than those that do not (Greece, Argentina). A government that borrows in its own currency can always create the money to pay; the risk it runs is inflation, not default. A government that borrows in someone else's currency, or in a shared one, can run out, and when investors suspect it might, they demand higher rates, which makes the running out more likely: the bank run of chapter 11 with a country as the bank. Carmen Reinhart and Kenneth Rogoff's eight-century record of such episodes finds defaults clustering after credit booms and capital inflows, and finds, to the embarrassment of every generation, that each was told "this time is different."[^17] Japan has carried debt above 200 percent of GDP for years without crisis; Greece defaulted at 170.
+Both can add to **public debt**. To understand whether that debt is becoming harder to carry, compare it with the size of the economy: the debt-to-GDP ratio. Two rates matter, the effective interest rate on the debt, $r$, and the economy's growth rate, $g$, measured consistently in nominal or real terms. If $r < g$, existing debt shrinks relative to GDP, other things equal. New borrowing still matters: a sufficiently large **primary deficit** (spending minus revenue, excluding interest) can outweigh that effect.
+
+Olivier Blanchard argued in 2019 that $r < g$ had been common in the United States for decades, making debt less costly than conventional accounts suggested.[^12] That is a condition to check, not a permanent entitlement. The Congressional Budget Office projection cited here has US debt rising from about 100 percent of GDP to roughly 175 percent by 2056 under current law.[^13] Projections change with interest rates, growth, taxes, and spending.
+
+There is no debt ratio that triggers a crisis in every country. Borrowing in a currency the state can issue gives it more room to respond, but monetary financing can bring inflation, and political or legal constraints can still produce default. A country borrowing in another currency, or sharing one it cannot issue independently, faces a tighter financing constraint. If investors demand higher rates because they fear default, those rates can make default more likely: a version of the bank run in chapter 11.
+
+Reinhart and Rogoff's historical record finds defaults clustering after credit booms and capital inflows, often following assurances that “this time is different.”[^17] Japan has carried debt above 200 percent of GDP without a sovereign debt crisis; Greece defaulted at a lower ratio. The useful question is not just “How big is the debt?” but “On what terms, in which currency, and supported by what future income?”
 
 ## The pandemic
 
 The 2020 recession was unlike any other: a deliberate shutdown, with output falling 10 percent in two months and recovering nearly as fast. The policy response was also unprecedented in size, about 25 percent of GDP in the United States across three fiscal packages, plus rates at zero and asset purchases.[^14] It worked in the sense that mattered most: no wave of bankruptcies, no banking crisis, and employment back to its previous level within three years, against more than six after 2008. It also contributed to the inflation of 2021 to 2023, by how much being the subject of chapter 11's postmortems. The current judgment is that the response was right in direction and probably too large in the final round, which is the kind of judgment economics can now make with evidence rather than ideology.
 
 :::key
-The century's arc runs from "recessions cure themselves" to "spending cures recessions" to "nothing cures recessions" to the present position. Recessions have causes that can be identified. Monetary policy is the first response and works unless rates are at zero; fiscal policy works too, and especially then. Financial fragility can turn a downturn into a catastrophe and must be watched. And all of it depends on expectations, which depend on credibility. Each step was learned from a disaster.
+The century's arc runs from "recessions cure themselves" to "spending cures recessions" to "nothing cures recessions" to the present position. Recessions have causes that can be identified. Monetary policy is usually the first response, though conventional rate cuts lose room near the lower bound; fiscal policy works too, and especially then. Financial fragility can turn a downturn into a catastrophe and must be watched. And all of it depends on expectations, which depend on credibility. Each step was learned from a disaster.
+:::
+
+:::try Put the idea to work
+Interest on government debt is below economic growth. Can you conclude that the debt-to-GDP ratio must fall, whatever the government's budget does?
+
+:::answer Show the reasoning
+No. Growth can dilute existing debt relative to GDP, but new primary deficits add debt. Their size can outweigh that favorable interest-growth difference. The rates explain part of the arithmetic; the budget balance, starting debt, and future conditions complete it.
+:::
 :::
 
 ## Summary
 
 - Classical economics said markets clear; the Depression showed they can stay stuck for a decade.
-- Keynes: aggregate demand can fall short and stay short; spending has a multiplier; at zero interest rates only fiscal policy is left.
+- Keynes: aggregate demand can fall short and stay short; spending has a multiplier; near the lower bound, conventional monetary policy has less room and fiscal policy can play a larger role.
 - Monetarists blamed the Fed for the Depression; rational-expectations theorists argued policy cannot systematically help. Both were partly right and both overreached.
 - The New Keynesian synthesis, sticky prices plus rational expectations, is the working framework. It omitted finance and 2008 exposed that.
 - 2008 was a bank run in new clothes; the combined response prevented a depression; austerity afterward is widely judged too fast; multipliers at the zero bound are probably larger than in normal times. Japan's lost decades and the eurozone crisis are the two great case studies.

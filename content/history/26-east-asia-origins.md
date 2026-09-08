@@ -4,7 +4,7 @@ subtitle: 8000 to 221 BCE. Rice and millet villages, a Bronze Age kingdom that w
 part: IV · East Asian History
 ---
 
-## Recap
+## What do China's earliest written records reveal about power?
 
 The Ancient section touched China only in passing, because its story is continuous enough to deserve its own telling. This section follows East Asia, meaning China, Korea, and Japan, from the first farmers to the present, and it begins here with the two and a half millennia in which China, in the sense of a shared civilization with a shared script and a shared argument about how humans should live, came into being. Japan and Korea enter in chapter 28, when the record allows.
 
@@ -18,7 +18,7 @@ Tradition names the first dynasty the **Xia** (c. 2070–1600 BCE), founded by Y
 
 ## The Shang: writing to the ancestors
 
-The **Shang** (c. 1600–1046 BCE) is the first Chinese dynasty attested by its own writing, and the writing was found by accident. In 1899 a scholar in Beijing noticed inscriptions on "dragon bones" sold by apothecaries as medicine; the bones were traced to Anyang in Henan, the last Shang capital, where excavations from 1928 and a century of collecting have yielded some 150,000 fragments of **oracle bones**: turtle shells and ox scapulae on which the king's diviners had written questions to the royal ancestors, applied heat until the bone cracked, read the answer in the cracks, and often recorded the outcome.[^3] Will it rain? Will the harvest be good? Will the queen's childbirth be lucky? (It was not; it was a girl.) Should we attack the Qiang? The script is recognizably the ancestor of modern Chinese characters, and a literate Chinese today can pick out words on a bone from 1200 BCE. No other civilization's writing has that continuity.
+The **Shang** (c. 1600–1046 BCE) is the first Chinese dynasty attested by its own writing, and the writing was found by accident. In 1899 a scholar in Beijing noticed inscriptions on "dragon bones" sold by apothecaries as medicine; the bones were traced to Anyang in Henan, the last Shang capital, where excavations from 1928 and a century of collecting have yielded some 150,000 fragments of **oracle bones**: turtle shells and ox scapulae on which the king's diviners had written questions to the royal ancestors, applied heat until the bone cracked, read the answer in the cracks, and often recorded the outcome.[^3] Will it rain? Will the harvest be good? Will the queen's childbirth be lucky? (One record calls the birth unlucky because the child was a girl: a judgment of the royal diviners, revealing their priorities.) Should we attack the Qiang? The script is recognizably the ancestor of modern Chinese characters, and a literate Chinese today can pick out words on a bone from 1200 BCE. No other civilization's writing has that continuity.
 
 The bones show a kingdom centered on a king who was the sole intermediary with powerful ancestors, a bronze industry that produced ritual vessels of a technical sophistication nobody has surpassed, a calendar, an army with chariots (which arrived from the steppe around 1200), and human sacrifice on a large scale: the royal tombs at Anyang hold hundreds of victims each, and the bones record the sacrifice of thousands of war captives to the ancestors.[^4] At Sanxingdui in Sichuan, a contemporary culture with no writing made bronze masks and figures unlike anything Shang, and smashed and buried them in pits whose excavation, resumed in 2020, is still recovering thousands of objects; China in 1200 BCE was several civilizations, not one.
 
@@ -58,6 +58,14 @@ Three things made China between 1200 and 221 BCE. A **script** that has been rea
 - 475–221 BCE: Warring States.
 - 356 BCE: Shang Yang's reforms in Qin.
 - 221 BCE: Qin unifies China.
+:::
+
+:::try Put the idea to work
+An oracle-bone record calls a daughter's birth unlucky. What can you safely infer, and what would overreach the source?
+
+:::answer One way to reason it through
+It reveals the judgment expressed in that royal divinatory context. It does not establish that every person in Shang society felt the same way about every daughter. Attribute the judgment to the source and ask how royal succession, ritual, and the record's purpose shaped it.
+:::
 :::
 
 ## Summary

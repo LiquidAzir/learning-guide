@@ -4,7 +4,7 @@ subtitle: What actually kills people, what cancer is, how a drug gets approved, 
 part: VI · Life at Scale and in Our Hands
 ---
 
-## Recap
+## How do you tell whether an apparent health improvement was caused by a treatment?
 
 The preceding chapters gave the machinery. This one applies it to the thing most people want biology for: their own health. It covers what disease is, the largest causes of death, cancer in detail because it is the clearest application of everything in Part II, how medical evidence is produced, and how to read it.
 
@@ -69,6 +69,14 @@ For a reader, the practical rule is that a single new study, however striking, i
 
 :::story The scurvy trial
 In 1747 James Lind, a naval surgeon aboard HMS *Salisbury*, took twelve sailors sick with scurvy, put them all on the same diet, and divided them into six pairs, each given a different treatment: cider, sulfuric acid elixir, vinegar, seawater, a paste of garlic and mustard, or two oranges and a lemon. Within six days the pair on citrus were nearly fit for duty; nobody else improved.[^10] It is often called the first controlled clinical trial, and it has the shape of one: same starting condition, same diet, simultaneous comparison groups. It also shows how slowly evidence moves: the Royal Navy did not require citrus for another 48 years, Lind himself hedged his conclusions among other theories, and the causal agent, vitamin C, was not isolated until 1932. Scurvy killed more sailors in the age of sail than all combat combined, and the cure was demonstrated on twelve men in a ship's cabin in 1747.
+:::
+
+:::try Put the idea to work
+A treated group improves over a month. Why is its own starting condition not enough of a comparison to show that the treatment worked?
+
+:::answer Show the reasoning
+People can improve naturally, measurements fluctuate, and expectations or other changes may matter. A suitable comparison group helps estimate what would have happened without the treatment. Randomization reduces systematic differences between groups, while uncertainty and the size of the effect still need reporting.
+:::
 :::
 
 ## Summary

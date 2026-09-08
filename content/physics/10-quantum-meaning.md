@@ -4,7 +4,7 @@ subtitle: Einstein versus Bohr, Schrödinger's cat, Bell's theorem, and the expe
 part: III · The Two Revolutions
 ---
 
-## Recap
+## What does a quantum prediction actually tell us?
 
 Quantum mechanics works. Its predictions have been checked to twelve decimal places, and it underlies every transistor, laser, and MRI machine. The previous chapter gave you the machinery: wavefunctions, the Schrödinger equation, Born's probability rule. This chapter is about the question the machinery raises and does not answer: what is actually going on?
 
@@ -80,6 +80,14 @@ The information view also produced a striking reformulation: several groups have
 
 :::frontier
 The 2025 Nobel Prize in Physics went to John Clarke, Michel Devoret, and John Martinis for 1980s experiments showing that a superconducting electrical circuit (one with zero electrical resistance; chapter 12), a macroscopic object you can hold, exhibits quantum tunneling and discrete energy levels.[^20] There is no known size limit to quantum behavior; the only limit is how well you isolate the system. Meanwhile, tests of objective-collapse models and of "gravitationally induced" collapse continue, and experiments to entangle ever-larger objects, including mechanical oscillators visible to the naked eye, keep pushing the quantum-classical boundary outward.[^21] So far it has always moved.
+:::
+
+:::try Put the idea to work
+Two interpretations give exactly the same probabilities for every experiment you can perform. Can a larger sample of those experiments choose between them?
+
+:::answer Show the reasoning
+No: identical predictions give the data no basis for preferring one over the other. Larger samples sharpen estimates of those shared predictions. A discriminating test would need a situation in which the interpretations make different observable predictions, if such a situation exists.
+:::
 :::
 
 ## Summary

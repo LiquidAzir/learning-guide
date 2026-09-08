@@ -120,6 +120,14 @@ Newton's laws are stated for point-like objects, but most of the world is fluid:
 
 The **Navier–Stokes equations** govern weather, blood flow, ocean currents, and the air over a wing. They are also famously hard. Whether smooth solutions always exist is one of the Clay Mathematics Institute's million-dollar prize problems.[^19] And **turbulence**, the chaotic swirling that appears when a fluid moves fast enough (the threshold is set by the **Reynolds number**, roughly the ratio of a flow's momentum to its viscosity), still has no complete theory. Richard Feynman called it the central problem that classical physics never solved.[^20] The equations have been known for 180 years; what they imply is still being worked out.
 
+:::try Put the idea to work
+A puck slides across nearly frictionless ice after the stick loses contact. What horizontal force keeps it moving? What changes if the ice becomes rough?
+
+:::answer Show the reasoning
+No continuing horizontal force is needed for constant velocity. A net force changes velocity; it does not maintain it. On rough ice, friction supplies a force opposite the motion, so the puck slows. Gravity and the ice's support force still act vertically.
+:::
+:::
+
 ## Summary
 
 - Aristotle described a world of friction and mistook it for the laws of motion. It matched experience, which is why it lasted.

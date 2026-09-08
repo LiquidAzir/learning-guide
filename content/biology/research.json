@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-06",
-  "note": "Verified against the original papers, regulator announcements, and prize pages on 2026-09-06. Status: confirmed (peer-reviewed or official), preliminary (announcement, preprint, or small uncontrolled trial), disputed (published challenge), retracted.",
+  "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
       "id": "med-measles-resurgence-2025-2026",
@@ -15,8 +15,10 @@
       "topic": "public-health",
       "chapter": "health",
       "summary": "The United States declared measles eliminated in 2000, but 2025 brought 2,289 confirmed cases in 48 outbreaks, the most since 1992, with three deaths including two unvaccinated children in a large West Texas outbreak; 2026 is worse, with 3,134 cases reported by 4 September. About nine in ten patients were unvaccinated or of unknown status, reflecting kindergarten MMR coverage that has slipped below the 95 percent needed for herd immunity. Elimination means no chain of transmission lasting 12 months; the Americas region formally lost that status in November 2025 (driven largely by Canada), and a review of whether the US individually has lost it is scheduled for November 2026. Measles is among the most contagious viruses known, and two MMR doses are about 97 percent protective.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "US surveillance tracks measles cases and outbreaks",
+      "sourceType": "Data or tracker"
     },
     {
       "id": "bio-neuro-microglia-ontogeny-2026",
@@ -31,8 +33,10 @@
       "topic": "aging",
       "chapter": "brain",
       "summary": "Microglia are the brain's resident immune cells, long thought to be sealed off from the rest of the immune system from birth. By tracing naturally occurring DNA mutations shared between blood cells and brain cells in matched human samples, Stanford researchers showed that blood-derived immune cells cross into the brain starting in middle age and settle in as functional microglia. The effect was not seen in mice or monkeys, which suggests it is a human-specific feature of ageing that animal models would have missed. Because ageing microglia are implicated in Alzheimer's and other diseases, understanding where they come from could point to new treatment routes; the functional consequences of these immigrant cells are still unknown.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Accumulated mutations trace the history of the brain's immune cells",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-aging-er100-reprogramming-trial-2026",
@@ -48,7 +52,9 @@
       "chapter": "frontier",
       "summary": "In January 2026 the US FDA cleared the first clinical trial of partial epigenetic reprogramming, and on 9 June 2026 Life Biosciences reported dosing the first participant. ER-100 is a gene therapy injected into the eye that expresses three of the four Yamanaka factors (OCT4, SOX2, KLF4) to push damaged retinal cells toward a younger gene-expression state, tested in people with glaucoma and a form of optic-nerve stroke. This is a Phase 1 safety study with no efficacy data yet, and full reprogramming factors are known to cause tumours in animals, so the safety readout expected in late 2026 or 2027 is the thing to watch. Rival programmes at Altos Labs and others remain preclinical as of this check.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "An early trial begins testing partial cellular reprogramming in humans",
+      "sourceType": "Announcement"
     },
     {
       "id": "eco-2026-fourth-global-coral-bleaching",
@@ -63,8 +69,10 @@
       "topic": "climate-biology",
       "chapter": "ecology",
       "summary": "Corals bleach when heat stress makes them expel the symbiotic algae that feed and colour them; if the heat lasts, the coral starves. NOAA declared the fourth global bleaching event on 15 April 2024, and its June 2026 wrap-up reports that from early 2023 to mid-2025 bleaching-level heat stress reached 84% of the world's reef area across the Atlantic, Pacific and Indian Oceans, with mass bleaching documented in at least 83 countries and territories — the widest and most intense such event on record. NOAA's coordinator warns that reefs are now entering an era of near-annual bleaching, so defining where one 'event' ends and the next begins is becoming difficult. The percentage refers to reef area exposed to bleaching-level heat stress, not to confirmed coral mortality, which varied greatly between reefs.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "NOAA assesses the extent and likely end of a global coral-bleaching event",
+      "sourceType": "Announcement"
     },
     {
       "id": "pe8-ai-redesigned-prime-editors",
@@ -79,8 +87,10 @@
       "topic": "genomics",
       "chapter": "biotechnology",
       "summary": "Prime editing rewrites a chosen stretch of DNA without cutting both strands, but it works poorly when the editing machinery is delivered briefly, as it must be in an actual therapy. The Liu lab used AI protein-design tools to redraw the enzyme's reverse transcriptase, the part that writes the new sequence, ending up with versions carrying 30 to 163 amino-acid changes that fold more stably and reach higher levels in cells. The resulting PE8 editors edited up to 2.9-fold better than earlier PE6 and PE7 editors in mice using fat-bubble (lipid nanoparticle) delivery. It is a laboratory advance, not a clinical result: no patients were treated in this study.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "AI-guided enzyme redesign improves a gene-editing method",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-otarmeni-hearing-gene-therapy-2026",
@@ -96,7 +106,9 @@
       "chapter": "body",
       "summary": "On 23 April 2026 the FDA approved Otarmeni, the first gene therapy for deafness, for children and adults born with profound hearing loss caused by mutations in both copies of the OTOF gene, which encodes otoferlin, a protein hair cells in the inner ear need to release neurotransmitter. The therapy uses two adeno-associated virus (AAV) vectors, each carrying half of the large gene, injected surgically into the cochlea, where the halves recombine into a working copy. In a single-arm trial of 24 children, 80 percent of those evaluable gained measurable hearing, something that never happens without treatment. Because the trial was small, had no control group and was granted under an accelerated pathway, continued approval depends on showing the effect lasts and translates into speech and language development.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "The FDA approves a gene therapy for an inherited form of hearing loss",
+      "sourceType": "Announcement"
     },
     {
       "id": "eco-2026-pando-aspen-clone-age",
@@ -112,7 +124,9 @@
       "chapter": "plants",
       "summary": "Pando is a single quaking aspen in Utah whose roughly 47,000 stems share one root system and one genome — a clonal organism covering about 43 hectares. Because clones have no growth rings for the whole organism, Pineau and colleagues sequenced more than 500 tissue samples and used the accumulation of somatic mutations (copying errors in body cells) as a clock, estimating an age between about 12,000 and 37,000 years, consistent with continuous aspen pollen in nearby Fish Lake sediments. The 2024 preprint had given a wider range of 16,000–80,000 years; the eLife peer-reviewed version narrowed it, and the eLife assessment rates the evidence 'incomplete' because the rate at which mutations accumulate and are detected is uncertain. Either way Pando would be among the oldest known living organisms, and the study also found that leaves accumulate mutations faster than roots.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "Mutations offer an estimate of the Pando aspen clone's age",
+      "sourceType": "Reviewed preprint"
     },
     {
       "id": "evo-2-genome-language-model",
@@ -127,8 +141,10 @@
       "topic": "genomics",
       "chapter": "biotechnology",
       "summary": "Evo 2 is a genome language model, a system trained on raw DNA the way a chatbot is trained on text: 40 billion parameters, over 9 trillion DNA letters from more than 100,000 species, and a context window of up to a million letters, long enough to see whole genes in setting. Without being told what mutations do, it predicts which changes to genes such as BRCA1 are harmful, and it can generate plausible new genome-scale sequences. It was first posted as a preprint in February 2025 and appeared peer-reviewed in Nature in March 2026, with the model and training data released openly. Whether generated sequences actually work in living cells is still largely untested, and open genome-design models also raise biosecurity questions.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Evo 2 models and designs DNA sequences across forms of life",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2025-iucn-red-list-arctic-seals-birds",
@@ -143,8 +159,10 @@
       "topic": "conservation",
       "chapter": "ecology",
       "summary": "The IUCN Red List is the global catalogue of species' extinction risk, ranked from Least Concern up to Extinct. The October 2025 update, released at the World Conservation Congress in Abu Dhabi, covers 172,620 species, of which 48,646 are threatened. Loss of sea ice pushed the hooded seal from Vulnerable to Endangered and the bearded and harp seals from Least Concern to Near Threatened; a full reassessment of all 11,185 bird species found 61% with declining populations, up from 44% in 2016, driven mainly by habitat loss and degradation. The bright spot is the green sea turtle, moved from Endangered to Least Concern after decades of nest protection and bycatch reduction raised numbers by roughly 28% since the 1970s — evidence that sustained conservation works.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Red List updates show declines for many species and recovery for some",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "med-nobel-2025-regulatory-t-cells",
@@ -159,8 +177,10 @@
       "topic": "prizes",
       "chapter": "people",
       "summary": "The 2025 Medicine Nobel went to Mary Brunkow, Fred Ramsdell and Shimon Sakaguchi for discovering regulatory T cells (Tregs), the immune system's brakes. Sakaguchi showed in 1995 that a subset of T cells actively suppresses immune attacks on the body's own tissues, contradicting the belief that self-reactive cells were simply deleted in the thymus; Brunkow and Ramsdell found in 2001 that mutations in the gene FOXP3 cause severe autoimmunity in mice and in a rare human disease (IPEX), and Sakaguchi tied the threads together in 2003 by showing FOXP3 controls Treg development. 'Peripheral tolerance' is this policing of the immune system outside the thymus. Treatments that boost Tregs for autoimmunity and transplants, or dampen them to unleash attacks on tumours, are in clinical trials.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "The medicine Nobel honors discoveries about immune tolerance",
+      "sourceType": "Announcement"
     },
     {
       "id": "harbin-cranium-denisovan-proteome",
@@ -175,8 +195,10 @@
       "topic": "evolution",
       "chapter": "tree-of-life",
       "summary": "Denisovans, an extinct human group, had been known almost entirely from DNA in a few finger bones and teeth, so nobody knew what they looked like. Researchers recovered 95 ancient proteins from the nearly complete Harbin cranium from northeast China, dated to at least 146,000 years ago, and found three amino-acid changes matching Denisovans; the skull groups with the original Denisova individual. That gives Denisovans a face for the first time. The skull had earlier been named as a separate species, Homo longi, and how to reconcile the two names is now an active argument among palaeoanthropologists.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Ancient proteins help identify the Harbin human fossil",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-who-pandemic-agreement-2025",
@@ -191,8 +213,10 @@
       "topic": "public-health",
       "chapter": "health",
       "summary": "After more than three years of negotiation prompted by COVID-19, WHO member states adopted the world's first Pandemic Agreement by consensus on 20 May 2025 (a committee vote the day before was 124 in favour, none against, 11 abstentions); the United States, having begun withdrawing from WHO, did not take part. The treaty commits countries to share pathogen samples and genetic sequences quickly, to build up manufacturing in poorer regions, and to set aside a share of vaccines and treatments for WHO to distribute in emergencies. It cannot enter into force until a separate annex on Pathogen Access and Benefit Sharing (PABS) is agreed; negotiators missed the May 2026 deadline and talks continue, so as of September 2026 the agreement is not yet open for signature.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "The World Health Assembly adopts a pandemic agreement",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "med-baby-kj-base-editing-2025",
@@ -208,7 +232,9 @@
       "chapter": "biotechnology",
       "summary": "An infant known as KJ, born with CPS1 deficiency (a urea-cycle disorder that lets toxic ammonia build up and kills about half of affected babies in infancy), received a base-editing therapy designed and manufactured for his specific mutation in about six months. Base editing changes a single DNA letter without cutting the double helix; here the editor was delivered to the liver in lipid nanoparticles, the same packaging used in mRNA vaccines. After two infusions at about 7 and 8 months of age he tolerated more dietary protein and needed half as much ammonia-scavenging medicine, with no serious side effects. It is a single patient with short follow-up, so it is a proof of concept for 'N-of-1' gene editing rather than a proven cure.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A custom gene-editing treatment is tested in a single infant",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-stem-parkinsons-dopamine-trials-2025",
@@ -224,7 +250,9 @@
       "chapter": "health",
       "summary": "Parkinson's disease kills the brain cells that make dopamine. Two teams reported early-phase trials in which dopamine-producing neurons grown from pluripotent stem cells were transplanted into patients' brains: Sawamoto and colleagues used induced pluripotent stem cells (adult cells reprogrammed to an embryonic-like state) in seven patients in Japan, and Tabar and colleagues (DOI 10.1038/s41586-025-08845-y) used embryonic stem cells in 12 patients in North America. In both, the grafts survived, produced dopamine on imaging, caused no tumours or serious graft-related harm, and several patients improved on movement scores. These were small, open-label safety trials with no placebo group, so the improvements could partly reflect placebo effects; larger controlled trials are under way.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "Early trials test replacement dopamine neurons for Parkinson's disease",
+      "sourceType": "Journal publication"
     },
     {
       "id": "dire-wolf-de-extinction-claim",
@@ -240,7 +268,9 @@
       "chapter": "biotechnology",
       "summary": "In April 2025 the company Colossal Biosciences announced it had \"de-extincted\" the dire wolf, an Ice Age predator gone for over 10,000 years, presenting three white pups made by editing 14 sites in the genome of a gray wolf embryo. The supporting work is a preprint reporting ancient genomes from two dire wolf fossils, and it has not completed peer review. Most outside biologists reject the de-extinction label: dire wolves and gray wolves differ at many thousands of positions, the edits mainly reproduce visible traits such as coat colour, and the animals are best described as genetically modified gray wolves. A 2021 Nature study also placed dire wolves on a lineage that split from gray wolves millions of years ago, which the company's analysis disputes. Included here as a case study in reading a company announcement critically.",
       "status": "disputed",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "Dire-wolf genetics provide context for a disputed de-extinction announcement",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "bio-neuro-microns-2025",
@@ -255,8 +285,10 @@
       "topic": "neuroscience",
       "chapter": "brain",
       "summary": "The MICrONS consortium mapped a cubic millimetre of mouse visual cortex, reconstructing about 200,000 cells and more than 500 million synapses, and matched the wiring to recordings of the same neurons' activity while the mouse watched movies. A connectome is a complete wiring diagram of a piece of nervous tissue; this is the largest one ever built with function attached, published as a package of papers in Nature. It lets researchers test ideas about how cortical circuits compute rather than guess from statistics. The dataset covers a tiny fraction of one mouse brain, so claims about general brain 'rules' are still being tested.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A mouse-brain map connects wiring with recorded activity",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2025-cop16-kunming-montreal-progress",
@@ -271,8 +303,10 @@
       "topic": "conservation",
       "chapter": "ecology",
       "summary": "The Kunming-Montreal Global Biodiversity Framework (2022) set 23 targets for 2030, including '30x30' — protecting 30% of land and sea. COP16 in Cali ran out of time in November 2024, but the resumed session in Rome (27 February 2025) adopted a resource-mobilisation strategy aimed at 200 billion US dollars a year by 2030, a roadmap toward a permanent financial mechanism by 2030, the full set of indicators for measuring progress, and a review mechanism; the Cali Fund, which asks companies profiting from digital sequence information on genetic resources to pay in, was launched alongside. Progress on the ground is slow: only 44 of 196 Parties had filed updated national biodiversity plans by Cali, and the first official 30x30 progress report found about 17% of land and 8% of ocean protected. The first global review of collective progress is scheduled for COP17 in Yerevan, Armenia, 19–30 October 2026.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Biodiversity negotiations settle funding and monitoring rules as targets approach",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "med-pig-kidney-xenotransplant-2025",
@@ -288,7 +322,9 @@
       "chapter": "body",
       "summary": "In March 2024 surgeons at Massachusetts General Hospital gave Richard Slayman, a 62-year-old man on dialysis, a kidney from a pig carrying 69 genetic edits: three pig sugar antigens deleted, pig retroviruses inactivated and seven human genes added so the organ would not be attacked or infect the recipient. The kidney worked immediately and he came off dialysis, but he died on day 52 of a sudden cardiac event attributed to his severe coronary disease, not rejection. Xenotransplantation means transplanting organs across species, and it is being pursued because far more people need kidneys than donors exist. Later recipients in 2025 at MGH and NYU lived longer, and the FDA cleared formal clinical trials, but the field remains experimental with only a handful of patients treated.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A pig kidney is transplanted into a living person",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bennu-amino-acids-nucleobases",
@@ -303,8 +339,10 @@
       "topic": "origin-of-life",
       "chapter": "chemistry-of-life",
       "summary": "Pristine samples returned by NASA's OSIRIS-REx mission from asteroid Bennu contain 14 of the 20 amino acids used by life on Earth, all five nucleobases that spell out DNA and RNA, plus ammonia, formaldehyde and about 10,000 nitrogen-bearing compounds. Because the samples were collected in space rather than picked up after a meteorite fall, contamination by Earth life is largely ruled out, strengthening the case that space delivered life's raw ingredients. Notably, the amino acids came in equal left- and right-handed mirror forms, while life on Earth uses almost only the left-handed kind. That argues Earth's handedness was not inherited from incoming space chemistry but arose here, which remains an open problem.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Bennu samples reveal ammonia and nitrogen-rich organic molecules",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-phys-mal-blood-group-2024",
@@ -319,8 +357,10 @@
       "topic": "physiology",
       "chapter": "body",
       "summary": "Blood groups are defined by molecules on the surface of red cells that the immune system can attack if mismatched; ABO and Rh are the famous ones, but dozens more exist. The AnWj antigen was first described in 1972, yet nobody knew what molecule carried it. After a 20-year hunt, UK researchers showed it sits on the Mal protein and that people who lack it inherit deletions in the MAL gene, establishing MAL as a new blood group system recognized by the International Society of Blood Transfusion. The finding lets labs genetically screen for this very rare type and find compatible donors for the handful of people who need them.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A gene explains the rare AnWj-negative blood-group trait",
+      "sourceType": "Journal publication"
     },
     {
       "id": "mirror-life-risk-warning",
@@ -335,8 +375,10 @@
       "topic": "origin-of-life",
       "chapter": "frontier",
       "summary": "Thirty-eight scientists, several of whom had worked toward the goal themselves, called for a halt to efforts to build \"mirror life\": synthetic bacteria made from mirror-image versions of the molecules life normally uses, with right-handed instead of left-handed amino acids. Their 299-page technical report argues such organisms could evade immune systems, predators and antibiotics across animals and plants, because those defences all recognise the normal handedness. No mirror bacterium exists and building one is likely a decade or more away, which is precisely why the authors want the discussion now. Some researchers counter that mirror organisms would grow poorly outside the lab, so the level of risk is genuinely disputed.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Researchers examine the possible risks of mirror-image life",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2024-ipbes-nexus-transformative-change",
@@ -351,8 +393,10 @@
       "topic": "conservation",
       "chapter": "ecology",
       "summary": "IPBES is to biodiversity what the IPCC is to climate: a body of governments that approves scientific assessments line by line. At its 11th plenary in Windhoek, Namibia (December 2024) it approved two reports. The Nexus Assessment argues that biodiversity, water, food, health and climate change are so interlinked that policies treating them in isolation often backfire, and it evaluates dozens of response options that deliver across several at once. The Transformative Change Assessment (Summary for Policymakers doi 10.5281/zenodo.11382230) diagnoses the underlying causes of biodiversity loss — disconnection from nature, concentration of power and wealth, and prioritising short-term gain — and sets out strategies for deep change. Negotiations were unusually fractious, with some member states complaining of a loss of trust in the process. A third assessment, on business and biodiversity, was approved at IPBES-12 in Manchester in February 2026.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "IPBES assessments connect biodiversity with water, food, health, and climate",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "bio-phys-gut-cell-atlas-2024",
@@ -367,8 +411,10 @@
       "topic": "physiology",
       "chapter": "cell",
       "summary": "As part of a Human Cell Atlas package of more than 40 papers published across Nature journals, this study merged 25 single-cell datasets into an atlas of 1.6 million cells from the healthy human gut, from mouth to rectum, then compared them with cells from cancer, coeliac disease, ulcerative colitis and Crohn's disease. Single-cell sequencing reads the active genes in each individual cell, so the atlas is a reference map of every gut cell type and where it lives. The comparison revealed that in inflamed intestine, stem cells produce stomach-like cells (metaplasia), a change that may drive chronic inflammation. The same package included atlases of developing skeleton, thymus, placenta and other tissues; the full Human Cell Atlas is still far from complete.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Single-cell maps reveal altered cell identities in inflammatory gut disease",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2024-land-carbon-sink-collapse-2023",
@@ -383,8 +429,10 @@
       "topic": "climate-biology",
       "chapter": "ecology",
       "summary": "Plants and soils normally absorb roughly a quarter to a third of the CO2 humans emit each year — the 'land carbon sink'. Using a fast-turnaround carbon-budget method, Ke and colleagues estimate that in 2023 the net land sink fell to 0.44 ± 0.21 billion tonnes of carbon, against an average of about 2 billion tonnes for 2010–2022. The causes were extreme Amazon drought in late 2023, record Canadian wildfire emissions (0.58 GtC), and the switch from La Niña to El Niño, while grid cells in the hottest 5% of temperatures accounted for large gross carbon losses. The authors call 2023 a stress test of what a warmer world does to the biosphere; a single year is not a trend, and preliminary data suggest the sink partially recovered in 2024, but the northern sink has been weakening since 2015.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Drought and fires accompany a sharp weakening of land carbon uptake",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2024-living-planet-index-73-percent",
@@ -400,7 +448,9 @@
       "chapter": "ecology",
       "summary": "The Living Planet Index (LPI) tracks 34,836 population time series from 5,495 vertebrate species and reports a 73% average decline between 1970 and 2020, with freshwater populations falling most (85%). The number is often misread: it is the average change in population size, not the share of populations or species lost, and roughly half of the monitored populations are actually stable or increasing. In June 2024 Toszogyova, Smyčka and Storch (Nature Communications, doi 10.1038/s41467-024-49070-x) argued that the geometric-mean method and random population fluctuations systematically bias the LPI toward decline, echoing an earlier 2020 finding that a small cluster of collapsing populations drives much of the trend. WWF and ZSL defend the index as a robust indicator of average trend; the disagreement is about how much the headline figure overstates the situation, not about whether wildlife is under severe pressure.",
       "status": "disputed",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "The Living Planet Index reports declines and prompts a debate over interpretation",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "nobel-chemistry-2024-protein-design",
@@ -415,8 +465,10 @@
       "topic": "prizes",
       "chapter": "people",
       "summary": "Half the 2024 Chemistry Nobel went to David Baker \"for computational protein design\" and half jointly to Demis Hassabis and John Jumper \"for protein structure prediction\". Baker's group learned to design proteins that do not exist in nature, inventing new enzymes, vaccines and molecular machines from scratch. Hassabis and Jumper built AlphaFold2, which predicts a protein's three-dimensional shape from its amino-acid sequence and has now modelled essentially all 200 million known proteins. The prize marks the point where computers became a routine tool for reading and writing protein structure.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "The chemistry Nobel honors protein design and structure prediction",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-medicine-2024-microrna",
@@ -431,8 +483,10 @@
       "topic": "prizes",
       "chapter": "people",
       "summary": "Victor Ambros and Gary Ruvkun shared the 2024 Medicine Nobel for discovering microRNAs, tiny RNA molecules roughly 22 letters long that switch genes down after the gene has already been copied into messenger RNA. Working in the roundworm C. elegans in 1993, they showed that a small RNA called lin-4 blocks the lin-14 message from being made into protein. This revealed a whole regulatory layer: cells with identical DNA can behave differently because different microRNAs are silencing different messages. Humans have over a thousand of them, and their misregulation is implicated in cancer and other diseases.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "The medicine Nobel recognizes microRNA's role in regulating genes",
+      "sourceType": "Announcement"
     },
     {
       "id": "flywire-adult-fly-brain-connectome",
@@ -447,8 +501,10 @@
       "topic": "neuroscience",
       "chapter": "brain",
       "summary": "FlyWire released the first complete connectome of an adult animal brain: every one of 139,255 neurons in an adult female fruit fly, traced through electron-microscope images, with roughly 54.5 million connections between them. A connectome is a full wiring diagram, listing which cell talks to which and how strongly. The team also annotated cell types and which chemical signal each neuron likely uses, so the map can drive simulations of circuits for vision, walking and taste. It took years of combined machine segmentation and human proofreading by hundreds of contributors, and it is a reference other labs now test predictions against.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Researchers map the wiring of an adult fruit-fly brain",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2024-gram-antimicrobial-resistance-burden",
@@ -463,8 +519,10 @@
       "topic": "microbiology",
       "chapter": "microbes",
       "summary": "Antimicrobial resistance (AMR) is the evolution of bacteria that survive the drugs meant to kill them. The Global Research on Antimicrobial Resistance (GRAM) project estimated that in 2021 resistant bacterial infections directly caused 1.14 million deaths and were involved in 4.71 million, and forecast 1.91 million direct and 8.22 million associated deaths a year by 2050 — about 39 million direct deaths cumulatively between 2025 and 2050. The burden is shifting: deaths among children under five fell about 60% since 1990 thanks to vaccines and sanitation, while deaths among people over 70 rose about 90%. These are modelled estimates with wide uncertainty ranges, especially where surveillance data are sparse, but the authors also estimate that better access to care and antibiotics could avert 92 million deaths over the same period.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A study estimates antibiotic-resistance deaths and projects future losses",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-h5n1-dairy-cattle-2024",
@@ -479,8 +537,10 @@
       "topic": "public-health",
       "chapter": "microbes",
       "summary": "In March 2024 the bird-flu strain H5N1 (clade 2.3.4.4b) turned up in US dairy cows for the first time, and this study showed why it spread so well: the virus targets the milk-producing cells of the udder, so infected cows shed huge amounts of virus in milk and pass it on through milking equipment and cattle movements between states, with spillover into barn cats, raccoons and wild birds. By 2025 more than a thousand herds in 17 states were affected; about 70 people, mostly farm workers, caught mild infections, and the first US death was reported in Louisiana in January 2025 after exposure to backyard birds. Pasteurisation kills the virus, and there is no sustained human-to-human spread, so CDC rates the public risk as low, but every mammalian infection is a chance for the virus to adapt.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "H5N1 bird flu spreads into dairy cattle",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-lenacapavir-purpose1-2024",
@@ -495,8 +555,10 @@
       "topic": "pharmacology",
       "chapter": "microbes",
       "summary": "Among more than 5,000 young women in South Africa and Uganda, an injection of lenacapavir every six months prevented every single HIV infection, while women taking daily prevention pills still acquired HIV at roughly the background rate because pills are hard to take consistently. Lenacapavir blocks the virus's capsid, the protein shell around its genetic material, and stays in the body for months. PURPOSE 2 (Kelley et al., NEJM 2025) found 96 percent fewer infections in men and gender-diverse people, and the FDA approved it as Yeztugo for prevention on 18 June 2025. Science named it the 2024 Breakthrough of the Year; the open questions are price (list price above 28,000 dollars a year in the US) and how fast generic versions reach the countries with the most infections.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A trial tests twice-yearly lenacapavir for HIV prevention",
+      "sourceType": "Journal publication"
     },
     {
       "id": "luca-age-and-traits",
@@ -512,7 +574,9 @@
       "chapter": "tree-of-life",
       "summary": "By comparing gene family trees across living organisms and calibrating them against fossils and rock chemistry, this team dated LUCA, the last universal common ancestor of all life today, to about 4.2 billion years ago, only a few hundred million years after Earth formed. They infer LUCA already had a genome of at least 2.5 million letters coding roughly 2,600 proteins, lived without oxygen, made energy by combining hydrogen and carbon dioxide, and even had an early antiviral defence system. That implies LUCA was not a primitive first cell but a fairly sophisticated organism inside an existing microbial ecosystem. The early date is at the young end of the crust's history and other groups place LUCA later, so the estimate is contested.",
       "status": "disputed",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A reconstruction estimates the age and biology of life's shared ancestor",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-aging-senolytic-rct-2024",
@@ -527,8 +591,10 @@
       "topic": "aging",
       "chapter": "development",
       "summary": "Senescent cells are old cells that stop dividing but linger and secrete inflammatory signals; 'senolytic' drugs aim to kill them. In one of the first randomized, controlled human tests, 60 postmenopausal women took the senolytic combination dasatinib plus quercetin intermittently for 20 weeks. On average the drugs did not improve bone-turnover markers versus placebo, but women who started with the highest load of senescent cells did show benefit, hinting that the approach may only help people with a heavy senescence burden. Small pilot studies in lung fibrosis and Alzheimer's risk have shown safety but no clear efficacy, so senolytics remain promising but unproven in people.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A randomized trial tests a senolytic treatment's effects on bone metabolism",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2024-phage-therapy-100-cases",
@@ -544,7 +610,9 @@
       "chapter": "microbes",
       "summary": "Bacteriophages ('phages') are viruses that infect and kill bacteria, and matching a phage to a patient's specific bacterial strain is an old idea revived by antibiotic resistance. A Belgian-led consortium reported outcomes for 100 consecutive patients with difficult-to-treat infections given personalised phage preparations: 77% showed clinical improvement and the target bacterium was eradicated in 61%. Eradication was far less likely when phages were used without antibiotics, and lab tests showed phage-antibiotic synergy in 9 of 10 patients tested, pointing toward combination treatment rather than replacement. The study is retrospective and uncontrolled — there was no comparison group — so it shows safety and promise rather than proven efficacy, and randomised trials are still needed.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A patient series reports outcomes from personalized phage therapy",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-neuro-glymphatic-debate-2024",
@@ -560,7 +628,9 @@
       "chapter": "brain",
       "summary": "A widely cited 2013 study (Xie et al., Science) reported that the brain's 'glymphatic' system, which flushes fluid through brain tissue, clears waste faster during sleep, a popular explanation for why we sleep. Miao and colleagues injected a fluorescent dye into mouse brains and found the opposite: clearance was slower during sleep and under anesthesia than when awake. Supporters of the original model argue the dye method measures diffusion rather than bulk flow and that other labs have replicated sleep-enhanced clearance, so the question is genuinely open. It matters because the sleep-clearance idea underpins proposed links between poor sleep and Alzheimer's disease.",
       "status": "disputed",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A mouse study challenges a familiar claim about brain clearance during sleep",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-casgevy-crispr-2024",
@@ -575,8 +645,10 @@
       "topic": "gene-therapy",
       "chapter": "biotechnology",
       "summary": "Casgevy (exa-cel) became the first medicine built on CRISPR gene editing to be approved anywhere, cleared by the UK regulator in November 2023 and by the US FDA on 8 December 2023 for sickle cell disease. A patient's own blood stem cells are removed, edited to switch off BCL11A so the cells make fetal hemoglobin again, then returned after chemotherapy; in this trial almost every patient stopped having severe pain crises. Uptake was slow at first because the treatment costs about 2.2 million dollars and requires months in specialist centres, but by 2026 several hundred patients had started treatment and the label was extended to children as young as 2 to 5 years. Long-term safety, including any risk from the chemotherapy used to make room for the edited cells, is still being followed.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A gene-editing trial reports outcomes in severe sickle-cell disease",
+      "sourceType": "Journal publication"
     },
     {
       "id": "alphafold-3-biomolecular-interactions",
@@ -591,8 +663,10 @@
       "topic": "protein-science",
       "chapter": "biotechnology",
       "summary": "AlphaFold 3 extends AI structure prediction from single proteins to the complexes proteins actually work in: protein plus DNA, RNA, small-molecule drugs, ions and chemical modifications, all predicted in one unified model. Its accuracy on protein-ligand and protein-nucleic-acid pairings beat the specialised docking tools that had dominated those tasks. This matters because biology happens through binding, not through lone folded chains, so predicting the partnership is closer to predicting the function. On release the model's code was withheld and only a limited web server was offered, which drew criticism about reproducibility; model weights were later made available to academics.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "AlphaFold 3 predicts interactions among biological molecules",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nitroplast-nitrogen-fixing-organelle",
@@ -607,8 +681,10 @@
       "topic": "cell-biology",
       "chapter": "cell",
       "summary": "A cyanobacterium called UCYN-A living inside a marine alga turns out to have crossed the line from symbiont to organelle: it divides in step with its host, imports host-made proteins it can no longer produce itself, and is inherited by daughter cells. The team named it the nitroplast, the first known organelle that fixes nitrogen, pulling inert nitrogen gas from the air into a usable form. Only mitochondria and chloroplasts were previously known to have made this transition, and both did so over a billion years ago; the nitroplast is estimated at roughly 100 million years old. If the mechanism can be understood, it hints at a long-term route to crops that fertilise themselves.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "An alga incorporates nitrogen fixation into a cellular organelle",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-car-t-autoimmune-2024",
@@ -624,7 +700,9 @@
       "chapter": "immunity",
       "summary": "CAR T cells, a patient's own T cells engineered to hunt a target, were built to kill B cells (which carry the marker CD19) in 15 people with severe lupus, myositis or systemic sclerosis that had failed standard drugs. All 15 went into remission or major response and stopped immunosuppressive medicines, and they stayed well for up to two years even after their B cells grew back, suggesting the immune system had been 'reset' rather than merely suppressed. Side effects were milder than in cancer: mostly grade 1 cytokine release syndrome (a flu-like inflammatory reaction). This is a small uncontrolled series from one German centre, so randomized trials now under way will decide whether an expensive, bespoke cell therapy can replace lifelong drugs for autoimmune disease.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A small case series tests CAR T cells for autoimmune disease",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-mrna-cancer-vaccine-melanoma-2024",
@@ -640,7 +718,9 @@
       "chapter": "biotechnology",
       "summary": "Moderna and Merck sequenced each patient's melanoma, picked up to 34 mutations unique to that tumour (neoantigens) and encoded them in a personalised mRNA vaccine, using the same platform as COVID-19 shots. In 157 patients whose high-risk melanoma had been surgically removed, adding the vaccine to the checkpoint inhibitor pembrolizumab cut the risk of the cancer returning or death by about 44 percent over 18 months, with fatigue and injection-site pain the main extra side effects. It is the first randomized evidence that a truly individualised cancer vaccine helps, but the trial was a phase 2b with wide confidence intervals; larger phase 3 trials in melanoma and lung cancer are ongoing and will settle whether the effect holds.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A trial combines a personalized cancer vaccine with melanoma immunotherapy",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2024-amazon-critical-transitions",
@@ -655,8 +735,10 @@
       "topic": "ecology",
       "chapter": "ecology",
       "summary": "A 'tipping point' is a threshold beyond which a system shifts abruptly to a different state and does not easily return. Flores and 23 co-authors reviewed five drivers of water stress on the Amazon — warming, annual rainfall, rainfall seasonality, dry-season length and deforestation — and estimate that by 2050 between 10% and 47% of the forest will be exposed to combinations of these stresses that could trigger unexpected transitions to degraded forest or savanna-like vegetation, which would release large amounts of carbon and disrupt rainfall across South America. They propose 'safe boundaries', including keeping global warming near 1.5 °C and halting deforestation. A May 2026 Nature follow-up by Wunderling and colleagues (doi 10.1038/s41586-026-10456-0) modelled the knock-on effects and found that 22–28% deforestation combined with 1.5–1.9 °C warming could drive near-system-wide transition; the exact thresholds remain uncertain because they depend on models of forest-rainfall feedback that are hard to validate.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Researchers assess overlapping stresses that could push parts of the Amazon toward change",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-r21-malaria-vaccine-2024",
@@ -671,8 +753,10 @@
       "topic": "vaccines",
       "chapter": "microbes",
       "summary": "The R21/Matrix-M vaccine, developed by Oxford University and made by the Serum Institute of India, prevented about 75 percent of malaria cases over 12 months in children at sites with seasonal transmission and about 68 percent where malaria circulates year-round, meeting the WHO target of 75 percent that the earlier RTS,S vaccine missed. It targets a protein on the parasite stage injected by mosquitoes, uses an adjuvant (an immune booster) from Novavax, and costs a few dollars a dose. WHO recommended it in October 2023, and Cote d'Ivoire gave the first routine doses in July 2024, with more than a dozen African countries introducing malaria vaccines with Gavi support. Protection wanes and requires a booster, so vaccines complement rather than replace bed nets and drugs.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A phase 3 trial evaluates the R21 malaria vaccine in children",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-zosurabalpin-antibiotic-2024",
@@ -688,7 +772,9 @@
       "chapter": "microbes",
       "summary": "Roche and Harvard scientists described zosurabalpin, the first genuinely new class of antibiotic against Gram-negative bacteria in about fifty years, which kills carbapenem-resistant Acinetobacter baumannii, a hospital 'superbug' on WHO's most-urgent list. It works by jamming the transporter that carries lipopolysaccharide to the bacterium's protective outer membrane, a target no existing drug hits. It was found by screening roughly 45,000 molecules in the laboratory rather than by artificial intelligence, although AI-guided antibiotic discovery (for example the Collins lab's halicin and abaucin) is a parallel effort. Roche moved it into a phase 3 trial of about 400 patients in 2025-2026; it only works against Acinetobacter, and resistance can emerge in the lab, so approval is not yet assured.",
       "status": "preliminary",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A new antibiotic class disrupts a bacterial membrane-transport system",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2023-insect-decline-abundant-species",
@@ -703,8 +789,10 @@
       "topic": "biodiversity",
       "chapter": "ecology",
       "summary": "Analysing 923 terrestrial insect assemblages from 106 long-term studies, van Klink and colleagues found that the species most abundant at the start of monitoring showed the steepest average declines, while rare species showed mixed trends; falling total insect abundance is therefore mostly a story of once-common species becoming less common rather than rare species vanishing. This matters because abundant insects do most of the pollinating, decomposing and feeding of birds. The wider field remains contested: an earlier global meta-analysis by the same lead author (Science, 2020) reported roughly 9% per decade terrestrial declines but increases in freshwater insects, and a widely cited 2019 review claiming 40% of species face extinction has been heavily criticised for biased methods. A 2025 paper by Saunders, Lees and Grames (Current Opinion in Insect Science, doi 10.1016/j.cois.2025.101338) documents how that scientific uncertainty has been exploited by organised denial of insect loss, and calls for clearer communication of what is and is not known.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A synthesis finds that losses of common species drive many insect declines",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-glp1-select-2023",
@@ -719,8 +807,10 @@
       "topic": "pharmacology",
       "chapter": "body",
       "summary": "In 17,604 people with obesity and existing heart disease but no diabetes, weekly semaglutide (a GLP-1 receptor agonist, the class behind Wegovy and Ozempic) cut heart attacks, strokes and cardiovascular deaths by 20 percent over about 3.3 years. This was the first hard evidence that these drugs protect the heart beyond simply helping people lose weight. Follow-on trials extended the story: FLOW (2024) showed semaglutide reduced kidney failure and death by 24 percent in people with diabetic kidney disease, and SURMOUNT-OSA (2024) showed tirzepatide relieved obstructive sleep apnea. Side effects are mostly gastrointestinal, but 16.6 percent of semaglutide patients in SELECT stopped treatment because of adverse events versus 8.2 percent on placebo, and the drugs must be taken indefinitely.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A trial measures cardiovascular outcomes with semaglutide in a defined patient group",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-neuro-speech-bci-2023",
@@ -735,8 +825,10 @@
       "topic": "neuroscience",
       "chapter": "brain",
       "summary": "Two teams published the same day: Willett and colleagues (Stanford) used electrode arrays in the speech motor cortex of a woman with ALS to decode attempted speech at 62 words per minute from a 125,000-word vocabulary, and Metzger and colleagues (UCSF; DOI 10.1038/s41586-023-06443-4) decoded text, speech sounds and facial expressions for a digital avatar in a woman paralysed by a brainstem stroke at 78 words per minute. A brain-computer interface (BCI) reads neural activity and translates it with machine learning into text or synthesized voice. Word-error rates were still around 25 percent and each system was tested in a single participant, so these are proofs of principle rather than products. Neuralink's first human implant (January 2024) was a cursor-control device announced by the company, not a peer-reviewed speech result, and some of its electrode threads later retracted; treat that as preliminary.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Brain implants decode attempted speech in people with paralysis",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-dev-human-embryo-models-2023",
@@ -751,8 +843,10 @@
       "topic": "development",
       "chapter": "development",
       "summary": "Two groups coaxed human pluripotent stem cells to self-organize into structures resembling a human embryo about one to two weeks after implantation, the stage that is normally hidden inside the uterus and almost impossible to study. Weatherbee and colleagues (Cambridge) built models with both embryonic and supporting (extra-embryonic) tissues, and Oldak and colleagues (Weizmann; DOI 10.1038/s41586-023-06604-5) produced more complete 'day 14' models from naive stem cells without genetic tweaks. The models could reveal why so many pregnancies fail early, and they are not embryos: they cannot develop into a fetus and, under International Society for Stem Cell Research (ISSCR) guidelines, must never be transferred to a uterus. How closely they match real embryos, and how long they should be cultured, are open ethical and scientific questions.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Stem-cell models reproduce aspects of early human embryo development",
+      "sourceType": "Journal publication"
     },
     {
       "id": "human-pangenome-reference-draft",
@@ -767,8 +861,10 @@
       "topic": "genomics",
       "chapter": "biotechnology",
       "summary": "Instead of one \"reference\" human genome, this project built a pangenome: 47 people sequenced well enough to separate both copies of each chromosome, giving 94 genome versions stitched into a single graph. It adds 119 million base pairs of sequence absent from the old reference, along with 1,115 duplicated genes. Using it cut errors in small-variant discovery by 34% and doubled the number of structural variants (large insertions, deletions and rearrangements) detected per genome copy. The aim is a reference that represents human diversity rather than mostly one individual.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "A human pangenome expands the reference beyond one genome sequence",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2023-mycorrhizal-network-critique",
@@ -784,7 +880,9 @@
       "chapter": "plants",
       "summary": "Mycorrhizal fungi live in partnership with plant roots, trading soil nutrients for sugars, and can in principle link neighbouring trees into a common mycorrhizal network (CMN). Popular books and documentaries claim that such networks are widespread in forests, that resources flow through them to help seedlings, and that 'mother trees' preferentially send carbon and warning signals to their kin. Karst, Jones and Hoeksema reviewed the field evidence and concluded the first two claims are insufficiently supported — field results vary widely and often have alternative explanations — and the third has no peer-reviewed evidence at all, while unsupported statements in the literature have doubled in 25 years due to selective citing of positive results. Proponents, including Suzanne Simard, dispute the reading of the evidence, and the debate has become a case study in how appealing narratives outrun data.",
       "status": "disputed",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A review questions popular claims about fungal networks connecting trees",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bio-aging-epigenetic-information-2023",
@@ -799,8 +897,10 @@
       "topic": "aging",
       "chapter": "development",
       "summary": "The epigenome is the set of chemical marks that tell cells which genes to switch on. Yang and colleagues engineered mice in which repeated DNA breaks scrambled these marks without changing the DNA sequence itself; the animals aged faster by many measures, and delivering three 'Yamanaka' reprogramming factors (OSK) partly restored youthful gene expression. The work supports the idea that ageing is partly a loss of epigenetic information that might be reversible, and it underpins the epigenetic 'clocks' used to estimate biological age. Critics note the model is artificial, that clocks measure correlation rather than cause, and that no partial-reprogramming therapy had been shown to work in people when this was published.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Experiments test whether epigenetic changes contribute to aging",
+      "sourceType": "Journal publication"
     },
     {
       "id": "med-lecanemab-donanemab-alzheimers-2023",
@@ -816,7 +916,9 @@
       "chapter": "brain",
       "summary": "Lecanemab, an antibody that clears amyloid plaques from the brain, slowed cognitive decline by 27 percent over 18 months in 1,795 people with early Alzheimer's; donanemab (Sims et al., JAMA 2023) showed a similar effect and was FDA-approved in July 2024. These are the first drugs shown to alter the disease's course, after decades of failed amyloid trials. The controversy is whether the slowing, about half a point on an 18-point scale, is noticeable to patients, weighed against amyloid-related imaging abnormalities (ARIA), brain swelling or bleeding seen in 12 to 24 percent of treated patients, with several deaths reported. Europe's regulator first rejected lecanemab in 2024, then approved it only for people carrying at most one copy of the APOE4 risk gene.",
       "status": "disputed",
-      "verified": "2026-09-06"
+      "verified": "2026-09-06",
+      "headline": "A trial evaluates lecanemab in early Alzheimer's disease",
+      "sourceType": "Journal publication"
     },
     {
       "id": "asgard-archaeon-actin-cytoskeleton",
@@ -831,8 +933,10 @@
       "topic": "evolution",
       "chapter": "tree-of-life",
       "summary": "Researchers grew and imaged an Asgard archaeon, Lokiarchaeum ossiferum, and found it builds an internal actin skeleton and grows long branching tentacle-like protrusions. Asgard archaea are the closest known microbial relatives of eukaryotes, the cell type that includes animals, plants and fungi, and their genomes carry many genes previously thought to be eukaryote-only. Seeing those genes actually build a cytoskeleton supports the idea that complex cell architecture arose before mitochondria were acquired. Published online in December 2022 and carried in the January 2023 issue of Nature; how exactly this cell shape led to eukaryotes remains debated.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "An Asgard archaeon shows a complex internal cell structure",
+      "sourceType": "Journal publication"
     },
     {
       "id": "telomere-to-telomere-human-genome",
@@ -847,8 +951,10 @@
       "topic": "genomics",
       "chapter": "biotechnology",
       "summary": "The Telomere-to-Telomere Consortium published the first gapless human genome, T2T-CHM13: 3.055 billion base pairs with no missing stretches, adding nearly 200 million base pairs that the 2001-era reference had left blank. The new sequence covers the hardest parts of chromosomes, including every centromere (the repeat-rich waist where chromosomes are pulled apart during cell division) and the short arms of the five acrocentric chromosomes. It added 1,956 predicted genes, about 99 of them protein-coding. Every chromosome except Y was finished here; the Y chromosome was completed in a follow-up study in 2023.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "Researchers complete a gapless human genome sequence",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eco-2022-airborne-edna-biodiversity",
@@ -863,8 +969,10 @@
       "topic": "biodiversity",
       "chapter": "ecology",
       "summary": "Environmental DNA (eDNA) is genetic material that organisms shed into water, soil or air — skin, hair, saliva, faeces. Clare's team filtered air at Hamerton Zoo in England and, by sequencing the trapped DNA, identified 25 species of mammals and birds, including 17 of the zoo's residents plus wild natives such as the Eurasian hedgehog; a Danish group sampling Copenhagen Zoo published parallel results in the same issue. The finding launched airborne eDNA as a non-invasive way to survey terrestrial animals, which has since been extended to plants, fungi and insects and to sampling from air-quality monitoring stations. Open questions include how far DNA travels, how long it persists, and how to turn detections into reliable estimates of abundance rather than mere presence.",
-      "status": "confirmed",
-      "verified": "2026-09-06"
+      "status": "reported",
+      "verified": "2026-09-06",
+      "headline": "DNA collected from air detects nearby mammals and birds",
+      "sourceType": "Journal publication"
     }
   ]
 }

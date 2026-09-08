@@ -4,7 +4,7 @@ subtitle: How a switch becomes arithmetic. Four gates, one universal building bl
 part: II · The Machine
 ---
 
-## Recap
+## How do logical rules become working circuits?
 
 Part I was about computation in the abstract. Part II builds a machine, from the bottom, in five chapters: gates here, a processor in chapter 8, an operating system in chapter 9, a language in chapter 10, and the compiler that connects them in chapter 11. By the end there is nothing left unexplained between a transistor and a running program.
 
@@ -32,7 +32,7 @@ Using $\cdot$ for AND and $+$ for OR: repeating an input changes nothing. There 
 
 $$\overline{A \cdot B} = \overline{A} + \overline{B} \qquad \overline{A + B} = \overline{A} \cdot \overline{B}$$
 
-These are **De Morgan's laws**, where the bar means NOT. In words: "not (both)" is the same as "either not"; "not (either)" is the same as "both not." They matter practically because they let any circuit be rewritten using different gates, and because they are the most common source of bugs in written conditions: the opposite of "over 18 and a resident" is "under 18 **or** not a resident," not "under 18 and not a resident."
+These are **De Morgan's laws**, where the bar means NOT. In words: "not (both)" is the same as "either not"; "not (either)" is the same as "both not." They matter practically because they let any circuit be rewritten using different gates, and because they are the most common source of bugs in written conditions: the opposite of "over 18 and a resident" is "18 or younger **or** not a resident." Someone who is exactly 18 fails the original condition too. Replacing AND with OR is only half the job: you must also negate each condition correctly.
 :::
 
 ## Gates, and why one of them is enough
@@ -89,6 +89,14 @@ Two constraints dominate the result, and they are the opposite of the intuitive 
 ## What we still argue about
 
 Whether to keep pushing the clock or spend the transistors on width; the industry chose width in 2005 and has not gone back (chapter 8). Whether asynchronous designs, with no global clock at all, will ever repay their difficulty. And how to handle the fact that as devices shrink, individual transistors become measurably unreliable, so that error tolerance is migrating from the outside of the system towards its centre.
+
+:::try Put the idea to work
+An application admits someone only if they are over 18 AND a resident. Write the rejection condition, including the boundary age.
+
+:::answer Show the reasoning
+Reject if the person is 18 or younger OR is not a resident. De Morgan's law changes AND to OR while negating both parts. Someone exactly 18 is an important check: “under 18” would wrongly leave that boundary case out.
+:::
+:::
 
 ## Summary
 

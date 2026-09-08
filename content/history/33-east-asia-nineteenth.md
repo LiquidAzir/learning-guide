@@ -4,7 +4,7 @@ subtitle: 1800 to 1900. Britain sells China opium at gunpoint, a failed examinat
 part: IV · East Asian History
 ---
 
-## Recap
+## Why did nineteenth-century China and Japan respond differently to foreign pressure?
 
 Chapter 32 left China and Japan in 1800 at their height and closed to the world on their own terms. This chapter is about what happened when the world, in the form of the industrialized West, forced them open: China's nineteenth century of defeat, rebellion, and failed reform, Japan's astonishing transformation after 1868, and Korea's fate between them. It is the century that made modern East Asia and it is remembered very differently in Beijing and Tokyo.
 
@@ -55,6 +55,14 @@ The nineteenth century divided East Asia's three societies by their responses to
 - 1894–1895: Sino-Japanese War; Taiwan to Japan.
 - 1898: Hundred Days' Reform. 1900: Boxer rising.
 - 1905: Japan beats Russia. 1910: Korea annexed.
+:::
+
+:::try Put the idea to work
+Japan industrializes rapidly while Qing China struggles. Why is “one culture liked change” an inadequate explanation?
+
+:::answer One way to reason it through
+It treats diverse societies as single personalities. Compare state structures, conflicts, resources, foreign pressures, reform coalitions, and the timing of decisions. Those factors can explain different paths without assuming either outcome was an expression of a timeless national character.
+:::
 :::
 
 ## Summary

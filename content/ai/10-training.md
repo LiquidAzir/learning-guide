@@ -4,7 +4,7 @@ subtitle: Gradient descent, backpropagation, and the bag of tricks that turned a
 part: III · Neural Networks
 ---
 
-## Recap
+## How does a network find useful weights?
 
 Chapter 9 built the network and said its parameters are set by minimizing a loss. This chapter is about how. The method is one idea, gradient descent, plus one algorithm for computing gradients efficiently, backpropagation, plus a decade of practical fixes without which neither would work at scale. It is the most technical chapter in the guide and the most useful for anyone who will ever train a model, because training is where things go wrong.
 
@@ -101,6 +101,14 @@ Everything above was learned on networks of millions of parameters. Chapter 8 sa
 - The learning rate is the knob that matters most; warm up, then decay.
 - Read the loss curves. Validation rising while training falls means stop. Flat from the start means a bug.
 - Dropout, weight decay, augmentation, and early stopping regularize. At frontier scale, stability replaces overfitting as the main concern.
+:::
+
+:::try Put the idea to work
+The loss rises after a very large gradient step. Does that mean the computed gradient pointed in the wrong local direction?
+
+:::answer Show the reasoning
+Not necessarily. The gradient describes the local slope. A step can overshoot a low region or enter a part where the slope changes. Learning rate controls how far the method trusts that local information; a downhill direction does not make every step length safe.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: How a network learns to recognize a cat. Convolutions, the 2012 result
 part: III · Neural Networks
 ---
 
-## Recap
+## Why does an image model need more than a list of pixels?
 
 Chapter 9 said networks learn hierarchies of features; chapter 10 said how they are trained. This chapter is where the two first paid off at scale, in computer vision, and it introduces the architectural idea that made it possible: building into the network the fact that a cat is a cat wherever it appears in the picture.
 
@@ -93,6 +93,14 @@ A few hundred labeled images and an afternoon on a laptop now suffice for a clas
 - Networks learn shortcuts (snow for wolves) and are fooled by invisible adversarial perturbations. Test accuracy overstates real competence.
 - With enough data, transformers match CNNs on images; assumptions help when data is scarce and limit when it is not.
 - Transfer learning from a pretrained backbone is how vision is done in practice. Few hundred images, one afternoon.
+:::
+
+:::try Put the idea to work
+Why can a convolutional filter detect an edge in several image locations without learning a separate set of weights for each location?
+
+:::answer Show the reasoning
+The same filter weights are reused as it slides across the image. That weight sharing encodes an assumption that a useful local pattern can matter in multiple positions. Later processing and the full architecture still determine how well the system handles translations and larger changes.
+:::
 :::
 
 ## Summary

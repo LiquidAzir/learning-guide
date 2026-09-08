@@ -4,7 +4,7 @@ subtitle: Four thousand years in one chapter. Who invented zero, why the Greeks 
 part: I · Foundations
 ---
 
-## Recap
+## Why did people invent new kinds of mathematics?
 
 Chapter 2 laid out the number system as a finished thing. It was not finished; it was built, slowly, by people solving practical problems and then asking why their methods worked. This chapter tells that story up to the invention of calculus around 1680. Later developments appear in the chapters that use them, and chapter 16 picks up the thread from 1800.
 
@@ -71,6 +71,14 @@ Each of these inventions answered a practical question: dividing loaves, keeping
 ## What came next
 
 By 1700 mathematicians had the tools; the eighteenth century, above all Leonhard Euler, worked out what they could do, producing much of the notation and most of the formulas in the chapters ahead. The nineteenth century asked what the tools *rested on* and got uncomfortable answers: that geometry need not be Euclid's (chapter 5), that infinity comes in different sizes, and that calculus needed foundations it had gone 150 years without. The twentieth century proved that some questions cannot be answered by any method (chapter 12), built the computer out of that proof (chapter 15), and turned probability and statistics into the language of every science (chapters 9 and 10). Chapter 16 picks up that story and carries it to the present.
+
+:::try Put the idea to work
+Why might a society need a reliable multiplication method before anyone writes a general proof about multiplication?
+
+:::answer Show the reasoning
+Trade, taxation, building, and measurement create recurring calculation problems. A workable method can develop through practice before its general justification is formalized. The historical distinction is between doing calculations, recognizing patterns, and proving why the patterns hold.
+:::
+:::
 
 ## Summary
 

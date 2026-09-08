@@ -4,7 +4,7 @@ subtitle: Ninety years from a question about the foundations of mathematics to a
 part: I · Foundations
 ---
 
-## Recap
+## How did an abstract idea become a machine on every desk?
 
 Chapter 1 said that computer science is the study of computation rather than of computers. This chapter is the evidence: almost every idea in the field was worked out before, and often long before, the hardware that made it useful.
 
@@ -87,6 +87,14 @@ In March 1989 Tim Berners-Lee, at CERN, proposed a system of linked documents to
 ## What we still do not know
 
 Whether the Church–Turing thesis is a fact about mathematics or about physics: quantum machines compute the same *set* of functions but plausibly not at the same *cost* (chapter 21). Whether the P versus NP question, posed in 1971, is answerable by any technique now known; several proof strategies have themselves been proved insufficient (chapter 14). And whether the industry can find another sixty-year trend after the one that just ended.
+
+:::try Put the idea to work
+Why did defining a universal machine matter before engineers could build a useful electronic computer?
+
+:::answer Show the reasoning
+It separated the general ability to follow a computation from the construction of a particular device. A machine could change jobs by reading a different program instead of being rebuilt for each task. The abstraction also made it possible to prove limits that apply across implementations.
+:::
+:::
 
 ## Summary
 

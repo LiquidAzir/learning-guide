@@ -4,7 +4,7 @@ subtitle: 2600 to 1150 BCE. Cities on the Indus, palaces on Crete, a great-power
 part: II · Ancient History
 ---
 
-## Recap
+## Why did a connected Bronze Age world become vulnerable?
 
 Mesopotamia and Egypt were not alone. By 2500 BCE the Old World had several literate civilizations trading with each other across thousands of miles, in a system that historians call the **Bronze Age** after the metal, an alloy of copper and tin, that its elites fought and displayed with. This chapter surveys that world, its interconnection, and its sudden end, which is the first documented collapse of a civilization-wide system and still one of the most argued-about.
 
@@ -31,7 +31,7 @@ The Late Bronze Age (c. 1550–1200 BCE) was an international system. Its great 
 Between about 1200 and 1150 BCE, nearly all of it fell. The Hittite empire vanished so completely that its existence was forgotten until the tablets were dug up. Every Mycenaean palace was destroyed or abandoned, writing disappeared from Greece for four hundred years, and the population fell by perhaps three quarters. The great cities of the Levant, Ugarit and Hazor and many others, were burned and never reoccupied. Egypt survived, barely, after repelling two invasions by the **Sea Peoples**, a coalition of migrants and raiders whose origins are still argued, and then declined into a long weakness. Babylon and Assyria shrank. Trade routes closed. Of the Late Bronze Age great powers, only Egypt and Assyria emerged recognizable.[^9]
 
 :::frontier
-Why? The old answer was the Sea Peoples, on the strength of Egyptian inscriptions that name them. The current view is that they were a symptom as much as a cause. Three lines of evidence have accumulated since about 2000. Tree rings and pollen show a severe, prolonged drought across the eastern Mediterranean beginning around 1200; a 2023 study of juniper timbers from the Hittite capital found three consecutive years of extreme drought at exactly the moment the empire fell.[^10] Earthquakes struck several sites. And the system's very interconnection made it fragile: palaces that depended on imported copper and tin, and on grain shipped from abroad, could not survive the disruption of trade, and each collapse deepened the others. The historian Eric Cline's phrase is a "perfect storm"; the model of a networked system failing through cascading dependencies is the same one applied to 2008. It is the first collapse we can study in detail, and the one thing it does not support is a single cause.
+Why? The old answer was the Sea Peoples, on the strength of Egyptian inscriptions that name them. The current view is that they were a symptom as much as a cause. Three lines of evidence have accumulated since about 2000. Tree rings and pollen show a severe, prolonged drought across the eastern Mediterranean beginning around 1200; a 2023 study of juniper timbers preserved at Gordion in central Anatolia found three consecutive years of extreme drought at exactly the moment the empire fell.[^10] Earthquakes struck several sites. And the system's very interconnection made it fragile: palaces that depended on imported copper and tin, and on grain shipped from abroad, could not survive the disruption of trade, and each collapse deepened the others. The historian Eric Cline's phrase is a "perfect storm"; the model of a networked system failing through cascading dependencies is the same one applied to 2008. It is the first collapse we can study in detail, and the one thing it does not support is a single cause.
 :::
 
 ## What survived, and what came next
@@ -51,6 +51,14 @@ The Bronze Age shows two things that recur throughout this guide. First, that in
 - 1274 BCE: Kadesh; c. 1259 the treaty.
 - c. 1200–1150 BCE: the Late Bronze Age collapse.
 - c. 1180 BCE: Hittite empire ends; Troy VIIa destroyed.
+:::
+
+:::try Put the idea to work
+Several palaces are destroyed within a broad period. Does that establish one invading people as the cause of every collapse?
+
+:::answer One way to reason it through
+No. Destruction layers need careful dating, and similar outcomes can have different causes. Inscriptions, climate evidence, earthquakes, trade disruption, and local politics may each contribute. A connected system can transmit shocks without every place falling in the same way or at the same moment.
+:::
 :::
 
 ## Summary

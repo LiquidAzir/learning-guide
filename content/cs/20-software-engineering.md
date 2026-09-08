@@ -4,7 +4,7 @@ subtitle: Programming is making it work once. Engineering is keeping it working 
 part: IV · Systems in the World
 ---
 
-## Recap
+## Why does working code still need engineering?
 
 Everything so far has been about getting a computation right. This chapter is about the part that dominates cost and causes the failures that reach the news, and it is the part a computer science education usually treats last and least.
 
@@ -75,6 +75,14 @@ What is not in dispute is that the review burden has shifted. More code is produ
 ## What we still argue about
 
 Whether the classic project-failure statistics that everyone quotes are sound; the best-known survey has been criticized for decades over its definitions and sampling, and the honest position is that we know large projects fail often and not how often. Whether estimation can be made reliable, after fifty years of evidence that it cannot. Whether formal methods will move beyond their niche. And whether AI assistance ends up as Brooks's silver bullet or as another tool that removes accidental complexity while leaving the essential kind untouched.
+
+:::try Put the idea to work
+A function passes every existing test but implements a misunderstood requirement. Did the tests prove the software solves the user's problem?
+
+:::answer Show the reasoning
+No. Tests compare behavior with chosen expectations. If those expectations encode the wrong requirement, the tests faithfully protect the mistake. Examples agreed with users, review of edge cases, and observation of the complete workflow connect verification to the actual problem.
+:::
+:::
 
 ## Summary
 

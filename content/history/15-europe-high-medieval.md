@@ -4,7 +4,7 @@ subtitle: 1000 to 1300. Population doubles, cathedrals rise, popes fight emperor
 part: III · European History
 ---
 
-## Recap
+## What made medieval Europe more connected and more contentious?
 
 Chapter 14 left Europe around 1000 as a poor frontier society with its kingdoms newly in place and its population beginning to grow. The next three centuries are the medieval boom. Almost every institution that the modern West regards as its own, from the university to representative assemblies to the common law, was built in them, by people who would have been astonished to hear it.
 
@@ -60,6 +60,14 @@ The High Middle Ages built the institutions the modern West thinks of as its own
 - 1215: Magna Carta; Fourth Lateran Council.
 - 1265–1274: Aquinas's *Summa*.
 - 1291: Acre falls; the crusader states end.
+:::
+
+:::try Put the idea to work
+A charter grants privileges to a town. What does it suggest about bargaining, and what does it leave open?
+
+:::answer One way to reason it through
+Someone with recognized authority formalized rights, often amid negotiation over revenue, service, or autonomy. The document does not automatically show who within the town benefited, how well the rights were enforced, or whether poorer residents had a say. Read the agreement alongside its local power relations.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: Jobs, bias, power, law, and risk. What the evidence says so far, what 
 part: V · In the World
 ---
 
-## Recap
+## How do you measure AI's effects on people rather than just tasks?
 
 Every chapter so far has been about how these systems work. This one is about what they do when released, and it is the chapter where the guide's rule of citing evidence is hardest to keep, because the evidence is young and the stakes push everyone toward certainty. The approach is to say what is measured, what is argued, and what is unknown, and to keep them separate.
 
@@ -14,7 +14,7 @@ The question everyone asks is whether AI will take jobs. The economics guide's h
 
 **Productivity gains are real and uneven.** The controlled studies of chapter 18 find that generative AI raises output on writing, coding, customer support, and analysis tasks by 15 to 50 percent, with the gains concentrated among less experienced workers, and finds harm where output is trusted beyond the model's competence.[^1]
 
-**Aggregate employment effects, so far, are small.** A study linking surveys of 25,000 Danish workers in exposed occupations to payroll records found, two years after ChatGPT, no detectable effect on earnings or hours, with confidence intervals ruling out changes larger than about 2 percent.[^2] Macroeconomic estimates of AI's productivity contribution over the coming decade range from under 1 percent (Acemoglu, counting only tasks currently automatable) to several times that from more optimistic forecasters, and the disagreement is about how fast capabilities will grow, which nobody knows.[^3] The confidence interval in the Danish study rules out changes larger than about 2 percent in either direction.
+**Aggregate employment effects, so far, are small.** A study linking surveys of 25,000 Danish workers in exposed occupations to payroll records found, two years after ChatGPT, no detectable effect on earnings or hours, with confidence intervals ruling out changes larger than about 2 percent.[^2] Macroeconomic estimates of AI's productivity contribution over the coming decade range from under 1 percent (Acemoglu, counting only tasks currently automatable) to several times that from more optimistic forecasters, and the disagreement is about how fast capabilities will grow, which nobody knows.[^3]
 
 **Entry-level effects have appeared.** Payroll data covering millions of US workers show employment of 22-to-25-year-olds in the occupations most exposed to AI (software development, customer service) falling relative to less exposed peers since late 2022, by about 13 percent in the first 2025 analysis and 19 percent by mid-2026, while older workers in the same occupations were unaffected; the mechanism is reduced hiring, not layoffs.[^4] Whether this is AI, interest rates, or post-pandemic correction is debated; the pattern is consistent with AI substituting for the tasks juniors were hired to do.
 
@@ -73,6 +73,14 @@ The regulatory response so far: the EU's AI Act (in force August 2024; prohibiti
 - Copyright: training on lawfully acquired works has been ruled fair use in one US case; piracy was not; most questions remain open.
 - Frontier capability is concentrated in a few companies, two countries, one chip supply chain.
 - Present harms are documented; misuse capability is rising and measured; loss of control is contested by serious people on both sides. Evaluation lags capability.
+:::
+
+:::try Put the idea to work
+Workers finish one task faster with AI. Why does that not immediately tell you how employment or total productivity will change?
+
+:::answer Show the reasoning
+Jobs contain multiple tasks, and saved time may be offset by checking, coordination, or new work. Prices, demand, organizational choices, and who adopts the tool also matter. A task experiment identifies one effect; the economy-wide outcome depends on how those effects combine.
+:::
 :::
 
 ## Summary

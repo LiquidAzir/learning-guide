@@ -4,7 +4,7 @@ subtitle: Electrons are waves trapped around a nucleus, they come in shapes, and
 part: II · From Alchemy to Atoms
 ---
 
-## Recap
+## How do electrons determine an atom's behavior?
 
 The periodic table works because elements in a column have the same arrangement of outer electrons. This chapter explains where that arrangement comes from. It is the one place in the guide where the physics gets close to the surface, and it is worth the effort: everything in the chapters on bonding follows from it.
 
@@ -88,10 +88,18 @@ The fingerprint works at any distance. In 1868 astronomers observing the Sun's a
 Orbitals were long considered a mathematical convenience that could never be seen. Since 2009 scanning-probe microscopes have imaged the electron clouds of individual molecules in enough detail to make out the bonds.[^6] The 2023 Nobel Prize in Physics went to methods that produce light pulses lasting attoseconds (billionths of a billionth of a second), short enough to catch electrons in the act of moving between orbitals during a reaction.[^7] And in the heaviest elements, relativistic corrections to the orbitals are large enough that theorists are not sure the aufbau order survives; chemists have begun to measure the chemistry of elements like flerovium (114) one atom at a time to find out.[^8]
 :::
 
+:::try Put the idea to work
+A shell can hold 18 electrons. Does that require the corresponding row of the periodic table to contain 18 elements?
+
+:::answer Show the reasoning
+No. Shell capacity counts the available orbitals in that shell. Period lengths follow the energy order in which subshells fill, and that order interleaves different shells. Keep “how many states exist?” separate from “which states fill next?”
+:::
+:::
+
 ## Summary
 
 - Electrons are confined waves; the allowed patterns are orbitals, labeled by quantum numbers for size ($n$), shape ($l$: s, p, d, f), and orientation ($m_l$).
-- Each orbital holds two electrons of opposite spin (Pauli). Shell capacities of 2, 8, 18, 32 follow, and they are the row lengths of the periodic table.
+- Each orbital holds two electrons of opposite spin (Pauli). Shell capacities are 2, 8, 18, 32; periodic-table rows have different lengths because subshells from different shells overlap in energy and fill in that energy order.
 - Electrons fill orbitals from lowest energy up (aufbau), one per equal-energy orbital before pairing (Hund), with 4s filling before 3d because of shielding.
 - Valence electrons, the outermost, determine chemistry; elements in a column share a valence configuration.
 - Effective nuclear charge explains why atoms shrink and grip harder across a row and grow and loosen down a column.

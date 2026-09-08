@@ -4,7 +4,7 @@ subtitle: Why companies exist, what sets your wage, whether minimum wages cost j
 part: III · People and Strategy
 ---
 
-## Recap
+## Why can equally productive workers earn different wages?
 
 Markets coordinate through prices, but most economic activity happens *inside* organizations where prices are not used at all: nobody in a company bids for the use of the photocopier. And most people's income comes from one market, the market for their labor, whose behavior has generated the loudest arguments in the field. This chapter covers both, and then turns to the question they feed into: how unequal is the result, and why.
 
@@ -76,6 +76,14 @@ Inequality at a point in time matters less if people move between rungs. **Inter
 
 :::key
 Inequality is where economics meets politics most directly, and the discipline's contribution is to separate the questions. How much has inequality risen? That is a measurement question with a disputed but narrowing answer. Why? Several causes, each with evidence. Does it matter? That depends partly on mobility, which is measurable, and partly on values, which are not. Economists have standing on the first two questions and no special standing on the last.
+:::
+
+:::try Put the idea to work
+Two workers with similar skills earn different wages in different towns. Name a reason other than one worker secretly being more productive.
+
+:::answer Show the reasoning
+Local employer competition, bargaining power, mobility costs, amenities, and the availability of alternative jobs can differ. Productivity matters, but wages emerge within institutions and markets. A fair comparison would also check hours, benefits, tasks, and working conditions.
+:::
 :::
 
 ## Summary

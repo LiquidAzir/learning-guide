@@ -86,6 +86,14 @@ The nucleus itself turned out to have parts. Rutherford identified the positivel
 
 One puzzle remained, and it was fatal to classical physics: an electron orbiting a nucleus should radiate away its energy and spiral in within a fraction of a nanosecond. Atoms should not exist. Chapter 5 is about the answer.
 
+:::try Put the idea to work
+Two atoms have the same number of protons but different numbers of neutrons. Are they different elements, and must their masses be equal?
+
+:::answer Show the reasoning
+They are isotopes of the same element: proton number determines the element. Their masses differ because their neutron counts differ. Their electron arrangements, and therefore much of their chemistry, can be similar even though their nuclear properties are not.
+:::
+:::
+
 ## Summary
 
 - Ancient thinkers proposed four elements and, separately, atoms; neither idea had evidence. Craft chemistry (metals, glass, dyes) flourished without theory.

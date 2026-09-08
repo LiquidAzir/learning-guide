@@ -4,7 +4,7 @@ subtitle: Why everything is numbers, how numbers are stored, why 0.1 plus 0.2 is
 part: I · Foundations
 ---
 
-## Recap
+## How do bits become numbers, text, and pictures?
 
 Chapter 2 ended with the stored-program idea: instructions and data live in the same memory, in the same form. This chapter is about what that form is. Nothing here is difficult, and getting it wrong has killed people.
 
@@ -41,7 +41,7 @@ Because long strings of ones and zeros are unreadable, people write them in **he
 
 The standard trick for negatives is **two's complement**: the leftmost bit carries a negative weight. In eight bits, instead of representing 0 to 255, you represent −128 to 127, because that top bit means −128 rather than +128. The reason this scheme won is that addition circuitry does not need to know: adding the bit patterns for −5 and +7 gives the pattern for +2 with no special case, so one adder serves both.
 
-The trap is that the range is finite and the arithmetic wraps around. Add 1 to the largest 8-bit value, 127, and you get −128. This is **integer overflow**, and it is not a rare edge case; it is the direct cause of some of the most expensive failures in engineering history. On 4 June 1996 the first Ariane 5 rocket destroyed itself 37 seconds after launch because a 64-bit floating-point value for horizontal velocity was converted into a 16-bit signed integer that could hold only up to 32,767. The Ariane 5 flew faster than the Ariane 4 the code was written for, the value did not fit, the exception was unhandled, the backup computer had already failed the same way half a second earlier, and the rocket and its four satellites, about $370 million, were lost.[^1]
+The trap is that the range is finite. With wrapping arithmetic, adding 1 to the largest signed 8-bit value, 127, produces −128. Other rules apply in some languages: overflow can raise an error, and signed integer overflow in C and C++ is undefined behavior. This is **integer overflow**, and it is not a rare edge case; it is the direct cause of some of the most expensive failures in engineering history. On 4 June 1996 the first Ariane 5 rocket destroyed itself 37 seconds after launch because a 64-bit floating-point value for horizontal velocity was converted into a 16-bit signed integer that could hold only up to 32,767. The Ariane 5 flew faster than the Ariane 4 the code was written for, the value did not fit, the exception was unhandled, the backup computer had already failed the same way half a second earlier, and the rocket and its four satellites, about $370 million, were lost.[^1]
 
 A slower version of the same problem is waiting: many systems count time as seconds since 1 January 1970 in a signed 32-bit integer, which overflows on 19 January 2038. Most modern systems have moved to 64 bits; embedded devices in long-lived equipment are the worry.
 
@@ -89,10 +89,18 @@ A computer stores only bits, and meaning is entirely a matter of convention betw
 
 Whether decimal floating point, which represents 0.1 exactly and is in the IEEE standard, should be more widely used; it is slower, and finance mostly uses scaled integers instead. Whether the units are a mess: a "kilobyte" is 1,000 bytes to a disk manufacturer and 1,024 to most operating systems, which is why a "2 TB" drive shows as 1.82 TB. The standards body introduced **kibibyte** for 1,024 in 1999, and almost nobody says it. And whether allowing more than one byte sequence to render as the same visible text was worth the security holes it opened, since attackers use look-alike characters to forge domain names.
 
+:::try Put the idea to work
+An 8-bit signed two's-complement value holds 127. You add 1. Is −128 guaranteed in every programming language?
+
+:::answer Show the reasoning
+No. That is the result under wrapping arithmetic, but a language may trap overflow, define a different numeric representation, or leave signed overflow undefined. The bit pattern explains one representation; the language's rules determine what the program is allowed to do with it.
+:::
+:::
+
 ## Summary
 
 - A bit is a two-state thing; a byte is eight of them; nothing in memory records what a group of bits is supposed to mean.
-- With $k$ bits you get $2^k$ values; negatives use two's complement so one adder handles both signs, and arithmetic silently wraps at the ends of the range.
+- With $k$ bits you get $2^k$ values; negatives use two's complement so one adder handles both signs, and overflow behavior depends on the language and type: it may wrap, raise an error, or be undefined.
 - Integer overflow destroyed Ariane 501 in 1996 and will bite 32-bit timekeeping in 2038.
 - Floating point stores a sign, a fraction, and a biased exponent; most decimal fractions are not representable, so never compare for exact equality and never store money in it.
 - Accumulated floating-point drift in a Patriot battery's clock contributed to 28 deaths in 1991.

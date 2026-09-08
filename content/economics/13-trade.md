@@ -4,7 +4,7 @@ subtitle: Why countries trade, who wins and who loses, what a tariff does, and w
 part: V · The World
 ---
 
-## Recap
+## How can trade help when one country is better at making everything?
 
 Chapter 3 introduced Ricardo's comparative advantage as the most counterintuitive true idea in the subject. This chapter works it through, adds what two centuries of theory and evidence have found about its limits, and turns to the questions that dominate the news: tariffs, deficits, exchange rates, and whether globalization was worth it.
 
@@ -12,12 +12,14 @@ Chapter 3 introduced Ricardo's comparative advantage as the most counterintuitiv
 
 Suppose England can make a bolt of cloth with 100 hours of labor and a barrel of wine with 120, while Portugal needs 90 for cloth and 80 for wine. Portugal is better at both. Common sense says Portugal should make both and England nothing.
 
-Ricardo's point is that what matters is not who is better but who is *relatively* better.[^1] In England a barrel of wine costs 1.2 bolts of cloth (120 hours against 100). In Portugal it costs 0.89 bolts (80 against 90). Wine is relatively cheap in Portugal and cloth relatively cheap in England. If Portugal makes wine and England cloth and they trade at, say, one for one, both end up with more of both than if each made everything itself.
+Ricardo's point is that what matters is not who is better but who is *relatively* better.[^1] In England a barrel of wine costs 1.2 bolts of cloth (120 hours against 100). In Portugal it costs 0.89 bolts (80 against 90). Wine is relatively cheap in Portugal and cloth relatively cheap in England. That difference opens a range of exchange rates at which trade can benefit both. The exact allocation matters: specialization does not mean every proposed trade gives each country more of every good.
 
 :::math The arithmetic of gains from trade
 Each country has 3,600 hours. Without trade, splitting hours evenly: England makes 18 bolts and 15 barrels; Portugal makes 20 bolts and 22.5 barrels. World total: 38 bolts, 37.5 barrels.
 
-With specialization: England puts all 3,600 hours into cloth and makes 36 bolts. Portugal puts all 3,600 into wine and makes 45 barrels. World total: 36 bolts, 45 barrels. Trading 18 bolts for 18 barrels, England ends with 18 bolts and 18 barrels (up from 18 and 15); Portugal ends with 18 bolts and 27 barrels (down 2 bolts, up 4.5 barrels, a net gain at any reasonable valuation). The world has more wine and nearly as much cloth from the same hours. Nothing was invented; the gain came purely from each doing what it does relatively best.
+Try this allocation: England uses all 3,600 hours for 36 bolts of cloth. Portugal uses 450 hours for 5 bolts and the remaining 3,150 hours for 39.375 barrels of wine. The world now has 41 bolts and 39.375 barrels, more of both goods from the same labor.
+
+Trade 17 bolts for 16 barrels. England keeps 19 bolts and receives 16 barrels, up from 18 and 15. Portugal ends with 22 bolts and 23.375 barrels, up from 20 and 22.5. Check both the production hours and the final totals: no extra resources entered the example. Shifting work toward each country’s comparative advantage made this mutually beneficial trade possible.
 :::
 
 The principle applies to people as well as countries: a surgeon who is also the world's fastest typist should still hire a typist, because an hour of her typing costs an hour of surgery. It is why specialization exists at all.
@@ -68,6 +70,14 @@ At the same time, the China shock and its equivalents hollowed out specific regi
 
 :::frontier
 Three questions are open. Whether **reshoring** and "friend-shoring" of supply chains after the pandemic and amid US–China tension raise resilience enough to justify their cost. Whether the return of **industrial policy**, from American semiconductor subsidies to European battery plants, will repeat East Asia's success or Latin America's failure; the newest evidence is more favorable to well-designed policy than the older consensus was.[^12] And whether the world is dividing into trading blocs, reversing the integration of the last seventy years. The tariff experiments of 2025 and 2026 will supply the data.
+:::
+
+:::try Put the idea to work
+Country A needs 2 hours for a loaf and 4 for a shirt; B needs 3 for a loaf and 12 for a shirt. Who has comparative advantage in each?
+
+:::answer Show the reasoning
+A gives up 2 loaves per shirt; B gives up 4. A has comparative advantage in shirts. B gives up only one quarter of a shirt per loaf, versus A's one half, so B has comparative advantage in bread. A's absolute advantage in both does not remove the difference in opportunity costs.
+:::
 :::
 
 ## Summary

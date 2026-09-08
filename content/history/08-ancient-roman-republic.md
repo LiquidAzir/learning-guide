@@ -4,7 +4,7 @@ subtitle: 509 to 27 BCE. A town on the Tiber with a constitution designed to sto
 part: II · Ancient History
 ---
 
-## Recap
+## Why could a successful republic fail to govern its own expansion?
 
 While Alexander's successors fought over the East, a Latin city in central Italy was doing something no Greek polis had managed: conquering its neighbors and making them Romans. This chapter covers the Republic, the five centuries in which Rome grew from a town to the master of the Mediterranean under a government of elected magistrates, and the century in which that government tore itself apart. Its story was the political education of every European statesman from Machiavelli to the American founders, and they read it as a warning.
 
@@ -59,6 +59,14 @@ The Roman Republic gave later history three things. A **legal tradition**: Roman
 - 58–50 BCE: Caesar conquers Gaul. 49: crosses the Rubicon.
 - 15 March 44 BCE: Caesar assassinated.
 - 31 BCE: Actium. 27 BCE: Octavian becomes Augustus.
+:::
+
+:::try Put the idea to work
+Why is blaming Rome's republican collapse on one ambitious general less explanatory than tracing changes in armies, wealth, and political competition?
+
+:::answer One way to reason it through
+Ambition existed before the collapse. The deeper question is why institutions no longer contained it. Military loyalties, unequal gains from conquest, and precedents for political violence changed the opportunities and costs of breaking rules. Individual choices mattered within those changing conditions.
+:::
 :::
 
 ## Summary

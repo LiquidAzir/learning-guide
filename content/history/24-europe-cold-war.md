@@ -4,7 +4,7 @@ subtitle: 1945 to 1991. A continent in ruins is split between two superpowers, h
 part: III · European History
 ---
 
-## Recap
+## How did a divided Europe rebuild under the threat of another war?
 
 Chapter 23 ended in May 1945 with Europe wrecked and occupied. This chapter follows the forty-six years in which it was divided: the Cold War as Europe experienced it, the West's recovery and integration, the East's stagnation and revolts, the end of the colonial empires, and the collapse of the Soviet system in 1989–1991. It is recent enough that most of its participants are documented to the minute and some are alive; its arguments are correspondingly fresh.
 
@@ -57,6 +57,14 @@ Divided Europe was two experiments run side by side for forty years on the same 
 - 1980: Solidarity. 1985: Gorbachev.
 - 9 November 1989: the Wall opens. 3 October 1990: German reunification.
 - 25 December 1991: Soviet Union dissolved.
+:::
+
+:::try Put the idea to work
+If an event occurred during the Cold War, must superpower rivalry be its main cause?
+
+:::answer One way to reason it through
+No. Decolonization, local political struggles, economic pressures, and social movements had their own histories. Superpowers could influence or exploit those conflicts without creating them. Distinguish local aims from the global framework through which outside governments interpreted them.
+:::
 :::
 
 ## Summary

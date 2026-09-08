@@ -1,12 +1,12 @@
 ---
 title: Glossary
-subtitle: The vocabulary of this guide, collected in one place and in plain words.
+subtitle: Definitions and reference facts to return to as you read. Search for a term, check the distinction, and follow its chapter link for the explanation.
 part: VI · The Edge
 ---
 
 ## How to use this
 
-Terms are grouped by the chapter that introduces them, so the glossary doubles as a summary of the course. Within each group they are alphabetical. Formulas are included where recognizing them matters. Related terms are folded into the entry they belong with, so if you cannot find a word on its own, look under the idea it belongs to.
+Terms are grouped by the chapter that introduces them, so the glossary doubles as a summary of the course. Within each group they are alphabetical. Formulas are included where recognizing them matters. Distinct ideas have separate entries; genuine synonyms may share one. Use search to jump to a term and its chapter link to return to the explanation.
 
 ## Foundations (chapters 1 and 2)
 
@@ -20,7 +20,7 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Concentration.** How much of a substance is dissolved in how much solution. **Molarity** (M) is moles per liter; **parts per million** (ppm) is grams per million grams.
 
-**Empirical, molecular, and structural formula.** The simplest atom ratio; the actual atom count in one molecule; the drawing that shows which atom is bonded to which.
+**Empirical formula.** The simplest whole-number ratio of atoms of each element in a compound. See chapter 2.
 
 **Gas constant ($R$).** 8.314 joules per mole per kelvin. The quantity $RT$, about 2.5 kJ/mol at room temperature, is the size of the thermal jostle molecules receive from heat.
 
@@ -34,17 +34,23 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Limiting reagent.** The reactant that runs out first and therefore caps how much product can form. **Yield** is what you actually get, as a percentage of that cap.
 
+**Molar mass.** The mass of one mole of a substance, in grams per mole.
+
 **Mole.** $6.022 \times 10^{23}$ particles; the amount of a substance whose mass in grams equals its atomic or molecular mass. The bridge between counting atoms and weighing them.
 
-**Molar mass.** The mass of one mole of a substance, in grams per mole.
+**Molecular formula.** The number of atoms of each element in one molecule. See chapter 2.
 
 **pH.** $-\log_{10}$ of the hydrogen ion concentration. Each unit is a factor of ten; 7 is neutral, lower is acidic, higher is basic.
 
 **Stoichiometry.** The arithmetic of how much reacts with how much, read off a balanced equation.
 
+**Structural formula.** A representation showing how atoms are connected; spatial information may need additional notation. See chapter 2.
+
 ## Atoms and the table (chapters 3 to 5)
 
-**Alkali metals, alkaline earths, halogens, noble gases.** Groups 1, 2, 17, and 18: one loose outer electron, two, one short of full, and full. Their behavior follows directly.
+**Alkali metals.** Group 1 metals, whose atoms have one outer electron and commonly form +1 ions. See chapter 4.
+
+**Alkaline earth metals.** Group 2 metals, commonly forming +2 ions. See chapter 4.
 
 **Allotropes.** Different structural forms of one element, such as diamond, graphite, and graphene.
 
@@ -60,27 +66,35 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Element.** A substance that cannot be broken into simpler substances chemically (Boyle); one defined by its number of protons (Moseley).
 
+**Halogens.** Group 17 elements, whose atoms are one electron short of a filled outer shell. See chapter 4.
+
 **Ionization energy.** The energy needed to remove an electron from an atom. Rises across a period, falls down a group.
 
 **Law of definite proportions** (Proust) and **law of multiple proportions** (Dalton). A compound's composition is fixed; when two elements form several compounds, the mass ratios are small whole numbers. Together they imply atoms.
 
 **Metalloid.** An element on the metal–nonmetal border, such as silicon, with intermediate conductivity. The basis of semiconductors.
 
+**Noble gases.** Group 18 elements, with filled outer shells and generally low reactivity; some can form compounds. See chapter 4.
+
 **Orbital.** A standing-wave pattern for an electron around a nucleus, labeled by size ($n$), shape ($l$: s, p, d, f), and orientation. Each holds two electrons of opposite spin.
+
+**Pauli exclusion principle.** No two electrons in an atom share all four quantum numbers, so each orbital holds at most two. This sets the shell capacities 2, 8, 18, 32 and therefore the table's shape.
 
 **Periodic table.** The elements arranged by atomic number so that those with the same outer-electron arrangement fall in one column.
 
 **Phlogiston.** The disproved substance once thought to escape from burning materials. Wrong, but it correctly grouped burning, rusting, and breathing.
 
-**Pauli exclusion principle.** No two electrons in an atom share all four quantum numbers, so each orbital holds at most two. This sets the shell capacities 2, 8, 18, 32 and therefore the table's shape.
-
-**Shell, subshell, valence electrons.** All orbitals of one $n$; all of one $n$ and $l$; the outermost electrons, which do the chemistry.
+**Shell.** Orbitals sharing the same principal quantum number n. See chapter 5.
 
 **Spectrum.** The specific wavelengths a substance emits or absorbs, a fingerprint of its energy levels. Helium was found in the Sun's spectrum before it was found on Earth.
 
+**Subshell.** Orbitals sharing the same principal and angular-momentum quantum numbers, labeled s, p, d, or f. See chapter 5.
+
+**Valence electrons.** Electrons involved in bonding and chemical behavior, usually in the outer shell, with additional subtleties for transition metals. See chapter 5.
+
 ## Bonds and structure (chapters 6 and 7)
 
-**Allotrope, polymorph.** Different structures of the same element; different crystal packings of the same compound. A drug's polymorph can change its solubility.
+**Allotrope.** One of the different structural forms of an element, such as diamond and graphite. See chapter 4.
 
 **Bond energy.** The energy needed to break a bond, in kJ/mol. Comparing bonds broken with bonds formed predicts a reaction's heat.
 
@@ -108,11 +122,17 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Polar bond.** A covalent bond whose electrons are pulled toward the more electronegative atom, giving the molecule a **dipole**.
 
+**Polymorph.** One of the different crystal structures of the same substance; packing can change properties such as solubility. See chapter 4.
+
 **Radical.** A molecule with an unpaired electron. Usually very reactive.
 
 **Resonance and delocalization.** When one structure cannot describe a molecule, its electrons are spread over several positions, as in benzene. It lowers the energy.
 
-**Solution, solute, solvent.** A uniform molecular mixture; the dissolved substance; the medium. **Like dissolves like**.
+**Solute.** A substance dissolved in a solution. See chapter 7.
+
+**Solution.** A homogeneous mixture of substances dispersed at the molecular or ionic scale. See chapter 7.
+
+**Solvent.** The dissolving medium. Similar intermolecular interactions often favor mixing, summarized cautiously as “like dissolves like.” See chapter 7.
 
 **Valence bond theory and hybridization.** A bond is the overlap of two atomic orbitals; carbon's s and p orbitals mix into four equivalent sp³ hybrids pointing at a tetrahedron's corners.
 
@@ -172,35 +192,29 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Absorbance and the Beer–Lambert law.** $A = \varepsilon l c$: how much light a sample absorbs is proportional to its concentration. The basis of most routine quantitative analysis.
 
-**Amino acid, peptide bond, protein.** The twenty building blocks of proteins; the link between them; the folded chain that results. **Primary** structure is the sequence, **secondary** the local helices and sheets, **tertiary** the overall fold.
+**Amino acid.** A molecule with amino and carboxyl groups; twenty standard amino acids form the main building blocks of proteins. See chapter 13.
 
 **ATP.** The cell's energy currency; its breakdown releases about 30 kJ/mol under standard conditions and more inside a cell, which enzymes couple to reactions that would not otherwise proceed. **ATP synthase** is the rotary molecular turbine that makes it, spun by protons flowing back across a membrane.
 
-**Carbohydrate, lipid.** Sugars and their chains (fuel and structure); and the oily molecules that do not dissolve in water (membranes, fats, steroids).
+**Carbohydrate.** A sugar or a molecule built from sugar units, used for energy, structure, and other roles. See chapter 13.
+
+**Cement.** A binder, commonly made by processing limestone and clay, that hardens through reactions with water. See chapter 14.
+
+**Ceramic.** An inorganic, nonmetallic material, commonly shaped and processed at high temperatures; fired clay is one familiar example. See chapter 14.
 
 **Chemiosmosis.** Making ATP by pumping protons across a membrane and letting them flow back through a turbine. How every cell pays for itself. Peter Mitchell, 1961.
-
-**Citric acid cycle.** The central loop of metabolism, which strips carbon atoms off food fragments as carbon dioxide and loads the released electrons onto carriers. Followed by the **electron transport chain**, which passes those electrons to oxygen and uses the energy to pump protons.
-
-**Glycolysis.** The first stage of sugar breakdown, splitting glucose into two three-carbon fragments and netting two ATP. It needs no oxygen.
-
-**Organic chemistry.** The chemistry of carbon compounds. **Inorganic chemistry** is the rest of the periodic table; **analytical chemistry** is the science of finding out what a sample contains and how much.
-
-**Photosynthesis.** Using light to strip electrons from water, releasing oxygen, and spending the resulting energy to build sugar from carbon dioxide in the **Calvin cycle**. The carbon-grabbing enzyme, **Rubisco**, is slow and probably the most abundant protein on Earth.
-
-**Quaternary structure.** How several folded protein chains assemble into one working unit, as haemoglobin's four do.
-
-**RNA world.** The hypothesis that early life used RNA for both information and catalysis, before DNA and proteins divided the labor.
 
 **Chirality and enantiomers.** A molecule not superimposable on its mirror image; the two mirror forms. Life uses one; a drug's two enantiomers can act differently.
 
 **Chromatography.** Separating a mixture by how strongly its components stick to a stationary material as they flow past.
 
-**Cement, concrete, ceramic, glass.** Roasted limestone and clay that sets when wetted; that paste binding sand and gravel; fired clay; and a silicate melt cooled too fast to crystallize.
+**Citric acid cycle.** The central loop of metabolism, which strips carbon atoms off food fragments as carbon dioxide and loads the released electrons onto carriers. Followed by the **electron transport chain**, which passes those electrons to oxygen and uses the energy to pump protons.
 
-**CRISPR.** A bacterial defence system adapted into a tool that cuts DNA at a chosen sequence so the cell's repair machinery edits a gene. **Base editing** is a refinement that converts one DNA letter to another without cutting.
+**Concrete.** A composite of cement paste and aggregates such as sand and gravel. See chapter 14.
 
 **Coordination complex and ligand.** A metal ion surrounded by donor molecules or ions in fixed geometry. The number of attached ligands is the **coordination number**, usually four or six. **Crystal field** splitting of the metal's d orbitals gives transition-metal compounds their colors and magnetism.
+
+**CRISPR.** A bacterial defence system adapted into a tool that cuts DNA at a chosen sequence so the cell's repair machinery edits a gene. **Base editing** is a refinement that converts one DNA letter to another without cutting.
 
 **Cryo-electron microscopy.** Imaging thousands of flash-frozen molecules and averaging them into a three-dimensional structure. Works where crystals cannot be grown.
 
@@ -210,7 +224,13 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Genetic code.** The dictionary from three-base RNA codes to amino acids. Nearly universal across life.
 
+**Glass.** A noncrystalline solid, commonly made by cooling a melt without crystallization; familiar window glass is silicate-based. See chapter 14.
+
+**Glycolysis.** The first stage of sugar breakdown, splitting glucose into two three-carbon fragments and netting two ATP. It needs no oxygen.
+
 **Hydrophobic effect.** The entropy-driven tendency of oily groups to cluster away from water. It assembles cell membranes for free.
+
+**Lipid.** A broad class including fats, phospholipids, and steroids, generally poorly soluble in water; important in membranes, storage, and signaling. See chapter 13.
 
 **Mass spectrometry.** Weighing molecules by bending their paths as ions in a magnetic field. Gives formulas and, through fragments, structures.
 
@@ -218,21 +238,33 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Nuclear magnetic resonance (NMR).** Reading a molecule's structure from the radio frequencies at which its nuclei resonate in a magnetic field. Its medical form is MRI.
 
+**Nucleophile and electrophile.** Electron-rich attacker and electron-poor target. Nearly every organic reaction is one finding the other.
+
 **Nucleotide and base pairing.** DNA and RNA's building blocks; the complementary hydrogen bonding (A–T, G–C) that lets DNA copy itself.
 
-**Nucleophile and electrophile.** Electron-rich attacker and electron-poor target. Nearly every organic reaction is one finding the other.
+**Organic chemistry.** The chemistry of carbon compounds. **Inorganic chemistry** is the rest of the periodic table; **analytical chemistry** is the science of finding out what a sample contains and how much.
+
+**Peptide bond.** The amide link joining amino acids in a chain. See chapter 13.
+
+**Photosynthesis.** Using light to strip electrons from water, releasing oxygen, and spending the resulting energy to build sugar from carbon dioxide in the **Calvin cycle**. The carbon-grabbing enzyme, **Rubisco**, is slow and probably the most abundant protein on Earth.
 
 **Polymer and monomer.** A long chain and the units it is built from. **Addition** polymers open double bonds; **condensation** polymers join units with loss of water.
 
+**Protein.** One or more amino-acid chains with biological functions. Primary structure is sequence; secondary structure includes local helices and sheets; tertiary structure is the overall fold. See chapter 13.
+
 **Quantum dot.** A semiconductor crystal a few nanometers across whose glow color depends on its size.
+
+**Quaternary structure.** How several folded protein chains assemble into one working unit, as haemoglobin's four do.
 
 **Retrosynthetic analysis.** Planning a synthesis backward from the target by mentally breaking bonds.
 
-**SN1 and SN2.** The two mechanisms for substituting a group: stepwise through a flat carbocation, or in one step with attack from behind and inversion. Their rate laws tell them apart.
+**RNA world.** The hypothesis that early life used RNA for both information and catalysis, before DNA and proteins divided the labor.
 
 **Semiconductor.** A material whose conductivity lies between metals and insulators and can be tuned by doping or voltage.
 
 **Silicate.** Silicon-oxygen tetrahedra linked into chains, sheets, or frameworks: the chemistry of most rock, glass, ceramic, and cement. A **zeolite** is an aluminosilicate framework with pores of molecular size, used to crack oil and separate gases; a **perovskite** is a crystal structure type now used in high-efficiency solar cells.
+
+**SN1 and SN2.** The two mechanisms for substituting a group: stepwise through a flat carbocation, or in one step with attack from behind and inversion. Their rate laws tell them apart.
 
 **Total synthesis.** Building a complex natural molecule from simple starting materials.
 
@@ -242,9 +274,9 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 ## The frontier (chapter 16)
 
-**Click chemistry.** Reactions that join two building blocks fast, cleanly, and in water, with no side products.
-
 **C–H activation.** Replacing one specific, otherwise inert carbon-hydrogen bond in a complex molecule.
+
+**Click chemistry.** Reactions that join two building blocks fast, cleanly, and in water, with no side products.
 
 **Density functional theory.** The approximation that made quantum chemical calculation practical for real molecules.
 

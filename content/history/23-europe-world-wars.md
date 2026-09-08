@@ -4,7 +4,7 @@ subtitle: 1914 to 1945. Two wars that historians increasingly treat as one, with
 part: III · European History
 ---
 
-## Recap
+## How did two wars remake Europe and the wider world?
 
 Chapter 22 ended on 4 August 1914. This chapter covers the two world wars and the years between as a single catastrophe, because that is how it looks from the end: the first war destroyed the old order and settled nothing, the peace created the conditions for the second, and the second finished what the first began. It is the most documented period in this guide and the one on which the most has been written; the chapter therefore gives the shape and the arguments, and the sources give the rest.
 
@@ -56,6 +56,14 @@ The two wars are one because the second could not have happened without the firs
 - 1 September 1939: Poland invaded. 1940: France falls.
 - 22 June 1941: Barbarossa. 1942–1943: Stalingrad.
 - 6 June 1944: Normandy. 8 May 1945: Germany surrenders.
+:::
+
+:::try Put the idea to work
+Why is identifying the assassination that preceded the First World War different from explaining why it became a general war?
+
+:::answer One way to reason it through
+A trigger marks the immediate event; the wider explanation includes alliance decisions, mobilization plans, rivalries, and leaders' choices. Other outcomes were conceivable, so the account should show the steps of escalation rather than treating the war as automatic once the assassination occurred.
+:::
 :::
 
 ## Summary

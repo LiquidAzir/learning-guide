@@ -1,12 +1,12 @@
 ---
 title: The Toolkit
-subtitle: Units, estimation, and the six pieces of math that carry the whole subject. Read this once and every later equation will make sense.
+subtitle: Units, estimation, and the math used throughout the guide. Start with what you need now, and return when an equation calls for another tool.
 part: I · Foundations
 ---
 
 ## Why start with tools
 
-Physics is written in a compact language. The words are units, the grammar is a small amount of math, and the accent is a habit of estimating before calculating. This chapter teaches all three. Nothing here requires you to compute anything by hand; the goal is to *read* equations the way you read sentences.
+Physics is written in a compact language. The words are units, the grammar is a small amount of math, and the accent is a habit of estimating before calculating. This chapter teaches all three. You do not need to master every tool before moving on. Start with units, powers of ten, and estimation. The later sections are a reference for reading equations; their uses become clearer in the chapters that follow.
 
 ## Measuring: units and the constants of nature
 
@@ -112,16 +112,24 @@ This leads to one of the strictest conventions in science. To claim a new partic
 
 Say a law of physics "has a symmetry" when you can change something and the law does not notice. Do the experiment tomorrow instead of today, or in Tokyo instead of Toronto, or with the whole lab rotated: same result. In 1918 the mathematician Emmy Noether proved that every such symmetry hides a **conservation law**, a quantity that can never change.[^6] Chapter 4 is built around that result. For now, just keep the word in mind: when a physicist gets excited about symmetry, they are excited because a symmetry is a law in disguise.
 
+:::try Put the idea to work
+A friend estimates a walking journey of 3 km at 5 km/h as 15 hours. Without a calculator, spot the mistake and estimate the time.
+
+:::answer Show the reasoning
+Time is distance divided by speed, not multiplied by it. The units confirm this: km divided by km/h gives hours. Three fifths of an hour is 36 minutes. A result of 15 hours would imply a pace far slower than the one stated.
+:::
+:::
+
 ## Summary
 
 - Units are now defined by constants of nature, not objects.
 - Powers of ten and rough estimates come before precision.
 - Derivatives describe rates of change; integrals add up tiny pieces.
 - Exponentials describe growth and decay; waves are described by amplitude, wavelength, and frequency, with $v = f\lambda$.
-- Every measurement has an uncertainty; discovery needs five sigma.
+- Every measurement has uncertainty. Five sigma is a particle-physics convention, not a universal substitute for checking assumptions and independent evidence.
 - Fields fill space; complex numbers describe rotation; symmetry equals conservation.
 
-You now have every tool the rest of this guide uses. On to how things move.
+Next, use force and motion to give these tools a job. Return here when an unfamiliar equation calls for a refresher.
 
 [^1]: Bureau International des Poids et Mesures (2019). *The International System of Units (SI)*, 9th edition. [bipm.org/en/publications/si-brochure](https://www.bipm.org/en/publications/si-brochure)
 [^2]: Fermi, E. (1945). "My Observations During the Explosion at Trinity on July 16, 1945." Memorandum, U.S. National Archives; reproduced at [atomicarchive.com](https://www.atomicarchive.com/resources/documents/trinity/fermi.html)

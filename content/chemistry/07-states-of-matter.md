@@ -4,7 +4,7 @@ subtitle: The weak forces between molecules, why water is so strange, and how ga
 part: III · Bonds and Structure
 ---
 
-## Recap
+## Why can the same substance be solid, liquid, or gas?
 
 Bonds hold atoms together inside a molecule. But a glass of water is not one molecule; it is $10^{25}$ of them, and what makes it a liquid rather than a gas is a different, weaker set of attractions *between* molecules. This chapter is about those forces and the states of matter they produce.
 
@@ -85,6 +85,14 @@ Dissolved particles change a solvent's properties in ways that depend only on ho
 
 :::frontier
 Water is the most studied liquid on Earth and still not understood. Cooled below freezing without crystallizing (possible in tiny droplets or fast cooling), it behaves increasingly oddly, and a leading hypothesis holds that deeply supercooled water separates into two distinct liquids of different density, with a second critical point hidden below −40 °C.[^10] Simulations support this; direct experiments are extraordinarily hard because the water freezes first. Meanwhile at least twenty crystalline forms of ice are known, several discovered in the last decade, and a form of amorphous ice with the density of liquid water was made by ball-milling in 2023.[^11] The most familiar substance keeps producing surprises.
+:::
+
+:::try Put the idea to work
+Water evaporates from a puddle well below its boiling point. What distinguishes evaporation from boiling?
+
+:::answer Show the reasoning
+At the surface, some molecules have enough energy to escape into the gas even below the boiling point. Boiling involves vapor bubbles forming and persisting throughout the liquid when the vapor pressure matches the surrounding pressure. The two processes both make vapor but occur under different conditions.
+:::
 :::
 
 ## Summary

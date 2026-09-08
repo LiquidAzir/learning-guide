@@ -106,7 +106,7 @@ Mathematics carries names the way few subjects do: Pythagoras's theorem, Euclid'
 
 **Paul Erdős** (1913–1996). Some 1,500 papers with over 500 collaborators, mostly in combinatorics and number theory; the open problems he left, now catalogued online, are where AI systems made their first contributions. Chapters 12, 16.
 
-**John Nash** (1928–2015). Nash equilibrium in game theory; embedding theorems in geometry. Chapter 16 of the economics guide.
+**John Nash** (1928–2015). Nash equilibrium in game theory; embedding theorems in geometry. [Chapter 7 of the economics guide](#/economics/game-theory).
 
 **Stephen Cook** (b. 1939). Formulated P versus NP (1971). Chapters 12, 16.
 

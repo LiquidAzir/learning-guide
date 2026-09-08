@@ -4,7 +4,7 @@ subtitle: Turning a description of a world into eight million coloured dots, six
 part: IV · Systems in the World
 ---
 
-## Recap
+## How does a scene become an image?
 
 Chapter 8 mentioned that a GPU trades complex cores for thousands of simple ones. This chapter is what they were built to do, why the shape of the problem produced that shape of machine, and how the machine then escaped into everything else.
 
@@ -75,6 +75,14 @@ The newest turn inverts the pipeline: instead of describing a scene and renderin
 ## What we still argue about
 
 Whether real-time rendering will converge fully on path tracing as hardware improves, or whether hybrids remain permanent. How to evaluate images that a network reconstructed rather than computed, since traditional error metrics do not match what looks right, and since generated frames can be confidently wrong. Whether the industry's dependence on one vendor's compute platform is healthy. And how much of the rendering pipeline survives at all if learned representations turn out to be better than geometry for most content.
+
+:::try Put the idea to work
+A rendering looks realistic but shows a reflection from an impossible viewpoint. What distinction does this reveal?
+
+:::answer Show the reasoning
+A convincing appearance is different from correct geometry and light transport. Rendering methods make approximations, and some image-generation methods do not construct a consistent scene at all. To judge the result, specify whether the goal is visual impression, physical accuracy, or a dependable spatial model.
+:::
+:::
 
 ## Summary
 

@@ -4,7 +4,7 @@ subtitle: Letters standing for numbers. How to solve for an unknown, rearrange a
 part: II · The Core Toolkit
 ---
 
-## Recap
+## How does an equation turn a problem into something solvable?
 
 Chapter 3 told how al-Khwarizmi's recipes became Descartes's symbols. Algebra is what those symbols let you do: state a relationship once, for every number at once, and then manipulate it to find what you want to know. It is the grammar of every later chapter, and it is where most people's mathematics stopped making sense. This chapter is built to fix that.
 
@@ -155,6 +155,14 @@ That symbol is $i$, defined by $i^2 = -1$. A **complex number** is $a + bi$: a r
 - Doubling time at $r$ percent is about $70/r$ periods.
 - Dividing an inequality by a negative flips it.
 - Complex numbers complete the number system and describe anything that rotates.
+:::
+
+:::try Put the idea to work
+A taxi charges 4 to start and 2 per kilometer. You pay 18. Write an equation, solve it, and check the answer in the original situation.
+
+:::answer Show the reasoning
+Let x be the kilometers: 4 + 2x = 18. Subtract 4 and divide by 2 to get x = 7. Seven kilometers cost 14 plus the starting charge of 4, giving 18. Naming the unknown and checking its units are part of the solution.
+:::
 :::
 
 ## Summary

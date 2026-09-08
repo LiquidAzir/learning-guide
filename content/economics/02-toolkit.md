@@ -96,6 +96,14 @@ The standard for a causal claim is the **counterfactual**: what would have happe
 The most common error in economic reasoning is the **fallacy of composition**: assuming what is true for one is true for all. If you save more, you get richer. If everyone saves more at once, spending collapses, incomes fall, and total saving may not rise at all. One farmer with a bumper crop gets rich; all farmers with bumper crops see prices crash. Macroeconomics exists largely because the whole does not behave like the sum of its parts.
 :::
 
+:::try Put the idea to work
+A worker's pay rises by 5 percent while prices rise by 8 percent. Has purchasing power risen? Estimate the change.
+
+:::answer Show the reasoning
+No. The real-pay factor is 1.05/1.08, about 0.972, a fall of roughly 2.8 percent. Subtracting the rates gives a useful rough estimate of −3 percent. Distinguish the money amount from what it can buy.
+:::
+:::
+
 ## Summary
 
 - Opportunity cost: the cost of anything is the best alternative given up. Always ask "compared to what?"

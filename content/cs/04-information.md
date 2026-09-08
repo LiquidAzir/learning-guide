@@ -4,7 +4,7 @@ subtitle: What a bit actually measures, why every file has a floor it cannot be 
 part: I · Foundations
 ---
 
-## Recap
+## How do you measure information without measuring meaning?
 
 Chapter 3 treated bits as containers. This chapter asks the harder question: how much information is actually in a message, as opposed to how many bits it happens to be written with? The answer, worked out in one paper in 1948, underpins every compressed file, every error-correcting code, every modem, and a surprising amount of machine learning.
 
@@ -73,6 +73,14 @@ Shannon's entropy is about a *source*: it needs probabilities. A different quest
 ## What we still do not know
 
 Whether practical codes can close the last fraction of a decibel to capacity on the hardest channel models. How to define information in quantum systems fully, where a qubit can carry no more than one classical bit out of it and yet entanglement enables things classical channels cannot do (chapter 21). And how far the compression-equals-prediction identity goes: the strongest text compressors are now neural models, and the ranking of compressors has become a ranking of models of language.
+
+:::try Put the idea to work
+A fair coin and a coin that almost always lands heads each produce one of two outcomes. Do they carry the same average information per toss?
+
+:::answer Show the reasoning
+No. A fair coin has one bit of entropy per independent toss. A heavily biased coin is more predictable and has less. The number of possible outcomes alone is insufficient: their probabilities determine average surprise. This measure does not judge how meaningful the result is to a person.
+:::
+:::
 
 ## Summary
 

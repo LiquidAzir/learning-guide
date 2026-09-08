@@ -4,7 +4,7 @@ subtitle: Not a machine that tries every answer at once. What a qubit really is,
 part: V · The Edge
 ---
 
-## Recap
+## What could a quantum computer do differently?
 
 Chapter 5 said every model of computation tried so far computes the same set of functions. Quantum computing does not break that: it computes the same set. What it plausibly changes is the *cost* of some of them, which would matter enormously for chapter 18 and hardly at all for chapter 14.
 
@@ -76,6 +76,14 @@ Two conclusions follow, and they point in opposite directions. The requirement i
 ## What we still do not know
 
 Whether the engineering scales: every platform faces a different wall, from wiring and refrigeration in superconducting systems to laser control in atomic ones. Whether useful quantum advantage arrives first in simulation, optimization, or something unanticipated, and whether the optimization claims — the most heavily marketed — survive contact with better classical algorithms, which so far they mostly have not. Whether more algorithms with exponential speedups exist, or whether the shortness of the list after forty years is telling us something. And whether the error-correction overhead, currently on the order of a thousand physical qubits per logical one, can be cut enough to make the machines buildable at the required scale.
+
+:::try Put the idea to work
+A quantum computer has a state involving many basis states. Why can't you simply measure it and read every represented value at once?
+
+:::answer Show the reasoning
+Measurement returns a limited classical outcome, not a list of every amplitude. A useful algorithm arranges interference so that measurement is likely to reveal information about the desired answer. A large state space is a resource; extracting useful results from it requires an algorithm.
+:::
+:::
 
 ## Summary
 

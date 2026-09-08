@@ -4,7 +4,7 @@ subtitle: Pollution, lighthouses, used cars, and the tragedy of the commons. The
 part: II · History and Markets
 ---
 
-## Recap
+## When does a market price leave out part of the cost?
 
 The First Welfare Theorem says competitive markets are efficient, provided there is no market power, no externalities, no public goods, and no missing information. This chapter goes through the exceptions. Each is a place where the price fails to carry the truth, and each has a body of evidence about what fixes work.
 
@@ -51,6 +51,14 @@ Natural monopolies, where one network is cheaper than two, are handled different
 Every market failure invites a government response, and governments fail as well. Regulators get captured by the industries they oversee; politicians serve concentrated interests that lobby over diffuse voters who do not; programs outlive their purpose because their beneficiaries defend them. James Buchanan and Gordon Tullock founded **public choice** theory in 1962 to analyze government with the same tools used on markets, assuming officials pursue their own interests too.[^15] Its central concept is **rent-seeking**: spending resources to capture existing wealth (a tariff, a license, a subsidy) rather than to create new wealth. The sugar tariff that costs American consumers a few dollars each and earns a few thousand producers millions is the standard example.[^20]
 
 The honest conclusion is that the choice is never between a failing market and a perfect government. It is between imperfect institutions, and the question is which failure is smaller in a given case. The evidence in this chapter is what that comparison looks like when done carefully: carbon pricing works; well-designed commons management works; insurance mandates work; and each has failed when designed badly.
+
+:::try Put the idea to work
+A factory pays for fuel and workers but not for smoke damage to nearby homes. Why can its privately profitable output be too high from society's perspective?
+
+:::answer Show the reasoning
+The factory's private cost excludes an external cost borne by neighbors. Decisions based on the private cost can therefore produce units whose total social cost exceeds their benefit. A proposed remedy should be judged by how it changes incentives and outcomes, including measurement and enforcement difficulties.
+:::
+:::
 
 ## Summary
 

@@ -4,7 +4,7 @@ subtitle: How energy and matter move through living systems, why ecosystems hold
 part: VI · Life at Scale and in Our Hands
 ---
 
-## Recap
+## What changes when organisms become an ecosystem?
 
 Everything so far has been about organisms. This chapter is about their interactions and their totals: how many there are, what they do to each other and to the chemistry of the planet, and what humans have done to all of it. It is the chapter with the most numbers and the most disputes about numbers.
 
@@ -50,6 +50,14 @@ The Kunming-Montreal framework, agreed in 2022, sets 23 targets for 2030, of whi
 
 :::key
 Energy flows one way through ecosystems, losing about 90 percent per level, while matter cycles; living things run the planet's carbon and nitrogen chemistry, and human industry now rivals them in both. The living world's totals are dominated by plants and microbes, and humans plus livestock now outweigh wild mammals twentyfold. The declines are real, several of the headline numbers are more contested than they appear, and the interventions that have been tried have worked where they were tried.
+:::
+
+:::try Put the idea to work
+A predator disappears and a plant becomes less abundant. Give a plausible chain of effects, and explain why it remains a hypothesis.
+
+:::answer Show the reasoning
+The predator may have kept herbivores in check; more herbivores could then consume more plants. That is a possible trophic cascade. Weather, disease, other species, or habitat change could also affect the plant, so measurements and comparisons are needed before assigning the whole change to the predator.
+:::
 :::
 
 ## Summary

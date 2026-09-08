@@ -4,7 +4,7 @@ subtitle: Reasoning about what you do not know. How to compute odds, why a posit
 part: III · Change and Chance
 ---
 
-## Recap
+## How should new evidence change your estimate?
 
 Everything so far has been certain: a triangle's angles, a curve's slope. Most of life is not. **Probability** is the mathematics of uncertainty, and it is the branch most people use most and understand least. Its rules are few and simple; its results are routinely counterintuitive; and getting it wrong has put innocent people in prison and healthy people through unnecessary surgery. This chapter gives the rules, the traps, and the reasoning that avoids them.
 
@@ -66,7 +66,7 @@ The same numbers as a table, and then in the formula:
 
 $P(\text{sick} \mid \text{positive}) = \dfrac{0.90 \times 0.01}{0.90 \times 0.01 + 0.05 \times 0.99} = \dfrac{0.009}{0.009 + 0.0495} = 0.154$.
 
-The test is "90 percent accurate" and a positive result still means you probably do not have the condition, because the condition is rare and the false positives from the large healthy group outnumber the true positives from the small sick group. This is why screening programs for rare diseases produce mostly false alarms, why a second test is standard, and why the **base rate**, $P(H)$, matters more than most people's intuition allows. In studies, most doctors get this question wrong.[^5]
+The test has **90 percent sensitivity**, not “90 percent accuracy” in every sense. In this example, a positive result still leaves a roughly 15 percent probability of the condition: false positives from the large healthy group outnumber true positives from the small affected group. The calculation depends on the stated prevalence and test performance. It illustrates why the **base rate**, $P(H)$, matters when interpreting evidence, a distinction that has proved difficult even for trained professionals in studies of statistical reasoning.[^5]
 :::
 
 :::warning
@@ -127,6 +127,14 @@ Probability is the youngest of the classical branches. Dice are ancient, but nob
 - $P(\text{evidence} \mid \text{innocent})$ is not $P(\text{innocent} \mid \text{evidence})$. Ask how many others fit.
 - Expected value guides repeated decisions; the worst case guides one-off ones.
 - Coincidences are expected; streaks do not predict; extremes regress toward average.
+:::
+
+:::try Put the idea to work
+Out of 1,000 items, 10 are defective. A test catches 9 of those and falsely flags 99 good items. Of the flagged items, what fraction are actually defective?
+
+:::answer Show the reasoning
+There are 108 flags, of which 9 are true positives: 9/108, about 8.3 percent. Catching 90 percent of defects does not mean 90 percent of flags are defects. The base rate and the false positives determine how convincing a positive result is.
+:::
 :::
 
 ## Summary

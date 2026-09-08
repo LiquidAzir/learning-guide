@@ -4,7 +4,7 @@ subtitle: What goes wrong when more than one thing happens at once, why there is
 part: III · Methods
 ---
 
-## Recap
+## Why is shared state difficult when events overlap?
 
 Chapter 8 explained why we have many cores instead of faster ones, which makes concurrency compulsory rather than optional. This chapter is about the consequences, first inside one machine and then across many, where the problems change character entirely because parts can fail independently.
 
@@ -68,7 +68,7 @@ Physical clocks drift, and synchronizing them over a network has irreducible unc
 
 Leslie Lamport's 1978 answer was to give up on real time and define an ordering from causality alone: event A **happens-before** event B if they are in the same process with A first, or if A is the sending of a message that B receives, plus transitivity. Events not related this way are **concurrent**, and no ordering between them is meaningful. Logical clocks implement this with counters; vector clocks extend it so that you can also tell when two events are genuinely concurrent.[^4] This is the foundation of essentially every distributed database and version control system.
 
-Google's Spanner takes the other route and buys real time with hardware: atomic clocks and GPS receivers in every data centre, with an API that returns not a timestamp but an *interval* guaranteed to contain the true time, typically a few milliseconds wide. To commit a transaction the system simply waits out the uncertainty. It is the only large system to make globally consistent transactions work at planetary scale, and it did so by paying for better clocks.[^5]
+Google's Spanner takes the other route and buys real time with hardware: atomic clocks and GPS receivers in every data centre, with an API that returns not a timestamp but an *interval* guaranteed to contain the true time, typically a few milliseconds wide. To commit a transaction the system simply waits out the uncertainty. It shows one way to make globally consistent transactions practical: pay for better clocks and account explicitly for their uncertainty.[^5]
 
 ## Agreeing on something
 
@@ -99,6 +99,14 @@ That last trade is the one that dominates ordinary engineering. Strong consisten
 ## What we still argue about
 
 Whether "exactly once" delivery is achievable or a category error; the standard position is that you get at-least-once delivery plus idempotent operations, which produces exactly-once *effects*, and that promising more is marketing. Whether strong consistency is affordable enough, since Spanner's answer required custom hardware. Whether the industry's move to microservices distributed the problems of chapter 20 faster than it distributed the solutions. And how to test any of it, since the interleavings are astronomically many; deterministic simulation and fault injection are now standard, and formal specification with tools like TLA+ has found design bugs in production consensus protocols that years of testing did not.
+
+:::try Put the idea to work
+Two workers read a counter at 5, each adds 1, and each writes 6. Why is the final value wrong, and what operation needs protection?
+
+:::answer Show the reasoning
+The read-modify-write sequence was not atomic, so one update was lost. The intended combined result is 7. A suitable lock or atomic increment makes each logical update indivisible with respect to the competing updates; protecting only an individual read or write is insufficient.
+:::
+:::
 
 ## Summary
 

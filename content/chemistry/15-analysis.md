@@ -4,9 +4,11 @@ subtitle: Molecules are too small to look at. Here are the instruments that let 
 part: V · The Elements at Work
 ---
 
-## Recap
+## How do you identify what is inside an unremarkable vial?
 
-Every chapter so far has stated the structure of some molecule as a fact. Water is bent. Benzene is a flat ring. DNA is a double helix. Nobody has ever seen any of these directly. **Analytical chemistry** is the set of methods that make such claims knowable, and it is the part of the subject you are most likely to encounter without realizing it, in a blood test, a breathalyzer, a food label, or a drug screening.
+A chemist extracts a promising substance from a sea sponge. The vial looks unremarkable. Is it one compound or a mixture? Which atoms does it contain, and how are they connected?
+
+**Analytical chemistry** turns those questions into measurements. No single instrument answers them all: separation, mass, absorbed light, and magnetic response provide different clues. We will return to the vial as the tools come together. The same reasoning underlies a blood test, a food label, and a forensic analysis.
 
 ## Two questions
 
@@ -53,10 +55,20 @@ Isotopes, which mass spectrometry separates cleanly, are among analysis's most e
 
 ## Solving an unknown
 
-Here is how the tools combine. A chemist isolates a new compound from a sponge. High-resolution mass spectrometry gives its exact mass, and from that a molecular formula, say C₁₅H₂₂O₃. The infrared spectrum shows a carbonyl and an O–H. Proton NMR counts the hydrogens by type and shows which are next to which; carbon NMR counts the carbons. From these the chemist proposes a structure. If the compound crystallizes, X-ray diffraction confirms every atom's position. If the structure is chiral, polarized light or a chiral chromatography column identifies which enantiomer. The whole process, which took Woodward's generation years, now takes a well-equipped laboratory a few days, and it is how the millions of compounds in the chemical registries were confirmed to be what their discoverers said.
+Return to the sponge extract. Chromatography first separates its components so the chemist can examine one compound at a time. High-resolution mass spectrometry narrows down the molecular formula, say C₁₅H₂₂O₃, using accurate mass and isotope patterns. The infrared spectrum shows a carbonyl and an O–H. Proton NMR counts the hydrogens by type and shows which are next to which; carbon NMR counts the carbons. From these the chemist proposes a structure. A suitable crystal can let X-ray diffraction resolve the three-dimensional arrangement, though hydrogen positions and absolute configuration can require additional evidence. Chiral chromatography can separate enantiomers; assigning which one is which needs a reference or another suitable method.
+
+A straightforward sample may yield to these tools in days. A scarce, unstable, or complicated molecule can take much longer. The result is convincing when independent clues fit the same structure, not simply because an instrument prints a name.
 
 :::frontier
 Analysis is getting smaller, faster, and closer to the sample. Handheld mass spectrometers and infrared scanners identify materials in the field; DNA sequencers the size of a phone read a genome from a single molecule at a time; cryo-electron tomography images ribosomes at work inside frozen cells. The other frontier is data: spectra are being read by machine-learning models trained on millions of examples, and the bottleneck is shifting from acquiring data to trusting the automated interpretation, exactly the problem that tripped up the materials-discovery claims in chapter 14.
+:::
+
+:::try Put the idea to work
+A mass spectrum supports a molecular formula. Can you now announce a unique molecular structure? Name a useful next measurement.
+
+:::answer Show the reasoning
+No: isomers can share a formula. NMR can constrain connections and local environments; infrared spectroscopy can identify functional groups; suitable diffraction data can resolve spatial structure. Choose the next method for the ambiguity that remains, then check whether the clues agree.
+:::
 :::
 
 ## Summary

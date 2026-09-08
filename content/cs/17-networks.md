@@ -4,7 +4,7 @@ subtitle: How a message is chopped into pieces, addressed, lost, resent, and rea
 part: IV · Systems in the World
 ---
 
-## Recap
+## How does a message survive a network with no single route or clock?
 
 Chapter 1 opened with a tap on a link. This chapter is that paragraph in full. The internet is the largest machine ever built, it has no central control, and its core design is fifty years old and was not expected to last.
 
@@ -83,6 +83,14 @@ The fix, **RPKI** with route origin validation, cryptographically signs which ne
 ## What we still argue about
 
 Whether the transport layer belongs in the kernel at all, now that QUIC has shown what moving it into applications buys. Whether encrypting the whole transport, which is what made QUIC evolvable, costs operators diagnostic ability they legitimately need. Whether inter-domain routing can be secured path-wise without a central authority nobody wants. And how much of the internet's remaining fragility comes from concentration: a handful of content networks, cloud providers, and resolvers now sit in front of most traffic, so their failures are everyone's.
+
+:::try Put the idea to work
+A page fails to load. Why should you distinguish name resolution, connection establishment, encryption, and the application response?
+
+:::answer Show the reasoning
+Each is a separate stage with different evidence and remedies. A DNS failure may prevent finding the server; a refused connection differs from a certificate problem; an HTTP error means an application-level exchange occurred. Identify the last successful stage before guessing at a fix.
+:::
+:::
 
 ## Summary
 

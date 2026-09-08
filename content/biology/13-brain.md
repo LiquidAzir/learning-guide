@@ -4,7 +4,7 @@ subtitle: 86 billion neurons, a hundred trillion connections, and 20 watts. How 
 part: V · Systems
 ---
 
-## Recap
+## How can cells produce perception and behavior?
 
 Chapter 12 listed the nervous system among the body's systems and deferred it. This chapter takes it on: the mechanism at the cellular level, which is well understood, the systems level, which is partly understood, and consciousness, which is not.
 
@@ -42,6 +42,14 @@ What can be said: consciousness depends on the brain in detail (anesthesia, slee
 
 :::key
 The cellular mechanism of the brain is well understood: neurons integrate inputs, fire all-or-nothing spikes, and communicate at synapses whose strengths change with use, and that changing is memory. The systems level is partly understood: there are maps, hierarchies, and specialized regions, and the tools that reveal them are indirect and easy to over-read. The question of how any of this produces experience is not merely unsolved but lacks an agreed method of solution, and that is worth stating plainly in a chapter that otherwise sounds confident.
+:::
+
+:::try Put the idea to work
+A brain region becomes active during a task. Does that establish that the region alone causes, or uniquely performs, the task?
+
+:::answer Show the reasoning
+No. Activity can reflect input, output, a supporting process, or a correlated state. The task may depend on a distributed network. Comparing tasks, timing, and evidence from disruption helps distinguish a region's contribution from the tempting label “the center for” a complex ability.
+:::
 :::
 
 ## Summary

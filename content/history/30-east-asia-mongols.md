@@ -4,7 +4,7 @@ subtitle: 1206 to 1368. A herdsman's orphan unites the steppe and his descendant
 part: IV · East Asian History
 ---
 
-## Recap
+## How did Mongol conquest both connect and devastate Eurasia?
 
 Chapter 29 left the Song rich and militarily weak, the Jin ruling northern China, Goryeo devout, and Japan under its first shogunate. All of them were about to meet the largest land empire in history. This chapter is about the Mongol century in East Asia and, because the Mongols joined the continent, about what it meant for the world; it is the point at which the European and East Asian sections of this guide touch, and the reader of chapter 16 will meet the plague here from the other end of its road.
 
@@ -56,13 +56,21 @@ The Mongols did three things to East Asia and one to the world. They ended the S
 - 1368: Yuan falls; Ming founded.
 :::
 
+:::try Put the idea to work
+Can increased trade along Mongol-controlled routes coexist with catastrophic destruction from conquest?
+
+:::answer One way to reason it through
+Yes. The effects differ by place, group, and phase of rule. Secure routes for some merchants can emerge after campaigns that devastate other communities. A useful account does not turn benefits to one group into compensation for another's losses; it tracks both with their timing.
+:::
+:::
+
 ## Summary
 
 - Chinggis Khan united the steppe by 1206 with a decimal army, promotion by merit, written law, a post system, and terror as policy; his descendants built the largest contiguous empire in history, from Korea to Hungary.
 - The conquests killed tens of millions and depopulated Persia and northern China; the figures are uncertain, the scale is not.
 - Khubilai ruled China as the Yuan from Beijing, the first foreign dynasty over all of China, tolerated all religions, ranked Mongols above Chinese, and failed twice against Japan.
 - The Pax Mongolica joined Eurasia for a century, moving gunpowder, printing, the compass, and Marco Polo's report west and Persian science east; it also carried the Black Death.
-- Japan alone escaped, by typhoon and by defense; the Yuan fell in 1368 to a Chinese peasant rebel, and the closing of the land road sent Europe to sea.
+- Mongol expansion had limits: campaigns against Japan, Vietnam, and Java failed. The Yuan fell in 1368, but Mongol power continued beyond China. The later disruption of overland routes was one influence on European efforts to reach Asian markets by sea.
 
 [^1]: *The Secret History of the Mongols*. Translated by I. de Rachewiltz (2004), 2 vols. Leiden: Brill. Ratchnevsky, P. (1991). *Genghis Khan: His Life and Legacy*. Translated by T. N. Haining. Oxford: Blackwell. Morgan, D. (2007). *The Mongols*, 2nd ed. Oxford: Blackwell. Biran, M. (2007). *Chinggis Khan*. Oxford: Oneworld.
 [^2]: May, T. (2007). *The Mongol Art of War*. Barnsley: Pen & Sword. Allsen, T. T. (1987). *Mongol Imperialism: The Policies of the Grand Qan Möngke in China, Russia, and the Islamic Lands, 1251–1259*. Berkeley: University of California Press. Morgan (2007), chapter 4.

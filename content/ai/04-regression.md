@@ -4,7 +4,7 @@ subtitle: A line through a cloud of points is the oldest learning algorithm and 
 part: II · Learning from Data
 ---
 
-## Recap
+## What can a fitted line tell you, and what can't it?
 
 Chapter 3 set up the four ingredients. This chapter builds the simplest complete system from them: a linear model, a squared-error loss, and a solution you can write down. It was invented in 1805 to track comets, it predicts more of the world's decisions than any neural network, and every idea in it recurs, enlarged, in the chapters on deep learning.
 
@@ -112,6 +112,14 @@ Logistic regression has no closed-form solution, so it is fitted by gradient des
 - Curves, interactions, and log transforms keep linear models useful for nonlinear problems.
 - Ridge shrinks weights; lasso zeroes them. Both trade a little bias for a lot less variance.
 - Logistic regression is linear regression with a sigmoid, predicts probabilities, and is a one-neuron neural network.
+:::
+
+:::try Put the idea to work
+A regression predicts higher sales on days with more staff. Can the shop conclude that adding one worker will cause the fitted increase in sales?
+
+:::answer Show the reasoning
+No. Busy days may cause managers to schedule more staff, and other factors may affect both. Regression describes a conditional relationship in the data; a causal staffing decision needs a design or assumptions that distinguish the direction of influence.
+:::
 :::
 
 ## Summary

@@ -45,5 +45,5 @@
   <rect x="470" y="200" width="120" height="36" rx="6" class="amber-soft-fill amber" stroke-width="1.4"/>
   <text x="530" y="223" class="lbl small" text-anchor="middle">majority vote</text>
   <text x="530" y="265" class="lbl" text-anchor="middle">A random forest</text>
-  <text x="530" y="285" class="lbl small" text-anchor="middle">independent errors cancel; the vote beats every single tree</text>
+  <text x="530" y="285" class="lbl small" text-anchor="middle">combining varied trees can improve prediction</text>
 </svg>

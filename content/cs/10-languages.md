@@ -4,7 +4,7 @@ subtitle: Why there are thousands of them, what a type system is really for, who
 part: II · The Machine
 ---
 
-## Recap
+## What does a programming language make easier to express or harder to get wrong?
 
 Chapters 7 to 9 built a machine that runs numbered instructions. Nobody writes those by hand any more. A programming language is a notation for saying what a computation should do, chosen so that people can read it and a machine can be made to run it, and the tension between those two goals produced everything in this chapter.
 
@@ -79,6 +79,14 @@ Not by merit alone. The pattern in every case is a killer application plus a lar
 ## What we still argue about
 
 Whether static types repay their cost, which has been argued since the 1970s without a decisive empirical answer. Whether ownership will spread beyond systems programming or stay a specialist tool. Whether the memory-unsafe languages holding up most of the world's infrastructure can be incrementally hardened rather than replaced, which is now a policy question as much as a technical one. And what happens to language design when most code is drafted by models trained on the code that already exists, which weights the future towards whatever was popular in the past ([how those models are trained](#/ai/training)).
+
+:::try Put the idea to work
+A language rejects a program before it runs because a number was used where text was expected. Does this prove that accepted programs have no bugs?
+
+:::answer Show the reasoning
+No. A type checker rules out the classes of misuse its type system can express and check. A well-typed program can still compute the wrong amount, use a mistaken condition, or implement the wrong requirements. A guarantee is useful when its scope is stated accurately.
+:::
+:::
 
 ## Summary
 

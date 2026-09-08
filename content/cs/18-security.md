@@ -4,7 +4,7 @@ subtitle: How two strangers agree on a secret in public, why the hard part is ne
 part: IV · Systems in the World
 ---
 
-## Recap
+## What does it mean for a system to be secure against an attacker?
 
 Chapter 17 built a network in which every packet passes through machines belonging to strangers. This chapter is about how anything private or trustworthy happens on top of that, and about why systems with unbreakable cryptography are broken every day.
 
@@ -92,6 +92,14 @@ In March 2026 the ACM gave the Turing Award to Charles Bennett and Gilles Brassa
 
 Whether the post-quantum standards are themselves safe, since lattice cryptography is younger than RSA and less attacked; hence the deliberate hedging with HQC and hybrid modes. Whether the certificate-authority system can be replaced rather than patched. Whether governments' repeated demands for exceptional access to encrypted messages can be met without creating a vulnerability for everyone, which the technical community has consistently said they cannot. And how to fund the maintenance of critical open-source dependencies, since xz showed what the current arrangement is worth.
 
+:::try Put the idea to work
+An encrypted connection ends at a fraudulent website with a valid certificate for its own name. Has encryption guaranteed that the business is trustworthy?
+
+:::answer Show the reasoning
+No. It protects the exchange with the authenticated endpoint and helps establish which name you reached. It does not establish the honesty of the people operating that endpoint. Check the identity the user intended, not just whether some connection is encrypted.
+:::
+:::
+
 ## Summary
 
 - Security is defined only against a stated adversary; Kerckhoffs's principle says only the key may be secret.
@@ -99,7 +107,7 @@ Whether the post-quantum standards are themselves safe, since lattice cryptograp
 - Hashes age visibly: MD5 and SHA-1 are broken for collisions, and passwords need deliberately slow, memory-hard hashing.
 - Diffie–Hellman lets strangers agree on a secret in public; RSA and elliptic curves rest on problems assumed, not proved, to be hard, and public-key cryptography was discovered secretly at GCHQ years earlier.
 - Real breaches come from memory-unsafe code, people, supply chains, misconfiguration, side channels, and bad randomness — almost never from the mathematics.
-- A large quantum computer would break all deployed public-key cryptography and only dent symmetric ciphers; standards exist, migration is underway, and "harvest now, decrypt later" makes it urgent for long-lived secrets.
+- A sufficiently capable quantum computer would break RSA and elliptic-curve systems; it would not break every public-key scheme. Symmetric cryptography faces a different, more limited quantum speedup; standards exist, migration is underway, and "harvest now, decrypt later" makes it urgent for long-lived secrets.
 
 [^1]: Stevens, M. et al. (2017). "The First Collision for Full SHA-1." *CRYPTO 2017*, 570–596. [doi:10.1007/978-3-319-63688-7_19](https://doi.org/10.1007/978-3-319-63688-7_19). Wang, X., Yu, H. (2005). "How to Break MD5 and Other Hash Functions." *EUROCRYPT 2005*, 19–35. [doi:10.1007/11426639_2](https://doi.org/10.1007/11426639_2)
 [^2]: Diffie, W., Hellman, M. (1976). "New Directions in Cryptography." *IEEE Transactions on Information Theory*, 22(6), 644–654. [doi:10.1109/TIT.1976.1055638](https://doi.org/10.1109/TIT.1976.1055638)

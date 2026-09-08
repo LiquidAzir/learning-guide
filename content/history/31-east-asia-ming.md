@@ -1,10 +1,10 @@
 ---
 title: Ming China, Joseon Korea, and the Warring Japanese
-subtitle: 1368 to 1644. A peasant emperor rebuilds China as an agrarian fortress, sends the largest fleet in history to Africa and then burns the ships, and is buried in a dynasty that falls to peasants and Manchus. Korea invents the perfect alphabet. Japan fights itself for a century and is reunified by three men and a Portuguese gun.
+subtitle: 1368 to 1644. Ming rulers rebuild China and send fleets across the Indian Ocean before ending the expeditions. Korea develops Hangul; Japan moves from civil war to unification, then brings war to Korea.
 part: IV · East Asian History
 ---
 
-## Recap
+## Why did East Asian rulers make different choices about ships, arms, and authority?
 
 The Mongols fell in China in 1368 and their century's connections closed. This chapter covers the three centuries in which each East Asian society rebuilt on its own terms: Ming China as a centralized, inward, Confucian agrarian empire that was also, in its later years, the world's largest silver importer; Joseon Korea as the most thoroughly Neo-Confucian state that ever existed; and Japan as a century of civil war ending in unification. It ends in 1644, when the Ming fall and the Manchus take Beijing, and 1600, when Japan's last unifier wins the battle that will give it 250 years of peace.
 
@@ -12,7 +12,7 @@ The Mongols fell in China in 1368 and their century's connections closed. This c
 
 Zhu Yuanzhang, born to a destitute peasant family in 1328, orphaned by famine and plague at sixteen, a beggar and Buddhist novice, joined a millenarian rebel army at twenty-four, commanded it within a few years, defeated every rival, and took Beijing from the Yuan in 1368. He ruled for thirty years as the **Hongwu** emperor, and he ruled from the peasant's view of the world: the countryside was virtue, the city and the merchant were corruption, the official was a thief until proven otherwise, and the emperor's job was to protect the peasant from all of them. He abolished the office of chief minister and ran the government himself through a secretariat, so that the Ming emperor was the most personally powerful ruler China had had; he registered every household and every field in the empire in the Yellow Registers and Fish-Scale Maps; he fixed the land tax in grain and labor service, forbade foreign trade except through official tribute missions, and organized villages into self-policing groups of 110 households. He also executed tens of thousands of officials in purges, flogged others in open court, and issued instructions to his descendants that they were never to change any of it.[^1] They mostly did not.
 
-His son, the **Yongle** emperor (1402–1424), who took the throne by civil war, was the exception: he moved the capital to Beijing and built the Forbidden City, compiled the classics in an encyclopedia of 11,000 volumes, and sent the eunuch admiral **Zheng He** on seven voyages (1405–1433) with fleets of up to 300 ships and 27,000 men, the largest wooden ships ever built, to Southeast Asia, India, the Persian Gulf, and East Africa. They carried tribute and porcelain, brought back giraffes and ambassadors, and demonstrated a naval reach no European power would have for a century. Then, after Yongle's death, the Confucian officials, who thought the voyages a eunuch's extravagance, stopped them, the ships rotted, the records were destroyed, and China's maritime withdrawal was complete by 1500, sixty years before the Portuguese reached Canton.[^2] Why is asked as often as "why Europe," and the answers are the same in reverse: a unified empire with no rival to fear and nothing it needed from outside had no reason to keep paying for the fleet.
+His son, the **Yongle** emperor (1402–1424), who took the throne by civil war, was the exception: he moved the capital to Beijing and built the Forbidden City, compiled the classics in an encyclopedia of 11,000 volumes, and sent the eunuch admiral **Zheng He** on seven voyages (1405–1433) with fleets of up to 300 ships and 27,000 men, the largest wooden ships ever built, to Southeast Asia, India, the Persian Gulf, and East Africa. They carried tribute and porcelain, brought back giraffes and ambassadors, and demonstrated a naval reach no European power would have for a century. Then, after Yongle's death, the Confucian officials, who thought the voyages a eunuch's extravagance, stopped them, the ships rotted, the records were destroyed, and the state-backed voyages ended, though private maritime trade continued. Portuguese ships reached China in the early sixteenth century.[^2] Why is asked as often as "why Europe," and the answers are the same in reverse: the court faced competing priorities, including northern defense, and officials disputed whether the voyages justified their cost. Ending them was a political choice, not evidence that China had no use for the outside world.
 
 ## The Ming state and society
 
@@ -30,7 +30,13 @@ Its greatest king, **Sejong** (1418–1450), sponsored the invention of the Kore
 
 The Kamakura shogunate fell in 1333, bankrupted by the Mongol defense. The **Ashikaga** shoguns who replaced it ruled from Kyoto's Muromachi district for two centuries and controlled little beyond it; power lay with provincial lords, and after the Onin War (1467–1477) destroyed Kyoto and the shogunate's authority, Japan entered the **Sengoku**, the Warring States, a century in which some 250 domain lords (**daimyo**) fought each other without any central authority at all. The daimyo built castles, fielded armies of peasant foot-soldiers with pikes, and ruled their domains as small states with their own laws and surveys; the samurai became a professional warrior class; and the Zen Buddhism of the Kamakura period, with its tea ceremony, ink painting, and Noh theater, flourished in the ruins.[^8]
 
-In 1543 a Chinese junk with Portuguese aboard was blown onto the island of Tanegashima, and the Japanese saw the matchlock gun. Within a decade Japanese smiths were producing them by the thousand, and within a generation Japan had more guns than any European country. Portuguese traders and Jesuit missionaries followed; Francis Xavier arrived in 1549, and by 1600 there were perhaps 300,000 Japanese Christians, including several daimyo. Three men then unified the country. **Oda Nobunaga**, a minor daimyo of genius and ferocity, used massed arquebuses to destroy a cavalry army at Nagashino in 1575, burned the militant Buddhist monasteries that had defied every government, and controlled a third of Japan when a vassal assassinated him in 1582. His general **Toyotomi Hideyoshi**, a peasant's son, finished the conquest by 1590, disarmed the peasantry, froze the class structure, surveyed the land, and then, in 1592 and 1597, invaded Korea with 160,000 men in the largest overseas expedition Japan had mounted, meaning to conquer China. The Japanese took Seoul and Pyongyang, Ming armies came south, the Korean admiral Yi Sun-sin destroyed the Japanese fleets with his iron-covered turtle ships, and the war devastated Korea for seven years until Hideyoshi died in 1598 and the Japanese withdrew.[^9] **Tokugawa Ieyasu**, Hideyoshi's ally, won the battle of Sekigahara in 1600 against the coalition loyal to Hideyoshi's heir, became shogun in 1603, and founded a regime that lasted until 1868. His settlement is chapter 32.
+In 1543 a Chinese junk with Portuguese aboard was blown onto the island of Tanegashima, and the Japanese saw the matchlock gun. Within a decade Japanese smiths were producing them by the thousand, and within a generation Japan had more guns than any European country. Portuguese traders and Jesuit missionaries followed; Francis Xavier arrived in 1549, and by 1600 there were perhaps 300,000 Japanese Christians, including several daimyo.
+
+Three men then unified the country. **Oda Nobunaga**, a minor daimyo of genius and ferocity, used massed arquebuses to destroy a cavalry army at Nagashino in 1575, burned the militant Buddhist monasteries that had defied every government, and controlled a third of Japan when a vassal assassinated him in 1582.
+
+His general **Toyotomi Hideyoshi**, a peasant's son, finished the conquest by 1590, disarmed the peasantry, froze the class structure, surveyed the land, and then, in 1592 and 1597, invaded Korea with 160,000 men in the largest overseas expedition Japan had mounted, meaning to conquer China. The Japanese took Seoul and Pyongyang, Ming armies came south, the Korean admiral Yi Sun-sin destroyed the Japanese fleets with his iron-covered turtle ships, and the war devastated Korea for seven years until Hideyoshi died in 1598 and the Japanese withdrew.[^9]
+
+**Tokugawa Ieyasu**, Hideyoshi's ally, won the battle of Sekigahara in 1600 against the coalition loyal to Hideyoshi's heir, became shogun in 1603, and founded a regime that lasted until 1868. His settlement is chapter 32.
 
 ## The Ming fall
 
@@ -52,6 +58,14 @@ The Ming rebuilt China as the agrarian Confucian empire Hongwu wanted and then b
 - 1592–1598: Japanese invasions of Korea.
 - 1600: Sekigahara. 1603: Tokugawa shogunate.
 - 1644: Ming falls; Qing take Beijing.
+:::
+
+:::try Put the idea to work
+Ming rulers end the great state voyages. Does that prove Chinese people stopped trading by sea or lost the ability to build ships?
+
+:::answer One way to reason it through
+No. Ending a court-funded program is a specific policy choice. Private trade, shipbuilding, coastal communities, and official restrictions had related but distinct histories. Keep state policy separate from every economic activity occurring within or beyond the state's borders.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: Conservation laws are physics' bookkeeping, and Emmy Noether's theorem
 part: II · The Classical World
 ---
 
-## Recap
+## What stays the same when everything is moving?
 
 Newton gave us $\mathbf{F} = d\mathbf{p}/dt$: force is the rate of change of momentum. This chapter is about what happens when you ask the opposite question. Not "what changes?" but "what *can't*?"
 
@@ -96,6 +96,14 @@ Noether's theorem has a catch: it requires the laws to be the same at all times.
 ## Mass is energy too
 
 There is a postscript that belongs to the relativity chapter but deserves a preview here. In 1905 Einstein showed that mass itself is a form of energy, with the exchange rate $E = mc^2$.[^10] Because $c^2$ is enormous, a tiny mass is a vast energy: one gram fully converted would release the energy of about 20,000 tons of TNT. Energy conservation and mass conservation, which chemists had treated as two separate laws, became one law. The Sun shines by converting about four million tons of mass into light every second, and is still only a fraction of a percent lighter than when it formed.
+
+:::try Put the idea to work
+Two skaters start at rest and push apart. One has twice the other's mass. Compare their speeds and explain where their kinetic energy came from.
+
+:::answer Show the reasoning
+Their total momentum remains zero if external horizontal forces are negligible. Equal and opposite momenta mean the heavier skater moves at half the lighter one's speed. Kinetic energy increases because the skaters convert internal chemical energy into motion; momentum conservation does not require kinetic energy to stay constant.
+:::
+:::
 
 ## Summary
 

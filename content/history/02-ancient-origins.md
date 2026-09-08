@@ -4,7 +4,7 @@ subtitle: Two and a half million years in one chapter. How humans spread across 
 part: II · Ancient History
 ---
 
-## Recap
+## How can we reconstruct lives that left no writing?
 
 Chapter 1 said the past leaves traces beyond writing. This chapter is built from them alone: stone tools, bones, seeds, pollen, and, since 2010, the DNA of the dead. It covers the longest stretch of the human story and the two events without which nothing else in this guide happens: the spread of our species across the planet, and the invention of agriculture.
 
@@ -65,6 +65,14 @@ By 4000 BCE the world had farmers on every inhabited continent, towns of thousan
 - c. 8000 BCE: rice and millet farming in China.
 - c. 7000 BCE: maize in Mesoamerica; Çatalhöyük.
 - c. 3000 BCE: Yamnaya expansion begins; horse domestication is dated anywhere from 3500 to 2200 BCE.
+:::
+
+:::try Put the idea to work
+A burial contains an elaborate tool. What can you observe directly, and what would remain an inference about the person buried there?
+
+:::answer One way to reason it through
+The tool's material, position, manufacture, and burial context are observations, subject to preservation and excavation limits. Calling the person a ruler, craftsperson, or religious specialist is an interpretation. Compare other burials and signs of use before treating grave goods as a simple record of occupation or status.
+:::
 :::
 
 ## Summary

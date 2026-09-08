@@ -4,7 +4,7 @@ subtitle: The rational model, why it works better than it should, and the forty 
 part: III · People and Strategy
 ---
 
-## Recap
+## What does it mean to make a rational choice?
 
 Supply and demand rest on a picture of the individual: someone with wants, a budget, and the sense to get the most from it. This chapter opens that picture up. The standard model of choice is stated first, because it is the benchmark against which everything else is measured, and then behavioral economics is brought in to show where and by how much people deviate, and what that does and does not change.
 
@@ -52,7 +52,7 @@ Forty years of experiments have produced a long list of systematic ways people d
 
 **Mental accounting.** People treat money differently depending on which mental pot it sits in, running a credit card balance at 20% while holding savings earning 2%.
 
-**Social preferences.** In the **ultimatum game**, one player proposes how to split a sum and the other can accept or reject, with both getting nothing on rejection. The rational prediction is that the proposer offers a penny and the responder takes it. In practice, offers below about 20% are rejected roughly half the time, and proposers know it and offer 40 to 50%.[^5] People care about fairness enough to pay for it, in every culture tested, though the amounts vary.
+**Social preferences.** In the **ultimatum game**, one player proposes how to split a sum and the other can accept or reject, with both getting nothing on rejection. If each player cares only about their own monetary payoff, the standard prediction is that the proposer offers the smallest positive amount and the responder accepts. In practice, offers below about 20% are rejected roughly half the time, and proposers know it and offer 40 to 50%.[^5] People care about fairness enough to pay for it, in every culture tested, though the amounts vary.
 
 **Status and comparison.** People care about where they stand, not only what they have. Thorstein Veblen observed in 1899 that some goods are bought precisely because they are expensive and visible, which he called **conspicuous consumption**, and modern data confirm the broader point: people's reported satisfaction with life falls when their neighbors' incomes rise, holding their own income fixed.[^14]
 
@@ -73,6 +73,14 @@ Behavioral economics did not overturn the rational model; it bounded it. Where s
 Two cautions round out the picture. First, behavioral economics has had its own replication problems: several celebrated effects, including some **priming** studies (in which an incidental cue such as a word or image seemed to change later behavior), have failed to replicate, and effect sizes across the field have shrunk on re-examination.[^11] Second, showing that people deviate from the model in a laboratory does not show that markets do. Markets have mechanisms that discipline individual error: competition, learning, professional intermediaries, and **arbitrage**, buying where something is cheap and selling where it is dear, which erases a mispricing whether or not the people who created it ever notice. Sometimes they amplify it instead, which is the subject of the finance chapter. Which happens is an empirical question, and the honest answer is that it depends on the market.
 
 What behavioral economics has permanently changed is the default. Before 1979, an economist who found people acting against the model looked for the mistake in the data. After, the model itself is a hypothesis to be tested. That shift, more than any single finding, is the field's legacy.
+
+:::try Put the idea to work
+Someone rejects an unfair offer even though accepting would give them a little money. Does that alone prove their choice is irrational?
+
+:::answer Show the reasoning
+Only if the model assumes money is their sole objective. A person may also care about fairness, dignity, or punishing unfair behavior. State the preferences and constraints before assessing consistency. A narrow model's failed prediction is not automatically a diagnosis of the person.
+:::
+:::
 
 ## Summary
 

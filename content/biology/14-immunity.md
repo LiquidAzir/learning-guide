@@ -4,7 +4,7 @@ subtitle: How a body recognizes a virus it has never met, remembers it for decad
 part: V · Systems
 ---
 
-## Recap
+## How does immunity recognize danger without attacking everything?
 
 Chapter 10 described the pathogens. This chapter describes the defense: a distributed system with no central control that generates receptors for molecules that have never existed, distinguishes them from the body's own, remembers, and gets it wrong in ways that produce allergy and autoimmune disease. It is also the system that the last decade's most successful new cancer drugs work on.
 
@@ -58,13 +58,21 @@ The fall in coverage has a traceable cause. In 1998 a paper in *The Lancet* clai
 Long before vaccines, people in China, India, and the Ottoman Empire practiced **variolation**: deliberately infecting a healthy person with material from a mild smallpox case, which produced a usually milder illness and lifelong immunity. Lady Mary Wortley Montagu, whose face had been scarred by smallpox and whose brother had died of it, saw it in Constantinople and had her son inoculated there in 1718, then her daughter in London in 1721, and campaigned for it against considerable medical resistance. It killed about 1 to 2 percent of those treated, against 20 to 30 percent for natural smallpox: a bad risk by modern standards and an excellent one at the time. In 1796 Edward Jenner tested the folk observation that milkmaids who caught cowpox did not get smallpox, inoculated a boy with cowpox, and then challenged him with smallpox; the boy did not get sick.[^11] Vaccination is named for the cow (*vacca*). The sequence, an empirical folk practice, a risky improvement, and then a mechanism understood only two centuries later, is how much of medicine actually happened.
 :::
 
+:::try Put the idea to work
+Why can an immune memory response be faster than the first response without making every future infection impossible?
+
+:::answer Show the reasoning
+Previous exposure can leave antigen-specific memory cells that respond more quickly. Protection still depends on the pathogen, how it changes, the site of infection, and the strength and persistence of the response. Faster recognition improves defense; it is not a guarantee that no pathogen will establish an infection.
+:::
+:::
+
 ## Summary
 
 - Innate immunity is fast and general; adaptive immunity is specific, slow at first, and remembers, using randomly generated receptors on B and T cells.
 - Receptor diversity comes from cutting and pasting gene segments, giving more than 10^13 possible antibodies; self-reactive cells are deleted in the thymus and suppressed by regulatory T cells, the subject of the 2025 Nobel Prize.
 - Clonal selection expands the matching cells over about a week and leaves memory cells that can last a lifetime.
 - Vaccines create memory without disease; they have averted an estimated 154 million deaths in 50 years, and falling coverage returned measles to the United States in 2025 and 2026.
-- Allergy is a misdirected response, best prevented in the peanut case by early introduction; autoimmunity affects 4 to 8 percent of people; checkpoint inhibitors release the immune brakes on cancer and won the 2018 Nobel Prize.
+- Allergy is a misdirected response, best prevented in the peanut case by early introduction; autoimmunity turns immune responses against the body’s own tissues; checkpoint inhibitors release the immune brakes on cancer and won the 2018 Nobel Prize.
 
 [^1]: Murphy, K., Weaver, C. (2022). *Janeway's Immunobiology*, 10th ed. New York: Norton, chapters 2–3. Nobel Prize in Physiology or Medicine 2011. [nobelprize.org](https://www.nobelprize.org/prizes/medicine/2011/summary/). Medzhitov, R. (2008). "Origin and physiological roles of inflammation." *Nature*, 454, 428–435. [doi:10.1038/nature07201](https://doi.org/10.1038/nature07201)
 [^2]: Hozumi, N., Tonegawa, S. (1976). "Evidence for somatic rearrangement of immunoglobulin genes coding for variable and constant regions." *PNAS*, 73(10), 3628–3632. [doi:10.1073/pnas.73.10.3628](https://doi.org/10.1073/pnas.73.10.3628). Murphy and Weaver (2022), chapter 5. Elhanati, Y. et al. (2015). "Inferring processes underlying B-cell repertoire diversity." *Philosophical Transactions B*, 370(1676), 20140243. [doi:10.1098/rstb.2014.0243](https://doi.org/10.1098/rstb.2014.0243)

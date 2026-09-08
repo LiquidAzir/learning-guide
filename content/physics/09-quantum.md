@@ -4,7 +4,7 @@ subtitle: Light comes in lumps, matter comes in waves, and certainty runs out at
 part: III · The Two Revolutions
 ---
 
-## Recap
+## Why do tiny things require a different set of rules?
 
 By 1900 physics looked nearly finished. Newton handled motion, Maxwell handled light, thermodynamics handled heat. A few odd experimental results remained. One of them, about the color of hot objects, brought the whole edifice down.
 
@@ -105,6 +105,14 @@ A **laser** is trillions of photons in one identical state. Einstein worked out 
 ## Dirac joins quantum mechanics to relativity
 
 Schrödinger's equation ignores relativity. In 1928 Paul Dirac found an equation that respected it, and it did three things he had not asked for.[^14] It predicted electron spin, previously a bolt-on. It gave the electron's magnetism correctly. And it had solutions with negative energy, which Dirac eventually interpreted as a new kind of particle: identical to the electron but with opposite charge. Carl Anderson found this **positron** in cosmic rays in 1932.[^15] **Antimatter** exists because the equations demanded it. Every particle has an antiparticle, and when the two meet they annihilate into pure energy, $E = mc^2$ running in reverse.
+
+:::try Put the idea to work
+An electron can tunnel through a barrier it could not cross classically. Must it emerge with extra energy borrowed from somewhere?
+
+:::answer Show the reasoning
+No. For a stationary barrier, a state can extend into and through the barrier while retaining the same total energy. Tunneling changes the probability of finding the electron on the other side; it does not require a temporary exemption from energy conservation.
+:::
+:::
 
 ## Summary
 

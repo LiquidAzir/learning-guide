@@ -4,7 +4,7 @@ subtitle: 907 to 1279. China has paper money, gunpowder, movable type, a compass
 part: IV · East Asian History
 ---
 
-## Recap
+## Why didn't Song China's innovations lead to the same path as later Europe?
 
 The Tang fell in 907 and China had fifty years of short dynasties. This chapter covers the Song (960–1279), which reunified most of China and presided over what historians call its medieval economic revolution, with Korea's Goryeo and Japan's Heian courts alongside. It is the chapter in which China is, by any measure of wealth, technology, and urbanization, the most advanced society on Earth, and in which a question that runs through the whole section first becomes sharp: why did the modern world begin in Europe and not here?
 
@@ -50,6 +50,14 @@ Song China was the most advanced economy the pre-modern world produced, and it d
 - 1185: Kamakura shogunate.
 - c. 1234: Korean metal movable type.
 - 1279: Song falls to the Mongols.
+:::
+
+:::try Put the idea to work
+Why is “they had printing and gunpowder, so industrialization should have followed” a weak historical argument?
+
+:::answer One way to reason it through
+Technologies do not prescribe one sequence of institutions, energy use, markets, and political decisions. Similar tools can serve different purposes in different settings. Compare the conditions and mechanisms instead of treating later European events as a timetable every society was expected to follow.
+:::
 :::
 
 ## Summary

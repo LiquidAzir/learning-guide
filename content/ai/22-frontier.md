@@ -4,7 +4,7 @@ subtitle: What is happening now, in September 2026: agents, reasoning, science, 
 part: VI · The Edge
 ---
 
-## Recap
+## Which claims about AI's future can today's evidence support?
 
 The rest of this guide describes what is established. This chapter describes what is moving, which means it will age faster than any other. It is organized around six directions, for each the state in 2026, the open question, and what would count as evidence. The Latest Research section, reachable from the subject's front page, is where the specifics are kept current.
 
@@ -67,6 +67,14 @@ Signals that would mean the picture has changed, in either direction:
 
 :::frontier
 This guide was finished in September 2026. If you are reading it much later, assume the specific numbers are stale and the questions are probably still open in some form. The record of this field is that its capabilities have consistently outrun forecasts in some directions (language, mathematics, coding) and lagged them in others (robotics, driving, general reliability), that its false starts have been as instructive as its successes, and that the people who understood it best were the ones who looked at what the systems actually did rather than at what anyone said about them. That habit is the only part of this chapter that will not age.
+:::
+
+:::try Put the idea to work
+An announcement reports a new benchmark record but gives no details about tool use or computation. What comparison is missing?
+
+:::answer Show the reasoning
+A useful comparison needs the evaluation conditions: model access to tools and data, sampling and scoring rules, computation or attempts per question, and possible benchmark exposure. The score alone cannot tell you whether the system improved under comparable conditions or bought a different level of performance at a different cost.
+:::
 :::
 
 ## Summary

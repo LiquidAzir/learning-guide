@@ -4,7 +4,7 @@ subtitle: 1300 to 1500. The population that had doubled loses a third or more in
 part: III · European History
 ---
 
-## Recap
+## How did crisis change the balance between rulers, lords, and workers?
 
 Chapter 15 ended in 1300 with Europe's population pressing against what its farmland could feed. This chapter is about what happened when the pressure broke: famine, the worst pandemic in recorded history, a century of Anglo-French war, peasant revolts, a papacy split in three, and, at the same time, the rebirth of learning in Italy and the invention that would make it permanent. The two centuries are called the "waning" of the Middle Ages, and they were a crisis from which the modern world was made.
 
@@ -50,7 +50,7 @@ Around 1450 in Mainz, Johannes Gutenberg, a goldsmith, combined existing technol
 
 ## 1492
 
-In the year the last Muslim kingdom in Spain surrendered and its Jews were expelled, a Genoese sailor in the service of Spain reached the Caribbean. The world of the next chapter is about to open, and the two centuries of crisis had made Europe ready for it: nation-states with taxes and artillery, a commercial class with capital and double-entry books, a culture that had rediscovered geography and geometry, a press to publish the news, and a population that, having recovered from the plague, was about to grow again and needed somewhere to go.
+In the year the last Muslim kingdom in Spain surrendered and its Jews were expelled, a Genoese sailor in the service of Spain reached the Caribbean. The world of the next chapter is about to open, and the two centuries of crisis had made Europe ready for it: nation-states with taxes and artillery, a commercial class with capital and double-entry books, a culture that had rediscovered geography and geometry, a press to publish the news, and a population beginning an uneven recovery from the plague. These conditions shaped European expansion; they did not make conquest inevitable.
 
 :::key
 The late Middle Ages show what a catastrophe does. The plague killed a third of Europe and, for those who lived, ended serfdom, raised wages, and broke the deference of centuries. War made nations. The Church's failure made the Reformation. The Italian cities' wealth made the Renaissance, and a goldsmith's mold made it permanent. None of it was planned and most of it was experienced as disaster. The transition from medieval to modern, which the humanists claimed as their own achievement, was mostly the work of bacteria, longbows, gunpowder, and lead type.
@@ -67,6 +67,14 @@ The late Middle Ages show what a catastrophe does. The plague killed a third of 
 - 1453: Constantinople falls to the Ottomans; the war ends.
 - c. 1455: Gutenberg's Bible.
 - 1492: Granada falls; Columbus.
+:::
+
+:::try Put the idea to work
+Why could a labor shortage after the plague improve some workers' bargaining position without improving every survivor's life?
+
+:::answer One way to reason it through
+Fewer workers could make labor more valuable, but laws, coercion, land access, and local demand shaped who captured the benefit. Survivors also faced loss and disruption. An average wage pattern does not describe all occupations, regions, or dimensions of well-being.
+:::
 :::
 
 ## Summary

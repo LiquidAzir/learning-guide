@@ -4,7 +4,7 @@ subtitle: 1600 to 1715. Germany loses a fifth of its people, England executes it
 part: III · European History
 ---
 
-## Recap
+## Why did seventeenth-century states fight over authority as well as territory?
 
 Chapter 17 left Europe divided by religion and armed; chapter 18 gave it an Atlantic economy and American silver. This chapter follows the seventeenth century, which historians call a general crisis: the worst war Europe had yet fought, revolutions in England, and famine, plague, and cold nearly everywhere. Out of the crisis came two answers to the question of how to govern, the absolute monarchy of Louis XIV and the constitutional settlement of England, and, at the same time, the Scientific Revolution, which is the most important thing that happened in the century and had almost nothing to do with the kings.
 
@@ -59,6 +59,14 @@ The seventeenth century produced two answers to the question the wars of religio
 - 1687: Newton's *Principia*.
 - 1688–1689: Glorious Revolution; Bill of Rights; Locke's *Two Treatises*.
 - 1694: Bank of England.
+:::
+
+:::try Put the idea to work
+A king claims absolute authority. What evidence would show the limits of that claim in practice?
+
+:::answer One way to reason it through
+Look at whether taxes were collected, orders enforced, and local elites or representative bodies could resist. A doctrine of sovereignty is not the same as administrative capacity. The gap between proclamation and implementation is often where the political history happens.
+:::
 :::
 
 ## Summary

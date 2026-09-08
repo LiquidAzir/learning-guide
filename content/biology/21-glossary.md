@@ -1,6 +1,6 @@
 ---
 title: Glossary and Numbers
-subtitle: Every bold term defined in a sentence, with the chapter where it appears; then the numbers worth carrying, the units, and the reference tables for the genetic code and the classification of life.
+subtitle: Definitions and reference facts to return to as you read. Search for a term, check the distinction, and follow its chapter link for the explanation.
 part: VII · The Edge
 ---
 
@@ -64,7 +64,7 @@ part: VII · The Edge
 
 **Domain** (ch. 9). The highest rank of classification: Bacteria, Archaea, Eukarya.
 
-**Dominant, recessive** (ch. 7). An allele that shows when one copy is present; one that shows only with two.
+**Dominant allele.** An allele whose associated phenotype appears in a heterozygote under the inheritance model being discussed. See chapter 7.
 
 **Endosymbiosis** (ch. 3). One cell living inside another; the origin of mitochondria and chloroplasts.
 
@@ -86,7 +86,7 @@ part: VII · The Edge
 
 **Genetic drift** (ch. 8). Change in allele frequencies by chance, strongest in small populations.
 
-**Genotype, phenotype** (ch. 7). The alleles an organism carries; the traits it shows.
+**Genotype.** An organism's genetic constitution, or its alleles at a specified locus. See chapter 7.
 
 **Glycolysis** (ch. 5). The oxygen-free first stage of sugar breakdown, yielding 2 ATP.
 
@@ -142,15 +142,17 @@ part: VII · The Edge
 
 **Nitrogen fixation** (ch. 10, 11). Converting nitrogen gas into usable compounds; done by some bacteria and, industrially, by the Haber-Bosch process.
 
-**Oncogene, tumor suppressor** (ch. 17). A growth gene stuck on; a brake that has been broken.
+**Oncogene.** A gene whose altered or excessive activity can promote cancer. See chapter 6.
 
 **Organelle** (ch. 3). A membrane-bounded compartment inside a eukaryotic cell.
 
 **Pangenome** (ch. 18). A reference made from many individuals' genomes rather than one.
 
-**Photosynthesis** (ch. 5). Using light energy to build sugar from carbon dioxide and water, releasing oxygen.
+**Phenotype.** An observable trait produced through genotype, environment, and development. See chapter 7.
 
-**Phloem, xylem** (ch. 11). The tubes that carry sugar down and water up in a plant.
+**Phloem.** Plant vascular tissue that transports sugars and other organic substances between sources and sinks. See chapter 11.
+
+**Photosynthesis** (ch. 5). Using light energy to build sugar from carbon dioxide and water, releasing oxygen.
 
 **Pleiotropy** (ch. 7). One gene affecting several traits.
 
@@ -163,6 +165,8 @@ part: VII · The Edge
 **Prokaryote** (ch. 3). A cell without a nucleus: bacteria and archaea.
 
 **Protein** (ch. 4). A folded chain of amino acids; the working molecules of the cell.
+
+**Recessive allele.** An allele whose associated phenotype is masked in that heterozygote. Dominance is not a measure of an allele's frequency, value, or strength. See chapter 7.
 
 **Regulatory T cell** (ch. 14). A suppressor lymphocyte that holds back self-reactive cells; subject of the 2025 Nobel Prize.
 
@@ -182,15 +186,21 @@ part: VII · The Edge
 
 **Synapse** (ch. 13). The junction where one neuron signals the next.
 
-**Transcription, translation** (ch. 6). Copying a gene into RNA; building a protein from that RNA.
-
 **Transcription factor** (ch. 6). A protein that binds DNA and switches genes on or off; about 1,600 in humans.
 
+**Transcription.** Making RNA using a DNA template. See chapter 6.
+
+**Translation.** Making an amino-acid chain from an mRNA sequence at a ribosome. See chapter 6.
+
 **Transposable element** (ch. 6). A DNA sequence that copies itself around the genome; about 45 percent of ours.
+
+**Tumor suppressor.** A gene whose normal activity helps restrain cancer; loss of its function can contribute to malignancy. See chapter 6.
 
 **Vaccine** (ch. 14). A preparation that creates immune memory without causing the disease.
 
 **Virus** (ch. 10). Genetic material in a protein coat, reproducing only inside a host cell.
+
+**Xylem.** Plant vascular tissue that transports water and dissolved minerals, mainly from roots upward, and provides support. See chapter 11.
 
 ## Numbers worth carrying
 
@@ -212,7 +222,7 @@ part: VII · The Edge
 | Resting metabolic rate, adult | 1,500–2,000 kcal/day (~20 kcal per kg) |
 | Energy in a kilogram of body fat | ~7,700 kcal |
 | Blood volume, heart output | ~5 liters; ~5 L/min at rest, to 25 in exercise |
-| Lung surface area | ~130 m², in about 480 million alveoli |
+| Lung surface area | About 140 m² in one study of inflated adult lungs; varies with body size, inflation, and measurement method (chapter 12) |
 | Kidney filtration | ~180 L/day, >99 percent reabsorbed |
 | Core temperature, blood pH | 37 ± 0.5 °C; 7.35–7.45 |
 | Bacterial cells on Earth | ~10^30; viruses ~10^31 |
@@ -222,7 +232,8 @@ part: VII · The Edge
 | Background extinction rate | 0.1–2 per million species-years |
 | Global deaths per year | ~62 million; ~28 percent cardiovascular, ~17 percent cancer |
 | Drugs entering human trials that fail | ~90 percent |
-| Cost of a human genome, 2003 vs now | ~$3 billion vs a few hundred dollars |
+| Human Genome Project budget | About $3 billion for the whole project, including mapping and technology development; not a per-genome sequencing price |
+| Genome sequencing cost | Tens of millions of dollars in the early 2000s versus a few hundred for some modern services; excludes some analysis and interpretation costs (chapter 18) |
 
 ## The genetic code
 

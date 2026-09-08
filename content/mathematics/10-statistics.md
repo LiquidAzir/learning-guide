@@ -4,7 +4,7 @@ subtitle: Learning from data. Averages that lie, the bell curve, what a margin o
 part: III · Change and Chance
 ---
 
-## Recap
+## What can a sample tell you about a population?
 
 Probability (chapter 9) reasons forward, from known chances to likely outcomes. **Statistics** reasons backward, from observed outcomes to the chances and causes behind them. It is the branch of mathematics you meet most often, in every poll, study, and chart, and the one most often used to mislead. This chapter gives the tools to compute the basic quantities and, more importantly, to read them.
 
@@ -117,6 +117,14 @@ Statistics began as "state-istics," the numbers governments collected about popu
 - A p-value is not the probability the finding is true. Significant is not the same as important, and most significant results in low-prior fields are false.
 - Correlation is a question, not an answer: think reverse causation, confounding, chance.
 - Ask for the absolute effect, the interval, the pre-registration, and the replication.
+:::
+
+:::try Put the idea to work
+A voluntary online poll has 100,000 responses. Does its size make it representative of all voters?
+
+:::answer Show the reasoning
+No. A large sample reduces some random sampling variation but does not remove selection bias. People who encounter and answer the poll can differ systematically from the target population. Ask how participants were selected before trusting a narrow margin of error.
+:::
 :::
 
 ## Summary

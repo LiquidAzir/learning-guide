@@ -4,7 +4,7 @@ subtitle: Most reactions stop partway. Where they stop, how to push them, and th
 part: IV · Change
 ---
 
-## Recap
+## How can a reaction continue without the mixture changing?
 
 Free energy sets how far a reaction goes ($\Delta G^\circ = -RT\ln K$) and kinetics sets how fast. This chapter looks closely at the "how far": the balance point most reactions settle into, the rules for shifting it, and the single most important class of equilibria, the exchange of protons between acids and bases.
 
@@ -69,6 +69,14 @@ A buffer is not inexhaustible. Because the pH depends on the *ratio*, adding aci
 
 :::frontier
 The proton is the simplest ion and its behavior in water is still argued over. It does not exist as bare H⁺ or even simply as H₃O⁺, but shuttles through the hydrogen-bond network by a relay in which bonds rearrange faster than any molecule moves, a mechanism first proposed by Theodor von Grotthuss in 1806 and still being refined with femtosecond spectroscopy.[^7] At the other extreme, George Olah's **superacids**, billions of times stronger than sulfuric acid, protonate molecules nobody thought could accept a proton, including methane, and earned the 1994 Nobel Prize.[^8] And acid–base chemistry is now being run deliberately far from equilibrium in "pH-driven" molecular machines and in the acid–base gradients that power every cell (chapter 13).
+:::
+
+:::try Put the idea to work
+At equilibrium, are reactant molecules no longer turning into product? Predict what happens immediately after extra reactant is added.
+
+:::answer Show the reasoning
+Forward and reverse reactions continue at equal rates. Adding reactant changes the reaction quotient and initially favors net movement toward products in the usual case. The mixture changes until the rates balance again; equilibrium is dynamic, not a molecular standstill.
+:::
 :::
 
 ## Summary

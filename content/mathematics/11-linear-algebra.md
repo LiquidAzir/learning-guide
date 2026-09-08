@@ -4,7 +4,7 @@ subtitle: Many quantities at once. Vectors, matrices, how to solve a hundred equ
 part: IV · Structure
 ---
 
-## Recap
+## How do you calculate with many quantities at once?
 
 Chapter 4 solved two equations in two unknowns by substitution. Real problems have thousands of unknowns: the stresses in every beam of a bridge, the price of every good in an economy, the brightness of every pixel in an image, the weight on every connection in a neural network. **Linear algebra** is the mathematics of handling many quantities as a single object, and since the arrival of computers it has become, by volume of use, the most important branch of mathematics in the world.
 
@@ -24,13 +24,15 @@ The one operation that is not obvious is the **dot product**: multiply matching 
 
 ## Matrices
 
+Keep a tiny image in mind: a triangle with corners at $(0, 0)$, $(1, 0)$, and $(0, 1)$. We want to stretch its width to twice its original size and its height to three times its original size. A matrix lets us describe that operation once and apply it to each corner.
+
 A **matrix** is a rectangular grid of numbers, and it is two things at once: a table of data, and a *transformation* that turns one vector into another. Both readings matter.
 
 As a table, a matrix with 1,000 rows (customers) and 50 columns (products) holds a store's purchase history; a 1,920 by 1,080 matrix holds a grayscale photograph. As a transformation, a matrix acts on a vector by taking dot products with each row:
 
 $$\begin{pmatrix} 2 & 0 \\ 0 & 3 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 2x \\ 3y \end{pmatrix}$$
 
-This one stretches everything by 2 horizontally and 3 vertically. Another rotates by an angle $\theta$:
+For the triangle, the corners become $(0, 0)$, $(2, 0)$, and $(0, 3)$. The grid of numbers encodes one rule, “double the first coordinate and triple the second,” rather than three unrelated calculations. You can follow the rest of this section by asking what each new matrix does to those same corners. Another matrix rotates by an angle $\theta$:
 
 $$\begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}$$
 
@@ -99,6 +101,14 @@ A matrix is not "a table of numbers" any more than a function is "a formula." It
 - Systems of linear equations are solved by elimination, the same method for 3 unknowns or 3 million.
 - Eigenvectors are the directions a matrix only stretches; the largest eigenvalue dominates repeated application (PageRank, PCA).
 - Neural networks are matrix multiplications plus simple functions, trained by gradient descent. Matrix multiplication is the world's most-run computation.
+:::
+
+:::try Put the idea to work
+Apply the matrix with diagonal entries 2 and 3 and off-diagonal entries 0 to the vector (1, 1). Is this vector an eigenvector? Compare it with (1, 0).
+
+:::answer Show the reasoning
+The first vector becomes (2, 3), which is not a single scalar multiple of (1, 1), so it is not an eigenvector. The second becomes (2, 0) = 2(1, 0), so it is an eigenvector with eigenvalue 2. An eigenvector keeps its direction, allowing reversal, under the transformation.
+:::
 :::
 
 ## Summary

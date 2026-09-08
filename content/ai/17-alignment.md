@@ -1,10 +1,10 @@
 ---
 title: Teaching It to Behave
-subtitle: A pretrained model is fluent and useless. The steps that turn it into an assistant: instruction tuning, human feedback, written principles, and the reinforcement learning that taught models to think before speaking. Plus what none of it guarantees.
+subtitle: How a text predictor becomes an assistant: instruction tuning, human feedback, written principles, and reinforcement learning for reasoning. What each step changes, and what it still cannot guarantee.
 part: IV · Large Language Models
 ---
 
-## Recap
+## How does further training turn a predictor into an assistant?
 
 Chapter 16 ended with a base model: a superb predictor of internet text that will continue your question with another question, complete a request for medical advice with a forum flame war, and reproduce any bias in its training set on request. **Post-training** is everything done after pretraining to make the model useful and safe, and it is where the scientific questions have shifted. This chapter covers the four techniques in use, what each accomplishes, and the honest state of the problem the field calls **alignment**: getting a system to do what its operators intend, and only that.
 
@@ -93,6 +93,14 @@ Frontier labs publish a **system card** with each model describing its training 
 - RL on verifiable answers taught models to reason at length, the largest capability gain of 2024–25; it needs a checkable reward.
 - Post-training shapes behavior on seen prompts; jailbreaks, sycophancy, reward hacking, alignment faking, and unfaithful reasoning show the gaps.
 - Every trained model encodes someone's choices. Read the system card for what was measured and what was not.
+:::
+
+:::try Put the idea to work
+People prefer an answer because it sounds confident and reassuring. What can go wrong if that preference becomes the main training signal?
+
+:::answer Show the reasoning
+The model can learn to produce answers that win approval without becoming more accurate. Preferences may reward style, agreement, or apparent reasoning. Evaluation must separately check truth, task success, and behavior under pressure; a good preference score is not a complete measure of alignment.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: How populations change, why it is not "survival of the fittest," what 
 part: III · Inheritance and Evolution
 ---
 
-## Recap
+## How can selection produce adaptation without a plan?
 
 Chapter 7 gave the mechanism of inheritance: genes passed on with reshuffling and occasional mistakes. Evolution is what happens to that inheritance across a population over generations. This chapter states the mechanism carefully, lays out the evidence, and answers the standard objections, most of which are good questions with good answers.
 
@@ -59,6 +59,14 @@ The 1940s synthesis (chapter 2) has been extended, not overturned. **Neutral the
 
 :::history How we got here
 Darwin's theory had a serious problem for fifty years and it was not religion; it was inheritance. If offspring were a blend of their parents, as everyone assumed, any new favorable variant would be diluted by half in each generation and vanish before selection could act. Critics pointed this out immediately, and Darwin, unable to answer, gave increasing weight in later editions to Lamarckian mechanisms he had originally rejected. Mendel's particulate inheritance, published in 1866 and unread, was the answer: alleles are not diluted, they are shuffled and reappear intact. When Mendel was rediscovered in 1900 the two camps first fought (the "biometricians" who studied continuous variation against the "Mendelians" who studied discrete traits) and then, in the 1920s, were shown by Fisher, Haldane, and Wright to be describing the same thing at different scales. The eclipse of Darwinism between 1880 and 1920, when most biologists accepted evolution but doubted natural selection, is the standard case of a correct theory stalling for want of a missing piece rather than for want of evidence.[^11]
+:::
+
+:::try Put the idea to work
+Bacteria become resistant after an antibiotic is used. Why is “they mutated because they needed resistance” a misleading explanation?
+
+:::answer Show the reasoning
+Variation can arise before or during exposure without being directed toward the needed solution. The antibiotic changes which variants survive and reproduce; resistance genes can also spread between bacteria. Selection changes the frequencies of variants. It does not require organisms to foresee the useful mutation.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: The nine biggest open questions, what would count as answering each, a
 part: VII · The Edge
 ---
 
-## Recap
+## What would count as an answer to biology's open questions?
 
 Each chapter has marked its own uncertainties. This one collects the largest, states what is actually known, and says what evidence would settle them. It is the chapter most likely to be out of date, which is what the research feed on this subject's page is for.
 
@@ -60,6 +60,14 @@ Three possible results would reorganize the subject.
 
 :::key
 Biology's frontier is unusual among the sciences in that its largest questions are not extensions of existing theory but genuine blanks: how life started, whether it happened elsewhere, and how brains produce experience. Its next largest are practical and urgent: aging, prediction from genomes, feeding the world, and what not to build. The honest position on most of them is that we know what we would need to find out and have not found it.
+:::
+
+:::try Put the idea to work
+A laboratory system reproduces one step thought necessary for the origin of life. Has it recreated life's origin?
+
+:::answer Show the reasoning
+It has demonstrated that step under the tested conditions. A fuller explanation must connect plausible starting materials, environmental conditions, and multiple compatible steps into a sustained system. Showing a piece is valuable evidence, but the compatibility and sequence of the pieces remain part of the problem.
+:::
 :::
 
 ## Summary

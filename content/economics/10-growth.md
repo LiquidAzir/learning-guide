@@ -4,7 +4,7 @@ subtitle: For most of history almost everyone was poor. Then, in one corner of t
 part: IV · The Economy as a Whole
 ---
 
-## Recap
+## Why do some economies keep getting more productive?
 
 Chapter 9 defined GDP per person. This chapter asks the question that Robert Lucas said makes it hard to think about anything else: why is it roughly \$80,000 in the United States and under \$2,000 in Malawi, at purchasing-power parity, and what would it take to change that?[^1] The differences are not small. They are the difference between a child dying of diarrhea and a child in school, and they are the largest fact about the modern world.
 
@@ -64,6 +64,14 @@ A second drag is slower and more certain: demography. Birth rates have fallen be
 
 :::frontier
 Whether artificial intelligence breaks the slowdown is the growth question of the decade, and the profession is divided along familiar lines. Acemoglu's task-based estimate finds AI raising productivity by less than 1 percent over ten years, because most tasks are not yet automatable; optimists building on Romer argue that AI could accelerate the production of ideas themselves, which would be a change in the growth rate, not the level.[^14] The early evidence from actual workplaces shows large gains for specific tasks and no visible effect on aggregate productivity or wages so far. Chapter 16 and the Latest Research section track it.
+:::
+
+:::try Put the idea to work
+An economy doubles the number of machines per worker once. Does that alone guarantee that output per worker will keep growing at the same rate forever?
+
+:::answer Show the reasoning
+No. More capital can raise the level of output, but diminishing returns limit growth from repeated capital deepening in the basic model. Sustained growth requires attention to technology, knowledge, skills, and institutions. A one-time level increase differs from a persistent change in the growth rate.
+:::
 :::
 
 ## Summary

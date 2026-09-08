@@ -6,14 +6,14 @@ Eight subjects so far, each with its own chapters, cited sources, and a separate
 
 | Subject | Chapters | Words | Sources | Research entries |
 |---|---|---|---|---|
-| Physics | 16 | ~35,700 | 244 | 51 |
-| Chemistry | 18 | ~34,700 | 201 | 45 |
-| Economics | 18 | ~39,400 | 227 | 48 |
-| Mathematics | 18 | ~39,200 | 168 | 43 |
-| Artificial Intelligence | 24 | ~50,000 | 241 | 55 |
-| History | 40 | ~82,000 | 412 | 54 |
-| Biology | 21 | ~37,200 | 181 | 54 |
-| Computer Science | 24 | ~43,100 | 136 | 49 |
+| Physics | 16 | ~36,900 | 244 | 51 |
+| Chemistry | 18 | ~36,100 | 201 | 45 |
+| Economics | 18 | ~40,800 | 227 | 48 |
+| Mathematics | 18 | ~41,000 | 168 | 43 |
+| Artificial Intelligence | 24 | ~52,900 | 241 | 55 |
+| History | 40 | ~85,300 | 412 | 54 |
+| Biology | 21 | ~38,800 | 181 | 54 |
+| Computer Science | 24 | ~45,000 | 136 | 49 |
 
 ## Quick start
 
@@ -55,6 +55,8 @@ dist/
 
 ## Writing chapters
 
+Follow [the editorial style guide](EDITORIAL_STYLE.md) for voice, worked examples, evidence, and reference entries. The 155 core chapters include a short application question with an expandable answer; the introductory and reference chapters serve different purposes.
+
 A chapter is a Markdown file with a frontmatter block:
 
 ```markdown
@@ -71,7 +73,8 @@ Supported inside chapters:
 
 - **Math**: `$...$` inline, `$$...$$` display. Rendered at build time to MathML, so no runtime library is needed.
 - **Citations**: `[^3]` in the text, and a line `[^3]: Author (Year). Title. Journal. [doi:...](https://doi.org/...)` anywhere in the file. The build collects these into a Sources section with back-links.
-- **Callouts**: a block starting with `:::key` (or `history`, `math`, `try`, `people`, `frontier`, `warning`, `story`, and for practical subjects `howto` for a step-by-step procedure with a worked example, `formulas` for a key-formula table, `know` for a things-to-know list) and ending with `:::`. Add a custom title after the type: `:::math Reading a derivative`. Callouts may nest; `:::` inside fenced code blocks is left alone.
+- **Callouts**: a block starting with `:::key` (or `history`, `math`, `try`, `people`, `frontier`, `warning`, `story`, `howto`, `formulas`, or `know`) and ending with `:::`. Add a custom title after the type: `:::math Reading a derivative`. Nest `:::answer Show the reasoning` inside a `:::try` block for a keyboard-accessible answer disclosure. Answers open for printing and then return to their previous state. Callouts may nest; `:::` inside fenced code blocks is left alone.
+- **Glossary entries**: start a definition paragraph with a bold term. The build gives it a stable anchor and a direct search result without adding every term to the chapter contents. The computer-science term table and history dynasty table also receive search targets. Write `chapter 9` or `(ch. 9)` for a link to the explanation in the same subject.
 - **Chapter cross-references**: writing `chapter 9` (lowercase) in prose automatically links to chapter 9 *of the same subject*. Code spans, existing links, and raw anchors are left alone. To link across subjects, write the link yourself: `[heat and entropy](#/physics/heat)`.
 - **Dollar signs in prose**: `$` followed by a digit (like `$10,000`) is left as text. To be safe with other cases, write `\$`.
 - **Figures**: `{{fig:name|Caption}}` inlines `figures/name.svg`. Use the CSS classes `ink`, `muted`, `accent`, `amber`, `line`, `soft-fill`, `amber-soft-fill` on SVG elements so diagrams follow the theme.
@@ -85,6 +88,7 @@ Edit `content/<subject>/research.json`. Each item:
 {
   "id": "unique-kebab-id",
   "title": "Exact paper title",
+  "headline": "A short explanation of the result in everyday language",
   "authors": "First author et al. or Collaboration",
   "venue": "Journal volume, page (year) or 'arXiv preprint' or 'press release'",
   "year": 2025,
@@ -95,12 +99,17 @@ Edit `content/<subject>/research.json`. Each item:
   "topic": "cosmology",
   "chapter": "cosmos",
   "summary": "Two or three plain-English sentences. Define any technical term.",
-  "status": "confirmed | preliminary | disputed | retracted",
+  "sourceType": "Journal publication",
+  "status": "reported",
   "verified": "2026-09-01"
 }
 ```
 
 `chapter` must match a chapter slug in the same subject (the filename without its number prefix). The build prints a warning for unknown slugs. Update the top-level `"updated"` date when you add items, then rebuild.
+
+Keep the bibliographic `title` separate from the reader-facing `headline`. `sourceType` describes format, such as a journal publication, preprint, standard, report, or announcement; it does not rate the evidence. Allowed claim statuses are `reported`, `preliminary`, `disputed`, and `retracted`. “Reported” does not imply replication. Explain specific limitations in the summary and retain the `verified` date unless a new source check was actually performed. Source details and the recorded check date are available in each entry's disclosure.
+
+Run `node scripts/check-editorial.mjs` after changes to content or the renderer. It builds the guide and checks practice answers, glossary targets, research metadata, math output, and regression cases for the worked tables. See [the implementation notes](EDITORIAL_IMPLEMENTATION.md) for the scope and validation of the editorial pass.
 
 ## Adding a subject
 

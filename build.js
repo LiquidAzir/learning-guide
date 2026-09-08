@@ -79,7 +79,7 @@ function figures(src, subjectDir) {
 const CALLOUT_LABELS = {
   key: 'Key idea', history: 'How we got here', math: 'The math, explained', try: 'Think about it',
   people: 'Who did this', frontier: 'Where it stands today', warning: 'Common confusion', story: 'The story',
-  howto: 'How to do it', formulas: 'Key formulas', know: 'Things to know',
+  howto: 'How to do it', formulas: 'Key formulas', know: 'Things to know', answer: 'Show the reasoning',
 };
 function callouts(src) {
   const out = [], stack = []; let inFence = false;
@@ -89,10 +89,17 @@ function callouts(src) {
     if (open) {
       stack.push(open[1]);
       const label = (open[2] || '').trim() || CALLOUT_LABELS[open[1]] || open[1];
-      out.push('', `<aside class="callout callout-${open[1]}"><div class="callout-title">${marked.parseInline(label)}</div>`, '<div class="callout-body">', '');
+      const heading = marked.parseInline(label);
+      out.push('', open[1] === 'answer'
+        ? `<details class="callout callout-answer"><summary class="callout-title">${heading}</summary>`
+        : `<aside class="callout callout-${open[1]}"><div class="callout-title">${heading}</div>`, '<div class="callout-body">', '');
       continue;
     }
-    if (!inFence && /^:::\s*$/.test(line) && stack.length) { stack.pop(); out.push('', '</div></aside>', ''); continue; }
+    if (!inFence && /^:::\s*$/.test(line) && stack.length) {
+      const type = stack.pop();
+      out.push('', type === 'answer' ? '</div></details>' : '</div></aside>', '');
+      continue;
+    }
     out.push(line);
   }
   if (stack.length) console.warn('Unclosed callout in', ctx.slug);
@@ -165,7 +172,26 @@ function compileChapter(file, subjectDir, subjectId, orderToSlug) {
   const order = parseInt(base, 10) || 0;
   ctx.slug = slug; ctx.toc = []; ctx.ids = {};
 
-  const t1 = figures(body, subjectDir);
+  // Give glossary definitions stable search targets without filling the chapter TOC.
+  const terms = [], termIds = {};
+  const anchorTerm = (name) => {
+    const text = name.replace(/\*|\.$/g, '').trim();
+    const base = `${slug}-term-${slugify(text)}`;
+    const id = termIds[base] ? `${base}-${++termIds[base]}` : (termIds[base] = 1, base);
+    terms.push({ text, id });
+    return `<span id="${id}" class="glossary-anchor"></span>`;
+  };
+  let linkedBody = body;
+  if (slug === 'glossary') {
+    linkedBody = linkedBody.replace(/^(\*\*([^*]+)\*\*.*)$/gm, (_, line, name) => `${anchorTerm(name)}${line}`);
+    // Reference tables also need direct targets and links to their explanations.
+    linkedBody = linkedBody.replace(/(\| (?:Term \| Meaning \| Ch\.|Dynasty \| Dates \| Follow the story) \|\r?\n[^\n]+\r?\n)((?:\|[^\n]+(?:\r?\n|$))+)/g,
+      (_, header, rows) => header + rows.replace(/\| (\d+) \|\s*$/gm, '| chapter $1 |').replace(/^(\|\s*)([^|]+)(\|)/gm,
+        (_row, prefix, name, suffix) => `${prefix}${anchorTerm(name)}${name}${suffix}`));
+    linkedBody = linkedBody.replace(/\(ch\. ([\d,– -]+)\)/g, (_, numbers) =>
+      '(' + numbers.replace(/\d+/g, n => orderToSlug[+n] ? `[chapter ${n}](#/${subjectId}/${orderToSlug[+n]})` : n) + ')');
+  }
+  const t1 = figures(linkedBody, subjectDir);
   const { text: t2, store } = extractMath(t1);
   ctx.store = store;
   const { text: t3, html: srcHtml, count } = sources(t2, slug);
@@ -182,7 +208,7 @@ function compileChapter(file, subjectDir, subjectId, orderToSlug) {
     id: slug, order, subject: subjectId,
     title: meta.title || slug, subtitle: meta.subtitle || '', part: meta.part || '',
     minutes: Math.max(2, Math.round(wordCount / 220)), words: wordCount, sourceCount: count,
-    toc: ctx.toc, html: html + sourcesHtml,
+    toc: ctx.toc, terms, html: html + sourcesHtml,
   };
 }
 

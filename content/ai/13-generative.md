@@ -4,7 +4,7 @@ subtitle: How a network learns to paint. Autoencoders, the forger-and-detective 
 part: III · Neural Networks
 ---
 
-## Recap
+## How does a model generate something it has never seen?
 
 Every model so far took an input and produced a label, a number, or a translation. **Generative models** do the reverse: they learn what data looks like and produce new examples of it. A photograph of a face that has never existed; a paragraph in the style of a newspaper; a protein that folds; a song. The technical shift is from modeling $P(\text{label} \mid \text{input})$ to modeling $P(\text{data})$ itself, and this chapter tells how three quite different ideas did it, ending with the one that won.
 
@@ -88,6 +88,14 @@ A generative model produces samples from what it learned, not truths about the w
 - Diffusion models learn to predict added noise, then remove it step by step from static. Stable training, full coverage, and scaling made them the standard for images, video, audio, and molecules.
 - Text conditioning through embeddings and attention turns a diffusion model into a text-to-image system; latent diffusion made it cheap.
 - Language models generate autoregressively, one token at a time. Plausible is not true.
+:::
+
+:::try Put the idea to work
+A generator creates a plausible image of a machine with impossible gears. Why can visual plausibility coexist with mechanical failure?
+
+:::answer Show the reasoning
+Its training can reward patterns associated with convincing images without testing whether the depicted mechanism could operate. A sample can fit visual regularities while violating physical constraints. Evaluate the property the application needs, not only how familiar or polished the output looks.
+:::
 :::
 
 ## Summary

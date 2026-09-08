@@ -4,7 +4,7 @@ subtitle: How a Russian professor arranging cards predicted elements nobody had 
 part: II · From Alchemy to Atoms
 ---
 
-## Recap
+## Why does the periodic table repeat?
 
 By 1860 chemists had about sixty elements and, thanks to Cannizzaro, a consistent set of atomic weights. What they did not have was any idea why there were so many, or how they related to one another. The answer turned out to be the most useful diagram in science.
 
@@ -76,6 +76,14 @@ The chase continues. Element 120 would open an eighth row, but the reactions tha
 
 :::frontier
 The table's shape may be about to change. For the heaviest elements, the innermost electrons move at a substantial fraction of the speed of light, and special relativity (see the [physics guide](#/physics/special-relativity)) alters their orbitals enough to change chemistry. Relativity is why gold is gold-colored rather than silvery and why mercury is a liquid.[^14] For elements beyond about 120, calculations suggest the neat block structure may break down entirely, with elements no longer behaving like the column they sit in. Whether the periodic table has an end, and what it looks like, is an open question.
+:::
+
+:::try Put the idea to work
+Sodium and potassium sit in the same group but different periods. Predict one similarity and one reason their behavior need not be identical.
+
+:::answer Show the reasoning
+Both have one outer electron in their neutral atoms, helping explain their tendency to form +1 ions. Potassium's outer electron is in a different shell, with different distance and shielding from the nucleus. A group predicts a pattern, not identical numerical properties.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: What money actually is, how banks create it, why they collapse, and ho
 part: IV · The Economy as a Whole
 ---
 
-## Recap
+## How can money and banking both help trade and create crises?
 
 Prices coordinate the economy, and prices are quoted in money. This chapter is about the thing they are quoted in: where it comes from, why it can fail, and the institutions built over three centuries to keep it working. Much of what people believe about money is wrong in specific, correctable ways.
 
@@ -45,7 +45,7 @@ The theory is right in the long run and for large changes. Every hyperinflation 
 
 A **central bank** is the institution that issues a country's money, acts as banker to the banks and the government, and sets **monetary policy**: the management of interest rates and the money supply. The Bank of England dates from 1694, the Federal Reserve from 1913, the European Central Bank from 1998.
 
-The main tool is a short-term interest rate. In the United States it is the **federal funds rate**, the rate at which banks lend reserves to each other overnight, which the Fed steers by paying interest on reserves and buying or selling government bonds. That one rate propagates through the system: banks price mortgages and business loans off it, and it moves the exchange rate and asset prices. Raising it makes borrowing dearer, slows spending, and cools inflation; cutting it does the reverse. When rates hit zero and cannot go lower, as they did in 2008 and 2020, central banks turned to **quantitative easing**: buying long-term bonds in enormous quantities to push down long-term rates directly.
+The main tool is a short-term interest rate. In the United States it is the **federal funds rate**, the rate at which banks lend reserves to each other overnight, which the Fed steers by paying interest on reserves and buying or selling government bonds. That one rate propagates through the system: banks price mortgages and business loans off it, and it moves the exchange rate and asset prices. Raising it makes borrowing dearer, slows spending, and cools inflation; cutting it does the reverse. When policy rates approached their effective lower bound, as in the United States in 2008 and 2020, the room for conventional cuts narrowed. Some central banks have used slightly negative rates; another response is **quantitative easing**: buying long-term bonds in enormous quantities to push down long-term rates directly.
 
 :::math The Taylor rule
 John Taylor observed in 1993 that the Fed's behavior could be summarized by a simple formula:[^9]
@@ -71,6 +71,14 @@ In 2021 and 2022 inflation in the United States rose to 9 percent, its highest i
 
 :::frontier
 Two questions dominate. First, whether the neutral rate $r^*$, which fell for forty years and made the zero bound a chronic problem, has risen again with higher debt and investment demand; the answer determines whether the next recession can be fought with rate cuts at all. Second, what to do about money that is not bank deposits: **stablecoins**, digital tokens pegged to the dollar and backed by Treasury bills, were brought under federal regulation in 2025, and several central banks are piloting **digital currencies** of their own. Both revive Diamond and Dybvig's question in new clothes: what happens when everyone wants out at once? Bitcoin, by this chapter's own test, is not money: almost nothing is priced in it and its value swings too much to store value reliably. It is an asset, and chapter 15 treats it as one.
+:::
+
+:::try Put the idea to work
+A bank's long-term loans are likely to repay, but many depositors demand cash today. What problem is this, and how does it differ from loans worth less than the bank owes?
+
+:::answer Show the reasoning
+The first is a liquidity problem: valuable assets cannot be converted into cash fast enough without losses. The second is insolvency: the assets are insufficient to cover liabilities. A panic can turn liquidity pressure into insolvency through forced sales, which is why the distinction matters but can become unstable.
+:::
 :::
 
 ## Summary

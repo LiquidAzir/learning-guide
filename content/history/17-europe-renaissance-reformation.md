@@ -1,10 +1,10 @@
 ---
 title: Reformation
-subtitle: 1500 to 1600. A monk with a printing press splits Western Christianity in two, princes discover that religion is a reason to seize church land, and Europe begins a century of killing over the meaning of bread.
+subtitle: 1500 to 1600. Arguments over salvation and church authority spread through print, divide communities, and reshape the power of princes. Reform brings new forms of worship and a century of religious conflict.
 part: III · European History
 ---
 
-## Recap
+## Why did arguments about faith reshape political power?
 
 Chapter 16 ended with the Church discredited, the press invented, and Europe's population recovering. This chapter is about the explosion those three things produced: the Protestant Reformation, the Catholic response, and the wars of religion that followed. It is also about the states that grew strong in the fighting, because the sixteenth century is when the monarchies of Spain, France, and England became the powers that would dominate the next three.
 
@@ -57,6 +57,14 @@ The Reformation began as an argument about how sinners are saved and became, wit
 - 1562–1598: French Wars of Religion. 1572: St Bartholomew's Day.
 - 1568: Dutch Revolt begins. 1588: the Armada.
 - 1598: Edict of Nantes.
+:::
+
+:::try Put the idea to work
+A prince supports religious reform and gains church land. Must the prince's religious beliefs therefore have been insincere?
+
+:::answer One way to reason it through
+No. Material incentives and sincere belief can coexist. The historian should examine actions, correspondence, timing, and alternatives rather than assume one motive cancels the others. Religious arguments, political autonomy, and property interests could reinforce each other.
+:::
 :::
 
 ## Summary

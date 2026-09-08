@@ -4,13 +4,13 @@ subtitle: Reading and writing life. Sequencing that got a hundred thousand times
 part: VI · Life at Scale and in Our Hands
 ---
 
-## Recap
+## What can changing a genome actually change?
 
 Chapter 6 explained how genes work; this chapter is about the tools that read and rewrite them, what they have already delivered in the clinic, and the safety and ethics questions that are now urgent rather than hypothetical.
 
 ## Reading
 
-**Sequencing** determines the order of bases in a DNA molecule. Frederick Sanger's 1977 method dominated for thirty years and read the first human genome over thirteen years for about $3 billion. From 2005 "next-generation" methods read hundreds of millions of short fragments in parallel and assembled them computationally; the cost of a human genome fell to about $1,000 by 2015 and to a few hundred dollars now, a decline steeper and longer-sustained than Moore's law for computer chips.[^1] Long-read technologies, which read hundreds of thousands of bases at once, finished the job: the first truly complete human genome, with no gaps, was published in 2022, adding about 200 million bases the old reference had left blank, including every centromere.
+**Sequencing** determines the order of bases in a DNA molecule. Frederick Sanger's 1977 method dominated for thirty years and underpinned the first human reference genome. The roughly $3 billion Human Genome Project ran for thirteen years and funded much more than one sequencing run, including mapping and technology development. From 2005 "next-generation" methods read hundreds of millions of short fragments in parallel and assembled them computationally; the cost of a human genome fell to about $1,000 by 2015 and to a few hundred dollars now, a decline steeper and longer-sustained than Moore's law for computer chips.[^1] Long-read technologies, which read hundreds of thousands of bases at once, finished the job: the first truly complete human genome, with no gaps, was published in 2022, adding about 200 million bases the old reference had left blank, including every centromere.
 
 The applications are now routine. **Diagnosis**: sequencing a sick newborn's genome can identify a treatable genetic disease in days. **Cancer**: tumors are sequenced to choose targeted drugs, and fragments of tumor DNA circulating in blood allow monitoring without biopsy. **Pathogens**: the SARS-CoV-2 genome was published on 10 January 2020, ten days after the cluster was reported to the World Health Organization, and the vaccine design followed within days. **Populations**: biobanks of hundreds of thousands of people link genomes to health records, and the **pangenome**, a graph of 47 diverse individuals published in 2023, is replacing the single reference that was mostly one man's DNA.[^2]
 
@@ -38,7 +38,7 @@ Two refinements matter. **Base editing** (David Liu's laboratory, 2016) changes 
 
 **Gene therapy for common disease.** Most approved gene therapies treat rare single-gene conditions, because those are the ones where fixing one gene fixes the problem. Heart disease, diabetes, and psychiatric illness are polygenic and environmental (chapter 7), and no editing strategy addresses them.
 
-**Germline editing.** In 2018 He Jiankui announced that he had edited the embryos of twin girls, with a third child born the following year, targeting a gene to confer HIV resistance. The work was scientifically unnecessary (there are established ways to prevent transmission), technically sloppy (the edits were not the intended ones, and the girls are mosaics, meaning different cells in them carry different edits), performed with falsified ethics approval, and universally condemned; he was imprisoned for three years.[^7] The scientific consensus, stated by an international commission in 2020, is that heritable human genome editing is not currently safe or justified, and that if it is ever used it should be limited to serious monogenic disease where no alternative exists. The girls, now school-aged, carry edits of unknown consequence in every cell and will pass them on.
+**Germline editing.** In 2018 He Jiankui announced that he had edited the embryos of twin girls, with a third child born the following year, targeting a gene to confer HIV resistance. The work was scientifically unnecessary (there are established ways to prevent transmission), technically sloppy (the edits were not the intended ones, and the girls are mosaics, meaning different cells in them carry different edits), performed with falsified ethics approval, and universally condemned; he was imprisoned for three years.[^7] The scientific consensus, stated by an international commission in 2020, is that heritable human genome editing is not currently safe or justified, and that if it is ever used it should be limited to serious monogenic disease where no alternative exists. The long-term consequences remain uncertain. Mosaicism means the edits need not be present in every cell; an edit could be inherited if it is present in an egg cell that contributes to a future pregnancy.
 
 **De-extinction.** A company's 2025 announcement that it had "de-extincted" the dire wolf involved editing 14 sites in a gray wolf genome; the animals are gray wolves with altered traits, the supporting work was a preprint, and most biologists reject the framing. The underlying technology, editing and cloning, is real; the claim is marketing. George Church's laboratory at Harvard has pursued a genuine version of the idea for years, editing cold-tolerance genes from mammoths into elephant cells, and even success there would produce an edited elephant rather than a mammoth.
 
@@ -58,9 +58,17 @@ Reading DNA has become cheap and routine; writing it has become precise enough t
 In 1974, a year after the first recombinant DNA experiment, the scientists doing the work called for a voluntary moratorium on the most worrying experiments, and in February 1975 about 140 of them, with lawyers and journalists present, met at the Asilomar conference center in California to decide what to do. Over four days they agreed on a framework of containment matched to risk, banned a few classes of experiment outright, and lifted the moratorium for the rest.[^10] The resulting guidelines governed the field for decades, the feared accidents did not happen, and the biotechnology industry grew from it. Asilomar is invoked whenever a new technology alarms its creators, and two features of it are usually forgotten: the participants were a small, homogeneous group deciding for everyone, and the moratorium worked partly because the field was small enough that everyone who could do the work was in the room. Neither condition holds for gene editing or for AI.
 :::
 
+:::try Put the idea to work
+An embryo edit is present in some cells but absent in others. Can you assume every tissue is edited and every future child will inherit it?
+
+:::answer Show the reasoning
+No. That pattern is mosaicism. The distribution across tissues matters for effects on the person; inheritance depends on whether an edited germ cell contributes to a child. Editing a DNA sequence and predicting an organism's lifetime outcome are distinct tasks.
+:::
+:::
+
 ## Summary
 
-- Sequencing cost has fallen from about $50 million per genome in 2003 to a few hundred dollars, roughly a hundred-thousand-fold; the first gapless human genome came in 2022 and a 47-person pangenome in 2023.
+- The cost of sequencing a genome has fallen from tens of millions of dollars in the early 2000s to a few hundred for some sequencing services; analysis and clinical interpretation add costs. This is a different comparison from the total Human Genome Project budget; the first gapless human genome came in 2022 and a 47-person pangenome in 2023.
 - CRISPR, adapted from a bacterial immune system in 2012, made precise editing routine; base and prime editing avoid cutting both DNA strands.
 - Casgevy (2023) is the first approved CRISPR therapy; a bespoke base-editing treatment for one infant was given in 2025; mRNA is now a drug platform, and designed proteins won the 2024 Chemistry Nobel.
 - Gene therapy works for rare single-gene diseases and not for common polygenic ones; germline editing was done once, badly and illegally, in 2018 and remains outside consensus.

@@ -4,7 +4,7 @@ subtitle: The one idea under everything. Data, a model with knobs, a score for w
 part: II · Learning from Data
 ---
 
-## Recap
+## What does it mean for a machine to learn?
 
 Chapter 1 compressed machine learning into a paragraph. This chapter expands it into the framework every later chapter uses, with the vocabulary you need and the one failure mode, **overfitting**, that you must understand before anything else makes sense. There is very little mathematics here and a great deal of the thinking that separates people who use these tools well from people who get fooled by them.
 
@@ -102,6 +102,14 @@ The glamorous part is step 4. The competent part is steps 1, 2, and 6.
 - Leakage, information from the future or the answer sneaking into the inputs, is the most common cause of results that are too good to be true.
 - Always beat a baseline. A 95 percent accurate model can be worthless.
 - Most of the work is data, not modeling.
+:::
+
+:::try Put the idea to work
+A model predicts its training examples almost perfectly but performs poorly on new examples. Has the training run necessarily failed to minimize its objective?
+
+:::answer Show the reasoning
+No. It may have minimized training loss very successfully while overfitting. Learning useful regularities requires generalization beyond the examples used to adjust parameters. Keep training performance separate from evaluation on suitably held-out data.
+:::
 :::
 
 ## Summary

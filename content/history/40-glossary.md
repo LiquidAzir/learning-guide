@@ -1,6 +1,6 @@
 ---
 title: Glossary and Dates
-subtitle: Every bold term in the subject, defined in a sentence or two, with the chapter where it first appears; then the dates from every "Dates to hold onto" box in one timeline, by section, with the cross-section events marked.
+subtitle: Definitions and reference facts to return to as you read. Search for a term, check the distinction, and follow its chapter link for the explanation.
 part: V · The Edge
 ---
 
@@ -16,19 +16,21 @@ part: V · The Edge
 
 **Ancient DNA** (ch. 1, 38). Genetic material recovered from ancient bones and teeth and sequenced; since 2010 the main new source for prehistoric migration, kinship, and disease.
 
-**Antigonids, Ptolemies, Seleucids** (ch. 7). The three dynasties of Alexander's generals that ruled Macedon, Egypt, and Asia respectively in the Hellenistic age.
+**Antigonids.** The Hellenistic dynasty that ruled Macedon after Alexander's successors fought over his empire. See chapter 7.
 
 **Archaeology** (ch. 1). The recovery and interpretation of the material remains of the past.
 
 **Atlantic slave trade** (ch. 18). The forced transport of about 12.5 million Africans to the Americas, 1500–1867, of whom 10.7 million survived the crossing.
 
+**Atman.** The self, understood differently among Indian schools; Buddhist traditions challenge a permanent self. See chapter 10.
+
 **Attrition** (ch. 23). Warfare aimed at exhausting the enemy's manpower rather than taking ground; the First World War's Western Front.
 
 **Axial Age** (ch. 12). Karl Jaspers's term for the period c. 800–200 BCE in which Israel, Greece, India, and China independently produced ethical, universal, individual religions and philosophies.
 
-**Bakuhan** (ch. 32). The Tokugawa system of a central military government (bakufu) over semi-autonomous domains (han).
-
 **Bakufu, shogunate** (ch. 29). Japan's military government under a shogun, with the emperor as figurehead, 1185–1868.
+
+**Bakuhan** (ch. 32). The Tokugawa system of a central military government (bakufu) over semi-autonomous domains (han).
 
 **Banners** (ch. 32). The Manchu hereditary military-administrative units.
 
@@ -41,6 +43,8 @@ part: V · The Edge
 **Bolsheviks** (ch. 23). Lenin's disciplined Marxist party, which seized power in Russia in November 1917.
 
 **Bourgeoisie** (ch. 15). Town-dwellers; the commercial and professional class, from *bourg*, town.
+
+**Brahman.** The ultimate reality in major Upanishadic and later Hindu philosophical traditions. See chapter 10.
 
 **Brahmins** (ch. 10). The priestly class of Vedic and Hindu India.
 
@@ -56,7 +60,7 @@ part: V · The Edge
 
 **Carolingian renaissance** (ch. 14). The revival of learning, script, and text-copying under Charlemagne and his son, c. 780–850.
 
-**Caste, jati, varna** (ch. 10). Varna: the four-fold Vedic ranking of priests, warriors, producers, and servants. Jati: the thousands of endogamous groups of actual Indian society. Caste: the Portuguese-derived English term for the system.
+**Caste.** An English term, derived through Portuguese, applied to South Asian systems of hereditary social ranking and grouping. See chapter 10.
 
 **Chaebol** (ch. 35). South Korea's family-controlled industrial conglomerates.
 
@@ -76,7 +80,9 @@ part: V · The Edge
 
 **Confucianism** (ch. 26). The tradition from Confucius holding that social order comes from moral cultivation, ritual, learning, and the ruler's example; the ideology of the Chinese state from the Han to 1911.
 
-**Consuls, Senate, tribunes** (ch. 8). Rome's two annual chief magistrates, its council of ex-magistrates, and the ten officers elected to protect the common people with a veto.
+**Conservatism.** A varied tradition emphasizing inherited institutions, social continuity, and caution about political change. See chapter 21.
+
+**Consul.** One of the Roman Republic's two annually elected chief magistrates. See chapter 8.
 
 **Covenant** (ch. 12). In Judaism, the binding agreement between God and Israel, with obligations on both sides.
 
@@ -86,9 +92,11 @@ part: V · The Edge
 
 **Cuneiform** (ch. 3). The wedge-shaped script of Mesopotamia, from c. 3300 BCE.
 
-**Dao, Daoism** (ch. 26). The Way, the natural course of things; the tradition of Laozi and Zhuangzi teaching non-action and flowing with it.
-
 **Daimyo** (ch. 31). Japanese domain lords.
+
+**Dao.** The “Way,” a central term for the course or ordering of things in several Chinese traditions. See chapter 26.
+
+**Daoism.** A varied family of traditions associated with texts such as the Laozi and Zhuangzi and with later religious practices; includes ideas of non-forcing and alignment with the Way. See chapter 26.
 
 **Decolonization** (ch. 24). The end of the European empires, 1947–1975.
 
@@ -100,7 +108,7 @@ part: V · The Edge
 
 **Developmental state** (ch. 36). A state that directs credit and protects industries to force industrialization; Japan, Korea, Taiwan.
 
-**Dharma, karma, moksha, atman, brahman** (ch. 10, 12). Duty; the moral consequence of action; release from rebirth; the individual self; the universal ground of being.
+**Dharma.** A term for duty, teaching, law, or right order, with meanings that differ among South Asian traditions. See chapter 10.
 
 **Domestication** (ch. 2). Genetic change in a plant or animal produced by human selection.
 
@@ -114,13 +122,19 @@ part: V · The Edge
 
 **Enlightenment** (ch. 20). The eighteenth-century movement applying reason to society, religion, and government.
 
+**Epicureanism.** A philosophical tradition seeking a tranquil life through modest pleasures, friendship, and freedom from fear, within an atomist account of nature. See chapter 7.
+
 **Estates-General** (ch. 20). France's assembly of clergy, nobles, and commoners, called in 1789 for the first time since 1614.
 
 **Ethnic cleansing** (ch. 25). The expulsion or killing of a population to make a territory ethnically uniform; the Yugoslav wars made the term current.
 
-**Euro, eurozone crisis** (ch. 25). The EU's single currency (1999) and its 2010–2015 crisis of a currency without a treasury.
+**Euro.** The shared currency introduced for accounting in 1999 and as notes and coins in 2002. See chapter 25.
 
-**European Economic Community, European Union** (ch. 24–25). The common market of 1957 and the union of 1993 that grew from it.
+**European Economic Community (EEC).** The organization established by the 1957 Treaty of Rome to deepen economic integration. See chapter 25.
+
+**European Union (EU).** The union established by the Maastricht Treaty, in force from 1993, extending European integration beyond the earlier economic community. See chapter 25.
+
+**Eurozone crisis.** A series of sovereign-debt and banking crises, especially from 2010, exposing tensions in a shared currency with largely national budgets. See chapter 25.
 
 **Examination system** (ch. 28–29). China's recruitment of officials by examinations on the Confucian classics, Tang to 1905; decisive from the Song.
 
@@ -138,7 +152,7 @@ part: V · The Edge
 
 **Gentry** (ch. 29). China's class of examination degree-holders and aspirants who ran local society.
 
-**Glasnost, perestroika** (ch. 24). Gorbachev's "openness" and "restructuring."
+**Glasnost.** Gorbachev's policy of greater openness in Soviet public discussion and access to information. See chapter 24.
 
 **Gothic** (ch. 15). The architecture of pointed arch, ribbed vault, flying buttress, and glass, from Saint-Denis c. 1140.
 
@@ -158,19 +172,19 @@ part: V · The Edge
 
 **Hangul** (ch. 31). The Korean alphabet promulgated by Sejong in 1446.
 
-**Helots** (ch. 6). Sparta's state serfs.
-
 **Hellenistic** (ch. 7). "Greek-ish"; the age from Alexander's death (323 BCE) to Cleopatra's (30 BCE) of Greek-ruled kingdoms over non-Greek peoples.
+
+**Helots** (ch. 6). Sparta's state serfs.
 
 **Hieroglyphs** (ch. 3). Egypt's script, from c. 3200 BCE; deciphered by Champollion in 1822.
 
 **High-level equilibrium trap** (ch. 29). Mark Elvin's theory that Song technology was too good to need improving.
 
-**History, prehistory** (ch. 1). The study of the human past from evidence; and the past before writing.
+**History.** The evidence-based study and interpretation of the human past; also used more narrowly for periods with written records. See chapter 1.
 
 **Holocaust (Shoah)** (ch. 23). The Nazi murder of about six million Jews, 1941–1945.
 
-**Hoplite, phalanx** (ch. 6). The Greek citizen infantryman with shield and spear, and his tight formation.
+**Hoplite.** A heavily armed infantry soldier of the ancient Greek world. See chapter 6.
 
 **Household responsibility system** (ch. 36). Deng's return of Chinese farming to families, from 1979.
 
@@ -194,11 +208,17 @@ part: V · The Edge
 
 **Jacobins** (ch. 20). The radical republican faction of the French Revolution; Robespierre's party.
 
+**Jati.** An endogamous social group, one of many thousands, shaped by region, occupation, and historical context. See chapter 10.
+
 **Junzi** (ch. 26). Confucius's "gentleman," redefined from birth to moral character.
 
 **Kamikaze** (ch. 30). "Divine wind," the typhoon that destroyed the Mongol fleet in 1281 (and, by tradition, a storm in 1274); later Japan's suicide pilots.
 
-**Kanji, kana** (ch. 28). Chinese characters as used in Japanese, and the two Japanese syllabaries.
+**Kana.** Japanese syllabic writing systems, hiragana and katakana, developed from forms of Chinese characters. See chapter 28.
+
+**Kanji.** Chinese-derived characters used in Japanese writing. See chapter 28.
+
+**Karma.** Action and its consequences, especially in accounts of moral causation and rebirth. See chapter 10.
 
 **Knight** (ch. 14). The mounted armored warrior who became Europe's military and social elite after c. 900.
 
@@ -218,11 +238,13 @@ part: V · The Edge
 
 **Levée en masse** (ch. 20). The French Revolution's conscription of the whole nation, 1793.
 
-**Liberalism, conservatism, nationalism, socialism** (ch. 21). The nineteenth century's four ideologies: constitutional government and free markets; tradition and gradual change; each people its own state; collective ownership or control of the economy.
+**Liberalism.** A varied political tradition emphasizing rights, constitutional government, and limits on arbitrary authority. See chapter 21.
 
 **LiDAR** (ch. 11, 38). Airborne laser scanning that maps terrain beneath forest canopy.
 
-**Linear A, Linear B** (ch. 4). The scripts of Minoan Crete (undeciphered) and Mycenaean Greece (deciphered 1952; Greek).
+**Linear A.** A Bronze Age Aegean script associated with Minoan administration that remains undeciphered. See chapter 4.
+
+**Linear B.** A related script used for an early form of Greek in Mycenaean palace records, deciphered in the twentieth century. See chapter 4.
 
 **Little Ice Age** (ch. 19). The cool period c. 1300–1850, coldest around 1650.
 
@@ -234,11 +256,11 @@ part: V · The Edge
 
 **Magna Carta** (ch. 15). The 1215 charter forced on King John; its clauses on lawful judgment and consent to taxation became constitutional principles.
 
-**Mahayana, Theravada** (ch. 10, 12). The "great vehicle" Buddhism of East Asia, with bodhisattvas and celestial Buddhas; and the older tradition of Sri Lanka and Southeast Asia.
-
-**Mandate of Heaven** (ch. 26). The Zhou theory that Heaven grants the right to rule to a virtuous house and withdraws it from a corrupt one.
+**Mahayana.** A broad range of Buddhist traditions emphasizing, among other ideas, the bodhisattva path; influential in East Asia. See chapter 10.
 
 **Manchus** (ch. 31–32). The northeastern people, descendants of the Jurchen, who founded the Qing.
+
+**Mandate of Heaven** (ch. 26). The Zhou theory that Heaven grants the right to rule to a virtuous house and withdraws it from a corrupt one.
 
 **Marshall Plan** (ch. 24). American aid of 1948–1952 to rebuild Western Europe.
 
@@ -248,17 +270,23 @@ part: V · The Edge
 
 **Meiji Restoration** (ch. 33). The 1868 coup that returned power to the emperor's name and remade Japan.
 
-**Mesopotamia, Sumer** (ch. 3). "Between the rivers," the Tigris-Euphrates plain; and its southern part, where cities began.
+**Mesopotamia.** The region around the Tigris and Euphrates, literally “between the rivers.” See chapter 3.
 
 **Migration crisis** (ch. 25). The arrival of over a million refugees and migrants in Europe in 2015.
 
-**Minoans, Mycenaeans** (ch. 4). The palace civilizations of Bronze Age Crete and Greece.
+**Minoans.** A modern name for the Bronze Age civilization centered on Crete. See chapter 4.
+
+**Moksha.** Liberation from rebirth in several Indian traditions. See chapter 10.
 
 **Monasticism** (ch. 13–14). Communities of monks or nuns living under a rule; from Egypt c. 300; Benedict's Rule c. 530.
 
 **Movable-type printing** (ch. 16, 29). Printing with individually cast reusable characters; Bi Sheng c. 1040 (ceramic), Korea c. 1234 (metal), Gutenberg c. 1450.
 
+**Mycenaeans.** The Greek-speaking Bronze Age palace societies of mainland Greece and parts of the Aegean. See chapter 4.
+
 **National Socialism** (ch. 23). Hitler's fascism with a racial theory of history and the Jews as universal enemy.
+
+**Nationalism.** The idea that a people understood as a nation should possess political identity or self-rule; definitions of the nation differ. See chapter 21.
 
 **NATO** (ch. 24). The North Atlantic Treaty Organization, 1949; the alliance binding America to Europe's defense.
 
@@ -278,29 +306,39 @@ part: V · The Edge
 
 **Oracle bones** (ch. 26). Shang divination records on turtle shell and bone, c. 1250–1046 BCE; the earliest Chinese writing.
 
+**Patricians.** Rome's hereditary elite status group, whose early privileges were challenged during the Republic. See chapter 8.
+
+**Patronage** (ch. 8). The Roman system of powerful men protecting clients who owed them support.
+
 **Pax Mongolica** (ch. 30). The century of safe travel across Mongol Eurasia, c. 1240s–1340s.
 
 **Pax Romana** (ch. 9). The two centuries of internal peace under Rome, 27 BCE–180 CE.
-
-**Patricians, plebeians** (ch. 8). Rome's old aristocracy and everyone else.
-
-**Patronage** (ch. 8). The Roman system of powerful men protecting clients who owed them support.
 
 **Peace of Westphalia** (ch. 19). The 1648 settlement of the Thirty Years' War; the origin of the sovereign-state system.
 
 **People's Republic of China** (ch. 35). Proclaimed 1 October 1949.
 
+**Perestroika.** Gorbachev's program of restructuring Soviet economic and political life. See chapter 24.
+
+**Phalanx.** A close-order infantry formation; equipment and tactics varied, including between hoplite and Macedonian forms. See chapter 6.
+
+**Plebeians.** Roman citizens outside the patrician group; their wealth and power varied widely. See chapter 8.
+
 **Polis** (ch. 6). The Greek self-governing city-state.
 
 **Pope** (ch. 13). The bishop of Rome; by 600 the West's one surviving Roman institution.
 
+**Prehistory.** The past before writing in a particular society, studied through material and other nonwritten evidence. Its dates differ by region. See chapter 1.
+
 **Price revolution** (ch. 18). The sixteenth-century inflation driven by American silver.
 
-**Primary, secondary sources** (ch. 1). Material produced at the time or by participants; and later accounts built from it.
+**Primary source.** Evidence produced in or close to the period or activity being studied, such as a letter, object, or administrative record. See chapter 1.
 
 **Principate** (ch. 9). The Roman empire from Augustus to 235, named for the emperor's title *princeps*, first citizen.
 
 **Protestant Reformation** (ch. 17). The split in Western Christianity begun by Luther in 1517.
+
+**Ptolemies.** The dynasty that ruled Hellenistic Egypt. See chapter 7.
 
 **Public sphere** (ch. 20). The eighteenth-century world of coffeehouses, salons, and print in which public opinion formed.
 
@@ -320,6 +358,8 @@ part: V · The Edge
 
 **Republic** (ch. 8). Rome's government of annual magistrates, senate, and assemblies, 509–27 BCE; *res publica*, the public thing.
 
+**Rigveda.** The oldest collection of Vedic hymns, addressed to deities and transmitted orally long before surviving written copies. See chapter 10.
+
 **Roman law** (ch. 9, 15). The jurists' science codified by Justinian (533) and revived at Bologna (c. 1070); the basis of civil-law systems.
 
 **Sakoku** (ch. 32). "Closed country," Japan's restriction of foreign contact, 1639–1853.
@@ -336,13 +376,17 @@ part: V · The Edge
 
 **Sea Peoples** (ch. 4). The migrants and raiders of the Late Bronze Age collapse.
 
+**Secondary source.** A later interpretation or analysis drawing on primary and other sources. The distinction depends partly on the research question. See chapter 1.
+
+**Seleucids.** The dynasty that ruled a changing expanse of Alexander's former Asian territories. See chapter 7.
+
 **Self-Strengthening Movement** (ch. 33). Qing China's adoption of Western arms and industry without changing the state, 1860s–1890s.
+
+**Senate.** Rome's elite deliberative council, increasingly composed of former magistrates. See chapter 8.
 
 **Sengoku** (ch. 31). Japan's Warring States period, 1467–1600.
 
 **Serfdom** (ch. 14–16). Peasants bound to the land and their lord; collapsed in Western Europe after the Black Death; abolished in Russia 1861.
-
-**Shang, Zhou, Qin, Han, Sui, Tang, Song, Yuan, Ming, Qing** (ch. 26–32). China's major dynasties: c. 1600–1046 BCE; 1046–256 BCE; 221–206 BCE; 206 BCE–220 CE; 581–618; 618–907; 960–1279; 1271–1368; 1368–1644; 1644–1912.
 
 **Shi Huangdi** (ch. 27). "First Emperor," the title Qin's king took in 221 BCE.
 
@@ -350,19 +394,25 @@ part: V · The Edge
 
 **Silk Road** (ch. 27). The trade routes across Central Asia linking China to Persia and Rome, from the second century BCE.
 
+**Socialism.** A family of movements seeking greater social control of economic resources and greater equality, with competing views of how to achieve them. See chapter 21.
+
 **Solidarity** (ch. 24). Poland's independent trade union, 1980.
 
-**Sovereignty, sovereign state** (ch. 17, 19). Supreme authority within a territory, above churches and factions; Bodin's answer to religious war; the Westphalian system's unit.
+**Sovereign state.** A state claiming that authority, though practical power and recognition can be limited or contested. See chapter 19.
+
+**Sovereignty.** A claim to supreme authority within a political order and independence from outside authority. See chapter 19.
 
 **Special Economic Zones** (ch. 36). Deng's enclaves for foreign capital under market rules, from 1980.
 
 **Speleothem** (ch. 38). A cave deposit recording annual rainfall.
 
-**Spring and Autumn, Warring States** (ch. 26). China's periods of 770–476 and 475–221 BCE.
+**Spring and Autumn period.** The earlier phase of Eastern Zhou history, conventionally beginning in 770 BCE, as regional rulers gained power. See chapter 26.
 
 **Steppe** (ch. 2). The Eurasian grassland from Hungary to Manchuria; home of the mobile pastoral peoples who recur through the guide.
 
-**Stoicism, Epicureanism** (ch. 7). The Hellenistic philosophies of virtue as the only good and a providential universe; and of modest pleasure, friendship, and atoms.
+**Stoicism.** A philosophical tradition emphasizing virtue, reason, and distinguishing what is within one's control. See chapter 7.
+
+**Sumer.** The southern Mesopotamian region associated with Sumerian-speaking city-states and early writing. See chapter 3.
 
 **Taiping Rebellion** (ch. 33). The Chinese civil war of 1850–1864; 20 to 30 million dead.
 
@@ -372,6 +422,8 @@ part: V · The Edge
 
 **Tetrarchy** (ch. 13). Diocletian's rule of four emperors.
 
+**Theravada.** A Buddhist tradition drawing on the Pali canon, especially influential in Sri Lanka and mainland Southeast Asia. See chapter 10.
+
 **Thirty Years' War** (ch. 19). 1618–1648; perhaps a fifth of Germany dead.
 
 **Tiananmen** (ch. 36). Beijing's central square; the 1989 democracy movement and its suppression on 3–4 June.
@@ -380,17 +432,23 @@ part: V · The Edge
 
 **Treaty of Versailles** (ch. 23). The 1919 peace with Germany.
 
+**Tribune of the plebs.** An elected officer charged with protecting plebeians, with powers including a veto; the office changed over time. See chapter 8.
+
 **Unequal treaties** (ch. 33). The nineteenth-century treaties imposing open ports, fixed tariffs, and extraterritoriality on China and Japan.
 
 **University** (ch. 15). A self-governing corporation of masters and students with the right to examine and license; Bologna and Paris by c. 1150.
 
 **Upanishads** (ch. 10). Late Vedic philosophical texts, c. 800–500 BCE.
 
-**Vedas, Rigveda** (ch. 10). The oldest Indian scriptures, composed orally c. 1500–1200 BCE.
+**Varna.** The fourfold ranking in Brahmanical texts: priests, warriors, producers, and servants. It is not a complete description of actual social life. See chapter 10.
+
+**Vedas.** A body of ancient Sanskrit sacred texts and associated ritual and intellectual traditions. See chapter 10.
 
 **Vikings** (ch. 14). Scandinavian seafarers who raided, traded, and settled from Newfoundland to Baghdad, c. 790–1066.
 
 **Warlords** (ch. 34). China's regional military rulers, 1916–1928.
+
+**Warring States period.** The later era of competing territorial states before Qin unification in 221 BCE; its starting date varies by convention. See chapter 26.
 
 **Welfare state** (ch. 24). The postwar provision of health, pensions, unemployment insurance, and education to all citizens.
 
@@ -412,9 +470,26 @@ part: V · The Edge
 
 **Zoroastrianism** (ch. 12). The religion of Zoroaster and the Persian empire: one supreme god, a struggle of truth against the Lie, judgment, and an end of days.
 
+## Dynasty reference
+
+**Chinese dynasties.** A reference to the major dynasties discussed here; the dates overlap in some periods because ruling houses claimed authority over different territories.
+
+| Dynasty | Dates | Follow the story |
+|---|---|---|
+| Shang | c. 1600–1046 BCE | chapter 26 |
+| Zhou | c. 1046–256 BCE | chapter 26 |
+| Qin | 221–206 BCE | chapter 27 |
+| Han | 206 BCE–220 CE | chapter 27 |
+| Sui | 581–618 CE | chapter 28 |
+| Tang | 618–907 CE | chapter 28 |
+| Song | 960–1279 CE | chapter 29 |
+| Yuan | 1271–1368 CE | chapter 30 |
+| Ming | 1368–1644 CE | chapter 31 |
+| Qing | 1644–1912 CE | chapter 32 |
+
 ## Timeline
 
-Dates marked with a dagger (†) appear in more than one section.
+Dates marked with a dagger (†) appear in more than one section. **BP** means “before present,” with “present” conventionally fixed at 1950; it does not move forward each year. **BCE** and **CE** are the calendar eras used elsewhere in the timeline.
 
 ### Prehistory and the ancient world
 

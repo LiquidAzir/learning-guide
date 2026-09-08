@@ -1,10 +1,10 @@
 ---
 title: Building One
-subtitle: What practitioners actually do. The tools, a complete training run in fifty lines, the data work that takes most of the time, and how a model gets from a notebook to a product without falling over.
+subtitle: What practitioners actually do. The tools, a complete training run, the data work that takes most of the time, and how a model gets from a notebook to a product without falling over.
 part: V · In the World
 ---
 
-## Recap
+## What does a complete machine-learning project actually involve?
 
 Nineteen chapters of ideas. This one is about doing: the software, the workflow, the mistakes, and the unglamorous parts that determine whether a machine learning project produces anything. It is written for someone who wants to understand what the work is like, or to start doing it, and it assumes nothing beyond the previous chapters.
 
@@ -18,44 +18,59 @@ Hardware matters. A laptop trains the models of Part II in seconds and a small n
 
 Here is the entire code to train a neural network classifier on handwritten digits, the standard first exercise (chapter 9). It is real, runnable PyTorch, and it contains every idea from chapters 3, 5, 9, and 10.
 
+The first run downloads MNIST. Use a Python environment with PyTorch and torchvision installed. We reserve 10,000 of the original training images for validation and keep the official test set for one final check. A fixed seed makes the split reproducible; exact scores and runtime still depend on the environment.
+
 ```python
-import torch, torch.nn as nn
+import torch
+from torch import nn
+from torch.utils.data import DataLoader, random_split
 from torchvision import datasets, transforms
 
-# 1. Data: 60,000 training images, 10,000 test images, 28x28 grayscale.
-tf = transforms.Compose([transforms.ToTensor(), transforms.Normalize((0.1307,), (0.3081,))])
-train = datasets.MNIST(".", train=True, download=True, transform=tf)
-test = datasets.MNIST(".", train=False, download=True, transform=tf)
-train_loader = torch.utils.data.DataLoader(train, batch_size=64, shuffle=True)
-test_loader = torch.utils.data.DataLoader(test, batch_size=1000)
+torch.manual_seed(0)
 
-# 2. Model: 784 inputs -> 128 -> 64 -> 10 classes. About 109,000 parameters.
+# Fixed rescaling: pixels in [0, 1] become values in [-1, 1].
+# These constants are chosen in advance, not fitted on validation/test data.
+tf = transforms.Compose([
+    transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))])
+development = datasets.MNIST(".", train=True, download=True, transform=tf)
+train, validation = random_split(
+    development, [50000, 10000], generator=torch.Generator().manual_seed(0))
+test = datasets.MNIST(".", train=False, download=True, transform=tf)
+train_loader = DataLoader(train, batch_size=64, shuffle=True)
+validation_loader = DataLoader(validation, batch_size=1000)
+test_loader = DataLoader(test, batch_size=1000)
+
+# 784 pixels -> two hidden layers -> 10 digit scores (logits).
 model = nn.Sequential(
     nn.Flatten(), nn.Linear(784, 128), nn.ReLU(),
     nn.Linear(128, 64), nn.ReLU(), nn.Linear(64, 10))
-
-# 3. Loss and optimizer: cross-entropy (softmax is inside it) and Adam.
 loss_fn = nn.CrossEntropyLoss()
 opt = torch.optim.Adam(model.parameters(), lr=1e-3)
 
-# 4. Training loop: for each minibatch, forward, loss, backward, step.
+def accuracy(loader):
+    model.eval()
+    correct = 0
+    with torch.no_grad():
+        for x, y in loader:
+            correct += (model(x).argmax(1) == y).sum().item()
+    return correct / len(loader.dataset)
+
 for epoch in range(3):
     model.train()
     for x, y in train_loader:
-        opt.zero_grad()            # clear old gradients
+        opt.zero_grad()              # clear old gradients
         loss = loss_fn(model(x), y)  # forward pass and loss
-        loss.backward()            # backpropagation: gradients for every weight
-        opt.step()                 # gradient descent step
+        loss.backward()             # gradients for the weights
+        opt.step()                  # update the weights
+    print(f"epoch {epoch + 1}: validation accuracy {accuracy(validation_loader):.3f}")
 
-    # 5. Evaluate on data the model has never seen.
-    model.eval(); correct = 0
-    with torch.no_grad():
-        for x, y in test_loader:
-            correct += (model(x).argmax(1) == y).sum().item()
-    print(f"epoch {epoch+1}: test accuracy {correct / len(test):.3f}")
+# Run after training and model choices are finished.
+print(f"final test accuracy {accuracy(test_loader):.3f}")
 ```
 
-Three epochs take about a minute on a laptop and reach about 97.5 percent test accuracy. Every line maps to a chapter: the normalization is chapter 9's advice to standardize; `Linear` and `ReLU` are the layers and activation of chapter 9; `CrossEntropyLoss` is chapter 5; `Adam` and the four-line loop are chapter 10; the separate test set and `no_grad` evaluation are chapter 3. Swap `nn.Sequential` for a convolutional network (chapter 11) and accuracy passes 99 percent. Swap the dataset and the output size and the same loop trains a classifier for anything.[^2]
+The layers and ReLU come from chapter 9; cross-entropy from chapter 5; Adam and backpropagation from chapter 10. The split puts chapter 3's evaluation rules into practice. Validation scores can guide development. If you change the model after seeing its test score, that test set has become part of development too, and you need fresh held-out data for a fair final estimate.
+
+This small network should learn the task on a laptop, but measure its accuracy and runtime rather than expecting a guaranteed number. A convolutional network (chapter 11) can exploit the structure of images more effectively. Other classification tasks can reuse the loop, with suitable data preparation, architecture, and evaluation.[^2]
 
 ## Where the time goes
 
@@ -63,9 +78,9 @@ The code above is 5 percent of a real project. Surveys of practitioners consiste
 
 :::howto Getting the data right
 1. **Look at it.** Open the raw data and read a hundred rows or view a hundred images. You will find problems no summary statistic shows: duplicated records, a column that changed meaning halfway through, labels from a different version of the task, timestamps in three time zones.
-2. **Check the labels.** Label error rates in ten standard benchmark test sets average about 3 percent, from a fraction of a percent (handwritten digits) to 6 percent (ImageNet) and 10 percent (a sketch dataset), and in real business data are often higher. Have two people label a sample independently and measure their agreement; if humans disagree 15 percent of the time, no model can do better than that ceiling, and "accuracy" above it is fitting noise.[^4]
+2. **Check the labels.** Label error rates in ten standard benchmark test sets average about 3 percent, from a fraction of a percent (handwritten digits) to 6 percent (ImageNet) and 10 percent (a sketch dataset), and in real business data are often higher. Have two people label a sample independently and measure their agreement; disagreement is a reason to investigate the labeling rules and measure uncertainty, not a universal numerical ceiling on model accuracy.[^4]
 3. **Handle missing values deliberately.** Is a blank "unknown," "not applicable," or "zero"? Impute or flag, but never silently drop rows, which biases the sample toward complete records.
-4. **Split before you look further.** Train, validation, test, respecting groups and time (chapter 8). Everything after this step uses only training data.
+4. **Split before you look further.** Train, validation, test, respecting groups and time (chapter 8). Fit preprocessing and model weights on training data; use validation data for choices, and reserve the test set for the final assessment.
 5. **Document the dataset**: where it came from, who is in it, who is not, what was excluded and why. This is a **datasheet**, and it is where the fairness problems of chapter 21 are caught early or never.[^5]
 6. **Version it.** Data changes; a result you cannot reproduce because the data moved is not a result.
 :::
@@ -115,6 +130,14 @@ A working practitioner's week is mostly: talking to the people who own the probl
 - Fine-tune only when prompting fails; use LoRA; evaluate against the prompt; check what you broke.
 - Evaluate on production-like data, read the errors, beat a baseline. For generative systems, build a test-prompt set and treat regressions as bugs.
 - Deployed models fail through skew, drift, and feedback loops. Monitor, retrain, and keep guardrails and a human outside the model.
+:::
+
+:::try Put the idea to work
+Validation accuracy stops improving, so you choose an earlier checkpoint. Have you improperly trained on the validation set?
+
+:::answer Show the reasoning
+You have used validation data for its intended role: selecting a model. You have not directly fitted weights to those examples, but the choice still depends on them. That is why the chosen model needs a separate final test, and why repeatedly reusing validation data can eventually overfit development to it.
+:::
 :::
 
 ## Summary

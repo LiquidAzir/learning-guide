@@ -4,7 +4,7 @@ subtitle: The chemistry of everything that is not carbon: why rubies are red, ho
 part: V · The Elements at Work
 ---
 
-## Recap
+## How do chemists design a material for a job?
 
 Organic chemistry covers carbon; biochemistry covers carbon in cells. **Inorganic chemistry** is the rest of the periodic table, which is to say most of it, plus the carbon in rocks and air. Its territory runs from the metals humans have worked for five thousand years to the designed materials of the last thirty.
 
@@ -58,6 +58,14 @@ The energy transition is a materials problem. Every electric car runs on the int
 
 :::frontier
 Two frontiers dominate. One is capture: MOFs and related frameworks that pull carbon dioxide from air cheaply enough to matter, and cements that emit less. The other is discovery by machine, where a widely publicized 2023 claim of millions of new crystals did not survive independent scrutiny; chapter 16 tells that story and draws the lesson. The tools are real and improving, but deciding which materials are worth making, and proving they are what they seem, is still done by people. The Latest Research section tracks both.
+:::
+
+:::try Put the idea to work
+A material is very strong in one direction and breaks easily in another. Would reporting a single “strength” number be enough to choose it for a bridge component?
+
+:::answer Show the reasoning
+No. Orientation, loading mode, temperature, defects, and repeated loading can affect performance. The useful property is strength under the conditions of the intended job. Structure and processing help explain why measurements in different directions can differ.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: How to feed language to a machine. Word vectors and the arithmetic of 
 part: III · Neural Networks
 ---
 
-## Recap
+## How does a model represent order and meaning?
 
 Images are grids of numbers, and chapter 11 built networks that assume grid structure. Language is a sequence of symbols, with no numbers in sight and a structure, order and long-range dependency, that grids lack. This chapter is about the two ideas that made language tractable: turning words into vectors, and building networks that read one word at a time and remember. The second idea's limitations lead directly to the transformer of chapter 15.
 
@@ -90,6 +90,14 @@ The same machinery reads any sequence. Speech recognition treats audio as a sequ
 - Recurrent networks read sequences with a carried state and share weights across time; they forget over long ranges because gradients vanish.
 - LSTMs add a gated memory cell that gradients flow through, and ran language technology from 2014 to 2018.
 - Attention lets an output position take a weighted average of input positions, with learned weights; it fixed translation and became the core of the transformer.
+:::
+
+:::try Put the idea to work
+Two sentences contain the same words in different orders. Why might a bag-of-words representation miss a crucial difference?
+
+:::answer Show the reasoning
+It counts words without preserving their positions or relationships. “The dog bit the person” and “The person bit the dog” use the same word inventory but exchange who did what. A sequence model needs information that can distinguish those roles.
+:::
 :::
 
 ## Summary

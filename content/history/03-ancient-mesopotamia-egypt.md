@@ -4,7 +4,7 @@ subtitle: Mesopotamia and Egypt, 3500 to 1200 BCE. Writing was invented to count
 part: II · Ancient History
 ---
 
-## Recap
+## What changed when cities began keeping records?
 
 Chapter 2 ended with farmers everywhere and cities nowhere. This chapter is about the two river valleys where cities, states, and writing appeared first, within a few centuries of each other, and about how differently they did it. Everything in the Ancient section descends from one or both.
 
@@ -67,6 +67,14 @@ A Mesopotamian schoolboy's exercise tablet from about 1700 BCE, found in Nippur,
 - c. 1792–1750 BCE: Hammurabi of Babylon.
 - c. 1550–1069 BCE: Egypt's New Kingdom.
 - 1274 BCE: Battle of Kadesh, Egypt versus the Hittites.
+:::
+
+:::try Put the idea to work
+A palace archive records grain deliveries. Why is it a valuable source, and why is it not a complete picture of the economy?
+
+:::answer One way to reason it through
+It can show quantities, obligations, people, and administrative routines. It records what the institution needed to track, while informal exchange and many people's work may remain invisible. The archive's purpose helps explain both its precision and its silences.
+:::
 :::
 
 ## Summary

@@ -65,13 +65,19 @@ Academic economists build theory and test it with data. Most of the profession w
 
 The field has also become empirical to a degree that would surprise its founders. A typical paper in a top journal today uses millions of tax records or a randomized trial in a hundred villages. The 2019 and 2021 Nobel Prizes went to methods for learning cause and effect from such data (tax, payroll, and benefit records collected by governments for other purposes are called **administrative data**), and the 2024 prize went to a finding, that institutions cause prosperity, that rested on them.[^3] The people chapter (17) names the individuals; keep in mind that modern findings are increasingly made by teams with access to data nobody had before.
 
+:::howto A useful first pass
+Begin with the graph and percentage tools in chapter 2, then read markets in chapter 4. Keep asking who makes the choice, what alternatives they have, and who bears the consequences.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
+
 ## How to read this guide
 
 The conventions match the physics and chemistry guides, and you need neither to start here.
 
 - **Bold terms** are being defined where they appear. The glossary (chapter 18) collects them.
 - Colored boxes mark six kinds of interruption: a **key idea** you should not skim, a **story** from the history, a **math box** that shows an equation and explains every symbol, a **think about it** prompt, a **common confusion** to avoid, and a **where it stands today** note on what is unsettled.
-- Every factual claim points to a numbered source at the bottom of the chapter, with a link where the source is free to read.
+- Key factual claims point to a numbered source at the bottom of the chapter, with a link where the source is free to read.
 - A separate **Latest research** section, reachable from the subject's front page, tracks recent results with a plain-English summary and an honest status label.
 - The math is real and limited. Economics uses algebra, a little calculus (rates of change), and statistics. When an equation appears, it will be read aloud as a sentence with every symbol named.
 

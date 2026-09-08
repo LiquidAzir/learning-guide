@@ -4,7 +4,7 @@ subtitle: A fifty-five-year-old idea that will not be displaced: describe what y
 part: III · Methods
 ---
 
-## Recap
+## How do you keep shared data both useful and trustworthy?
 
 Chapter 12 gave the structures and chapter 15 the difficulty of sharing state. A database is what you get when data must be shared, durable, queried in ways nobody anticipated, and updated by many parties at once without going wrong. Almost every application is, underneath, a user interface bolted to one.
 
@@ -20,7 +20,23 @@ IBM was unenthusiastic, having just sold a great deal of hierarchical database s
 
 ## SQL
 
-SQL, from IBM's System R project in the mid-1970s, is the language for saying what you want.
+SQL, from IBM's System R project in the mid-1970s, is the language for saying what you want. Suppose a shop asks: **“For orders placed since January 1, 2026, which countries brought in more than 10,000 in revenue, and how many orders did each contribute?”** Assume all totals use the same currency.
+
+The shop stores customers separately from orders:
+
+| Customer ID | Country |
+|---|---|
+| 1 | Canada |
+| 2 | Japan |
+
+| Order ID | Customer ID | Placed at | Total |
+|---|---|---|---|
+| 101 | 1 | 2026-01-02 | 6,000 |
+| 102 | 1 | 2026-01-03 | 5,000 |
+| 103 | 2 | 2026-01-04 | 9,000 |
+| 104 | 2 | 2025-12-31 | 4,000 |
+
+Here is the question in SQL. The short names `o` and `c` are aliases for the two tables:
 
 ```sql
 SELECT c.country, COUNT(*) AS orders, SUM(o.total) AS revenue
@@ -31,7 +47,13 @@ HAVING SUM(o.total) > 10000
 ORDER BY revenue DESC;
 ```
 
-Nothing in that says how to do it: whether to read the orders or the customers first, whether to use an index, whether to sort or hash for the grouping. A **query optimizer** decides, by enumerating plans, estimating each one's cost from statistics about the data, and picking the cheapest. Those estimates are the weak point — the number of rows a filter will leave is guessed from summaries, and errors multiply through joins — which is why a query can be fast for months and then choose a catastrophic plan after the data shifts.
+`JOIN` matches each order to its customer. `WHERE` excludes order 104 because it predates 2026. `GROUP BY` gathers the remaining orders by country; `COUNT` counts them and `SUM` adds their totals. `HAVING` keeps only groups above 10,000, and `ORDER BY` puts the largest revenue first. On these sample rows, the result is:
+
+| country | orders | revenue |
+|---|---|---|
+| Canada | 2 | 11,000 |
+
+Japan’s 2026 total is 9,000, so it does not qualify. That is the result the query requests. It leaves the execution strategy open: whether to read the orders or the customers first, whether to use an index, whether to sort or hash for the grouping. A **query optimizer** decides, by enumerating plans, estimating each one's cost from statistics about the data, and picking the cheapest. Those estimates are the weak point — the number of rows a filter will leave is guessed from summaries, and errors multiply through joins — which is why a query can be fast for months and then choose a catastrophic plan after the data shifts.
 
 SQL has outlived every attempt to replace it, and its declarative core has been adopted by systems that started out rejecting it. Being fifty years old, it also has real faults: three-valued logic with NULL is a persistent source of surprises, and the standard is loose enough that dialects differ everywhere it matters.
 
@@ -103,6 +125,14 @@ The newest addition is the **vector index**, which stores the numeric embeddings
 ## What we still argue about
 
 Whether serializable isolation should be the default, given that the weaker defaults are a standing source of subtle corruption. Whether one system can serve transactions and analytics well, or whether the separation is fundamental. How much of the SQL standard's semantics — NULL above all — is worth preserving. And whether the durability guarantees people rely on hold, given repeated findings that layers beneath the database, from file systems to drive firmware, have lied about when data reached the medium.
+
+:::try Put the idea to work
+A payment transaction is sent, then the connection fails before the client receives a reply. Can the client safely assume the payment failed and send a new one?
+
+:::answer Show the reasoning
+No. The database may have committed even though the reply was lost. Use a durable transaction or operation identifier to check the outcome, and design retries so the same logical payment cannot be applied twice. An uncertain acknowledgment is different from a known rollback.
+:::
+:::
 
 ## Summary
 

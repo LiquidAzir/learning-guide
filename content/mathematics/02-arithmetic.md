@@ -4,7 +4,7 @@ subtitle: Fractions, decimals, percentages, negatives, powers, and roots. The fo
 part: I · Foundations
 ---
 
-## Recap
+## How do you keep everyday arithmetic from misleading you?
 
 Chapter 1 promised to close the early gaps. This is where. Nothing here is advanced, but almost every difficulty people have with later mathematics traces back to something on this page, usually fractions, negatives, or percentages. Read it even if you think you know it; the *why* behind the rules is what makes them stick.
 
@@ -136,6 +136,14 @@ A few techniques cover most real situations. **Break numbers apart**: $47 \times
 - Rates do not average like numbers: go back to the totals. Weighted averages count each group in proportion to its size.
 - $0.999\ldots = 1$ exactly. Two names for one number.
 - Round once, at the end, to the precision your least precise input deserves.
+:::
+
+:::try Put the idea to work
+A price rises by 20 percent and then falls by 20 percent. Starting at 100, where does it end, and why?
+
+:::answer Show the reasoning
+It rises to 120, then falls by 20 percent of 120, which is 24, ending at 96. The percentages use different starting amounts. Multiplying the factors, 1.2 × 0.8 = 0.96, makes the change of base explicit.
+:::
 :::
 
 ## Summary

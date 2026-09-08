@@ -4,13 +4,13 @@ subtitle: Most data has no answers attached. Clustering, compressing, spotting t
 part: II · Learning from Data
 ---
 
-## Recap
+## What can you learn without correct-answer labels?
 
 Every model so far was told the right answer for each training example. Most data in the world comes without answers: customer records with no "type" column, sensor logs with no "fault" flag, a million photographs with no captions. **Unsupervised learning** looks for structure in such data on its own: groups, directions of variation, oddities, and hidden factors. It is less glamorous than prediction and at least as useful, and its central idea, learning a compact **representation** of data, turned out to be the road to modern AI.
 
 ## Clustering: who goes with whom
 
-**Clustering** partitions examples into groups so that members of a group resemble each other more than they resemble outsiders. Nobody tells the algorithm what the groups are or how many; it finds them. Marketers use it to segment customers, biologists to group genes by expression pattern, astronomers to classify galaxies, and every large company to make sense of data it has never looked at.
+**Clustering** groups examples by similarity without providing a correct group label for each example. The researcher still makes choices: what counts as similar, which algorithm to use, and sometimes how many groups to look for. Marketers use it to segment customers, biologists to group genes by expression pattern, and astronomers to explore populations of galaxies. A cluster is a useful pattern to investigate, not automatically a natural category.
 
 The workhorse is **k-means**, an algorithm so simple it was invented several times, most famously by Stuart Lloyd at Bell Labs in 1957.[^1] Choose $k$, the number of clusters. Place $k$ centers at random. Assign each example to its nearest center. Move each center to the average of the examples assigned to it. Repeat until nothing changes. The result is a division of feature space into $k$ regions, each around a center that is the prototype of its group.
 
@@ -80,6 +80,14 @@ Step back and notice what these methods share. Clustering assigns each example a
 - Anomaly detection models the normal and flags the improbable; deciding which anomalies matter is human work.
 - Recommenders learn vectors for users and items whose dot product predicts preference; optimizing engagement is not optimizing for the user.
 - Learned representations, vectors whose geometry encodes meaning, are the idea that connects all of this to deep learning.
+:::
+
+:::try Put the idea to work
+You run k-means with k = 4 and obtain four customer groups. Does that show the business has exactly four natural types of customer?
+
+:::answer Show the reasoning
+No: four was an input to the algorithm. The groups also depend on features, scaling, and the distance measure. Check whether the grouping is stable and useful for the intended decision, and whether a different number or method gives a more informative picture.
+:::
 :::
 
 ## Summary

@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-02",
-  "note": "Each entry was checked against a live page on the date in its 'verified' field. Add new entries anywhere; the app sorts by date. Keep 'status' honest: confirmed, preliminary, disputed, or retracted. 'chapter' must match a chapter file slug (filename without the number prefix).",
+  "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
       "id": "nobel-2022-banks-crises",
@@ -15,8 +15,10 @@
       "topic": "prizes",
       "chapter": "money",
       "summary": "The 2022 prize went to Bernanke, Diamond and Dybvig for research on banks and financial crises. Diamond and Dybvig showed why banks are useful but fragile: they turn short-term deposits into long-term loans, which works until many depositors panic and withdraw at once, a bank run. Bernanke showed with historical data that bank failures turned the 1930s downturn into the Great Depression, which is why governments now act quickly to stop bank collapses.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The 2022 economics prize recognizes research on banks and crises",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-2023-goldin-women-labor",
@@ -31,8 +33,10 @@
       "topic": "prizes",
       "chapter": "firms-labor",
       "summary": "Claudia Goldin won for advancing our understanding of women's labor market outcomes. Using more than 200 years of US data, she showed that women's participation in paid work did not rise steadily but followed a U-shape, falling as farms gave way to factories and rising again with the growth of office and service jobs. She also showed that much of today's remaining pay gap between men and women opens up after the birth of a first child.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The 2023 economics prize honors research on women's labor-market outcomes",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-2024-institutions-prosperity",
@@ -47,8 +51,10 @@
       "topic": "prizes",
       "chapter": "growth",
       "summary": "Acemoglu, Johnson and Robinson were honored for studies of how institutions are formed and affect prosperity. Institutions here means the rules of a society: property rights, rule of law, and who holds political power. Using the natural experiment of European colonization, they showed that places given inclusive institutions, with broad rights and opportunities, grew rich over time, while places given extractive institutions designed to take resources from the population stayed poor.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The 2024 economics prize recognizes research on institutions and prosperity",
+      "sourceType": "Announcement"
     },
     {
       "id": "nobel-2025-innovation-growth",
@@ -63,8 +69,10 @@
       "topic": "prizes",
       "chapter": "growth",
       "summary": "The 2025 prize was awarded for explaining innovation-driven economic growth. Mokyr, an economic historian, identified why sustained technological progress began only about two centuries ago: societies needed both useful scientific knowledge and openness to change. Aghion and Howitt built the mathematical theory of creative destruction, the process by which new products and firms constantly replace old ones, and showed this churn is the engine of long-run growth.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The 2025 economics prize recognizes explanations of innovation-driven growth",
+      "sourceType": "Announcement"
     },
     {
       "id": "bernanke-blanchard-pandemic-inflation",
@@ -79,8 +87,10 @@
       "topic": "macro",
       "chapter": "cycles",
       "summary": "Bernanke and Blanchard built a simple model of prices, wages and inflation expectations to explain the 2021 to 2023 US inflation surge. They found most of the initial jump came from shocks that raised prices directly, such as energy and commodity spikes and pandemic supply-chain bottlenecks, rather than from an overheated labor market. But tight labor markets have a slower, more persistent effect on wages, so bringing inflation fully back to target still required cooling the balance between labor demand and supply.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Researchers separate the forces behind US pandemic inflation",
+      "sourceType": "Journal publication"
     },
     {
       "id": "shapiro-supply-demand-inflation",
@@ -95,8 +105,10 @@
       "topic": "macro",
       "chapter": "cycles",
       "summary": "Shapiro developed a way to split monthly US inflation into a part driven by demand (people wanting to buy more) and a part driven by supply (goods becoming harder to produce or ship). The trick: if a category's price and quantity move in the same direction, demand is the driver; if they move in opposite directions, supply is. The resulting series showed that both forces mattered in 2021 and 2022, and the San Francisco Fed now publishes the decomposition as a real-time monitoring tool.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A method separates supply-driven and demand-driven price increases",
+      "sourceType": "Journal publication"
     },
     {
       "id": "fed-inflation-since-pandemic-lessons",
@@ -111,8 +123,10 @@
       "topic": "macro",
       "chapter": "money",
       "summary": "This Federal Reserve staff retrospective, written for the 2025 framework review, concludes that the post-pandemic inflation surge reflected severe imbalances between supply and demand created by the pandemic and the policy response. Short-term inflation expectations of households and firms rose with actual inflation and may have made it more persistent. Because long-term expectations stayed anchored near 2 percent, inflation was able to fall from its mid-2022 peak without a large rise in unemployment.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The inflation surge tests central banks' earlier assumptions",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "fed-framework-review-2025",
@@ -127,8 +141,10 @@
       "topic": "money-banking",
       "chapter": "money",
       "summary": "After a year-long review, the Fed unanimously revised its policy framework on 22 August 2025. The 2020 promises to respond only to shortfalls in employment and to let inflation run moderately above 2 percent after periods below target were removed; the current statement instead says the Fed will act on departures from its goals in either direction and act forcefully to keep long-term inflation expectations anchored. The 2 percent target itself was not changed, and the Fed committed to a public review roughly every five years.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The Federal Reserve updates its monetary-policy strategy",
+      "sourceType": "Announcement"
     },
     {
       "id": "bis-annual-economic-report-2026",
@@ -143,8 +159,10 @@
       "topic": "macro",
       "chapter": "frontier",
       "summary": "The BIS, the central banks' bank, warned in its 2026 annual report that the closure of the Strait of Hormuz had created a new energy and raw-materials supply shock. Its main lesson from 2021 to 2023 is that inflation can become entrenched if people's expectations of future inflation drift upward, so central banks should prioritize price stability even when the shock comes from supply. It also flagged a fiscal-financial nexus: near-record public debt plus higher interest rates leave governments less room to respond to the next crisis.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The BIS examines pressure points in the global economy",
+      "sourceType": "Announcement"
     },
     {
       "id": "cbo-long-term-budget-outlook-2026",
@@ -159,8 +177,10 @@
       "topic": "fiscal",
       "chapter": "cycles",
       "summary": "CBO's 30-year projection shows US federal debt held by the public rising from roughly 100 percent of GDP today to about 175 percent of GDP by 2056 if current laws stay in place, far above the previous record set after World War II. Interest payments alone are projected to more than double from about 3.2 percent of GDP in 2025 to 6.9 percent by 2056, and annual deficits reach 9.1 percent of GDP. The projections were made before the Supreme Court's February 2026 ruling on tariffs and do not include its effects.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "US budget projections trace debt and interest costs through 2056",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "imf-fiscal-monitor-april-2026",
@@ -175,8 +195,10 @@
       "topic": "fiscal",
       "chapter": "cycles",
       "summary": "The IMF reports that global government debt reached nearly 94 percent of world GDP in 2025 and is on track to hit 100 percent by 2029, a level seen only after World War II. The fiscal gap, the difference between what governments actually run as primary balances and what would be needed to stop debt from growing, has shrunk from over 1 percent of GDP a decade ago to near zero, and interest bills have risen from 2 to nearly 3 percent of global GDP in four years. The report notes the US is running deficits of 7 to 8 percent of GDP.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The IMF examines how high debt constrains fiscal choices",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "cavallo-tariff-price-tracking-2025",
@@ -192,7 +214,9 @@
       "chapter": "trade",
       "summary": "Using daily prices scraped from large US retailers and matched to each product's country of origin and tariff rate, the authors tracked how the 2025 tariffs showed up on store shelves. Prices started rising right after the March 2025 announcements, imported goods rose about twice as much as domestic ones, and by September 2025 tariffs had added roughly 0.7 percentage points to the Consumer Price Index. Retail pass-through, the share of the tariff that reaches the shopper, was about 20 percent, meaning importers and retailers absorbed much of the cost in the short run.",
       "status": "preliminary",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Researchers track how US tariffs affect prices in the short run",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "fajgelbaum-khandelwal-tariffs-2025",
@@ -208,7 +232,9 @@
       "chapter": "trade",
       "summary": "This 2026 assessment finds the 2025 tariffs raised the average US import duty from 2.4 percent to 9.6 percent, and that about 90 percent of the tariff was passed through to the prices US importers pay, so foreign exporters did not absorb it. The net effect on US welfare was small, between a 0.13 percent loss and a 0.10 percent gain of GDP, because consumer losses were roughly offset by tariff revenue. The tariffs raised revenue and shifted trade away from China, but the authors find no clear evidence yet that they reduced the trade deficit or boosted manufacturing.",
       "status": "preliminary",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Early estimates assess the economic effects of the 2025 tariffs",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "yale-budget-lab-state-of-tariffs-2026",
@@ -224,7 +250,9 @@
       "chapter": "trade",
       "summary": "Yale's running tracker puts the average US statutory tariff rate at 11.0 percent as of late August 2026, with scheduled increases taking it to 11.8 percent by year-end. The lab estimates current-law tariffs will ultimately raise consumer prices about 0.7 percent, costing the average household roughly 1,100 dollars a year, while raising about 1.9 trillion dollars of federal revenue over ten years before accounting for slower growth.",
       "status": "preliminary",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "A tracker maps the changing pattern of US tariffs",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "figura-waller-beveridge-soft-landing",
@@ -239,8 +267,10 @@
       "topic": "macro",
       "chapter": "cycles",
       "summary": "The Beveridge curve is the historical relationship between job openings and unemployment: when openings fall, unemployment usually rises. Fed Governor Waller and economist Figura argued that because openings were so unusually high in 2022, the curve was steep enough that openings could fall sharply while unemployment rose only about one percentage point, so a soft landing without a recession was possible if layoffs stayed low. Events in 2023 and 2024 largely bore this out.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Vacancies and unemployment test the possibility of a soft landing",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "blanchard-domash-summers-beveridge",
@@ -255,8 +285,10 @@
       "topic": "macro",
       "chapter": "cycles",
       "summary": "Taking the opposite side of the 2022 soft-landing debate, Blanchard, Domash and Summers examined every past US episode in which job openings fell and found that unemployment always rose substantially. They also estimated that the natural unemployment rate, the level consistent with stable inflation, had risen about 1.3 percentage points since before COVID, so cooling inflation would require higher unemployment. The disagreement with Figura and Waller framed the later immaculate disinflation discussion, and the outcome mostly favored the more optimistic view.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A competing analysis questions an easy path to lower inflation",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "acemoglu-simple-macro-ai-2025",
@@ -271,8 +303,10 @@
       "topic": "ai-work",
       "chapter": "frontier",
       "summary": "Acemoglu uses a task-based model, treating the economy as a list of tasks some of which AI can take over, to estimate how much current AI could raise total factor productivity, meaning output per unit of labor and capital combined. He finds a modest gain of at most about 0.66 percent over ten years, and under 0.53 percent once hard-to-learn tasks are accounted for. This is a leading skeptical benchmark against forecasts that AI will transform growth quickly; he also argues AI will likely shift income from workers toward capital owners.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A task-based model estimates AI's possible contribution to economic growth",
+      "sourceType": "Journal publication"
     },
     {
       "id": "brynjolfsson-li-raymond-generative-ai-at-work-2025",
@@ -287,8 +321,10 @@
       "topic": "ai-work",
       "chapter": "frontier",
       "summary": "The authors studied 5,179 customer-support agents at a software company after some were given a generative-AI assistant that suggested responses. Agents with the tool resolved about 14 percent more issues per hour on average, and the least experienced agents improved by roughly 34 percent, while veteran agents gained little. This is the first large real-world evidence that generative AI can spread the habits of top performers to novices, narrowing skill gaps rather than replacing workers outright.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "An AI assistant changes productivity in customer-support work",
+      "sourceType": "Journal publication"
     },
     {
       "id": "brynjolfsson-chandar-chen-canaries-2026",
@@ -304,7 +340,9 @@
       "chapter": "frontier",
       "summary": "Using payroll records from ADP covering millions of US workers through June 2026, the authors find no economy-wide job losses from AI, but employment of workers aged 22 to 25 in the occupations most exposed to AI is now about 19 percent below where it would be had it tracked less-exposed peers. The gap comes mainly from firms hiring fewer young workers, not firing them, and is concentrated where AI automates tasks rather than assists with them. The authors call the results descriptive early warning signs, not proof of causation.",
       "status": "preliminary",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Employment data look for early signs of AI's effects on younger workers",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "humlum-vestergaard-danish-chatbots-2025",
@@ -320,7 +358,9 @@
       "chapter": "frontier",
       "summary": "Linking surveys of Danish workers to national payroll records, the authors compare workers and workplaces that adopted AI chatbots with those that did not. Two years after ChatGPT launched, they find precisely estimated zero effects on earnings and hours, ruling out changes larger than about 2 percent. Adoption was fast and workers reported time savings, but so far the gains have shown up as reorganized tasks and new roles rather than higher pay.",
       "status": "preliminary",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Danish records test whether AI adoption has changed earnings and hours",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "clemens-edwards-meer-california-fast-food-2025",
@@ -336,7 +376,9 @@
       "chapter": "firms-labor",
       "summary": "California raised the minimum wage for large fast-food chains to 20 dollars an hour in April 2024. Using government employment counts, the authors find fast-food employment in California fell about 2.7 to 3.2 percent relative to the rest of the country from September 2023 to September 2024, roughly 18,000 jobs. Other researchers using different data and comparison groups find little or no job loss, so the employment effect remains actively disputed.",
       "status": "disputed",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "One study tests employment after California's fast-food wage increase",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "dube-california-fast-food-minimum-wage-2026",
@@ -352,7 +394,9 @@
       "chapter": "firms-labor",
       "summary": "Dube, a co-author of the influential 2019 study finding that US minimum-wage increases had little effect on the number of low-wage jobs, examines California's 20-dollar fast-food wage with data through mid-2025. He finds pay for covered workers rose about 7 percent while employment barely changed, and that worker turnover dropped sharply. The result conflicts with the Clemens, Edwards and Meer finding of job losses, so the debate is unresolved.",
       "status": "disputed",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Another study estimates the effects of California's fast-food minimum wage",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "auten-splinter-income-inequality-tax-data-2024",
@@ -368,7 +412,9 @@
       "chapter": "firms-labor",
       "summary": "Auten and Splinter re-estimate the share of US income going to the top 1 percent since the 1960s by allocating income that never appears on tax returns, such as employer health benefits, retirement income and government transfers, differently from earlier work. They conclude the top 1 percent share, after taxes and transfers, has risen only modestly, far less than the sharp rise reported by Piketty, Saez and Zucman. Those authors argue that correcting how untaxed business and capital income is allocated restores the large rise; the dispute is ongoing.",
       "status": "disputed",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Tax records give a different account of long-run US inequality",
+      "sourceType": "Journal publication"
     },
     {
       "id": "world-inequality-report-2026",
@@ -383,8 +429,10 @@
       "topic": "inequality",
       "chapter": "firms-labor",
       "summary": "The World Inequality Lab's flagship report, released 10 December 2025, compiles income and wealth data across countries and finds that global wealth and income are at historic highs but remain extremely concentrated: the top 0.001 percent, fewer than 60,000 people, hold about three times the wealth of the poorer half of humanity. It also documents large gaps in education spending per child across regions and a wide gender gap in hourly earnings. Its methods build on the Piketty, Saez and Zucman approach that Auten and Splinter dispute, so its US figures are part of that debate.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The World Inequality Report compares income and wealth gaps",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "fed-distributional-financial-accounts-2026q1",
@@ -399,8 +447,10 @@
       "topic": "inequality",
       "chapter": "firms-labor",
       "summary": "The Federal Reserve's Distributional Financial Accounts combine survey and national-accounts data to estimate quarterly how US household wealth, assets minus debts, is split across groups. The latest release shows the wealthiest 1 percent of households held about 31.6 percent of all US net worth in the first quarter of 2026, close to the record set the prior quarter. It is the standard official source for tracking US wealth concentration.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Federal Reserve data track who holds US household wealth",
+      "sourceType": "Data or tracker"
     },
     {
       "id": "chetty-changing-opportunity-2026",
@@ -415,8 +465,10 @@
       "topic": "inequality",
       "chapter": "firms-labor",
       "summary": "Using tax and Census records for Americans born between 1978 and 1992, the Opportunity Insights team finds that the earnings gap between children from rich and poor white families widened by about 30 percent, while the gap between Black and white children from low-income families narrowed by about 30 percent. The driver appears to be local conditions in childhood: children did better where parental employment rates in their own community were rising, with the effect strongest for children who moved there young. Mobility is shaped by community-level change, not fixed by race or class alone.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Research traces changing class and race gaps in economic mobility",
+      "sourceType": "Journal publication"
     },
     {
       "id": "bloom-han-liang-hybrid-work-nature-2024",
@@ -431,8 +483,10 @@
       "topic": "labor",
       "chapter": "firms-labor",
       "summary": "In a randomized experiment at the travel company Trip.com, about 1,600 engineers, marketing and finance employees were assigned by lottery either to work from home two days a week or to come in five days. Hybrid workers were about a third less likely to quit, with no measurable loss in performance reviews, promotions or output over two years. Because the design is a true experiment, it is the strongest evidence to date that hybrid schedules can cut costly turnover without hurting productivity.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A hybrid-work trial finds better retention without lower measured performance",
+      "sourceType": "Journal publication"
     },
     {
       "id": "greenaway-mcgrevy-phillips-auckland-upzoning-2023",
@@ -447,8 +501,10 @@
       "topic": "housing",
       "chapter": "markets",
       "summary": "In 2016 Auckland, New Zealand, upzoned about three-quarters of its residential land, relaxing rules so that more homes such as townhouses and apartments could be built on each lot. Comparing upzoned areas with similar areas that kept the old rules, the authors find building permits rose sharply and stayed high, with no evidence the extra construction merely shifted from other neighborhoods. It is the leading real-world test showing that loosening zoning increases housing supply, which underpins the argument that supply restrictions raise prices.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Auckland's zoning changes provide a test of housing-supply reform",
+      "sourceType": "Journal publication"
     },
     {
       "id": "maier-no-evidence-nudging-pnas-2022",
@@ -464,7 +520,9 @@
       "chapter": "choice",
       "summary": "A meta-analysis by Mertens and colleagues earlier in 2022 pooled over 200 studies and concluded that nudges, small changes in how choices are presented such as default options, have a reliable medium-sized effect on behavior. Maier and co-authors re-analyzed the same data correcting for publication bias, the tendency for studies with positive results to be published more often, and found the evidence for an average nudge effect disappears. Together the two papers show that nudges can work in specific settings but that the headline claims of broad effectiveness are contested.",
       "status": "disputed",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Adjusting for publication bias weakens the estimated effect of nudges",
+      "sourceType": "Journal publication"
     },
     {
       "id": "dellavigna-linos-rcts-to-scale-2022",
@@ -479,8 +537,10 @@
       "topic": "behavioral",
       "chapter": "choice",
       "summary": "The authors obtained the full record of 126 randomized trials run by two US government nudge units covering about 23 million people, including trials that were never published. Nudges in these real government programs raised take-up of the targeted behavior by about 1.4 percentage points on average, versus roughly 8.7 percentage points reported in published academic studies of similar nudges. Most of the gap is explained by publication bias and by academic trials targeting smaller, more responsive groups, so nudges help at scale but far less than the published literature implies.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Complete government trial records show how nudges work at scale",
+      "sourceType": "Journal publication"
     },
     {
       "id": "kleven-landais-leite-mariante-child-penalty-atlas-2025",
@@ -495,8 +555,10 @@
       "topic": "labor",
       "chapter": "firms-labor",
       "summary": "The child penalty is the drop in a woman's employment or earnings after her first child, relative to the father's, which barely changes. Using data from 134 countries, the authors show child penalties are small in low-income economies and become large as countries develop, so that in rich countries most of the remaining gender gap in employment is tied to parenthood. This connects to Claudia Goldin's Nobel-recognized work and shows that the remaining gap is driven less by discrimination at hiring and more by what happens after children arrive.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The Child Penalty Atlas maps earnings changes after parenthood",
+      "sourceType": "Journal publication"
     },
     {
       "id": "de-loecker-eeckhout-macroeconomics-market-power-2026",
@@ -512,7 +574,9 @@
       "chapter": "market-failure",
       "summary": "This survey by the authors of the widely cited 2020 paper on the rise of market power reviews the evidence that markups, the gap between what firms charge and what it costs them to produce one more unit, have risen substantially in the US and other rich economies since 1980, and what that implies for wages, investment and the labor share of income. The underlying markup estimates, which rely on publicly listed firms' accounting data, have been challenged by other economists who argue the measured rise is much smaller. The size of the rise in market power remains contested.",
       "status": "disputed",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "A model links market power with economy-wide outcomes",
+      "sourceType": "Journal publication"
     },
     {
       "id": "wb-poverty-line-3-dollars-2025",
@@ -527,8 +591,10 @@
       "topic": "development",
       "chapter": "development",
       "summary": "The World Bank raised its international extreme-poverty line from 2.15 to 3.00 dollars per person per day, now expressed in 2021 purchasing-power-parity dollars, a conversion that adjusts for what money actually buys in each country. Under the new line, about 838 million people were living in extreme poverty in 2022, roughly 125 million more than the old line implied. The change mostly reflects updated price data and revised national poverty lines, not a sudden rise in real hardship.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The World Bank revises its global poverty lines",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "wb-poverty-prosperity-planet-2024",
@@ -543,8 +609,10 @@
       "topic": "development",
       "chapter": "development",
       "summary": "The first post-pandemic global stock-take found that nearly 700 million people, 8.5 percent of humanity, still lived on less than 2.15 dollars a day and that progress against poverty had essentially stalled since 2020. At the current pace, ending poverty at the 6.85-dollar line used for middle-income countries would take more than a century. The report also stresses that one in five people faces a serious extreme-weather risk in their lifetime, so poverty reduction and climate resilience have to be pursued together.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A World Bank report examines poverty, prosperity, and environmental pressures",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "egger-cash-transfers-general-equilibrium-2022",
@@ -559,8 +627,10 @@
       "topic": "development",
       "chapter": "development",
       "summary": "In a randomized experiment, roughly 1,000-dollar one-time cash grants went to more than 10,500 poor households across 653 villages in rural Kenya, an injection worth over 15 percent of local GDP. Recipients consumed and saved more, but neighbors who received nothing also gained because local businesses sold more, and prices barely rose. The authors estimate a local multiplier of about 2.5, meaning each dollar transferred generated roughly 2.50 dollars of extra economic activity, which suggests cash aid can lift a whole local economy rather than just the person who receives it.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Cash transfers affect neighboring businesses as well as recipients in Kenya",
+      "sourceType": "Journal publication"
     },
     {
       "id": "banerjee-ubi-kenya-2023",
@@ -576,7 +646,9 @@
       "chapter": "development",
       "summary": "This is the first read-out from a 12-year experiment in which entire Kenyan villages receive a universal basic income, a regular unconditional cash payment to every adult. Villages getting the income saw more businesses, higher business revenues, and a shift from wage work to self-employment, while total hours worked did not fall. A one-off lump sum of the same value produced similar or larger gains than the monthly stream, and a short two-year stream produced smaller effects, pointing to savings and credit constraints as key barriers for the poor. The paper has circulated widely but is not yet published in a peer-reviewed journal.",
       "status": "preliminary",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "A long-term basic-income experiment reports short-term results",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "clemens-lewis-h2b-lottery-2026",
@@ -591,8 +663,10 @@
       "topic": "migration",
       "chapter": "development",
       "summary": "The US allocates scarce H-2B visas for seasonal low-skill workers partly by lottery, which lets the authors compare otherwise-similar firms that won or lost. Firms that received more foreign workers produced more, invested more, and earned higher profits, while employment of US-born workers was flat or slightly higher, especially in rural areas. Foreign and native workers were poor substitutes for each other, so restricting the visas hurt firms without freeing up jobs for Americans.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A visa lottery tests the effects of restricting low-skill immigration",
+      "sourceType": "Journal publication"
     },
     {
       "id": "juhasz-lane-rodrik-industrial-policy-2024",
@@ -607,8 +681,10 @@
       "topic": "industrial-policy",
       "chapter": "trade",
       "summary": "Industrial policy means government efforts to steer the economy toward particular sectors, for example through subsidies, tariffs, or targeted infrastructure. This survey argues that a new wave of studies using careful causal methods paints a more favorable picture than the older, mostly correlational literature, which often concluded that such policies fail. The authors re-read the East Asian success stories in this light and describe how modern industrial policy is shifting toward better governance and tools beyond simple subsidies, while stressing that case-by-case details determine whether it works.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "New research revisits when industrial policy can work",
+      "sourceType": "Journal publication"
     },
     {
       "id": "epa-social-cost-ghg-2023",
@@ -623,8 +699,10 @@
       "topic": "climate",
       "chapter": "market-failure",
       "summary": "The social cost of carbon is a dollar estimate of the future damage caused by emitting one extra ton of carbon dioxide today, used to weigh the benefits of climate rules. After peer review and public comment, EPA put the central estimate at about 190 dollars per ton at a 2 percent discount rate, nearly four times the roughly 51-dollar figure the federal government had been using. In January 2025 an executive order withdrew federal social-cost estimates as official policy, so the report remains a reference point in research but is no longer used in US regulatory analysis.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "Updated estimates value the damage from greenhouse-gas emissions",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "bilal-kanzig-climate-macro-2026",
@@ -640,7 +718,9 @@
       "chapter": "frontier",
       "summary": "Most earlier studies measured climate damage by relating a country's own temperature to its output. These authors instead use changes in global average temperature, which track extreme weather such as heat waves, storms and floods much better, and find that 1 degree Celsius of warming lowers world GDP by more than 20 percent in the long run, an order of magnitude above previous estimates. Their implied social cost of carbon exceeds 1,200 dollars per ton, far above the EPA's 190. The estimates are much debated because they rest on a small number of global temperature shocks.",
       "status": "preliminary",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "Global temperature measures change estimates of climate's economic effects",
+      "sourceType": "Journal publication"
     },
     {
       "id": "kotz-economic-commitment-climate-2024-retracted",
@@ -656,7 +736,9 @@
       "chapter": "frontier",
       "summary": "This widely reported paper projected that past emissions had already committed the world to a 19 percent income loss by 2050, about 38 trillion dollars a year, regardless of future policy. In December 2025 the authors retracted it after critics showed the results were highly sensitive to faulty 1995 to 1999 data for a single country, Uzbekistan, and that the uncertainty ranges were understated; correcting these widened the range to 6 to 31 percent. It is a useful case study in how headline climate-damage numbers can change with data and methods, and a revised version is awaiting peer review.",
       "status": "retracted",
-      "verified": "2026-09-02"
+      "verified": "2026-09-02",
+      "headline": "A climate-damage estimate raises questions about long-run economic losses",
+      "sourceType": "Journal publication"
     },
     {
       "id": "dobbeling-carbon-pricing-meta-analysis-2024",
@@ -671,8 +753,10 @@
       "topic": "climate",
       "chapter": "market-failure",
       "summary": "Carbon pricing means making polluters pay per ton of emissions, through either a carbon tax or a cap-and-trade permit market. Pooling 483 estimates from 80 studies of 21 real-world schemes, the authors find that introducing a carbon price cut emissions quickly and substantially in at least 17 of them, by 5 to 21 percent, or 4 to 15 percent after correcting for the tendency to publish only striking results. This is the strongest evidence yet that carbon prices work in practice, though the size of the effect does not line up neatly with how high the price is.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A review assesses how much carbon pricing has reduced emissions",
+      "sourceType": "Journal publication"
     },
     {
       "id": "eu-cbam-definitive-regime-2026",
@@ -687,8 +771,10 @@
       "topic": "climate",
       "chapter": "trade",
       "summary": "The EU's Carbon Border Adjustment Mechanism charges importers for the carbon emitted in making goods abroad, so that foreign producers face a carbon cost similar to EU firms and production does not simply move to countries with weaker rules, so-called carbon leakage. After a reporting-only trial from 2023, the binding phase began on 1 January 2026 for iron and steel, aluminium, cement, fertilisers, electricity and hydrogen. Importers will buy certificates from 2027 and surrender them for 2026 imports, making it the first large-scale carbon tariff.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The EU's carbon border mechanism enters its next phase",
+      "sourceType": "Announcement"
     },
     {
       "id": "fed-svb-review-2023",
@@ -703,8 +789,10 @@
       "topic": "finance",
       "chapter": "money",
       "summary": "After Silicon Valley Bank collapsed in March 2023 in the second-largest US bank failure ever, the Fed's own post-mortem blamed four things: the bank's managers failed to control interest-rate and liquidity risk; supervisors did not grasp how vulnerable the fast-growing bank had become; when they did spot problems they did not force fixes quickly; and a 2018 to 2019 loosening of rules for mid-sized banks weakened oversight. The bank's reliance on uninsured deposits, which can be withdrawn instantly, turned rising interest rates into a run.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The Federal Reserve reviews supervision before Silicon Valley Bank failed",
+      "sourceType": "Announcement"
     },
     {
       "id": "imf-gfsr-private-credit-2024",
@@ -719,8 +807,10 @@
       "topic": "finance",
       "chapter": "finance",
       "summary": "Private credit means loans made directly to mid-sized companies by investment funds rather than by banks or through the bond market, and the sector has grown to rival those markets in size. The IMF's first dedicated assessment finds the immediate risks contained but flags real vulnerabilities: borrowers are small and heavily indebted with floating-rate loans, valuations are infrequent and subjective, several layers of leverage are hidden by reporting gaps, and new retail-oriented funds promising easier withdrawals could face runs. It calls for more intrusive supervision and better data.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The IMF examines the growth and risks of private credit",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "imf-gfsr-april-2026",
@@ -735,8 +825,10 @@
       "topic": "finance",
       "chapter": "finance",
       "summary": "The IMF's spring 2026 stability report judges global risks elevated as the Middle East war pushes up energy prices, inflation expectations and bond yields. On private credit it reports early fault lines: borrower defaults are rising, some leveraged private-credit vehicles have more than half their equity exposed to software companies, and about one-fifth of direct loans now sit in semiliquid funds that let investors redeem periodically, which could amplify a rush for the exits. It concludes that liquidity mismatches are still limited enough to contain systemic damage, but warns of banks' growing links to private lenders.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "The IMF assesses current threats to financial stability",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "genius-act-stablecoins-2025",
@@ -751,8 +843,10 @@
       "topic": "finance",
       "chapter": "money",
       "summary": "A stablecoin is a digital token designed to hold a fixed value, usually one US dollar, so it can be used for payments and trading crypto. The GENIUS Act, signed on 18 July 2025, is the first US federal law for payment stablecoins: only licensed issuers may create them, every coin must be backed one-for-one by dollars or other safe liquid assets, and the coins are neither securities nor insured bank deposits. Economists watch it because a run on a large stablecoin would force fire-sales of the Treasury bills backing it, linking crypto to the wider financial system.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "US legislation establishes a framework for payment stablecoins",
+      "sourceType": "Legal document"
     },
     {
       "id": "chinco-sammon-passive-ownership-2024",
@@ -767,8 +861,10 @@
       "topic": "finance",
       "chapter": "finance",
       "summary": "Passive investing means buying every stock in an index such as the S&P 500 in fixed proportions instead of picking stocks. Official data show index funds held about 16 percent of the US stock market in 2021, but by measuring the burst of trading that occurs when stocks are added to or dropped from indexes, the authors infer that roughly 33.5 percent of the market is actually run passively, once institutions that index in-house and closet indexers are counted. This matters because the more money trades mechanically, the less the market may be doing its job of pricing companies on their merits.",
-      "status": "confirmed",
-      "verified": "2026-09-02"
+      "status": "reported",
+      "verified": "2026-09-02",
+      "headline": "A study argues that passive ownership is larger than common measures suggest",
+      "sourceType": "Journal publication"
     }
   ]
 }

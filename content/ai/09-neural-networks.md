@@ -4,7 +4,7 @@ subtitle: A neuron is a weighted sum and a switch. Stack enough of them and you 
 part: III · Neural Networks
 ---
 
-## Recap
+## What does adding a hidden layer actually buy you?
 
 Logistic regression (chapter 4) computed a weighted sum of the inputs and passed it through a squashing function. That is a neuron. This chapter connects neurons into networks, explains what the layers do, and states the theorem that says a network can represent any function, and why that theorem was less useful than it sounds. The difficulty was never whether networks *could* learn; it was how to make them do so, which is chapter 10.
 
@@ -22,7 +22,7 @@ The biological analogy is real but loose. A brain neuron receives signals throug
 
 A single neuron draws one straight boundary. Minsky and Papert's 1969 example was XOR: output 1 if exactly one of two inputs is 1. Plot the four cases and no single line separates the 1s from the 0s. A single neuron, however trained, cannot learn it.[^2]
 
-Two neurons can. Let one neuron detect "at least one input is on" and another detect "both inputs are on"; feed both into a third neuron that outputs "first minus second." The first two neurons form a **hidden layer**: their outputs are not the answer but a new description of the input in which the answer becomes linearly separable. That is the whole idea of deep learning in one sentence. **Each layer re-describes the input so that the next layer's job is easier**, and the final layer, which is just logistic or linear regression, works on a description in which the problem has become simple.
+Two hidden neurons feeding an output neuron can. Let one neuron detect "at least one input is on" and another detect "both inputs are on"; feed both into a third neuron that outputs "first minus second." The first two neurons form a **hidden layer**: their outputs are not the answer but a new description of the input in which the answer becomes linearly separable. That is the whole idea of deep learning in one sentence. **Each layer re-describes the input so that the next layer's job is easier**, and the final layer, which is just logistic or linear regression, works on a description in which the problem has become simple.
 
 {{fig:neural-network|A feedforward network with three inputs, two hidden layers, and one output. Each circle is a neuron: a weighted sum of the arrows entering it, passed through an activation function. Each layer of arrows is a matrix of weights. Information flows left to right; training flows right to left.}}
 
@@ -95,6 +95,14 @@ The perceptron's learning rule (1958) adjusted the weights of one neuron: if the
 - Universal approximation says a wide network can represent any function; it does not explain learning or generalization. Depth buys compactness.
 - Layers learn a hierarchy of features (edges, parts, objects) without being told to.
 - The output layer is a Part II model on learned features: linear, sigmoid, or softmax with the matching loss.
+:::
+
+:::try Put the idea to work
+Why can two hidden neurons plus an output neuron represent the XOR pattern when a single linear separator cannot?
+
+:::answer Show the reasoning
+XOR's positive cases occupy opposite corners, so one straight boundary cannot separate them. Hidden units create new features, such as “at least one input is on” and “both are on.” The output combines those features to distinguish exactly one active input.
+:::
 :::
 
 ## Summary

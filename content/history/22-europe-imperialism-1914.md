@@ -4,7 +4,7 @@ subtitle: 1871 to 1914. Europe partitions Africa in twenty years, rules most of 
 part: III · European History
 ---
 
-## Recap
+## Why did imperial power and mass politics grow together?
 
 Chapter 21 ended in 1871 with a Europe industrial, nationalist, and confident. This chapter follows that confidence outward, into the conquest of Africa and Asia, and inward, into the arms race and alliance system that made a continental war possible. It ends on the day the war began, and it tries to answer the question historians have asked ever since: how did the most prosperous, educated, and peaceful century Europe had known end in the worst war it had fought?
 
@@ -48,6 +48,14 @@ The forty years before 1914 were the richest, most peaceful, most progressive Eu
 - 1907: Anglo-Russian Entente; the two camps complete.
 - 1912–1913: Balkan Wars.
 - 28 June 1914: Sarajevo. 4 August 1914: Britain enters the war.
+:::
+
+:::try Put the idea to work
+An imperial official describes conquest as a civilizing mission. What kinds of evidence could test that account?
+
+:::answer One way to reason it through
+Compare the rhetoric with taxation, labor demands, violence, local testimony, and who controlled land and trade. Schools or railways do not erase coercion; coercion does not mean every institutional consequence was identical. Evaluate specific practices and whose interests they served.
+:::
 :::
 
 ## Summary

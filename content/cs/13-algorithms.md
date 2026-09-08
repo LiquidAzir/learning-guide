@@ -4,7 +4,7 @@ subtitle: Sorting, searching, graphs, and the four design patterns that cover mo
 part: III · Methods
 ---
 
-## Recap
+## What makes one method better than another for the same problem?
 
 Chapter 12 arranged data. This chapter does things to it. An algorithm is judged on two axes: whether it is correct on every legal input, and what it costs in time and space as the input grows. Almost everything below is a way of buying one with the other.
 
@@ -84,6 +84,14 @@ In 2023 a reinforcement-learning system called AlphaDev, treating instruction se
 ## What we still do not know
 
 Whether $O(E \log^{2/3} V)$ is the end of the shortest-path story or a first crack. Whether matrix multiplication can be done in essentially $O(n^2)$ time, which is where the exponent has been creeping for fifty years. Whether the enormous gap between the best proved bounds and the best implementations will ever close, since many "galactic" algorithms with better asymptotics are slower than the naive method for any input that fits in the universe.
+
+:::try Put the idea to work
+Why does binary search fail as a general recipe on a list that has not been sorted?
+
+:::answer Show the reasoning
+Each comparison rules out half the remaining positions only because the ordering guarantees where the target could be. Without that condition, the discarded half may contain the target. An algorithm's preconditions are part of its correctness argument, not optional preparation.
+:::
+:::
 
 ## Summary
 

@@ -1,6 +1,6 @@
 ---
 title: Glossary and Formula Sheet
-subtitle: Every term defined in this guide, and every formula, on one page.
+subtitle: Definitions and reference facts to return to as you read. Search for a term, check the distinction, and follow its chapter link for the explanation.
 part: VI · The Edge
 ---
 
@@ -52,11 +52,13 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Coefficient.** The number multiplying a variable: the 3 in $3x$.
 
-**Complex number.** $a + bi$ where $i^2 = -1$. The completion of the number system; the language of rotation.
-
 **Completing the square.** Rewriting a quadratic so the variable appears in one squared term; the origin of the quadratic formula.
 
-**Cosine, sine, tangent.** In a right triangle: adjacent over hypotenuse, opposite over hypotenuse, opposite over adjacent. On the unit circle: the $x$ and $y$ coordinates of the point at a given angle.
+**Complex number.** $a + bi$ where $i^2 = -1$. The completion of the number system; the language of rotation.
+
+**Constant.** A value fixed within the problem or relationship being considered. See chapter 4.
+
+**Cosine.** Adjacent side divided by hypotenuse in a right triangle; the horizontal coordinate on the unit circle. See chapter 5.
 
 **Degree and radian.** Units of angle: 360° or $2\pi$ radians to a full turn. A radian is the angle whose arc equals the radius.
 
@@ -66,9 +68,11 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **e.** About 2.71828; the limit of continuous compounding; the base at which the growth rate of $e^x$ equals its value.
 
-**Equation, expression, variable, constant.** A statement that two expressions are equal; a mathematical phrase; a letter whose value varies or is unknown; a fixed number.
+**Equation.** A statement that two expressions are equal. See chapter 4.
 
 **Exponential function.** $y = ab^x$: multiplies by the same factor each step. Growth if $b > 1$, decay if $0 < b < 1$.
+
+**Expression.** A mathematical phrase denoting a value, such as 2x + 3. See chapter 4.
 
 **Factoring.** Writing an expression as a product; the reverse of expanding.
 
@@ -98,11 +102,17 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Similar triangles.** Same angles, proportional sides. The basis of measurement by shadow and of trigonometry.
 
+**Sine.** Opposite side divided by hypotenuse in a right triangle; the vertical coordinate on the unit circle. See chapter 5.
+
 **Slope.** Rise over run: how much $y$ changes per unit of $x$.
 
 **Square-cube law.** Scaling a shape by $k$ multiplies area by $k^2$ and volume by $k^3$.
 
+**Tangent.** Opposite side divided by adjacent side, or sine divided by cosine; undefined where cosine is zero. See chapter 5.
+
 **Unit circle.** The circle of radius 1 at the origin, on which sine and cosine are defined for all angles.
+
+**Variable.** A symbol whose value can vary or is to be determined. See chapter 4.
 
 ### Calculus (chapters 7 and 8)
 
@@ -142,7 +152,7 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Binomial coefficient.** $\binom{n}{k}$, "n choose k": the number of ways to select $k$ things from $n$.
 
-**Binomial, Poisson, normal distributions.** Successes in $n$ trials; rare events at a known rate; the bell curve of summed small effects.
+**Binomial distribution.** The number of successes in a fixed number of independent trials with the same success probability. See chapter 9.
 
 **Central limit theorem.** Sums and averages of many independent quantities are approximately normal, whatever the quantities' own distributions.
 
@@ -156,31 +166,43 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Effect size.** How large an effect is in real units, as opposed to how statistically detectable it is.
 
+**Expected value.** The probability-weighted average of outcomes; the long-run mean.
+
+**Independence.** Events that do not affect each other; only then do probabilities multiply.
+
 **Interquartile range.** The spread of the middle half of the data, from the 25th to the 75th percentile; unaffected by outliers.
 
+**Mean.** The sum of the values divided by their count. See chapter 10.
+
+**Median.** The middle value after sorting, or the average of the middle two in the usual convention for an even-sized sample. See chapter 10.
+
+**Mode.** The most frequent value; there can be more than one. Mean, median, and mode need not agree, especially for skewed data. See chapter 10.
+
 **Multiple comparisons.** Testing many hypotheses at once, so that some reach significance by chance alone.
+
+**Normal distribution.** A symmetric bell-shaped distribution described by its mean and variance; it often approximates sums of many small effects under suitable conditions. See chapter 9.
+
+**Null hypothesis.** The assumption of no effect, against which a p-value is computed.
 
 **Number needed to treat.** 1 divided by the absolute risk reduction: how many people must receive a treatment for one to benefit.
 
 **Odds.** The ratio of the chance for to the chance against: probability 0.25 is odds of 1 to 3.
 
-**Pre-registration.** Publicly fixing the hypothesis and analysis before collecting data, so the analysis cannot be tuned to the result.
-
-**Expected value.** The probability-weighted average of outcomes; the long-run mean.
-
-**Independence.** Events that do not affect each other; only then do probabilities multiply.
-
-**Mean, median, mode.** Sum over count; middle value; most common value. They differ for skewed data.
-
-**Null hypothesis.** The assumption of no effect, against which a p-value is computed.
+**p-hacking.** Trying or selecting analyses in ways that make a significance threshold easier to reach without accounting for those choices. See chapter 10.
 
 **p-value.** The probability of data at least as extreme as observed, if the null hypothesis were true. Not the probability the hypothesis is true.
 
 **Percentile.** The value below which a given percent of the data fall.
 
-**Publication bias, p-hacking, replication crisis.** Positive results get published; flexible analysis manufactures significance; roughly half of celebrated findings fail when redone.
+**Poisson distribution.** A distribution for counts with a specified mean, often modeling independent events occurring at a constant average rate. See chapter 9.
+
+**Pre-registration.** Publicly fixing the hypothesis and analysis before collecting data, so the analysis cannot be tuned to the result.
+
+**Publication bias.** A pattern in which whether a study becomes available depends on its results, distorting the visible evidence. See chapter 10.
 
 **Regression.** Fitting a line (or surface) through data to predict one variable from others; **least squares** minimizes the squared vertical errors. Also **regression to the mean**: extremes are followed by less extreme values.
+
+**Replication crisis.** Concern arising from failures to reproduce findings in several fields; replication rates depend on the studies and criteria examined. See chapter 10.
 
 **Sampling error and bias.** The randomness of who happened to be sampled (shrinks with sample size); a sample that is systematically unrepresentative (does not shrink).
 
@@ -198,21 +220,25 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Algorithm.** A precise step-by-step procedure. Named for al-Khwarizmi.
 
-**Combinatorics.** Counting without listing. **Permutations**: ordered selections. **Combinations**: unordered.
+**Boolean algebra.** The algebra of operations such as AND, OR, and NOT on truth values or bits. See chapter 12.
 
 **Check digit.** A final digit computed from the others by a modular formula (the Luhn algorithm on credit cards) so that a mistyped number is caught.
 
 **Chinese remainder theorem.** Remainders modulo several numbers with no common factor determine a number uniquely modulo their product.
 
-**Cipher, public key, private key.** A method of scrambling a message; a key anyone may use to scramble; the key only the recipient holds to unscramble.
+**Cipher.** An algorithm for encryption and decryption using keys. See chapter 13.
+
+**Combinatorics.** Counting without listing. **Permutations**: ordered selections. **Combinations**: unordered.
 
 **Complexity (computational).** How an algorithm's cost grows with input size: logarithmic, linear, quadratic, exponential.
 
 **Composite number.** A whole number greater than 1 that is not prime.
 
-**Congruence, modular arithmetic.** $a \equiv b \pmod n$: same remainder on division by $n$. Clock arithmetic.
+**Congruence.** Integers a and b are congruent modulo n when n divides a − b, equivalently when they have the same remainder. See chapter 13.
 
-**Contrapositive, converse.** Of "if P then Q": "if not Q then not P" (equivalent) and "if Q then P" (not equivalent).
+**Contrapositive.** For “if P then Q,” the statement “if not Q then not P.” It is logically equivalent to the original. See chapter 12.
+
+**Converse.** For “if P then Q,” the statement “if Q then P.” It does not follow automatically from the original. See chapter 12.
 
 **Cosine similarity.** The dot product of two vectors divided by their lengths: the cosine of the angle between them, used to measure how alike two lists of numbers are.
 
@@ -220,13 +246,21 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Determinant.** A number attached to a square matrix measuring how much it scales volume; zero means the matrix cannot be inverted.
 
-**Elliptic curve cryptography.** Public-key encryption using the arithmetic of points on a curve $y^2 = x^3 + ax + b$ modulo a prime; shorter keys than RSA for the same security.
-
 **Dot product.** Multiply matching components and add; measures alignment of two vectors.
 
-**Eigenvector, eigenvalue.** A vector a matrix only stretches, and the stretch factor.
+**Eigenvalue.** The scalar multiplying an eigenvector; it may represent stretching, reversal, or collapse to zero. See chapter 11.
+
+**Eigenvector.** A nonzero vector that a linear transformation multiplies by a scalar rather than turning into a different direction. See chapter 11.
 
 **Elimination (Gaussian).** Solving a linear system by subtracting multiples of equations to create zeros, then back-substituting.
+
+**Elliptic curve cryptography.** Public-key encryption using the arithmetic of points on a curve $y^2 = x^3 + ax + b$ modulo a prime; shorter keys than RSA for the same security.
+
+**Euler's theorem.** For a coprime to n, a^φ(n) is congruent to 1 modulo n; the totient φ(n) counts integers from 1 to n that are coprime to n. See chapter 13.
+
+**Fermat's little theorem.** For prime p and an integer a not divisible by p, a^(p−1) is congruent to 1 modulo p. See chapter 13.
+
+**Four color theorem.** Any map can be colored with four colors so no neighbors match; proved in 1976 with computer help.
 
 **Gödel's incompleteness theorems.** Any consistent axiom system containing arithmetic has true unprovable statements and cannot prove its own consistency.
 
@@ -234,35 +268,45 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Greatest common divisor.** The largest number dividing two given numbers; found by Euclid's algorithm.
 
-**Fermat's little theorem, Euler's theorem.** $a^{p-1} \equiv 1 \pmod p$ for prime $p$; generalized to any modulus $n$ using the **totient** $\varphi(n)$, the count of numbers below $n$ sharing no factor with it.
-
-**Four color theorem.** Any map can be colored with four colors so no neighbors match; proved in 1976 with computer help.
-
 **Halting problem.** Whether a program eventually stops. Turing proved no algorithm decides it for all programs.
 
-**Identity matrix, inverse matrix.** The matrix that changes nothing (1s on the diagonal); the matrix that undoes another, existing only when the determinant is nonzero.
+**Identity matrix.** A square matrix with 1s on the diagonal and 0s elsewhere, leaving vectors unchanged. See chapter 11.
 
 **Induction.** Proving a statement for all whole numbers: show the base case, then that each case implies the next.
 
+**Inverse matrix.** A matrix that undoes another square matrix's transformation; it exists exactly when that matrix is nonsingular, equivalently when its determinant is nonzero. See chapter 11.
+
 **Matrix.** A grid of numbers; a table of data and a linear transformation. **Sparse** if most entries are zero.
 
-**PageRank, principal component analysis.** Ranking web pages by the dominant eigenvector of the link matrix; finding the directions in which data vary most, as eigenvectors of the covariance matrix.
+**Modular arithmetic.** Arithmetic on congruence classes, as in a clock that discards complete cycles. See chapter 13.
 
 **P versus NP.** Whether every problem whose solutions can be checked quickly can also be solved quickly. Open; believed no.
 
+**PageRank.** A ranking method based on the stationary distribution of a modified random walk through a link network. See chapter 11.
+
 **Pigeonhole principle.** More items than boxes means some box has two.
+
+**Post-quantum cryptography.** Cryptographic schemes designed to resist known attacks by both classical and quantum computers. See chapter 13.
 
 **Prime.** A number greater than 1 divisible only by 1 and itself. **Fundamental theorem of arithmetic**: every number factors uniquely into primes. **Prime number theorem**: about $N/\ln N$ primes lie below $N$. **Twin primes** differ by 2; **Mersenne primes** have the form $2^p - 1$.
 
-**Proposition, Boolean algebra.** A statement that is true or false; the algebra of combining such statements with AND, OR, NOT, in which computers are built.
+**Principal component analysis.** Finding orthogonal directions of greatest variance, usually through eigenvectors of a covariance matrix or an equivalent singular-value decomposition. See chapter 11.
 
-**Public-key cryptography, RSA.** Encryption where the locking key is public and the unlocking key private; RSA's security rests on the difficulty of factoring.
+**Private key.** The secret member of an asymmetric pair, used for corresponding operations such as decryption or signing. See chapter 13.
 
-**Quantum computer, post-quantum cryptography.** A machine exploiting quantum mechanics that could factor large numbers quickly (Shor, 1994); encryption designed to resist it, standardized in 2024.
+**Proposition.** A statement assigned a truth value, true or false, in classical logic. See chapter 12.
+
+**Public key.** The shareable member of an asymmetric key pair, used for functions such as encryption or signature verification depending on the scheme. See chapter 13.
+
+**Public-key cryptography.** Cryptography using related public and private keys, enabling operations such as encryption and digital signatures. See chapter 13.
+
+**Quantum computer.** A device using quantum states and operations to perform computations; Shor's algorithm would allow a sufficiently capable one to factor large integers efficiently. See chapter 13.
 
 **Ramsey theory.** The study of the order that must appear in any sufficiently large structure: among six people, three mutual friends or three mutual strangers.
 
 **Recursion.** A procedure that calls itself on a smaller version of the problem; merge sort splits, sorts each half, and merges.
+
+**RSA.** A public-key system using modular arithmetic with a product of large primes; factoring that product would break its usual security assumptions. See chapter 13.
 
 **Set.** A collection. **Union**, **intersection**, **complement** are OR, AND, NOT.
 
@@ -280,13 +324,19 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **APR and APY.** Nominal annual rate; effective annual rate after compounding.
 
-**Binary, byte, double precision.** Base-2 numbers; eight binary digits; the 64-bit floating-point format carrying about 16 decimal digits.
+**Binary.** Base-2 representation, using digits 0 and 1. See chapter 15.
+
+**Byte.** A group of eight bits in modern usage. See chapter 15.
+
+**Cancellation.** Loss of relative precision when nearly equal approximate quantities are subtracted. See chapter 15.
 
 **Compound interest.** Interest earned on interest; exponential growth of money. **Simple interest** pays on the original **principal** only.
 
+**Condition number.** How much a problem amplifies input errors, regardless of the algorithm.
+
 **Debt-to-income ratio.** Monthly debt payments divided by gross monthly income; what lenders check.
 
-**Condition number.** How much a problem amplifies input errors, regardless of the algorithm.
+**Double precision.** The common 64-bit floating-point format, with about 15–17 significant decimal digits of precision. See chapter 15.
 
 **Fermi estimation.** Decomposing a quantity into factors guessed to one significant figure; accurate to a factor of ten.
 
@@ -306,7 +356,7 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 **Real versus nominal.** Corrected for inflation, versus in the money of the day.
 
-**Rounding error, cancellation.** Accumulated small errors from finite precision; loss of digits when subtracting nearly equal numbers.
+**Rounding error.** The difference introduced when a value is represented or computed with finite precision. See chapter 15.
 
 **Rule of 70 (or 72).** Doubling time in periods is about 70 divided by the percentage growth rate; money people use 72 because it divides evenly by common rates. Both approximate $\ln 2 \approx 0.693$.
 
@@ -314,21 +364,25 @@ The first half is the glossary: terms grouped by the chapter that introduces the
 
 ### The frontier (chapter 16)
 
+**Abel Prize.** An annual mathematics prize recognizing major contributions, without the Fields Medal's age limit. See chapter 16.
+
 **Busy Beaver.** The longest an $n$-state Turing machine can run before halting; grows faster than any computable function. BB(5) was determined in 2024.
 
 **Continuum Hypothesis.** That no size of infinity lies between the whole numbers and the real numbers; proved independent of the standard axioms (1940, 1963).
 
 **Einstein (aperiodic monotile).** A single shape that tiles the plane only without repeating; the "hat," found in 2022.
 
-**Fields Medal, Abel Prize.** The two highest honors: quadrennial, for mathematicians under 40; annual, for lifetime achievement.
+**Fields Medal.** A major mathematics award made every four years with an age eligibility rule of being under 40 at the start of the award year. See chapter 16.
 
-**Formalization, proof assistant.** Writing a proof so that software (Lean, Coq, Isabelle) checks every step.
+**Formalization.** Expressing mathematical definitions and arguments in a formal language with explicit logical rules. See chapter 16.
 
 **Group theory.** The mathematics of symmetry, begun by Galois.
 
 **Langlands program.** Conjectured bridges between number theory and analysis; the geometric version was proved in 2024.
 
 **Millennium Prize Problems.** Seven problems with a million-dollar prize each; one, the **Poincaré conjecture** (every closed three-dimensional space without holes is a sphere), solved by Perelman in 2003. The others include the Riemann Hypothesis, P versus NP, and **Navier–Stokes** (whether the fluid equations always have smooth solutions).
+
+**Proof assistant.** Software used to construct and check formal proofs, such as Lean, Coq, or Isabelle. See chapter 16.
 
 **Riemann Hypothesis.** That the zeta function's nontrivial zeros all lie on one line; the most important open problem.
 

@@ -4,7 +4,7 @@ subtitle: Interest, loans, mortgages, inflation, tips, discounts, conversions, a
 part: V · Math in Use
 ---
 
-## Recap
+## How do time and uncertainty change the value of money?
 
 Chapters 2, 4, and 6 gave percentages, exponents, and exponential growth. This chapter puts them to the use most people meet most often: money. Nothing here is beyond arithmetic and one formula, but the results surprise almost everyone the first time, and the surprise is worth a great deal over a lifetime.
 
@@ -151,6 +151,14 @@ Three habits protect against most financial mistakes. **Convert to a yearly figu
 - Only the dollars above a bracket threshold are taxed at the higher rate. A raise never reduces take-home pay.
 - Always correct for inflation before comparing money across years.
 - Stacked percentages multiply. Convert units by multiplying by fractions equal to 1 and checking that units cancel.
+:::
+
+:::try Put the idea to work
+An amount grows by 5 percent a year for two years. Is the total growth 10 percent? Use 100 as a starting amount.
+
+:::answer Show the reasoning
+It becomes 105 after one year and 110.25 after two: growth of 10.25 percent. The second year's increase applies to the first year's gain too. The factor is 1.05². This is an arithmetic illustration with a fixed rate, not a forecast of an investment return.
+:::
 :::
 
 ## Summary

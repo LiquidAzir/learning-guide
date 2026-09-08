@@ -4,7 +4,7 @@ subtitle: The unit of life. What is inside one, how the two kinds differ, why ev
 part: II · The Cell and Its Chemistry
 ---
 
-## Recap
+## What makes a cell more than a bag of chemicals?
 
 Chapter 2 traced the idea that all living things are made of cells and that every cell comes from another. This chapter opens one up. Everything in Part II happens inside the structure described here, so it is worth a slow read.
 
@@ -58,7 +58,15 @@ In 1951 a thirty-one-year-old woman named Henrietta Lacks was treated for cervic
 
 ## What we still do not know
 
-How the first cell formed (chapter 19). How a cell knows how big it is, and stops growing. How the cytoplasm's crowding is organized; the discovery around 2009 that many proteins form liquid droplets inside cells, like oil in water, opened a field that is still being mapped. How many kinds of cell a human has: the Human Cell Atlas, which is cataloguing them by the genes each one expresses, has passed several thousand types and is not finished.[^10] The cell was described in 1665 and named in 1839; its inventory is still being taken.
+How the first cell formed (chapter 19). How a cell knows how big it is, and stops growing. How the cytoplasm's crowding is organized; the discovery around 2009 that many proteins form liquid droplets inside cells, like oil in water, opened a field that is still being mapped. How many kinds of cell a human has: the Human Cell Atlas, which is cataloguing them by the genes each one expresses, has passed several thousand types and is not finished.[^10] Hooke named cells in 1665; cell theory took shape in 1838–1839; its inventory is still being taken.
+
+:::try Put the idea to work
+A cell's membrane becomes freely permeable to every dissolved substance. Why would that be a problem even if none of its enzymes were damaged?
+
+:::answer Show the reasoning
+The cell could no longer maintain the concentration differences that support transport, energy conversion, and regulated reactions. Compartments do work by controlling exchange. The same molecules in an unregulated mixture need not behave like a living cell.
+:::
+:::
 
 ## Summary
 

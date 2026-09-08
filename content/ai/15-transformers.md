@@ -1,10 +1,10 @@
 ---
 title: The Transformer
-subtitle: The 2017 paper that every modern AI system is built on. Self-attention, explained completely; why it beat recurrence; and what actually happens inside one when it predicts a word.
+subtitle: How attention made language models easier to scale. Follow a token through a transformer, see why the design displaced recurrence in many language systems, and understand what predicting the next token involves.
 part: IV · Large Language Models
 ---
 
-## Recap
+## How can attention replace reading one token at a time?
 
 Chapter 12 ended with attention grafted onto recurrent networks. In 2017 a team at Google asked what would happen if the recurrence were removed and attention did all the work. The resulting architecture, the **transformer**, is the basis of every large language model, of modern vision and speech systems, of AlphaFold, and of the image generators' text encoders. This chapter explains it fully. There are equations, and every symbol is named; if you follow this chapter you will understand what a language model is doing at the level of arithmetic, which is the only level at which it can be understood.
 
@@ -97,6 +97,14 @@ When a model is described as "a 70B decoder-only transformer, 80 layers, $d = 81
 - Parameters are almost entirely two kinds of matrix, about $12d^2$ per layer.
 - The transformer won because it turns the whole computation into big matrix multiplications that GPUs do fast, so all the budget goes to scale.
 - Generation is a few hundred matrix multiplications per token and a weighted random draw. The model picks plausible continuations; it does not look things up.
+:::
+
+:::try Put the idea to work
+Why must a next-token language model mask future tokens during training, even though the whole training sentence is available?
+
+:::answer Show the reasoning
+Otherwise it could use the answer, or information from beyond it, to predict the next token. That would train under conditions unavailable at generation time. A causal mask makes each position depend only on the permitted preceding context and its current input token.
+:::
 :::
 
 ## Summary

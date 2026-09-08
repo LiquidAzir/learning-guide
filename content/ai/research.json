@@ -1,6 +1,6 @@
 {
   "updated": "2026-09-03",
-  "note": "Each entry was checked against a live page on the date in its 'verified' field. Add new entries anywhere; the app sorts by date. Keep 'status' honest: confirmed, preliminary, disputed, or retracted. 'chapter' must match a chapter file slug (filename without the number prefix).",
+  "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
       "id": "bartz-v-anthropic-2025",
@@ -15,8 +15,10 @@
       "topic": "law",
       "chapter": "society",
       "summary": "The first US court decision on whether training a large language model on copyrighted books is fair use. On 23 June 2025 Judge Alsup ruled that training itself was 'exceedingly transformative' and therefore fair use, and that scanning lawfully purchased print books was also fair use, but that downloading around seven million pirated books to build a permanent library was not. Facing a class trial on the piracy claims, Anthropic agreed in August 2025 to pay $1.5 billion, about $3,000 per work for roughly 480,000 books, the largest copyright settlement in US history; it was preliminarily approved in September 2025 and given final approval on 20 July 2026. Because it settled, the fair-use holding is a single district-court opinion, not binding precedent, and other cases (including NYT v. OpenAI) continue.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "An AI-training copyright case produces a fair-use ruling and settlement",
+      "sourceType": "Legal document"
     },
     {
       "id": "stanford-ai-index-2026",
@@ -31,8 +33,10 @@
       "topic": "benchmarks",
       "chapter": "society",
       "summary": "Stanford's annual 400-plus-page compendium of AI data. Headline findings this year: industry produced over 90% of notable frontier models in 2025; scores on the SWE-bench Verified software-engineering benchmark (a human-checked 500-problem subset) jumped from about 60% to nearly 100% in one year; US and Chinese models traded the lead several times, with the gap down to a few percentage points; documented AI incidents rose to 362 from 233; and generative AI reached 53% population adoption faster than the PC or the internet. The report's own framing is a widening gap between what AI can do and how prepared institutions are to measure and govern it. Benchmark saturation means some headline numbers say more about the tests than the models.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The AI Index tracks capabilities, adoption, costs, and social effects",
+      "sourceType": "Report or policy document"
     },
     {
       "id": "dellacqua-2026-jagged-frontier",
@@ -47,8 +51,10 @@
       "topic": "productivity",
       "chapter": "using-llms",
       "summary": "A preregistered experiment with 758 Boston Consulting Group consultants, randomly given GPT-4 or not, across realistic consulting tasks. On tasks inside the model's competence, AI users finished 12.2% more tasks, 25.1% faster, and with higher-rated quality; on a deliberately tricky task that looked similar but required reasoning the model got wrong, AI users were 19 percentage points more likely to reach the wrong answer. The authors call this the 'jagged frontier': AI capability is uneven in ways that are hard to see in advance, so the real skill is knowing when to trust it. Originally circulated in September 2023; the peer-reviewed version appeared in 2026.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A workplace experiment finds that AI helps some tasks and hurts others",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "epoch-ai-trends-2026",
@@ -64,7 +70,9 @@
       "chapter": "scaling",
       "summary": "Epoch AI is a nonprofit that tracks the inputs to AI progress. Its dashboard estimates that the compute used to train frontier language models has grown about 5x per year since 2020, that training costs have risen about 3.5x per year, that algorithmic efficiency improves roughly 3x per year (so the same result needs a third of the compute a year later), and that the largest known AI data centre is equivalent to about 1.1 million Nvidia H100 chips. The figures are estimates assembled from public disclosures and reverse-engineering, so individual numbers carry wide error bars, but they are the most-cited independent source for the claim that recent progress is 'dominated by scale'.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "A data dashboard tracks the changing scale and performance of AI",
+      "sourceType": "Data or tracker"
     },
     {
       "id": "international-ai-safety-report-2026",
@@ -79,8 +87,10 @@
       "topic": "safety",
       "chapter": "society",
       "summary": "The second full edition of the report mandated at the 2023 Bletchley Park AI Safety Summit, modelled on the IPCC climate assessments: it does not make policy recommendations but summarises what the scientific evidence says about general-purpose AI. It covers rapid capability gains (especially reasoning and autonomous 'agent' systems), risks from misuse (cyberattacks, biological weapons, manipulation), systemic effects on jobs and concentration of power, and loss-of-control scenarios, plus the state of technical safeguards. Its consistent message is that evaluation and safety science lag capability. It is the closest thing to a scientific consensus document on AI risk, though contributors disagree on how likely the more severe scenarios are.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "An international report assesses evidence about AI capabilities and risks",
+      "sourceType": "Paper and supporting material"
     },
     {
       "id": "masai-lancet-2026",
@@ -95,8 +105,10 @@
       "topic": "medicine",
       "chapter": "vision",
       "summary": "MASAI (Mammography Screening with Artificial Intelligence) is the first randomised controlled trial of AI in breast screening: about 105,000 Swedish women were randomly assigned to AI-supported reading or standard double reading by two radiologists. The 2023 safety analysis (Lancet Oncology, doi 10.1016/S1470-2045(23)00298-X) showed a 44 percent cut in radiologist reading workload with no rise in false positives; the final results in The Lancet report 29 percent more cancers detected at screening, sensitivity of 80.5 versus 73.8 percent at the same specificity, and a 12 percent lower rate of interval cancers (cancers appearing between screens) in the AI arm. Interval cancers are the hardest outcome to move because they reflect cancers actually missed, so this is the strongest real-world evidence to date for screening AI. The trial used one vendor's product (Transpara) inside a Swedish double-reading programme, so results may not transfer directly to single-reader countries such as the US.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A screening study compares AI-supported and standard mammography reading",
+      "sourceType": "Journal publication"
     },
     {
       "id": "deepseek-r1-nature-2025",
@@ -111,8 +123,10 @@
       "topic": "reasoning",
       "chapter": "frontier",
       "summary": "DeepSeek showed that a model can be taught to reason by pure reinforcement learning: it is rewarded only for getting verifiable maths and coding answers right, with no human-written example solutions, and it spontaneously learns to write long chains of thought, check its own work and change strategy. R1 matched OpenAI's o1 on maths and coding benchmarks, was released with open weights, and, according to the company, cost far less to train than Western rivals, which triggered a stock-market shock in January 2025. The Nature version (published 17 September 2025) is the first major LLM to pass peer review; the reviewers pushed the team to add data-contamination checks and safety evaluations. The exact training cost remains a company figure.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "DeepSeek-R1 uses reinforcement learning to develop reasoning behavior",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "brynjolfsson-2025-canaries-coal-mine",
@@ -128,7 +142,9 @@
       "chapter": "society",
       "summary": "Uses high-frequency payroll data from ADP covering millions of US workers to look for early employment effects of generative AI. It finds no economy-wide job loss, but workers aged 22–25 in the most AI-exposed occupations (such as software development and customer service) show relative employment declines of about 13–16% in the 2025 version, widening to roughly 19% in the August 2026 revision, while older workers in the same jobs are unaffected. The gap works mainly through reduced hiring rather than layoffs, is concentrated where AI substitutes for rather than complements labour, and shows up in employment rather than pay. Widely cited but still a working paper; some economists question how much of the entry-level slump is AI versus interest rates and post-pandemic over-hiring.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "Employment records look for early AI effects on younger workers",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "becker-2025-metr-developer-productivity-rct",
@@ -143,8 +159,10 @@
       "topic": "productivity",
       "chapter": "using-llms",
       "summary": "A randomised controlled trial in which 16 experienced open-source maintainers completed 246 real issues on their own large repositories, with AI tools (mainly Cursor with Claude 3.5/3.7 Sonnet) allowed on a random half. Developers took 19% longer with AI, even though they predicted a 24% speed-up beforehand and still believed they had been 20% faster afterwards; outside forecasters expected roughly a 39% gain. The authors list possible reasons (very high prior familiarity with the codebases, large and mature repositories, time spent reviewing and fixing AI output) and stress the small sample and early-2025 tooling. It is a useful corrective to self-reported productivity gains, not proof that AI slows all programmers.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Experienced open-source developers take longer with the tested AI tools",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "bastani-2025-generative-ai-without-guardrails",
@@ -159,8 +177,10 @@
       "topic": "education",
       "chapter": "using-llms",
       "summary": "A field experiment with nearly 1,000 Turkish high-school students in maths classes. Students given a plain ChatGPT-style assistant during practice did 48% better on the practice problems, and those given a version with tutoring guardrails (hints rather than answers) did 127% better. But on the subsequent closed-book exam, students who had used the unrestricted assistant scored about 17% worse than students with no AI at all, while the guardrailed group scored about the same as the control. The lesson is that AI that hands over answers can act as a crutch that hurts learning, and that design choices, not just access, determine the outcome.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "An education experiment finds that unguarded AI help can undermine learning",
+      "sourceType": "Journal publication"
     },
     {
       "id": "humlum-vestergaard-2025-still-waters",
@@ -176,7 +196,9 @@
       "chapter": "society",
       "summary": "Links surveys of 25,000 Danish workers in 11 AI-exposed occupations to administrative payroll records to measure what chatbots have actually done to pay and hours. Two years after ChatGPT's launch the authors find precise null effects on earnings and recorded hours, ruling out changes larger than about 2%, even though most exposed employers had adopted chatbots and workers reported modest time savings. Adjustment shows up instead as reorganised tasks (content generation, AI oversight) and some movement into higher-paying occupations. A working paper, so not yet peer reviewed; it is the strongest population-level evidence that early AI adoption has not moved average wages.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "Danish data test whether AI use changes workers' pay and hours",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "biology-of-a-large-language-model-2025",
@@ -192,7 +214,9 @@
       "chapter": "understanding-llms",
       "summary": "Using a technique called 'attribution graphs' (tracing which internal features caused which other features, step by step, for a single prompt), Anthropic mapped how Claude 3.5 Haiku does specific tasks. Case studies show the model planning rhymes several words ahead when writing poetry, doing two-step factual lookups ('Dallas' to 'Texas' to 'Austin'), using a shared language-independent representation across languages, and, in some cases, producing a plausible-sounding chain of thought that does not match the computation it actually performed. It is the most detailed circuit-level study of a production model to date, but the authors stress the method captures only a fraction of the model's mechanisms and is not peer reviewed.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "Researchers trace some internal pathways in a language model",
+      "sourceType": "Technical publication"
     },
     {
       "id": "kwa-2025-measuring-ai-long-tasks",
@@ -207,8 +231,10 @@
       "topic": "evaluation",
       "chapter": "frontier",
       "summary": "Proposes measuring AI capability by the '50% time horizon': the length of a task (measured in how long skilled humans take to do it) that a model can complete with 50% success. Timing human experts on a suite of software and research tasks, METR found that frontier models' horizons had doubled roughly every seven months since 2019, reaching around 50 minutes for Claude 3.7 Sonnet in early 2025; extrapolated, that trend implies month-long tasks within about five years. The metric is influential because it turns benchmark scores into something people can picture, but it rests on a fairly narrow set of self-contained software tasks, so how well it transfers to messy real-world work is debated.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "An evaluation measures how long a task AI agents can complete",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "ml-2024-turing-award-barto-sutton",
@@ -223,8 +249,10 @@
       "topic": "prizes",
       "chapter": "people",
       "summary": "ACM named Andrew Barto and Richard Sutton the 2024 Turing Award laureates for building reinforcement learning, the branch of machine learning in which an agent learns by trial and error from rewards rather than from labelled examples. Starting in the 1980s they introduced its core ideas (temporal-difference learning, actor-critic methods, policy-gradient methods) and its mathematical framing, and co-wrote the standard textbook. Reinforcement learning later powered game-playing systems such as AlphaGo and is now used to fine-tune large language models from human feedback.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The Turing Award honors the foundations of reinforcement learning",
+      "sourceType": "Announcement"
     },
     {
       "id": "esm3-2025",
@@ -239,8 +267,10 @@
       "topic": "science",
       "chapter": "generative",
       "summary": "ESM3 is a 98-billion-parameter generative language model trained on protein sequence, structure and function jointly, so it can be prompted with partial information in any of these and fill in the rest. Its headline demonstration was designing esmGFP, a fluorescent protein only 58 percent identical in sequence to any known one, which the authors estimate is as far from natural proteins as roughly 500 million years of evolution. It shows that the large-language-model recipe transfers to biology and to design, not only prediction, in the tradition Baker was honoured for. The '500 million years' framing is a metaphor based on sequence-divergence rates rather than a literal simulation, and the model came from a start-up with commercial licensing, so only smaller open versions are freely available.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A language model generates protein sequences with new properties",
+      "sourceType": "Journal publication"
     },
     {
       "id": "brynjolfsson-2025-generative-ai-at-work",
@@ -255,8 +285,10 @@
       "topic": "productivity",
       "chapter": "society",
       "summary": "The first large field study of a generative-AI assistant in a real workplace: 5,172 customer-support agents at a software firm were given a GPT-based tool that suggested replies. Productivity (issues resolved per hour) rose about 15% on average, but almost all of the gain went to newer and lower-skilled agents, who also learned faster; the most skilled agents got small speed gains and slightly lower quality. It matters because it shows AI can compress the skill gap between workers rather than simply replacing them, though the setting is one firm and one task, so the size of the effect elsewhere is an open question.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "AI assistance raises measured productivity in customer support",
+      "sourceType": "Journal publication"
     },
     {
       "id": "greenblatt-2024-alignment-faking",
@@ -271,8 +303,10 @@
       "topic": "safety",
       "chapter": "alignment",
       "summary": "The first empirical demonstration of 'alignment faking': a model strategically behaving well during training to avoid having its values changed. Claude 3 Opus was told (via system prompt or synthetic training documents) that it would be retrained to answer harmful requests and that only free-tier conversations were used for training. It complied with harmful requests 14% of the time for 'free' users versus almost never for 'paid' users, and its private scratchpad showed explicit reasoning about preserving its values; when actually trained to comply, alignment-faking reasoning rose to 78%. The setup was artificial and the model's goal (staying harmless) was benign, but the result shows that training signals can be gamed, which complicates how we verify that a model is safe.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A model appears to comply with training while preserving another objective",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "gencast-2024",
@@ -287,8 +321,10 @@
       "topic": "weather-climate",
       "chapter": "frontier",
       "summary": "GenCast addresses GraphCast's main gap by producing probabilistic forecasts: a diffusion model generates an ensemble of plausible 15-day futures at 0.25-degree resolution in about 8 minutes, giving calibrated uncertainty rather than a single answer. It outperformed ECMWF's operational ensemble (ENS), the world's best, on 97.2 percent of evaluated targets, with clear gains for extreme heat and cold, wind and cyclone tracks. Ensembles are what forecasters actually use for risk decisions, so this is the more operationally relevant result. As with GraphCast, it is trained on and initialised from physics-based reanalysis, so it complements rather than replaces traditional models, and its behaviour in a warming climate outside its training distribution is an open question.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "GenCast uses machine learning to forecast several possible weather outcomes",
+      "sourceType": "Journal publication"
     },
     {
       "id": "waymo-crash-benchmarks-2024",
@@ -303,8 +339,10 @@
       "topic": "robotics",
       "chapter": "frontier",
       "summary": "Waymo researchers compared crashes involving their fully driverless ('rider-only') vehicles over 7.14 million miles in Phoenix, San Francisco and Los Angeles against human-driver benchmarks built from police and insurance data for the same areas. They reported roughly an 80 percent lower rate of any-injury crashes and about 55 percent fewer police-reported crashes, both statistically significant. A separate Waymo and Swiss Re analysis (December 2024) of insurance liability claims over 25.3 million miles found 88 percent fewer property-damage and 92 percent fewer bodily-injury claims than human drivers. Important caveats: the studies are authored by Waymo, benchmarks for human driving are imprecise (under-reporting, different roads and conditions), and the mileage is still small compared with the billions of miles needed to measure rare fatal-crash rates.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Waymo compares driverless crash records with human-driving benchmarks",
+      "sourceType": "Journal publication"
     },
     {
       "id": "nobel-chemistry-2024",
@@ -319,8 +357,10 @@
       "topic": "prizes",
       "chapter": "people",
       "summary": "On 9 October 2024 the Royal Swedish Academy of Sciences awarded half of the Chemistry prize to David Baker 'for computational protein design' and the other half jointly to Demis Hassabis and John Jumper 'for protein structure prediction' with AlphaFold 2. It was the first Nobel in a natural science given for a deep-learning system, announced a day after the Physics prize went to Hopfield and Hinton for foundational neural-network work. The citation rewards a tool that solved a 50-year-old open problem, not a new theory of folding; commentators noted that the prize recognised software built at DeepMind (a company) alongside academic work, an unusual pairing for the Nobels.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The chemistry Nobel recognizes protein design and structure prediction",
+      "sourceType": "Announcement"
     },
     {
       "id": "ml-2024-nobel-physics-hopfield-hinton",
@@ -335,8 +375,10 @@
       "topic": "prizes",
       "chapter": "people",
       "summary": "The 2024 Nobel Prize in Physics went jointly to John Hopfield and Geoffrey Hinton \"for foundational discoveries and inventions that enable machine learning with artificial neural networks.\" Hopfield built an associative memory network (1982) that stores and reconstructs patterns, and Hinton used statistical physics to create the Boltzmann machine (1983-85), an early network that learns the statistical structure of data. The award recognised that the mathematics of physical systems, such as spin glasses and energy minimisation, underpins today's machine learning, and it was the first Nobel Prize awarded for work on artificial neural networks.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The physics Nobel honors foundational work on neural networks",
+      "sourceType": "Announcement"
     },
     {
       "id": "acemoglu-2024-simple-macroeconomics-of-ai",
@@ -352,7 +394,9 @@
       "chapter": "society",
       "summary": "A back-of-the-envelope macro model from a Nobel-winning economist that asks how much AI can plausibly raise economy-wide productivity over the next decade. Combining estimates of which tasks are exposed to AI with measured cost savings from the early experiments, Acemoglu gets an upper bound of about 0.66% total factor productivity growth over ten years, and under 0.53% once you account for 'hard' tasks with no clear right answer. He argues bigger gains would require new tasks and products rather than automating existing ones, and warns about negative uses such as manipulation. The estimate is deliberately conservative and is disputed by forecasters who expect larger gains as capabilities improve.",
       "status": "disputed",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "An economic model estimates AI's contribution to productivity growth",
+      "sourceType": "Journal publication"
     },
     {
       "id": "llama-3-herd-of-models-2024",
@@ -368,7 +412,9 @@
       "chapter": "frontier",
       "summary": "Meta's report on Llama 3, a family of models up to 405 billion parameters with a 128,000-token context window (roughly 300 pages of text), released with downloadable weights so anyone can run or fine-tune them. Meta reports quality comparable to GPT-4 on many benchmarks and, unusually for a frontier lab, documents the data pipeline, training infrastructure failures and post-training recipe in detail. The 'open weights' model (the trained numbers are public, the training data is not) reshaped the field by giving researchers and startups a near-frontier model to build on. It is a company report, not peer reviewed.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "The Llama 3 report describes a family of language models",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "eu-2024-ai-act",
@@ -383,8 +429,10 @@
       "topic": "policy",
       "chapter": "society",
       "summary": "The world's first comprehensive AI law, adopted 13 June 2024, published 12 July 2024 and in force from 1 August 2024. It sorts AI uses into risk tiers: a short list of banned practices (such as social scoring and most real-time biometric surveillance in public), a 'high-risk' tier (hiring, credit, education, critical infrastructure) with conformity and documentation duties, transparency rules for chatbots and deepfakes, and separate obligations for general-purpose AI models, with extra duties for models deemed to pose systemic risk. Application has been staggered: prohibitions from 2 February 2025, general-purpose model rules from 2 August 2025, most other provisions from 2 August 2026, while the 2026 'AI Omnibus' amendment pushed the high-risk deadlines to December 2027 and August 2028. Fines can reach 7% of global turnover.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The EU AI Act establishes a legal framework for artificial intelligence",
+      "sourceType": "Legal document"
     },
     {
       "id": "scaling-monosemanticity-2024",
@@ -400,7 +448,9 @@
       "chapter": "understanding-llms",
       "summary": "Individual neurons in a language model respond to many unrelated things, which makes them hard to read. This work trained a 'sparse autoencoder', a second network that re-expresses the model's internal activity as millions of mostly-inactive 'features', on a production model (Claude 3 Sonnet) and found features for concrete concepts (the Golden Gate Bridge), abstractions (code bugs, deception) and even safety-relevant behaviours. Artificially turning a feature up changed the model's behaviour, the famous 'Golden Gate Claude' demo. It was the first detailed look inside a frontier model, but it is a lab report rather than a peer-reviewed paper, and the features explain only part of what the model computes.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "Researchers extract interpretable features from a large language model",
+      "sourceType": "Technical publication"
     },
     {
       "id": "alphafold3-2024",
@@ -415,8 +465,10 @@
       "topic": "science",
       "chapter": "frontier",
       "summary": "AlphaFold 3 extends structure prediction from single proteins to complexes: proteins bound to DNA, RNA, small-molecule drugs (ligands), ions and chemically modified residues, using a diffusion model to generate atomic coordinates. It reported large accuracy gains over specialised docking tools on protein-ligand benchmarks, which matters for drug discovery where the question is how a candidate molecule binds. The paper drew criticism because code was initially withheld (only a non-commercial web server was offered), prompting an open letter from researchers about reproducibility; model code and weights for academic use were released in November 2024. Accuracy on some antibody-antigen and novel-ligand cases remains well below the single-protein case, so predictions still need experimental confirmation.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "AlphaFold 3 models interactions among proteins and other molecules",
+      "sourceType": "Journal publication"
     },
     {
       "id": "graphcast-2023",
@@ -431,8 +483,10 @@
       "topic": "weather-climate",
       "chapter": "frontier",
       "summary": "GraphCast is a graph neural network trained on about 40 years of ECMWF reanalysis data (ERA5) that produces a 10-day global forecast of hundreds of weather variables at 0.25-degree resolution in under a minute on one TPU. It beat the leading operational physics-based system (ECMWF's HRES) on roughly 90 percent of the 1,380 verification targets, including tropical-cyclone tracks and atmospheric rivers. It was the first peer-reviewed demonstration that a learned model could outperform numerical weather prediction at this scale, and weather agencies now run such models experimentally. Caveats: it is deterministic (no uncertainty estimate), it depends on the physics-based system for its initial conditions, and it can blur extremes at longer lead times.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "GraphCast uses learned patterns to forecast global weather",
+      "sourceType": "Journal publication"
     },
     {
       "id": "gnome-materials-2023",
@@ -448,7 +502,9 @@
       "chapter": "frontier",
       "summary": "GNoME (Graph Networks for Materials Exploration) used graph neural networks in an active-learning loop with density-functional-theory calculations to propose 2.2 million crystal structures predicted to be thermodynamically stable, about 381,000 of which were added to the Materials Project database; the authors called it an order-of-magnitude expansion of known stable materials. The claim was sharply disputed: Cheetham and Seshadri (Chemistry of Materials, April 2024, doi 10.1021/acs.chemmater.4c00643) examined a sample and found 'scant evidence' of compounds that were simultaneously novel, credible and useful, noting many were trivial substitutions of known structures or assumed unrealistic ordering of metal ions, and that 'crystalline inorganic compounds' is a narrower category than 'materials'. A companion autonomous-lab paper (A-Lab, Nature 2023) was also challenged on whether its 'synthesised' compounds were correctly identified. The episode is now a standard case study in the gap between computed stability and real, useful materials.",
       "status": "disputed",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "GNoME predicts candidate stable materials for further investigation",
+      "sourceType": "Journal publication"
     },
     {
       "id": "rt2-2023",
@@ -463,8 +519,10 @@
       "topic": "robotics",
       "chapter": "frontier",
       "summary": "RT-2 took large vision-language models pretrained on internet text and images and fine-tuned them to output robot arm actions written as text tokens, producing a single 'vision-language-action' (VLA) model. The robot could follow instructions it had never been trained on, such as moving an object onto the picture of a particular animal or picking up the 'extinct animal' toy, showing that web knowledge transfers to physical manipulation. This established the VLA recipe now used by most frontier robotics efforts (open-source successors such as OpenVLA and pi-0 followed in 2024-25). The results were on a single lab robot with tabletop tasks and success rates far below industrial reliability, so it is a research direction, not a deployable product, and it is trained by imitation rather than by reinforcement learning.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A robot model connects language and vision with physical actions",
+      "sourceType": "Paper and supporting material"
     },
     {
       "id": "alphadev-2023",
@@ -479,8 +537,10 @@
       "topic": "reinforcement-learning",
       "chapter": "reinforcement",
       "summary": "AlphaDev framed writing a sorting routine as a single-player game: an AlphaZero-style agent adds one CPU assembly instruction at a time and is rewarded for correctness and speed. It found small sorting routines (for 3 to 5 elements) that were shorter or faster than the long-standing human-written versions, and the improvements were merged into LLVM's libc++ standard library, meaning they run in real software. The gains are modest in absolute terms, a few instructions saved in already tiny routines, and some programmers pointed out that similar tricks could be found by exhaustive search or superoptimisers. Still, it is one of the clearest cases of RL producing a verified, deployed improvement to widely used code.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Reinforcement learning discovers faster short sorting routines",
+      "sourceType": "Journal publication"
     },
     {
       "id": "direct-preference-optimization-2023",
@@ -495,8 +555,10 @@
       "topic": "alignment",
       "chapter": "alignment",
       "summary": "RLHF normally needs two stages: train a reward model on human preferences, then run reinforcement learning against it, which is fiddly and unstable. DPO shows the same objective can be solved in one step with a simple classification-style loss applied directly to pairs of preferred and rejected answers, no separate reward model or RL loop required. It matched or beat RLHF on summarisation and dialogue in the paper's tests and, because it is easy to implement, became the default alignment method for open-weights models. Later work found cases where full RL still wins, so it is a practical simplification rather than a replacement.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Direct preference optimization simplifies one route to preference training",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "emergent-abilities-mirage-2023",
@@ -511,8 +573,10 @@
       "topic": "benchmarks",
       "chapter": "understanding-llms",
       "summary": "Many papers reported 'emergent abilities': skills that seem absent in small models and appear suddenly at a certain size. This paper argues the sharp jumps are largely an artefact of how we score. All-or-nothing metrics such as exact-match accuracy hide steady underlying improvement and then flip when a threshold is crossed; smooth metrics like per-token error show gradual, predictable curves. The authors reproduce the effect on GPT-3 and BIG-Bench and even manufacture fake 'emergence' in vision models by choosing metrics. It won a NeurIPS Outstanding Paper award and is a useful antidote to hype, though it does not claim models never gain new abilities with scale, only that the evidence for sudden leaps is weak.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A study asks whether apparent capability jumps depend on scoring choices",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "gpt-4-technical-report-2023",
@@ -528,7 +592,9 @@
       "chapter": "frontier",
       "summary": "Describes GPT-4, a model that accepts images and text and produces text, and reports human-level results on many professional exams, including a simulated bar exam at around the 90th percentile. A technically important claim is that some of GPT-4's performance was predicted in advance from models trained with a thousandth of the compute, an application of scaling laws. The report is notable for what it withholds: OpenAI disclosed no architecture, size or training data details, citing competition and safety, so the results cannot be independently reproduced. Treat the benchmark numbers as company claims.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "The GPT-4 report describes capabilities and limits of its evaluation",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "constitutional-ai-2022",
@@ -544,7 +610,9 @@
       "chapter": "alignment",
       "summary": "Instead of relying on humans to label harmful responses, Anthropic gave the model a short list of written principles (the 'constitution') and had it critique and revise its own answers, then trained a preference model from AI-generated comparisons ('RLAIF', reinforcement learning from AI feedback). The result was an assistant that declined harmful requests while explaining why, rather than simply refusing. The method underlies Anthropic's Claude models. It is an industry preprint rather than a peer-reviewed paper, and how well written principles generalise remains an open research question.",
       "status": "preliminary",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "Constitutional AI uses written principles and AI feedback in training",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "ml-2022-grinsztajn-tabular-trees",
@@ -559,8 +627,10 @@
       "topic": "tabular",
       "chapter": "trees-ensembles",
       "summary": "On a benchmark of 45 medium-sized spreadsheet-style (tabular) datasets, gradient-boosted decision trees such as XGBoost still beat modern neural networks, even after extensive tuning of both. The authors trace the gap to three properties: neural networks are hurt by uninformative features, are biased toward smooth functions when the true relationships are irregular, and lose the natural per-column meaning of tabular data because they treat all inputs as rotation-invariant. The paper explains why tree ensembles remain the default for business and scientific tables despite deep learning's success on images and text.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A benchmark comparison examines why trees remain strong on tabular data",
+      "sourceType": "Conference paper"
     },
     {
       "id": "ml-2022-rombach-latent-diffusion",
@@ -575,8 +645,10 @@
       "topic": "generative",
       "chapter": "generative",
       "summary": "Diffusion models generate images by learning to reverse a gradual noising process, but doing this pixel by pixel is extremely expensive. This paper first compresses images into a much smaller \"latent\" representation with an autoencoder, runs the diffusion process there, and adds cross-attention layers so text or other inputs can steer the result. The approach cut training and generation costs dramatically while matching state-of-the-art quality, and it is the technique behind Stable Diffusion, the open text-to-image model released in 2022.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Latent diffusion makes high-resolution image generation more efficient",
+      "sourceType": "Conference paper"
     },
     {
       "id": "chinchilla-compute-optimal-2022",
@@ -591,8 +663,10 @@
       "topic": "scaling",
       "chapter": "scaling",
       "summary": "Known as the 'Chinchilla' paper, this revisited the 2020 scaling laws of Kaplan et al., which had suggested making models bigger was the best use of compute. By training over 400 models, the DeepMind team found that most large models were badly under-trained: for a fixed compute budget, model size and training data should grow in roughly equal proportion. Their 70-billion-parameter Chinchilla, trained on four times more text, beat the much larger Gopher and GPT-3. The result reshaped how labs plan training runs and explains why later models such as Llama used far more data per parameter.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Chinchilla studies how to divide training resources between model size and data",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "instructgpt-rlhf-2022",
@@ -607,8 +681,10 @@
       "topic": "alignment",
       "chapter": "alignment",
       "summary": "The InstructGPT paper describes reinforcement learning from human feedback (RLHF): human raters compare pairs of model answers, a separate 'reward model' learns to predict which answer people prefer, and the language model is then tuned to score well under that reward. Raters preferred a 1.3-billion-parameter InstructGPT over the more than 100-times-larger raw GPT-3, with fewer made-up facts and less toxic output. This is the recipe that turned raw text predictors into usable assistants and directly preceded ChatGPT; the paper is candid that the models still make simple mistakes and reflect the preferences of a small group of labelers.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Human feedback helps language models follow instructions",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "chain-of-thought-prompting-2022",
@@ -623,8 +699,10 @@
       "topic": "reasoning",
       "chapter": "using-llms",
       "summary": "Showed that if you include a few worked examples that spell out intermediate steps in the prompt, a large model will write out its own step-by-step 'chain of thought' and become much better at arithmetic, common-sense and symbolic puzzles. The gain appeared only in models above roughly 100 billion parameters, which fed the 'emergent abilities' debate. The technique is cheap and needs no retraining, and it is the conceptual ancestor of today's 'reasoning models' that are trained to think at length before answering.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Reasoning examples in prompts improve some problem-solving results",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "ml-2022-power-grokking",
@@ -639,8 +717,10 @@
       "topic": "generalization",
       "chapter": "training",
       "summary": "Small transformer networks trained on simple arithmetic tables (for example modular addition) first memorise the training data perfectly while scoring at chance on held-out examples, then, after training continues far past that point, abruptly jump to near-perfect accuracy on the held-out data. The authors named this delayed generalisation \"grokking\" and showed that weight decay (a penalty on large weights) speeds it up and that it is more pronounced with smaller datasets. The phenomenon challenged the textbook rule that training past the point of overfitting only makes things worse and has become a standard testbed for studying how networks learn general rules.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Small models sometimes generalize long after fitting their training examples",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "alphafold2-2021",
@@ -655,8 +735,10 @@
       "topic": "science",
       "chapter": "frontier",
       "summary": "AlphaFold 2 predicts the three-dimensional shape of a protein from its amino-acid sequence with accuracy comparable to laboratory experiments (X-ray crystallography or cryo-EM), as demonstrated in the blind CASP14 assessment in 2020. It uses an attention-based network (the 'Evoformer') that reasons jointly over related sequences and pairwise residue geometry. The predicted structures for essentially every known protein were released freely, changing day-to-day practice in structural biology and earning Hassabis and Jumper a share of the 2024 Nobel Prize in Chemistry. Its limits are also well documented: it predicts a single static structure, is weaker on disordered regions, mutations and complexes, and does not by itself explain how folding happens.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "AlphaFold makes a major advance in protein-structure prediction",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ml-2021-dosovitskiy-vision-transformer",
@@ -671,8 +753,10 @@
       "topic": "vision",
       "chapter": "vision",
       "summary": "The Vision Transformer (ViT) chops an image into a grid of 16x16-pixel patches, treats each patch like a word in a sentence, and feeds the sequence to a standard transformer, the architecture built for language. With no convolutions at all, and when pre-trained on very large datasets (tens or hundreds of millions of images), it matched or beat the best convolutional networks on ImageNet and other benchmarks while using less compute to train. The result showed that the convolutional network's built-in assumptions about images are not necessary given enough data, and it unified the architectures used for vision and language.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Vision transformers treat images as sequences of patches",
+      "sourceType": "Conference paper"
     },
     {
       "id": "bender-2021-stochastic-parrots",
@@ -687,8 +771,10 @@
       "topic": "bias-fairness",
       "chapter": "understanding-llms",
       "summary": "A widely cited critique, written before ChatGPT, of the race to ever-larger language models. The authors argue that such models are 'stochastic parrots' that stitch together plausible text without understanding, and catalogue the costs of scale: environmental and financial costs that fall on people who do not benefit, training data that over-represents dominant viewpoints and encodes bias, and the risk that fluent output is mistaken for meaning. The paper became famous partly because Google's dispute over it led to Timnit Gebru's departure. Its claim that models lack understanding is contested, but its questions about data documentation, bias and who bears the costs remain central to AI-and-society debates.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Researchers examine environmental and social risks of large language models",
+      "sourceType": "Conference paper"
     },
     {
       "id": "ml-2021-radford-clip",
@@ -703,8 +789,10 @@
       "topic": "vision",
       "chapter": "vision",
       "summary": "CLIP trained an image encoder and a text encoder together on 400 million image-caption pairs scraped from the web, with the simple objective of predicting which caption goes with which image (a \"contrastive\" objective). Because the model learns a shared space for pictures and words, it can classify images into categories it was never explicitly trained on just by comparing them with text prompts such as \"a photo of a dog\", and it matched a fully supervised ResNet-50 on ImageNet without using any of its labelled training images. CLIP established natural-language supervision as a scalable alternative to hand-labelled datasets and became a core component of text-to-image systems such as DALL-E 2 and Stable Diffusion.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "CLIP learns connections between images and their text descriptions",
+      "sourceType": "Conference paper"
     },
     {
       "id": "ml-2020-ho-ddpm",
@@ -719,8 +807,10 @@
       "topic": "generative",
       "chapter": "generative",
       "summary": "A diffusion model destroys an image by adding small amounts of random noise over many steps, then trains a neural network to undo each step; running the learned reversal from pure noise produces a new image. Ho, Jain and Abbeel showed that a simplified training objective (predict the noise that was added) and a connection to score matching make this approach produce state-of-the-art image quality on CIFAR-10 and LSUN. The paper turned diffusion from a theoretical curiosity into the dominant method for image, audio and video generation, displacing generative adversarial networks (GANs) within about two years.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Diffusion models generate images by learning to reverse added noise",
+      "sourceType": "Conference paper"
     },
     {
       "id": "gpt-3-few-shot-learners-2020",
@@ -735,8 +825,10 @@
       "topic": "scaling",
       "chapter": "scaling",
       "summary": "The GPT-3 paper trained a 175-billion-parameter model (parameters are the adjustable numbers inside the network) on internet text and showed that simply scaling up let it do many tasks, such as translation or answering questions, from a few examples written in the prompt, with no task-specific retraining. This 'few-shot' behaviour was the first strong evidence that one general model could replace many specialised ones. The model still made confident factual errors and reflected biases in its training data, points the authors themselves flagged.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "GPT-3 demonstrates learning tasks from examples in the prompt",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "ml-2020-bartlett-benign-overfitting",
@@ -751,8 +843,10 @@
       "topic": "generalization",
       "chapter": "regression",
       "summary": "Classical statistics says a model that fits noisy training data exactly should predict badly, yet deep networks routinely do just that and still predict well. This paper gives a precise answer for the simplest case, linear regression with many more features than data points: it characterises exactly when the minimum-norm interpolating solution (the smallest-weight line that passes through every training point) has near-optimal error. The condition is that there must be many low-variance directions in the data that can absorb the noise without hurting predictions, which requires overparameterisation, giving the first rigorous account of why fitting noise can be harmless.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A theory explains when fitting noise can coexist with generalization",
+      "sourceType": "Journal publication"
     },
     {
       "id": "mckinney-breast-screening-2020",
@@ -768,7 +862,9 @@
       "chapter": "vision",
       "summary": "A deep-learning system trained on mammograms from the UK and US was evaluated retrospectively on held-out screening data and reported fewer false positives and false negatives than the original radiologists' reads, and performance comparable to the UK's double-reading standard. The paper became a flagship example of medical-imaging AI, but it also became a flagship example of a reproducibility fight: Haibe-Kains and 30 co-authors ('Transparency and reproducibility in artificial intelligence', Nature, October 2020, doi 10.1038/s41586-020-2766-y) argued that the lack of released code, model weights and data meant the result could not be independently verified. Retrospective reader studies also tend to overstate real-world benefit, which is why the randomised MASAI trial later mattered so much.",
       "status": "disputed",
-      "verified": "2026-09-03"
+      "verified": "2026-09-03",
+      "headline": "An AI system is evaluated for breast-cancer screening",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ml-2019-nakkiran-deep-double-descent",
@@ -783,8 +879,10 @@
       "topic": "generalization",
       "chapter": "evaluating-models",
       "summary": "Across convolutional networks, ResNets and transformers, the authors showed that test error does not simply rise as models get bigger: it gets worse near the point where the model can just barely fit the training data, then improves again as the model grows further, a \"double descent\" curve. They found the same shape when varying training time and, surprisingly, showed regimes where adding more training data makes results worse. The paper introduced \"effective model complexity\" to unify these findings and made double descent a mainstream concern for anyone choosing model size or early-stopping rules.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Double descent complicates the rule that larger models always overfit more",
+      "sourceType": "Paper and supporting material"
     },
     {
       "id": "ml-2019-belkin-reconciling-bias-variance",
@@ -799,8 +897,10 @@
       "topic": "generalization",
       "chapter": "evaluating-models",
       "summary": "The bias-variance trade-off taught in every statistics course predicts a U-shaped error curve: too-simple models underfit, too-complex ones overfit. Belkin and colleagues showed that when model capacity is pushed past the point of interpolating the training data, error falls again, and they named the full curve \"double descent\". Demonstrated for neural networks, random-feature models and even decision-tree ensembles, the result reconciled the classical theory with the practical success of huge, exactly-fitting models and launched a wave of theoretical work on overparameterisation.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "A revised picture connects modern models with the bias–variance trade-off",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ml-2018-turing-award-bengio-hinton-lecun",
@@ -815,8 +915,10 @@
       "topic": "prizes",
       "chapter": "history",
       "summary": "ACM awarded the 2018 Turing Award, often called the Nobel Prize of computing, to the three researchers most associated with the deep-learning revolution. Working independently and together over three decades, they developed backpropagation training, convolutional networks for images (LeCun), probabilistic and attention-based sequence models (Bengio), and Boltzmann machines and deep belief networks (Hinton), persisting when neural networks were out of fashion. The citation marks the point at which deep neural networks were recognised as a foundational technology rather than a niche technique.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The Turing Award honors three pioneers of deep learning",
+      "sourceType": "Announcement"
     },
     {
       "id": "ml-2019-frankle-lottery-ticket",
@@ -831,8 +933,10 @@
       "topic": "architectures",
       "chapter": "neural-networks",
       "summary": "Pruning removes most of a trained network's connections with little loss of accuracy, but the pruned network could not previously be trained from scratch. Frankle and Carbin showed that if you reset the surviving connections to their original random starting values, the sparse subnetwork (10-20 percent of the original size) trains to the same accuracy in the same or fewer steps. Their \"lottery ticket hypothesis\" is that a large random network contains such lucky subnetworks, and that its size mainly helps by buying more tickets, an idea that reshaped research on why overparameterised networks train so well and how to make them cheaper.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The lottery-ticket hypothesis identifies small trainable networks within larger ones",
+      "sourceType": "Conference paper"
     },
     {
       "id": "attention-is-all-you-need-2017",
@@ -847,8 +951,10 @@
       "topic": "transformers",
       "chapter": "transformers",
       "summary": "Introduced the Transformer, a neural network that processes a whole sequence at once using 'attention' (a learned weighting of which other words matter for each word) instead of reading word by word. It trained faster and translated better than the recurrent networks of the time. Nearly every large language model since, including GPT, Claude, Gemini and Llama, is built on this design, which is why the paper is the starting point for the modern era.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "The transformer replaces recurrence with attention",
+      "sourceType": "Preprint or working paper"
     },
     {
       "id": "alphago-2016",
@@ -863,8 +969,10 @@
       "topic": "reinforcement-learning",
       "chapter": "reinforcement",
       "summary": "AlphaGo combined deep neural networks (a policy network suggesting moves and a value network judging positions) with Monte Carlo tree search, trained first on human games and then by reinforcement learning from self-play. It beat the European champion Fan Hui 5-0 and, two months after publication, world-class player Lee Sedol 4-1, a milestone many experts had expected to be a decade away. It built on DeepMind's 2015 DQN Atari result and was followed by AlphaZero (Science, 2018), which learned chess, shogi and Go from the rules alone with no human data. Board games are a narrow, fully observable domain, so 'superhuman Go' did not translate directly to general intelligence, but the paper set the template for search-plus-learning systems used in later scientific work.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "AlphaGo combines learned networks with search to master Go",
+      "sourceType": "Journal publication"
     },
     {
       "id": "ml-2015-kingma-adam",
@@ -879,8 +987,10 @@
       "topic": "optimization",
       "chapter": "training",
       "summary": "Neural networks are trained by gradient descent: nudging every weight a little in the direction that reduces error. Adam keeps a running average of each weight's recent gradients (momentum) and of their squared size, and uses the ratio to give every weight its own automatically scaled step, which makes training robust to noisy gradients and to the choice of learning rate. It needs almost no tuning, and a decade on it and its variant AdamW remain the default optimiser for nearly all deep learning, including large language models.",
-      "status": "confirmed",
-      "verified": "2026-09-03"
+      "status": "reported",
+      "verified": "2026-09-03",
+      "headline": "Adam adapts gradient updates using estimates of their recent behavior",
+      "sourceType": "Conference paper"
     }
   ]
 }

@@ -1,12 +1,12 @@
 ---
 title: Glossary
-subtitle: The vocabulary of this guide, collected in one place and in plain words.
+subtitle: Definitions and reference facts to return to as you read. Search for a term, check the distinction, and follow its chapter link for the explanation.
 part: VI · The Edge
 ---
 
 ## How to use this
 
-Terms are grouped by the chapter that introduces them, so the glossary doubles as a summary of the course. Within each group they are alphabetical. Related terms are folded into the entry they belong with, so if you cannot find a word on its own, look under the idea it belongs to.
+Terms are grouped by the chapter that introduces them, so the glossary doubles as a summary of the course. Within each group they are alphabetical. Distinct ideas have separate entries; genuine synonyms may share one. Use search to jump to a term and its chapter link to return to the explanation.
 
 ## Foundations (chapters 1 and 2)
 
@@ -128,7 +128,7 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 ## People and strategy (chapters 6 to 8)
 
-**Anchoring, framing, and mental accounting.** Estimates pulled toward a recent number; the same choice answered differently depending on how it is described; money treated differently depending on which mental pot it sits in.
+**Anchoring.** An initial number influences later judgments, even when it is weakly relevant. See chapter 6.
 
 **Audit study.** A field experiment sending otherwise identical applications that differ in one signal, to measure discrimination.
 
@@ -142,9 +142,11 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Dominant strategy.** A choice that is best whatever the other player does.
 
+**Expected utility.** The average of the utility of each outcome, weighted by probability. The standard model of risky choice.
+
 **Folk theorem.** In a repeated game with patient players, cooperation can be sustained by the threat of retaliation.
 
-**Expected utility.** The average of the utility of each outcome, weighted by probability. The standard model of risky choice.
+**Framing.** A change in presentation alters a decision despite equivalent underlying options. See chapter 6.
 
 **Gini coefficient and Lorenz curve.** A summary of inequality from 0 (equal) to 1 (one person has all), derived from the curve plotting cumulative income share against cumulative population share.
 
@@ -161,6 +163,8 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 **Marginal product.** What one more worker adds to output. In a competitive market, the wage.
 
 **Mechanism design.** Constructing the rules of a game to produce a desired outcome given private information. Auctions and matching are examples.
+
+**Mental accounting.** Treating resources differently depending on the mental category assigned to them, such as “salary” versus “windfall.” See chapter 6.
 
 **Monopsony.** A buyer with power over the price, such as a dominant employer over wages.
 
@@ -180,9 +184,9 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Stable matching.** A pairing in which no two participants would both prefer each other to their assigned partners. Found by the deferred acceptance algorithm.
 
-**Superstar firms.** Firms that, in markets where the best product can serve everyone, capture a share once split among many. A leading explanation for labor's falling share of income.
-
 **Statistical discrimination.** Using group membership as a proxy for unobserved individual traits.
+
+**Superstar firms.** Firms that, in markets where the best product can serve everyone, capture a share once split among many. A leading explanation for labor's falling share of income.
 
 **Tit-for-tat.** Cooperate first, then copy the other player's last move. The winner of Axelrod's tournaments.
 
@@ -250,17 +254,17 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Output gap.** How far GDP is above or below its sustainable level, in percent.
 
+**Phillips curve.** The apparent trade-off between inflation and unemployment, which vanishes once inflation is expected.
+
 **Proximate and deep causes.** What growth is made of (capital, education, ideas) versus why some societies accumulate them (institutions, geography, culture).
 
 **Public debt and $r$ versus $g$.** What a government owes. If the interest rate $r$ is below the growth rate $g$, the debt ratio falls on its own; a government borrowing in its own currency risks inflation rather than default.
 
-**Phillips curve.** The apparent trade-off between inflation and unemployment, which vanishes once inflation is expected.
-
 **Purchasing power parity (PPP).** Converting currencies by what they buy rather than at market rates.
 
-**Quantity equation.** $MV = PY$: money times velocity equals nominal GDP. Sustained inflation requires money growth.
-
 **Quantitative easing.** Central bank purchases of long-term bonds to lower long-term rates when short rates are at zero.
+
+**Quantity equation.** $MV = PY$: money times velocity equals nominal GDP. Sustained inflation requires money growth.
 
 **Rational expectations.** The assumption that people use all available information and understand how policy works.
 
@@ -292,13 +296,15 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Black–Scholes.** The 1973 formula for pricing options from the stock price, the option's terms, the interest rate, and volatility. Fails in crashes, which it treats as nearly impossible.
 
-**Bond, stock, derivative, option, swap.** A loan; a share of ownership; a contract whose value depends on something else; the right to buy or sell at a set price; an agreement to exchange streams of payments.
+**Bond.** A debt security promising specified payments, subject to default and other risks. See chapter 15.
 
 **Bubble and irrational exuberance.** Prices rising on the expectation of further rises rather than on what the asset will produce. Becomes a crash through leverage. Shiller's phrase for the mood that drives it.
 
 **Capital requirements.** Rules requiring banks to fund assets with their own money so they can absorb losses.
 
 **China shock.** The concentrated, persistent local job losses in rich countries after China's entry into world trade.
+
+**Derivative.** A contract whose value depends on an underlying asset, rate, index, or other variable. See chapter 15.
 
 **Diversification.** Holding many assets that do not move together, reducing risk without reducing expected return.
 
@@ -322,6 +328,8 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Microfinance.** Small loans to poor entrepreneurs. Modest effects in trials.
 
+**Option.** A contract giving its holder the right, but not the obligation, to transact on specified terms. See chapter 15.
+
 **Private credit.** Loans made directly to companies by investment funds, outside banking regulation.
 
 **Reshoring and friend-shoring.** Moving supply chains back home, or to allied countries, for resilience or security at some cost in efficiency.
@@ -329,6 +337,10 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 **Resource curse.** The tendency of resource-rich countries to grow slowly, because resource revenue frees rulers from accountability.
 
 **Stablecoin.** A digital token pegged to a currency and backed by safe assets. Subject to run risk.
+
+**Stock.** A share of ownership in a company. See chapter 15.
+
+**Swap.** A contract to exchange specified streams of payments, such as fixed-rate and floating-rate interest payments. See chapter 15.
 
 **Tariff.** A tax on imports. Raises domestic prices, helps producers, hurts consumers by more, and invites retaliation.
 
@@ -338,8 +350,12 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Credibility revolution.** The shift since 1990 to research designs that mimic experiments.
 
-**Difference-in-differences, regression discontinuity, instrumental variables.** Comparing a treated group with a similar untreated one before and after; comparing just above and just below a cutoff; using something that affects the cause but not the outcome except through the cause.
+**Difference-in-differences.** A comparison of changes in treated and comparison groups, relying on an appropriate parallel-trends assumption and other design conditions. See chapter 16.
 
 **External validity.** Whether a finding in one setting holds in another.
+
+**Instrumental variables.** Using a variable that shifts treatment but affects the outcome only through the permitted causal path, under stated assumptions, to identify an effect. See chapter 16.
+
+**Regression discontinuity.** Estimating a treatment effect around an assignment cutoff when units just above and below it are otherwise suitably comparable. See chapter 16.
 
 **Social cost of carbon.** The dollar damage from one more ton of carbon dioxide. Sets the right carbon price; estimates range from about \$50 to over \$1,000.

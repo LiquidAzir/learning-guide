@@ -4,7 +4,7 @@ subtitle: Why atoms stick together, the three ways they do it, and how the shape
 part: III · Bonds and Structure
 ---
 
-## Recap
+## Why do atoms bond instead of remaining separate?
 
 Atoms have electrons in shells, and full shells are stable. Most atoms do not have full shells. Everything in this chapter is about what they do about it.
 
@@ -92,6 +92,14 @@ The octet rule is a second-row rule. Boron trifluoride has only six electrons ar
 
 :::frontier
 The chemical bond is one of the most useful ideas in science and also one of the least precisely defined. Chemists agree on what bonds do; they argue about what a bond *is*, and quantum mechanics offers several inequivalent definitions.[^11] Meanwhile the pictures keep sharpening. Since 2009 atomic force microscopes have imaged the bonds in single molecules, showing which are shorter and stronger, essentially photographing a Lewis structure.[^12] And bonds no one expected keep turning up, from helium compounds stable under pressure to a quadruple bond between two carbon atoms in C₂, whose existence is still disputed.
+:::
+
+:::try Put the idea to work
+Water has polar O–H bonds. Carbon dioxide has polar C=O bonds. Why can water be polar overall while carbon dioxide is not?
+
+:::answer Show the reasoning
+Bond dipoles have direction as well as size. In straight, symmetric CO₂, the two bond dipoles cancel. In bent water they do not. Molecular polarity therefore depends on both the bonds and the geometry, not simply on the presence of a polar bond.
+:::
 :::
 
 ## Summary

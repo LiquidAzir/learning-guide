@@ -4,7 +4,7 @@ subtitle: What DNA is, how it is copied, how a stretch of it becomes a protein, 
 part: II · The Cell and Its Chemistry
 ---
 
-## Recap
+## How does a DNA sequence become a working molecule?
 
 Chapter 2 told how DNA was found to be the genetic material and its structure solved in 1953. This chapter explains what that structure does: how information is stored, copied, read, and occasionally miscopied. It is the most mechanistic chapter in the guide, and the one everything in Parts III and VI depends on.
 
@@ -12,7 +12,7 @@ Chapter 2 told how DNA was found to be the genetic material and its structure so
 
 **DNA** (deoxyribonucleic acid) is a chain of **nucleotides**, each made of a sugar (deoxyribose), a phosphate, and one of four **bases**: adenine (A), thymine (T), guanine (G), cytosine (C). The sugar and phosphate form the backbone; the bases stick out from it like teeth on a zipper. Two chains run side by side in opposite directions and twist into a **double helix**, held together by the bases pairing across the middle: A always with T, G always with C, by hydrogen bonds. The pairing is the whole point. Because each base can pair with only one other, either strand specifies the other completely, so the molecule carries its own copying instructions.[^1]
 
-The information is the sequence of bases along one strand, read like letters. A human cell holds about 3.1 billion base pairs, divided among 23 pairs of **chromosomes**, each a single enormous DNA molecule (the largest, chromosome 1, is about 250 million base pairs and 8 centimeters long) wound around protein spools called **histones** and coiled again and again to fit in the nucleus.[^2] Printed as letters at normal size, your genome would fill about a thousand thousand-page books.
+The information is the sequence of bases along one strand, read like letters. One copy of the human nuclear genome holds about 3.1 billion base pairs in 23 **chromosomes**. A typical body cell has two copies, about 6.2 billion base pairs in 23 pairs of chromosomes. Before DNA replication, each chromosome is a single enormous DNA molecule (the largest, chromosome 1, is about 250 million base pairs and 8 centimeters long) wound around protein spools called **histones** and coiled again and again to fit in the nucleus.[^2] Printed as letters at normal size, your genome would fill about a thousand thousand-page books.
 
 ## Copying
 
@@ -62,6 +62,14 @@ Two ideas about genes had to be given up. The first was that a gene was a bead o
 
 :::key
 DNA stores information as a sequence of four letters, copies itself because each letter pairs with one partner, and is read in three-letter words by a code that is the same in all life. A gene is transcribed into messenger RNA and translated by the ribosome into a protein. Copying errors, a few per division, are the source of all genetic variation. Most of the genome does not code for protein; a large part of it decides which genes are used where, and that regulation, not the gene count, is what makes a human different from a worm.
+:::
+
+:::try Put the idea to work
+A typical body cell has 23 pairs of chromosomes. If one genome copy contains about 3.1 billion base pairs, how many are in that cell before DNA replication?
+
+:::answer Show the reasoning
+About 6.2 billion base pairs in its nuclear DNA: two genome copies. After replication the amount of DNA doubles again before division. Distinguishing a genome copy from a cell, and specifying the cell-cycle stage, prevents apparently conflicting counts.
+:::
 :::
 
 ## Summary

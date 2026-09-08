@@ -4,7 +4,7 @@ subtitle: Three unrelated curiosities turn out to be one thing, and the equation
 part: II · The Classical World
 ---
 
-## Recap
+## How can one theory explain light, electricity, and magnetism?
 
 So far the physics has been about matter: things with mass that push and pull and heat up. This chapter is about the other half of the world, the part that has no mass at all, and about the moment in 1865 when a Scottish mathematician wrote down four equations and light fell out of them.
 
@@ -102,6 +102,14 @@ In 1905 a 26-year-old patent clerk decided the equations were right. The next ch
 
 :::frontier
 Maxwell's theory, upgraded with quantum mechanics, became **quantum electrodynamics** in the 1940s, the most precisely tested theory in all of science; chapter 11 tells that story.[^15]
+:::
+
+:::try Put the idea to work
+A wave's frequency doubles while its speed in the same medium stays fixed. What happens to its wavelength? Would louder sound be the same kind of change?
+
+:::answer Show the reasoning
+From speed = frequency × wavelength, the wavelength halves. Loudness is associated mainly with wave amplitude, a different property. Keeping speed, frequency, and amplitude separate prevents the common mistake of treating a “bigger” wave as automatically faster or higher in frequency.
+:::
 :::
 
 ## Summary

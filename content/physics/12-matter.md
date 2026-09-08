@@ -4,7 +4,7 @@ subtitle: Why a trillion trillion atoms together do things no single atom can, a
 part: IV · Building Everything
 ---
 
-## Recap
+## Why can the same particles make such different materials?
 
 The Standard Model is the bottom of the ladder. But knowing the rules for one electron tells you surprisingly little about why copper conducts, glass is transparent, magnets stick, or a chip computes. Those are questions about matter in bulk, the field called **condensed matter physics**. By most counts it is the largest branch of physics, and it produces most of the technology you touch.[^21]
 
@@ -66,6 +66,14 @@ Condensed matter today is as much about ideas as devices. Twisting two sheets of
 
 :::key
 Condensed matter physics is the study of what emerges. Its deepest lesson, learned repeatedly, is that the collective can have properties (fractional charge, zero resistance, topological protection) that are not in any constituent, cannot be derived by brute force from the constituents, and are nonetheless exact, universal, and predictable from new laws at the collective level. Anderson's point in 1972 was that this makes emergence a fundamental fact about nature, not a shortcut.
+:::
+
+:::try Put the idea to work
+Diamond and graphite contain carbon. Why is knowing the element insufficient to predict hardness or electrical behavior?
+
+:::answer Show the reasoning
+Properties depend on how atoms bond and arrange themselves, and on the electronic states that arrangement permits. Diamond's three-dimensional bonding network differs from graphite's layered structure. Composition is one clue; structure and collective behavior supply the missing explanation.
+:::
 :::
 
 ## Summary

@@ -8,7 +8,7 @@ part: I · Foundations
 
 By 1959 an IBM engineer named Arthur Samuel had a program that played checkers. That was not the interesting part. The interesting part was that the program was better at checkers than he was, and he had not told it how to play well. He had told it the rules, given it a way to score positions, and then made it play thousands of games against itself, adjusting the score after each one toward whatever had led to winning. The machine learned. Samuel gave the field its name in that paper's title, **machine learning**, and his idea is usually summarized as giving computers the ability to learn without being explicitly programmed.[^1]
 
-Sixty-three years later, in November 2022, a program was released that could write a sonnet about tax law, explain a bug in your code, translate Finnish, and hold a conversation about itself. Nobody had programmed it to do any of those things either. It had been shown most of the written internet and asked, over and over, to guess the next word. Everything else emerged.[^2]
+Sixty-three years later, in November 2022, a program was released that could write a sonnet about tax law, explain a bug in your code, translate Finnish, and hold a conversation about itself. These abilities were not programmed as separate rules. Pretraining on large collections of text taught it to predict the next token; further training on demonstrations and human feedback helped turn those abilities into a conversational assistant. That combination, and its surprising limits, is the story of this guide.[^2]
 
 This guide is the story of how the first thing became the second: how a machine that learns to score checkers positions became a machine that learns to write. The path runs through statistics, through a forty-year argument about whether brains are a good model for computers, through two periods when the whole field was declared dead, and through a handful of ideas that turned out to matter enormously. It is one of the great intellectual stories of the last century, and unlike most such stories, it is not finished.
 
@@ -48,6 +48,12 @@ The subject is usually taught as several subjects. Here it is one arc, because i
 
 Chapter 2 tells the history from 1943 to now. Read it first if you like stories; skip it if you want the tools and come back.
 
+:::howto A useful first pass
+For a practical foundation, follow chapters 3 through 8: data, simple models, and evaluation. Those ideas remain useful when the models become neural networks and language models.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
+
 ## The conventions
 
 This guide follows the mathematics guide in being **practical first**. Each chapter has:
@@ -57,7 +63,7 @@ This guide follows the mathematics guide in being **practical first**. Each chap
 - **The math, explained**: the real equations, with every symbol named. There are fewer than you fear. Machine learning rests on about a dozen formulas, and this guide contains all of them.
 - **Common confusion** boxes for the errors everyone makes, and **where it stands today** boxes for the arguments still running.
 
-Every factual and historical claim points to a numbered source at the bottom of the chapter, with a link where the source is free to read, which in this field is nearly always, since the papers are on arXiv. A separate **Latest research** section, reachable from the subject's front page, tracks recent results with a plain-English summary and an honest status label: confirmed, preliminary, disputed, or retracted.
+Key factual and historical claims point to a numbered source at the bottom of the chapter, with a link where the source is free to read, which in this field is nearly always, since the papers are on arXiv. A separate **Latest research** section, reachable from the subject's front page, tracks recent results with a plain-English summary and an honest status label: reported, preliminary, disputed, or retracted.
 
 The mathematics used is the mathematics of that guide: functions and slopes (its chapters 6 and 7), a little probability and statistics (9 and 10), and vectors and matrices (11). Each is re-explained where it appears, so you need not have read them, but they help.
 

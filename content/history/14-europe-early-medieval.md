@@ -4,7 +4,7 @@ subtitle: 500 to 1000. Franks, monks, Arabs, Vikings, and a Christmas coronation
 part: III · European History
 ---
 
-## Recap
+## How was political order rebuilt after Rome?
 
 The Ancient section ended with the Roman West broken into Germanic kingdoms and the Mediterranean about to split three ways. This chapter opens European history in the five centuries once called the Dark Ages: the rise of the Franks, the arrival of Islam, the conversion of the pagan north, Charlemagne's empire and its collapse, the Viking raids, and the slow emergence, by 1000, of the kingdoms that Europe still has. The name "Europe" as a place with a shared identity, rather than a Greek geographical term, dates from this period, and it was coined to mean Latin Christendom.
 
@@ -63,6 +63,14 @@ The five centuries after Rome were not empty. They produced the Frankish kingdom
 - 878: Alfred defeats the Danes.
 - 962: Otto I crowned emperor; the Holy Roman Empire.
 - 987: Capetian dynasty in France. 988: Rus converts.
+:::
+
+:::try Put the idea to work
+A ruler grants land in return for service. Why should you hesitate before assuming the same “feudal system” existed across all medieval Europe?
+
+:::answer One way to reason it through
+Landholding, obligations, legal status, and royal power varied across regions and centuries. The label can introduce a family of arrangements, but a useful explanation identifies who owed what to whom in a particular place. A general category should not replace the actual institutions.
+:::
 :::
 
 ## Summary

@@ -8,7 +8,7 @@ part: I · Foundations
 
 In 1674 a Dutch cloth merchant named Antonie van Leeuwenhoek, who ground glass lenses as a hobby, put a drop of lake water under one of them and saw, in his words, "very many little animalcules," some spinning, some darting, some a thousand times smaller than anything visible to the eye. He wrote to the Royal Society in London, which did not believe him; Robert Hooke was asked to repeat the observations and, on his third attempt, succeeded, while Leeuwenhoek sent testimonials from eight respectable witnesses in Delft. He was right. In a single drop of water there were more living things than there were people in Holland, and nobody had known they existed.[^1]
 
-Three and a half centuries later we know what he was looking at: bacteria, algae, and single-celled predators, each one a bag of a few thousand kinds of molecule running a chemistry so intricate that we still cannot build one from scratch. We also know that every one of them, and every cell in your body, and every tree, mushroom, and whale, runs on the same code, uses the same twenty building blocks for its proteins, and descends from a single population of cells that lived about 4.2 billion years ago (chapter 9). That is the largest fact in biology, and it was not known until the 1960s. This guide is about how it was found out, what it means, and what has been done with it since.
+Three and a half centuries later we know what he was looking at: bacteria, algae, and single-celled predators, each one a bag of a few thousand kinds of molecule running a chemistry so intricate that we still cannot build one from scratch. We also know that every one of them, and every cell in your body, and every tree, mushroom, and whale, runs on the same code, uses the same twenty building blocks for its proteins, and shares ancestry with the others. Reconstructions place their last universal common ancestor deep in Earth’s early history; chapter 9 explains the evidence and the uncertainty in its date. That is the largest fact in biology, and it was not known until the 1960s. This guide is about how it was found out, what it means, and what has been done with it since.
 
 ## What life is
 
@@ -84,13 +84,19 @@ Everything alive on Earth shares one chemistry and one ancestor. Every cell uses
 | VI · Life at Scale and in Our Hands | 16–18 | Ecology, health and medicine, biotechnology |
 | VII · The Edge | 19–21 | The frontier, the people, the glossary and formulas |
 
-The conventions are the same as in the other guides: **bold terms** are defined where they appear and collected in the glossary; every claim points to a numbered source; the math, where it appears, is explained symbol by symbol; the **How to do it** boxes give procedures you can use, from reading a nutrition label to interpreting a genetic test. Read in order if you can; the chapters build.
+The conventions are the same as in the other guides: **bold terms** are defined where they appear and collected in the glossary; key factual claims point to numbered sources; the math, where it appears, is explained symbol by symbol; the **How to do it** boxes give procedures you can use, from reading a nutrition label to interpreting a genetic test. Read in order if you can; the chapters build.
 
 :::try
 Write down three things you believe about biology. Examples: you are mostly human cells. Antibiotics work on colds. Evolution is about survival of the fittest. Genes determine who you are. Each is tested somewhere in this guide, and none survives intact.
 :::
 
 Let's begin with how we got here.
+
+:::howto A useful first pass
+Follow the cell and molecular chapters first, then trace either energy through organisms or information through genes and inheritance. Both routes meet again in bodies, ecosystems, and biotechnology.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
 
 [^1]: Leeuwenhoek, A. van (1677). "Observations, communicated to the publisher by Mr. Antony van Leewenhoeck... concerning little animals by him observed in rain- well- sea- and snow water." *Philosophical Transactions*, 12, 821–831. [doi:10.1098/rstl.1677.0003](https://doi.org/10.1098/rstl.1677.0003). Dobell, C. (1932). *Antony van Leeuwenhoek and His "Little Animals"*. London: John Bale. Lane, N. (2015). "The unseen world: reflections on Leeuwenhoek (1677)." *Philosophical Transactions B*, 370(1666). [doi:10.1098/rstb.2014.0344](https://doi.org/10.1098/rstb.2014.0344)
 [^2]: Joyce, G. F. (1994). Foreword, in Deamer, D. W., Fleischaker, G. R., eds., *Origins of Life: The Central Concepts*. Boston: Jones and Bartlett (the NASA definition). Benner, S. A. (2010). "Defining Life." *Astrobiology*, 10(10), 1021–1030. [doi:10.1089/ast.2010.0524](https://doi.org/10.1089/ast.2010.0524). Cleland, C. E., Chyba, C. F. (2002). "Defining 'Life'." *Origins of Life and Evolution of the Biosphere*, 32, 387–393. [doi:10.1023/A:1020503324273](https://doi.org/10.1023/A:1020503324273)

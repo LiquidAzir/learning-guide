@@ -1,16 +1,16 @@
 ---
-title: The Rest of the Ancient World
+title: Ancient Americas, Africa, and the Peoples Beyond Rome
 subtitle: Cities in the American jungle with no metal tools and no wheel, an African kingdom that outlasted Egypt, Carthage, Aksum, and the peoples the empires called barbarians. Civilization was not a Eurasian invention.
 part: II · Ancient History
 ---
 
-## Recap
+## What becomes visible when Rome is no longer the center of the map?
 
 Most of this section's chapters so far have followed a chain from Mesopotamia through Greece and Rome, because that chain is the best documented and leads to the Europe of the next section. It is not the only chain. This chapter is about the ancient world outside it: the Americas, which developed cities, writing, and states with no contact with Eurasia at all; Africa beyond Egypt; and the Iron Age peoples of northern Europe and the steppe whom Greeks and Romans wrote about only as enemies. It is also about how much of this was invisible to history until archaeology, and lately laser scanning from aircraft, made it visible.
 
 ## The Americas: a second experiment
 
-The Americas were peopled from Siberia by at least 16,000 years ago (chapter 2) and were then cut off from the Old World until 1492. Everything their inhabitants built, they built without wheat, rice, cattle, horses, sheep, pigs, the wheel as a working tool, iron, or any knowledge that Eurasia existed. They domesticated maize, beans, squash, potatoes, tomatoes, chili, cacao, cotton, and the llama; they built cities as large as most in Europe; they invented writing, the zero, and astronomical tables of an accuracy Rome never matched. The Americas are the control experiment for the question of whether civilization was a Eurasian accident, and the answer is no.[^1]
+The Americas were peopled from Siberia by at least 16,000 years ago (chapter 2) and developed largely independently of Eurasia. Norse voyagers reached North America around 1000 CE, but sustained Atlantic exchange on a transformative scale began after 1492. Everything their inhabitants built, they built without wheat, rice, cattle, horses, sheep, pigs, the wheel as a working tool, iron, or any knowledge that Eurasia existed. They domesticated maize, beans, squash, potatoes, tomatoes, chili, cacao, cotton, and the llama; they built cities as large as most in Europe; they invented writing, the zero, and astronomical tables of an accuracy Rome never matched. The Americas are the control experiment for the question of whether civilization was a Eurasian accident, and the answer is no.[^1]
 
 **Mesoamerica** (Mexico and northern Central America) produced its first complex society, the **Olmec**, on the Gulf coast around 1500–400 BCE: earthen pyramids, colossal stone heads weighing up to forty tons, and a ballgame with a rubber ball. From the Olmec, or alongside them, came the elements every later Mesoamerican civilization shared: pyramids, the 260-day ritual calendar interlocking with a 365-day solar one, human sacrifice, the ballgame, and writing.[^2] The **Maya**, in the lowlands of Guatemala, Belize, and Yucatán, took these furthest. Between about 250 and 900 CE, the Classic period, they built dozens of city-states, Tikal, Calakmul, Palenque, Copán, with stone temples over sixty meters high, and wrote their history on them in the only fully developed writing system of the pre-Columbian Americas: hieroglyphs recording the births, accessions, wars, and captives of their kings by exact date, in a system that combined signs for words and for syllables and that was deciphered, mostly, between 1952 and the 1980s.[^3] Their astronomers predicted eclipses and tracked Venus; their mathematicians used a place-value system with zero centuries before Europe had it. Around 800–900 the southern cities were abandoned in a collapse that involved drought (the lake and cave records are clear), overpopulation, war, and the failure of kingship; the northern cities lasted until the Spanish.
 
@@ -55,6 +55,14 @@ Every list of "the cradles of civilization" is a list of where writing was inven
 - c. 250–900 CE: Classic Maya.
 - c. 330s–340s CE: Aksum adopts Christianity.
 - c. 800–900 CE: southern Maya collapse.
+:::
+
+:::try Put the idea to work
+Two distant societies build large cities independently. Does resemblance prove contact between them?
+
+:::answer One way to reason it through
+No. Similar needs and constraints can produce similar solutions. A contact claim needs evidence such as datable exchanges, transported materials, or a plausible route supported by more than appearance. Comparison can reveal shared problems without making one society merely a copy of another.
+:::
 :::
 
 ## Summary

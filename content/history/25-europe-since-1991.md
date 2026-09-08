@@ -4,7 +4,7 @@ subtitle: The continent thought it had reached the end of history. Then Yugoslav
 part: III · European History
 ---
 
-## Recap
+## Why did the end of the Cold War leave so many conflicts unresolved?
 
 Chapter 24 ended with the Soviet Union dissolving on Christmas Day 1991 and Western Europe believing that integration and democracy had won. This chapter takes the story to the present. It is the hardest chapter in the section to write, because the events are not over and the historian has no hindsight; it therefore stays close to what is documented, marks what is contested, and stops at the point where history becomes news.
 
@@ -57,6 +57,14 @@ Europe after 1989 reunited, enlarged, and enriched itself, and believed it had a
 - 2015: migration crisis. 2016: Brexit referendum.
 - 24 February 2022: Russia invades Ukraine.
 - 2023–2024: Finland and Sweden join NATO.
+:::
+
+:::try Put the idea to work
+A border opens after 1989. Why is political freedom not enough by itself to predict the economic effects on every community?
+
+:::answer One way to reason it through
+Migration, investment, industrial restructuring, property changes, and public policy shape the outcome. People start with different resources and face different costs. A major expansion of freedom can coexist with unequal economic transitions; explaining both requires evidence beyond the symbolic event.
+:::
 :::
 
 ## Summary

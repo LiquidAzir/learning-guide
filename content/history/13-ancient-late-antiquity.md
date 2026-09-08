@@ -4,7 +4,7 @@ subtitle: 235 to 600 CE. Rome nearly dies, is rebuilt as a Christian military au
 part: II · Ancient History
 ---
 
-## Recap
+## What does it mean to say that an empire fell?
 
 Chapter 9 left the Roman empire at its height, with Commodus strangled in 192 and the machine still running. This chapter follows it through the crisis that nearly destroyed it, the reconstruction that saved it in a new form, its conversion to Christianity, the loss of the West, and the world that emerged around 600: three successor civilizations, Byzantine, Latin Christian, and, about to arrive, Islamic, where there had been one empire. It closes the Ancient section and opens the European one.
 
@@ -57,6 +57,14 @@ Rome did not fall in a day or from a single cause, and it did not fall in the Ea
 - 439: Vandals take Carthage.
 - 476: last western emperor deposed.
 - 527–565: Justinian. 541: the plague.
+:::
+
+:::try Put the idea to work
+If imperial government disappears in one region but language, law, and religious institutions persist, is “everything ended” a useful description?
+
+:::answer One way to reason it through
+No. Political authority, economic networks, population, and cultural practices can change at different speeds. Specify which institution ended and where. The language of collapse can capture severe disruption while obscuring continuity if it is made to describe every aspect of life.
+:::
 :::
 
 ## Summary

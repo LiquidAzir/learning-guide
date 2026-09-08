@@ -97,6 +97,14 @@ This guide assumes nothing, but four ideas from physics recur and each has a ful
 - **Entropy** measures the number of ways a state can be arranged, and total entropy never decreases. It decides whether reactions happen (chapter 9). See [heat and entropy](#/physics/heat).
 - **Electrons are waves** confined to atoms in specific patterns called orbitals, and only two electrons can share one pattern. This one fact generates the whole periodic table (chapter 5). See [the quantum world](#/physics/quantum).
 
+:::try Put the idea to work
+You have 18 g of water. Using a molar mass of about 18 g/mol, how many moles is that? Why is it not 18 molecules?
+
+:::answer Show the reasoning
+Mass divided by molar mass gives 1 mol. A mole is a counting unit containing about 6.02 × 10²³ entities, so this sample contains about that many water molecules. Grams measure mass; moles count an enormous number of particles.
+:::
+:::
+
 ## Summary
 
 - The mole ($6.022 \times 10^{23}$ things) converts between counting atoms and weighing grams; molar mass is the weight of a mole.

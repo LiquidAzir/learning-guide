@@ -1,12 +1,12 @@
 ---
 title: Glossary and Numbers
-subtitle: Every bolded term in one place, the quantities worth memorizing, the formulas that recur, and the confusions this guide has tried to clear up.
+subtitle: Definitions and reference facts to return to as you read. Search for a term, check the distinction, and follow its chapter link for the explanation.
 part: V · The Edge
 ---
 
 ## How to use this
 
-The glossary gives a one-line definition and the chapter where the term is introduced, by number. The numbers section is the part worth actually memorizing: knowing that main memory is about eighty nanoseconds away and a transatlantic round trip about 150 milliseconds lets you estimate the performance of a design before building it, which is a more useful skill than any single algorithm.
+The glossary gives a one-line definition and the chapter where the term is introduced, by number. The numbers section is the part worth actually memorizing: knowing that main memory is about eighty nanoseconds away and a London–New York round trip around 70 milliseconds lets you estimate the performance of a design before building it, which is a more useful skill than any single algorithm.
 
 ## Glossary
 

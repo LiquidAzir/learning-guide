@@ -4,7 +4,7 @@ subtitle: Fetch, decode, execute; the pipeline and its speculations; and the mem
 part: II · The Machine
 ---
 
-## Recap
+## Why is waiting for data often slower than doing arithmetic?
 
 Chapter 7 built an adder and a register out of gates. This chapter assembles them into a processor, and then explains why the processor spends most of its life waiting.
 
@@ -45,7 +45,7 @@ Here is the fact that governs the performance of most real programs. Processors 
 
 {{fig:memory-hierarchy|Latency on a logarithmic axis, so each gridline is a thousandfold. The distance from a register to main memory is large; the distance from main memory to storage and the network is very much larger. A processor that waits on main memory for every operation runs at a small fraction of its rated speed, and one that waits on the network is not really computing at all.}}
 
-| Level | Typical size | Typical latency | If one cycle were one second |
+| Level | Typical size | Typical latency | If one nanosecond were one second |
 |---|---|---|---|
 | Register | ~1 KB | 0 cycles | now |
 | L1 cache | 32–64 KB | ~1 ns | 1 second |
@@ -88,6 +88,14 @@ The binding constraint has shifted from transistors to energy. Data centres cons
 ## What we still argue about
 
 Whether general-purpose processors will keep being displaced by accelerators, and how much of computing can tolerate hardware that must be replaced when the workload changes. Whether speculation can be made secure without giving up its performance. Whether RISC-V's open licensing displaces the incumbents or fragments into incompatible dialects. And how long an industry can keep planning around a scaling curve that stopped delivering free speed twenty years ago.
+
+:::try Put the idea to work
+A processor can calculate faster, but a task spends most of its time waiting for data from memory. Why might doubling arithmetic speed barely help?
+
+:::answer Show the reasoning
+Only the computation part speeds up. If waiting dominates, shortening a small portion has little effect on the total. Better locality, fewer memory accesses, or useful work during a wait may matter more. Performance claims need the actual bottleneck, not just the fastest component.
+:::
+:::
 
 ## Summary
 

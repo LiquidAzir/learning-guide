@@ -4,7 +4,7 @@ subtitle: The invisible majority. What bacteria do for the planet and to you, wh
 part: IV · The Living World
 ---
 
-## Recap
+## Why do microbes matter far beyond disease?
 
 Chapter 9 showed that most of life's diversity is microbial. This chapter is about those organisms in their own right: what they do, how they cause disease, how we fight them, and how they live inside us. It is also the chapter where biology meets medicine most directly.
 
@@ -50,6 +50,14 @@ Then there is the rest, which requires care. The microbiome has been reported to
 
 :::story The stomach ulcer bet
 Until the 1980s, everyone knew that stomach ulcers were caused by stress and acid and were treated by antacids for life. Two Australians, Barry Marshall and Robin Warren, found a spiral bacterium, *Helicobacter pylori*, in the stomachs of ulcer patients and proposed that it was the cause. This was dismissed: the stomach was known to be too acidic for bacteria. Unable to infect animals and unable to get a trial approved, Marshall in 1984 drank a broth of the bacteria himself, developed gastritis within days, showed the organism in his own biopsy, and cured himself with antibiotics.[^11] It still took a decade for practice to change. They shared the Nobel Prize in 2005, ulcers are now cured in two weeks with antibiotics, and stomach cancer, which *H. pylori* also causes, has fallen with it. The story is told as a triumph of the maverick, and the more useful lesson is about what "everyone knows" is worth when nobody has tested it.
+:::
+
+:::try Put the idea to work
+A study finds one microbe more often in people with a condition. What stops you concluding that the microbe caused it?
+
+:::answer Show the reasoning
+The condition could change the environment in which the microbe grows, or diet, treatment, or another factor could affect both. Association identifies a lead. Time ordering, plausible mechanisms, and well-designed interventions or other causal evidence are needed to distinguish the explanations.
+:::
 :::
 
 ## Summary

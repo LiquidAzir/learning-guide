@@ -4,7 +4,7 @@ subtitle: What happens when my best choice depends on yours. From the prisoner's
 part: III · People and Strategy
 ---
 
-## Recap
+## How does your best choice depend on someone else's?
 
 Supply and demand assumes each buyer and seller is too small to matter, so nobody thinks about anyone else's reaction. Most interesting situations are not like that. When two airlines set fares, when nations set tariffs, when a firm decides whether to enter a market, each side's best move depends on what the other will do. **Game theory** is the mathematics of that interdependence, and since 1950 it has rebuilt large parts of economics around itself.
 
@@ -69,6 +69,14 @@ That does not make the theory useless. Where the rules are designed by game theo
 
 :::frontier
 Game theory's newest players are algorithms. Pricing software used by competing landlords, airlines, and online sellers can learn to coordinate on high prices without any explicit agreement, which is collusion in effect but not in law; regulators in several countries are working out what to do about it. Large language models are being studied as strategic agents, and early results show them behaving more cooperatively than Nash equilibrium predicts, much as humans do. And the design of mechanisms for allocating vaccines, refugee placements, and carbon permits continues to draw directly on the tools in this chapter.
+:::
+
+:::try Put the idea to work
+Two competing firms would both profit from charging more, but each can gain by cutting its own price while the other keeps prices high. Why might the jointly preferred outcome fail to persist?
+
+:::answer Show the reasoning
+Each has an incentive to deviate from the high-price arrangement. A Nash equilibrium requires each choice to be a best response to the other, not merely a good outcome for the pair. Repeated interaction can change incentives, but the one-shot situation does not enforce cooperation.
+:::
 :::
 
 ## Summary

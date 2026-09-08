@@ -1,10 +1,10 @@
 ---
 title: Gods, Prophets, and Philosophers
-subtitle: 1200 BCE to 400 CE. In a few centuries, from Persia to China, people stopped worshipping gods who wanted food and started asking what a good life was. Nobody has explained why it happened everywhere at once.
+subtitle: 1200 BCE to 400 CE. Thinkers from Persia to China ask how to live, govern, and face suffering. Their answers invite comparison, but the idea of a single shared turning point remains disputed.
 part: II · Ancient History
 ---
 
-## Recap
+## Did ancient thinkers share a turning point, or do we impose one?
 
 The political chapters have mentioned religion as it came up: the temple economy of Sumer, the Egyptian afterlife, the Hebrew covenant, Greek philosophy, the Buddha, Christianity. This chapter steps back to look at the whole pattern, because the ancient world produced, in the span of about six centuries, nearly every religion and ethical system that people live by today, and the coincidence needs explaining. It also lays out what each of them actually taught, since later chapters assume the reader knows.
 
@@ -62,6 +62,14 @@ In the 370s a young North African student, and then teacher, of rhetoric named A
 - 70 CE: Jerusalem temple destroyed; rabbinic Judaism takes shape.
 - 325 CE: Council of Nicaea.
 - 386 CE: Augustine's conversion.
+:::
+
+:::try Put the idea to work
+Several traditions discuss ethical conduct within a broad span of centuries. What would you need to justify calling this one coordinated historical event?
+
+:::answer One way to reason it through
+You would need more precise chronology, evidence of connections or shared pressures, and attention to traditions that do not fit the pattern. Similar questions invite comparison, but a wide date range and selectively chosen examples do not establish a single cause or synchronized transformation.
+:::
 :::
 
 ## Summary

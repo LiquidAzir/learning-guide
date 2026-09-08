@@ -4,7 +4,7 @@ subtitle: 1715 to 1815. Philosophers turn reason on kings and churches, a bankru
 part: III · European History
 ---
 
-## Recap
+## How did universal rights coexist with exclusion and empire?
 
 The seventeenth century ended with Newton's universe, Louis XIV's monarchy, and England's Parliament. The eighteenth applied Newton's confidence to Louis's kind of state and asked why it should exist. The answer, given first in books and then in the streets of Paris, is the subject of this chapter, and it is the hinge of European history: everything before 1789 is the old regime and everything after is modern politics.
 
@@ -56,6 +56,14 @@ The Enlightenment argued that institutions must justify themselves to reason; th
 - 1799: Napoleon's coup. 1804: Civil Code; Napoleon emperor; Haiti independent.
 - 1805: Trafalgar and Austerlitz. 1806: Holy Roman Empire ends.
 - 1812: Russia. 1815: Waterloo; Congress of Vienna.
+:::
+
+:::try Put the idea to work
+A revolutionary declaration announces equality while slavery continues. How can a historian explain the contradiction without ignoring either part?
+
+:::answer One way to reason it through
+Examine who the authors counted as rights-bearing, who challenged that boundary, and which interests sustained exclusion. The declaration could supply tools for later demands while its authors denied those demands. Ideals matter historically both through their limits and through uses their originators did not control.
+:::
 :::
 
 ## Summary

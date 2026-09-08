@@ -69,14 +69,20 @@ Chemists divide, roughly, by what they make and how they look at it. **Synthetic
 
 Chemistry is also the science most directly wired into industry. The largest single chemical process on Earth, the conversion of nitrogen from the air into ammonia for fertilizer, consumes about one to two percent of the world's energy and is the reason the planet can feed eight billion people.[^3] Its inventors, Fritz Haber and Carl Bosch, both won Nobel Prizes; Haber also directed Germany's chemical weapons program in the First World War. Chemistry's power has always cut both ways.
 
+:::howto A useful first pass
+If the mole or a chemical formula feels unfamiliar, begin with chapter 2. Then follow atoms, the periodic table, and bonds before tackling reaction calculations.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
+
 ## How to read this guide
 
 The conventions are the same as in the physics guide, and you do not need to have read that guide first.
 
 - **Bold terms** are being defined right where they appear. The glossary (chapter 18) collects them all.
 - Colored boxes mark six kinds of interruption: a **key idea** you should not skim, a **story** from the history, a **math box** that shows an equation and explains every symbol, a **think about it** prompt, a **common confusion** to avoid, and a **where it stands today** note on what is unsettled. The people are collected in chapter 17.
-- Every factual claim points to a numbered source at the bottom of the chapter, with a link to the original paper where it is free to read.
-- A separate **Latest research** section, reachable from the subject's front page, tracks recent results with a plain-English summary and an honest label: confirmed, preliminary, disputed, or retracted. Several chapters point you to it.
+- Key factual claims point to a numbered source at the bottom of the chapter, with a link to the original paper where it is free to read.
+- A separate **Latest research** section, reachable from the subject's front page, tracks recent results with a plain-English summary and an honest label: reported, preliminary, disputed, or retracted. Several chapters point you to it.
 - Where a topic rests on physics (electrons, energy, entropy, quantum orbitals), the text gives you what you need and links to the relevant physics chapter for more.
 - The math is real but limited. Chemistry uses arithmetic, ratios, logarithms, and a small number of equations that are worth knowing by sight. Each is read aloud as a sentence when it appears.
 

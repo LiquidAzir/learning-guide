@@ -4,7 +4,7 @@ subtitle: Ancient DNA, radiocarbon, tree rings, laser scanning, X-rays that read
 part: V · The Edge
 ---
 
-## Recap
+## What can new methods change about an old historical argument?
 
 Every section of this guide has cited findings that did not exist in 2005: the genetic replacement of Britain's Neolithic farmers, the Kyrgyz origin of the Black Death, the three-year drought that ended the Hittites, the Maya city found under Campeche's canopy. This chapter steps back to survey the methods behind them, what they have changed, where they have gone wrong, and what is coming. It is the chapter that the research feed on this subject's page updates.
 
@@ -41,6 +41,14 @@ Three developments are visible. Ancient DNA is moving from the bones of elites t
 
 :::key
 The new methods have not replaced the historian's craft; they have given it more evidence and new ways to misread it. Genomes tell you who moved, not why; tree rings tell you it was dry, not what people did about it; a LiDAR map tells you a city was there, not who ruled it; and a neural network restoring an inscription is guessing well, not knowing. Every finding in this chapter had to be interpreted by someone who knew the texts and the dirt, and several were interpreted wrongly before they were interpreted right. That is how the discipline has always worked. The difference is that the past now speaks in more registers than it did, and the historian who can read all of them is rare.
+:::
+
+:::try Put the idea to work
+Ancient DNA shows that migration occurred. Does that by itself tell you the migrants' language, political identity, or reason for moving?
+
+:::answer One way to reason it through
+No. Genetic relationships can constrain ancestry and movement, subject to sampling and dating limits. Language, identity, and motive require other evidence and may not map neatly onto genetic groups. The strongest account connects methods without asking one measurement to answer every historical question.
+:::
 :::
 
 ## Summary

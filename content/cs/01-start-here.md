@@ -8,9 +8,13 @@ part: I · Foundations
 
 You tap a link. Before the page appears, this happens.
 
-Your phone asks the network what address the name belongs to, and gets an answer from a chain of servers that between them know every name on the internet. It opens a connection by sending one small packet and waiting for one back. It then negotiates a shared secret with a machine it has never met, over a wire anyone can listen to, using arithmetic on a curve, and neither side ever sends the secret. It requests the page. The request is chopped into packets that travel as pulses of infrared light down a glass fiber at about two-thirds the speed of light, are read and forwarded by perhaps fifteen routers, each deciding in under a microsecond where to send them next, and arrive at a building where a program searches an index of hundreds of billions of documents and returns the best matches. The reply comes back, is reassembled in order despite having taken several paths, is decrypted, is parsed into a tree of elements, is laid out, and is turned into a few million colored dots by a chip doing several trillion arithmetic operations per second. You see the page in about a fifth of a second, and you are annoyed if it takes longer.
+Your phone finds the server’s address, often using a cached answer from the Domain Name System. It establishes or reuses a connection and, for HTTPS, uses cryptography to protect the exchange. It sends a request for the page.
 
-Every step in that paragraph is a chapter in this guide. None of them is programming.
+Packets carry that request across networks. Routers forward them; the server retrieves stored content or runs a program to produce it. The reply returns in packets too. Your browser turns the HTML into a tree of elements, works out the layout, and draws the pixels. Images, scripts, and styles may trigger more requests.
+
+A fast page can begin appearing in a fraction of a second. Each step has its own delays and failure modes: a name lookup can fail, a server can stall, and an expensive script can freeze a page that has already arrived.
+
+Those steps connect the chapters in this guide. Programming implements them; computer science explains the ideas, trade-offs, and limits underneath.
 
 ## What the subject actually is
 
@@ -46,13 +50,19 @@ The order is deliberate: each part is built on the one before it, and the machin
 
 Artificial intelligence is a branch of computer science with a guide of its own here, and this one does not repeat it. Where a topic belongs there, you will find a link, like this one to [what a neural network is](#/ai/neural-networks). What this guide gives you that the AI guide assumes is the ground underneath: what a computation costs, why a GPU is shaped the way it is, and what "training" is actually doing to a machine.
 
+:::howto A useful first pass
+Follow the page request in this opening chapter, then use representation and information to understand what is traveling through the system. The later networks and databases chapters complete the route.
+
+At the end of a core chapter, try the question before opening “Show the reasoning” or “One way to reason it through.” Explain your answer in a sentence or work the calculation; then compare the reasoning, not just the result. Reading-time estimates exclude time spent practicing.
+:::
+
 ## How to read this
 
 Each chapter is built the same way.
 
 - **Bold terms** are defined where they appear. Chapter 24 collects every one of them, along with the numbers worth memorizing.
 - Colored boxes mark the interruptions: a **key idea** worth slowing down for, a **story** from the history, a **math box** that shows the real formula and explains every symbol in it, a **how to** with a procedure you can follow, a **who did this** portrait, a **common confusion**, and a **where it stands** note on what is unsettled.
-- Every factual claim points to a numbered source at the foot of the chapter, and where the original paper is free to read, the link goes to it.
+- Key factual claims point to a numbered source at the foot of the chapter, and where the original paper is free to read, the link goes to it.
 - The math is real but never decorative. Computer science has less of it than physics and more of it than most people expect, and almost all of it is counting: how many steps, how many bits, how many messages.
 
 :::try Think about it

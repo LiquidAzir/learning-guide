@@ -4,7 +4,7 @@ subtitle: How to count arrangements, how a proof actually works, what a graph is
 part: IV · Structure
 ---
 
-## Recap
+## What changes when you count separate objects instead of measuring continuous quantities?
 
 Calculus is about the continuous: quantities that vary smoothly. **Discrete mathematics** is about things that come in whole units: people, arrangements, network connections, steps in a program, statements that are true or false. It is the mathematics that computers are made of, and it includes the study of proof itself, which is what makes mathematics different from every other subject.
 
@@ -99,6 +99,14 @@ Gödel and Turing set limits on formal reasoning, but the limits are the reason 
 - A network is a graph; shortest paths, spanning trees, flows, and colorings solve routing, wiring, matching, and scheduling.
 - Exponential algorithms are infeasible regardless of hardware; whether hard problems have fast algorithms is the P vs NP question.
 - Gödel: any consistent system containing arithmetic has true statements it cannot prove. Turing: some questions have no algorithm.
+:::
+
+:::try Put the idea to work
+A password has three positions, each allowing four symbols. Repetition is allowed. How many passwords are possible, and what changes if repetition is forbidden?
+
+:::answer Show the reasoning
+With repetition, each position has four choices: 4³ = 64. Without repetition, the choices shrink after each pick: 4 × 3 × 2 = 24. The multiplication rule stays the same; the permitted choices at each stage change.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: From a 1943 paper about neurons to the transformer. Two booms, two win
 part: I · Foundations
 ---
 
-## Recap
+## Why did AI progress through both breakthroughs and false starts?
 
 Chapter 1 said the ideas were old and the results were new. This chapter tells how that happened: who had the ideas, why they were dismissed, and what changed. The history matters because the field keeps re-fighting its old arguments, and because the people who were wrong were usually wrong for good reasons.
 
@@ -63,6 +63,14 @@ OpenAI then made a bet as consequential as Hinton's. The hypothesis was that a t
 GPT-3 was powerful and hard to use. In 2022 OpenAI added a step: after pretraining, humans ranked the model's responses, and a second round of training taught it to produce responses humans preferred (chapter 17). The result, released as ChatGPT on 30 November 2022, reached a hundred million users in two months, then the fastest adoption of any consumer product in history (Threads beat the record seven months later).[^21] Within eighteen months every major technology company had a competing model; open-weight models (Meta's Llama, Mistral, and in January 2025 China's DeepSeek, which matched the frontier at a fraction of the reported cost) put the technology in anyone's hands; and models could process images, audio, and video, write and run code, and, by late 2024, "reason," spending minutes thinking before answering and thereby solving mathematics and programming problems that had defeated them.[^22]
 
 What comes next is chapter 22's subject. What this history shows is a pattern. The field has believed at least four times that it had found the key, and been wrong three times. The idea that won, learning from data with many-layered networks, was declared dead in 1969 and again in the 1990s, and the people who kept working on it were marginal figures for most of that time. That is worth remembering when reading confident claims, in either direction, about what comes next.
+
+:::try Put the idea to work
+A system beats people at a board game. What extra evidence would you need before calling it generally intelligent?
+
+:::answer Show the reasoning
+You would need performance across substantially different tasks, adaptation to unfamiliar conditions, and evidence about the resources and supervision required. A board-game result can be remarkable while remaining specific to a precisely defined environment. The historical mistake is expanding the claim faster than the tests.
+:::
+:::
 
 ## Summary
 

@@ -4,7 +4,7 @@ subtitle: The program that lies to every other program, convincingly: that it ha
 part: II · The Machine
 ---
 
-## Recap
+## How can many programs share one machine safely?
 
 Chapter 8 left us with a processor that executes one instruction stream and a physical memory shared by everything. Your laptop is running several hundred programs right now, none of which can see the others' data, on a machine with a handful of cores. The program that manages that fiction is the operating system, and it does two jobs: **abstraction** and **arbitration**.
 
@@ -75,6 +75,14 @@ Unix began in 1969 as a side project at Bell Labs after the company withdrew fro
 ## What we still argue about
 
 Whether the kernel should be rewritten in a memory-safe language: Rust support in Linux was declared no longer experimental at the December 2025 maintainers summit after five years of argument, on a policy of new code only, with no forced migration.[^6] Whether the system-call interface is the right boundary now that fast devices make its cost the dominant one. And whether containers can be made a strong enough isolation boundary to stop the industry running two layers of virtualization for one workload.
+
+:::try Put the idea to work
+Two programs both use the same numerical virtual address. Must they be reading the same physical memory?
+
+:::answer Show the reasoning
+No. Each process can have its own address space, with page tables mapping the same virtual address to different physical locations. The operating system and hardware enforce those mappings. Shared memory is possible, but it requires an intentional mapping rather than numerical address equality alone.
+:::
+:::
 
 ## Summary
 

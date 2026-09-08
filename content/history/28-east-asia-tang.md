@@ -1,10 +1,10 @@
 ---
 title: Division, Buddhism, and the Tang
-subtitle: 220 to 907 CE. China splits for four centuries and a foreign religion fills the gap; Korea and Japan enter written history by borrowing everything China has; and the Tang build the most cosmopolitan empire of the age, with a capital of a million people and a woman on the throne.
+subtitle: 220 to 907 CE. China splits for four centuries and a foreign religion fills the gap; Korea and Japan enter written history by adapting Chinese institutions, writing, and religious traditions; and the Tang build the most cosmopolitan empire of the age, with a capital of a million people and a woman on the throne.
 part: IV · East Asian History
 ---
 
-## Recap
+## How did Korea and Japan adapt ideas from China?
 
 The Han fell in 220 and China divided. This chapter covers the long division, the arrival and triumph of Buddhism, the reunification under the Sui and Tang, and the entry of Korea and Japan into the record, which happens in these centuries because both adopted Chinese writing to keep it. By 907 East Asia is a cultural world with China at its center and Korea, Japan, and Vietnam as distinct civilizations sharing its script, its Buddhism, its Confucian statecraft, and its law.
 
@@ -51,6 +51,14 @@ The four centuries of division gave China Buddhism, the Yangzi rice economy, and
 - 710: Nara. 751: Talas River.
 - 755–763: An Lushan rebellion.
 - 794: Heian (Kyoto) founded. 845: Buddhism suppressed. 907: Tang falls.
+:::
+
+:::try Put the idea to work
+A court adopts Chinese writing and institutions. What would distinguish adaptation from simple copying?
+
+:::answer One way to reason it through
+Look for changes in language use, rank, legal practice, religious life, and who held power. Imported forms operate within local circumstances and can acquire different functions. Adoption demonstrates connection; examining the modifications explains the receiving society's choices.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: What financial markets are for, how to price a promise, why nobody bea
 part: V · The World
 ---
 
-## Recap
+## Why isn't a high average return the whole story?
 
 Chapter 11 explained banks and chapter 12 showed what happens when finance fails. This chapter is about the rest of the financial system: the markets for stocks, bonds, and risk, what they do for the economy, the theories that describe them, and the evidence for and against those theories. It is also where economics meets the largest pile of data in the social sciences, prices recorded every second for a century.
 
@@ -58,6 +58,14 @@ Two open questions about the whole system are worth naming. First, whether finan
 
 :::frontier
 The instruments keep changing and the questions do not. **Stablecoins**, digital tokens backed by Treasury bills and now federally regulated in the United States, are money-market funds in new clothes and carry the same run risk. **Private credit** is banking without the deposit insurance or the supervision. Bitcoin and its relatives are assets with no cash flows to discount, so their price rests entirely on what the next buyer will pay; that makes them the purest test yet of the bubble question, and one that fifteen years of trading has not settled either way. And the question of whether artificial intelligence trading makes markets more efficient or more prone to synchronized crashes is being answered in real time. The Latest Research section follows the regulators' reports.
+:::
+
+:::try Put the idea to work
+Two hypothetical assets have the same average return. One tends to fall precisely when its owner loses income. Why might that asset be less attractive?
+
+:::answer Show the reasoning
+It performs badly when the owner most needs resources. Risk depends on how an asset interacts with other income and holdings, not just its standalone average or volatility. This illustrates the role of covariance and diversification without identifying a suitable investment for any particular person.
+:::
 :::
 
 ## Summary

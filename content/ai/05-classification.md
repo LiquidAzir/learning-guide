@@ -4,7 +4,7 @@ subtitle: Spam or not, cat or dog, sick or well. The first spam filter used a fo
 part: II · Learning from Data
 ---
 
-## Recap
+## When is a confident classification still a bad decision?
 
 Chapter 4 ended with logistic regression, a classifier built from a line. This chapter widens the view to classification in general: two more classic methods, the loss that trains them, and, most importantly, how to evaluate a classifier. Every misleading claim about a medical AI, a fraud detector, or a facial recognition system exploits the gap between "accuracy" and what actually matters, and closing that gap is a skill worth more than any algorithm.
 
@@ -94,14 +94,18 @@ For a new tabular problem in 2026 the practical answer, established by two decad
 | AUC | probability a random positive is ranked above a random negative; 0.5 = chance |
 :::
 
-:::know
-- Naive Bayes is Bayes' theorem with an independence assumption; wrong in principle, useful in practice, unbeatable for cost.
-- Nearest neighbors assumes nearby means similar; it fails in high dimensions, which is why learned features matter.
-- Cross-entropy punishes confident errors without limit and is the loss behind every neural classifier.
-- Accuracy is dominated by the class balance. Read precision and recall, and know the base rate.
-- The threshold is a choice about which mistake you prefer; make it deliberately. AUC compares models; the confusion matrix at the deployed threshold describes the system.
-- A probability output should be calibrated before it is used as a probability.
-- Ask on whom, how, against what, at which threshold, with what costs.
+:::know Before using a classifier
+- **Define the decision.** Who will act on the output, and what happens after a false alarm or a miss?
+- **Choose the threshold.** Compare precision and recall at thresholds that could actually be used, given the base rate and the costs of mistakes.
+- **Check the setting.** Evaluate on the people, time period, and conditions the system will face. Check calibration if a score will be treated as a probability.
+:::
+
+:::try Put the idea to work
+Only 1 percent of transactions are fraudulent. A classifier calls every transaction legitimate and reports 99 percent accuracy. What has it achieved for fraud detection?
+
+:::answer Show the reasoning
+It has detected no fraud: recall for fraud is zero. The high accuracy comes entirely from the common class. Inspect the confusion matrix, false-alarm cost, and the value of catching fraud before choosing a threshold or declaring a model useful.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: The difference between a problem nobody has solved and a problem nobod
 part: III · Methods
 ---
 
-## Recap
+## What does “efficient” mean as the input grows?
 
 Chapter 6 drew a line between the computable and the uncomputable. This chapter draws a second line inside the computable, between what can be solved in a reasonable amount of time and what cannot, and it is a much harder line to place: the central question about it has been open since 1971 and carries a million-dollar prize.
 
@@ -108,6 +108,14 @@ The practical lesson is to recognize the shape. If a problem asks for the best a
 ## What we still do not know
 
 Whether P = NP, and whether the question is even provable within standard mathematics. Whether NP-complete problems have subexponential algorithms; the "exponential time hypothesis" says no, and much of modern fine-grained complexity is built on it. Whether the polynomial hierarchy above NP collapses. And what quantum computers change, which is less than the headlines suggest: they are not believed to solve NP-complete problems efficiently (chapter 21).
+
+:::try Put the idea to work
+Algorithm A takes roughly n steps and B takes roughly n² steps. When input grows tenfold, how do those estimates change? Does this prove A wins on every tiny input?
+
+:::answer Show the reasoning
+A's estimate grows tenfold; B's grows a hundredfold. Constants and overhead can still make B faster on a small input. Asymptotic analysis explains growth, while measurement and the actual workload decide where the crossover occurs.
+:::
+:::
 
 ## Summary
 

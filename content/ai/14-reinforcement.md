@@ -4,7 +4,7 @@ subtitle: No labels, no answers, just a score. How a program taught itself Go fr
 part: III · Neural Networks
 ---
 
-## Recap
+## How do you learn when feedback arrives after the decision?
 
 Supervised learning needs someone to supply the right answer for each example. Unsupervised learning needs no answers but makes no decisions. **Reinforcement learning** (RL) is for the third case, the one Arthur Samuel's checkers program faced in 1959 (chapter 1): a system that acts, receives a score, and must work out for itself which of its actions deserved credit. It is the branch of the field closest to how animals learn, the one with the most spectacular demonstrations, and the one that turned out to be the missing step in making language models useful.
 
@@ -84,11 +84,19 @@ Then, in 2024 and 2025, RL did something more. Models were trained by RL on prob
 - RLHF made language models into assistants; RL on verifiable answers (RLVR) made them reason at length.
 :::
 
+:::try Put the idea to work
+An agent earns points for keeping a simulated boat moving and discovers it can circle forever. What does that reveal about the reward?
+
+:::answer Show the reasoning
+The reward permits behavior that differs from the intended goal, such as completing a course. Optimizing the specified reward is not the same as understanding the designer's purpose. Examine what outcomes the reward actually favors and test for alternatives that score well for the wrong reason.
+:::
+:::
+
 ## Summary
 
 - Reinforcement learning frames decision-making as an agent maximizing total reward from an environment, with the credit assignment and exploration problems at its core.
 - Value functions and the Bellman equation, learned by temporal-difference methods, are the classical foundation; Q-learning and policy gradients are the two main families.
-- Deep RL (DQN, 2013) scaled these to raw pixels; AlphaGo and AlphaZero combined networks with search and self-play to master board games from nothing.
+- Deep RL (DQN, 2013) learned from raw pixels. AlphaGo combined human game data, reinforcement learning, and search; AlphaZero learned board games through self-play without human game examples, using the supplied rules.
 - Outside simulators, RL is sample-hungry and prone to reward hacking; its clearest real-world wins are in computer systems with clean metrics.
 - RL from human feedback turned language models into assistants in 2022, and RL on verifiable rewards taught them to reason in 2024–25.
 

@@ -1,6 +1,6 @@
 ---
 title: Glossary
-subtitle: Every term this guide defines, in one place, in plain words.
+subtitle: Definitions and reference facts to return to as you read. Search for a term, check the distinction, and follow its chapter link for the explanation.
 part: V · The Edge
 ---
 
@@ -36,9 +36,9 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Scalar.** A quantity with size only: mass, temperature, energy.
 
-**Sigma ($\sigma$).** One standard deviation, a measure of statistical spread. A "five-sigma" result would arise by chance about once in 3.5 million trials; this is the threshold for claiming a discovery.
-
 **SI units.** The International System: meter, second, kilogram, kelvin, and three others, all defined since 2019 by fixing constants of nature.
+
+**Sigma ($\sigma$).** One standard deviation, a measure of statistical spread. A "five-sigma" result would arise by chance about once in 3.5 million trials; this is the threshold for claiming a discovery.
 
 **Symmetry.** A change that leaves the laws of physics unaltered: shifting in time, shifting in space, rotating.
 
@@ -110,11 +110,13 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Landauer's principle.** Erasing one bit of information releases at least $k_BT\ln 2$ of heat. Information is physical.
 
-**Macrostate / microstate.** What you can measure (pressure, temperature) versus the exact arrangement of every particle. Many microstates share one macrostate.
+**Macrostate.** A description using large-scale quantities such as pressure, volume, and temperature. See chapter 5.
 
 **Maxwell–Boltzmann distribution.** The spread of molecular speeds in a gas at a given temperature; the first law of physics stated as a probability distribution.
 
 **Maxwell's demon.** A hypothetical creature that sorts molecules to defeat the second law. Defeated in turn by the entropy cost of erasing its memory.
+
+**Microstate.** A detailed microscopic configuration compatible with a macrostate. Many microstates can share the same macrostate. See chapter 5.
 
 **Past hypothesis.** The assumption that the early universe had very low entropy. Explains the arrow of time; is itself unexplained.
 
@@ -126,7 +128,7 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Charge.** The property that makes matter feel electric forces. Comes in positive and negative; like repels, unlike attracts, with force $F = kq_1q_2/r^2$.
 
-**Current, voltage, resistance.** Current is the rate at which charge flows (amperes); voltage is the energy given to each unit of charge, the push that drives it (volts); resistance is how much a material opposes the flow. Ohm's law: current equals voltage divided by resistance.
+**Current.** The rate of flow of electric charge, measured in amperes. See chapter 6.
 
 **Diffraction.** The bending and interference of waves passing an edge or through an opening; the pattern it makes is the fingerprint of wave behavior.
 
@@ -148,9 +150,15 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Refraction.** The bending of light as it passes from one medium into another, described by Snell's law.
 
+**Resistance.** The ratio of voltage to current for a component under stated conditions. For an ohmic component, voltage is proportional to current. See chapter 6.
+
 **Spectrum.** The range of electromagnetic wavelengths, from radio to gamma rays; also, the set of sharp colors emitted by a heated element.
 
+**Voltage.** Electric potential difference, or energy difference per unit charge, measured in volts. See chapter 6.
+
 ## Relativity (chapters 7 and 8)
+
+**$E = mc^2$.** Mass is a form of energy. A body at rest has energy $mc^2$.
 
 **Black hole.** A region where spacetime is curved so strongly that nothing, including light, can escape. Bounded by an **event horizon**, the surface of no return, at the **Schwarzschild radius** $r_s = 2GM/c^2$.
 
@@ -186,8 +194,6 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Time dilation.** Moving clocks run slow by the factor $\gamma$; clocks deeper in a gravitational field also run slow.
 
-**$E = mc^2$.** Mass is a form of energy. A body at rest has energy $mc^2$.
-
 ## Quantum mechanics (chapters 9 and 10)
 
 **Antimatter.** Every particle has a twin with opposite charge; the two annihilate on contact. Predicted by Dirac, found in 1932.
@@ -214,19 +220,21 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Hidden variables.** Hypothetical pre-set properties that would make quantum outcomes definite. Local versions ruled out by Bell tests.
 
-**Many-worlds interpretation.** The view that the wavefunction never collapses; all outcomes occur in separate branches.
-
-**Measurement problem.** Quantum mechanics does not say when or how a superposition becomes a single definite outcome.
-
 **Laser.** A device producing light in which trillions of photons share one identical state, built on stimulated emission: an excited atom tipped into emitting an exact copy of a passing photon.
 
+**Many-worlds interpretation.** The view that the wavefunction never collapses; all outcomes occur in separate branches.
+
 **Matrix.** A rectangular table of numbers with its own rules of multiplication. Heisenberg's first version of quantum mechanics represented physical quantities as matrices.
+
+**Measurement problem.** Quantum mechanics does not say when or how a superposition becomes a single definite outcome.
 
 **Photon.** A particle of light, with energy $E = hf$ and momentum $h/\lambda$.
 
 **Pilot-wave theory.** The view that particles have definite positions guided by the wavefunction. Nonlocal.
 
 **Planck's constant ($h$).** $6.63 \times 10^{-34}$ J·s, setting the scale of quantum effects. $\hbar = h/2\pi$.
+
+**Positron.** The antiparticle of the electron: same mass, opposite charge. Predicted by Dirac, found by Anderson in 1932.
 
 **Qubit.** Any two-state quantum system used to store information; the unit of quantum computing.
 
@@ -236,27 +244,27 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Superposition.** A quantum state that is a combination of other states, such as "here" plus "there," with definite weights.
 
-**Positron.** The antiparticle of the electron: same mass, opposite charge. Predicted by Dirac, found by Anderson in 1932.
-
 **Tunneling.** A particle passing through a barrier it lacks the energy to climb, because its wavefunction leaks into and through the barrier rather than stopping at it. Explains alpha decay, fusion in the Sun, and flash memory.
-
-**Virtual particle.** A short-lived disturbance in a quantum field, permitted by the energy–time uncertainty relation, that mediates forces and shifts energy levels (the **Lamb shift**) but is never directly observed. The **Casimir effect**, a tiny attraction between close conducting plates, is one of its measurable consequences.
 
 **Uncertainty principle.** $\Delta x\,\Delta p \geq \hbar/2$: position and momentum cannot both be sharply defined. A property of waves.
 
-**Wavefunction ($\Psi$).** The complex-valued wave that contains everything knowable about a quantum system.
+**Virtual particle.** A short-lived disturbance in a quantum field, permitted by the energy–time uncertainty relation, that mediates forces and shifts energy levels (the **Lamb shift**) but is never directly observed. The **Casimir effect**, a tiny attraction between close conducting plates, is one of its measurable consequences.
 
 **Wave–particle duality.** Light and matter both show wave behavior (interference) and particle behavior (discrete detection).
 
+**Wavefunction ($\Psi$).** The complex-valued wave that contains everything knowable about a quantum system.
+
 ## Particles and matter (chapters 11 and 12)
 
-**Alpha, beta, gamma.** The three kinds of radioactive emission: helium nuclei, fast electrons, and high-energy light, respectively.
+**Alpha radiation.** Emission of helium nuclei. See chapter 11.
 
 **Anyon.** A hypothetical quasiparticle in two dimensions whose quantum state remembers how it has been moved around others; a candidate basis for noise-protected quantum computing.
 
 **Asymptotic freedom.** The strong force weakens at very short distances, so quarks inside a proton move almost freely. Discovered 1973; the flip side of confinement.
 
 **Band theory.** In a solid, electron energy levels smear into bands separated by gaps; the arrangement determines whether the solid conducts.
+
+**Beta radiation.** Emission of electrons or positrons in nuclear decay, accompanied by an antineutrino or neutrino. See chapter 11.
 
 **Binding energy.** The energy released when a nucleus forms from its parts, equal to the mass it loses via $E = mc^2$. Nuclei near iron and nickel have the most per particle.
 
@@ -280,13 +288,19 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Feynman diagram.** A picture representing a term in a quantum field theory calculation as particles meeting and exchanging force carriers.
 
-**Fission / fusion.** Splitting a heavy nucleus or joining light ones; both release binding energy via $E = mc^2$.
+**Fission.** Splitting a heavy nucleus; suitable reactions release energy because the products have lower total mass-energy. See chapter 11.
+
+**Fusion.** Joining light nuclei; suitable reactions release energy as the products become more tightly bound. See chapter 11.
+
+**Gamma radiation.** High-energy electromagnetic radiation emitted in nuclear transitions. See chapter 11.
 
 **Gauge symmetry.** A symmetry of the laws under independent adjustments of fields at every point; requiring it forces the existence of force-carrying particles.
 
 **Gluon.** The carrier of the strong force; eight kinds.
 
-**Higgs field / boson.** A field filling space whose interaction with particles gives them mass; its particle was found in 2012 at 125 GeV.
+**Higgs boson.** A particle excitation of the Higgs field, discovered in 2012 with a mass of about 125 GeV/c². See chapter 11.
+
+**Higgs field.** A field whose nonzero vacuum value is involved in giving elementary particles mass. Most ordinary matter's mass comes from other contributions, especially the energy within protons and neutrons. See chapter 11.
 
 **Isotope.** A version of an element with a different number of neutrons.
 
@@ -300,19 +314,19 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Phase transition.** An abrupt change of collective state, such as melting or the onset of magnetism, typically involving spontaneous symmetry breaking.
 
-**Quantum field theory.** Quantum mechanics combined with special relativity; particles are ripples in fields.
-
 **Plasma.** A gas so hot that electrons are stripped from nuclei. Stars, fusion reactors, and the early universe are plasma.
 
 **Quantum chromodynamics.** The quantum field theory of the strong force, in which quarks exchange gluons.
 
-**Quantum Hall effect.** Conductance of a two-dimensional electron sheet in a strong magnetic field comes in exact integer (or fractional) steps; the first topological state of matter.
+**Quantum field theory.** Quantum mechanics combined with special relativity; particles are ripples in fields.
 
-**Radioactivity.** The spontaneous transformation of unstable nuclei, emitting alpha, beta, or gamma radiation at a fixed probabilistic rate set by the half-life.
+**Quantum Hall effect.** Conductance of a two-dimensional electron sheet in a strong magnetic field comes in exact integer (or fractional) steps; the first topological state of matter.
 
 **Quark.** A constituent of protons, neutrons, and other strongly interacting particles; six kinds, in three generations.
 
 **Quasiparticle.** A collective excitation of many particles that behaves like a single particle, such as a fractional-charge excitation in the quantum Hall effect.
+
+**Radioactivity.** The spontaneous transformation of unstable nuclei, emitting alpha, beta, or gamma radiation at a fixed probabilistic rate set by the half-life.
 
 **Renormalization.** The technique that makes quantum field theory calculations finite; later understood via phase transitions as a statement about how physics changes with scale.
 
@@ -352,8 +366,6 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 
 **Inflation.** A proposed burst of exponential expansion in the first $10^{-32}$ seconds, explaining the uniformity and flatness of the universe.
 
-**ΛCDM.** The standard model of cosmology: cosmological constant plus cold dark matter, in a flat universe with 5% ordinary matter.
-
 **Neutron star.** The collapsed core left by a supernova: a city-sized object as dense as an atomic nucleus.
 
 **Redshift.** The stretching of light to longer wavelengths as its source recedes or as space expands.
@@ -365,6 +377,8 @@ Terms are grouped by the chapter that introduces them, so the glossary doubles a
 **White dwarf.** The Earth-sized remnant of a Sun-like star, held up by degeneracy pressure.
 
 **WIMP.** Weakly interacting massive particle, a leading but so far undetected dark matter candidate.
+
+**ΛCDM.** The standard model of cosmology: cosmological constant plus cold dark matter, in a flat universe with 5% ordinary matter.
 
 ## The frontier (chapter 14)
 

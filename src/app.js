@@ -143,7 +143,7 @@
             <span class="chapter-num" aria-hidden="true">↗</span>
             <span>
               <h3>Latest research</h3>
-              <p>${research.length} verified papers and results from ${Math.min(...research.map(r => r.year))} to ${Math.max(...research.map(r => r.year))}, with plain-English summaries. Updated ${esc(subject.research.updated || DATA.built)}.</p>
+              <p>${research.length} papers, reports, and announcements from ${Math.min(...research.map(r => r.year))} to ${Math.max(...research.map(r => r.year))}, with plain-English summaries. Updated ${esc(subject.research.updated || DATA.built)}.</p>
             </span>
           </a>
         </div>
@@ -227,14 +227,19 @@
     'algorithms': 'algorithms', 'complexity-theory': 'complexity theory', 'cryptography': 'cryptography', 'quantum-computing': 'quantum computing', 'quantum-hardware': 'quantum hardware', 'computer-architecture': 'computer architecture', 'chips': 'chips and fabrication', 'operating-systems': 'operating systems', 'programming-languages': 'programming languages', 'formal-verification': 'formal verification', 'memory-safety': 'memory safety', 'distributed-systems': 'distributed systems', 'databases': 'databases', 'networking': 'networking', 'internet-measurement': 'internet measurement', 'security': 'security', 'software-engineering': 'software engineering', 'graphics': 'graphics', 'storage': 'storage', 'hci': 'human-computer interaction', 'post-quantum': 'post-quantum crypto', 'ai-for-code': 'AI for code', 'energy-computing': 'computing and energy',
   };
   const topicLabel = (t) => TOPIC_LABELS[t] || t.replace(/-/g, ' ');
-  const STATUS_KEY = '<strong>Confirmed</strong> means independent groups agree; <strong>preliminary</strong> means a first result awaiting confirmation; <strong>disputed</strong> means serious experts disagree; <strong>retracted</strong> means it was withdrawn.';
+  const STATUS_KEY = '<strong>Reported</strong> means the cited source reports the result or event. <strong>Preliminary</strong> flags early evidence; <strong>disputed</strong> flags a substantive challenge; <strong>retracted</strong> means the work was withdrawn. Source format is shown separately: publication or an official announcement does not establish independent replication. The summary explains the specific limits.';
 
   function researchItem(i, subject) {
     return h`
       <li class="research-item">
-        <div class="top"><span>${esc(i.date || i.year)}</span>${i._showSubject ? h`<span class="badge subject">${esc(subject.title)}</span>` : ''}<span class="badge topic">${esc(topicLabel(i.topic))}</span><span class="badge ${esc(i.status)}">${esc(i.status)}</span></div>
-        <h3><a href="${/^https?:/.test(i.url) ? esc(i.url) : '#'}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
-        <div class="who">${esc(i.authors)} · ${esc(i.venue)}${i.year ? ', ' + i.year : ''}</div>
+        <div class="top"><span>${esc(i.date || i.year)}</span>${i._showSubject ? h`<span class="badge subject">${esc(subject.title)}</span>` : ''}<span class="badge topic">${esc(topicLabel(i.topic))}</span><span class="badge">${esc(i.sourceType || 'Source document')}</span><span class="badge ${esc(i.status)}">${esc(i.status)}</span></div>
+        <h3><a href="${/^https?:/.test(i.url) ? esc(i.url) : '#'}" target="_blank" rel="noopener">${esc(i.headline || i.title)}</a></h3>
+        <details class="research-source">
+<summary>Source details</summary>
+<p><strong>Original title:</strong> ${esc(i.title)}</p>
+<p class="who">${esc(i.authors)} · ${esc(i.venue)}${i.year ? ", " + i.year : ""}</p>
+${i.verified ? h`<p class="source-check">Source check recorded: ${esc(i.verified)}. This date records a source check, not independent confirmation of the finding.</p>` : ""}
+</details>
         <p class="summary">${esc(i.summary)}</p>
         <div class="links">
           ${i.arxiv ? h`<a href="https://arxiv.org/abs/${esc(i.arxiv)}" target="_blank" rel="noopener">arXiv:${esc(i.arxiv)}</a>` : ''}
@@ -254,7 +259,7 @@
       <section class="research-head reveal">
         <a class="label" href="#/${subject.id}">${esc(subject.title)}</a>
         <h1 style="margin:10px 0 6px;letter-spacing:-.02em;text-wrap:balance">Latest research</h1>
-        <p>${esc(subject.researchIntro || `Recent findings in ${subject.title.toLowerCase()}, checked against the original papers.`)} Each entry says what was measured, why it matters, and how settled it is. ${STATUS_KEY}</p>
+        <p>${esc(subject.researchIntro || `Recent findings in ${subject.title.toLowerCase()}, checked against the original papers.`)} Each entry explains what the source reports, why it matters, and what the evidence leaves open. ${STATUS_KEY}</p>
         <p class="label">Last updated ${esc(subject.research.updated || DATA.built)} · ${items.length} entries · <a href="#/research">all subjects →</a></p>
         <nav class="chips" aria-label="Filter by topic">
           <a class="chip" href="#/${subject.id}/research" ${!active ? 'aria-current="true"' : ''}>All <span class="n">${items.length}</span></a>
@@ -299,7 +304,7 @@
           <span class="subject-body">
             <h2>${esc(s.title)}</h2>
             <p class="tagline">${esc(s.tagline)}</p>
-            <span class="meta"><span>${chapters.length} chapters</span><span>${Math.round(minutes / 60 * 10) / 10} hours</span><span>${chapters.reduce((a, c) => a + c.sourceCount, 0)} sources</span>${done ? h`<span class="done-tag">${done} finished</span>` : ''}</span>
+            <span class="meta"><span>${chapters.length} chapters</span><span>${Math.round(minutes / 60 * 10) / 10} hours of reading</span><span>${chapters.reduce((a, c) => a + c.sourceCount, 0)} sources</span>${done ? h`<span class="done-tag">${done} finished</span>` : ''}</span>
             <span class="progress-track" role="progressbar" aria-valuenow="${pct}" aria-valuemin="0" aria-valuemax="100" aria-label="${esc(s.title)} progress"><span class="progress-fill" style="width:${pct}%"></span></span>
             ${done && next ? h`<span class="continue">Continue: ${esc(next.title)}</span>` : ''}
           </span>
@@ -309,8 +314,8 @@
     return h`
       <section class="hero reveal">
         <span class="label">Learning Guide</span>
-        <h1>Whole subjects, explained properly.</h1>
-        <p class="tagline">Deep, readable overviews that take you from first principles to the current research, with every term defined and every claim cited. More subjects are on the way.</p>
+        <h1>Understand the ideas behind the world around you.</h1>
+        <p class="tagline">Explore eight subjects through clear explanations, worked examples, the stories behind the discoveries, and questions you can try. Start with the foundations, or follow a question that interests you.</p>
       </section>
       <div class="subject-grid">${cards}</div>
       ${researchTotal ? h`
@@ -321,7 +326,7 @@
             <span class="chapter-num" aria-hidden="true">↗</span>
             <span>
               <h3>Latest research across every subject</h3>
-              <p>${researchTotal} verified results with plain-English summaries and an honest status label, newest first.</p>
+              <p>${researchTotal} research entries with readable summaries, source details, and cautions about the evidence, newest first.</p>
             </span>
           </a>
         </div>
@@ -559,6 +564,8 @@
           add(s.id, { rank: 0, crumb: s.title, title: c.title, href: `#/${s.id}/${c.id}`, snippet: c.subtitle });
         for (const t of c.toc) if (t.text.toLowerCase().includes(q))
           add(s.id, { rank: 1, crumb: `${s.title} · ${c.title}`, title: t.text, href: `#/${s.id}/${c.id}/${t.id}` });
+        for (const t of c.terms || []) if (t.text.toLowerCase().includes(q))
+          add(s.id, { rank: 0, crumb: `${s.title} · ${c.title}`, title: t.text, href: `#/${s.id}/${c.id}/${t.id}` });
         let i = e.lower.indexOf(q), n = 0;
         while (i >= 0 && n < 3) {
           const head = e.heads.filter(hh => hh.at <= i).pop();
@@ -585,6 +592,16 @@
   }
 
   // ---------- global keys ----------
+  // Include worked answers in printouts, then restore the reader's choices.
+  let printClosedAnswers = [];
+  addEventListener('beforeprint', () => {
+    printClosedAnswers = [...document.querySelectorAll('.callout-answer:not([open])')];
+    printClosedAnswers.forEach(answer => { answer.open = true; });
+  });
+  addEventListener('afterprint', () => {
+    printClosedAnswers.forEach(answer => { answer.open = false; });
+    printClosedAnswers = [];
+  });
   addEventListener('keydown', (e) => {
     const t = e.target;
     if ((t && t.matches && t.matches('input,textarea,[contenteditable]')) || e.metaKey || e.ctrlKey || e.altKey) return;

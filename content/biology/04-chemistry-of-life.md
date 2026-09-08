@@ -4,7 +4,7 @@ subtitle: Water, four kinds of big molecule, and the enzymes that make chemistry
 part: II · The Cell and Its Chemistry
 ---
 
-## Recap
+## How do a few kinds of molecule do so many jobs?
 
 Chapter 3 gave the cell's architecture. This chapter is about the stuff: what the cell is made of and how its chemistry runs at body temperature at speeds that would otherwise take centuries. It leans on the chemistry guide for what atoms and bonds are; here the question is what biology does with them.
 
@@ -24,7 +24,7 @@ Almost everything in a cell that is not water or small ions belongs to one of fo
 
 **Proteins** do almost everything else, and the rest of this chapter is mostly about them. A protein is a chain of **amino acids**, of which life uses twenty, each with the same backbone and a different side group: some oily, some charged, some bulky, some tiny. A typical protein is 300 to 500 amino acids long; the chain folds, driven mainly by hiding its oily side groups from water, into a specific three-dimensional shape, and the shape is the function. Enzymes, antibodies, receptors, the fibers of muscle and hair, the channels in membranes, the motors that haul cargo, hemoglobin: all proteins. The human genome encodes about 20,000 kinds; any one cell makes perhaps half of them, in many modified versions.[^2]
 
-**Nucleic acids**, DNA and RNA, are chains of **nucleotides**, each a sugar, a phosphate, and one of four bases. They store and carry information, and chapter 6 is about them. One nucleotide, **ATP** (adenosine triphosphate), doubles as the cell's energy currency: the bond that attaches its third phosphate is made at a cost and broken to pay for nearly everything the cell does. You turn over your own body weight in ATP every day.[^3]
+**Nucleic acids**, DNA and RNA, are chains of **nucleotides**, each a sugar, a phosphate, and one of four bases. They store and carry information, and chapter 6 is about them. One nucleotide, **ATP** (adenosine triphosphate), doubles as the cell's energy currency: cells use energy to make ATP and couple its hydrolysis to processes that need energy. The release is the net free-energy change of the whole reaction, including interactions with water; breaking a bond alone costs energy. You turn over your own body weight in ATP every day.[^3]
 
 :::key
 Life is built from about six elements in water, arranged into four kinds of molecule: sugars for fuel and structure, lipids for membranes and storage, proteins for doing, and nucleic acids for information. Proteins are chains of twenty amino acids that fold into shapes, and the shape is the function. The variety of life at the molecular level comes not from many kinds of parts but from many arrangements of a few.
@@ -62,6 +62,14 @@ A cell's chemistry works only within narrow limits. Blood pH is held between 7.3
 
 :::story The chemistry of a hangover
 Ethanol is oxidized in the liver, by the enzyme alcohol dehydrogenase, to acetaldehyde, which is toxic and causes flushing, nausea, and headache; acetaldehyde is then oxidized by a second enzyme, aldehyde dehydrogenase, to harmless acetate. About 40 percent of East Asians carry a variant of the second enzyme that works at a fraction of the normal rate, so acetaldehyde accumulates after even one drink, producing flushing and discomfort within minutes.[^9] The variant is a single letter change in one gene, producing a single amino-acid change (glutamate to lysine at position 504 of the precursor protein, often numbered 487 in the mature enzyme) in a protein of 517 amino acids, and it is enough to alter the behavior of hundreds of millions of people toward alcohol. Carriers have much lower rates of alcoholism, and higher rates of esophageal cancer if they drink anyway. Almost everything in this guide about how genes affect people works like this: one letter, one amino acid, one enzyme's speed, one visible consequence.
+:::
+
+:::try Put the idea to work
+Two proteins contain the same kinds and numbers of amino acids, arranged in different orders. Must they perform the same job?
+
+:::answer Show the reasoning
+No. Sequence influences folding and the positions of interacting chemical groups. Different sequences can produce different shapes, binding surfaces, and activities. Composition alone does not specify a protein's structure or function, just as a letter count does not specify a sentence.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: Why some reactions take a nanosecond and others take forever, and how 
 part: IV · Change
 ---
 
-## Recap
+## Why do some reactions take seconds and others take years?
 
 Free energy says whether a reaction can happen. It says nothing about when. Gasoline and oxygen can sit together for centuries; strike a spark and they are gone in a millisecond. **Kinetics** is the study of how fast reactions go and why, and its practical payoff, **catalysis**, is arguably the most economically important idea in chemistry.
 
@@ -63,6 +63,14 @@ For a century the transition state was inferred, never seen; it exists for about
 
 :::frontier
 Catalysis research is where chemistry meets the energy transition. The targets: splitting water into hydrogen with cheap metals instead of iridium and platinum; making ammonia from air and electricity at room temperature instead of at Haber–Bosch pressures; turning captured carbon dioxide back into fuels; and replacing fossil feedstocks with plant matter. Two Nobel Prizes in this century have gone to catalysis that steers reactions toward one mirror-image form of a molecule, essential for drugs (2001, metal catalysts; 2021, small organic molecules with no metal at all).[^15] The Latest Research section tracks the water-splitting and ammonia results as they arrive.
+:::
+
+:::try Put the idea to work
+A catalyst makes a reaction faster. Must it also make the equilibrium mixture contain more product?
+
+:::answer Show the reasoning
+No. A catalyst supplies a faster pathway for both directions and speeds the approach to equilibrium. It does not change the equilibrium constant at a fixed temperature. More product at an early sampling time can reflect faster arrival, not a different final equilibrium.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: 336 to 30 BCE. A twenty-year-old inherits an army, conquers the Persia
 part: II · Ancient History
 ---
 
-## Recap
+## What changed when Greek culture spread through kingdoms?
 
 Chapter 6 ended with Philip II of Macedon master of Greece in 338 BCE. Two years later he was assassinated at his daughter's wedding, and his son Alexander, aged twenty, took the throne. This chapter follows what Alexander did and, more importantly, what happened after, because the world his generals carved up was the world in which Rome grew, Judaism was rewritten, Buddhism reached the Greeks, and science first became a profession.
 
@@ -58,6 +58,14 @@ Alexander's empire lasted thirteen years and his world lasted three hundred. The
 - 212 BCE: Archimedes killed at Syracuse.
 - 167–160 BCE: Maccabean revolt.
 - 30 BCE: Cleopatra dies; Egypt becomes Roman.
+:::
+
+:::try Put the idea to work
+Greek inscriptions appear far from Greece after Alexander. Does that show the local population abandoned its earlier culture?
+
+:::answer One way to reason it through
+No. They show the use of Greek in those contexts, perhaps in government, trade, or elite display. Local languages, practices, and identities could persist and mix with new ones. Look for whose activity left the inscription and compare evidence from other parts of society.
+:::
 :::
 
 ## Summary

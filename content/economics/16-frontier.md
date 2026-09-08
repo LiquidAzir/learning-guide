@@ -4,7 +4,7 @@ subtitle: How economists learned to tell cause from correlation, what they still
 part: VI · The Edge
 ---
 
-## Recap
+## How do you judge an economic result that challenges a familiar story?
 
 You have the map. This chapter walks the edge: the methods that changed the field, the failures that humbled it, and the questions it is working on now. Unlike physics, economics' frontier is less about undiscovered laws than about hard measurement, contested values, and a world that changes faster than the data.
 
@@ -67,11 +67,19 @@ Economics headlines fail in predictable ways. A checklist, adapted from the ones
 3. **Correlation or cause?** Ask what the counterfactual is and how the study identified it. If the answer is "countries with more X have more Y," it is a question, not an answer.
 4. **Whose average?** A rise in average income is consistent with most people getting poorer. Ask about the distribution.
 5. **Who loses?** Every policy has losers. A report that finds none is not a report.
-6. **How strong is the evidence, and who else has found it?** As in the sciences: one study is a claim, replication is a result, and the Latest Research section marks each entry as confirmed, preliminary, disputed, or retracted for exactly this reason.
+6. **How strong is the evidence, and who else has found it?** As in the sciences: one study is a claim, replication is a result, and the Latest Research section marks each entry as reported, preliminary, disputed, or retracted for exactly this reason.
 7. **Is it a forecast?** If so, discount it. The profession's record on forecasting is poor, and honest economists say so.
 
 :::frontier
 The field's methods are better than they have ever been, its data are larger, and its humility, after 2008 and 2021, is greater. Its central limitation is unchanged: it studies people who read the studies. That makes economics permanently provisional, and it means the most valuable thing the subject offers is not answers but a disciplined way of asking, which this guide has tried to teach. The Latest Research section is where the asking continues.
+:::
+
+:::try Put the idea to work
+A new study reaches a different conclusion from an older one. What should you compare before deciding economics has reversed itself?
+
+:::answer Show the reasoning
+Compare the populations, dates, policy changes, outcome definitions, identification strategies, and uncertainty. Different estimates may answer different questions. A real contradiction needs comparable claims; a useful update explains which earlier conclusion changes and how far the new evidence reaches.
+:::
 :::
 
 ## Summary

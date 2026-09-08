@@ -4,7 +4,7 @@ subtitle: What chemists are working on now, what they do not know, and how to te
 part: VI · The Edge
 ---
 
-## Recap
+## When does a promising chemical result become useful technology?
 
 You have the map: atoms, the table, bonds, states, reactions, energy, rates, equilibrium, and the three great territories of carbon, life, and materials, plus the instruments that make it all knowable. This chapter walks the edge. Chemistry's frontier looks different from physics': fewer deep mysteries about the laws, more urgent problems about what to build with them. Each section states a problem, why it is hard, and where things stand.
 
@@ -61,10 +61,18 @@ Chemistry's failures of the last fifteen years have a pattern, and they suggest 
 2. **Was the characterization independent?** A new material is only new if its identity was established by methods that do not assume the answer. Automated fitting of X-ray patterns to expected structures is where the 2023 claims went wrong.
 3. **Detected is not dangerous, and promising is not deployed.** Parts-per-trillion detection of a pollutant is not a dose; a catalyst that works for a hundred hours in a lab is not a plant.
 4. **Follow the efficiency, not the record.** Solar cells, batteries, and catalysts are reported by their best number. The numbers that matter are cost, stability, and scale.
-5. **Check the Latest Research list**, where each entry carries a status of confirmed, preliminary, disputed, or retracted.
+5. **Check the Latest Research list**, where each entry carries a status of reported, preliminary, disputed, or retracted.
 
 :::key
 Chemistry's frontier is less about discovering new laws than about learning to build, at scale and without harm, with the laws already known. That makes it the science most directly responsible for whether the next century goes well. The tools have never been better. The judgment about what to build with them is still, and should be, human.
+:::
+
+:::try Put the idea to work
+A catalyst works well on a tiny, pure laboratory sample. What would you need to learn before expecting an industrial process to work?
+
+:::answer Show the reasoning
+Check performance on realistic feedstocks, stability over time, selectivity, recovery or replacement cost, and the energy and waste of the whole process. A successful small experiment establishes a possibility; scale and operating conditions determine whether that possibility becomes practical.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: How to get any number to within a factor of ten in your head, how comp
 part: V · Math in Use
 ---
 
-## Recap
+## When should you estimate instead of calculate exactly?
 
 Chapter 1 promised that estimation is the most useful single skill in the guide. This chapter delivers it, then turns to the machines that now do the exact arithmetic, because knowing what they do, and what they cannot, is the other half of numerical competence. The chapter ends with a habit: how to check any number before believing it.
 
@@ -113,6 +113,14 @@ Some quantities are easiest to estimate by simulating random trials and counting
 - The three numerical failures: accumulated rounding, cancellation of nearly equal numbers, ill-conditioned problems.
 - Calculators compute functions by series and Newton's method; simulations step differential equations forward; Monte Carlo estimates by random sampling.
 - Estimate first, check units, check limits, compute a second way.
+:::
+
+:::try Put the idea to work
+A calculation returns 12.437891 m from measurements recorded only to the nearest meter. What should make you suspicious of presenting all those digits?
+
+:::answer Show the reasoning
+The calculator's precision exceeds the precision of the inputs. Extra output digits do not create extra information about the measured object. Estimate the effect of input uncertainty and round accordingly; also check whether the model introduces a larger error than the measurements.
+:::
 :::
 
 ## Summary

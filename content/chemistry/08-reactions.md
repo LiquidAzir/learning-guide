@@ -4,7 +4,7 @@ subtitle: The kinds of change atoms undergo, the bookkeeping of electrons that u
 part: IV · Change
 ---
 
-## Recap
+## What does a balanced equation let you predict?
 
 Molecules are atoms held by bonds. A **chemical reaction** is a rearrangement: bonds break, atoms regroup, new bonds form, and the substances at the end are different from the ones at the start. The toolkit chapter showed how to write and balance one. This chapter is about what kinds there are and what is really happening in them.
 
@@ -65,6 +65,14 @@ A **fuel cell** is a battery that is refueled rather than recharged: hydrogen is
 ## Reactions do not happen all at once
 
 An equation like $\mathrm{2\,H_2 + O_2 \rightarrow 2\,H_2O}$ describes the start and the end. It does not describe the path. Three hydrogen and oxygen molecules never meet simultaneously and rearrange in one step. Instead the reaction proceeds through a sequence of simpler collisions, a **mechanism**, involving short-lived **intermediates** such as free hydrogen atoms and OH radicals. Working out mechanisms, and using them to make reactions faster or slower or to steer them toward one product, is the subject of chapter 10. The point to carry forward is that a balanced equation is a summary, not a description.
+
+:::try Put the idea to work
+For 2H₂ + O₂ → 2H₂O, start with 3 mol H₂ and 2 mol O₂. Which reactant runs out, and how much water can form?
+
+:::answer Show the reasoning
+Hydrogen limits the reaction. Three moles of H₂ need 1.5 mol O₂ and can form 3 mol H₂O, leaving 0.5 mol O₂. Compare amounts using the equation's ratios; the reactant with the smaller raw mole count is not automatically the limiting one. This assumes complete reaction with no side products.
+:::
+:::
 
 ## Summary
 

@@ -4,7 +4,7 @@ subtitle: Why you resemble your parents but are not either of them. Mendel's rul
 part: III · Inheritance and Evolution
 ---
 
-## Recap
+## Why do family resemblances follow patterns rather than copies?
 
 Chapter 6 explained what a gene is and how it is read. This chapter is about how genes travel between generations: the rules Mendel found, the machinery that produces them, and the reasons most traits do not follow them simply. It is the chapter that makes sense of family resemblance, genetic disease, and the results of a consumer DNA test.
 
@@ -73,6 +73,14 @@ Three kinds of test are now sold or offered, and they differ enormously in what 
 
 :::story Mendel's numbers
 Mendel's ratios are suspiciously good. Ronald Fisher, the statistician who did much to found population genetics, analyzed the published data in 1936 and found that they fit the predicted ratios more closely than chance should allow: the probability of getting agreement that good is very small. The explanations offered since include unconscious bias in classifying ambiguous seeds, discarding of aberrant plants as contaminated, an assistant tidying the counts, Mendel reporting the runs that came out best, and errors in Fisher's own statistical model.[^10] Nobody thinks Mendel invented his results, because the laws are correct and have been confirmed a million times. But the founding data set of genetics is too clean, and the episode is the standard teaching example of a real, uncomfortable, and unresolved question about a hero of science.
+:::
+
+:::try Put the idea to work
+Two parents are heterozygous Aa for a simple Mendelian trait. Does a 25 percent chance of aa mean exactly one of their next four children must be aa?
+
+:::answer Show the reasoning
+No. The probability applies to each conception under the model. Four births can yield zero, one, or several aa children. Ratios describe expected frequencies over many independent cases, not a schedule that a small family must follow.
+:::
 :::
 
 ## Summary

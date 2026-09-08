@@ -4,7 +4,7 @@ subtitle: 1976 to 2000. A pragmatist who had been purged twice opens China and l
 part: IV · East Asian History
 ---
 
-## Recap
+## How did economic reform and democratization take different paths?
 
 Chapter 35 ended in 1976 with Mao dead, Japan rich, and the Koreas divided between a hereditary dictatorship and a military one. This chapter covers the quarter century in which China changed course and grew faster for longer than any large country ever had, Japan reached the top and stalled, and South Korea and Taiwan became the first non-Western societies to move from developmental dictatorship to democracy. It is the making of the East Asia the reader knows.
 
@@ -20,7 +20,7 @@ Japan in the 1980s was the future. Its cars had taken a quarter of the American 
 
 ## Democratization from below
 
-**South Korea** under Park Chung-hee and, after his assassination in 1979, General Chun Doo-hwan, was a developmental dictatorship: extraordinary growth (the economy grew about 9 percent a year from 1963 to 1996), universal education, a rising middle class, and torture chambers. In May 1980 Chun's troops killed several hundred protesters in the city of Gwangju; the massacre became the founding trauma of Korean democracy. In June 1987, with the Seoul Olympics a year away and millions in the streets, Chun's designated successor conceded direct presidential elections; a new constitution followed, and in 1992 a civilian, Kim Young-sam, was elected, in 1997 the long-persecuted dissident Kim Dae-jung, and in 1996 Chun himself was tried and sentenced to death (later commuted) for Gwangju and for the coup.[^5] South Korea's democracy survived the Asian financial crisis of 1997, which nearly bankrupted it, and consolidated: it is the one clear case in modern history of a poor country becoming rich under a dictatorship and then removing the dictatorship by its own citizens' pressure.
+**South Korea** under Park Chung-hee and, after his assassination in 1979, General Chun Doo-hwan, was a developmental dictatorship: extraordinary growth (the economy grew about 9 percent a year from 1963 to 1996), universal education, a rising middle class, and torture chambers. In May 1980 Chun's troops killed several hundred protesters in the city of Gwangju; the massacre became the founding trauma of Korean democracy. In June 1987, with the Seoul Olympics a year away and millions in the streets, Chun's designated successor conceded direct presidential elections; a new constitution followed, and in 1992 a civilian, Kim Young-sam, was elected, in 1997 the long-persecuted dissident Kim Dae-jung, and in 1996 Chun himself was tried and sentenced to death (later commuted) for Gwangju and for the coup.[^5] South Korea's democracy survived the Asian financial crisis of 1997, which nearly bankrupted it, and consolidated: it is a major example of rapid development under dictatorship followed by democratization driven by citizens' pressure. Taiwan, discussed next, offers a related path with its own timing and institutions.
 
 **Taiwan** followed a similar arc under different conditions. The Nationalists had ruled it since 1949 under martial law, then the world's longest, as the Republic of China in exile, with a Taiwanese majority governed by a mainlander minority and a memory of the 1947 massacre that had begun their rule. Land reform, American aid, and export industrialization made Taiwan rich by the 1980s; Chiang Kai-shek's son, Chiang Ching-kuo, lifted martial law in 1987 and allowed an opposition party; his successor Lee Teng-hui, the first Taiwan-born president, held the first direct presidential election in 1996, which China greeted with missile tests; and in 2000 the opposition Democratic Progressive Party won the presidency, completing a peaceful transfer of power.[^6] Taiwan became a democracy with a Taiwanese rather than a Chinese identity, which the People's Republic regards as a province in rebellion, and the strait between them became, and remains, the most dangerous body of water in the world.
 
@@ -49,6 +49,14 @@ The last quarter of the twentieth century turned East Asia from the poorest regi
 - 1996: Taiwan's first direct presidential election.
 - 1997: Hong Kong returns to China; Asian financial crisis; Kim Dae-jung elected.
 - 2000: Taiwan's first transfer of power. 2001: China joins the WTO.
+:::
+
+:::try Put the idea to work
+South Korea and Taiwan democratize after rapid development; China grows without the same transition. What does that do to the claim that growth automatically produces democracy?
+
+:::answer One way to reason it through
+It challenges an automatic rule. Growth can change education, organizations, and bargaining power, but institutions, repression, leadership decisions, and collective action affect political outcomes. Compare mechanisms and differences instead of reading one sequence as a universal law.
+:::
 :::
 
 ## Summary

@@ -4,7 +4,7 @@ subtitle: Twenty questions as a learning algorithm. Decision trees, why one tree
 part: II · Learning from Data
 ---
 
-## Recap
+## Why can many imperfect trees make a better predictor?
 
 The models so far draw straight lines and bend them. This chapter takes a completely different approach, one that asks yes-or-no questions, and arrives at the family of methods that, for the tabular data most businesses actually have, still beats deep learning. It also introduces the most important practical idea in classical machine learning: that combining many mediocre models produces an excellent one.
 
@@ -89,6 +89,14 @@ One more classical method deserves a paragraph, because it dominated the decade 
 - Boosting builds trees in sequence, each fitting the previous errors; it is gradient descent over functions. Small learning rate, many rounds, early stopping.
 - On tabular data, gradient-boosted trees are the model to beat in 2026. On images, audio, and text, they are not.
 - Feature importance shows what the model uses, not what causes the outcome, and not what it should use.
+:::
+
+:::try Put the idea to work
+You train 100 trees that make exactly the same mistakes. Will majority voting remove those mistakes?
+
+:::answer Show the reasoning
+No. Voting helps when errors vary in useful ways across reasonably capable models. Perfectly shared errors survive unchanged. Random forests encourage variety through resampling and feature selection, but more trees alone cannot repair a bias all of them share.
+:::
 :::
 
 ## Summary

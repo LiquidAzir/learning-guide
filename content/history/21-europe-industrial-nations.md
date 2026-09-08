@@ -4,7 +4,7 @@ subtitle: 1780 to 1871. For ten thousand years nearly everyone was a farmer and 
 part: III · European History
 ---
 
-## Recap
+## How did industrial growth transform everyday life and political demands?
 
 Chapter 20 covered the political revolution. This chapter covers the economic one that was happening at the same time in Britain, and the century of its consequences: the industrial city, the working class, the ideologies invented to explain it, the failed revolutions of 1848, and the unification of Italy and Germany. It ends in 1871 with a new Europe: industrial, urbanizing, nationalist, and about to conquer the rest of the world.
 
@@ -59,6 +59,14 @@ By 1871 Europe had two new great powers, Germany and Italy, and one very old one
 - 1861: Russian serfs emancipated.
 - 1866: Austro-Prussian War. 1870–1871: Franco-Prussian War.
 - 18 January 1871: German Empire proclaimed.
+:::
+
+:::try Put the idea to work
+A country's output rises during industrialization. What other evidence would you want before describing workers' lives as better?
+
+:::answer One way to reason it through
+Look at wages relative to prices, working hours, housing, health, child labor, job security, and differences by gender and region. Output growth creates possibilities but does not specify distribution or timing. Living standards can improve in one dimension while worsening in another.
+:::
 :::
 
 ## Summary

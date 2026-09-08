@@ -4,7 +4,7 @@ subtitle: The integral. How to add up infinitely many infinitely small pieces, w
 part: III · Change and Chance
 ---
 
-## Recap
+## How do tiny contributions add up to a total?
 
 Chapter 7 took a function apart to find how fast it changes at each instant. This chapter does the opposite: given the rate at each instant, it puts the total back together. The two operations turn out to be inverses, a fact so surprising and useful that it is called the fundamental theorem of calculus. Together they are the most powerful computational idea humans have had.
 
@@ -121,6 +121,14 @@ Everything above extends. A function of two variables is a surface; its **partia
 - A declining rate can have a finite total. A slowly declining series may not.
 - Exponential growth in a limited world becomes logistic: an S-curve.
 - Calculators compute $e^x$, $\sin x$, and friends by adding the first few terms of their Taylor series.
+:::
+
+:::try Put the idea to work
+Water enters a tank at 2 liters per minute for 3 minutes, then 5 liters per minute for 2 minutes. How much enters, and what would the area under a rate graph mean?
+
+:::answer Show the reasoning
+The first interval contributes 2 × 3 = 6 liters and the second 5 × 2 = 10 liters, for 16 liters. Each rectangle has units (liters/minute) × minutes = liters. Integration extends that rate-times-duration idea to rates that change continuously.
+:::
 :::
 
 ## Summary
