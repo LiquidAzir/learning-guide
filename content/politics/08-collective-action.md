@@ -28,6 +28,27 @@ There is no guarantee that a local institution is inclusive or effective. Ask wh
 
 An **externality** is an effect on others that is not fully reflected in the decision-maker's incentives. Upstream pollution affects downstream residents. Coordination becomes harder when the people bearing costs have no vote in the institution making the decision. Moving a decision to a larger jurisdiction may internalize some effects while sacrificing local knowledge.
 
+:::deeper A shared resource is not always a public good
+
+### Separate exclusion from depletion
+
+A streetlight can illuminate one additional pedestrian without substantially reducing the light available to others. A shared fishery is different: a fish caught by one boat cannot be caught by another. Both can present difficulties of exclusion, but they differ in rivalry. Public goods and common-pool resources therefore create related, not identical, coordination problems.
+
+For a public good, people may benefit from contributions they did not make. For a common resource, individually attractive extraction can reduce what remains for everyone. The relevant institutional rules need to address the particular mechanism.
+
+### A rule needs monitoring and a workable boundary
+
+Imagine several farms sharing an irrigation channel. A schedule can specify who draws water and when. Its effectiveness depends on knowing who has access, measuring withdrawals or observing turns, responding to violations, and resolving disputes. A schedule with no means of detecting a breach may work differently from one with trusted monitoring.
+
+Local knowledge can help make rules fit actual conditions. It does not guarantee success: unequal bargaining power, exclusion of affected users, upstream control, or drought can undermine an arrangement. External authorities may support agreements, conflict with them, or provide enforcement that local participants cannot supply.
+
+### Repetition changes incentives
+
+If participants expect to cooperate again, today's action can influence tomorrow's trust and response. That can support contributions that would be unattractive in a one-shot interaction. But vague appeals to community do not establish that the relevant information, sanctions, and future relationships actually exist.
+
+Compare institutions by tracing those mechanisms. Who can use the resource? Who can alter the rules? What is observable? How are disagreements resolved? What happens when the environment changes? This approach explains why neither “privatize everything” nor “leave everything to the group” follows automatically from identifying a collective-action problem.
+:::
+
 :::try Public or common-pool?
 Why is an unregulated fish stock not the same type of collective-action problem as a broadcast warning signal?
 

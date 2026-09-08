@@ -1,0 +1,39 @@
+{
+  "subject": "psychology",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-08",
+    "sourceRead": "https://www.nature.com/articles/s41562-026-02553-x",
+    "decision": "include",
+    "reason": "Primary study followed from a research briefing; separates corpus analysis from reader experiments."
+  },
+  "item": {
+    "id": "causal-language-2026",
+    "title": "Quantifying the prevalence and impact of overreaching causal claims in social science",
+    "headline": "Causal wording changes how readers interpret correlational studies",
+    "authors": "Calvin Isch, Timothy Dörr, Neil Fasching, Grace Jennings, Duncan J. Watts",
+    "venue": "Nature Human Behaviour",
+    "year": 2026,
+    "date": "2026-08-24",
+    "url": "https://www.nature.com/articles/s41562-026-02553-x",
+    "doi": "10.1038/s41562-026-02553-x",
+    "topic": "research-methods",
+    "chapter": "evidence",
+    "summary": "A corpus analysis found frequent causal wording in cross-sectional research. Separate reader experiments showed that phrasing affects interpretation. Classification and sampling constrain the prevalence estimate.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Does wording overstate causal evidence?",
+      "method": "Validated text classification and reader experiments.",
+      "limitations": "The selected corpus does not represent every study design."
+    },
+    "explainer": {
+      "finding": "Causal language can strengthen readers’ causal interpretations.",
+      "method": "Readers encountered original or associationally rewritten abstracts.",
+      "meaning": "“Linked with” and “causes” imply different explanations.",
+      "limits": "Corpus prevalence depends on classification; experimental results concern the tested reading tasks.",
+      "source": "https://www.nature.com/articles/s41562-026-02553-x",
+      "background": "#/psychology/evidence/evidence-from-a-score-to-an-explanation"
+    }
+  }
+}

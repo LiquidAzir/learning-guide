@@ -1,0 +1,35 @@
+{
+  "subject": "engineering",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-08",
+    "sourceRead": "https://www.nature.com/articles/s41560-026-02131-5",
+    "decision": "include",
+    "reason": "Connects cell variation to pack performance; methods and observational limitations checked."
+  },
+  "item": {
+    "id": "battery-cell-variation-2026",
+    "title": "Quantifying the impact of cell-to-cell inconsistency on electric vehicle battery degradation and utilization",
+    "headline": "Uneven cell aging can leave usable battery capacity stranded",
+    "authors": "Litao Zhou, Xiaolei Bian et al.",
+    "venue": "Nature Energy",
+    "year": 2026,
+    "date": "2026-08-25",
+    "url": "https://www.nature.com/articles/s41560-026-02131-5",
+    "doi": "10.1038/s41560-026-02131-5",
+    "topic": "energy-storage",
+    "chapter": "power",
+    "summary": "Operational data from 116 cars and 17 buses link differences among cells to reduced pack utilization. The estimates depend on calibration and normalization of observational measurements.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": { "question": "How does cell variation constrain a pack?", "method": "Fleet data with cell-state estimation.", "limitations": "Operational effects cannot be completely separated from intrinsic aging." },
+    "explainer": {
+      "finding": "Uneven cells can constrain the complete battery.",
+      "method": "The team estimated capacity and resistance from vehicle records.",
+      "meaning": "A weak cell can limit what stronger neighbors deliver.",
+      "limits": "Model-dependent fleet estimates do not isolate every cause of degradation.",
+      "source": "https://www.nature.com/articles/s41560-026-02131-5",
+      "background": "#/engineering/power/power-draw-the-boundary-around-the-pack"
+    }
+  }
+}

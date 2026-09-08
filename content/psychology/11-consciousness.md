@@ -26,6 +26,29 @@ A **neural correlate of consciousness** is a neural condition associated with a 
 
 In a preregistered adversarial collaboration, proponents of workspace and integrated-information theories agreed on divergent predictions before testing them. The results supported some predictions and challenged important commitments of both. The study did not settle consciousness or show that the remaining theories were thereby true.[^2]
 
+:::deeper What would make two theories disagree in a useful way?
+
+### Name the target before collecting a signal
+
+Suppose a person reports seeing a briefly presented shape. A recorded brain signal might relate to the visual experience, to directing attention toward it, to holding it in memory, or to preparing the answer. These processes happen close together, so observing a signal near the report does not automatically distinguish them.
+
+A theory becomes experimentally useful when it specifies a pattern expected under one condition and a different pattern under a carefully chosen comparison. Ideally, a rival theory makes a divergent prediction about those same observations. The comparison must be specific enough that a result can create a real problem for at least one account.
+
+### Why “no report” helps without solving everything
+
+Removing a button press can reduce activity associated with deciding and moving. But researchers then need another way to infer experience, such as a previously validated behavioral or physiological indicator. That indicator carries its own assumptions. Removing explicit reports does not remove the problem of measurement; it changes how the inference is made.
+
+Similarly, “more complexity” is not a complete theory test. Many signals vary in complexity as attention, arousal, task demands, or noise change. A proposed theory must connect its own defined quantity to a feasible measure and explain why alternative causes would not produce the same result.
+
+### What an adversarial collaboration contributes
+
+In the cited consortium study, theoretical commitments and analysis choices were agreed in advance by groups with different expectations. This reduces the temptation to choose favorable interpretations only after inspecting the data. A result can then challenge a particular commitment even if a broader theory remains revisable.
+
+Revision is part of science. The useful next step is to say what changes in the revised theory and identify a fresh test. Simply moving the expected signal somewhere that was not measured protects a claim from the current evidence without yet giving it additional explanatory power.
+
+The philosophical question remains connected but distinct: even a very good account of access, discrimination, and report may leave disagreement about whether subjective experience has been fully explained. Experiments can constrain mechanisms while that dispute continues.
+:::
+
 :::try A theory that never loses
 A theory predicts a frontal signal. When none appears, its advocate says the signal must exist in an unmeasured form, without specifying how to detect it. What would make the revised claim scientifically useful?
 

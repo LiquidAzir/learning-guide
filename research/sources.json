@@ -1,0 +1,116 @@
+{
+  "lookbackDays": 30,
+  "rowsPerSource": 12,
+  "sources": [
+    {
+      "subject": "physics",
+      "issn": "0031-9007",
+      "name": "Physical Review Letters"
+    },
+    {
+      "subject": "physics",
+      "issn": "1745-2473",
+      "name": "Nature Physics"
+    },
+    {
+      "subject": "chemistry",
+      "issn": "0002-7863",
+      "name": "Journal of the American Chemical Society"
+    },
+    {
+      "subject": "chemistry",
+      "issn": "1755-4330",
+      "name": "Nature Chemistry"
+    },
+    {
+      "subject": "economics",
+      "issn": "1945-7731",
+      "name": "American Economic Journal: Economic Policy"
+    },
+    {
+      "subject": "economics",
+      "issn": "0002-8282",
+      "name": "American Economic Review"
+    },
+    {
+      "subject": "mathematics",
+      "issn": "0003-486X",
+      "name": "Annals of Mathematics"
+    },
+    {
+      "subject": "mathematics",
+      "issn": "0020-9910",
+      "name": "Inventiones mathematicae"
+    },
+    {
+      "subject": "ai",
+      "issn": "1532-4435",
+      "name": "Journal of Machine Learning Research"
+    },
+    {
+      "subject": "ai",
+      "issn": "1076-9757",
+      "name": "Journal of Artificial Intelligence Research"
+    },
+    {
+      "subject": "history",
+      "issn": "0031-2746",
+      "name": "Past & Present"
+    },
+    {
+      "subject": "history",
+      "issn": "0003-598X",
+      "name": "Antiquity"
+    },
+    {
+      "subject": "biology",
+      "issn": "1545-7885",
+      "name": "PLOS Biology"
+    },
+    {
+      "subject": "biology",
+      "issn": "1087-0156",
+      "name": "Nature Biotechnology"
+    },
+    {
+      "subject": "cs",
+      "issn": "0001-0782",
+      "name": "Communications of the ACM"
+    },
+    {
+      "subject": "cs",
+      "issn": "0360-0300",
+      "name": "ACM Computing Surveys"
+    },
+    {
+      "subject": "psychology",
+      "issn": "1097-6256",
+      "name": "Nature Neuroscience"
+    },
+    {
+      "subject": "psychology",
+      "issn": "2397-3374",
+      "name": "Nature Human Behaviour"
+    },
+    {
+      "subject": "engineering",
+      "issn": "1063-6536",
+      "name": "IEEE Transactions on Control Systems Technology"
+    },
+    {
+      "subject": "engineering",
+      "issn": "2058-7546",
+      "name": "Nature Energy"
+    },
+    {
+      "subject": "politics",
+      "issn": "0003-0554",
+      "name": "American Political Science Review"
+    },
+    {
+      "subject": "politics",
+      "issn": "0952-1895",
+      "name": "Governance"
+    }
+  ]
+}

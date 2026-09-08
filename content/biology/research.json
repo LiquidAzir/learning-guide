@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-08",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -32,11 +32,19 @@
       "doi": "10.1038/s41586-026-10939-0",
       "topic": "aging",
       "chapter": "brain",
-      "summary": "Microglia are the brain's resident immune cells, long thought to be sealed off from the rest of the immune system from birth. By tracing naturally occurring DNA mutations shared between blood cells and brain cells in matched human samples, Stanford researchers showed that blood-derived immune cells cross into the brain starting in middle age and settle in as functional microglia. The effect was not seen in mice or monkeys, which suggests it is a human-specific feature of ageing that animal models would have missed. Because ageing microglia are implicated in Alzheimer's and other diseases, understanding where they come from could point to new treatment routes; the functional consequences of these immigrant cells are still unknown.",
+      "summary": "The authors traced accumulated DNA mutations to investigate the origins of human microglia, the brain’s resident immune cells. They found evidence of bone-marrow-derived cells entering the microglial pool in 20 older individuals, supported by single-cell analyses of lineage and cell characteristics. This challenges a simple picture of lifelong isolation from adult blood-cell production. The findings do not establish all functions of these cells or prove that altering them would treat disease.",
       "status": "reported",
-      "verified": "2026-09-06",
+      "verified": "2026-09-08",
       "headline": "Accumulated mutations trace the history of the brain's immune cells",
-      "sourceType": "Journal publication"
+      "sourceType": "Journal publication",
+      "explainer": {
+        "finding": "The study found evidence that bone-marrow-derived cells contribute to the brain’s microglial pool in the older humans examined.",
+        "method": "Researchers traced shared accumulated DNA mutations and used single-cell analyses to investigate cell lineages and characteristics.",
+        "meaning": "Shared mutations work like inherited annotations in copied documents: they can reveal related cell populations without watching each cell’s journey.",
+        "limits": "Lineage evidence and microglia-like features do not establish every function of these cells. Associations with disease outcomes do not prove a treatment effect.",
+        "source": "https://www.nature.com/articles/s41586-026-10939-0",
+        "background": "#/biology/brain"
+      }
     },
     {
       "id": "bio-aging-er100-reprogramming-trial-2026",

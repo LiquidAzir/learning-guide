@@ -26,6 +26,27 @@ Consciousness research also includes animal behavior, disorders of consciousness
 
 Read the question before the headline. Identify the organism and sample size, what was measured or manipulated, the comparison, and the most important limitation. Distinguish a dataset, a demonstration, an association, and a replicated causal result. The [research feed](#/psychology/research) follows these distinctions and links technical entries to short explainers.
 
+:::deeper Audit a brain-decoding headline
+
+### Ask what the decoder had to choose between
+
+Imagine a system that distinguishes attempts to say “yes” and “no.” Its task is very different from recovering an arbitrary sentence among millions of possibilities. The size of the candidate set, the training examples, and any language model used by the system all contribute to its performance.
+
+If a language model can guess a predictable phrase from context, the complete system may produce a plausible sentence even when neural information is weak. Compare it with a baseline using the same context but no meaningful neural signal. Also test whether shuffling or withholding neural inputs changes performance. The improvement beyond those controls helps identify what the brain recording contributes.
+
+### Split the data at the level of the claim
+
+Randomly dividing short segments from the same recording can produce training and test sets that share background conditions and closely related signals. That may answer whether the decoder handles held-out segments in the same session. It does not establish that it works on another day or for a new participant.
+
+A claim about generalization to people requires a person-level comparison. A claim about practical communication needs measures such as usable vocabulary, latency, correction burden, calibration time, and reliability across sessions. A single impressive example is valuable as a demonstration but insufficient as a performance distribution.
+
+### Keep agency visible
+
+Attempted speech, imagined speech, passive listening, and spontaneous thought are different experimental targets. Describing all of them as “mind reading” erases the task that made decoding possible. It also hides the participant's role in producing and adapting to the signal.
+
+The most useful question is often modest and concrete: does this system let this participant communicate more effectively under these conditions? That is a significant achievement without claiming unrestricted access to a person's private mental life.
+:::
+
 :::try Ninety percent accurate
 A classifier reports 90% accuracy where nine out of ten examples belong to the same class. What baseline should appear before a claim of successful decoding?
 

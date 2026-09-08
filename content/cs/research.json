@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -14,17 +14,18 @@
       "doi": "10.1145/3717823.3718179",
       "topic": "algorithms",
       "chapter": "algorithms",
-      "summary": "Dijkstra's algorithm, published in 1959, was widely assumed optimal for shortest paths with non-negative weights, because settling nodes in distance order effectively sorts them and sorting costs n log n. This paper gives a deterministic algorithm running in O(m log^(2/3) n) on directed graphs, beating that bound on sparse graphs by never computing a full ordering: it recursively partitions the frontier and finds a small set of pivot nodes for each part. The practical impact today is nil, since the constants are large, but a barrier that appeared structural turned out not to be.",
+      "summary": "The paper gives a deterministic algorithm for directed single-source shortest paths with nonnegative real weights, with a running-time bound of O(m log^(2/3) n) in its computation model. By avoiding a full distance ordering, it improves the established comparison-based bound on sparse graphs. This is a theoretical algorithmic result; the bound alone does not establish faster performance on practical routing workloads.",
       "status": "reported",
       "verified": "2026-09-07",
       "headline": "A shortest-path algorithm breaks through a sorting-based time bound",
       "sourceType": "Conference paper",
       "explainer": {
-        "paragraphs": [
-          "Imagine finding the cheapest route from one depot to every destination on a map of one-way roads. The familiar Dijkstra algorithm works outward in order of distance. Maintaining that order adds work, even though the question asks for route lengths, not a ranked list of destinations.",
-          "This paper proves that the distance problem can be solved without paying the full cost of that ordering. Its advantage is a better growth rate on sparse networks, where roads are relatively few compared with all possible connections, and costs cannot be negative. The result changes a theoretical limit; it does not establish that this method makes a navigation app faster on everyday maps."
-        ],
-        "source": "https://arxiv.org/abs/2504.17033"
+        "finding": "A deterministic algorithm improves the theoretical running-time bound for finding shortest paths from one source in directed graphs with nonnegative weights.",
+        "method": "The result is established through algorithm design and mathematical analysis, rather than a trial of navigation apps. Its advantage applies within the paper’s computation model.",
+        "meaning": "Imagine finding the cheapest route from one depot to every destination without fully sorting those destinations by distance. Avoiding that extra ordering removes a theoretical bottleneck.",
+        "limits": "A better asymptotic bound does not guarantee faster performance at everyday problem sizes. Graph density, constants, implementation, and the allowed operations matter.",
+        "source": "https://arxiv.org/abs/2504.17033",
+        "background": "#/cs/algorithms"
       }
     },
     {
@@ -45,11 +46,12 @@
       "headline": "A theorem shows how computations can use much less working memory",
       "sourceType": "Conference paper",
       "explainer": {
-        "paragraphs": [
-          "Computers use temporary working memory to keep track of a calculation. This theorem proves that computations in a standard mathematical model can be reorganized to use much less memory than the previous general bound allowed. Think of completing the same calculation on a smaller desk: workspace and time are different resources.",
-          "The precise bound is roughly the square root of the running time, with an additional logarithmic factor. That changes our understanding of the relationship between time and memory. It does not mean existing apps suddenly use half the RAM, run faster, or gain a ready-made optimization."
-        ],
-        "source": "https://arxiv.org/abs/2502.17779"
+        "finding": "A theorem shows that computations in a standard machine model can be simulated with substantially less workspace than the previous general bound.",
+        "method": "The paper constructs and analyzes a mathematical simulation. The space bound involves roughly the square root of running time with a logarithmic factor.",
+        "meaning": "It is like reorganizing a calculation to use a smaller desk: temporary storage and the time needed to finish are separate resources.",
+        "limits": "This is not a ready-made way to reduce every application’s RAM or speed it up. The model and simulation overhead matter, and major complexity questions remain open.",
+        "source": "https://arxiv.org/abs/2502.17779",
+        "background": "#/cs/complexity"
       }
     },
     {

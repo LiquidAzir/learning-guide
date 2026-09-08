@@ -2,6 +2,8 @@
 
 The feeds are curated files, not automatic news imports. Select entries for the explanatory value of their question, evidence, and limitations. Preserve original titles, primary links, accurate publication dates, and claim labels. Never make an old source look newly published. Month-only dates retain month precision; `verified` records a source check, not replication.
 
+Scheduled discovery collects unreviewed metadata separately from the site. Follow [the review workflow](research/REVIEW.md) before adding candidates to a feed. Newly reviewed entries require an explicit method, limitation, four-part explainer, and useful background link. `added` records first inclusion in the guide; leave it absent for legacy records whose addition date is unknown. A discovery run is not a collection update, and a successful metadata request is not a source review.
+
 ## Political Science and Institutions
 
 Include research on institutional design, voting rules, administration, collective action, accountability, public services, and international cooperation. A useful entry teaches a transferable mechanism or a method for evaluating one.

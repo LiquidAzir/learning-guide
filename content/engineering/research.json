@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -17,7 +17,15 @@
       "verified": "2026-09-07",
       "headline": "An online learning controller helps robots recover from disturbances",
       "sourceType": "Journal publication",
-      "doi": "10.1038/s41467-026-70256-y"
+      "doi": "10.1038/s41467-026-70256-y",
+      "explainer": {
+        "finding": "An adaptive controller improved robot recovery from tested unexpected changes compared with the study’s control baselines.",
+        "method": "The system updated an onboard model during operation and was evaluated under experimental disturbances that made the original model less accurate.",
+        "meaning": "A controller may need to revise its expectations when a machine’s behavior changes, rather than keep issuing commands based on an outdated model.",
+        "limits": "Recovery from selected disturbances does not guarantee recovery from arbitrary damage. Response time, learning conditions, and failure cases need to stay attached to the result.",
+        "source": "https://www.nature.com/articles/s41467-026-70256-y",
+        "background": "#/engineering/control/control-the-actuator-can-run-out-of-authority"
+      }
     },
     {
       "id": "cold-sodium-2026",
@@ -36,10 +44,12 @@
       "sourceType": "Journal publication",
       "doi": "10.1038/s41467-026-69237-y",
       "explainer": {
-        "paragraphs": [
-          "Ions normally travel with surrounding solvent molecules and must reorganize that surrounding layer to enter an electrode. Cold can slow this step. The design changes how ions and solvent enter together. To judge the advance fairly, compare the same temperature, test current, lifetime, and mass boundary; a packaged battery carries more than the active stack."
-        ],
-        "source": "https://www.nature.com/articles/s41467-026-69237-y"
+        "finding": "An electrolyte strategy improved sodium-cell operation in extreme cold, with a reported 107 Wh/kg at −50°C on a cell-stack basis.",
+        "method": "The authors tested ampere-hour-scale cells using a strategy that lets solvent and sodium enter the hard-carbon electrode together, changing a normally slow step.",
+        "meaning": "Ions travel with surrounding solvent molecules. Altering how that layer is handled can help charge move when cold slows the usual process.",
+        "limits": "The quoted mass excludes packaging. Whole-pack energy, lifetime, cost, and other operating conditions remain separate questions.",
+        "source": "https://www.nature.com/articles/s41467-026-69237-y",
+        "background": "#/engineering/power/power-draw-the-boundary-around-the-pack"
       }
     },
     {
@@ -57,7 +67,15 @@
       "verified": "2026-09-07",
       "headline": "Surface treatments carry tandem-cell efficiency to a larger active area",
       "sourceType": "Journal publication",
-      "doi": "10.1038/s41467-025-63673-y"
+      "doi": "10.1038/s41467-025-63673-y",
+      "explainer": {
+        "finding": "Surface and interface treatments supported 28.9% certified efficiency over a 60-square-centimeter tandem solar-cell active area.",
+        "method": "The researchers applied treatments to reduce losses and evaluated the larger perovskite–silicon device, including efficiency certification.",
+        "meaning": "A tiny high-performing patch is not enough if defects accumulate across a larger cell. Uniform treatment helps carry useful performance beyond small samples.",
+        "limits": "Active-area cell performance differs from module and installed-system performance. Outdoor lifetime, production consistency, and total cost still matter.",
+        "source": "https://www.nature.com/articles/s41467-025-63673-y",
+        "background": "#/engineering/power/power-draw-the-boundary-around-the-pack"
+      }
     },
     {
       "id": "printed-concrete-metrology-2025",
@@ -73,7 +91,15 @@
       "status": "reported",
       "verified": "2026-09-07",
       "headline": "Printed concrete needs measurements that connect process and strength",
-      "sourceType": "Research programme"
+      "sourceType": "Research programme",
+      "explainer": {
+        "finding": "NIST describes a research programme developing measurements for printing with cement-based materials; this is not a newly completed comparison trial.",
+        "method": "The programme studies links among material behavior, printing processes, and resulting structures, using research facilities and demonstrations.",
+        "meaning": "The mix must flow through the equipment and then support the next layer. Those competing requirements make timing and measurement central to reliable construction.",
+        "limits": "A programme description does not certify a building or establish that printed construction outperforms other methods. Specific claims require the resulting technical studies.",
+        "source": "https://www.nist.gov/additive-manufacturing/research-areas/materials/cementitious-materials",
+        "background": "#/engineering/manufacturing/manufacturing-a-new-manufacturing-method-changes-the-qualification-task"
+      }
     },
     {
       "id": "elastocaloric-scale-2025",
@@ -92,10 +118,12 @@
       "sourceType": "Journal publication",
       "doi": "10.1038/s41586-024-08549-9",
       "explainer": {
-        "paragraphs": [
-          "Some materials change temperature when stress changes their internal structure. A cooling device must coordinate that change with moving heat into and out of the material. A large temperature change alone is insufficient: the actuator, fluid, timing, and repeated-cycle durability determine whether the complete machine can cool a useful load."
-        ],
-        "source": "https://www.nature.com/articles/s41586-024-08549-9"
+        "finding": "A multi-cell prototype achieved kilowatt-scale cooling using mechanically stressed nickel–titanium tubes.",
+        "method": "The device coordinated tube compression with heat-transfer fluid and multiple cells to move heat through a repeating cycle.",
+        "meaning": "A material’s temperature change becomes useful cooling only when a machine repeatedly absorbs heat from one place and releases it elsewhere.",
+        "limits": "Actuator work, fluid handling, fatigue, manufacture, and cost affect practical performance. A material effect alone is not a complete refrigerator.",
+        "source": "https://www.nature.com/articles/s41586-024-08549-9",
+        "background": "#/engineering/heat"
       }
     },
     {
@@ -113,7 +141,53 @@
       "verified": "2026-09-07",
       "headline": "A technical report examines how to qualify printed metal parts",
       "sourceType": "Technical report",
-      "doi": "10.6028/NIST.IR.8538"
+      "doi": "10.6028/NIST.IR.8538",
+      "explainer": {
+        "finding": "A technical report assesses methods and gaps in monitoring and inspecting metal parts made by additive manufacturing.",
+        "method": "NIST reviews in-process monitoring and non-destructive evaluation, with attention to qualification of nuclear-power components. It is an assessment, not a single qualification trial.",
+        "meaning": "A printer’s sensor signal must be connected to something that matters about the finished part, such as a relevant defect. A clean-looking trace alone is insufficient.",
+        "limits": "The report does not establish that an arbitrary printed component is fit for service. Material, geometry, process, inspection capability, and application requirements matter.",
+        "source": "https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8538.pdf",
+        "background": "#/engineering/manufacturing/manufacturing-measure-the-process-as-well-as-the-part"
+      }
+    },
+    {
+      "id": "battery-cell-variation-2026",
+      "title": "Quantifying the impact of cell-to-cell inconsistency on electric vehicle battery degradation and utilization",
+      "headline": "Uneven cell aging can leave usable battery capacity stranded",
+      "authors": "Litao Zhou, Xiaolei Bian et al.",
+      "venue": "Nature Energy",
+      "year": 2026,
+      "date": "2026-08-25",
+      "url": "https://www.nature.com/articles/s41560-026-02131-5",
+      "doi": "10.1038/s41560-026-02131-5",
+      "topic": "energy-storage",
+      "chapter": "power",
+      "summary": "Operational data from 116 cars and 17 buses link differences among cells to reduced pack utilization. The estimates depend on calibration and normalization of observational measurements.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How does cell variation constrain a pack?",
+        "method": "Fleet data with cell-state estimation.",
+        "limitations": "Operational effects cannot be completely separated from intrinsic aging."
+      },
+      "explainer": {
+        "finding": "Uneven cells can constrain the complete battery.",
+        "method": "The team estimated capacity and resistance from vehicle records.",
+        "meaning": "A weak cell can limit what stronger neighbors deliver.",
+        "limits": "Model-dependent fleet estimates do not isolate every cause of degradation.",
+        "source": "https://www.nature.com/articles/s41560-026-02131-5",
+        "background": "#/engineering/power/power-draw-the-boundary-around-the-pack"
+      },
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://www.nature.com/articles/s41560-026-02131-5",
+        "decision": "include",
+        "reason": "Connects cell variation to pack performance; methods and observational limitations checked."
+      },
+      "added": "2026-09-08"
     }
   ]
 }

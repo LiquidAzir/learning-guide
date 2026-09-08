@@ -26,6 +26,25 @@ The brain's reward systems distinguish learning, wanting, and pleasurable experi
 
 A good decision procedure makes the comparison explicit: options, outcomes, probabilities, reversibility, and what information would change the choice. It separates the quality of the decision from the luck of its result.
 
+:::deeper A good decision can have a bad outcome
+
+### Separate the choice from the draw
+
+Consider two hypothetical offers: receive 40 points for certain, or take a 50% chance of 100 points and otherwise receive zero. The gamble's expected point total is 50. That arithmetic does not, by itself, establish which choice a person should prefer. Points may not have a linear value to them, and a guaranteed minimum may matter.
+
+Expected utility represents this by assigning values to outcomes and weighting those values by probabilities. A concave utility function can make a sure amount preferable to a gamble with a higher expected monetary payoff. This describes one way to model preferences, not a claim that every person performs that calculation explicitly.
+
+Now suppose the person chooses the gamble and loses. The realized outcome was worse than the guaranteed option, but that single outcome does not establish that the original probability estimate or decision rule was mistaken. Repeated decisions and the information available at the time provide a fairer basis for evaluation.
+
+### Where feelings enter
+
+Emotion can change attention, the consequences that seem salient, and readiness to act. Fear may prioritize a possible loss; anticipation can make a possible gain vivid. These effects are not adequately captured by dividing thought into an emotional system that is always wrong and a rational system that is always right.
+
+Likewise, a dopamine-related learning signal is not simply a meter displaying how happy someone is. Prediction, motivation, movement, and learning involve different circuits and timescales. A finding in one task cannot be turned into a universal explanation for every enjoyable behavior.
+
+To analyze a decision, write down the available alternatives, the person's beliefs about probabilities, and the outcomes they value. Then ask which component changed. Two people can choose differently because they disagree about the evidence, care about different consequences, or use different decision policies.
+:::
+
 :::try Good choice, bad outcome
 You select a route with a 90% chance of arriving on time rather than one with a 60% chance. An unusual breakdown makes you late. Does lateness prove the choice was poor?
 

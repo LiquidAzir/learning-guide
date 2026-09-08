@@ -24,6 +24,30 @@ If the feedback group improves by 12 percentage points and the comparison group 
 
 Imagine a memory improvement that disappears when the comparison group receives equally interesting practice. Engagement, rather than the advertised technique, may explain the first result. Strong studies make alternatives compete. **Preregistration** reduces flexibility to choose a pleasing analysis after seeing the data. **Replication** asks whether a finding survives another test; it requires attention to methods and populations, not just whether two p-values fall on opposite sides of a threshold.[^2]
 
+:::deeper Work through it: the detector that seems almost perfect
+
+### Count the mistakes that accuracy hides
+
+Imagine 1,000 trials in which a faint light appears 100 times. A participant reports seeing it on 80 of those trials, but also on 90 of the 900 blank trials. There are four outcomes:
+
+| Actual trial | Says “light” | Says “no light” |
+|---|---:|---:|
+| Light present | 80 hits | 20 misses |
+| Light absent | 90 false alarms | 810 correct rejections |
+
+Overall accuracy is 890/1,000, or 89%. A participant who always answers “no light” would score 90%. That does not make the always-no participant a better detector. It shows why a single accuracy score can reward ignoring an uncommon event.
+
+The hit rate is 80%, and the false-alarm rate is 10%. Signal detection theory treats those together to distinguish sensitivity from a willingness to say yes. Making false alarms expensive might reduce both rates without changing the sensory information available. Making the light brighter could improve the separation between light and blank trials. Those are different interventions.
+
+### From a score to an explanation
+
+Now compare a quiet condition with a distracting sound. Randomly assigning the order helps prevent practice from being mistaken for an effect of quiet. Using the same participants reduces variation due to stable individual differences, but introduces possible carryover: one condition can change how a person approaches the next. Counterbalancing order helps assess that problem.
+
+Specify the outcome before collecting data. If researchers inspect accuracy, reaction time, confidence, pupil size, and many subgroups, then report only the most favorable difference, the apparent evidence will be too strong. A preregistered analysis constrains those choices; exploratory findings can still be useful when labeled as such.
+
+An interval around the estimated effect describes uncertainty under an analysis and its assumptions. It does not automatically capture selection bias, an unreliable instrument, or an unrepresentative sample. The useful question is therefore more demanding than “Was it significant?” Ask how large the effect was, how precisely it was estimated, and what alternative explanation the design actually excludes.
+:::
+
 :::try A better detector?
 A participant's hit rate rises from 60% to 80%, while their false-alarm rate rises from 10% to 40%. Can you conclude that their sensory sensitivity improved?
 

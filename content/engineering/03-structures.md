@@ -28,6 +28,25 @@ The formula assumes an appropriate slender-beam, small-deformation, linear-elast
 
 Trusses use arrangements of members that, in an ideal pin-jointed model, primarily carry axial tension or compression. Real joints, eccentric loads, and out-of-plane behavior complicate that model. Bridges also face moving loads, wind, temperature changes, corrosion, and fatigue—not merely a person standing motionless at the center.
 
+:::deeper Why a shelf sags before it breaks
+
+### Follow the load to the supports
+
+Consider an ideal simply supported beam with a central downward load P and span L. With symmetric loading, each support carries P/2. The bending moment is largest at the center, where it equals PL/4. These conclusions depend on the support model; a firmly clamped beam has different reactions and moments.
+
+For a rectangular cross-section, the second moment of area is I = bh³/12, where b is width and h is depth in the bending direction. Bending stress at a distance y from the neutral axis is My/I within the linear elastic beam model. At the outer surface, y = h/2, so maximum stress varies as 1/h² if the moment and width stay fixed.
+
+The central deflection in this same idealized case is PL³/(48EI). Doubling depth increases I eightfold and reduces deflection to one eighth. Doubling width only doubles I and halves deflection. This explains why putting a ruler on edge makes it much harder to bend in that direction.
+
+### Stiffness and strength answer different questions
+
+A shelf may remain well below its material's failure stress and still sag enough to be unusable. Conversely, a stiff-looking brittle part may fracture with little visible deformation. A design needs limits on both deformation and relevant failure modes.
+
+Real shelves introduce further complications: joints can slip, brackets can rotate, wood properties depend on direction and moisture, and a heavy object may sit off center. Thin members can buckle or twist, and local stresses near fasteners can dominate a simple average-stress calculation.
+
+The beam model is useful because it predicts how changes in span, section, and stiffness should affect behavior. It becomes dangerous only when its assumptions disappear from the explanation. Trace the load through the shelf, brackets, fasteners, and supporting wall; every part of that path needs an appropriate model.
+:::
+
 :::try A longer span
 Under the same centered load, what happens to the maximum bending moment when the ideal beam's span doubles? Does that alone tell you whether deflection remains acceptable?
 

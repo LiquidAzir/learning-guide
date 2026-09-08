@@ -28,6 +28,25 @@ Inattentional-blindness experiments show that people can miss an unexpected even
 
 Attention and consciousness are related but not interchangeable. A change in report may reflect altered sensory processing, changed attention, memory loss before answering, or a different willingness to claim detection. Chapter 2 explains how experiments try to separate these.
 
+:::deeper Why a coat becomes an animal in the dark
+
+### Work through an inference
+
+Suppose a shape could be either an animal or a coat. Before inspecting it, you assign a 10% chance to an animal and a 90% chance to a coat. An apparent twitch would occur in 60% of animal cases but also in 5% of coat cases—for example, because a draft moves the fabric. These are invented numbers for a reasoning exercise.
+
+Across 1,000 such encounters, expect 100 animals and 900 coats. Of the animals, 60 produce the twitch; of the coats, 45 do. Among the 105 twitching shapes, 60 are animals. The updated probability is therefore about 57%, not 60% and not certainty.
+
+The observation matters, but so does how common the alternatives were before it. If you are in a wildlife enclosure rather than a bedroom, the starting expectations should differ. This is the logic of Bayesian updating; it need not mean the brain explicitly writes down this arithmetic.
+
+### Perception and action need different thresholds
+
+You might step back at 57% because the cost of startling an animal exceeds the cost of briefly avoiding a coat. That action does not prove your visual experience was certain. A decision combines an estimate with the consequences of being wrong.
+
+Attention can change which information is sampled and how effectively it is used. Looking again under better light supplies stronger evidence. Simply wanting the shape to be a coat does not. Asking people what they saw also adds a reporting decision, which is why experiments need to distinguish changes in perception from changes in response policy.
+
+A useful everyday habit follows: when two people interpret an ambiguous event differently, ask what evidence each noticed and what alternatives each considered. Disagreement can arise before either person starts consciously arguing about the conclusion.
+:::
+
 :::try A warning that people miss
 A control panel shows every alert in equally bright red. Operators begin missing urgent alarms. What change follows from the idea of selective attention?
 

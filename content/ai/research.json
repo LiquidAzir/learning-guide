@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-08",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -470,11 +470,12 @@
       "headline": "AlphaFold 3 models interactions among proteins and other molecules",
       "sourceType": "Journal publication",
       "explainer": {
-        "paragraphs": [
-          "A protein rarely works alone. Its shape affects how it joins other molecules, including DNA and potential drugs. AlphaFold 3 predicts a three-dimensional arrangement for these molecular partnerships, extending the task beyond predicting a protein on its own.",
-          "Think of asking whether two oddly shaped pieces could fit together. A predicted fit gives researchers a starting point for experiments. The model improved accuracy on several tests of molecular interactions, but it can still produce incorrect structures. A plausible-looking fit does not prove that a drug binds strongly, changes a cell in the intended way, or works safely in a person. Those questions still need experiments."
-        ],
-        "source": "https://www.nature.com/articles/s41586-024-07487-w"
+        "finding": "AlphaFold 3 improved predictions of several kinds of molecular complexes, including proteins interacting with other molecules.",
+        "method": "The authors compared predicted atomic arrangements with experimentally determined structures and evaluated performance against existing methods on specified benchmarks.",
+        "meaning": "Think of predicting how two irregular pieces fit together. A plausible arrangement can suggest an experiment and help researchers investigate a molecular interaction.",
+        "limits": "A predicted fit does not establish binding strength, biological effects, or treatment performance. Accuracy varies across interaction types, and experiments remain necessary.",
+        "source": "https://www.nature.com/articles/s41586-024-07487-w",
+        "background": "#/ai/frontier/frontier-science"
       }
     },
     {

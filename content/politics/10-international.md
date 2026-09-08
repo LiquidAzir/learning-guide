@@ -26,6 +26,27 @@ Monitoring can reveal compliance. Repeated interaction creates future consequenc
 
 Environmental and public-health agreements reveal another difficulty: benefits may be widely shared while costs and vulnerabilities are uneven. Financing, technology, reporting capacity, and implementation rules influence whether an agreement works in practice.
 
+:::deeper Why a promise may need a verification system
+
+### Cooperation creates a future temptation
+
+Imagine two neighboring states agree to limit withdrawals from a shared river. Both may benefit from predictable flows, yet each could gain in the short term by taking more while the other observes the agreement. A promise changes little if withdrawals cannot be measured or if a breach has no consequence.
+
+A monitoring arrangement can supply common measurements, rules for access to data, and procedures for investigating unusual readings. This can reduce disagreements about what happened. It cannot eliminate every dispute, because participants may still differ about measurement uncertainty, exceptional conditions, or acceptable remedies.
+
+### Credibility depends on what happens after a breach
+
+An agreement can specify graduated responses, compensation, arbitration, or conditions for renegotiation. A threatened response is credible only if the actor would have reason and capacity to carry it out when the situation arises. Severe threats are not automatically more effective than measured, feasible ones.
+
+Domestic institutions matter too. A government may need legislative approval, budget support, or cooperation from regional authorities to fulfill an international commitment. A promise made by a negotiator is therefore connected to the internal chain of implementation.
+
+### Change the conditions without abandoning the mechanism
+
+A drought can make a fixed allocation unexpectedly costly. A treaty with an agreed adjustment formula may handle the shock differently from one that requires entirely new bargaining. Flexibility can preserve cooperation, but overly vague exceptions can make commitments difficult to enforce.
+
+International theories emphasize different parts of this story: power and security, institutions and information, domestic interests, or shared norms and identities. They become useful when they generate distinguishable expectations about behavior. Naming a theoretical school is less informative than showing what evidence would make one explanation more convincing than another.
+:::
+
 :::try A monitor with no access
 Two states sign an agreement requiring inspections, but either can deny inspectors access without explanation or consequence. Which part of the cooperation mechanism is weakened?
 

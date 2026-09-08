@@ -26,6 +26,27 @@ Suppose a robot receives position measurements at 10 Hz. A new sample arrives ev
 
 A robot can learn a model or control policy from data. It still needs to act within torque, friction, sensing, and safety limits. Testing should include changed surfaces, damaged actuators, latency, and conditions outside the training distribution. Recent adaptive-control research studies recovery from unexpected disturbances; its reported success belongs to the tested conditions, not every possible failure.[^2]
 
+:::deeper Why an eager controller overshoots
+
+### A shower illustrates feedback and delay
+
+You turn a shower handle toward hot, wait briefly, and feel little change. You turn it farther. Then the first adjustment reaches you, followed by the second, and the water becomes too hot. Delay allowed corrective actions to accumulate before their effects were observed.
+
+In feedback control, the error is the difference between a desired value and a measured output. Proportional action responds to current error. Integral action accumulates error over time, helping remove persistent offsets. Derivative action responds to the rate of change and can add damping, but noisy measurements make raw differentiation troublesome.
+
+A PID controller is therefore not three independently beneficial knobs that should all be turned up. Their useful settings depend on the system dynamics, sampling, sensor noise, and actuator limitations.
+
+### The actuator can run out of authority
+
+Suppose a heater is already at maximum output while temperature remains below the target. An integral term can keep accumulating error even though it cannot make the heater work harder. When conditions improve, the accumulated command may keep heating too long. This is integral windup. Anti-windup methods account for saturation when updating or constraining that internal state.
+
+### A good trace is more than fast arrival
+
+Compare rise time, overshoot, settling time, steady-state error, and behavior under disturbances. A controller that reaches the target quickly in a clean test may oscillate with delay or respond badly to a changing load. Stability and robustness require considering a range of conditions.
+
+Robots add interacting motions, contact, and uncertain surroundings. A controller that succeeds in free space can fail when a gripper touches an object and the mechanical dynamics change. The useful question is how the feedback loop behaves across the states and disturbances the machine will actually encounter.
+:::
+
 :::try An unreachable target
 A heater is at full power, but the room remains below its target. What problem can arise if an integral controller keeps accumulating error without a limit?
 

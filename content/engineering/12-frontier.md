@@ -24,6 +24,29 @@ The useful research questions are concrete: Was this a simulation, material samp
 
 The [engineering research feed](#/engineering/research) favors work that makes those boundaries visible. It includes materials, energy conversion, control, manufacturing, and infrastructure rather than ranking products by promotional claims.
 
+:::deeper Two backups can share one failure
+
+### Calculate the attractive answer first
+
+Suppose each of two hypothetical sensors has a 1% chance of failing during a specified mission. If their failures are independent, the chance both fail is 0.01 × 0.01 = 0.0001, or 0.01%. Redundancy appears to give a large improvement.
+
+Now suppose both use the same power supply, software library, mounting location, and temperature exposure. A shared event can disable both. The independence assumption is no longer credible, so multiplying the two marginal probabilities is not a valid whole-system estimate.
+
+Adding different failure paths to a model can change which improvement matters most. Protecting a common power source or making failure detectable may provide more benefit than adding another identical sensor to the same vulnerable arrangement.
+
+### Reliability belongs to an operating context
+
+A reliability claim should specify time or duty cycle, environment, load, and what counts as failure. “Survived 1,000 cycles” describes a test outcome, not automatically a population-wide lifetime distribution. Sample size, failures, censored observations, and accelerated-test assumptions matter.
+
+Maintainability changes the service experienced by users. A component can fail relatively often yet be restored quickly; another can fail rarely but require a long shutdown. Availability depends on both failure and recovery, together with the system's operating arrangements.
+
+### Read a prototype as a demonstrated boundary
+
+A laboratory robot recovering from selected disturbances shows performance under those disturbances. A new battery tested at a particular temperature demonstrates that condition. A cooling prototype at a stated load establishes a point or range, not every practical installation.
+
+Ask which boundary was crossed: material to component, component to integrated system, simulation to hardware, or controlled test to sustained operation. That identifies what the work has achieved and which next experiment would most meaningfully extend it.
+:::
+
 :::try Two identical backups
 Two independent components each fail with probability 0.01 during a mission. Both must fail for the backup system to fail. What does the simple model predict, and what could invalidate it?
 

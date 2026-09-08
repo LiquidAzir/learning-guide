@@ -32,6 +32,39 @@ Evaluate a rule against explicit goals: majority responsiveness, proportionality
 
 **Strategic voting** occurs when a person votes differently from a straightforward expression of preference to influence the outcome. Its incentives depend on the rule and information. The presence of strategy does not itself imply fraud; authorized strategic choices and violations of election procedures are different things.
 
+:::deeper Work the same election through three rules
+
+### Check the ranked-ballot arithmetic
+
+Return to the 100 voters in the chapter's table. The 45 voters ranking A first contribute 90 Borda points to A and 45 to B. The 35 B-first voters contribute 70 to B and 35 to C. The 20 C-first voters contribute 40 to C and 20 to A. Adding by proposal gives A = 110, B = 115, and C = 75.
+
+Plurality ignores the lower rankings and selects A. Borda uses information from all ranking positions and selects B. Instant runoff first removes C, whose 20 ballots next prefer A, producing A's 65–35 final-round win over B. Each calculation follows its rule correctly.
+
+The cycle reveals another issue: an agenda can matter. If a process first compares A with B, A wins; comparing that winner with C gives C the final victory. If it first compares B with C, B wins; comparing B with A gives A the final victory. The same preferences can produce different final choices depending on the sequence of pairwise decisions.
+
+That does not show every real committee has a cycle. It shows why the person controlling which motions are compared, and in what order, can possess consequential institutional power.
+
+### Allocating seats introduces another kind of rounding
+
+Suppose three parties receive 50%, 30%, and 20% of votes for seven seats. Exact proportional shares would be 3.5, 2.1, and 1.4 seats. Seats cannot ordinarily be divided into tenths, so a rule must resolve the rounding.
+
+Under a simple largest-remainder example, first assign the integer parts: three seats, two seats, and one seat. One remains. The fractional remainders are 0.5, 0.1, and 0.4, so the remaining seat goes to the first party. The result is four, two, and one.
+
+This is an illustration of one allocation rule without thresholds or districts. Other methods can produce different allocations, especially when the seat count is small. Before comparing outcomes, identify which votes qualify, the number of seats, district structure, and the actual allocation formula.
+
+### Representation has more than one meaning
+
+A system can represent party vote shares proportionally while providing a different relationship between individual representatives and local constituencies. A single-member district can create an identifiable local representative while producing a national seat distribution that differs considerably from national vote shares.
+
+District boundaries also change which votes are aggregated together. Two maps can produce different outcomes with the same individual preferences. Evaluating that difference requires explicit criteria, such as population equality, community representation, competitiveness, or proportionality. Those criteria can conflict; stating them is more useful than hiding the judgment inside the word “fair.”
+
+### Ask about behavior after the rule changes
+
+The worked examples hold preferences and ballots fixed to isolate the aggregation mechanism. Real voters and parties may change their behavior under a different system. A party may enter a coalition, withdraw a candidate, or encourage voters to rank strategically. Turnout may also change.
+
+The arithmetic therefore answers “What does this rule do with these ballots?” It does not, alone, predict the ballots that would be cast under that rule. Institutional analysis needs both the formal mechanism and evidence about how people respond to it.
+:::
+
 :::try A majority winner?
 Using the table, calculate the head-to-head result for C versus A. Why can A's plurality victory coexist with losing that comparison?
 

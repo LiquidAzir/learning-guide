@@ -24,6 +24,27 @@ Clinical assessments must distinguish lack of response from lack of experience. 
 
 This is why consciousness measures need estimates of both false positives and false negatives. An appealing brain signature is not automatically a diagnostic tool. Anesthesia, sleep, severe injury, and seizures produce different physiological conditions; evidence from one cannot simply be pasted onto another.
 
+:::deeper Three questions hidden inside “Are they conscious?”
+
+### Wakefulness, experience, and communication
+
+Think about an ordinary dream. The sleeper may be unresponsive to a question while experiencing a vivid scene. Think about a fully awake person who hears an unfamiliar language: failing to obey a spoken instruction need not indicate absence of awareness. These examples show why one observable behavior cannot answer every question about consciousness.
+
+Researchers distinguish arousal, which concerns regulation of wakefulness, from the contents and presence of experience. Responsiveness is an observable output that also depends on sensation, comprehension, motivation, and the ability to act. The distinctions are conceptual tools, not a way to diagnose a person from a brief observation.
+
+### Build a measurement with controls
+
+Suppose a research task asks participants to imagine moving their hand when they hear a cue, and a neural measure sometimes distinguishes those periods from rest. A useful protocol must first establish how reliably the pattern appears when known participants follow the instruction. It also needs to measure false positives when nobody follows it.
+
+Then consider failures. A missing signal can reflect difficulty hearing, sustaining attention, understanding the task, or producing a detectable pattern. A positive signal may support a particular inference about task-related processing, but the exact claim depends on the protocol and controls. This is why validated clinical assessments require expertise and repeated, converging evidence.
+
+### Sleep contains changes within changes
+
+Sleep is not one uniform off-state. Non-REM and REM sleep differ in physiology, and there are further variations within those categories. A signal associated with one stage may reflect several processes that commonly occur together. Distinguishing memory-related activity from arousal regulation requires a more specific experiment than comparing sleep with wakefulness.
+
+When reading a new “consciousness signature,” ask which states were compared, whether the measure predicts held-out observations, and whether it works outside the population in which it was found. A promising correlate earns further testing; it does not immediately become a universal meter.
+:::
+
 :::try No button press
 A participant gives no button response during an experiment. List two explanations besides absence of experience that the experiment must consider.
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -22,6 +22,14 @@
         "question": "How can rotating panels represent people fairly over time?",
         "method": "Formal model and algorithmic analysis of temporal selection.",
         "limitations": "Guarantees depend on the modeled population and fairness definitions; governance outcomes are not tested."
+      },
+      "explainer": {
+        "finding": "The paper develops ways to balance representation and participation chances across successive citizen panels.",
+        "method": "It defines a formal selection problem and proves properties of algorithms under particular fairness and proportionality definitions.",
+        "meaning": "A fair-looking panel today can still repeatedly exclude some people over time. Rotating membership makes the sequence of selections part of the design problem.",
+        "limits": "Mathematical guarantees depend on the model. The paper does not test whether rotating panels improve policy, deliberation, or public trust.",
+        "source": "https://arxiv.org/abs/2602.16194",
+        "background": "#/politics/frontier"
       }
     },
     {
@@ -44,6 +52,14 @@
         "question": "Can clearer eligibility communication improve access to a public program?",
         "method": "Randomized field experiment comparing mail interventions, with administrative follow-up.",
         "limitations": "Specific population and program; applications, awards, and broader welfare effects are distinct outcomes."
+      },
+      "explainer": {
+        "finding": "Letters about likely benefit eligibility increased participation, while applications remained limited over follow-up.",
+        "method": "A randomized mailing experiment covered more than four million older individuals and compared message designs using administrative outcomes.",
+        "meaning": "Telling someone a service exists can remove an information barrier without removing the documents, time, or practical effort needed to obtain it.",
+        "limits": "Applications, awards, and wider welfare outcomes are different measures. The results belong to this program and population; clearer communication is not a complete participation solution.",
+        "source": "https://oes.gsa.gov/assets/publications/1723.pdf",
+        "background": "#/politics/bureaucracy/bureaucracy-an-application-is-a-sequence-of-burdens"
       }
     },
     {
@@ -66,6 +82,14 @@
         "question": "Do delivery reforms create financial-service spillovers beyond their primary purpose?",
         "method": "Analysis of an at-scale randomized district rollout in Indonesia.",
         "limitations": "No detectable effect is not proof of an exact zero; results belong to the studied outcomes, setting, and period."
+      },
+      "explainer": {
+        "finding": "The study found no detectable increase in household use of other financial services from the tested electronic-transfer rollout.",
+        "method": "The analysis used randomized rollout across Indonesian districts to assess spillovers beyond the benefit-delivery function.",
+        "meaning": "A channel that successfully delivers a payment need not also change how people save or borrow. The hoped-for side effect needs its own evidence.",
+        "limits": "No detectable effect is not proof of an exact zero. The result does not imply that digital delivery lacks benefits; it concerns the measured spillover outcomes.",
+        "source": "https://www.aeaweb.org/articles?id=10.1257/pandp.20251059",
+        "background": "#/politics/policy/policy-specify-the-outcome-and-the-comparison"
       }
     },
     {
@@ -88,6 +112,14 @@
         "question": "Does participation in community budgeting affect wider civic engagement?",
         "method": "Community-level randomized field intervention with follow-up outcome measurement.",
         "limitations": "Setting-specific intervention and follow-up; reported attitudes and observed institutional change are different measures."
+      },
+      "explainer": {
+        "finding": "Participation in a local budgeting intervention was followed by higher civic engagement beyond budgeting in the study’s follow-up.",
+        "method": "Communities were randomly assigned invitations to deliberate and allocate local budgets, with outcomes measured six months later.",
+        "meaning": "A concrete opportunity to make a local decision may affect engagement beyond that single meeting. A field comparison tests that possibility in an actual setting.",
+        "limits": "The result is setting-specific. Attitudes, engagement, binding authority, and policy implementation are distinct outcomes, and effects need not transfer unchanged to other systems.",
+        "source": "https://www.nature.com/articles/s41562-024-01964-y",
+        "background": "#/politics/frontier/frontier-participation-needs-an-outcome"
       }
     },
     {
@@ -110,6 +142,14 @@
         "question": "Which groups helped bring about municipal civil-service rules?",
         "method": "Historical quantitative comparison and qualitative evidence from American cities.",
         "limitations": "Observational evidence and historical measurement limits; adoption and later performance are separate questions."
+      },
+      "explainer": {
+        "finding": "Historical evidence identifies organized public employees as contributors to the adoption of municipal civil-service rules.",
+        "method": "The authors combine quantitative comparisons of American cities with qualitative historical evidence about institutional change.",
+        "meaning": "People affected by employment rules can also organize to shape those rules. That changes a story in which employees appear only as passive beneficiaries.",
+        "limits": "The design is observational and historical. It does not eliminate every alternative cause or show that all civil-service systems have identical consequences.",
+        "source": "https://www.cambridge.org/core/journals/american-political-science-review/article/civil-service-adoption-in-america-the-political-influence-of-city-employees/29DBF25076D5A7E175FDECA2C85CC001",
+        "background": "#/politics/bureaucracy/bureaucracy-recruitment-and-institutional-history"
       }
     },
     {
@@ -132,6 +172,14 @@
         "question": "How can panel selection balance quotas and individual chances fairly?",
         "method": "Formal algorithmic guarantees and evaluation on ten real assembly datasets.",
         "limitations": "Model-defined fairness within recruitment pools; no causal test of policy quality or population-wide participation."
+      },
+      "explainer": {
+        "finding": "Algorithms can balance representative panel requirements with more equal individual selection chances within a recruitment pool.",
+        "method": "The paper provides formal guarantees and evaluates its algorithms using ten real citizens’ assembly datasets.",
+        "meaning": "Drawing one volunteer at a time can leave later choices constrained by quotas. Considering complete possible panels changes how fairly chances can be allocated.",
+        "limits": "Fairness among volunteers does not fix who volunteered, who sets the agenda, or whether recommendations are implemented. Those require additional institutional choices and evidence.",
+        "source": "https://www.nature.com/articles/s41586-021-03788-6",
+        "background": "#/politics/frontier/frontier-who-had-a-chance-to-enter-the-pool"
       }
     }
   ]

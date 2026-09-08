@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-08",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -32,17 +32,18 @@
       "doi": "10.1103/tr6y-kpc6",
       "topic": "cosmology",
       "chapter": "cosmos",
-      "summary": "DESI's second data release, built from more than 14 million galaxies and quasars, sharpened the 2024 hint: models in which dark energy changes over time fit the data better than a constant cosmological constant, at 3.1 sigma when combined with the cosmic microwave background and higher when supernovae are added. It is not yet a discovery (5 sigma is the usual bar), but it is the strongest evidence so far that dark energy may not be constant.",
+      "summary": "DESI's second release uses more than 14 million galaxies and quasars to measure a characteristic cosmic distance pattern. Combined with cosmic microwave background observations, the results favor the tested evolving-dark-energy model over a cosmological constant at 3.1 sigma. Including supernova observations changes that preference to 2.8–4.2 sigma depending on the sample. The interpretation depends on the model, datasets, and potential systematic errors; it does not establish that dark energy varies.",
       "status": "preliminary",
-      "verified": "2026-09-01",
+      "verified": "2026-09-08",
       "headline": "DESI's larger map sharpens the test of dark energy",
       "sourceType": "Journal publication",
       "explainer": {
-        "paragraphs": [
-          "Ancient sound waves left a characteristic spacing in the distribution of galaxies. Astronomers use that pattern as a cosmic ruler: its apparent size at different distances helps reconstruct how the universe expanded. DESI measured this pattern using more than 14 million galaxies and quasars.",
-          "Combined with other observations, the measurements favor some models in which dark energy changes over time. Dark energy is the name for the unknown cause of accelerating expansion. If the hint holds up, a constant value would no longer be enough to describe it. But the strength of the hint depends on which other measurements are included. This is a reason to investigate, not proof that dark energy changes."
-        ],
-        "source": "https://arxiv.org/abs/2503.14738"
+        "finding": "A larger map of galaxies sharpened measurements of cosmic expansion. Some combinations with other observations favor a dark-energy model that changes over time.",
+        "method": "The team measured a characteristic spacing left by ancient sound waves, using more than 14 million galaxies and quasars, and compared cosmological models against combined datasets.",
+        "meaning": "That spacing acts as a cosmic ruler. Comparing its apparent size across distances helps reconstruct expansion, rather than directly watching billions of years pass.",
+        "limits": "The preference depends on the model and the observations combined with DESI. Unknown systematic errors remain possible; this is not a settled discovery of changing dark energy.",
+        "source": "https://arxiv.org/abs/2503.14738",
+        "background": "#/physics/cosmos/cosmos-dark-energy"
       }
     },
     {

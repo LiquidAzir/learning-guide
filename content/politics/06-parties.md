@@ -28,6 +28,29 @@ A small group with concentrated stakes may organize more easily than a large gro
 
 Treat “the public wants” as a claim requiring measurement. Question wording, issue salience, knowledge, and trade-offs affect responses. A preference expressed without a cost may change when the cost becomes explicit.
 
+:::deeper Why a coalition needs an agreement after the election
+
+### Winning a majority is only the beginning
+
+Suppose a 100-seat legislature contains parties with 42, 33, and 25 seats. No party has a majority. Any pair would have enough seats, but that does not make all pairs equally plausible. Policy differences, trust, office goals, leadership commitments, and expectations about future elections affect bargaining.
+
+A coalition agreement can specify policy priorities, ministerial responsibilities, and procedures for resolving disagreements. Those commitments reduce uncertainty, but cannot list every future contingency. Partners still need ways to monitor compliance and decide what happens when unexpected events force a choice.
+
+### Delegation creates information problems
+
+Voters delegate decisions to representatives, parties coordinate representatives, and governing coalitions delegate implementation to ministers and administrators. At each step, the delegate may know more about their own actions than the person or institution monitoring them. Their preferences may also differ.
+
+This is a principal-agent problem. Elections, legislative questions, disclosure rules, audits, and internal party procedures provide different forms of monitoring and sanction. No single instrument observes every action or perfectly aligns every incentive.
+
+Party discipline can make responsibility easier to identify when a party consistently supports a program. It can also limit a representative's ability to respond independently to local concerns. Whether that tradeoff is desirable depends on the role one expects parties and representatives to play.
+
+### Compare explanations against observable choices
+
+If a coalition is described as purely office-seeking, ask whether its choices match that explanation better than a policy-based alternative. Did partners accept fewer positions to obtain a particular policy? Did a party reject an available coalition because it conflicted with a public commitment?
+
+Institutional analysis improves when motives become hypotheses linked to behavior. It weakens when every possible choice is retrospectively labeled proof of the same assumed motive.
+:::
+
 :::try The largest party
 Does the 45-seat party have an automatic right to determine the governing program in the example? What additional information is needed?
 

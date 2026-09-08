@@ -24,6 +24,27 @@ A temperature sensor converts a physical condition into a signal. Electronics am
 
 **Resolution** is the size of a distinguishable step, not the same as accuracy. A display showing 0.001°C increments can still be wrong by 2°C. Sampling creates another limitation: signals changing too quickly for the sampling rate can appear as misleading slower patterns, called aliasing. Filtering before sampling is therefore part of measurement design.
 
+:::deeper A sensor does not hand you the physical quantity directly
+
+### Follow the measurement chain
+
+Suppose a temperature-sensitive resistor forms one side of a voltage divider. The divider converts a change in resistance into a voltage. An analog-to-digital converter samples that voltage, and software uses a calibration relationship to estimate temperature. Every step contributes uncertainty or possible distortion.
+
+A 12-bit converter divides its full-scale range into 4,096 code levels. Over an idealized 0–3.3 V range, one code step is about 0.806 mV. That is resolution, not overall accuracy. A precise-looking digital number can still be wrong because of reference-voltage error, sensor tolerance, electrical noise, loading, or an incorrect calibration curve.
+
+### Let the circuit settle
+
+A resistor and capacitor can form a simple low-pass network with time constant RC. For a voltage step in the ideal first-order circuit, the capacitor approaches its new value gradually: about 63% of the change occurs after one time constant and about 95% after three. Sampling too soon after switching channels can therefore measure part of a transition rather than the intended settled value.
+
+Filtering suppresses some rapid variation, but also delays genuine changes. A smoothing filter that makes a graph look clean may hide the timing needed by a control system. Choose its behavior according to the signal and task.
+
+### Sampling can invent a slower signal
+
+If a signal changes faster than the sampling system can distinguish, different underlying signals can produce the same samples. This is aliasing. Once that information has been lost, plotting more decimal places or drawing a smoother line cannot recover it. Filtering before sampling helps constrain the signal to the intended bandwidth.
+
+Calibration checks the relationship between readings and known references. Validation asks whether the complete measurement is suitable under the actual operating conditions. Both matter when a sensor reading becomes the input to a decision.
+:::
+
 :::try More decimal places
 Two thermometers give repeatable readings of 22.000°C and 24°C in a 24°C reference bath. Which measurement issue does the first demonstrate?
 

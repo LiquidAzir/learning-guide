@@ -28,6 +28,27 @@ A mass and spring have a natural frequency. Periodic forcing near a system's nat
 
 **Damping** dissipates mechanical energy. Adding it can reduce oscillation but may introduce heat and alter response speed. Good design asks what disturbance the machine must tolerate and what motion is acceptable, not merely how to make every part heavier.
 
+:::deeper A gearbox trades speed for turning force
+
+### Account for power before admiring torque
+
+Suppose a motor supplies 2 N·m at 3,000 revolutions per minute. The angular speed is about 314 radians per second, so mechanical power is about 628 W. With a 10:1 speed reduction and an assumed 90% efficiency, the output turns at 300 rpm and supplies about 18 N·m. Its power is approximately 565 W; the remaining 63 W is dissipated, largely as heat.
+
+There is more torque, but less speed. A gearbox has not created energy. Ignoring the speed change is like celebrating that a lever makes a heavy load easier to lift while forgetting that your hand must move farther.
+
+### Starting is different from steady motion
+
+Accelerating a mechanism requires torque to change its rotational motion as well as to overcome its external load and losses. Rotational inertia depends on how mass is distributed about the axis. Moving mass farther from that axis can increase the torque needed for the same angular acceleration even if total mass is unchanged.
+
+Backlash—the clearance that allows some motion before opposite tooth faces engage—can complicate reversals and precise positioning. Compliance in shafts and couplings allows twisting. Friction can make the torque needed to start motion differ from what is needed to keep moving.
+
+### When a repeated push becomes a vibration problem
+
+A flexible machine stores energy through deformation and moving mass. Periodic forcing near a natural frequency can produce large oscillations, with damping limiting the response. Adding stiffness changes frequencies; adding damping changes how energy is dissipated. Neither is a universal cure, because changing one mode can shift problems elsewhere.
+
+A complete machine explanation follows force, motion, stored energy, and losses together. It also asks what happens during startup, reversal, overload, and shutdown—the conditions a steady operating point leaves out.
+:::
+
 :::try More torque for free?
 A proposed gearbox claims to double torque while keeping rotational speed unchanged and requiring no extra power. Can an ordinary passive gearbox do this continuously?
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -19,10 +19,12 @@
       "sourceType": "Journal publication",
       "doi": "10.1038/s41562-026-02446-z",
       "explainer": {
-        "paragraphs": [
-          "The thalamus is a deep brain structure involved in communication and state regulation. Researchers found a rhythm that differed across recorded sleep and waking states. A useful signature can guide experiments without being a consciousness meter: a pattern that tracks some states does not necessarily identify every experience or explain why experience exists."
-        ],
-        "source": "https://www.nature.com/articles/s41562-026-02446-z"
+        "finding": "A rhythm in a deep brain structure differed between recorded waking, REM, and non-REM states in a human clinical sample.",
+        "method": "Researchers compared direct central-thalamic recordings across those states and identified activity around 19–45 Hz during wakefulness and REM in their data.",
+        "meaning": "A state-linked rhythm can give researchers a target for testing how brain systems regulate waking and sleep—much as a useful indicator helps locate a process to investigate.",
+        "limits": "Tracking these states does not establish a universal consciousness test. The sample and recording conditions matter, and experience can occur during non-REM sleep.",
+        "source": "https://www.nature.com/articles/s41562-026-02446-z",
+        "background": "#/psychology/sleep-states/sleep-states-wakefulness-experience-and-communication"
       }
     },
     {
@@ -40,7 +42,15 @@
       "verified": "2026-09-07",
       "headline": "Saying whether a faint image appeared can change how perception is measured",
       "sourceType": "Journal publication",
-      "doi": "10.1038/s41467-026-72567-6"
+      "doi": "10.1038/s41467-026-72567-6",
+      "explainer": {
+        "finding": "A person’s decision to report a faint image can affect measurements intended to describe their visual experience.",
+        "method": "Experiments with 505 participants combined detection judgments and stimulus reproductions, varying factors such as rewards, base rates, and attention.",
+        "meaning": "Saying “yes, I saw it” can reflect both sensory information and how willing someone is to risk a false alarm. Separating those helps prevent a decision change from being called a perceptual change.",
+        "limits": "The separation relies on the tasks and model used. The study does not supply an assumption-free way to measure subjective experience.",
+        "source": "https://www.nature.com/articles/s41467-026-72567-6",
+        "background": "#/psychology/evidence/evidence-count-the-mistakes-that-accuracy-hides"
+      }
     },
     {
       "id": "cogitate-2025",
@@ -59,10 +69,12 @@
       "sourceType": "Journal publication",
       "doi": "10.1038/s41586-025-08888-1",
       "explainer": {
-        "paragraphs": [
-          "Instead of each group choosing a favorable experiment, advocates agreed beforehand on predictions their theories should meet. The results exposed difficulties for both accounts. That makes the study useful even without a winner: theories now need to explain the mismatches and make new predictions that can be tested independently."
-        ],
-        "source": "https://www.nature.com/articles/s41586-025-08888-1"
+        "finding": "A shared experiment supported some predictions and challenged important commitments of two consciousness theories.",
+        "method": "Advocates agreed on divergent predictions in advance, and the consortium recorded brain activity while 256 people viewed clearly visible stimuli.",
+        "meaning": "Agreeing on the test beforehand makes it harder for each group to select only favorable results afterward. The mismatches identify where theories need clearer explanations and fresh predictions.",
+        "limits": "These are tests of specified claims about visual experience. They do not settle consciousness as a whole or prove another theory true by elimination.",
+        "source": "https://www.nature.com/articles/s41586-025-08888-1",
+        "background": "#/psychology/consciousness/consciousness-what-an-adversarial-collaboration-contributes"
       }
     },
     {
@@ -80,7 +92,15 @@
       "verified": "2026-09-07",
       "headline": "A mouse-brain dataset links neural activity with detailed wiring",
       "sourceType": "Journal publication",
-      "doi": "10.1038/s41586-025-08790-w"
+      "doi": "10.1038/s41586-025-08790-w",
+      "explainer": {
+        "finding": "An open mouse-brain dataset connects recorded neural responses with an unusually detailed reconstruction of physical wiring.",
+        "method": "The project paired calcium imaging of about 75,000 neurons with electron-microscopy reconstructions containing more than 200,000 cells and roughly half a billion synapses.",
+        "meaning": "A road map and a record of traffic answer different questions. Having both helps researchers investigate how connections relate to activity.",
+        "limits": "The resource comes from one mouse and contains sampling and reconstruction limits. Wiring plus recorded activity does not by itself explain every computation or experience.",
+        "source": "https://www.nature.com/articles/s41586-025-08790-w",
+        "background": "#/psychology/networks/networks-association-necessity-and-timing"
+      }
     },
     {
       "id": "streaming-speech-2025",
@@ -97,7 +117,15 @@
       "verified": "2026-09-07",
       "headline": "A trained brain interface turns attempted speech into streaming audio",
       "sourceType": "Journal publication",
-      "doi": "10.1038/s41593-025-01905-6"
+      "doi": "10.1038/s41593-025-01905-6",
+      "explainer": {
+        "finding": "A trained brain interface converted one participant’s attempted speech into continuously generated audio.",
+        "method": "The system used cortical surface recordings and trained neural networks, decoding in 80-millisecond increments in a clinical-trial participant with severe paralysis.",
+        "meaning": "Streaming can reduce the need to wait for an entire attempted utterance before hearing output, an important feature for conversational turn-taking.",
+        "limits": "This specialized, trained setup targets attempted speech. It does not establish unrestricted thought reading or the same performance in other people.",
+        "source": "https://www.nature.com/articles/s41593-025-01905-6",
+        "background": "#/psychology/frontier/frontier-ask-what-the-decoder-had-to-choose-between"
+      }
     },
     {
       "id": "sleep-replay-2025",
@@ -114,7 +142,53 @@
       "verified": "2026-09-07",
       "headline": "Mouse sleep substates separate replay of recent and older memories",
       "sourceType": "Journal publication",
-      "doi": "10.1038/s41586-024-08340-w"
+      "doi": "10.1038/s41586-024-08340-w",
+      "explainer": {
+        "finding": "Different substates of mouse non-REM sleep were associated with replay of recent and older experiences.",
+        "method": "Researchers recorded neural activity and pupils, then disrupted sharp-wave ripples in the substate linked to recent memories; later recall was impaired.",
+        "meaning": "The intervention connects the timing of neural events with a memory outcome. It helps explain why treating all of sleep as one uniform state can miss useful structure.",
+        "limits": "This is evidence from mice under specific conditions. It does not show that changing human pupil size or using a consumer sleep tracker improves learning.",
+        "source": "https://www.nature.com/articles/s41586-024-08340-w",
+        "background": "#/psychology/sleep-states/sleep-states-sleep-contains-changes-within-changes"
+      }
+    },
+    {
+      "id": "causal-language-2026",
+      "title": "Quantifying the prevalence and impact of overreaching causal claims in social science",
+      "headline": "Causal wording changes how readers interpret correlational studies",
+      "authors": "Calvin Isch, Timothy Dörr, Neil Fasching, Grace Jennings, Duncan J. Watts",
+      "venue": "Nature Human Behaviour",
+      "year": 2026,
+      "date": "2026-08-24",
+      "url": "https://www.nature.com/articles/s41562-026-02553-x",
+      "doi": "10.1038/s41562-026-02553-x",
+      "topic": "research-methods",
+      "chapter": "evidence",
+      "summary": "A corpus analysis found frequent causal wording in cross-sectional research. Separate reader experiments showed that phrasing affects interpretation. Classification and sampling constrain the prevalence estimate.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Does wording overstate causal evidence?",
+        "method": "Validated text classification and reader experiments.",
+        "limitations": "The selected corpus does not represent every study design."
+      },
+      "explainer": {
+        "finding": "Causal language can strengthen readers’ causal interpretations.",
+        "method": "Readers encountered original or associationally rewritten abstracts.",
+        "meaning": "“Linked with” and “causes” imply different explanations.",
+        "limits": "Corpus prevalence depends on classification; experimental results concern the tested reading tasks.",
+        "source": "https://www.nature.com/articles/s41562-026-02553-x",
+        "background": "#/psychology/evidence/evidence-from-a-score-to-an-explanation"
+      },
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://www.nature.com/articles/s41562-026-02553-x",
+        "decision": "include",
+        "reason": "Primary study followed from a research briefing; separates corpus analysis from reader experiments."
+      },
+      "added": "2026-09-08"
     }
   ]
 }

@@ -253,6 +253,14 @@ math { font-size: 1.05em; white-space: nowrap; }
 .fig text.mono { font-family: var(--font-mono); }
 
 /* callouts */
+.daily-preferences { margin: 24px 0; padding: 16px; border: 1px solid var(--line); border-radius: 12px; }
+.daily-section { margin-top: 28px; }
+.daily-preferences > summary { cursor: pointer; font-weight: 600; }
+.daily-preferences fieldset { border: 0; padding: 16px 0; min-width: 0; }
+.interest-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr)); gap: 12px; margin-top: 12px; }
+.interest-grid label { display: flex; align-items: baseline; gap: 8px; cursor: pointer; }
+.interest-grid input { accent-color: var(--accent); flex: none; }
+.daily-preferences summary:focus-visible, .research-save:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .callout { margin: 1.8em 0; padding: 14px 18px 4px; border-radius: 4px; background: var(--slate-soft); border-left: 3px solid var(--line-strong); }
 .callout-title { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); margin-bottom: 8px; }
 .callout-body { font-size: .95em; }
@@ -262,6 +270,11 @@ math { font-size: 1.05em; white-space: nowrap; }
 .callout-answer > summary { cursor: pointer; padding: 4px 0; color: var(--ink); }
 .callout-answer > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .callout-answer[open] > summary { margin-bottom: 14px; }
+.callout-deeper { background: var(--surface); border: 1px solid var(--line); }
+.callout-deeper > summary { cursor: pointer; color: var(--accent); padding: 4px 0; }
+.callout-deeper > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.callout-deeper[open] > summary { margin-bottom: 14px; }
+.research-explainer h4 { font-size: 1rem; margin: 20px 0 6px; }
 .glossary-anchor { scroll-margin-top: 100px; }
 .callout-key { background: var(--amber-soft); border-left-color: var(--amber); } .callout-key .callout-title { color: var(--amber); }
 .callout-math { background: var(--accent-soft); border-left-color: var(--accent); } .callout-math .callout-title { color: var(--accent); }

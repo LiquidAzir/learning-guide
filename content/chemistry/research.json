@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-08",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -38,11 +38,12 @@
       "headline": "The 2023 Nobel recognizes quantum dots",
       "sourceType": "Announcement",
       "explainer": {
-        "paragraphs": [
-          "Usually, changing the size of a piece of material does not change its color. Quantum dots are so small that confining their electrons changes the energies those electrons can have. For dots of the same semiconductor material, changing the dot size can therefore change the color of light they emit.",
-          "That gives manufacturers a size-based way to tune color, useful in displays, and gives researchers bright labels for tracking biological structures. Making dots with consistent sizes was essential to making them useful. The 2023 prize recognized decades of discovery and manufacturing advances; it was not an announcement that quantum dots had just been invented."
-        ],
-        "source": "https://www.nobelprize.org/prizes/chemistry/2023/press-release"
+        "finding": "The prize recognized discoveries and synthesis methods for quantum dots: tiny crystals whose light emission can be tuned by size.",
+        "method": "This source is a prize announcement summarizing earlier experiments on semiconductor particles and methods for growing them with controlled sizes, not a new experimental trial.",
+        "meaning": "For dots made from the same semiconductor, changing particle size can change emitted color. Consistent sizes make that effect useful in displays and research labels.",
+        "limits": "Size is not the only determinant of a material’s optical properties. The award recognizes decades of work; it does not date every application or establish new performance results.",
+        "source": "https://www.nobelprize.org/prizes/chemistry/2023/press-release",
+        "background": "#/chemistry/materials/materials-small-enough-to-be-strange"
       }
     },
     {

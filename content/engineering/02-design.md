@@ -32,6 +32,25 @@ Energy divided by power gives time: joules divided by joules per second yields s
 
 Testing should target uncertainties and failure modes, not only the expected operating point. Separate measured quantities from assumed ones and record uncertainty where it could affect the decision.
 
+:::deeper Design the kettle before choosing its heater
+
+### Turn a wish into requirements
+
+“Make it boil quickly” leaves too much unspecified. How much water, from what starting temperature, at what ambient pressure, using what supply? A requirement such as heating one kilogram of water through an 80 K rise in four minutes can be calculated and tested. It still needs tolerances and a definition of the test conditions.
+
+Using a specific heat of roughly 4,180 J/(kg·K), the water needs about 334,400 J. Dividing by 240 seconds gives approximately 1,393 W delivered to the water. If an illustrative overall transfer efficiency is 85%, electrical input would need to average about 1,639 W. That efficiency is an assumed design estimate, not a guarantee for every kettle.
+
+The vessel also warms up, and heat escapes to the room. Some losses vary during the cycle. A prototype measurement can reveal whether the simple estimate is adequate or whether a more detailed transient model is needed.
+
+### Requirements can conflict
+
+A larger heater can reduce heating time while increasing current, heat density, and demands on connectors. More insulation reduces losses but may complicate construction, cleaning, or recycling. A large handle can improve grip while increasing size. Engineering judgment involves tracking those tradeoffs against the intended use.
+
+Verification asks whether the built device meets specified requirements. Validation asks whether those requirements produced something useful for its intended users. A kettle can pass the heating-time test and still be awkward to fill or pour.
+
+Keep assumptions beside the calculation. If a later measurement shows lower efficiency, revise the power estimate rather than quietly retaining a favorable input. A good design record makes it possible for another engineer to reconstruct why a choice was made and which observation would require changing it.
+:::
+
 :::try A suspicious estimate
 A calculation predicts that a 1 kW heater delivers 600 kJ in one minute. Find the error.
 

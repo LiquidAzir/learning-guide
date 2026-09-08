@@ -14,9 +14,9 @@ Eleven subjects, each with its own chapters, cited sources, and a separately mai
 | History | 40 | ~85,300 | 412 | 54 |
 | Biology | 21 | ~38,800 | 181 | 54 |
 | Computer Science | 24 | ~45,000 | 136 | 49 |
-| Psychology and Cognitive Science | 14 | ~5,900 | 21 | 6 |
-| Engineering and How Things Work | 14 | ~5,200 | 14 | 6 |
-| Political Science and Institutions | 14 | ~5,400 | 14 | 6 |
+| Psychology and Cognitive Science | 14 | ~9,600 | 21 | 7 |
+| Engineering and How Things Work | 14 | ~8,700 | 14 | 7 |
+| Political Science and Institutions | 14 | ~8,900 | 14 | 6 |
 
 The three new subjects include 33 worked practice questions. Psychology incorporates neuroscience, sleep, competing consciousness theories, and brain decoding. Engineering follows forces, energy, control, manufacture, and reliability. Political science emphasizes institutions and methods; its feed excludes campaign coverage, daily polling, punditry, and party messaging. See [research selection policy](RESEARCH_POLICY.md) for the inclusion criteria and source requirements.
 
@@ -84,6 +84,18 @@ Supported inside chapters:
 - **Dollar signs in prose**: `$` followed by a digit (like `$10,000`) is left as text. To be safe with other cases, write `\$`.
 - **Figures**: `{{fig:name|Caption}}` inlines `figures/name.svg`. Use the CSS classes `ink`, `muted`, `accent`, `amber`, `line`, `soft-fill`, `amber-soft-fill` on SVG elements so diagrams follow the theme.
 - Tables, lists, bold, italics, links: standard GitHub-flavored Markdown.
+
+## Daily reading and research review
+
+`#/daily` lets readers choose subjects, continue a chapter, and browse up to five unread research entries distributed across those interests. Subject priority rotates by local calendar day. Older papers are labeled as archive reading; no new paper is fabricated to fill a day. Readers explicitly mark entries read and can refresh their selection. Saved entries appear regardless of followed subjects. These preferences use separate browser storage from existing chapter progress and bookmarks.
+
+The three newer subjects include 33 optional worked sections, adding about 10,700 words. Contents and search links open the relevant section; printing includes the deeper text. There are 29 four-part research explainers across all eleven subjects, each with a primary source and background link. Earlier entries without explainers retain their summaries; all new reviewed entries require the structured format.
+
+Discovery samples 22 selected journals through Crossref, with the configuration in `research/sources.json`. Run `npm run research:discover`; unreviewed results and failures are written only to `.research/`. A daily Codex heartbeat on the maintainer’s machine is scheduled for 7 a.m. local time to discover and review candidates. It prepares drafts and reports meaningful changes here; it does not automatically publish. This schedule belongs to the Codex task, not to the Render website or a cloned repository.
+
+See [the review workflow](research/REVIEW.md) for source review, validation, and applying a draft locally. Reviewed examples are retained in `research/reviewed/`. Publication requires the normal commit/push/deploy step. New entries show separate publication and addition dates; unknown historical addition dates remain absent.
+
+`npm test` covers research and daily state, selection, discovery deduplication and dates, and the review gate. Run `node scripts/check-editorial.mjs` for the built-content checks.
 
 ## Updating the research feed
 

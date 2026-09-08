@@ -90,14 +90,14 @@ function callouts(src) {
       stack.push(open[1]);
       const label = (open[2] || '').trim() || CALLOUT_LABELS[open[1]] || open[1];
       const heading = marked.parseInline(label);
-      out.push('', open[1] === 'answer'
-        ? `<details class="callout callout-answer"><summary class="callout-title">${heading}</summary>`
+      out.push('', ['answer', 'deeper'].includes(open[1])
+        ? `<details class="callout callout-${open[1]}"><summary class="callout-title">${heading}</summary>`
         : `<aside class="callout callout-${open[1]}"><div class="callout-title">${heading}</div>`, '<div class="callout-body">', '');
       continue;
     }
     if (!inFence && /^:::\s*$/.test(line) && stack.length) {
       const type = stack.pop();
-      out.push('', type === 'answer' ? '</div></details>' : '</div></aside>', '');
+      out.push('', ['answer', 'deeper'].includes(type) ? '</div></details>' : '</div></aside>', '');
       continue;
     }
     out.push(line);
@@ -239,8 +239,13 @@ for (const s of subjects) {
   console.log(`${s.title}: ${chapters.length} chapters, ${words} words, ${srcs} sources, ${research.items.length} research items`);
 }
 
+const { validateExplainer, validDate } = await import('./scripts/research-schema.mjs');
+for (const subject of data.subjects) for (const item of subject.research.items) {
+  validateExplainer(item, data.subjects);
+  if (item.added && !validDate(item.added)) throw new Error(`Invalid addition date: ${subject.id}/${item.id}`);
+}
 const css = read(path.join(SRC, 'styles.css'));
-const js = read(path.join(SRC, 'research-state.js')) + '\n' + read(path.join(SRC, 'app.js'));
+const js = ['research-state.js', 'daily-state.js', 'app.js'].map(f => read(path.join(SRC, f))).join('\n');
 // "\/" is a valid JSON escape; "\!" is not, so use the unicode escape for the comment opener.
 const json = JSON.stringify(data).replace(/<\/script/gi, '<\\/script').replace(/<!--/g, '<\\u0021--');
 const fonts = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'

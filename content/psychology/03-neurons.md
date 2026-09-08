@@ -26,6 +26,25 @@ An artificial example makes integration concrete. Suppose a simplified cell fire
 
 Plasticity also creates a stability problem. If every useful connection grew without restraint, activity could escalate. Inhibitory regulation and homeostatic processes help keep circuits within workable ranges. Learning therefore requires coordinated change, not unlimited strengthening.
 
+:::deeper Follow a signal across two cells
+
+### Electrical along the cell, chemical across the gap
+
+Imagine a neuron receiving several inputs. Some synapses make its membrane voltage more likely to approach the conditions that trigger a spike; others reduce that likelihood. Their timing and location matter. Inputs arriving together can combine differently from the same inputs spread over a long interval.
+
+An action potential is a regenerating change in voltage supported by voltage-dependent ion channels. It is not a small parcel of electricity slowly leaking along a wire. In a myelinated axon, insulation changes where current crosses the membrane, allowing the signal to propagate efficiently between exposed regions called nodes.
+
+When a spike reaches many kinds of presynaptic terminal, calcium entry helps trigger release of neurotransmitter. Molecules cross a tiny gap and bind to receptors on the next cell. Receptor properties help determine the result; a transmitter's name alone does not tell you everything about its effect. Release is probabilistic, and synapses vary in strength.
+
+### What could change with learning?
+
+A familiar pathway can become more effective through changes in release, receptor response, or circuit organization. But “cells that fire together wire together” is a starting intuition, not a complete plasticity rule. Timing, neuromodulators, prior activity, and mechanisms that keep activity within workable bounds can matter.
+
+Nor does a stronger synapse correspond neatly to a single stronger memory. The same cell can participate in several patterns, and a remembered episode draws on interacting systems. Explaining learning means connecting changes at the cell level to a measurable change in behavior. Observing either one alone leaves part of the explanation unfinished.
+
+This distinction also helps with brain-inspired AI. An artificial unit that sums inputs and applies a function borrows a useful abstraction. It usually leaves out most of the chemistry, timing, shape, and ongoing regulation of a biological neuron.
+:::
+
 :::try Bigger spikes?
 A louder sound increases firing from 20 to 50 spikes per second in a recorded neuron. Must each spike now have more than twice its previous voltage amplitude?
 

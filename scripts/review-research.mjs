@@ -1,0 +1,30 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
+import { validateReview } from './research-schema.mjs';
+import { doiKey } from './discover-research.mjs';
+const root = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
+const file = process.argv.slice(2).find(a => !a.startsWith('--'));
+if (!file) throw new Error('Usage: node scripts/review-research.mjs research/reviewed/NAME.json [--apply]');
+const record = JSON.parse(fs.readFileSync(path.resolve(file), 'utf8'));
+execFileSync(process.execPath, ['build.js'], { cwd: root, stdio: 'pipe' });
+const data = JSON.parse(fs.readFileSync(path.join(root, 'dist/data.json'), 'utf8'));
+const today = new Date().toISOString().slice(0, 10);
+validateReview(record, data, today);
+const target = path.join(root, 'content', record.subject, 'research.json');
+const feed = JSON.parse(fs.readFileSync(target, 'utf8'));
+const index = feed.items.findIndex(i => i.id === record.item.id);
+const duplicate = feed.items.find(i => i.id !== record.item.id && ((record.item.doi && doiKey(i.doi) === doiKey(record.item.doi)) || i.url === record.item.url));
+if (duplicate) throw new Error(`Already represented by ${duplicate.id}; update the existing entry without changing its ID`);
+// Legacy records without a known addition date retain that absence when edited.
+const added = index < 0 ? today : feed.items[index].added;
+const item = { ...record.item, verified: record.review.checked, editorialReview: record.review };
+delete item.added;
+if (added) item.added = added;
+if (process.argv.includes('--apply')) {
+  if (index < 0) feed.items.push(item); else feed.items[index] = item;
+  feed.updated = today;
+  fs.writeFileSync(target + '.tmp', JSON.stringify(feed, null, 2) + '\n'); fs.renameSync(target + '.tmp', target);
+  console.log(`Applied ${record.subject}/${item.id} locally. Review the diff and run editorial checks before publishing.`);
+} else console.log(`Validated ${record.subject}/${item.id}. No feed files changed. Use --apply after reviewing the draft.`);

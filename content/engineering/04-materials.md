@@ -30,6 +30,27 @@ with crack size $a$ and a geometry-dependent factor omitted here. Doubling crack
 
 If a defect can grow, a design may need a detectable damage state before failure, access for inspection, and a justified inspection interval. Manufacturing consistency and traceability are therefore structural questions as well as production questions.
 
+:::deeper Why a small scratch can matter more than an average stress
+
+### Strength measured on which specimen?
+
+An average stress divides force by a chosen area. Around a hole, notch, or crack, the local stress distribution is not uniform. A part can therefore reach damaging local conditions while its average stress still looks modest. The geometry of the defect and the way the load is applied matter.
+
+In an ideal linear-elastic fracture model, a crack-driving quantity called stress intensity scales with applied stress times the square root of crack length, together with a geometry factor. Comparing it with a material's fracture toughness helps assess crack growth or instability within that model's range of validity. It is a different question from comparing average stress with yield strength.
+
+### Repeated loads change the problem
+
+A component can survive one load and fail after many repetitions. Fatigue involves damage accumulation and crack initiation or growth under cyclic loading. The range of stress, mean stress, surface condition, environment, and load sequence can all matter. A fatigue result from a polished specimen under controlled loading does not transfer automatically to a corroded joint.
+
+Creep is different again: deformation develops with time under sustained loading, often becoming important at elevated temperature. A short room-temperature test cannot establish long-term dimensional stability under a hot sustained load.
+
+### Choose a material for the whole job
+
+Suppose a lightweight housing needs stiffness, impact resistance, dimensional accuracy, and low production cost. Comparing strength-to-weight alone leaves out several requirements. A material that looks excellent as a coupon may be difficult to join, machine, inspect, or recycle.
+
+Manufacturing also changes material behavior. Heat treatment, print orientation, residual stress, and porosity can make nominally identical compositions perform differently. The useful specification therefore includes the material condition, process, and relevant test—not merely a chemical name or a headline strength value.
+:::
+
 :::try Stronger on paper
 Two materials have the same yield strength, but one has much lower fracture toughness. Can you use the same allowable defect size without further analysis?
 

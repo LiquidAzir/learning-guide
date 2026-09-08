@@ -28,6 +28,27 @@ Civil-service systems attempt to separate some public employment decisions from 
 
 Recent field experiments on communication and service delivery test specific administrative barriers. A letter increasing applications would not by itself establish better health, income, or satisfaction; each downstream outcome requires its own evidence.
 
+:::deeper What happens when applications arrive faster than decisions?
+
+### Count the queue
+
+Imagine an office receives 120 applications a day and completes 100. Its unresolved queue grows by 20 a day, or 400 over twenty working days, if these averages hold. Asking staff to work through the queue without changing incoming demand, processing capacity, or the task cannot make that arithmetic disappear.
+
+Average capacity is not the whole story. Even when mean capacity exceeds mean arrivals, uneven arrivals and variable processing times can create waits. As utilization approaches the available capacity, there is less room to absorb a surge or an unusually complicated case.
+
+### An application is a sequence of burdens
+
+Applicants must discover the program, understand eligibility, obtain documents, submit them correctly, and respond to follow-up requests. Each step can discourage or exclude people who would otherwise qualify. A letter might improve awareness without resolving document access or the difficulty of completing a form.
+
+Simplifying the front end can increase applications and expose a bottleneck further downstream. That can be a desirable increase in access while also creating a need for more processing capacity. Evaluating only the number of applications or only waiting times would miss part of the effect.
+
+### Targets change what staff have reason to do
+
+Suppose offices are rewarded for closing cases quickly. Staff may improve their workflow, but the target might also encourage concentrating on easy cases, recording a case as closed before the underlying problem is resolved, or shifting work outside the measured category. These are possible responses to investigate, not assumptions that every worker behaves cynically.
+
+Pair speed measures with accuracy, appeals, completion, and access across relevant groups. Qualitative observation can reveal a bottleneck that an aggregate dashboard hides. Effective administration requires both usable processes and a way to notice when the reported metric has drifted away from the public service it was supposed to represent.
+:::
+
 :::try A faster rejection
 After introducing a speed target, an agency's average processing time falls, but appeals and overturned denials rise. Has performance unambiguously improved?
 

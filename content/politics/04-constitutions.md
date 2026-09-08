@@ -28,6 +28,29 @@ Local decisions can use local knowledge and accommodate different preferences. B
 
 For the bridge example, draw who proposes, funds, authorizes, implements, reviews, and can block the project. Then ask whether voters or affected residents can identify responsibility. This often reveals more than ranking systems by a single label.
 
+:::deeper Trace a proposal through its veto points
+
+### Who must agree to change the status quo?
+
+Imagine a proposal needs approval from two legislative chambers and an executive. Each institution can prefer the status quo to the proposal for a different reason. Requiring all three to agree narrows the set of changes that can pass relative to a rule allowing one chamber to decide alone.
+
+That can protect against abrupt changes, but can also make correction difficult when the existing arrangement works poorly. Whether stability is desirable depends partly on what is being preserved. Counting veto points does not by itself establish institutional quality.
+
+The preferences of the officeholders matter as well as their formal number. Three bodies controlled by closely aligned groups can act more cohesively than two bodies with sharply opposed priorities. Informal bargaining, party discipline, procedural deadlines, and agenda control shape how the written structure operates.
+
+### Accountability follows the chain of delegation
+
+In a parliamentary arrangement, the executive depends on maintaining the relevant legislative confidence. In a presidential arrangement, separate electoral mandates can give executive and legislature distinct bases of authority. Actual systems contain many variations, so these are organizing distinctions rather than predictions of every outcome.
+
+If responsibility is shared across institutions, citizens may find it harder to identify who caused a failure. Shared authority can also provide scrutiny and correction. The same structure can therefore create both a safeguard and a coordination problem.
+
+### Put federalism into the example
+
+Suppose central government sets a service standard while regional governments deliver the service. Local delivery may accommodate different conditions, but responsibility for money, implementation, and outcomes can become blurred. Regions may also learn from one another's experiments or impose costs across borders.
+
+To understand a constitution, follow a concrete decision: who initiates it, who can amend or block it, who pays, who implements it, and who can challenge it afterward. That reveals more than treating a constitutional label as a complete explanation.
+:::
+
 :::try More vetoes, better outcomes?
 A reform adds a second chamber's approval to every infrastructure decision. What are one plausible benefit and one plausible cost?
 

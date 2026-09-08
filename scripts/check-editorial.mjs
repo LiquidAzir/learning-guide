@@ -13,7 +13,7 @@ for (const subject of data.subjects) {
     assert(!html.includes('math-error'), `Math rendering failed: ${subject.id}/${chapter.id}`);
     assert(!/MATHTOKEN\d+END/.test(html), `Unrestored math: ${subject.id}/${chapter.id}`);
     const count = (html.match(/<details class="callout callout-answer">/g) || []).length;
-    assert.equal(count, (html.match(/<\/details>/g) || []).length, `Answer closure: ${subject.id}/${chapter.id}`);
+    assert.equal(count + (html.match(/<details class="callout callout-deeper">/g) || []).length, (html.match(/<\/details>/g) || []).length, `Disclosure closure: ${subject.id}/${chapter.id}`);
     if (chapter.order > 1 && chapter.order < subject.chapters.length - 1) {
       assert.equal(count, 1, `Missing chapter practice: ${subject.id}/${chapter.id}`);
     }
@@ -36,13 +36,14 @@ for (const subject of data.subjects) {
 const originalIds = new Set(['physics', 'chemistry', 'economics', 'mathematics', 'ai', 'history', 'biology', 'cs']);
 const originals = data.subjects.filter(s => originalIds.has(s.id));
 assert.equal(originals.flatMap(s => s.chapters).reduce((n, c) => n + (c.html.match(/<details class="callout callout-answer">/g) || []).length, 0), 155);
-assert.equal(originals.reduce((n, s) => n + s.research.items.length, 0), 399);
+assert(originals.reduce((n, s) => n + s.research.items.length, 0) >= 399);
 for (const id of ['psychology', 'engineering', 'politics']) {
   const subject = data.subjects.find(s => s.id === id);
   assert(subject, `Missing subject: ${id}`);
   assert.equal(subject.chapters.length, 14);
-  assert.equal(subject.research.items.length, 6);
+  assert(subject.research.items.length >= 6);
   assert(subject.chapters.filter(c => c.order > 1 && c.order < 13).every(c => c.words >= 300), `Incomplete core chapter: ${id}`);
+  assert(subject.chapters.filter(c => c.order > 1 && c.order < 13).every(c => c.html.includes('class="callout callout-deeper"')), `Missing optional worked section: ${id}`);
   for (const chapter of subject.chapters) {
     const anchors = new Set([...chapter.html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]));
     for (const [, target] of chapter.html.matchAll(/href="#([^"]+)"/g)) {

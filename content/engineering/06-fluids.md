@@ -32,6 +32,27 @@ A pump's available pressure rise generally changes with flow. The piping system'
 
 Valves, bends, filters, and entrances add losses. Rapid valve changes can cause pressure transients. Low local pressure can produce cavitation, with vapor bubbles that later collapse and may damage components. A steady-flow model will not answer every transient or phase-change question.
 
+:::deeper Why a narrower pipe can demand a much larger pump
+
+### Keep flow rate and velocity separate
+
+For steady incompressible flow through a pipe, volume flow rate Q equals area A times mean velocity v. Halving the pipe's diameter quarters its area. Maintaining the same Q therefore requires four times the mean velocity.
+
+Pressure loss depends on the flow regime. In fully developed laminar flow through a circular pipe, the pressure drop for a given volume flow scales as 1/r⁴ under the usual Newtonian-fluid assumptions. Halving the radius would require sixteen times the pressure drop for that idealized case. In turbulent flow, a different relation involving friction factor and velocity is needed; carrying the laminar formula into every pipe would be a mistake.
+
+### The pump and the system meet at an operating point
+
+A pump's delivered pressure rise generally depends on its flow rate. The connected pipe network also has a relationship between required pressure and flow. Their intersection determines an operating point. A pump rating without the system curve cannot tell you the actual delivered flow.
+
+Valves, bends, filters, elevation changes, and outlet conditions all contribute. Closing a valve changes the system, so the flow and pump operating point move. Hydraulic power delivered to the fluid is pressure rise times volume flow. Electrical input must be higher once motor and pump losses are included.
+
+### A pressure drop can change the fluid itself
+
+If local pressure falls far enough, vapor cavities can form and later collapse: cavitation. It can cause noise, erosion, and loss of performance. A calculation based solely on average pipe pressure may miss the low-pressure region that initiates it.
+
+The broader lesson is that “water flows through a pipe” hides several linked questions: how much flows, how fast it moves, where energy is lost, and whether the assumed single liquid phase remains valid. Choose the equation after identifying the regime.
+:::
+
 :::try Counting the liters
 A pump supplies 3 liters per second through a pressure rise of 200 kPa. What is the hydraulic power before efficiency losses?
 

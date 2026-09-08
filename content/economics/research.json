@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-08",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -320,11 +320,19 @@
       "doi": "10.1093/qje/qjae044",
       "topic": "ai-work",
       "chapter": "frontier",
-      "summary": "The authors studied 5,179 customer-support agents at a software company after some were given a generative-AI assistant that suggested responses. Agents with the tool resolved about 14 percent more issues per hour on average, and the least experienced agents improved by roughly 34 percent, while veteran agents gained little. This is the first large real-world evidence that generative AI can spread the habits of top performers to novices, narrowing skill gaps rather than replacing workers outright.",
+      "summary": "The published study analyzes a staggered rollout of a generative-AI assistant in customer-support work. It estimates an average increase of about 15% in issues resolved per hour, with larger gains for less experienced and lower-skill workers. The setting offers evidence about assistance on a specific task. The nonrandom rollout and analytical assumptions matter, and the result does not establish economy-wide productivity or employment effects.",
       "status": "reported",
-      "verified": "2026-09-02",
+      "verified": "2026-09-08",
       "headline": "An AI assistant changes productivity in customer-support work",
-      "sourceType": "Journal publication"
+      "sourceType": "Journal publication",
+      "explainer": {
+        "finding": "Access to an AI assistant was associated with about 15% more issues resolved per hour on average in the published workplace study, with larger gains for less experienced or lower-skill agents.",
+        "method": "The researchers analyzed a staggered deployment to customer-support agents, comparing performance over time with controls for worker and experience differences.",
+        "meaning": "Suggested responses can help a newer worker handle cases more effectively. That is a task-level productivity result, not a measurement of the entire economy.",
+        "limits": "Deployment was not a universal randomized trial across jobs. Results depend on this workplace, task, tool, and analysis; they do not settle future employment effects.",
+        "source": "https://doi.org/10.1093/qje/qjae044",
+        "background": "#/economics/frontier/frontier-the-credibility-revolution"
+      }
     },
     {
       "id": "brynjolfsson-chandar-chen-canaries-2026",

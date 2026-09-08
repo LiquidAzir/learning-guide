@@ -26,6 +26,27 @@ An index of democracy, corruption, or state capacity combines choices about conc
 
 External validity asks whether a finding transfers to other institutions, populations, and periods. A field experiment in one administrative setting can be valuable without answering what every government should do.
 
+:::deeper Did the new rule actually reduce waiting times?
+
+### A before-and-after comparison leaves a missing case
+
+Suppose a city introduces an appointment system and average waiting time falls from 40 to 25 minutes. That is an observed improvement of 15 minutes. It is not yet an estimate of the system's causal effect: demand might have fallen, staffing might have increased, or the definition of waiting time might have changed.
+
+A similar city without the new system goes from 35 to 30 minutes over the same period. A difference-in-differences calculation subtracts that five-minute improvement from the treated city's fifteen-minute improvement, producing an estimated ten-minute reduction attributable to the intervention under the required assumptions.
+
+The key assumption is about the unobserved path: without the appointment system, would the treated city have experienced a comparable change? Similar trends before the intervention make that more plausible, but do not prove it. A staffing change unique to the treated city would still threaten the interpretation.
+
+### Look for changes in who gets counted
+
+What if the appointment system discourages people without reliable internet from applying? Waiting time among those served could fall while access becomes worse for some residents. Report attendance, unsuccessful applications, and who leaves the process as well as the headline waiting-time average.
+
+A randomized rollout can strengthen causal inference, but its unit matters. Randomizing individual applicants differs from randomizing offices. If one office's new system redirects traffic to another, outcomes spill across assignment groups. The design and analysis need to account for that interference.
+
+### Keep the claim proportional to the design
+
+The useful conclusion might be that the system reduced measured waiting times in the tested offices during the study period. Whether it would work in a larger jurisdiction depends on staff capacity, demand, access, and implementation. Calling an evaluation successful should identify the outcome that improved, the uncertainty around it, and any outcome the study did not measure.
+:::
+
 :::try A misleading decline
 Complaints fall after a city replaces in-person reporting with a complicated online form. Name two competing explanations and a measurement that could help distinguish them.
 

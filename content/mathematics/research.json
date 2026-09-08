@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-08",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -378,7 +378,15 @@
       "status": "reported",
       "verified": "2026-09-02",
       "headline": "AlphaGeometry solves contest geometry problems using learned guidance and deduction",
-      "sourceType": "Journal publication"
+      "sourceType": "Journal publication",
+      "explainer": {
+        "finding": "AlphaGeometry solved 25 of 30 selected olympiad geometry problems, combining learned suggestions with symbolic deduction.",
+        "method": "A model trained on synthetic examples proposed helpful geometric constructions, while a deduction engine pursued proofs. The authors evaluated it on a defined problem set.",
+        "meaning": "Adding an auxiliary line can turn a difficult diagram into familiar relationships. The learned system suggests such moves; the symbolic system checks their consequences.",
+        "limits": "Success on this geometry benchmark does not establish general mathematical reasoning or mastery of every kind of proof. The formal representation limits the problems addressed.",
+        "source": "https://doi.org/10.1038/s41586-023-06747-5",
+        "background": "#/mathematics/geometry/geometry-similar-triangles"
+      }
     },
     {
       "id": "funsearch-cap-sets-nature-2023",

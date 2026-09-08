@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import fs from 'node:fs';
 import vm from 'node:vm';
+import { validateExplainer } from './research-schema.mjs';
 
 const create = vm.runInNewContext(fs.readFileSync('src/research-state.js', 'utf8') + '\ncreateResearchState;');
 function fixture() {
@@ -97,11 +98,11 @@ test('research identities are unique and optional explainers have text and a sou
       assert(item.id && !ids.has(item.id), `Duplicate entry ID in ${file}: ${item.id}`);
       ids.add(item.id);
       if (!item.explainer) continue;
-      assert(item.explainer.paragraphs.length >= 1);
-      assert(item.explainer.paragraphs.every(p => typeof p === 'string' && p.trim()));
+      const data = JSON.parse(fs.readFileSync('dist/data.json', 'utf8'));
+      validateExplainer(item, data.subjects);
       assert(['http:', 'https:'].includes(new URL(item.explainer.source).protocol));
       explainers++;
     }
   }
-  assert(explainers >= 5);
+  assert(explainers >= 27);
 });

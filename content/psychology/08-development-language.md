@@ -26,6 +26,25 @@ Imagine two classrooms where everyone in each class receives the same instructio
 
 A test score is a measurement under particular conditions. **Reliability** asks how consistently it measures; **validity** asks whether its interpretation is justified for a purpose. A consistent measure can still be a poor basis for a particular decision. Check language demands, familiarity, access, and whether scores predict the outcome being claimed.
 
+:::deeper What a heritability estimate cannot tell you
+
+### A statistic about variation
+
+Imagine two classrooms where every student gets the same amount of instruction within each classroom, but one classroom receives much more instruction overall. Differences among students inside a classroom might still be associated with genetic differences. That would not show that the difference between classrooms was genetic.
+
+Heritability is a model-based description of variation in a measured population under particular conditions. It is not the fraction of one person's ability caused by genes. It does not establish that a trait cannot change, and it cannot simply be transferred from one environment to another.
+
+The environment also need not be independent of genetic differences. A child who enjoys reading may seek more books, receive more encouragement, and gain more practice. Separating those pathways requires more than assigning the labels “nature” and “nurture.” Measurement, sampling, and assumptions about related individuals all matter.
+
+### Learning a language is more than counting words
+
+An infant encounters a continuous stream of sound rather than a transcript with spaces. Recurring patterns can help identify probable units, while social interaction supplies clues about what speakers intend. A learner must connect sound patterns, meanings, grammatical relations, and conversational situations.
+
+Consider hearing “the dog chased the cat” and “the cat chased the dog.” Recognizing each word is insufficient; order and grammatical relations determine who did what. Learning therefore involves structured generalization, not merely adding vocabulary items to a list.
+
+Developmental findings also depend on how understanding is measured. Looking longer at an unexpected event, choosing a picture, and explaining a rule demand different abilities. Failure on the verbal task does not automatically show absence of the underlying distinction; success on a looking-time task does not establish adult-like understanding. Good explanations keep the task and the inferred capacity connected.
+:::
+
 :::try Fixed by inheritance?
 A study reports high heritability for a learning-related trait. Someone concludes that better teaching cannot help. What step in that argument fails?
 

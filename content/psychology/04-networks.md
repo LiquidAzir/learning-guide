@@ -30,6 +30,25 @@ The MICrONS dataset combines activity recordings with a detailed wiring reconstr
 
 If a region often participates in fear experiments, activation there does not prove that a person is afraid. This **reverse inference** requires knowing how selectively the activity predicts fear compared with other states. A smoke alarm may respond to fire, steam, or burnt toast; knowing that fires trigger alarms does not make every alarm a fire.
 
+:::deeper Investigate a brain image before interpreting it
+
+### What does the colored patch measure?
+
+Suppose a brain scan shows a region responding more during a difficult memory task than during rest. The displayed color usually represents a statistical comparison, not a photograph of a thought. With fMRI, the measured signal depends on changes related to blood oxygenation. Those changes provide an indirect view of neural activity and unfold more slowly than individual spikes.
+
+The choice of comparison changes the question. Memory versus rest includes differences in attention, visual input, effort, and button pressing. Memory versus a carefully matched task can remove some of those differences, although a comparison task is never cognitively empty. Subtracting two signals does not guarantee that exactly one mental process remains.
+
+### Association, necessity, and timing
+
+A region can be active during a task without being uniquely responsible for it. Damage associated with impaired performance gives another kind of evidence, but injuries may affect connecting fibers and wider networks as well as the most visible location. Stimulation can perturb processing, yet its effects depend on timing, intensity, and the network's state.
+
+EEG can help establish when a change occurs, while locating the responsible sources requires assumptions because several internal source configurations can produce similar scalp measurements. Combining methods is useful precisely because their strengths and weaknesses differ.
+
+Imagine investigating whether a network helps retrieve a memory or merely supports saying the answer. One useful comparison varies the response requirement while holding the remembered material similar. Another tests whether a perturbation at a particular time changes retrieval performance. Agreement among those results is more informative than a single bright patch.
+
+The same care applies to a connectome. A road map tells you which routes exist; it does not tell you which routes carried traffic during a particular journey. Wiring, activity, intervention, and behavior answer connected but distinct questions.
+:::
+
 :::try Connections or coincidence?
 Two regions' signals rise together whenever a loud scanner noise occurs. What should you investigate before concluding that one region drives the other?
 

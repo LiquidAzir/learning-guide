@@ -26,6 +26,27 @@ Statistical process control distinguishes ordinary variation from signs that a p
 
 A NIST report on metal additive manufacturing examines how in-process monitoring and non-destructive evaluation can contribute to qualification. Its central engineering question is the link between a measured signal, an actual defect, and the performance of the finished part.[^1]
 
+:::deeper When individually acceptable parts do not fit together
+
+### Add the tolerances, not just the nominal sizes
+
+Imagine three spacers, each specified as 10.0 ± 0.1 mm. Their nominal total length is 30.0 mm. In a worst-case calculation, the total can range from 29.7 to 30.3 mm. If the available cavity is 30.2 ± 0.1 mm, the minimum cavity is 30.1 mm, so individually conforming parts can still produce interference.
+
+A statistical tolerance calculation may predict a narrower distribution than the worst case if errors are appropriately centered and independent. Those assumptions need evidence. Parts from the same worn tool or batch can share a systematic error, so independence cannot simply be presumed because it gives a more favorable answer.
+
+### Measure the process as well as the part
+
+A measurement tool has its own repeatability and calibration limits. If its variation is large relative to the tolerance, an apparent pass/fail distinction may be unreliable. Repeated measurements, reference standards, and comparisons across operators help characterize the measurement system.
+
+Process control asks whether variation is stable and understood. Final inspection asks whether measured parts meet specified acceptance criteria. Inspection can detect some defects, but does not by itself remove the process that creates them. Nor can an external measurement reveal every internal defect.
+
+### A new manufacturing method changes the qualification task
+
+Additive manufacturing can make shapes difficult to produce by other methods, but layer history, thermal gradients, orientation, and defects affect the resulting part. A sensor trace during printing is useful only if its relationship to relevant part properties is established.
+
+The design must therefore consider how the part will be made, measured, assembled, and maintained. A geometrically elegant drawing that cannot be produced consistently within the required limits is an unfinished engineering solution.
+:::
+
 :::try Every average is right
 A production batch has the correct mean diameter, but its spread is much wider than the permitted tolerance. Has the process met the dimensional requirement?
 

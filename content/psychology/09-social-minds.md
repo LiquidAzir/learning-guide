@@ -26,6 +26,25 @@ Suppose two people each choose whether to contribute to a shared task. Each cont
 
 Social identity can organize trust and obligation, but group membership does not dictate an individual's views. Treat a group average as a description of a distribution, with variation and context attached. Avoid replacing a psychological mechanism with a stereotype.
 
+:::deeper When everybody else gives the same answer
+
+### Agreement can carry two kinds of information
+
+Imagine entering a room where five people confidently identify an ambiguous sound as a bird. You initially thought it was a squeaky hinge. Their agreement may provide useful evidence if they have relevant experience and made independent judgments. It provides less new information if all five merely repeated the first person's guess.
+
+This is an informational reason to conform: others may know something you do not. A different reason is wanting to avoid embarrassment or exclusion. That is normative influence. Both can operate at once, and a public answer may change even when a private belief does not.
+
+An experiment can vary whether answers are public, whether the task is ambiguous, and whether other people's judgments are independent. Those changes help distinguish mechanisms. A single observation that “the group agreed” does not identify why agreement occurred.
+
+### Explain behavior with its situation attached
+
+Suppose someone interrupts a meeting. You might infer arrogance. But perhaps they were assigned to keep time, could not hear a pause, or thought an urgent error needed correcting. These possibilities do not excuse every interruption. They identify information missing from a trait judgment based on one action.
+
+The same caution applies when explaining groups. Institutions, incentives, shared information, and who enters or leaves a group can produce behavioral patterns without every member having the same disposition. Treating a group average as a description of each person loses that variation.
+
+Cooperation illustrates the point. Contributing to a shared project can depend on trust, repeated interaction, observability, and expectations about others' contributions. Changing those conditions can change behavior without changing anyone's entire personality. A useful social explanation shows how a situation makes some actions easier, more attractive, or more costly.
+:::
+
 :::try Breaking apparent consensus
 How could a meeting distinguish genuine agreement from people withholding doubts because they fear disapproval?
 
