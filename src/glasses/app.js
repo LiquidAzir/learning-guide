@@ -14,6 +14,7 @@
 
   function menu(title, entries, back = home, eyebrow = 'LEARNING GUIDE') {
     serial++;
+    app.removeAttribute('aria-busy');
     screen = 'menu'; menuBack = back; menuActions = entries.map(e => e.action);
     app.innerHTML = `<header><p class="eyebrow">${esc(eyebrow)}</p><h1>${esc(title)}</h1></header><div class="menu">${entries.map((e,i) => `<button data-index="${i}">${esc(e.label)}${e.detail ? `<small>${esc(e.detail)}</small>` : ''}</button>`).join('')}</div><p class="hint">↑ ↓ Choose · Pinch / Enter Select · ← Back</p>`;
     app.querySelector('button')?.focus({preventScroll:true});
@@ -168,6 +169,15 @@
           if(host.scrollHeight<=host.clientHeight+1 && host.scrollWidth<=host.clientWidth+1){best=mid;low=mid+1;}else high=mid-1;
         }
         if(best===start)best=start+1;
+        // Prefer a sentence ending; do not leave a few trailing words alone.
+        if(best<edges.length-1){
+          if(edges.length-1-best<8)best=Math.min(best,start+Math.ceil((edges.length-1-start)/2));
+          const minimum=start+Math.max(5,Math.floor((best-start)*.65));
+          for(let end=best;end>=minimum;end--){
+            const [node,offset]=edges[end];
+            if(node.nodeType===3&&/[.!?;:]["'”’)]?\s*$/.test(node.textContent.slice(0,offset))){best=end;break;}
+          }
+        }
         const el=fragment(unit.node,edges,start,best);
         pages.push({title:unit.title,html:el.outerHTML,unit:u,token:start});start=best;
       }
