@@ -92,7 +92,7 @@
       </header>
       <main id="main" class="page" tabindex="-1">${body}</main>
       <footer class="page footer" style="padding-top:0">
-        <nav aria-label="Reading"><a href="#/daily">Your daily reading</a> · <a href="#/research">All research</a></nav>
+        <nav aria-label="Reading"><a href="#/daily">Your daily reading</a> · <a href="#/research">All research</a> · <a href="/glasses/setup.html">Read on display glasses</a></nav>
         <span>Learning Guide · content compiled ${esc(DATA.built)}</span>
         <span>Progress and settings are saved only on this device.</span>
       </footer>`;

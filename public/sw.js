@@ -47,6 +47,9 @@ self.addEventListener('fetch', (event) => {
   }
 
   if (url.origin !== self.location.origin) return;
+  // The glasses reader has its own small document and loads chapters on demand.
+  // Never substitute the multi-megabyte regular guide for a glasses navigation.
+  if (url.pathname === '/glasses' || url.pathname.startsWith('/glasses/')) return;
 
   // Navigations and the shell: stale-while-revalidate. Any path serves index.html (hash routing).
   const isNav = req.mode === 'navigate';

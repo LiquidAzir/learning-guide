@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Add Learning Guide to your glasses</title><link rel="icon" href="/favicon.svg">
+<style>
+body{margin:0;background:#101721;color:#edf3fb;font:18px/1.6 system-ui,sans-serif}main{max-width:680px;margin:60px auto;padding:24px}h1{font-size:38px;line-height:1.15}h2{font-size:23px;margin-top:32px}a{color:#a5e6ff}button,.primary{display:inline-block;border:0;border-radius:12px;background:#a5e6ff;color:#101721;padding:14px 20px;font:600 18px system-ui;cursor:pointer;text-decoration:none}input{width:100%;box-sizing:border-box;background:#1b2635;border:1px solid #6f859f;color:white;padding:16px;font-size:17px;margin:12px 0}li{margin:12px 0}.muted{color:#b9c8db}.brand{letter-spacing:.12em;font-size:14px;color:#a5e6ff}#status{min-height:1.6em}img{display:block;max-width:220px;background:white;padding:12px;border-radius:12px;margin:20px 0}
+</style></head><body><main>
+<p class="brand">LEARNING GUIDE / DISPLAY EDITION</p>
+<h1>A little learning.<br>Right in view.</h1>
+<p>Your guide, one readable passage at a time. Browse subjects, keep up with published research, and pick up where you left off.</p>
+<a id="add" class="primary" href="#">Add in the Meta AI app</a>
+<p class="muted">Open this page on your phone with the Meta AI app installed and your Meta Ray-Ban Display paired.</p>
+<h2>Or add the link yourself</h2>
+<label for="url">Glasses reader URL</label><input id="url" readonly><button id="copy">Copy link</button><p id="status" role="status"></p>
+<ol><li>Enable <strong>Developer Mode</strong> for your Display glasses in the Meta AI app, if it is not already enabled.</li><li>Open your glasses settings → <strong>App connections</strong> → <strong>Web apps</strong> → <strong>Add a web app</strong>. Labels may vary by app version.</li><li>Name it <strong>Learning Guide</strong> and paste the link above. Open it from the apps on your glasses.</li></ol>
+<h2>Reading controls</h2>
+<p>Use up/down to choose a button and pinch to select. While reading, left/right turns the page. Select <strong>Menu</strong> for chapters, text size, or the current section list. On a computer, use the arrow keys and Enter.</p>
+<p>Reading positions are saved on that device when storage is available. They do not sync with your phone. An internet connection is needed to open new chapters. Equations, references and diagrams are retained; intricate figures are easier to inspect in the regular guide.</p>
+<p><a href="./">Try the glasses reader</a> · <a href="/#/">Regular guide</a> · <a href="https://developers.meta.com/wearables/faq/">Meta’s setup guidance</a></p>
+</main><script>
+const url = new URL('./', location.href).href;
+document.getElementById('url').value = url;
+document.getElementById('add').href = 'fb-viewapp://web_app_deep_link?appName=' + encodeURIComponent('Learning Guide') + '&appUrl=' + encodeURIComponent(url);
+document.getElementById('copy').onclick = async () => { try { await navigator.clipboard.writeText(url); document.getElementById('status').textContent = 'Copied. Paste this into Add a web app.'; } catch { document.getElementById('url').select(); document.getElementById('status').textContent = 'Select and copy the link above.'; } };
+</script></body></html>

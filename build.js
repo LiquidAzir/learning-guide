@@ -294,3 +294,5 @@ fs.writeFileSync(path.join(DIST, 'data.json'), json);
 fs.cpSync(PUBLIC, DIST, { recursive: true });
 fs.writeFileSync(path.join(DIST, 'sw.js'), read(path.join(PUBLIC, 'sw.js')).replaceAll('__BUILD__', BUILD));
 console.log(`Wrote dist/index.html (${(standalone.length / 1024).toFixed(0)} KB)`);
+const { buildGlasses } = await import('./scripts/build-glasses.mjs');
+buildGlasses(data, ROOT);
