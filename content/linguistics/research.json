@@ -1,0 +1,348 @@
+{
+  "updated": "2026-10-09",
+  "note": "Curated primary studies checked on 2026-09-08. The collection includes recent work and earlier background studies; publication dates are preserved. Source checks do not establish independent replication.",
+  "items": [
+    {
+      "id": "asl-acquisition-2025",
+      "title": "Production of real signs but not pseudosigns affected by age of acquisition in American Sign Language",
+      "headline": "Language-access history relates differently to real and invented sign production",
+      "authors": "Shai Lynne Nielson and Rachel I. Mayberry",
+      "venue": "Memory & Cognition",
+      "year": 2025,
+      "date": "2025-01-22",
+      "doi": "10.3758/s13421-024-01656-y",
+      "url": "https://link.springer.com/article/10.3758/s13421-024-01656-y",
+      "topic": "acquisition-and-sign",
+      "chapter": "sign-and-writing",
+      "summary": "Among deaf adult ASL signers, acquisition age related to handshape and movement error patterns for real signs, but not invented sign forms. This concerns task-specific production and language-access histories, not general ability.",
+      "evidence": {
+        "question": "Does acquisition history affect production of meaningful signs differently from invented forms?",
+        "method": "Lexical decisions and repetitions in 63 deaf adults with ASL acquisition ages from birth to 14.",
+        "limitations": "Observational language histories and selected repetition tasks."
+      },
+      "explainer": {
+        "finding": "Acquisition age related to different component-error patterns for real signs, while invented forms showed no corresponding pattern.",
+        "method": "Participants identified and repeated ASL signs and sign-like forms; researchers analyzed handshape, movement, and location errors.",
+        "meaning": "Repeating a movement and integrating its form with learned meaning can place different demands on language processing.",
+        "limits": "The result does not mean late learners cannot sign accurately. Early language access, later experience, and the chosen task matter; it is not an experiment randomly assigning acquisition age.",
+        "source": "https://link.springer.com/article/10.3758/s13421-024-01656-y",
+        "background": "#/linguistics/sign-and-writing"
+      },
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://link.springer.com/article/10.3758/s13421-024-01656-y",
+        "decision": "include",
+        "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+      },
+      "added": "2026-09-09"
+    },
+    {
+      "id": "conversation-neural-2025",
+      "title": "Natural language processing models reveal neural dynamics of human conversation",
+      "headline": "Natural conversation reveals signals associated with speaking, listening, and switching turns",
+      "authors": "Jing Cai et al.",
+      "venue": "Nature Communications",
+      "year": 2025,
+      "date": "2025-04-09",
+      "doi": "10.1038/s41467-025-58620-w",
+      "url": "https://www.nature.com/articles/s41467-025-58620-w",
+      "topic": "conversation",
+      "chapter": "conversation",
+      "summary": "Intracranial recordings linked context-sensitive neural patterns to natural conversation and turn transitions. Clinical sampling and task differences prevent a complete causal explanation of conversational processing.",
+      "evidence": {
+        "question": "How does neural activity vary during natural dialogue?",
+        "method": "Fourteen epilepsy patients conversed during recordings; model comparisons and controlled tasks probed language-related signals.",
+        "limitations": "Clinically determined electrode placement; text models omit acoustic information."
+      },
+      "explainer": {
+        "finding": "Speaking, listening, and their transitions showed partly overlapping, context-sensitive neural patterns.",
+        "method": "Researchers related intracranial recordings to language-model representations and compared natural dialogue with controlled listening and repetition.",
+        "meaning": "Answering someone involves coordinating comprehension with a planned response. Studying actual dialogue can reveal patterns missed when people only repeat prepared sentences.",
+        "limits": "The clinical sample and differing task demands leave alternative explanations. Predicting neural activity with a text model does not establish that conversation is implemented by the same mechanism.",
+        "source": "https://www.nature.com/articles/s41467-025-58620-w",
+        "background": "#/linguistics/conversation"
+      },
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://www.nature.com/articles/s41467-025-58620-w",
+        "decision": "include",
+        "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+      },
+      "added": "2026-09-09"
+    },
+    {
+      "id": "information-bottleneck-2025",
+      "title": "Linguistic structure from a bottleneck on sequential information processing",
+      "headline": "A constrained communication model develops word-like and phrase-like structure",
+      "authors": "Richard Futrell and Michael Hahn",
+      "venue": "Nature Human Behaviour",
+      "year": 2026,
+      "date": "2025-11-24",
+      "doi": "10.1038/s41562-025-02336-w",
+      "url": "https://www.nature.com/articles/s41562-025-02336-w",
+      "topic": "language-structure",
+      "chapter": "frontier",
+      "summary": "Simulated codes developed systematic local structure under an information constraint; corpus comparisons supported related patterns. The proposal assumes simplified form–meaning mappings and does not explain every ordering asymmetry.",
+      "evidence": {
+        "question": "Can a general information constraint explain aspects of linguistic structure?",
+        "method": "Communication-code simulations and cross-language corpus comparisons with baselines.",
+        "limitations": "One-to-one mappings, isolated utterances, and a time-symmetric measure."
+      },
+      "explainer": {
+        "finding": "Reducing a measure of dependence between past and future produced structured codes in simulations.",
+        "method": "The authors optimized artificial codes and compared statistical patterns in real-language corpora with alternatives.",
+        "meaning": "Keeping related information close could help explain why language groups pieces into words and phrases. The model makes that proposal testable rather than leaving it as an intuition.",
+        "limits": "This is a computational account, not a demonstration of how children learn. Ambiguity, connected discourse, and some directional word-order patterns remain outside its explanation.",
+        "source": "https://www.nature.com/articles/s41562-025-02336-w",
+        "background": "#/linguistics/frontier"
+      },
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://www.nature.com/articles/s41562-025-02336-w",
+        "decision": "include",
+        "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+      },
+      "added": "2026-09-09"
+    },
+    {
+      "id": "low-resource-context-2025",
+      "title": "It’s All About In-Context Learning! Teaching Extremely Low-Resource Languages to LLMs",
+      "headline": "Language and script coverage change which model-adaptation methods help",
+      "authors": "Yue Li, Zhixue Zhao, and Carolina Scarton",
+      "venue": "EMNLP 2025",
+      "year": 2025,
+      "date": "2025-11",
+      "doi": "10.18653/v1/2025.emnlp-main.1502",
+      "url": "https://aclanthology.org/2025.emnlp-main.1502/",
+      "topic": "language-technology",
+      "chapter": "frontier",
+      "sourceType": "Conference paper",
+      "summary": "Across 20 underrepresented languages and three multilingual models, adaptation results varied with language and script coverage. Contextual alignment helped in especially underrepresented settings, but the tested models and datasets constrain the conclusion.",
+      "evidence": {
+        "question": "How can models adapt to languages poorly represented in training?",
+        "method": "Comparisons of contextual prompting, language alignment, and parameter-efficient fine-tuning.",
+        "limitations": "Selected models and sizes, limited parallel data, and task-specific evaluation."
+      },
+      "explainer": {
+        "finding": "No adaptation method was best across every tested language and script situation.",
+        "method": "Researchers compared methods across 20 languages using three multilingual models, including alignment information supplied in context.",
+        "meaning": "A language poorly represented in training may need a different approach from one with more digital data. Choosing a method requires checking its actual language coverage.",
+        "limits": "The findings concern the tested configurations and tasks. They do not show general fluency, reliable conversation, or that prompting always beats additional training.",
+        "source": "https://aclanthology.org/2025.emnlp-main.1502/",
+        "background": "#/linguistics/frontier"
+      },
+      "status": "reported",
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://aclanthology.org/2025.emnlp-main.1502/",
+        "decision": "include",
+        "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+      },
+      "added": "2026-09-09"
+    },
+    {
+      "id": "neuronal-language-2026",
+      "title": "Mapping the neuronal building blocks of human language with language models",
+      "headline": "Individual neurons track grammatical features during speech",
+      "authors": "Jing Cai et al.",
+      "venue": "Nature",
+      "year": 2026,
+      "date": "2026-06-17",
+      "doi": "10.1038/s41586-026-10691-5",
+      "url": "https://www.nature.com/articles/s41586-026-10691-5",
+      "topic": "language-and-brain",
+      "chapter": "sentences",
+      "summary": "Recordings during speech linked neuronal activity to grammatical relationships and sentence context. The study involved eight English-speaking epilepsy patients; it does not establish a universal neural grammar.",
+      "evidence": {
+        "question": "Which linguistic features appear in neuronal activity during speech?",
+        "method": "Recordings of 579 putative neurons, aligned with speech and computational linguistic annotations.",
+        "limitations": "Small clinical sample, restricted recording sites, and model-dependent annotations."
+      },
+      "explainer": {
+        "finding": "Some recorded neurons responded selectively to grammatical features; context helped predict population activity.",
+        "method": "Researchers recorded eight epilepsy patients speaking and compared neural signals with annotated word and sentence properties.",
+        "meaning": "The same noun can play different roles in different sentences. Studying those roles separately from its sound helps investigate how language is organized in the brain.",
+        "limits": "These are associations in sampled brain regions during English speech. They do not show that a grammar category has one dedicated neuron everywhere, or that language models and brains work identically.",
+        "source": "https://www.nature.com/articles/s41586-026-10691-5",
+        "background": "#/linguistics/sentences"
+      },
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://www.nature.com/articles/s41586-026-10691-5",
+        "decision": "include",
+        "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+      },
+      "added": "2026-09-09"
+    },
+    {
+      "id": "semantic-variation-2026",
+      "title": "Semantic similarity across languages reflects neurocognitive dimensions shaped by climate",
+      "headline": "Word-meaning patterns vary across languages and correlate with environment",
+      "authors": "Ze Fu et al.",
+      "venue": "Nature Communications",
+      "year": 2026,
+      "date": "2026-03-16",
+      "doi": "10.1038/s41467-026-70608-8",
+      "url": "https://www.nature.com/articles/s41467-026-70608-8",
+      "topic": "meaning",
+      "chapter": "meaning",
+      "summary": "Text representations and human ratings showed shared semantic dimensions and variation associated with climate. Corpus composition, translation mappings, and sampling limit causal and population-wide interpretations.",
+      "evidence": {
+        "question": "How do semantic similarities vary across languages?",
+        "method": "Word embeddings from 53 languages, ratings from eight languages, and exploratory brain-data analysis.",
+        "limitations": "Observational comparisons; imperfect translation equivalence and limited neural samples."
+      },
+      "explainer": {
+        "finding": "The analyzed languages shared dimensions of meaning, while variation along them correlated with environmental measures.",
+        "method": "Researchers compared computational word representations, speakers’ ratings, and exploratory brain data.",
+        "meaning": "Dictionary equivalents need not carry identical associations. Comparing several measures helps investigate what is shared and what a translation may leave behind.",
+        "limits": "The associations do not establish that climate causes an individual’s thinking. Text coverage and translation choices matter, and the small neural samples need replication.",
+        "source": "https://www.nature.com/articles/s41467-026-70608-8",
+        "background": "#/linguistics/meaning"
+      },
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "verified": "2026-09-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-08",
+        "sourceRead": "https://www.nature.com/articles/s41467-026-70608-8",
+        "decision": "include",
+        "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+      },
+      "added": "2026-09-09"
+    },
+    {
+      "id": "portuguese-consonants-stress-2026",
+      "title": "Sonority-driven stress: Codas in Brazilian Portuguese",
+      "headline": "A word’s final sound can influence where speakers put the emphasis",
+      "authors": "Guilherme D. Garcia and Kevin Ryan",
+      "venue": "Glossa: a journal of general linguistics",
+      "year": 2026,
+      "date": "2026-09-07",
+      "doi": "10.16995/glossa.25891",
+      "url": "https://doi.org/10.16995/glossa.25891",
+      "topic": "speech-sounds",
+      "chapter": "sounds",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Brazilian Portuguese listeners favored final stress more for invented words ending in sonorants than /s/. The result concerns preferences in a small, specific sample.",
+      "evidence": {
+        "question": "Does consonant type affect stress placement?",
+        "method": "28 native speakers living in Canada completed pronunciation-choice tasks; lexical comparisons and Bayesian models tested the pattern.",
+        "limitations": "Mostly highly educated, multilingual speakers; limited regional coverage."
+      },
+      "explainer": {
+        "finding": "Sonorants, such as nasal sounds, attracted final stress more than /s/, even after checks for plural interpretations.",
+        "method": "Listeners chose between pronunciations of invented words. A separate written task tested non-final positions, not the main final-syllable effect.",
+        "meaning": "Invented words test patterns beyond memorized vocabulary: which syllable feels emphasized can depend on the ending’s sound.",
+        "limits": "Only /s/ represented obstruents, sounds with substantial airflow obstruction. The study does not establish a universal stress rule or settle how sonority enters the grammar.",
+        "source": "https://www.meluhha.com/articles/garcia_ryan_2026.pdf",
+        "background": "#/linguistics/sounds"
+      },
+      "verified": "2026-09-14",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-14",
+        "sourceRead": "https://www.meluhha.com/articles/garcia_ryan_2026.pdf",
+        "decision": "include",
+        "reason": "Published author-hosted copy reviewed: methods, results, morphology checks, and theoretical limits."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "spanish-pronoun-development-2026",
+      "title": "The role of cognitive and linguistic abilities on subject personal pronoun expression in Spanish-speaking children",
+      "headline": "When children say the Spanish equivalent of ‘he’ or ‘she’",
+      "authors": "Pedro Antonio Ortiz Ramírez and colleagues",
+      "venue": "Journal of Child Language",
+      "year": 2026,
+      "date": "2026-09-07",
+      "url": "https://www.cambridge.org/core/journals/journal-of-child-language/article/role-of-cognitive-and-linguistic-abilities-on-subject-personal-pronoun-expression-in-spanishspeaking-children/C37D6BF34960D1EC70A717497C1436ED",
+      "doi": "10.1017/S0305000926100919",
+      "topic": "language-acquisition",
+      "chapter": "learning",
+      "summary": "Grammar scores helped explain pronoun use in Mexico City children; most variation remained unexplained.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Which abilities relate to pronoun use?",
+        "method": "Interviews and language, attention, inhibition, and memory tests.",
+        "limitations": "Observational, with one dialect and age range."
+      },
+      "explainer": {
+        "finding": "Grammar measures retained an association with third-person pronoun use when overlapping cognitive measures were considered.",
+        "method": "Researchers coded 9,750 utterances from 82 monolingual Mexican Spanish-speaking children aged four to eight and compared statistical models.",
+        "meaning": "Spanish can leave the subject unstated. Choosing ‘ella’ (‘she’), for example, helps track who a story is about.",
+        "limits": "Association does not establish causation or make memory irrelevant. The grammar model explained just 7.4% of variation in overall third-person pronoun use.",
+        "source": "https://www.cambridge.org/core/journals/journal-of-child-language/article/role-of-cognitive-and-linguistic-abilities-on-subject-personal-pronoun-expression-in-spanishspeaking-children/C37D6BF34960D1EC70A717497C1436ED",
+        "background": "#/linguistics/learning"
+      },
+      "verified": "2026-09-18",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-18",
+        "sourceRead": "https://www.cambridge.org/core/journals/journal-of-child-language/article/role-of-cognitive-and-linguistic-abilities-on-subject-personal-pronoun-expression-in-spanishspeaking-children/C37D6BF34960D1EC70A717497C1436ED",
+        "decision": "include",
+        "reason": "Read sampling, coding, model comparisons, discussion, and scope limits. Teaches how correlated predictors can overlap."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "children-but-clarifications-2026",
+      "title": "Young Children Use the Discourse Marker “But” to Provide Clarifications in Everyday Conversations",
+      "headline": "When a child says “but,” they may be helping you understand",
+      "authors": "Luis De la Viña, Julia Chunxiao Hu, Paul L. Harris and Samuel Ronfard",
+      "venue": "Journal of Child Language",
+      "year": 2026,
+      "date": "2026-08-10",
+      "url": "https://doi.org/10.1017/S0305000926100920",
+      "doi": "10.1017/S0305000926100920",
+      "topic": "conversational-development",
+      "chapter": "conversation",
+      "summary": "Seven children’s North American English conversations show increasing use of “but” to clarify earlier remarks, especially from age two to three. This small observational study cannot establish what caused the change.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How do children use “but” to clarify their own messages?",
+        "method": "Coded 1,446 uses in longitudinal CHILDES transcripts; analyzed age patterns while accounting for individual children.",
+        "limitations": "Families were predominantly highly educated; transcripts omit gesture, intonation and some shared context."
+      },
+      "explainer": {
+        "finding": "Clarifications often followed adult confusion and supplied information unavailable to the listener.",
+        "method": "Coders distinguished elaborations from other uses, then classified prompting and information access.",
+        "meaning": "A child describing a snowman can add that it had little snow. Such a qualification helps the listener revise their picture.",
+        "limits": "The study examined one English marker. It did not directly measure theory of mind or prove that conversational practice caused development.",
+        "source": "https://doi.org/10.1017/S0305000926100920",
+        "background": "#/linguistics/conversation"
+      },
+      "verified": "2026-10-06",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-06",
+        "sourceRead": "https://doi.org/10.1017/S0305000926100920",
+        "decision": "include",
+        "reason": "Read primary corpus methods, coding, results and limitations; useful illustration of conversational repair."
+      },
+      "added": "2026-10-09"
+    }
+  ]
+}

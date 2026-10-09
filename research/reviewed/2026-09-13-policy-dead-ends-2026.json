@@ -1,0 +1,39 @@
+{
+  "subject": "politics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-13",
+    "sourceRead": "https://onlinelibrary.wiley.com/doi/full/10.1111/gove.70154",
+    "decision": "include",
+    "reason": "Teaches policy follow-through and measurement limits; methods, results, cases, and caveats read."
+  },
+  "item": {
+    "id": "policy-dead-ends-2026",
+    "title": "Dead Ends and Policy Change in Chinese Experimental Governance",
+    "headline": "Following stalled initiatives reveals what success stories miss",
+    "authors": "Vincent Brussee",
+    "venue": "Governance",
+    "year": 2026,
+    "date": "2026-09-04",
+    "doi": "10.1111/gove.70154",
+    "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/gove.70154",
+    "topic": "policy-evaluation",
+    "chapter": "policy",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Most sampled Chinese policy explorations lost documentary follow-up. This indicates possible interruption, not a measured failure rate.",
+    "evidence": {
+      "question": "What happens to early policy initiatives?",
+      "method": "Text matching tracked 27,103 explorations announced in 2013–2018, comparing continued coverage with disappearance; two cases added context.",
+      "limitations": "Observational document proxies, not causal identification."
+    },
+    "explainer": {
+      "finding": "Only 11.7% retained documentary coverage six years after announcement.",
+      "method": "A year without mentions signaled possible interruption; comparisons examined administrative level, central recognition, and leadership changes.",
+      "meaning": "A mobile-payment initiative can disappear while the broader payment system grows. Following the specific instrument distinguishes abandonment from changes in goals.",
+      "limits": "Missing documents, changed wording, and completed initiatives can affect classification. Early explorations do not represent all implemented policies; disappearance does not prove ineffectiveness.",
+      "source": "https://onlinelibrary.wiley.com/doi/full/10.1111/gove.70154",
+      "background": "#/politics/policy"
+    }
+  }
+}

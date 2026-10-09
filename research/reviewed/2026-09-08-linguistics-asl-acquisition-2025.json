@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-08",
+    "sourceRead": "https://link.springer.com/article/10.3758/s13421-024-01656-y",
+    "decision": "include",
+    "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+  },
+  "item": {
+    "id": "asl-acquisition-2025",
+    "title": "Production of real signs but not pseudosigns affected by age of acquisition in American Sign Language",
+    "headline": "Language-access history relates differently to real and invented sign production",
+    "authors": "Shai Lynne Nielson and Rachel I. Mayberry",
+    "venue": "Memory & Cognition",
+    "year": 2025,
+    "date": "2025-01-22",
+    "doi": "10.3758/s13421-024-01656-y",
+    "url": "https://link.springer.com/article/10.3758/s13421-024-01656-y",
+    "topic": "acquisition-and-sign",
+    "chapter": "sign-and-writing",
+    "summary": "Among deaf adult ASL signers, acquisition age related to handshape and movement error patterns for real signs, but not invented sign forms. This concerns task-specific production and language-access histories, not general ability.",
+    "evidence": {
+      "question": "Does acquisition history affect production of meaningful signs differently from invented forms?",
+      "method": "Lexical decisions and repetitions in 63 deaf adults with ASL acquisition ages from birth to 14.",
+      "limitations": "Observational language histories and selected repetition tasks."
+    },
+    "explainer": {
+      "finding": "Acquisition age related to different component-error patterns for real signs, while invented forms showed no corresponding pattern.",
+      "method": "Participants identified and repeated ASL signs and sign-like forms; researchers analyzed handshape, movement, and location errors.",
+      "meaning": "Repeating a movement and integrating its form with learned meaning can place different demands on language processing.",
+      "limits": "The result does not mean late learners cannot sign accurately. Early language access, later experience, and the chosen task matter; it is not an experiment randomly assigning acquisition age.",
+      "source": "https://link.springer.com/article/10.3758/s13421-024-01656-y",
+      "background": "#/linguistics/sign-and-writing"
+    },
+    "sourceType": "Journal publication",
+    "status": "reported"
+  }
+}

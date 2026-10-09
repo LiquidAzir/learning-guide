@@ -1,0 +1,39 @@
+{
+  "subject": "biology",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-05",
+    "sourceRead": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004023",
+    "decision": "include",
+    "reason": "Read primary results, discussion and methods; distinguish measured aerodynamics from proposed evolutionary tradeoffs."
+  },
+  "item": {
+    "id": "nightjar-flight-tradeoffs-2026",
+    "title": "Nightjars trade off cruising speed efficiency for hovering capabilities and link upstroke thrust production with restricted wing folding",
+    "headline": "A nightjar’s wings reveal the compromises of flight",
+    "authors": "L. Christoffer Johansson, Gabriel Norevik, Sonja Friman and Anders Hedenström",
+    "venue": "PLOS Biology",
+    "year": 2026,
+    "date": "2026-09-30",
+    "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004023",
+    "doi": "10.1371/journal.pbio.3004023",
+    "topic": "adaptation-and-tradeoffs",
+    "chapter": "evolution",
+    "summary": "Wind-tunnel measurements of three European nightjars suggest compromises between slow flight and cruising. Lift production became less efficient at higher speeds, even as estimated energy per distance decreased.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How do nightjar wings meet competing flight demands?",
+      "method": "Measured air wakes and filmed wing movements at 2.6–11 m/s; models accounted for repeated observations of individuals.",
+      "limitations": "Three selected birds; forces and power were inferred from wakes, without measuring metabolic expenditure."
+    },
+    "explainer": {
+      "finding": "Paired wingtip vortices accompanied reduced lift efficiency at cruising speeds. The outer wings also generated thrust during the upstroke.",
+      "method": "Particle tracking measured airflow; high-speed cameras reconstructed wing motion. These measurements supported force and power estimates.",
+      "meaning": "Catching insects slowly and migrating quickly place different demands on the same wings. Efficient lift production and economical travel are different measures of success.",
+      "limits": "Wing shape was not experimentally changed. Its proposed benefits for hovering remain an interpretation; low-speed wing–wake interactions may affect power estimates.",
+      "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004023",
+      "background": "#/biology/evolution"
+    }
+  }
+}

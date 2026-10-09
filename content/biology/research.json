@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -981,6 +981,82 @@
       "verified": "2026-09-06",
       "headline": "DNA collected from air detects nearby mammals and birds",
       "sourceType": "Journal publication"
+    },
+    {
+      "id": "breathing-readiness-reanalysis-2026",
+      "title": "No evidence for modulation of the readiness potential by respiratory phase during natural breathing",
+      "headline": "A shared timing reference can create an apparent breathing–brain link",
+      "authors": "Lucas Jeay-Bizot, Raniyah Chishti, Uri Maoz, and Aaron Schurger",
+      "venue": "PLOS Biology",
+      "year": 2026,
+      "date": "2026-09-02",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003982",
+      "doi": "10.1371/journal.pbio.3003982",
+      "topic": "neuroscience",
+      "chapter": "brain",
+      "summary": "Controlling for movement timing removed an apparent link between breathing phase and the pre-movement readiness potential. The result concerns natural breathing in the tested tasks.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Does breathing phase modulate the readiness potential?",
+        "method": "Reanalysis of 52 participants, new recordings from 17, and simulations without direct coupling.",
+        "limitations": "Task-specific findings; instructed breathing is a different condition."
+      },
+      "explainer": {
+        "finding": "The apparent relationship disappeared with grouping that controlled for movement timing.",
+        "method": "Researchers compared original, new, and simulated data using alternative analyses.",
+        "meaning": "Two signals synchronized to the same event can appear linked to each other. Checking that shared reference can distinguish a statistical artifact from a direct physiological relationship.",
+        "limits": "This does not rule out other breathing–brain relationships or settle free-will debates. The publisher currently labels the article an uncorrected proof.",
+        "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003982",
+        "background": "#/biology/brain"
+      },
+      "verified": "2026-09-09",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-09",
+        "sourceRead": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003982",
+        "decision": "include",
+        "reason": "A useful null result explaining how shared timing can create a spurious physiological association."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "nightjar-flight-tradeoffs-2026",
+      "title": "Nightjars trade off cruising speed efficiency for hovering capabilities and link upstroke thrust production with restricted wing folding",
+      "headline": "A nightjar’s wings reveal the compromises of flight",
+      "authors": "L. Christoffer Johansson, Gabriel Norevik, Sonja Friman and Anders Hedenström",
+      "venue": "PLOS Biology",
+      "year": 2026,
+      "date": "2026-09-30",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004023",
+      "doi": "10.1371/journal.pbio.3004023",
+      "topic": "adaptation-and-tradeoffs",
+      "chapter": "evolution",
+      "summary": "Wind-tunnel measurements of three European nightjars suggest compromises between slow flight and cruising. Lift production became less efficient at higher speeds, even as estimated energy per distance decreased.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How do nightjar wings meet competing flight demands?",
+        "method": "Measured air wakes and filmed wing movements at 2.6–11 m/s; models accounted for repeated observations of individuals.",
+        "limitations": "Three selected birds; forces and power were inferred from wakes, without measuring metabolic expenditure."
+      },
+      "explainer": {
+        "finding": "Paired wingtip vortices accompanied reduced lift efficiency at cruising speeds. The outer wings also generated thrust during the upstroke.",
+        "method": "Particle tracking measured airflow; high-speed cameras reconstructed wing motion. These measurements supported force and power estimates.",
+        "meaning": "Catching insects slowly and migrating quickly place different demands on the same wings. Efficient lift production and economical travel are different measures of success.",
+        "limits": "Wing shape was not experimentally changed. Its proposed benefits for hovering remain an interpretation; low-speed wing–wake interactions may affect power estimates.",
+        "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004023",
+        "background": "#/biology/evolution"
+      },
+      "verified": "2026-10-05",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-05",
+        "sourceRead": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004023",
+        "decision": "include",
+        "reason": "Read primary results, discussion and methods; distinguish measured aerodynamics from proposed evolutionary tradeoffs."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

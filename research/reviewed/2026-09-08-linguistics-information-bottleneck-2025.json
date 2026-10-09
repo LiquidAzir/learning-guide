@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-08",
+    "sourceRead": "https://www.nature.com/articles/s41562-025-02336-w",
+    "decision": "include",
+    "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+  },
+  "item": {
+    "id": "information-bottleneck-2025",
+    "title": "Linguistic structure from a bottleneck on sequential information processing",
+    "headline": "A constrained communication model develops word-like and phrase-like structure",
+    "authors": "Richard Futrell and Michael Hahn",
+    "venue": "Nature Human Behaviour",
+    "year": 2026,
+    "date": "2025-11-24",
+    "doi": "10.1038/s41562-025-02336-w",
+    "url": "https://www.nature.com/articles/s41562-025-02336-w",
+    "topic": "language-structure",
+    "chapter": "frontier",
+    "summary": "Simulated codes developed systematic local structure under an information constraint; corpus comparisons supported related patterns. The proposal assumes simplified form–meaning mappings and does not explain every ordering asymmetry.",
+    "evidence": {
+      "question": "Can a general information constraint explain aspects of linguistic structure?",
+      "method": "Communication-code simulations and cross-language corpus comparisons with baselines.",
+      "limitations": "One-to-one mappings, isolated utterances, and a time-symmetric measure."
+    },
+    "explainer": {
+      "finding": "Reducing a measure of dependence between past and future produced structured codes in simulations.",
+      "method": "The authors optimized artificial codes and compared statistical patterns in real-language corpora with alternatives.",
+      "meaning": "Keeping related information close could help explain why language groups pieces into words and phrases. The model makes that proposal testable rather than leaving it as an intuition.",
+      "limits": "This is a computational account, not a demonstration of how children learn. Ambiguity, connected discourse, and some directional word-order patterns remain outside its explanation.",
+      "source": "https://www.nature.com/articles/s41562-025-02336-w",
+      "background": "#/linguistics/frontier"
+    },
+    "sourceType": "Journal publication",
+    "status": "reported"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "subject": "economics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-23",
+    "sourceRead": "https://www.jblumenstock.com/files/papers/manipulation.pdf",
+    "decision": "include",
+    "reason": "Read manuscript methods, implemented results, and limitations. Explains incentives; the September 2026 journal text remains unverified."
+  },
+  "item": {
+    "id": "manipulation-robust-prediction-2025",
+    "title": "Manipulation-Robust Prediction",
+    "headline": "Predict what people will do once they know the rules",
+    "authors": "Daniel Björkegren, Joshua E. Blumenstock, and Samsun Knight",
+    "venue": "Author manuscript, October 2025",
+    "year": 2025,
+    "date": "2025-10-24",
+    "url": "https://www.jblumenstock.com/files/papers/manipulation.pdf",
+    "topic": "incentives",
+    "chapter": "game-theory",
+    "summary": "In a Nairobi smartphone experiment, anticipating gaming improved predictions under disclosed rules. This reviews the 2025 manuscript; rewards substituted for actual loans.",
+    "sourceType": "Preprint or working paper",
+    "status": "preliminary",
+    "evidence": {
+      "question": "Can predictions survive people gaming their inputs?",
+      "method": "Randomized weekly rewards measured responses; subsequent challenges compared strategy-aware rules with LASSO, a standard regression method.",
+      "limitations": "Adult smartphone owners; simple linear rules; analysis required successful weekly participation."
+    },
+    "explainer": {
+      "finding": "Anticipating manipulation reduced average prediction error when rules were disclosed.",
+      "method": "The app varied incentives and disclosure, measuring payment errors against baseline characteristics.",
+      "meaning": "Rewarding call frequency can encourage extra calls without changing income. Predictions must account for that response.",
+      "limits": "The income-only advantage was statistically inconclusive. Actual lending and more complex algorithms need separate tests; model assumptions matter.",
+      "source": "https://www.jblumenstock.com/files/papers/manipulation.pdf",
+      "background": "#/economics/game-theory"
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -181,6 +181,158 @@
         "source": "https://www.nature.com/articles/s41586-021-03788-6",
         "background": "#/politics/frontier/frontier-who-had-a-chance-to-enter-the-pool"
       }
+    },
+    {
+      "id": "policy-dead-ends-2026",
+      "title": "Dead Ends and Policy Change in Chinese Experimental Governance",
+      "headline": "Following stalled initiatives reveals what success stories miss",
+      "authors": "Vincent Brussee",
+      "venue": "Governance",
+      "year": 2026,
+      "date": "2026-09-04",
+      "doi": "10.1111/gove.70154",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/gove.70154",
+      "topic": "policy-evaluation",
+      "chapter": "policy",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Most sampled Chinese policy explorations lost documentary follow-up. This indicates possible interruption, not a measured failure rate.",
+      "evidence": {
+        "question": "What happens to early policy initiatives?",
+        "method": "Text matching tracked 27,103 explorations announced in 2013–2018, comparing continued coverage with disappearance; two cases added context.",
+        "limitations": "Observational document proxies, not causal identification."
+      },
+      "explainer": {
+        "finding": "Only 11.7% retained documentary coverage six years after announcement.",
+        "method": "A year without mentions signaled possible interruption; comparisons examined administrative level, central recognition, and leadership changes.",
+        "meaning": "A mobile-payment initiative can disappear while the broader payment system grows. Following the specific instrument distinguishes abandonment from changes in goals.",
+        "limits": "Missing documents, changed wording, and completed initiatives can affect classification. Early explorations do not represent all implemented policies; disappearance does not prove ineffectiveness.",
+        "source": "https://onlinelibrary.wiley.com/doi/full/10.1111/gove.70154",
+        "background": "#/politics/policy"
+      },
+      "verified": "2026-09-13",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-13",
+        "sourceRead": "https://onlinelibrary.wiley.com/doi/full/10.1111/gove.70154",
+        "decision": "include",
+        "reason": "Teaches policy follow-through and measurement limits; methods, results, cases, and caveats read."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "government-consulting-design-2026",
+      "title": "Three Configurations of In-House Government Consulting: Public-Value Purpose and Organizational Viability",
+      "headline": "Government advisory teams need measures that fit their purpose",
+      "authors": "Sean Safford",
+      "venue": "Governance",
+      "year": 2026,
+      "date": "2026-08-20",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/gove.70150",
+      "doi": "10.1111/gove.70150",
+      "topic": "institutional-design",
+      "chapter": "bureaucracy",
+      "summary": "Eight documentary cases suggest three ways to organize internal government advice. These are proposed designs, not proven improvements in cost or performance.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How should governments organize internal advisory capacity?",
+        "method": "Theory development using public documents about eight units in five countries.",
+        "limitations": "Nonrepresentative cases; no causal performance evaluation."
+      },
+      "explainer": {
+        "finding": "The framework separates teams handling sensitive reforms, teams reusing solutions, and teams assembling dispersed expertise.",
+        "method": "Safford compared public records, checking official accounts against independent scrutiny where available.",
+        "meaning": "For example, judging an emergency reform team only by billable hours could encourage routine assignments that displace its purpose.",
+        "limits": "Cases were deliberately selected; evidence quality varies. No causal test established which design works best.",
+        "source": "https://onlinelibrary.wiley.com/doi/10.1111/gove.70150",
+        "background": "#/politics/bureaucracy"
+      },
+      "verified": "2026-09-20",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-20",
+        "sourceRead": "https://onlinelibrary.wiley.com/doi/10.1111/gove.70150",
+        "decision": "include",
+        "reason": "Read methods, case comparisons, and conclusion; useful institutional-design framework."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "imperial-aid-taxation-2026",
+      "title": "Imperial Aid and Tax Mobilization in Late Colonial Africa",
+      "headline": "Aid and tax collection: why administrators mattered",
+      "authors": "Didac Queralt",
+      "venue": "American Political Science Review",
+      "year": 2026,
+      "date": "2026-09-21",
+      "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/imperial-aid-and-tax-mobilization-in-late-colonial-africa/E6C44CED9FB58AA1CCC9672A90E365C5",
+      "doi": "10.1017/S0003055426101919",
+      "topic": "bureaucratic-incentives",
+      "chapter": "bureaucracy",
+      "summary": "In 12 British African colonies, aid was more strongly associated with tax collection under career governors. Higher revenue does not establish improved welfare.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "When did development aid encourage local taxation?",
+        "method": "Archival grant records, annual tax regressions, and an instrumental-variable analysis using British financial shocks interacting with aid commitments.",
+        "limitations": "The instrument assumes shocks affect taxes through aid; governor selection was not random."
+      },
+      "explainer": {
+        "finding": "Aid–tax relationships differed with governors' recruitment and career backgrounds.",
+        "method": "The researcher compared administrations and used disbursement fluctuations to investigate causation; the instrumental estimate met a 90%, not 95%, significance threshold.",
+        "meaning": "For example, a project requiring local cofunding gives administrators a reason to collect taxes—if their incentives support that requirement.",
+        "limits": "This colonial setting does not establish that similar arrangements improve welfare or work in today's aid programmes.",
+        "source": "https://www.cambridge.org/core/journals/american-political-science-review/article/imperial-aid-and-tax-mobilization-in-late-colonial-africa/E6C44CED9FB58AA1CCC9672A90E365C5",
+        "background": "#/politics/bureaucracy"
+      },
+      "verified": "2026-09-26",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-26",
+        "sourceRead": "https://www.cambridge.org/core/journals/american-political-science-review/article/imperial-aid-and-tax-mobilization-in-late-colonial-africa/E6C44CED9FB58AA1CCC9672A90E365C5",
+        "decision": "include",
+        "reason": "Read archival design, regression results, identification assumptions, recruitment comparisons, and conclusion. Teaches administrative incentives with explicit causal limits."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "citizen-coproduction-accountability-2026",
+      "title": "Democratic Accountability with Citizen Coproduction",
+      "headline": "Who gets the blame when public services need everyone’s help?",
+      "authors": "Jie Ma, Keith E. Schnakenberg and Ian R. Turner",
+      "venue": "American Political Science Review",
+      "year": 2026,
+      "date": "2026-09-29",
+      "url": "https://doi.org/10.1017/S0003055426101889",
+      "doi": "10.1017/S0003055426101889",
+      "topic": "shared-responsibility",
+      "chapter": "accountability",
+      "summary": "A mathematical model shows how citizen participation changes what policy failure reveals about an official’s competence. Under some conditions, stronger participation can discourage reform. These are theoretical predictions, not measured effects.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How does voluntary citizen participation affect accountability and reform incentives?",
+        "method": "Solved a sequential game of policy choice, citizen cooperation and voting using Bayesian updating.",
+        "limitations": "Assumes shared desired outcomes, observed participation and a contest against one challenger."
+      },
+      "explainer": {
+        "finding": "Low participation makes failure less revealing. Officials who could lose after failure may therefore avoid reforms when participation rises.",
+        "method": "Derived equilibrium conditions and compared incentives across participation costs and electoral positions; no field experiment was conducted.",
+        "meaning": "If a reading programme needs parents’ help, poor results could reflect its design or limited participation. Those explanations carry different implications for evaluating the school board.",
+        "limits": "Predictions depend on the model’s assumptions and electoral setting. They do not establish that participation is harmful or describe any particular politician.",
+        "source": "https://doi.org/10.1017/S0003055426101889",
+        "background": "#/politics/accountability"
+      },
+      "verified": "2026-10-06",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-06",
+        "sourceRead": "https://doi.org/10.1017/S0003055426101889",
+        "decision": "include",
+        "reason": "Read primary model, equilibrium analysis and scope limits; teaches accountability without campaign commentary."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

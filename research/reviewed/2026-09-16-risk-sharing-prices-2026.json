@@ -1,0 +1,39 @@
+{
+  "subject": "economics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-16",
+    "sourceRead": "https://escholarship.org/content/qt2zr503fq/qt2zr503fq_noSplash_6272bfa55d8ac871b99b92349d7d23a5.pdf",
+    "decision": "include",
+    "reason": "Read the December 2025 author manuscript's model, data, results, and assumptions; checked journal metadata separately."
+  },
+  "item": {
+    "id": "risk-sharing-prices-2026",
+    "title": "Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda",
+    "headline": "Spending more after a drought can hide worsening living conditions",
+    "authors": "Ethan Ligon",
+    "venue": "American Economic Review",
+    "year": 2026,
+    "date": "2026-09",
+    "doi": "10.1257/aer.20240664",
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20240664",
+    "topic": "risk-sharing",
+    "chapter": "development",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Ugandan expenditure data show why risk-sharing tests must account for changing prices and shopping baskets. Conclusions depend on demand-model assumptions.",
+    "evidence": {
+      "question": "Do households share losses from widespread shocks?",
+      "method": "Demand modeling and fixed-effects comparisons using eight survey waves, 2005–2020.",
+      "limitations": "Observational data and self-reported shocks."
+    },
+    "explainer": {
+      "finding": "Allowing different goods to respond differently to income removes the misleading appearance that adverse shocks improve welfare.",
+      "method": "The author compared a total-spending test with one using expenditure composition and household demographics.",
+      "meaning": "A family's food bill can rise because food costs more, even as its diet deteriorates. A bigger bill alone cannot establish better living conditions.",
+      "limits": "Based on the December 2025 author manuscript. Shared-price and preference assumptions matter; an insignificant coefficient does not prove complete insurance.",
+      "source": "https://escholarship.org/uc/item/2zr503fq",
+      "background": "#/economics/development"
+    }
+  }
+}

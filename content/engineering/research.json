@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -188,6 +188,82 @@
         "reason": "Connects cell variation to pack performance; methods and observational limitations checked."
       },
       "added": "2026-09-08"
+    },
+    {
+      "id": "hydrogen-desalination-2026",
+      "title": "A 250-kilowatt system for co-production of hydrogen and fresh water from seawater",
+      "headline": "Putting hydrogen production’s waste heat to work desalinating seawater",
+      "authors": "Shang Jiang, Peixin Zhu, Yanting Liu, and Dehui Deng",
+      "venue": "Nature Energy",
+      "year": 2026,
+      "date": "2026-09-15",
+      "url": "https://www.nature.com/articles/s41560-026-02130-6",
+      "doi": "10.1038/s41560-026-02130-6",
+      "topic": "heat-recovery",
+      "chapter": "heat",
+      "summary": "A 250-kW system coupled water electrolysis with seawater distillation. Its 40-day test used daily starts and stops with four hours at steady load, leaving long-term durability unresolved.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Can electrolyser waste heat supply desalination?",
+        "method": "20-kW and 250-kW systems, operating measurements, and separate economic modeling.",
+        "limitations": "Pilot operation differs from the large plant assumed in cost calculations."
+      },
+      "explainer": {
+        "finding": "The larger system produced hydrogen and surplus fresh water by using electrolysis waste heat to distil seawater.",
+        "method": "The supplement reports 100 days of testing at 20 kW and 40 at 250 kW, each with daily four-hour steady-load periods. The larger system used electrolysis at 85°C and distillation around 44°C.",
+        "meaning": "Like using an engine’s heat to warm a cabin, useful output comes from heat that otherwise needs removing. Here the recovered heat helps separate water from salt.",
+        "limits": "Costs are modeled, including a 30-year plant life and initially 97% utilization. Those assumptions were not demonstrated by the short trials. This review uses the public abstract and supplement; the main text is paywalled.",
+        "source": "https://media.springernature.com/original/springer-static/esm/art:10.1038%2Fs41560-026-02130-6/MediaObjects/41560_2026_2130_MOESM1_ESM.pdf",
+        "background": "#/engineering/heat"
+      },
+      "verified": "2026-09-18",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-18",
+        "sourceRead": "https://media.springernature.com/original/springer-static/esm/art:10.1038%2Fs41560-026-02130-6/MediaObjects/41560_2026_2130_MOESM1_ESM.pdf",
+        "decision": "include",
+        "reason": "Read the public abstract and supplementary test conditions, comparisons, heat-exchanger design, and economic assumptions. Main text is subscription-only; claims are confined to accessible primary evidence."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "hydrogen-neighbours-2026",
+      "title": "Spatially informed demand-side policies for green hydrogen diffusion in Europe",
+      "headline": "Hydrogen support could go further when nearby users benefit too",
+      "authors": "Christian Rumpelnik, Behnam Zakeri, and Kavita Surana",
+      "venue": "Nature Energy",
+      "year": 2026,
+      "date": "2026-09-17",
+      "url": "https://www.nature.com/articles/s41560-026-02126-2",
+      "doi": "10.1038/s41560-026-02126-2",
+      "topic": "energy-networks",
+      "chapter": "power",
+      "summary": "Simulations suggest supporting well-connected hydrogen users could stretch subsidies further. The projections assume adoption resembles historical natural-gas power generation.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Can nearby users make hydrogen support more effective?",
+        "method": "Historical adoption modelling, a network of 14,108 potential European users, and subsidy simulations through 2100.",
+        "limitations": "An indirect cost measure and sector averages simplify real plants; savings are modelled."
+      },
+      "explainer": {
+        "finding": "Adding a location-based criterion improved simulated auction cost-effectiveness by up to 15% through 2100.",
+        "method": "Researchers compared subsidy allocation rules using adoption patterns estimated from gas plants.",
+        "meaning": "Nearby factories could share infrastructure and expertise, helping additional users switch to hydrogen.",
+        "limits": "Hydrogen may spread differently. Future costs and competing technologies remain uncertain; this does not demonstrate realized savings.",
+        "source": "https://www.nature.com/articles/s41560-026-02126-2",
+        "background": "#/engineering/power"
+      },
+      "verified": "2026-09-24",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-24",
+        "sourceRead": "https://www.nature.com/articles/s41560-026-02126-2",
+        "decision": "include",
+        "reason": "Read methods, simulations, and limitations. Teaches network effects while distinguishing projected savings from deployment evidence."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

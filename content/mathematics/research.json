@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -783,6 +783,120 @@
       "verified": "2026-09-02",
       "headline": "The Millennium Prize Problems define seven major mathematical challenges",
       "sourceType": "Project or community publication"
+    },
+    {
+      "id": "schottky-circularization-2026",
+      "title": "Quasiconformal characterization of Schottky sets",
+      "headline": "When rounding holes two at a time guarantees a global reshaping",
+      "authors": "Dimitrios Ntalampekos",
+      "venue": "Inventiones mathematicae",
+      "year": 2026,
+      "date": "2026-09-08",
+      "doi": "10.1007/s00222-026-01447-z",
+      "url": "https://link.springer.com/article/10.1007/s00222-026-01447-z",
+      "topic": "geometry",
+      "chapter": "geometry",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "A theorem characterizes when a perforated spherical surface can be reshaped to have circular holes with bounded distortion. Its uniform pairwise condition is essential.",
+      "evidence": {
+        "question": "When do pairwise geometric constraints control an entire shape?",
+        "method": "Mathematical proof using circle reflections, curve-family estimates, and limits of finite approximations.",
+        "limitations": "A conditional existence theorem, not a numerical algorithm."
+      },
+      "explainer": {
+        "finding": "For disjoint regions bounded by simple closed curves, roundability of every pair with one common distortion bound guarantees a global rounding.",
+        "method": "The proof controls finite configurations, then passes to a limit while preserving distortion bounds.",
+        "meaning": "Imagine a surface with infinitely many holes. Pairwise compatibility can guarantee one coherent reshaping; separately rounding each hole would not suffice.",
+        "limits": "Quasiconformal means locally bounded stretching imbalance, not preserved lengths. Distinct boundaries and the uniform pairwise hypothesis matter. A purely topological characterization remains open.",
+        "source": "https://link.springer.com/article/10.1007/s00222-026-01447-z",
+        "background": "#/mathematics/geometry"
+      },
+      "verified": "2026-09-13",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-13",
+        "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01447-z",
+        "decision": "include",
+        "reason": "Makes a local-to-global theorem approachable; hypotheses, proof strategy, and remaining problem reviewed."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "free-probability-transport-2026",
+      "title": "Free probability via entropic optimal transport",
+      "headline": "A new bridge between random matrices and ordinary probability",
+      "authors": "Octavio Arizmendi and Samuel G. G. Johnston",
+      "venue": "Inventiones mathematicae",
+      "year": 2026,
+      "date": "2026-09-24",
+      "url": "https://link.springer.com/article/10.1007/s00222-026-01451-3",
+      "doi": "10.1007/s00222-026-01451-3",
+      "topic": "random-matrices",
+      "chapter": "linear-algebra",
+      "summary": "A proof expresses free-probability operations through optimization over ordinary random variables. Its matrix interpretation concerns limiting eigenvalue distributions, not exact finite matrices.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Can ordinary probability describe how large random matrices combine?",
+        "method": "Mathematical proof combining characteristic-polynomial identities with large-deviation theory.",
+        "limitations": "The formulas assume compactly supported distributions and specified parameter ranges."
+      },
+      "explainer": {
+        "finding": "The optimization balances a logarithmic reward against an entropy penalty for dependence between paired variables.",
+        "method": "The proof weighs unusually favorable permutations against their rarity.",
+        "meaning": "For example, it offers another description of the limiting eigenvalue distribution when two independent, unitarily invariant Hermitian random matrices are added.",
+        "limits": "This theoretical connection does not establish a faster practical algorithm.",
+        "source": "https://link.springer.com/article/10.1007/s00222-026-01451-3",
+        "background": "#/mathematics/linear-algebra"
+      },
+      "verified": "2026-09-25",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-25",
+        "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01451-3",
+        "decision": "include",
+        "reason": "Read theorem assumptions, proof overview, and permutation large-deviation argument. Connects probability, optimization, and matrix spectra."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "superdiffusive-brownian-motion-2026",
+      "title": "Superdiffusive central limit theorem for a Brownian particle in a critically-correlated incompressible random drift",
+      "headline": "When random motion spreads faster than ordinary diffusion",
+      "authors": "Scott Armstrong, Ahmed Bou-Rabee and Tuomo Kuusi",
+      "venue": "Inventiones mathematicae",
+      "year": 2026,
+      "date": "2026-10-05",
+      "url": "https://link.springer.com/article/10.1007/s00222-026-01455-z",
+      "doi": "10.1007/s00222-026-01455-z",
+      "topic": "probability-and-random-motion",
+      "chapter": "probability",
+      "summary": "A theorem shows how correlated currents increase a randomly moving particle’s spread. Its mean squared displacement grows like t × √(log t), rather than t, under specific assumptions about the flow.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How does persistent spatial correlation change diffusion?",
+        "method": "Mathematical proof tracking effective diffusivity across increasingly large scales.",
+        "limitations": "Requires a stationary incompressible field in at least two dimensions, with the symmetry, regularity, independence and nondegeneracy conditions of Assumption 1.1."
+      },
+      "explainer": {
+        "finding": "Zoom out using the new scale, and the path approaches Brownian motion—the random jitter familiar from diffusion. This holds for almost every individual flow drawn from the model.",
+        "method": "The authors replace small-scale flow details with simpler effective equations, controlling the approximation error at each step. This is a proof, not a simulation.",
+        "meaning": "Imagine a tracer buffeted by small random kicks and carried by currents at many scales. Larger currents keep adding to its spread. The formula concerns squared distance, not distance itself.",
+        "limits": "This is a long-time theorem for a specified model, not a laboratory test or a universal rule for rivers or turbulence.",
+        "source": "https://link.springer.com/article/10.1007/s00222-026-01455-z",
+        "background": "#/mathematics/probability/probability-distributions"
+      },
+      "verified": "2026-10-08",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-08",
+        "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01455-z",
+        "decision": "include",
+        "reason": "Read Theorem A, Assumption 1.1 and the proof outline; distinguish a mathematical result from measurements. Not an independent audit of every proof. Journal date verified; preprint first appeared in 2024."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

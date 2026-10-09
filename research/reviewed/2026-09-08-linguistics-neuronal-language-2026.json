@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-08",
+    "sourceRead": "https://www.nature.com/articles/s41586-026-10691-5",
+    "decision": "include",
+    "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+  },
+  "item": {
+    "id": "neuronal-language-2026",
+    "title": "Mapping the neuronal building blocks of human language with language models",
+    "headline": "Individual neurons track grammatical features during speech",
+    "authors": "Jing Cai et al.",
+    "venue": "Nature",
+    "year": 2026,
+    "date": "2026-06-17",
+    "doi": "10.1038/s41586-026-10691-5",
+    "url": "https://www.nature.com/articles/s41586-026-10691-5",
+    "topic": "language-and-brain",
+    "chapter": "sentences",
+    "summary": "Recordings during speech linked neuronal activity to grammatical relationships and sentence context. The study involved eight English-speaking epilepsy patients; it does not establish a universal neural grammar.",
+    "evidence": {
+      "question": "Which linguistic features appear in neuronal activity during speech?",
+      "method": "Recordings of 579 putative neurons, aligned with speech and computational linguistic annotations.",
+      "limitations": "Small clinical sample, restricted recording sites, and model-dependent annotations."
+    },
+    "explainer": {
+      "finding": "Some recorded neurons responded selectively to grammatical features; context helped predict population activity.",
+      "method": "Researchers recorded eight epilepsy patients speaking and compared neural signals with annotated word and sentence properties.",
+      "meaning": "The same noun can play different roles in different sentences. Studying those roles separately from its sound helps investigate how language is organized in the brain.",
+      "limits": "These are associations in sampled brain regions during English speech. They do not show that a grammar category has one dedicated neuron everywhere, or that language models and brains work identically.",
+      "source": "https://www.nature.com/articles/s41586-026-10691-5",
+      "background": "#/linguistics/sentences"
+    },
+    "sourceType": "Journal publication",
+    "status": "reported"
+  }
+}

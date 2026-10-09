@@ -1,0 +1,39 @@
+{
+  "subject": "engineering",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-18",
+    "sourceRead": "https://media.springernature.com/original/springer-static/esm/art:10.1038%2Fs41560-026-02130-6/MediaObjects/41560_2026_2130_MOESM1_ESM.pdf",
+    "decision": "include",
+    "reason": "Read the public abstract and supplementary test conditions, comparisons, heat-exchanger design, and economic assumptions. Main text is subscription-only; claims are confined to accessible primary evidence."
+  },
+  "item": {
+    "id": "hydrogen-desalination-2026",
+    "title": "A 250-kilowatt system for co-production of hydrogen and fresh water from seawater",
+    "headline": "Putting hydrogen production’s waste heat to work desalinating seawater",
+    "authors": "Shang Jiang, Peixin Zhu, Yanting Liu, and Dehui Deng",
+    "venue": "Nature Energy",
+    "year": 2026,
+    "date": "2026-09-15",
+    "url": "https://www.nature.com/articles/s41560-026-02130-6",
+    "doi": "10.1038/s41560-026-02130-6",
+    "topic": "heat-recovery",
+    "chapter": "heat",
+    "summary": "A 250-kW system coupled water electrolysis with seawater distillation. Its 40-day test used daily starts and stops with four hours at steady load, leaving long-term durability unresolved.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Can electrolyser waste heat supply desalination?",
+      "method": "20-kW and 250-kW systems, operating measurements, and separate economic modeling.",
+      "limitations": "Pilot operation differs from the large plant assumed in cost calculations."
+    },
+    "explainer": {
+      "finding": "The larger system produced hydrogen and surplus fresh water by using electrolysis waste heat to distil seawater.",
+      "method": "The supplement reports 100 days of testing at 20 kW and 40 at 250 kW, each with daily four-hour steady-load periods. The larger system used electrolysis at 85°C and distillation around 44°C.",
+      "meaning": "Like using an engine’s heat to warm a cabin, useful output comes from heat that otherwise needs removing. Here the recovered heat helps separate water from salt.",
+      "limits": "Costs are modeled, including a 30-year plant life and initially 97% utilization. Those assumptions were not demonstrated by the short trials. This review uses the public abstract and supplement; the main text is paywalled.",
+      "source": "https://media.springernature.com/original/springer-static/esm/art:10.1038%2Fs41560-026-02130-6/MediaObjects/41560_2026_2130_MOESM1_ESM.pdf",
+      "background": "#/engineering/heat"
+    }
+  }
+}

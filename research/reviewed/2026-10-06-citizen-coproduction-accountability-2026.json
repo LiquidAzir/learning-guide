@@ -1,0 +1,39 @@
+{
+  "subject": "politics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-06",
+    "sourceRead": "https://doi.org/10.1017/S0003055426101889",
+    "decision": "include",
+    "reason": "Read primary model, equilibrium analysis and scope limits; teaches accountability without campaign commentary."
+  },
+  "item": {
+    "id": "citizen-coproduction-accountability-2026",
+    "title": "Democratic Accountability with Citizen Coproduction",
+    "headline": "Who gets the blame when public services need everyone’s help?",
+    "authors": "Jie Ma, Keith E. Schnakenberg and Ian R. Turner",
+    "venue": "American Political Science Review",
+    "year": 2026,
+    "date": "2026-09-29",
+    "url": "https://doi.org/10.1017/S0003055426101889",
+    "doi": "10.1017/S0003055426101889",
+    "topic": "shared-responsibility",
+    "chapter": "accountability",
+    "summary": "A mathematical model shows how citizen participation changes what policy failure reveals about an official’s competence. Under some conditions, stronger participation can discourage reform. These are theoretical predictions, not measured effects.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How does voluntary citizen participation affect accountability and reform incentives?",
+      "method": "Solved a sequential game of policy choice, citizen cooperation and voting using Bayesian updating.",
+      "limitations": "Assumes shared desired outcomes, observed participation and a contest against one challenger."
+    },
+    "explainer": {
+      "finding": "Low participation makes failure less revealing. Officials who could lose after failure may therefore avoid reforms when participation rises.",
+      "method": "Derived equilibrium conditions and compared incentives across participation costs and electoral positions; no field experiment was conducted.",
+      "meaning": "If a reading programme needs parents’ help, poor results could reflect its design or limited participation. Those explanations carry different implications for evaluating the school board.",
+      "limits": "Predictions depend on the model’s assumptions and electoral setting. They do not establish that participation is harmful or describe any particular politician.",
+      "source": "https://doi.org/10.1017/S0003055426101889",
+      "background": "#/politics/accountability"
+    }
+  }
+}

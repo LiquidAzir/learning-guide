@@ -37,7 +37,7 @@ const originalIds = new Set(['physics', 'chemistry', 'economics', 'mathematics',
 const originals = data.subjects.filter(s => originalIds.has(s.id));
 assert.equal(originals.flatMap(s => s.chapters).reduce((n, c) => n + (c.html.match(/<details class="callout callout-answer">/g) || []).length, 0), 155);
 assert(originals.reduce((n, s) => n + s.research.items.length, 0) >= 399);
-for (const id of ['psychology', 'engineering', 'politics']) {
+for (const id of ['psychology', 'engineering', 'politics', 'linguistics']) {
   const subject = data.subjects.find(s => s.id === id);
   assert(subject, `Missing subject: ${id}`);
   assert.equal(subject.chapters.length, 14);

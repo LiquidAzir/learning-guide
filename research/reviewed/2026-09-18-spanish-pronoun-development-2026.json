@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-18",
+    "sourceRead": "https://www.cambridge.org/core/journals/journal-of-child-language/article/role-of-cognitive-and-linguistic-abilities-on-subject-personal-pronoun-expression-in-spanishspeaking-children/C37D6BF34960D1EC70A717497C1436ED",
+    "decision": "include",
+    "reason": "Read sampling, coding, model comparisons, discussion, and scope limits. Teaches how correlated predictors can overlap."
+  },
+  "item": {
+    "id": "spanish-pronoun-development-2026",
+    "title": "The role of cognitive and linguistic abilities on subject personal pronoun expression in Spanish-speaking children",
+    "headline": "When children say the Spanish equivalent of ‘he’ or ‘she’",
+    "authors": "Pedro Antonio Ortiz Ramírez and colleagues",
+    "venue": "Journal of Child Language",
+    "year": 2026,
+    "date": "2026-09-07",
+    "url": "https://www.cambridge.org/core/journals/journal-of-child-language/article/role-of-cognitive-and-linguistic-abilities-on-subject-personal-pronoun-expression-in-spanishspeaking-children/C37D6BF34960D1EC70A717497C1436ED",
+    "doi": "10.1017/S0305000926100919",
+    "topic": "language-acquisition",
+    "chapter": "learning",
+    "summary": "Grammar scores helped explain pronoun use in Mexico City children; most variation remained unexplained.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Which abilities relate to pronoun use?",
+      "method": "Interviews and language, attention, inhibition, and memory tests.",
+      "limitations": "Observational, with one dialect and age range."
+    },
+    "explainer": {
+      "finding": "Grammar measures retained an association with third-person pronoun use when overlapping cognitive measures were considered.",
+      "method": "Researchers coded 9,750 utterances from 82 monolingual Mexican Spanish-speaking children aged four to eight and compared statistical models.",
+      "meaning": "Spanish can leave the subject unstated. Choosing ‘ella’ (‘she’), for example, helps track who a story is about.",
+      "limits": "Association does not establish causation or make memory irrelevant. The grammar model explained just 7.4% of variation in overall third-person pronoun use.",
+      "source": "https://www.cambridge.org/core/journals/journal-of-child-language/article/role-of-cognitive-and-linguistic-abilities-on-subject-personal-pronoun-expression-in-spanishspeaking-children/C37D6BF34960D1EC70A717497C1436ED",
+      "background": "#/linguistics/learning"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "subject": "mathematics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-25",
+    "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01451-3",
+    "decision": "include",
+    "reason": "Read theorem assumptions, proof overview, and permutation large-deviation argument. Connects probability, optimization, and matrix spectra."
+  },
+  "item": {
+    "id": "free-probability-transport-2026",
+    "title": "Free probability via entropic optimal transport",
+    "headline": "A new bridge between random matrices and ordinary probability",
+    "authors": "Octavio Arizmendi and Samuel G. G. Johnston",
+    "venue": "Inventiones mathematicae",
+    "year": 2026,
+    "date": "2026-09-24",
+    "url": "https://link.springer.com/article/10.1007/s00222-026-01451-3",
+    "doi": "10.1007/s00222-026-01451-3",
+    "topic": "random-matrices",
+    "chapter": "linear-algebra",
+    "summary": "A proof expresses free-probability operations through optimization over ordinary random variables. Its matrix interpretation concerns limiting eigenvalue distributions, not exact finite matrices.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Can ordinary probability describe how large random matrices combine?",
+      "method": "Mathematical proof combining characteristic-polynomial identities with large-deviation theory.",
+      "limitations": "The formulas assume compactly supported distributions and specified parameter ranges."
+    },
+    "explainer": {
+      "finding": "The optimization balances a logarithmic reward against an entropy penalty for dependence between paired variables.",
+      "method": "The proof weighs unusually favorable permutations against their rarity.",
+      "meaning": "For example, it offers another description of the limiting eigenvalue distribution when two independent, unitarily invariant Hermitian random matrices are added.",
+      "limits": "This theoretical connection does not establish a faster practical algorithm.",
+      "source": "https://link.springer.com/article/10.1007/s00222-026-01451-3",
+      "background": "#/mathematics/linear-algebra"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "subject": "engineering",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-24",
+    "sourceRead": "https://www.nature.com/articles/s41560-026-02126-2",
+    "decision": "include",
+    "reason": "Read methods, simulations, and limitations. Teaches network effects while distinguishing projected savings from deployment evidence."
+  },
+  "item": {
+    "id": "hydrogen-neighbours-2026",
+    "title": "Spatially informed demand-side policies for green hydrogen diffusion in Europe",
+    "headline": "Hydrogen support could go further when nearby users benefit too",
+    "authors": "Christian Rumpelnik, Behnam Zakeri, and Kavita Surana",
+    "venue": "Nature Energy",
+    "year": 2026,
+    "date": "2026-09-17",
+    "url": "https://www.nature.com/articles/s41560-026-02126-2",
+    "doi": "10.1038/s41560-026-02126-2",
+    "topic": "energy-networks",
+    "chapter": "power",
+    "summary": "Simulations suggest supporting well-connected hydrogen users could stretch subsidies further. The projections assume adoption resembles historical natural-gas power generation.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Can nearby users make hydrogen support more effective?",
+      "method": "Historical adoption modelling, a network of 14,108 potential European users, and subsidy simulations through 2100.",
+      "limitations": "An indirect cost measure and sector averages simplify real plants; savings are modelled."
+    },
+    "explainer": {
+      "finding": "Adding a location-based criterion improved simulated auction cost-effectiveness by up to 15% through 2100.",
+      "method": "Researchers compared subsidy allocation rules using adoption patterns estimated from gas plants.",
+      "meaning": "Nearby factories could share infrastructure and expertise, helping additional users switch to hydrogen.",
+      "limits": "Hydrogen may spread differently. Future costs and competing technologies remain uncertain; this does not demonstrate realized savings.",
+      "source": "https://www.nature.com/articles/s41560-026-02126-2",
+      "background": "#/engineering/power"
+    }
+  }
+}

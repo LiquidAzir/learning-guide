@@ -23,3 +23,9 @@ Separate behavior, neural measurement, proposed mechanism, and subjective experi
 ## Engineering
 
 Attach the operating conditions and system boundary to performance claims. Distinguish simulation, material, component, prototype, and deployed system; electrode, cell, and packaged battery; efficiency and lifetime; independent certification and manufacturer reporting. Retain cost, durability, scale, and integration limitations when relevant. A research programme page must be labeled as such and must not be summarized as a completed result.
+
+## Language and Linguistics
+
+Include language structure, acquisition, multilingualism, processing, interaction, variation, historical change, signed languages, and language technology. Preserve the languages and varieties sampled, participants' language histories, modality, task, and dataset boundaries. Distinguish grammatical analysis from acceptability judgments, listener attitudes from speaker abilities, and first-language access from additional-language learning. A language-level association is not a causal claim about an individual or a population's character.
+
+For computational work, identify the task, model versions or families, baselines, and limitations on generalization. Fluency, benchmark accuracy, faithful translation, and successful communication are different outcomes. Brain-model correlations do not establish identical mechanisms. Preserve null results and uncertainty; do not let AI papers crowd out the broader field. Use primary studies and documented data, respect community access conditions, and avoid language-ranking claims or unsupported learning-product promises.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -819,6 +819,82 @@
       "verified": "2026-09-01",
       "headline": "The arsenic-based-life paper is retracted",
       "sourceType": "Journal publication"
+    },
+    {
+      "id": "pmma-depolymerization-2026",
+      "title": "Lower-temperature bulk depolymerization of commercial polymethacrylates",
+      "headline": "Turning acrylic plastic back into its molecular ingredients",
+      "authors": "Richard Whitfield and colleagues",
+      "venue": "Nature Chemistry",
+      "year": 2026,
+      "date": "2026-09-02",
+      "doi": "10.1038/s41557-026-02232-4",
+      "url": "https://www.nature.com/articles/s41557-026-02232-4",
+      "topic": "polymer-recycling",
+      "chapter": "organic",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "An additive helped recover 90% monomer yield from commercial blue Plexiglas in a roughly 5-gram experiment. Industrial feasibility remains untested.",
+      "evidence": {
+        "question": "Can existing acrylic polymers be chemically recycled at lower temperatures?",
+        "method": "Heating controls, mass-loss measurements, spectroscopy, and vacuum distillation.",
+        "limitations": "Selected polymers and laboratory scale."
+      },
+      "explainer": {
+        "finding": "Chain-breaking chemistry recovered the small molecules used to make acrylic plastic.",
+        "method": "Researchers heated ground Plexiglas with TCNHPI at 230°C for four hours under vacuum, then checked the collected monomer by nuclear magnetic resonance spectroscopy.",
+        "meaning": "Imagine recovering ingredients from a colored acrylic sheet rather than just melting it into another shape. The additive helps start breaks along polymer chains.",
+        "limits": "Polyacrylates broke down without regenerating monomer. Mixed-waste recycling, industrial costs, and environmental benefits were not established.",
+        "source": "https://www.nature.com/articles/s41557-026-02232-4",
+        "background": "#/chemistry/organic"
+      },
+      "verified": "2026-09-16",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-16",
+        "sourceRead": "https://www.nature.com/articles/s41557-026-02232-4",
+        "decision": "include",
+        "reason": "Read results, controls, mechanism, scale-up caveat, and experimental methods."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "uranium-carbyne-2026",
+      "title": "A crystalline uranium Fischer-type carbyne",
+      "headline": "A uranium–carbon bond stretches the meaning of “triple”",
+      "authors": "John A. Seed and colleagues",
+      "venue": "Nature Chemistry",
+      "year": 2026,
+      "date": "2026-10-02",
+      "url": "https://www.nature.com/articles/s41557-026-02260-0",
+      "doi": "10.1038/s41557-026-02260-0",
+      "topic": "chemical-bonding",
+      "chapter": "bonds",
+      "summary": "Researchers isolated a crystalline molecule with an unusual uranium–carbon bonding pattern. Its three bonding components differ from a conventional triple bond; the study establishes fundamental chemistry, not an application.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Can a uranium Fischer-type carbyne be isolated and characterized?",
+        "method": "Combined oxygen-free synthesis, X-ray crystallography, spectroscopy, magnetic measurements and electronic-structure calculations.",
+        "limitations": "Bond labels simplify delocalized electron density; calculated bond order is about 1.2, not three."
+      },
+      "explainer": {
+        "finding": "The evidence supports carbon donating an electron pair to uranium, with uranium returning two single-electron contributions in perpendicular directions.",
+        "method": "Measured structure and electron-density analysis supported the calculated bonding picture; bond length alone was insufficient.",
+        "meaning": "Drawing three lines between atoms can conceal different electron arrangements. Here, three principal bonding components do not mean three equally strong electron-pair bonds.",
+        "limits": "Reaction tests remain preliminary, with some products unidentified. The work does not demonstrate a useful catalyst.",
+        "source": "https://www.nature.com/articles/s41557-026-02260-0",
+        "background": "#/chemistry/bonds"
+      },
+      "verified": "2026-10-04",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-04",
+        "sourceRead": "https://www.nature.com/articles/s41557-026-02260-0",
+        "decision": "include",
+        "reason": "Read primary methods, characterization, bonding analysis and reactivity limits."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

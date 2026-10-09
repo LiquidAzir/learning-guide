@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-14",
+    "sourceRead": "https://www.meluhha.com/articles/garcia_ryan_2026.pdf",
+    "decision": "include",
+    "reason": "Published author-hosted copy reviewed: methods, results, morphology checks, and theoretical limits."
+  },
+  "item": {
+    "id": "portuguese-consonants-stress-2026",
+    "title": "Sonority-driven stress: Codas in Brazilian Portuguese",
+    "headline": "A word’s final sound can influence where speakers put the emphasis",
+    "authors": "Guilherme D. Garcia and Kevin Ryan",
+    "venue": "Glossa: a journal of general linguistics",
+    "year": 2026,
+    "date": "2026-09-07",
+    "doi": "10.16995/glossa.25891",
+    "url": "https://doi.org/10.16995/glossa.25891",
+    "topic": "speech-sounds",
+    "chapter": "sounds",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Brazilian Portuguese listeners favored final stress more for invented words ending in sonorants than /s/. The result concerns preferences in a small, specific sample.",
+    "evidence": {
+      "question": "Does consonant type affect stress placement?",
+      "method": "28 native speakers living in Canada completed pronunciation-choice tasks; lexical comparisons and Bayesian models tested the pattern.",
+      "limitations": "Mostly highly educated, multilingual speakers; limited regional coverage."
+    },
+    "explainer": {
+      "finding": "Sonorants, such as nasal sounds, attracted final stress more than /s/, even after checks for plural interpretations.",
+      "method": "Listeners chose between pronunciations of invented words. A separate written task tested non-final positions, not the main final-syllable effect.",
+      "meaning": "Invented words test patterns beyond memorized vocabulary: which syllable feels emphasized can depend on the ending’s sound.",
+      "limits": "Only /s/ represented obstruents, sounds with substantial airflow obstruction. The study does not establish a universal stress rule or settle how sonority enters the grammar.",
+      "source": "https://www.meluhha.com/articles/garcia_ryan_2026.pdf",
+      "background": "#/linguistics/sounds"
+    }
+  }
+}

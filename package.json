@@ -9,6 +9,8 @@
     "test": "node --test scripts/*.test.mjs",
     "research:discover": "node scripts/discover-research.mjs",
     "research:review": "node scripts/review-research.mjs",
+    "research:apply": "node scripts/apply-reviewed-research.mjs --apply",
+    "research:check-live": "node scripts/check-research-live.mjs",
     "dev": "node build.js && npx --yes serve dist -l 5173",
     "pretest": "node build.js",
     "pretest:research": "node build.js"

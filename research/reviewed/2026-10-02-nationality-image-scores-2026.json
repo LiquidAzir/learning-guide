@@ -1,0 +1,39 @@
+{
+  "subject": "ai",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-02",
+    "sourceRead": "https://arxiv.org/pdf/2504.06313v5",
+    "decision": "include",
+    "reason": "Reviewed v5 methods, results, and limitations; journal-version equivalence remains unverified."
+  },
+  "item": {
+    "id": "nationality-image-scores-2026",
+    "title": "Text-to-Image Models and Their Representation of People from Different Nationalities Engaging in Activities",
+    "headline": "A high image score can miss an awkward stereotype",
+    "authors": "Abdulkareem Alsudais",
+    "venue": "arXiv, version 5",
+    "year": 2026,
+    "date": "2026-04-11",
+    "url": "https://arxiv.org/abs/2504.06313v5",
+    "doi": "10.48550/arXiv.2504.06313",
+    "topic": "image-evaluation",
+    "chapter": "evaluating-models",
+    "summary": "Image scorers often rewarded nationality-linked clothing even when unsuitable for the activity. This manuscript tests specific models and prompts, not current products generally.",
+    "sourceType": "Preprint or working paper",
+    "status": "preliminary",
+    "evidence": {
+      "question": "Does matching a prompt ensure an appropriate depiction?",
+      "method": "Manually labeled 2,060 DALL-E 3/Gemini 3 Pro Preview images: 206 nationalities, five activities; compared scores across caption variants.",
+      "limitations": "One image per combination; subjective clothing labels; generations collected at different times in 2025."
+    },
+    "explainer": {
+      "finding": "Across both generators, 15.9% of soccer/jogging images had clothing labeled impractical.",
+      "method": "CLIP, an open-source ALIGN implementation, and GPT-4.1 mini evaluated image–caption matches.",
+      "meaning": "A soccer scene can score well for matching a nationality cue while dressing players unsuitably: relevance and appropriateness need separate checks.",
+      "limits": "Traditional clothing is not inherently inappropriate. Scores do not measure community preferences; this comparison does not isolate causes.",
+      "source": "https://arxiv.org/abs/2504.06313v5",
+      "background": "#/ai/evaluating-models"
+    }
+  }
+}

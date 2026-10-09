@@ -1,0 +1,39 @@
+{
+  "subject": "chemistry",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-04",
+    "sourceRead": "https://www.nature.com/articles/s41557-026-02260-0",
+    "decision": "include",
+    "reason": "Read primary methods, characterization, bonding analysis and reactivity limits."
+  },
+  "item": {
+    "id": "uranium-carbyne-2026",
+    "title": "A crystalline uranium Fischer-type carbyne",
+    "headline": "A uranium–carbon bond stretches the meaning of “triple”",
+    "authors": "John A. Seed and colleagues",
+    "venue": "Nature Chemistry",
+    "year": 2026,
+    "date": "2026-10-02",
+    "url": "https://www.nature.com/articles/s41557-026-02260-0",
+    "doi": "10.1038/s41557-026-02260-0",
+    "topic": "chemical-bonding",
+    "chapter": "bonds",
+    "summary": "Researchers isolated a crystalline molecule with an unusual uranium–carbon bonding pattern. Its three bonding components differ from a conventional triple bond; the study establishes fundamental chemistry, not an application.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Can a uranium Fischer-type carbyne be isolated and characterized?",
+      "method": "Combined oxygen-free synthesis, X-ray crystallography, spectroscopy, magnetic measurements and electronic-structure calculations.",
+      "limitations": "Bond labels simplify delocalized electron density; calculated bond order is about 1.2, not three."
+    },
+    "explainer": {
+      "finding": "The evidence supports carbon donating an electron pair to uranium, with uranium returning two single-electron contributions in perpendicular directions.",
+      "method": "Measured structure and electron-density analysis supported the calculated bonding picture; bond length alone was insufficient.",
+      "meaning": "Drawing three lines between atoms can conceal different electron arrangements. Here, three principal bonding components do not mean three equally strong electron-pair bonds.",
+      "limits": "Reaction tests remain preliminary, with some products unidentified. The work does not demonstrate a useful catalyst.",
+      "source": "https://www.nature.com/articles/s41557-026-02260-0",
+      "background": "#/chemistry/bonds"
+    }
+  }
+}

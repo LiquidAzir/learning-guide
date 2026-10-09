@@ -89,5 +89,14 @@
     "tagline": "How rules distribute power, organize disagreement, and make public decisions work.",
     "description": "Compare states, constitutions, voting rules, parties, public administration, courts, and international cooperation. Worked examples and research methods explain what institutions change, who they serve, and how to evaluate their results.",
     "researchIntro": "Research on institutions, public services, and collective decisions, selected for methods and lasting learning value. Every entry explains its question, method, and limitations. Campaign coverage, daily polling, opinion pieces, and party messaging are excluded."
+  },
+  {
+    "id": "linguistics",
+    "navTitle": "Linguistics",
+    "title": "Language and Linguistics",
+    "icon": "文",
+    "tagline": "How sounds, signs, and sentences carry meaning between people.",
+    "description": "Explore pronunciation, word and sentence structure, meaning, conversation, and language learning. Compare dialects, trace language change, examine signed and written systems, and use those ideas to evaluate translation and language models.",
+    "researchIntro": "Studies of language structure, learning, conversation, signed languages, and language technology. Each entry explains the evidence and its limits, keeping the languages, participants, tasks, and model assumptions attached to the findings."
   }
 ]

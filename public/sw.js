@@ -1,8 +1,7 @@
 /* Learning Guide service worker.
    The app is one HTML file plus icons and web fonts, so offline support is small:
    - precache the shell on install;
-   - serve the shell from cache, then refresh it in the background (stale-while-revalidate),
-     so a new deploy shows up on the next open without ever blocking a load;
+   - fetch current pages online, falling back to the saved copy offline;
    - cache Google Fonts responses on first use so typography survives offline too.
    __BUILD__ is replaced by build.js with a build stamp so each deploy gets a fresh cache. */
 const VERSION = '__BUILD__';
@@ -51,19 +50,28 @@ self.addEventListener('fetch', (event) => {
   // Never substitute the multi-megabyte regular guide for a glasses navigation.
   if (url.pathname === '/glasses' || url.pathname.startsWith('/glasses/')) return;
 
-  // Navigations and the shell: stale-while-revalidate. Any path serves index.html (hash routing).
+  // Online visits must show the latest feed, not yesterday's cached document.
+  // A short timeout preserves usability on an unavailable network.
   const isNav = req.mode === 'navigate';
   const key = isNav ? '/index.html' : url.pathname;
   event.respondWith(
     caches.open(SHELL_CACHE).then(async (cache) => {
       const cached = await cache.match(key);
-      const network = fetch(isNav ? '/index.html' : req).then((res) => {
-        if (res && res.ok) cache.put(key, res.clone());
-        return res;
-      }).catch(() => null);
-      if (cached) { network.catch(() => {}); return isNav ? navigationResponse(cached) : cached; }
-      const res = await network;
-      const fallback = res || (isNav ? (await cache.match('/index.html')) : Response.error());
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 4000);
+      try {
+        const res = await fetch(isNav ? '/index.html' : req, { cache: 'no-cache', signal: controller.signal });
+        if (res.ok) {
+          try { await cache.put(key, res.clone()); } catch {}
+          return isNav ? navigationResponse(res) : res;
+        }
+        if (!cached) return res;
+      } catch {
+        // Use the last successfully fetched document when offline.
+      } finally {
+        clearTimeout(timer);
+      }
+      const fallback = cached || Response.error();
       return isNav ? navigationResponse(fallback) : fallback;
     })
   );

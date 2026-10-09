@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-06",
+    "sourceRead": "https://doi.org/10.1017/S0305000926100920",
+    "decision": "include",
+    "reason": "Read primary corpus methods, coding, results and limitations; useful illustration of conversational repair."
+  },
+  "item": {
+    "id": "children-but-clarifications-2026",
+    "title": "Young Children Use the Discourse Marker “But” to Provide Clarifications in Everyday Conversations",
+    "headline": "When a child says “but,” they may be helping you understand",
+    "authors": "Luis De la Viña, Julia Chunxiao Hu, Paul L. Harris and Samuel Ronfard",
+    "venue": "Journal of Child Language",
+    "year": 2026,
+    "date": "2026-08-10",
+    "url": "https://doi.org/10.1017/S0305000926100920",
+    "doi": "10.1017/S0305000926100920",
+    "topic": "conversational-development",
+    "chapter": "conversation",
+    "summary": "Seven children’s North American English conversations show increasing use of “but” to clarify earlier remarks, especially from age two to three. This small observational study cannot establish what caused the change.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How do children use “but” to clarify their own messages?",
+      "method": "Coded 1,446 uses in longitudinal CHILDES transcripts; analyzed age patterns while accounting for individual children.",
+      "limitations": "Families were predominantly highly educated; transcripts omit gesture, intonation and some shared context."
+    },
+    "explainer": {
+      "finding": "Clarifications often followed adult confusion and supplied information unavailable to the listener.",
+      "method": "Coders distinguished elaborations from other uses, then classified prompting and information access.",
+      "meaning": "A child describing a snowman can add that it had little snow. Such a qualification helps the listener revise their picture.",
+      "limits": "The study examined one English marker. It did not directly measure theory of mind or prove that conversational practice caused development.",
+      "source": "https://doi.org/10.1017/S0305000926100920",
+      "background": "#/linguistics/conversation"
+    }
+  }
+}

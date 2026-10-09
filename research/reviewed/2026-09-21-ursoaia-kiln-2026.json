@@ -1,0 +1,39 @@
+{
+  "subject": "history",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-21",
+    "sourceRead": "https://www.cambridge.org/core/journals/antiquity/article/ursoaia-kiln-northeastern-romania-a-benchmark-for-chalcolithic-specialised-pottery-production/2C2333330A7E0F67463A886477BDB9B9",
+    "decision": "include",
+    "reason": "Read the primary Project Gallery report, methods, dating table, and conclusion."
+  },
+  "item": {
+    "id": "ursoaia-kiln-2026",
+    "title": "The Ursoaia Kiln (north-eastern Romania): a benchmark for Chalcolithic specialised pottery production",
+    "headline": "A prehistoric kiln hints at pottery production beyond the household",
+    "authors": "Diana Măriuca Vornicu and colleagues",
+    "venue": "Antiquity — Project Gallery",
+    "year": 2026,
+    "date": "2026-09-09",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/ursoaia-kiln-northeastern-romania-a-benchmark-for-chalcolithic-specialised-pottery-production/2C2333330A7E0F67463A886477BDB9B9",
+    "doi": "10.15184/aqy.2026.10428",
+    "topic": "archaeology",
+    "chapter": "ancient-origins",
+    "summary": "A large, repeatedly repaired kiln in Romania suggests intensive pottery production about 6,000 years ago. Its size alone cannot establish a community workshop.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "What can kiln construction reveal about prehistoric craft production?",
+      "method": "Magnetic survey, excavation, four radiocarbon dates on associated animal remains, and electron microscopy with elemental analysis.",
+      "limitations": "Reconstructed capacity and temperatures are estimates; workshop organisation remains unresolved."
+    },
+    "explainer": {
+      "finding": "A working surface exceeding seven square metres and repair traces indicate substantial, repeated use.",
+      "method": "Researchers combined the excavated structure with dating and microscopic examination of heat-altered materials.",
+      "meaning": "Removable slabs separated pots from the fire below: damaged components could be replaced between firings.",
+      "limits": "Heat exposure is inferred, not directly measured. Who operated the kiln and distributed its pottery remains uncertain.",
+      "source": "https://www.cambridge.org/core/journals/antiquity/article/ursoaia-kiln-northeastern-romania-a-benchmark-for-chalcolithic-specialised-pottery-production/2C2333330A7E0F67463A886477BDB9B9",
+      "background": "#/history/ancient-origins"
+    }
+  }
+}

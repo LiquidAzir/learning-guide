@@ -28,12 +28,28 @@ For each worthwhile candidate:
    claimed replication or field outcome is actually what the source measures.
 4. Run `node scripts/review-research.mjs research/reviewed/NAME.json` to validate the
    record without changing the feed. Inspect the wording and rendered context.
-5. Apply the reviewed record with `node scripts/review-research.mjs research/reviewed/NAME.json --apply`. This updates
-   local content only. Run editorial checks and inspect the diff. Commit and
-   push only when publication is authorized. Render deploys the committed feed.
+5. Apply completed reviews with `npm run research:apply`. The batch validates
+   every record before writing feeds, rejects cross-subject duplicates, preserves
+   source and first-added dates, and skips unchanged or superseded reviews.
+6. Run `npm test` and `node scripts/check-editorial.mjs`; inspect the diff.
+   Commit only the reviewed records and changed research feeds, then push to
+   `origin/main`. Render deploys that commit. After deployment, build the same
+   commit and run `npm run research:check-live` to compare the actual live items
+   against the committed feeds. A successful push alone is not publication.
 
-The daily task prepares reviewable drafts and reports meaningful results here;
-it does not publish automatically. Each source date keeps its original precision.
+The owner authorized automatic publication of source-reviewed research on
+October 9, 2026. The daily task now discovers, reads, validates, applies, commits,
+pushes and verifies publication; it must not stop at a draft notification.
+At most six new studies per daily run, with attention rotating across subjects.
+Use a clean checkout based on current `origin/main` for releases when the main
+workspace contains other work. Never include unrelated edits or force-push.
+If there is nothing suitable, publish nothing; report a publication gap of seven
+days so a stalled task cannot stay silent. The daily hosted Research freshness
+workflow independently checks the deployed feed and fails on a seven-day gap.
+It is a monitor, not a substitute for reading papers. The local reviewer needs
+the computer and desktop app running; the GitHub monitor does not.
+
+Each source date keeps its original precision.
 `added` records first inclusion in the guide. Do not invent addition dates for
 legacy records or change one when correcting a summary. `verified` records the
 actual source check. Neither a discovery run nor a rebuild advances those dates.

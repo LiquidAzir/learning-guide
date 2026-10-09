@@ -1,0 +1,39 @@
+{
+  "subject": "psychology",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-20",
+    "sourceRead": "https://www.nature.com/articles/s41593-026-02437-3",
+    "decision": "include",
+    "reason": "Read results, experimental procedures, and discussion; teaches network coordination."
+  },
+  "item": {
+    "id": "visual-cortex-consensus-2026",
+    "title": "Reciprocal connections dynamically build consensus between neocortical areas",
+    "headline": "How two mouse visual areas settle into agreement",
+    "authors": "Mitra Javadzadeh, Marine Schimel, Sonja B. Hofer, Yashar Ahmadian and Guillaume Hennequin",
+    "venue": "Nature Neuroscience",
+    "year": 2026,
+    "date": "2026-09-18",
+    "url": "https://www.nature.com/articles/s41593-026-02437-3",
+    "doi": "10.1038/s41593-026-02437-3",
+    "topic": "neuroscience",
+    "chapter": "networks",
+    "summary": "Reanalyzed mouse recordings support models in which communication between visual areas sustains matching activity patterns. A simple visual task cannot establish a general explanation of consciousness.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How do visual areas coordinate their activity?",
+      "method": "Existing recordings and light-based neural suppression; circuit models fitted to seven mice, timing analyses using twelve.",
+      "limitations": "Two mouse areas; sensory, movement, and reward signals overlap."
+    },
+    "explainer": {
+      "finding": "Matching activity patterns persisted longer than conflicting ones, as the circuit models predicted.",
+      "method": "Researchers reanalyzed simultaneous V1 and LM recordings during a rewarded tilted-stripe task, including brief suppression of either area.",
+      "meaning": "Think of recognizing a stripe's tilt: feedback could help separate areas maintain a consistent interpretation.",
+      "limits": "This mechanism remains model-dependent. Broader brain functions and human subjective experience were not tested.",
+      "source": "https://www.nature.com/articles/s41593-026-02437-3",
+      "background": "#/psychology/networks"
+    }
+  }
+}

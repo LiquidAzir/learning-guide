@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -999,6 +999,120 @@
       "verified": "2026-09-03",
       "headline": "Adam adapts gradient updates using estimates of their recent behavior",
       "sourceType": "Conference paper"
+    },
+    {
+      "id": "collafuse-2026",
+      "title": "CollaFuse: Collaborative Diffusion Models",
+      "headline": "Sharing image generation creates a trade-off between local work and information exposure",
+      "authors": "Simeon Allmendinger, Domenique Zipperling, Lukas Struppek, and Niklas Kühl",
+      "venue": "Journal of Artificial Intelligence Research",
+      "year": 2026,
+      "date": "2026-08-27",
+      "doi": "10.1613/jair.1.20934",
+      "url": "https://doi.org/10.1613/jair.1.20934",
+      "topic": "generative-models",
+      "chapter": "generative",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Splitting image denoising between server and clients improved fidelity over independently trained clients in tested settings. Privacy benefits were attack-specific, not guaranteed.",
+      "evidence": {
+        "question": "Can clients share generation work while retaining local specialization?",
+        "method": "Five simulated clients; DDPM, Imagen, and latent-diffusion models on CIFAR-10, CelebA, and Animals-with-Attributes2; independent and pooled baselines.",
+        "limitations": "Selected datasets, architectures, and attacks."
+      },
+      "explainer": {
+        "finding": "More server work favored image fidelity; more local work reduced leakage in the tested attacks.",
+        "method": "Researchers varied where denoising changed hands, measuring image quality, attribute inference, and reconstruction attacks.",
+        "meaning": "A server can start generating an image that a local model finishes. Moving that handoff changes both local effort and what shared intermediate images reveal.",
+        "limits": "The system assumes an honest server and trustworthy training participants. Tested attacks do not establish formal privacy; malicious training and stronger adversaries remain concerns.",
+        "source": "https://arxiv.org/html/2406.14429v5",
+        "background": "#/ai/generative"
+      },
+      "verified": "2026-09-15",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-15",
+        "sourceRead": "https://arxiv.org/html/2406.14429v5",
+        "decision": "include",
+        "reason": "Reviewed the August 27 author version bearing the journal DOI: algorithms, benchmark protocol, results, and limitations."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "nationality-image-scores-2026",
+      "title": "Text-to-Image Models and Their Representation of People from Different Nationalities Engaging in Activities",
+      "headline": "A high image score can miss an awkward stereotype",
+      "authors": "Abdulkareem Alsudais",
+      "venue": "arXiv, version 5",
+      "year": 2026,
+      "date": "2026-04-11",
+      "url": "https://arxiv.org/abs/2504.06313v5",
+      "doi": "10.48550/arXiv.2504.06313",
+      "topic": "image-evaluation",
+      "chapter": "evaluating-models",
+      "summary": "Image scorers often rewarded nationality-linked clothing even when unsuitable for the activity. This manuscript tests specific models and prompts, not current products generally.",
+      "sourceType": "Preprint or working paper",
+      "status": "preliminary",
+      "evidence": {
+        "question": "Does matching a prompt ensure an appropriate depiction?",
+        "method": "Manually labeled 2,060 DALL-E 3/Gemini 3 Pro Preview images: 206 nationalities, five activities; compared scores across caption variants.",
+        "limitations": "One image per combination; subjective clothing labels; generations collected at different times in 2025."
+      },
+      "explainer": {
+        "finding": "Across both generators, 15.9% of soccer/jogging images had clothing labeled impractical.",
+        "method": "CLIP, an open-source ALIGN implementation, and GPT-4.1 mini evaluated image–caption matches.",
+        "meaning": "A soccer scene can score well for matching a nationality cue while dressing players unsuitably: relevance and appropriateness need separate checks.",
+        "limits": "Traditional clothing is not inherently inappropriate. Scores do not measure community preferences; this comparison does not isolate causes.",
+        "source": "https://arxiv.org/abs/2504.06313v5",
+        "background": "#/ai/evaluating-models"
+      },
+      "verified": "2026-10-02",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-02",
+        "sourceRead": "https://arxiv.org/pdf/2504.06313v5",
+        "decision": "include",
+        "reason": "Reviewed v5 methods, results, and limitations; journal-version equivalence remains unverified."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "multiple-translation-teachers-2026",
+      "title": "Multi-Hypothesis Distillation of Multilingual Neural Translation Models for Low-Resource Languages",
+      "headline": "A smaller translator can learn more from several possible answers",
+      "authors": "Aarón Galiano-Jiménez, Juan Antonio Pérez-Ortiz, Felipe Sánchez-Martínez and Víctor M. Sánchez-Cartagena",
+      "venue": "Journal of Artificial Intelligence Research",
+      "year": 2026,
+      "date": "2026-09-28",
+      "url": "https://jair.org/index.php/jair/article/view/22534",
+      "doi": "10.1613/jair.1.22534",
+      "topic": "knowledge-distillation",
+      "chapter": "transformers",
+      "summary": "Training a smaller translation model on several outputs from a larger teacher improved benchmark scores over using one translation per sentence. The tests covered English, Swahili, Igbo and Bambara; more examples also meant more training work.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Does copying several plausible translations transfer more useful knowledge than copying only the teacher's preferred answer?",
+        "method": "NLLB-200 1.3B/3.3B and EMMA-500 8B teachers supplied synthetic translations for 65M-parameter students; another comparison distilled EMMA into Llama-3.2 1B. FLORES+ tests primarily used chrF++, with BLEU and selected COMET checks. Baselines included single-output, token-distribution and student-generated-output distillation.",
+        "limitations": "Four languages and selected translation directions; automatic scores do not establish reliable everyday communication. Comparisons use different amounts of generated training data, not equal compute budgets."
+      },
+      "explainer": {
+        "finding": "Several alternative translations often taught more than one high-scoring answer. Sampling useful alternatives was especially helpful with limited source text; the best generation method depended on the language pair and corpus size.",
+        "method": "The authors varied both the number of teacher translations and how they were chosen, then trained and compared smaller models. Main NLLB comparisons averaged three runs. Additional experiments tested larger corpora and a pre-trained Llama student.",
+        "meaning": "For example, one English sentence can supply several Swahili training examples instead of a single wording. This gives the student more ways to continue a sentence—a practical reason that the best answer to display may differ from the best set of examples to learn from.",
+        "limits": "Ten alternatives enlarge the dataset. In one Llama setup, an epoch took 9.5 hours versus 0.99 hours for single-output training. Benefits outside these languages remain untested, and improvements in bias or hallucination proxies are not guarantees of faithful translation.",
+        "source": "https://jair.org/index.php/jair/article/download/22534/27369",
+        "background": "#/ai/transformers/transformers-what-happens-when-a-model-predicts-a-word"
+      },
+      "verified": "2026-10-09",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-09",
+        "sourceRead": "https://jair.org/index.php/jair/article/download/22534/27369",
+        "decision": "include",
+        "reason": "Read the published paper's methods, main comparisons, efficiency analysis and limitations. It teaches how diverse synthetic examples can improve model compression, while preserving language boundaries and added training cost. Publisher date verified; the earlier 2025 preprint lacks the final paper's LLM experiments."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

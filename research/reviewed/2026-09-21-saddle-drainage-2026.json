@@ -1,0 +1,39 @@
+{
+  "subject": "physics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-21",
+    "sourceRead": "https://arxiv.org/html/2606.11881v2",
+    "decision": "include",
+    "reason": "Read version 2 methods, results, limits, and experimental supplement. Journal DOI 10.1103/6dfx-zb87 was inaccessible; draft explicitly covers the preprint revision."
+  },
+  "item": {
+    "id": "saddle-drainage-2026",
+    "title": "Thin-film drainage becomes singular at saddles",
+    "headline": "A smooth saddle can leave a ridge in a draining coating",
+    "authors": "Simeon Djambov, Alice Marcotte, François Gallaire and Pier Giuseppe Ledda",
+    "venue": "arXiv, version 2",
+    "year": 2026,
+    "date": "2026-09-14",
+    "url": "https://arxiv.org/abs/2606.11881v2",
+    "doi": "10.48550/arXiv.2606.11881",
+    "topic": "fluid-dynamics",
+    "chapter": "motion",
+    "summary": "Silicone-oil experiments and models show how saddle curvature concentrates a draining film into a ridge. This preprint concerns simple viscous fluids, not every coating material.",
+    "sourceType": "Preprint or working paper",
+    "status": "preliminary",
+    "evidence": {
+      "question": "Can smooth curvature alone produce uneven drainage?",
+      "method": "Imaging on three printed saddle sizes, numerical simulations, and thin-film theory.",
+      "limitations": "Controlled geometry and Newtonian fluids; journal version unverified."
+    },
+    "explainer": {
+      "finding": "Liquid converges along one direction and escapes along another. The ridge still thins, but more slowly than its surroundings.",
+      "method": "Measured thickness profiles were compared with simulations and mathematical predictions.",
+      "meaning": "A curved mould could acquire uneven coverage even without scratches or sharp corners.",
+      "limits": "Pressure and surface tension keep the physical thickness finite. Paints with more complex flow behaviour need further study.",
+      "source": "https://arxiv.org/html/2606.11881v2",
+      "background": "#/physics/motion"
+    }
+  }
+}

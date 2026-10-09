@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -927,6 +927,82 @@
       "verified": "2026-09-01",
       "headline": "Rubin begins sending alerts about changes in the night sky",
       "sourceType": "Announcement"
+    },
+    {
+      "id": "saddle-drainage-2026",
+      "title": "Thin-film drainage becomes singular at saddles",
+      "headline": "A smooth saddle can leave a ridge in a draining coating",
+      "authors": "Simeon Djambov, Alice Marcotte, François Gallaire and Pier Giuseppe Ledda",
+      "venue": "arXiv, version 2",
+      "year": 2026,
+      "date": "2026-09-14",
+      "url": "https://arxiv.org/abs/2606.11881v2",
+      "doi": "10.48550/arXiv.2606.11881",
+      "topic": "fluid-dynamics",
+      "chapter": "motion",
+      "summary": "Silicone-oil experiments and models show how saddle curvature concentrates a draining film into a ridge. This preprint concerns simple viscous fluids, not every coating material.",
+      "sourceType": "Preprint or working paper",
+      "status": "preliminary",
+      "evidence": {
+        "question": "Can smooth curvature alone produce uneven drainage?",
+        "method": "Imaging on three printed saddle sizes, numerical simulations, and thin-film theory.",
+        "limitations": "Controlled geometry and Newtonian fluids; journal version unverified."
+      },
+      "explainer": {
+        "finding": "Liquid converges along one direction and escapes along another. The ridge still thins, but more slowly than its surroundings.",
+        "method": "Measured thickness profiles were compared with simulations and mathematical predictions.",
+        "meaning": "A curved mould could acquire uneven coverage even without scratches or sharp corners.",
+        "limits": "Pressure and surface tension keep the physical thickness finite. Paints with more complex flow behaviour need further study.",
+        "source": "https://arxiv.org/html/2606.11881v2",
+        "background": "#/physics/motion"
+      },
+      "verified": "2026-09-21",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-21",
+        "sourceRead": "https://arxiv.org/html/2606.11881v2",
+        "decision": "include",
+        "reason": "Read version 2 methods, results, limits, and experimental supplement. Journal DOI 10.1103/6dfx-zb87 was inaccessible; draft explicitly covers the preprint revision."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "nanoparticle-flow-2026",
+      "title": "Multiscale transitional flow in anisotropic nanoparticle suspensions revealed by time-resolved X-ray scatter microscopy",
+      "headline": "Tiny particles do not always follow a liquid's larger waves",
+      "authors": "Kesavan Sekar and colleagues",
+      "venue": "Nature Physics",
+      "year": 2026,
+      "date": "2026-09-29",
+      "url": "https://www.nature.com/articles/s41567-026-03467-1",
+      "doi": "10.1038/s41567-026-03467-1",
+      "topic": "complex-fluids",
+      "chapter": "matter",
+      "summary": "Graphene-oxide platelets tracked large vortex waves; cellulose rods showed faster orientation changes. These laboratory suspensions do not establish a rule for every complex fluid.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Does particle alignment track bulk flow?",
+        "method": "Polarized-light imaging and X-ray scattering in suspensions between rotating-inner and stationary-outer cylinders.",
+        "limitations": "Measurements capture averaged orientation projections, not individual trajectories."
+      },
+      "explainer": {
+        "finding": "The rods' faster signal correlated with circulation within vortices rather than their larger waving motion.",
+        "method": "Researchers compared frequency patterns from optical videos and X-ray measurements at 14 positions.",
+        "meaning": "For example, watching waves in a cellulose suspension would miss its rods' faster reorientation.",
+        "limits": "A simple model loses the signal when realistic rotational diffusion is included. Particle interactions may sustain it, but the mechanism remains unresolved.",
+        "source": "https://www.nature.com/articles/s41567-026-03467-1",
+        "background": "#/physics/matter"
+      },
+      "verified": "2026-09-30",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-30",
+        "sourceRead": "https://www.nature.com/articles/s41567-026-03467-1",
+        "decision": "include",
+        "reason": "Read experiments, analysis, and model limits; teaches why bulk flow can conceal particle dynamics."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

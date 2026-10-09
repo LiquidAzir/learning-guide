@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-08",
+    "sourceRead": "https://www.nature.com/articles/s41467-026-70608-8",
+    "decision": "include",
+    "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+  },
+  "item": {
+    "id": "semantic-variation-2026",
+    "title": "Semantic similarity across languages reflects neurocognitive dimensions shaped by climate",
+    "headline": "Word-meaning patterns vary across languages and correlate with environment",
+    "authors": "Ze Fu et al.",
+    "venue": "Nature Communications",
+    "year": 2026,
+    "date": "2026-03-16",
+    "doi": "10.1038/s41467-026-70608-8",
+    "url": "https://www.nature.com/articles/s41467-026-70608-8",
+    "topic": "meaning",
+    "chapter": "meaning",
+    "summary": "Text representations and human ratings showed shared semantic dimensions and variation associated with climate. Corpus composition, translation mappings, and sampling limit causal and population-wide interpretations.",
+    "evidence": {
+      "question": "How do semantic similarities vary across languages?",
+      "method": "Word embeddings from 53 languages, ratings from eight languages, and exploratory brain-data analysis.",
+      "limitations": "Observational comparisons; imperfect translation equivalence and limited neural samples."
+    },
+    "explainer": {
+      "finding": "The analyzed languages shared dimensions of meaning, while variation along them correlated with environmental measures.",
+      "method": "Researchers compared computational word representations, speakers’ ratings, and exploratory brain data.",
+      "meaning": "Dictionary equivalents need not carry identical associations. Comparing several measures helps investigate what is shared and what a translation may leave behind.",
+      "limits": "The associations do not establish that climate causes an individual’s thinking. Text coverage and translation choices matter, and the small neural samples need replication.",
+      "source": "https://www.nature.com/articles/s41467-026-70608-8",
+      "background": "#/linguistics/meaning"
+    },
+    "sourceType": "Journal publication",
+    "status": "reported"
+  }
+}

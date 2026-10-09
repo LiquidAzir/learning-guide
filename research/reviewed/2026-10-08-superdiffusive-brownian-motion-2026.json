@@ -1,0 +1,39 @@
+{
+  "subject": "mathematics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-08",
+    "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01455-z",
+    "decision": "include",
+    "reason": "Read Theorem A, Assumption 1.1 and the proof outline; distinguish a mathematical result from measurements. Not an independent audit of every proof. Journal date verified; preprint first appeared in 2024."
+  },
+  "item": {
+    "id": "superdiffusive-brownian-motion-2026",
+    "title": "Superdiffusive central limit theorem for a Brownian particle in a critically-correlated incompressible random drift",
+    "headline": "When random motion spreads faster than ordinary diffusion",
+    "authors": "Scott Armstrong, Ahmed Bou-Rabee and Tuomo Kuusi",
+    "venue": "Inventiones mathematicae",
+    "year": 2026,
+    "date": "2026-10-05",
+    "url": "https://link.springer.com/article/10.1007/s00222-026-01455-z",
+    "doi": "10.1007/s00222-026-01455-z",
+    "topic": "probability-and-random-motion",
+    "chapter": "probability",
+    "summary": "A theorem shows how correlated currents increase a randomly moving particle’s spread. Its mean squared displacement grows like t × √(log t), rather than t, under specific assumptions about the flow.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How does persistent spatial correlation change diffusion?",
+      "method": "Mathematical proof tracking effective diffusivity across increasingly large scales.",
+      "limitations": "Requires a stationary incompressible field in at least two dimensions, with the symmetry, regularity, independence and nondegeneracy conditions of Assumption 1.1."
+    },
+    "explainer": {
+      "finding": "Zoom out using the new scale, and the path approaches Brownian motion—the random jitter familiar from diffusion. This holds for almost every individual flow drawn from the model.",
+      "method": "The authors replace small-scale flow details with simpler effective equations, controlling the approximation error at each step. This is a proof, not a simulation.",
+      "meaning": "Imagine a tracer buffeted by small random kicks and carried by currents at many scales. Larger currents keep adding to its spread. The formula concerns squared distance, not distance itself.",
+      "limits": "This is a long-time theorem for a specified model, not a laboratory test or a universal rule for rivers or turbulence.",
+      "source": "https://link.springer.com/article/10.1007/s00222-026-01455-z",
+      "background": "#/mathematics/probability/probability-distributions"
+    }
+  }
+}

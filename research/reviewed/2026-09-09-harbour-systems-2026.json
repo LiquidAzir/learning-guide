@@ -1,0 +1,39 @@
+{
+  "subject": "history",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-09",
+    "sourceRead": "https://www.cambridge.org/core/journals/antiquity/article/beyond-the-mole-redefining-harbour-capacity-for-the-ancient-mediterranean/571AA8546D09CF5E630A4C03C54FA55E",
+    "decision": "include",
+    "reason": "Teaches how measurement boundaries affect historical inference; explicitly an ongoing project report."
+  },
+  "item": {
+    "id": "harbour-systems-2026",
+    "title": "Beyond the mole: redefining harbour capacity for the ancient Mediterranean",
+    "headline": "Ancient ports extended beyond their surviving harbour walls",
+    "authors": "Emmanuel Nantet, Matthieu Giaime, and Michael Lazar",
+    "venue": "Antiquity — Project Gallery",
+    "year": 2026,
+    "date": "2026-08-28",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/beyond-the-mole-redefining-harbour-capacity-for-the-ancient-mediterranean/571AA8546D09CF5E630A4C03C54FA55E",
+    "doi": "10.15184/aqy.2026.10424",
+    "topic": "archaeology",
+    "chapter": "ancient-roman-empire",
+    "summary": "A project report combines harbour basins with nearby anchorage to reassess usable capacity. Reconstructed space is not measured cargo throughput, and fieldwork continues.",
+    "sourceType": "Journal publication",
+    "status": "preliminary",
+    "evidence": {
+      "question": "What should count when estimating an ancient port’s capacity?",
+      "method": "Comparative archaeological, sediment, mooring, and geophysical evidence across Mediterranean settings.",
+      "limitations": "Uneven preservation, reconstructed depths, and unverified survey anomalies."
+    },
+    "explainer": {
+      "finding": "Nearby bays and anchorage zones can materially change estimates based only on enclosed basins.",
+      "method": "Researchers combine coastal reconstruction, mooring evidence, and land and marine surveys.",
+      "meaning": "Counting only surviving quays resembles measuring a station by its waiting room: the boundary can miss essential operating space.",
+      "limits": "This is an ongoing project’s methodological report, not a finished numerical ranking or direct measurement of ancient trade volumes.",
+      "source": "https://www.cambridge.org/core/journals/antiquity/article/beyond-the-mole-redefining-harbour-capacity-for-the-ancient-mediterranean/571AA8546D09CF5E630A4C03C54FA55E",
+      "background": "#/history/ancient-roman-empire"
+    }
+  }
+}

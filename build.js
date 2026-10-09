@@ -272,7 +272,20 @@ const pwaHead = [
   '<meta name="apple-mobile-web-app-status-bar-style" content="default">',
   '<meta name="apple-mobile-web-app-title" content="Learning Guide">',
 ].join('\n');
-const swRegister = `<script>if ('serviceWorker' in navigator && location.protocol !== 'file:') { addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => {})); }</script>`;
+const swRegister = `<script>
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (hadController && !reloading) { reloading = true; location.reload(); }
+  });
+  addEventListener('load', () => navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' }).then(registration => {
+    document.addEventListener('visibilitychange', () => {
+      if (!document.hidden) registration.update().catch(() => {});
+    });
+  }).catch(() => {}));
+}
+</script>`;
 const standalone = `<!doctype html>
 <html lang="en">
 <head>

@@ -1,0 +1,39 @@
+{
+  "subject": "politics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-26",
+    "sourceRead": "https://www.cambridge.org/core/journals/american-political-science-review/article/imperial-aid-and-tax-mobilization-in-late-colonial-africa/E6C44CED9FB58AA1CCC9672A90E365C5",
+    "decision": "include",
+    "reason": "Read archival design, regression results, identification assumptions, recruitment comparisons, and conclusion. Teaches administrative incentives with explicit causal limits."
+  },
+  "item": {
+    "id": "imperial-aid-taxation-2026",
+    "title": "Imperial Aid and Tax Mobilization in Late Colonial Africa",
+    "headline": "Aid and tax collection: why administrators mattered",
+    "authors": "Didac Queralt",
+    "venue": "American Political Science Review",
+    "year": 2026,
+    "date": "2026-09-21",
+    "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/imperial-aid-and-tax-mobilization-in-late-colonial-africa/E6C44CED9FB58AA1CCC9672A90E365C5",
+    "doi": "10.1017/S0003055426101919",
+    "topic": "bureaucratic-incentives",
+    "chapter": "bureaucracy",
+    "summary": "In 12 British African colonies, aid was more strongly associated with tax collection under career governors. Higher revenue does not establish improved welfare.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "When did development aid encourage local taxation?",
+      "method": "Archival grant records, annual tax regressions, and an instrumental-variable analysis using British financial shocks interacting with aid commitments.",
+      "limitations": "The instrument assumes shocks affect taxes through aid; governor selection was not random."
+    },
+    "explainer": {
+      "finding": "Aid–tax relationships differed with governors' recruitment and career backgrounds.",
+      "method": "The researcher compared administrations and used disbursement fluctuations to investigate causation; the instrumental estimate met a 90%, not 95%, significance threshold.",
+      "meaning": "For example, a project requiring local cofunding gives administrators a reason to collect taxes—if their incentives support that requirement.",
+      "limits": "This colonial setting does not establish that similar arrangements improve welfare or work in today's aid programmes.",
+      "source": "https://www.cambridge.org/core/journals/american-political-science-review/article/imperial-aid-and-tax-mobilization-in-late-colonial-africa/E6C44CED9FB58AA1CCC9672A90E365C5",
+      "background": "#/politics/bureaucracy"
+    }
+  }
+}

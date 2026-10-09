@@ -2,7 +2,7 @@
 
 A general-purpose learning web app. Each subject is a set of Markdown chapters compiled into one self-contained HTML page that works on phones and desktops, offline, with no server.
 
-Eleven subjects, each with its own chapters, cited sources, and a separately maintained research feed:
+Twelve subjects, each with its own chapters, cited sources, and a separately maintained research feed:
 
 | Subject | Chapters | Words | Sources | Research entries |
 |---|---|---|---|---|
@@ -17,8 +17,9 @@ Eleven subjects, each with its own chapters, cited sources, and a separately mai
 | Psychology and Cognitive Science | 14 | ~9,600 | 21 | 7 |
 | Engineering and How Things Work | 14 | ~8,700 | 14 | 7 |
 | Political Science and Institutions | 14 | ~8,900 | 14 | 6 |
+| Language and Linguistics | 14 | ~11,000 | 24 | 6 |
 
-The three new subjects include 33 worked practice questions. Psychology incorporates neuroscience, sleep, competing consciousness theories, and brain decoding. Engineering follows forces, energy, control, manufacture, and reliability. Political science emphasizes institutions and methods; its feed excludes campaign coverage, daily polling, punditry, and party messaging. See [research selection policy](RESEARCH_POLICY.md) for the inclusion criteria and source requirements.
+The four newer subjects include 44 worked practice questions. Psychology incorporates neuroscience, sleep, competing consciousness theories, and brain decoding. Engineering follows forces, energy, control, manufacture, and reliability. Political science emphasizes institutions and methods; its feed excludes campaign coverage, daily polling, punditry, and party messaging. Linguistics covers sounds, morphology, syntax, meaning, conversation, acquisition, variation, change, signed and written language, and language technology. See [research selection policy](RESEARCH_POLICY.md) for the inclusion criteria and source requirements.
 
 ## Quick start
 
@@ -60,7 +61,7 @@ dist/
 
 ## Writing chapters
 
-Follow [the editorial style guide](EDITORIAL_STYLE.md) for voice, worked examples, evidence, and reference entries. The 188 core chapters include a short application question with an expandable answer; the introductory and reference chapters serve different purposes.
+Follow [the editorial style guide](EDITORIAL_STYLE.md) for voice, worked examples, evidence, and reference entries. The 199 core chapters include a short application question with an expandable answer; the introductory and reference chapters serve different purposes.
 
 A chapter is a Markdown file with a frontmatter block:
 
@@ -89,9 +90,11 @@ Supported inside chapters:
 
 `#/daily` lets readers choose subjects, continue a chapter, and browse up to five unread research entries distributed across those interests. Subject priority rotates by local calendar day. Older papers are labeled as archive reading; no new paper is fabricated to fill a day. Readers explicitly mark entries read and can refresh their selection. Saved entries appear regardless of followed subjects. These preferences use separate browser storage from existing chapter progress and bookmarks.
 
-The three newer subjects include 33 optional worked sections, adding about 10,700 words. Contents and search links open the relevant section; printing includes the deeper text. There are 29 four-part research explainers across all eleven subjects, each with a primary source and background link. Earlier entries without explainers retain their summaries; all new reviewed entries require the structured format.
+The four newer subjects include 44 optional worked sections. Contents and search links open the relevant section; printing includes the deeper text. There are 35 four-part research explainers across all twelve subjects, each with a primary source and background link. Earlier entries without explainers retain their summaries; all new reviewed entries require the structured format.
 
-Discovery samples 22 selected journals through Crossref, with the configuration in `research/sources.json`. Run `npm run research:discover`; unreviewed results and failures are written only to `.research/`. A daily Codex heartbeat on the maintainer’s machine is scheduled for 7 a.m. local time to discover and review candidates. It prepares drafts and reports meaningful changes here; it does not automatically publish. This schedule belongs to the Codex task, not to the Render website or a cloned repository.
+Discovery samples 24 selected journals through Crossref, with the configuration in `research/sources.json`. Run `npm run research:discover`; unreviewed results and failures are written only to `.research/`. The daily Codex task at 7 a.m. America/Los_Angeles discovers, reads and reviews primary sources, applies qualifying records, runs checks, commits and pushes only the research changes, and verifies the Render deployment. The owner authorized automatic publication on October 9, 2026. There is no quota and no automatic import of abstracts. This local task requires the computer and desktop app to be running.
+
+`npm run research:apply` validates all completed reviews and applies only changes; repeat runs do not advance dates or create duplicates. `npm run research:check-live` verifies that committed items match production and that at least one published source review is less than seven days old. The hosted `Research freshness` GitHub Actions workflow runs this check daily even when the local computer is off; failures appear in Actions and follow the repository's notification settings. It also validates builds, tests and applied reviews on pushes. A quiet research week should trigger inspection, not fabricated content.
 
 See [the review workflow](research/REVIEW.md) for source review, validation, and applying a draft locally. Reviewed examples are retained in `research/reviewed/`. Publication requires the normal commit/push/deploy step. New entries show separate publication and addition dates; unknown historical addition dates remain absent.
 

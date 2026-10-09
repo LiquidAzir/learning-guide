@@ -1,0 +1,39 @@
+{
+  "subject": "history",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-28",
+    "sourceRead": "https://www.cambridge.org/core/journals/antiquity/article/unpacking-roman-trade-a-quantitative-study-of-amphora-circulation-in-the-western-provinces/77A31AA8A0733DB0FBFD09B9D55A0759",
+    "decision": "include",
+    "reason": "Read collection, standardization, dating assumptions, results, and alternative explanations. Teaches how archaeological proxies reveal—and obscure—trade."
+  },
+  "item": {
+    "id": "roman-amphora-trade-2026",
+    "title": "Unpacking Roman trade: a quantitative study of amphora circulation in the Western provinces",
+    "headline": "Roman shipping jars trace changing food trade",
+    "authors": "Cèsar Carreras, Tom Brughmans, Pau de Soto Cañamares, and Daniel Blumenkranz",
+    "venue": "Antiquity",
+    "year": 2026,
+    "date": "2026-09-24",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/unpacking-roman-trade-a-quantitative-study-of-amphora-circulation-in-the-western-provinces/77A31AA8A0733DB0FBFD09B9D55A0759",
+    "doi": "10.15184/aqy.2026.10429",
+    "topic": "ancient-trade",
+    "chapter": "ancient-roman-empire",
+    "summary": "Shipping jars from 216 western Roman sites reveal changing trade in wine, oil, and fish sauce. Fewer surviving jars need not mean less commerce.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How did Roman food distribution change?",
+      "method": "Compared 20 amphora types across 254 excavations, standardizing by excavated area and distributing uncertain dates across their possible years.",
+      "limitations": "Uneven site coverage, selected vessel types, and uniform dating assumptions shape the patterns."
+    },
+    "explainer": {
+      "finding": "The sampled jars show an early imperial peak and later regional differences in imports.",
+      "method": "Researchers compared vessel densities, site counts, and type diversity over time.",
+      "meaning": "An olive-oil jar made in southern Spain and found in Britain helps reconstruct a long-distance supply connection.",
+      "limits": "Barrels and skins leave different traces. Packaging changes or local production could partly explain declining amphora imports; jars do not measure the whole economy.",
+      "source": "https://www.cambridge.org/core/journals/antiquity/article/unpacking-roman-trade-a-quantitative-study-of-amphora-circulation-in-the-western-provinces/77A31AA8A0733DB0FBFD09B9D55A0759",
+      "background": "#/history/ancient-roman-empire"
+    }
+  }
+}

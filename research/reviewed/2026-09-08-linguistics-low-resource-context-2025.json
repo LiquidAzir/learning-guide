@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-08",
+    "sourceRead": "https://aclanthology.org/2025.emnlp-main.1502/",
+    "decision": "include",
+    "reason": "Primary methods, results, and limitations reviewed for this language-learning collection."
+  },
+  "item": {
+    "id": "low-resource-context-2025",
+    "title": "It’s All About In-Context Learning! Teaching Extremely Low-Resource Languages to LLMs",
+    "headline": "Language and script coverage change which model-adaptation methods help",
+    "authors": "Yue Li, Zhixue Zhao, and Carolina Scarton",
+    "venue": "EMNLP 2025",
+    "year": 2025,
+    "date": "2025-11",
+    "doi": "10.18653/v1/2025.emnlp-main.1502",
+    "url": "https://aclanthology.org/2025.emnlp-main.1502/",
+    "topic": "language-technology",
+    "chapter": "frontier",
+    "sourceType": "Conference paper",
+    "summary": "Across 20 underrepresented languages and three multilingual models, adaptation results varied with language and script coverage. Contextual alignment helped in especially underrepresented settings, but the tested models and datasets constrain the conclusion.",
+    "evidence": {
+      "question": "How can models adapt to languages poorly represented in training?",
+      "method": "Comparisons of contextual prompting, language alignment, and parameter-efficient fine-tuning.",
+      "limitations": "Selected models and sizes, limited parallel data, and task-specific evaluation."
+    },
+    "explainer": {
+      "finding": "No adaptation method was best across every tested language and script situation.",
+      "method": "Researchers compared methods across 20 languages using three multilingual models, including alignment information supplied in context.",
+      "meaning": "A language poorly represented in training may need a different approach from one with more digital data. Choosing a method requires checking its actual language coverage.",
+      "limits": "The findings concern the tested configurations and tasks. They do not show general fluency, reliable conversation, or that prompting always beats additional training.",
+      "source": "https://aclanthology.org/2025.emnlp-main.1502/",
+      "background": "#/linguistics/frontier"
+    },
+    "status": "reported"
+  }
+}

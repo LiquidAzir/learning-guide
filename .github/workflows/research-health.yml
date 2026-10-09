@@ -1,0 +1,33 @@
+name: Research freshness
+on:
+  schedule:
+    # Hosted check still runs when the maintainer's computer is off.
+    - cron: '43 16 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+concurrency:
+  group: research-health-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: node scripts/check-editorial.mjs
+      - name: Ensure reviewed drafts reached the committed feeds
+        run: |
+          npm run research:apply
+          git diff --exit-code -- 'content/*/research.json'
+      - name: Verify live publication and seven-day freshness
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: npm run research:check-live

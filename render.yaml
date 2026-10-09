@@ -8,6 +8,15 @@ services:
     staticPublishPath: dist
     pullRequestPreviewsEnabled: false
     headers:
+      - path: /
+        name: Cache-Control
+        value: no-cache
+      - path: /data.json
+        name: Cache-Control
+        value: no-cache
+      - path: /glasses/*
+        name: Cache-Control
+        value: no-cache
       - path: /sw.js
         name: Cache-Control
         value: no-cache

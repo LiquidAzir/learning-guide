@@ -1,0 +1,39 @@
+{
+  "subject": "ai",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-15",
+    "sourceRead": "https://arxiv.org/html/2406.14429v5",
+    "decision": "include",
+    "reason": "Reviewed the August 27 author version bearing the journal DOI: algorithms, benchmark protocol, results, and limitations."
+  },
+  "item": {
+    "id": "collafuse-2026",
+    "title": "CollaFuse: Collaborative Diffusion Models",
+    "headline": "Sharing image generation creates a trade-off between local work and information exposure",
+    "authors": "Simeon Allmendinger, Domenique Zipperling, Lukas Struppek, and Niklas Kühl",
+    "venue": "Journal of Artificial Intelligence Research",
+    "year": 2026,
+    "date": "2026-08-27",
+    "doi": "10.1613/jair.1.20934",
+    "url": "https://doi.org/10.1613/jair.1.20934",
+    "topic": "generative-models",
+    "chapter": "generative",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Splitting image denoising between server and clients improved fidelity over independently trained clients in tested settings. Privacy benefits were attack-specific, not guaranteed.",
+    "evidence": {
+      "question": "Can clients share generation work while retaining local specialization?",
+      "method": "Five simulated clients; DDPM, Imagen, and latent-diffusion models on CIFAR-10, CelebA, and Animals-with-Attributes2; independent and pooled baselines.",
+      "limitations": "Selected datasets, architectures, and attacks."
+    },
+    "explainer": {
+      "finding": "More server work favored image fidelity; more local work reduced leakage in the tested attacks.",
+      "method": "Researchers varied where denoising changed hands, measuring image quality, attribute inference, and reconstruction attacks.",
+      "meaning": "A server can start generating an image that a local model finishes. Moving that handoff changes both local effort and what shared intermediate images reveal.",
+      "limits": "The system assumes an honest server and trustworthy training participants. Tested attacks do not establish formal privacy; malicious training and stronger adversaries remain concerns.",
+      "source": "https://arxiv.org/html/2406.14429v5",
+      "background": "#/ai/generative"
+    }
+  }
+}

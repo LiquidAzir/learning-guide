@@ -1,0 +1,39 @@
+{
+  "subject": "biology",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-09",
+    "sourceRead": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003982",
+    "decision": "include",
+    "reason": "A useful null result explaining how shared timing can create a spurious physiological association."
+  },
+  "item": {
+    "id": "breathing-readiness-reanalysis-2026",
+    "title": "No evidence for modulation of the readiness potential by respiratory phase during natural breathing",
+    "headline": "A shared timing reference can create an apparent breathing–brain link",
+    "authors": "Lucas Jeay-Bizot, Raniyah Chishti, Uri Maoz, and Aaron Schurger",
+    "venue": "PLOS Biology",
+    "year": 2026,
+    "date": "2026-09-02",
+    "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003982",
+    "doi": "10.1371/journal.pbio.3003982",
+    "topic": "neuroscience",
+    "chapter": "brain",
+    "summary": "Controlling for movement timing removed an apparent link between breathing phase and the pre-movement readiness potential. The result concerns natural breathing in the tested tasks.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Does breathing phase modulate the readiness potential?",
+      "method": "Reanalysis of 52 participants, new recordings from 17, and simulations without direct coupling.",
+      "limitations": "Task-specific findings; instructed breathing is a different condition."
+    },
+    "explainer": {
+      "finding": "The apparent relationship disappeared with grouping that controlled for movement timing.",
+      "method": "Researchers compared original, new, and simulated data using alternative analyses.",
+      "meaning": "Two signals synchronized to the same event can appear linked to each other. Checking that shared reference can distinguish a statistical artifact from a direct physiological relationship.",
+      "limits": "This does not rule out other breathing–brain relationships or settle free-will debates. The publisher currently labels the article an uncorrected proof.",
+      "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003982",
+      "background": "#/biology/brain"
+    }
+  }
+}

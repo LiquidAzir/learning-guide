@@ -1,0 +1,39 @@
+{
+  "subject": "physics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-30",
+    "sourceRead": "https://www.nature.com/articles/s41567-026-03467-1",
+    "decision": "include",
+    "reason": "Read experiments, analysis, and model limits; teaches why bulk flow can conceal particle dynamics."
+  },
+  "item": {
+    "id": "nanoparticle-flow-2026",
+    "title": "Multiscale transitional flow in anisotropic nanoparticle suspensions revealed by time-resolved X-ray scatter microscopy",
+    "headline": "Tiny particles do not always follow a liquid's larger waves",
+    "authors": "Kesavan Sekar and colleagues",
+    "venue": "Nature Physics",
+    "year": 2026,
+    "date": "2026-09-29",
+    "url": "https://www.nature.com/articles/s41567-026-03467-1",
+    "doi": "10.1038/s41567-026-03467-1",
+    "topic": "complex-fluids",
+    "chapter": "matter",
+    "summary": "Graphene-oxide platelets tracked large vortex waves; cellulose rods showed faster orientation changes. These laboratory suspensions do not establish a rule for every complex fluid.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Does particle alignment track bulk flow?",
+      "method": "Polarized-light imaging and X-ray scattering in suspensions between rotating-inner and stationary-outer cylinders.",
+      "limitations": "Measurements capture averaged orientation projections, not individual trajectories."
+    },
+    "explainer": {
+      "finding": "The rods' faster signal correlated with circulation within vortices rather than their larger waving motion.",
+      "method": "Researchers compared frequency patterns from optical videos and X-ray measurements at 14 positions.",
+      "meaning": "For example, watching waves in a cellulose suspension would miss its rods' faster reorientation.",
+      "limits": "A simple model loses the signal when realistic rotational diffusion is included. Particle interactions may sustain it, but the mechanism remains unresolved.",
+      "source": "https://www.nature.com/articles/s41567-026-03467-1",
+      "background": "#/physics/matter"
+    }
+  }
+}

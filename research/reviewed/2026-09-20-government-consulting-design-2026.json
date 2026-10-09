@@ -1,0 +1,39 @@
+{
+  "subject": "politics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-20",
+    "sourceRead": "https://onlinelibrary.wiley.com/doi/10.1111/gove.70150",
+    "decision": "include",
+    "reason": "Read methods, case comparisons, and conclusion; useful institutional-design framework."
+  },
+  "item": {
+    "id": "government-consulting-design-2026",
+    "title": "Three Configurations of In-House Government Consulting: Public-Value Purpose and Organizational Viability",
+    "headline": "Government advisory teams need measures that fit their purpose",
+    "authors": "Sean Safford",
+    "venue": "Governance",
+    "year": 2026,
+    "date": "2026-08-20",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/gove.70150",
+    "doi": "10.1111/gove.70150",
+    "topic": "institutional-design",
+    "chapter": "bureaucracy",
+    "summary": "Eight documentary cases suggest three ways to organize internal government advice. These are proposed designs, not proven improvements in cost or performance.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How should governments organize internal advisory capacity?",
+      "method": "Theory development using public documents about eight units in five countries.",
+      "limitations": "Nonrepresentative cases; no causal performance evaluation."
+    },
+    "explainer": {
+      "finding": "The framework separates teams handling sensitive reforms, teams reusing solutions, and teams assembling dispersed expertise.",
+      "method": "Safford compared public records, checking official accounts against independent scrutiny where available.",
+      "meaning": "For example, judging an emergency reform team only by billable hours could encourage routine assignments that displace its purpose.",
+      "limits": "Cases were deliberately selected; evidence quality varies. No causal test established which design works best.",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1111/gove.70150",
+      "background": "#/politics/bureaucracy"
+    }
+  }
+}

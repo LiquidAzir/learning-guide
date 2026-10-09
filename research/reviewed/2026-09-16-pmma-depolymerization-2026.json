@@ -1,0 +1,39 @@
+{
+  "subject": "chemistry",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-16",
+    "sourceRead": "https://www.nature.com/articles/s41557-026-02232-4",
+    "decision": "include",
+    "reason": "Read results, controls, mechanism, scale-up caveat, and experimental methods."
+  },
+  "item": {
+    "id": "pmma-depolymerization-2026",
+    "title": "Lower-temperature bulk depolymerization of commercial polymethacrylates",
+    "headline": "Turning acrylic plastic back into its molecular ingredients",
+    "authors": "Richard Whitfield and colleagues",
+    "venue": "Nature Chemistry",
+    "year": 2026,
+    "date": "2026-09-02",
+    "doi": "10.1038/s41557-026-02232-4",
+    "url": "https://www.nature.com/articles/s41557-026-02232-4",
+    "topic": "polymer-recycling",
+    "chapter": "organic",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "An additive helped recover 90% monomer yield from commercial blue Plexiglas in a roughly 5-gram experiment. Industrial feasibility remains untested.",
+    "evidence": {
+      "question": "Can existing acrylic polymers be chemically recycled at lower temperatures?",
+      "method": "Heating controls, mass-loss measurements, spectroscopy, and vacuum distillation.",
+      "limitations": "Selected polymers and laboratory scale."
+    },
+    "explainer": {
+      "finding": "Chain-breaking chemistry recovered the small molecules used to make acrylic plastic.",
+      "method": "Researchers heated ground Plexiglas with TCNHPI at 230°C for four hours under vacuum, then checked the collected monomer by nuclear magnetic resonance spectroscopy.",
+      "meaning": "Imagine recovering ingredients from a colored acrylic sheet rather than just melting it into another shape. The additive helps start breaks along polymer chains.",
+      "limits": "Polyacrylates broke down without regenerating monomer. Mixed-waste recycling, industrial costs, and environmental benefits were not established.",
+      "source": "https://www.nature.com/articles/s41557-026-02232-4",
+      "background": "#/chemistry/organic"
+    }
+  }
+}

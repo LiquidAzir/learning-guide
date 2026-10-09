@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-09",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -873,6 +873,118 @@
       "verified": "2026-09-02",
       "headline": "A study argues that passive ownership is larger than common measures suggest",
       "sourceType": "Journal publication"
+    },
+    {
+      "id": "risk-sharing-prices-2026",
+      "title": "Risk-Sharing Tests and Covariate Shocks: Drought, Floods, and Pests in Uganda",
+      "headline": "Spending more after a drought can hide worsening living conditions",
+      "authors": "Ethan Ligon",
+      "venue": "American Economic Review",
+      "year": 2026,
+      "date": "2026-09",
+      "doi": "10.1257/aer.20240664",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20240664",
+      "topic": "risk-sharing",
+      "chapter": "development",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Ugandan expenditure data show why risk-sharing tests must account for changing prices and shopping baskets. Conclusions depend on demand-model assumptions.",
+      "evidence": {
+        "question": "Do households share losses from widespread shocks?",
+        "method": "Demand modeling and fixed-effects comparisons using eight survey waves, 2005–2020.",
+        "limitations": "Observational data and self-reported shocks."
+      },
+      "explainer": {
+        "finding": "Allowing different goods to respond differently to income removes the misleading appearance that adverse shocks improve welfare.",
+        "method": "The author compared a total-spending test with one using expenditure composition and household demographics.",
+        "meaning": "A family's food bill can rise because food costs more, even as its diet deteriorates. A bigger bill alone cannot establish better living conditions.",
+        "limits": "Based on the December 2025 author manuscript. Shared-price and preference assumptions matter; an insignificant coefficient does not prove complete insurance.",
+        "source": "https://escholarship.org/uc/item/2zr503fq",
+        "background": "#/economics/development"
+      },
+      "verified": "2026-09-16",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-16",
+        "sourceRead": "https://escholarship.org/content/qt2zr503fq/qt2zr503fq_noSplash_6272bfa55d8ac871b99b92349d7d23a5.pdf",
+        "decision": "include",
+        "reason": "Read the December 2025 author manuscript's model, data, results, and assumptions; checked journal metadata separately."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "manipulation-robust-prediction-2025",
+      "title": "Manipulation-Robust Prediction",
+      "headline": "Predict what people will do once they know the rules",
+      "authors": "Daniel Björkegren, Joshua E. Blumenstock, and Samsun Knight",
+      "venue": "Author manuscript, October 2025",
+      "year": 2025,
+      "date": "2025-10-24",
+      "url": "https://www.jblumenstock.com/files/papers/manipulation.pdf",
+      "topic": "incentives",
+      "chapter": "game-theory",
+      "summary": "In a Nairobi smartphone experiment, anticipating gaming improved predictions under disclosed rules. This reviews the 2025 manuscript; rewards substituted for actual loans.",
+      "sourceType": "Preprint or working paper",
+      "status": "preliminary",
+      "evidence": {
+        "question": "Can predictions survive people gaming their inputs?",
+        "method": "Randomized weekly rewards measured responses; subsequent challenges compared strategy-aware rules with LASSO, a standard regression method.",
+        "limitations": "Adult smartphone owners; simple linear rules; analysis required successful weekly participation."
+      },
+      "explainer": {
+        "finding": "Anticipating manipulation reduced average prediction error when rules were disclosed.",
+        "method": "The app varied incentives and disclosure, measuring payment errors against baseline characteristics.",
+        "meaning": "Rewarding call frequency can encourage extra calls without changing income. Predictions must account for that response.",
+        "limits": "The income-only advantage was statistically inconclusive. Actual lending and more complex algorithms need separate tests; model assumptions matter.",
+        "source": "https://www.jblumenstock.com/files/papers/manipulation.pdf",
+        "background": "#/economics/game-theory"
+      },
+      "verified": "2026-09-23",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-09-23",
+        "sourceRead": "https://www.jblumenstock.com/files/papers/manipulation.pdf",
+        "decision": "include",
+        "reason": "Read manuscript methods, implemented results, and limitations. Explains incentives; the September 2026 journal text remains unverified."
+      },
+      "added": "2026-10-09"
+    },
+    {
+      "id": "labor-scarcity-machinery-2026",
+      "title": "Fighting for Growth: Labor Scarcity and Technological Progress During the British Industrial Revolution",
+      "headline": "When workers became scarce, farms turned to machinery",
+      "authors": "Hans-Joachim Voth, Bruno Caprettini, Alex Trew",
+      "venue": "Author manuscript, June 5 version",
+      "year": 2026,
+      "date": "2026-06-05",
+      "url": "https://www.jvoth.com/Fighting_for_Growth.pdf",
+      "topic": "technology-adoption",
+      "chapter": "growth",
+      "summary": "Wartime recruitment was linked to greater adoption of labor-saving farm machinery in England and Wales. Historical records and assumptions about coastal geography limit the causal interpretation.",
+      "sourceType": "Preprint or working paper",
+      "status": "preliminary",
+      "evidence": {
+        "question": "Can worker shortages accelerate technology adoption?",
+        "method": "Combined recruitment records with machinery listed in 1790–1820 farm-sale advertisements; used deep-water access to predict naval recruitment across 887 coastal areas.",
+        "limitations": "Advertisements measure resale, not purchase dates; recruit origins are incompletely recorded."
+      },
+      "explainer": {
+        "finding": "Naval recruitment predicted more labor-saving machinery; comparable evidence was absent for other machinery.",
+        "method": "Compared coastal areas while accounting for coastline distance, commercial ports, farming conditions and other differences.",
+        "meaning": "A thresher replaces hand labor: scarce workers can make buying one more attractive. Adoption matters alongside invention.",
+        "limits": "The causal argument assumes deep-water access affects adoption through recruitment. This is not evidence that war improves overall welfare.",
+        "source": "https://www.jvoth.com/Fighting_for_Growth.pdf",
+        "background": "#/economics/growth"
+      },
+      "verified": "2026-10-03",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-03",
+        "sourceRead": "https://www.jvoth.com/Fighting_for_Growth.pdf",
+        "decision": "include",
+        "reason": "Reviewed June manuscript methods, results, tables and robustness discussion; final journal-version equivalence unverified."
+      },
+      "added": "2026-10-09"
     }
   ]
 }

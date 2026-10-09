@@ -1,0 +1,38 @@
+{
+  "subject": "economics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-03",
+    "sourceRead": "https://www.jvoth.com/Fighting_for_Growth.pdf",
+    "decision": "include",
+    "reason": "Reviewed June manuscript methods, results, tables and robustness discussion; final journal-version equivalence unverified."
+  },
+  "item": {
+    "id": "labor-scarcity-machinery-2026",
+    "title": "Fighting for Growth: Labor Scarcity and Technological Progress During the British Industrial Revolution",
+    "headline": "When workers became scarce, farms turned to machinery",
+    "authors": "Hans-Joachim Voth, Bruno Caprettini, Alex Trew",
+    "venue": "Author manuscript, June 5 version",
+    "year": 2026,
+    "date": "2026-06-05",
+    "url": "https://www.jvoth.com/Fighting_for_Growth.pdf",
+    "topic": "technology-adoption",
+    "chapter": "growth",
+    "summary": "Wartime recruitment was linked to greater adoption of labor-saving farm machinery in England and Wales. Historical records and assumptions about coastal geography limit the causal interpretation.",
+    "sourceType": "Preprint or working paper",
+    "status": "preliminary",
+    "evidence": {
+      "question": "Can worker shortages accelerate technology adoption?",
+      "method": "Combined recruitment records with machinery listed in 1790–1820 farm-sale advertisements; used deep-water access to predict naval recruitment across 887 coastal areas.",
+      "limitations": "Advertisements measure resale, not purchase dates; recruit origins are incompletely recorded."
+    },
+    "explainer": {
+      "finding": "Naval recruitment predicted more labor-saving machinery; comparable evidence was absent for other machinery.",
+      "method": "Compared coastal areas while accounting for coastline distance, commercial ports, farming conditions and other differences.",
+      "meaning": "A thresher replaces hand labor: scarce workers can make buying one more attractive. Adoption matters alongside invention.",
+      "limits": "The causal argument assumes deep-water access affects adoption through recruitment. This is not evidence that war improves overall welfare.",
+      "source": "https://www.jvoth.com/Fighting_for_Growth.pdf",
+      "background": "#/economics/growth"
+    }
+  }
+}

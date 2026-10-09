@@ -1,0 +1,39 @@
+{
+  "subject": "ai",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-09",
+    "sourceRead": "https://jair.org/index.php/jair/article/download/22534/27369",
+    "decision": "include",
+    "reason": "Read the published paper's methods, main comparisons, efficiency analysis and limitations. It teaches how diverse synthetic examples can improve model compression, while preserving language boundaries and added training cost. Publisher date verified; the earlier 2025 preprint lacks the final paper's LLM experiments."
+  },
+  "item": {
+    "id": "multiple-translation-teachers-2026",
+    "title": "Multi-Hypothesis Distillation of Multilingual Neural Translation Models for Low-Resource Languages",
+    "headline": "A smaller translator can learn more from several possible answers",
+    "authors": "Aarón Galiano-Jiménez, Juan Antonio Pérez-Ortiz, Felipe Sánchez-Martínez and Víctor M. Sánchez-Cartagena",
+    "venue": "Journal of Artificial Intelligence Research",
+    "year": 2026,
+    "date": "2026-09-28",
+    "url": "https://jair.org/index.php/jair/article/view/22534",
+    "doi": "10.1613/jair.1.22534",
+    "topic": "knowledge-distillation",
+    "chapter": "transformers",
+    "summary": "Training a smaller translation model on several outputs from a larger teacher improved benchmark scores over using one translation per sentence. The tests covered English, Swahili, Igbo and Bambara; more examples also meant more training work.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Does copying several plausible translations transfer more useful knowledge than copying only the teacher's preferred answer?",
+      "method": "NLLB-200 1.3B/3.3B and EMMA-500 8B teachers supplied synthetic translations for 65M-parameter students; another comparison distilled EMMA into Llama-3.2 1B. FLORES+ tests primarily used chrF++, with BLEU and selected COMET checks. Baselines included single-output, token-distribution and student-generated-output distillation.",
+      "limitations": "Four languages and selected translation directions; automatic scores do not establish reliable everyday communication. Comparisons use different amounts of generated training data, not equal compute budgets."
+    },
+    "explainer": {
+      "finding": "Several alternative translations often taught more than one high-scoring answer. Sampling useful alternatives was especially helpful with limited source text; the best generation method depended on the language pair and corpus size.",
+      "method": "The authors varied both the number of teacher translations and how they were chosen, then trained and compared smaller models. Main NLLB comparisons averaged three runs. Additional experiments tested larger corpora and a pre-trained Llama student.",
+      "meaning": "For example, one English sentence can supply several Swahili training examples instead of a single wording. This gives the student more ways to continue a sentence—a practical reason that the best answer to display may differ from the best set of examples to learn from.",
+      "limits": "Ten alternatives enlarge the dataset. In one Llama setup, an epoch took 9.5 hours versus 0.99 hours for single-output training. Benefits outside these languages remain untested, and improvements in bias or hallucination proxies are not guarantees of faithful translation.",
+      "source": "https://jair.org/index.php/jair/article/download/22534/27369",
+      "background": "#/ai/transformers/transformers-what-happens-when-a-model-predicts-a-word"
+    }
+  }
+}

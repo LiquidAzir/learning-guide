@@ -1,0 +1,39 @@
+{
+  "subject": "mathematics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-09-13",
+    "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01447-z",
+    "decision": "include",
+    "reason": "Makes a local-to-global theorem approachable; hypotheses, proof strategy, and remaining problem reviewed."
+  },
+  "item": {
+    "id": "schottky-circularization-2026",
+    "title": "Quasiconformal characterization of Schottky sets",
+    "headline": "When rounding holes two at a time guarantees a global reshaping",
+    "authors": "Dimitrios Ntalampekos",
+    "venue": "Inventiones mathematicae",
+    "year": 2026,
+    "date": "2026-09-08",
+    "doi": "10.1007/s00222-026-01447-z",
+    "url": "https://link.springer.com/article/10.1007/s00222-026-01447-z",
+    "topic": "geometry",
+    "chapter": "geometry",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "A theorem characterizes when a perforated spherical surface can be reshaped to have circular holes with bounded distortion. Its uniform pairwise condition is essential.",
+    "evidence": {
+      "question": "When do pairwise geometric constraints control an entire shape?",
+      "method": "Mathematical proof using circle reflections, curve-family estimates, and limits of finite approximations.",
+      "limitations": "A conditional existence theorem, not a numerical algorithm."
+    },
+    "explainer": {
+      "finding": "For disjoint regions bounded by simple closed curves, roundability of every pair with one common distortion bound guarantees a global rounding.",
+      "method": "The proof controls finite configurations, then passes to a limit while preserving distortion bounds.",
+      "meaning": "Imagine a surface with infinitely many holes. Pairwise compatibility can guarantee one coherent reshaping; separately rounding each hole would not suffice.",
+      "limits": "Quasiconformal means locally bounded stretching imbalance, not preserved lengths. Distinct boundaries and the uniform pairwise hypothesis matter. A purely topological characterization remains open.",
+      "source": "https://link.springer.com/article/10.1007/s00222-026-01447-z",
+      "background": "#/mathematics/geometry"
+    }
+  }
+}

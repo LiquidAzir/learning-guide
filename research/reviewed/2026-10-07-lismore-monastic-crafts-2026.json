@@ -1,0 +1,39 @@
+{
+  "subject": "history",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-07",
+    "sourceRead": "https://doi.org/10.15184/aqy.2026.10379",
+    "decision": "include",
+    "reason": "Excavation tests a historical tradition; distinguishes physical evidence from interpretation."
+  },
+  "item": {
+    "id": "lismore-monastic-crafts-2026",
+    "title": "A major monastic centre? Rethinking Lismore’s place in the ecclesiastical landscapes of early medieval Britain",
+    "headline": "Broken casting moulds reveal Lismore’s skilled medieval community",
+    "authors": "Clare Ellis, Angela Boyle, Gemma Cruickshanks, Nicholas Evans, Robert Hay, Edouard Masson-MacLean, Joshua Wright and Gordon Noble",
+    "venue": "Antiquity",
+    "year": 2026,
+    "date": "2026-10-01",
+    "url": "https://doi.org/10.15184/aqy.2026.10379",
+    "doi": "10.15184/aqy.2026.10379",
+    "topic": "medieval-archaeology",
+    "chapter": "europe-early-medieval",
+    "summary": "Graves and workshop debris strengthen the case for an important early medieval monastery on Scotland’s Lismore. Its earliest church remains unidentified.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "What survives of Lismore’s early religious community?",
+      "method": "Community-led excavations combined geophysical surveys, radiocarbon dating, artefact comparison and X-ray fluorescence metal analysis.",
+      "limitations": "Only parts of the site are excavated; enclosure boundaries remain uncertain."
+    },
+    "explainer": {
+      "finding": "Seventh–ninth-century workshop layers contained moulds and crucibles, including evidence of copper-alloy, silver and gold casting.",
+      "method": "Researchers linked dated deposits to manufacturing debris; metal residues helped identify what craftspeople cast.",
+      "meaning": "A brooch could arrive through trade. A broken brooch mould instead points to local production, revealing skills that chronicles may overlook.",
+      "limits": "Craftworkers were not necessarily monks. These finds do not directly establish the traditional sixth-century foundation.",
+      "source": "https://doi.org/10.15184/aqy.2026.10379",
+      "background": "#/history/europe-early-medieval"
+    }
+  }
+}
