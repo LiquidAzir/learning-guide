@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-10",
+    "sourceRead": "https://www.glossa-journal.org/article/id/26704/",
+    "decision": "include",
+    "reason": "Read the primary article's competing analyses, revised formal account, worked examples and discussion. Teaches the difference between literal meaning, conversational inference and willingness to disclose. This is a theoretical proposal, with no new participant study."
+  },
+  "item": {
+    "id": "implicating-without-intentions-2026",
+    "title": "Implicating without intentions",
+    "headline": "Why 'some' can suggest 'not all' without saying it",
+    "authors": "Paul Marty",
+    "venue": "Glossa: a journal of general linguistics",
+    "year": 2026,
+    "date": "2026-08-21",
+    "url": "https://www.glossa-journal.org/article/id/26704/",
+    "doi": "10.16995/glossa.26704",
+    "topic": "pragmatics",
+    "chapter": "conversation",
+    "summary": "When someone says 'some,' we often hear 'some, but not all.' This paper proposes explaining that extra meaning through what speakers commit to and are willing to disclose. Silence about a stronger claim need not signal ignorance: social rules may prevent disclosure. The analysis works through English-language examples and formal reasoning; it does not experimentally establish how listeners process them or how widely the account applies across languages.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Can conversational inferences be explained through commitments and disclosure expectations?",
+      "method": "Formal pragmatic analysis comparing belief-based and commitment-based accounts through worked examples, including guarded speech and game-show clues. No new participant sample or behavioral experiment.",
+      "limitations": "Primarily an analysis of assertions illustrated in English. Broader speech-act coverage and cross-cultural applicability remain proposals for further work."
+    },
+    "explainer": {
+      "finding": "The proposed account separates having a private stance from being willing to share it. That distinction can explain why an incomplete answer sometimes suggests uncertainty and sometimes deliberate withholding.",
+      "method": "The author derives inferences using formal rules for commitments, disclosure and consistency, then compares the predictions with conversational examples.",
+      "meaning": "A game-show host can say the prize is in box A or box B while knowing which one. The game's rules explain why the host withholds the stronger answer; the clue need not mean the host is unsure.",
+      "limits": "This is an explanatory model, not proof that intentions are irrelevant. It provides no new experiment or multilingual sample testing whether people actually use this reasoning.",
+      "source": "https://www.glossa-journal.org/article/id/26704/",
+      "background": "#/linguistics/conversation"
+    }
+  }
+}

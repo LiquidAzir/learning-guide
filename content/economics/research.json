@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -985,6 +985,44 @@
         "reason": "Reviewed June manuscript methods, results, tables and robustness discussion; final journal-version equivalence unverified."
       },
       "added": "2026-10-09"
+    },
+    {
+      "id": "attention-economy-data-discovery-2026",
+      "title": "A Model of the Attention Economy: Data, Platforms, and Discovery",
+      "headline": "Better ad targeting can change who benefits over time",
+      "authors": "Daniel Chen",
+      "venue": "American Economic Review",
+      "year": 2026,
+      "date": "2026-10",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20240651",
+      "doi": "10.1257/aer.20240651",
+      "topic": "platform-economics",
+      "chapter": "market-failure",
+      "summary": "Free online services depend on advertising, but better targeting need not keep raising their revenue. In this theoretical model, improved targeting initially lifts ad revenue; as consumers discover better-matched competitors, advertisers become less willing to pay. The reversal illustrates a possible mechanism, not a measured effect of a privacy law.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How do advertising and product discovery interact over time?",
+        "method": "Mathematical equilibrium model and numerical policy experiments.",
+        "limitations": "Stylized preferences fix product prices; the baseline omits strategic platform interaction."
+      },
+      "explainer": {
+        "finding": "Better targeting can raise advertising revenue initially but lower it later.",
+        "method": "The model links ad auctions, product discovery and investment in free services.",
+        "meaning": "Imagine shoe ads helping you discover several suitable shops. Each shop must then compete with the others for your spending.",
+        "limits": "This is theory, not a forecast. Discovery without ads and personalized pricing could alter the results.",
+        "source": "https://danieltchen.com/AER_Attention_Economy.pdf",
+        "background": "#/economics/market-failure"
+      },
+      "verified": "2026-10-10",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-10",
+        "sourceRead": "https://danieltchen.com/AER_Attention_Economy.pdf",
+        "decision": "include",
+        "reason": "Read the published model, data-policy experiment and concluding limitations. Teaches dynamic spillovers; not empirical policy evaluation."
+      },
+      "added": "2026-10-10"
     }
   ]
 }
