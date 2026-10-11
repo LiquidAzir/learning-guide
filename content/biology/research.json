@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-11",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -1057,6 +1057,44 @@
         "reason": "Read primary results, discussion and methods; distinguish measured aerodynamics from proposed evolutionary tradeoffs."
       },
       "added": "2026-10-09"
+    },
+    {
+      "id": "fuchi-cell-cycle-2026",
+      "title": "FuChi is a cell cycle biosensor for tracking cell cycle dynamics during avian development",
+      "headline": "Fluorescent markers reveal cells moving through the division cycle",
+      "authors": "Zoe R. Sudderick, Tiernan Briggs, Shirooza Mubarak and colleagues",
+      "venue": "PLOS Biology",
+      "year": 2026,
+      "date": "2026-10-09",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004036",
+      "doi": "10.1371/journal.pbio.3004036",
+      "topic": "cell-cycle",
+      "chapter": "development",
+      "summary": "An embryo takes shape through cells dividing and moving. FuChi, a genetically modified chicken line, helps researchers watch both: fluorescent proteins change with cell-cycle stage, while a nuclear marker keeps cells visible and reveals dividing chromosomes. Tests against DNA measurements and an older reporter support its use in chicken cells and early embryos. Later-stage performance remains incompletely tested, and some adult birds developed health problems. This is a research tool, not evidence that a particular cell-cycle change causes an organ to form.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "Can a stable fluorescent reporter distinguish cell-cycle stages during chicken development?",
+        "method": "Compared the new and older reporters in chicken fibroblasts; checked fluorescence against DNA content under normal and perturbed conditions. Validated three embryo-derived germ-cell lines and used confocal and light-sheet imaging in embryos, including four independent early-development imaging experiments.",
+        "limitations": "Random transgene insertion and adverse effects in some adults complicate interpretation. DNA damage can alter reporter signals. Exact phase transitions may require time-series data or additional markers; developmental imaging does not establish causation."
+      },
+      "explainer": {
+        "finding": "The reporter makes it possible to follow cells through preparation, DNA copying and division in developing chicken tissues, improving on a tested older reporter's stage discrimination.",
+        "method": "Researchers combined fluorescent cell-cycle reporters with a nuclear marker, compared their signals with DNA measurements, and filmed cells in culture and embryos. Nuclear appearance helps distinguish mitosis from the preceding phase.",
+        "meaning": "Think of watching a building site with a status light on each worker. Here the lights help show whether a moving cell is copying DNA or approaching division, making it easier to connect cell behavior with the embryo's changing shape.",
+        "limits": "Colors are an indirect measurement. Rapid movement, DNA damage and later development can complicate interpretation. Some adults had health problems, and observing division alongside tissue formation does not prove that one caused the other. The article is currently an uncorrected proof.",
+        "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004036",
+        "background": "#/biology/development"
+      },
+      "verified": "2026-10-11",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-11",
+        "sourceRead": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004036",
+        "decision": "include",
+        "reason": "Read the primary methods, cell-line comparisons, embryo validation, live-imaging results and explicit limitations. A useful example of validating a biological measurement tool. The publisher labels the article an uncorrected proof; developmental associations are not causal tests."
+      },
+      "added": "2026-10-11"
     }
   ]
 }
