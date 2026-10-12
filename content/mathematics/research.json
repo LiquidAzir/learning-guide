@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-12",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -897,6 +897,44 @@
         "reason": "Read Theorem A, Assumption 1.1 and the proof outline; distinguish a mathematical result from measurements. Not an independent audit of every proof. Journal date verified; preprint first appeared in 2024."
       },
       "added": "2026-10-09"
+    },
+    {
+      "id": "small-points-equidistribution-2026",
+      "title": "Approximation of adelic divisors and equidistribution of small points",
+      "headline": "When algebraic points settle into a predictable pattern",
+      "authors": "François Ballaÿ and Martín Sombra",
+      "venue": "Inventiones mathematicae",
+      "year": 2026,
+      "date": "2026-10-05",
+      "url": "https://link.springer.com/article/10.1007/s00222-026-01456-y",
+      "doi": "10.1007/s00222-026-01456-y",
+      "topic": "number-theory",
+      "chapter": "number-theory",
+      "summary": "Solutions to polynomial equations can have surprisingly orderly collective behavior. This paper extends a theorem about how families of related algebraic points spread out as their arithmetic height approaches a minimum. Height measures arithmetic complexity, not distance from the origin. The new theorem allows more flexible height functions than an earlier general result, provided a precise approximation condition holds. It predicts a limiting distribution, which need not be uniform in ordinary space; it does not say that every collection of simple-looking numbers behaves this way.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "When do Galois orbits of algebraic points approaching the essential minimum of a height function converge to a common distribution?",
+        "method": "Mathematical proof using semipositive approximations of adelic divisors, a variational principle and a refined arithmetic Siu inequality. Error estimates controlled by a geometric quantity called the inradius establish differentiability of the essential minimum, yielding equidistribution.",
+        "limitations": "Requires a big underlying divisor, the stated approximation condition and a generic sequence whose heights approach the essential minimum. The condition is not automatic. Its necessity is established in particular settings, not in complete generality."
+      },
+      "explainer": {
+        "finding": "The authors prove a more flexible condition ensuring that the algebraically related companions of low-height points approach the same probability distribution. Their result covers cases excluded by an equality required in Yuan's earlier theorem.",
+        "method": "They approximate a difficult arithmetic object by better-behaved ones and tightly control the errors. A variational argument then connects changes in the minimum height to the limiting distribution. This is a proof, not a simulation or a survey of numerical examples.",
+        "meaning": "For a picture of the idea, consider the complex solutions of z raised to the nth power equals 1: they sit at evenly spaced positions on a circle. That familiar example is not the new discovery. The paper broadens the conditions under which much more general algebraic families have a predictable limiting pattern.",
+        "limits": "Small means low arithmetic height, not close together on a plot. Generic sequences must eventually avoid every fixed proper algebraic subvariety. The theorem also needs its approximation condition; the limiting pattern need not be a uniform spread, and the result does not provide a universal finite-sample error bound.",
+        "source": "https://link.springer.com/article/10.1007/s00222-026-01456-y",
+        "background": "#/mathematics/number-theory"
+      },
+      "verified": "2026-10-12",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-12",
+        "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01456-y",
+        "decision": "include",
+        "reason": "Read the published primary introduction, main theorem and assumptions, proof strategy, Section 7.2 proof, and stated scope of the partial converse. Explains distribution as an arithmetic phenomenon without equating small height with physical distance or asserting a universal uniform distribution."
+      },
+      "added": "2026-10-12"
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "subject": "physics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-12",
+    "sourceRead": "https://journals.aps.org/prl/abstract/10.1103/w6t7-9txs",
+    "decision": "include",
+    "reason": "Read the published primary Letter's model, scattering approximations, proposed laser protocol, calculated qubit response and discussion of noise and microscopy applications. This teaches how motion can connect two quantum systems. No integrated experiment or dose reduction is reported; claims are confined to the main Letter, not unread supplemental derivations."
+  },
+  "item": {
+    "id": "electron-ion-interface-2026",
+    "title": "Coupling Free Electrons to a Trapped-Ion Quantum Computer",
+    "headline": "Could a quantum computer help an electron microscope use fewer electrons?",
+    "authors": "Elias Pescoller, Santiago Beltrán-Romero, Sebastian Egginger and colleagues",
+    "venue": "Physical Review Letters",
+    "year": 2026,
+    "date": "2026-10-09",
+    "url": "https://journals.aps.org/prl/abstract/10.1103/w6t7-9txs",
+    "doi": "10.1103/w6t7-9txs",
+    "topic": "quantum-sensing",
+    "chapter": "quantum",
+    "summary": "Electron microscopes can damage the delicate samples they reveal. A theoretical proposal would connect passing electrons to a trapped-ion quantum computer, aiming to extract more information from each electron. The electron's electric field affects the ion's motion; laser pulses turn that effect into a change in a quantum bit. Calculations predict a measurable response under selected conditions. The combined device has not been demonstrated, and keeping its fragile quantum states intact is a central challenge. Fewer damaged samples remain a goal, not a measured result.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Can a passing electron interact coherently with a trapped-ion qubit strongly enough to support new microscopy measurements?",
+      "method": "Theoretical scattering model of one electron and one harmonically trapped ion, followed by a proposed laser-controlled protocol. The model assumes a tightly focused beam, predominantly forward motion and an interaction much faster than the ion's oscillation. Calculations examine qubit response versus electron energy and separation of the ion's superposed motional states.",
+      "limitations": "No integrated microscope experiment or measured imaging advantage. Beam width, timing, unwanted scattering and loss of quantum coherence constrain the proposal. The strongest illustrated single-pass responses use electrons slower than those normally used in transmission electron microscopy."
+    },
+    "explainer": {
+      "finding": "The calculations suggest a single passing electron could produce a detectable change in a trapped-ion qubit. Preparing the ion in a superposition of two motional states makes the electron's effect distinguishable.",
+      "method": "The authors model the electric interaction, then use a proposed sequence of laser pulses to translate its effect on ion motion into a qubit rotation. They calculate the response; they do not build and test the combined instrument in this paper.",
+      "meaning": "Imagine trying to image a fragile protein before the electron beam alters it. A quantum memory could, in principle, combine information carried by successive electrons and make better use of a limited exposure. This paper proposes a connection that such a measurement would need.",
+      "limits": "Useful imaging gains still require experimental demonstration. The calculation relies on tight focusing and controlled timing, while noise can erase the quantum information. Larger superpositions strengthen the ideal signal but also increase sensitivity to noise.",
+      "source": "https://journals.aps.org/prl/abstract/10.1103/w6t7-9txs",
+      "background": "#/physics/quantum"
+    }
+  }
+}
