@@ -1,0 +1,39 @@
+{
+  "subject": "politics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-13",
+    "sourceRead": "https://www.cambridge.org/core/journals/american-political-science-review/article/crime-and-participation/F977DE20375C0B49A06B55089EB53E57",
+    "decision": "include",
+    "reason": "Read primary sampling, crime measures, model specifications, turnout validation, results and discussion limitations. Teaches measurement of civic participation and the difference between personal exposure and neighborhood averages. Nonpartisan observational research; avoid causal or trust-mechanism claims."
+  },
+  "item": {
+    "id": "crime-civic-participation-2026",
+    "title": "Crime and Participation",
+    "headline": "Voting alone can miss how people participate after experiencing crime",
+    "authors": "David Doherty, G. Agustin Markarian, Mena Whalen and Dana Garbarski",
+    "venue": "American Political Science Review",
+    "year": 2026,
+    "date": "2026-10-06",
+    "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/crime-and-participation/F977DE20375C0B49A06B55089EB53E57",
+    "doi": "10.1017/s0003055426102007",
+    "topic": "civic-participation",
+    "chapter": "evidence",
+    "summary": "Does experiencing crime make people withdraw from civic life? Surveys covering 21 large U.S. cities suggest the answer depends on what participation means. People reporting victimization were less likely to vote but reported more activity outside elections, such as contacting officials or protesting. Neighborhood crime rates showed less consistent relationships. The study combines survey and administrative records, but its observational design cannot establish that victimization caused these differences. The lesson is practical: turnout is one measure of public participation, not the whole picture.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How do personal crime victimization and local crime rates relate to voting and other forms of political participation?",
+      "method": "Combined an original survey of 1,819 residents with 29,025 Cooperative Election Study respondents from five federal-election-year waves, 2016–2024, in eligible ZIP codes across 21 cities. Linked survey responses to local reported-crime data; compared adjusted models and self-reported versus voter-file-validated turnout. Outcome sample sizes differ.",
+      "limitations": "Observational associations may reflect unmeasured differences. Victimization and nonvoting activity are self-reported; local crime reporting varies. Cities were selected partly for data availability, so results need not generalize to rural areas or other countries. Exploratory trust findings do not establish a mechanism."
+    },
+    "explainer": {
+      "finding": "Reported victimization was associated with lower turnout but more reported participation outside voting. Neighborhood crime rates were much less consistently related to participation after adjusting for local characteristics.",
+      "method": "Researchers compared respondents with different crime experiences while accounting for individual and neighborhood characteristics. They also checked turnout against voter records. The core design was preregistered; additional analyses, including possible explanations involving trust, were exploratory.",
+      "meaning": "A resident might contact a public official or attend a community meeting while skipping an election. A turnout-only measure would miss those activities. This example illustrates why the study distinguishes forms of participation; it is not proof that individual victims switched from one activity to another.",
+      "limits": "The study does not randomly assign exposure to crime or show that crime causes civic withdrawal or activism. Self-reporting, unmeasured circumstances and the focus on major U.S. cities limit interpretation. The suggested role of institutional trust remains preliminary.",
+      "source": "https://www.cambridge.org/core/journals/american-political-science-review/article/crime-and-participation/F977DE20375C0B49A06B55089EB53E57",
+      "background": "#/politics/evidence"
+    }
+  }
+}

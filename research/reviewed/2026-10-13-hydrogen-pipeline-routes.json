@@ -1,0 +1,39 @@
+{
+  "subject": "engineering",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-13",
+    "sourceRead": "https://www.nature.com/articles/s41560-026-02141-3",
+    "decision": "include",
+    "reason": "Read primary routing methods, cost assumptions, results, sensitivity design, European scenarios and discussion limits. Useful example of how system boundaries and local conditions change engineering estimates. Routes and costs are modeled, not construction bids or observed trade flows."
+  },
+  "item": {
+    "id": "hydrogen-pipeline-routes-2026",
+    "title": "Exploring hydrogen pipeline costs by considering regional geographical and political characteristics",
+    "headline": "A straight line on a map can hide the real cost of a hydrogen pipeline",
+    "authors": "Bastian Weißenburger, Lukas Karkossa, Annegret Stephan and colleagues",
+    "venue": "Nature Energy",
+    "year": 2026,
+    "date": "2026-09-15",
+    "url": "https://www.nature.com/articles/s41560-026-02141-3",
+    "doi": "10.1038/s41560-026-02141-3",
+    "topic": "energy-infrastructure",
+    "chapter": "design",
+    "summary": "Two hydrogen pipelines of similar straight-line length need not cost the same. Researchers modeled roughly 4,900 potential routes, accounting for terrain, land use, existing corridors and country-specific financing costs. With a common pipe diameter, their estimated transport costs per unit of hydrogen and straight-line distance varied about threefold. Feeding route-specific costs into European energy models changed projected trade flows, sometimes reversing their direction. These are planning scenarios, not construction quotes or predictions of which pipelines will actually be built.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How much do regional conditions change estimated hydrogen pipeline transport costs and the routes selected by energy-system models?",
+      "method": "GIS-based least-cost routing between regional hubs, followed by capital, maintenance and compressor-electricity calculations. Compared a uniform 0.9-m pipe diameter using 2020 cost assumptions, normalized transport costs by straight-line distance, and tested route-specific inputs in five European 2050 scenarios using Enertile and PyPSA-Eur.",
+      "limitations": "Fixed diameter and operating assumptions support comparison, not project pricing. Country financing rates omit project-specific risks and some local cost advantages. Repurposed pipelines, shared network design and international political relationships need further treatment."
+    },
+    "explainer": {
+      "finding": "Local geography and financing assumptions produced roughly a threefold range in modeled transport costs. Even when transport is a small share of hydrogen supply costs, changing it can alter which trade routes an energy model selects.",
+      "method": "The model represents a map as connected cells, assigns costs to crossing them, and finds the cheapest path. Researchers then calculate transport costs and compare energy-system scenarios using those estimates with scenarios using a single standard detour factor.",
+      "meaning": "Imagine connecting two cities separated by mountains. A longer route through an existing corridor may be cheaper than a shorter new crossing. Multiplying map distance by one average price can miss that tradeoff and change where the model recommends obtaining hydrogen.",
+      "limits": "The results concern modeled transport, not the full cost of producing and delivering hydrogen. Real projects have different capacities, financing and permitting conditions. The European exercises illustrate sensitivity to route costs; they do not independently validate all assumptions about the 2050 energy system.",
+      "source": "https://www.nature.com/articles/s41560-026-02141-3",
+      "background": "#/engineering/design"
+    }
+  }
+}
