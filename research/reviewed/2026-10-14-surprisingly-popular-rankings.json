@@ -1,0 +1,39 @@
+{
+  "subject": "ai",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-14",
+    "sourceRead": "https://www.cs.toronto.edu/~nisarg/papers/spvoting.pdf",
+    "decision": "include",
+    "reason": "Read accepted manuscript methods, results and discussion; teaches information aggregation. Publisher metadata confirms journal date."
+  },
+  "item": {
+    "id": "surprisingly-popular-rankings-2026",
+    "title": "Surprisingly Popular Voting Recovers Rankings, Surprisingly!",
+    "headline": "Asking what others will say can improve a crowd’s answer",
+    "authors": "Hadi Hosseini, Debmalya Mandal, Nisarg Shah, Kevin Shi",
+    "venue": "Journal of Artificial Intelligence Research",
+    "year": 2026,
+    "date": "2026-08-24",
+    "url": "https://doi.org/10.1613/jair.1.19730",
+    "doi": "10.1613/jair.1.19730",
+    "topic": "collective-intelligence",
+    "chapter": "evaluating-models",
+    "summary": "A crowd can miss facts that a minority knows. Combining answers with predictions of others’ answers improved factual rankings in an online experiment. This journal extension of 2021 work tests four-option questions, not unrestricted truth detection.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Can predictions about other respondents improve factual rankings?",
+      "method": "720 MTurk participants; 60 questions about populations, box-office receipts and painting prices; six response formats.",
+      "limitations": "Read the accepted author manuscript; final publisher PDF unavailable. Training/test separation is unclear in the reported averages."
+    },
+    "explainer": {
+      "finding": "The format requesting both rankings and predicted rankings beat six conventional aggregation rules on ranking error across three domains.",
+      "method": "The algorithm compares observed answers with predicted popularity; two conversion parameters were fitted on 15 questions.",
+      "meaning": "For example, someone may know a country’s population while anticipating others’ mistaken guesses. That extra prediction can help identify overlooked knowledge.",
+      "limits": "Four alternatives per question, selected tasks and an online sample limit generalization. This does not establish how to resolve political preferences.",
+      "source": "https://www.cs.toronto.edu/~nisarg/papers/spvoting.pdf",
+      "background": "#/ai/evaluating-models"
+    }
+  }
+}
