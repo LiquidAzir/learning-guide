@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-15",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -1133,6 +1133,44 @@
         "reason": "Excavation tests a historical tradition; distinguishes physical evidence from interpretation."
       },
       "added": "2026-10-09"
+    },
+    {
+      "id": "medieval-lead-tooth-enamel-2026",
+      "title": "Social dynamics of toxic metal industry in medieval Europe: Peak District lead production, AD 600–1500",
+      "headline": "Medieval teeth preserve evidence of an early lead industry",
+      "authors": "Christopher P. Loveluck, Hannah J. O’Regan, Anna Bloxam and colleagues",
+      "venue": "Antiquity",
+      "year": 2026,
+      "date": "2026-10-13",
+      "url": "https://www.cambridge.org/core/journals/antiquity/article/social-dynamics-of-toxic-metal-industry-in-medieval-europe-peak-district-lead-production-ad-6001500/34A2A16AC99B1B12E3EB99CEA1DDB829",
+      "doi": "10.15184/aqy.2026.10416",
+      "topic": "archaeological-evidence",
+      "chapter": "europe-early-medieval",
+      "summary": "A tooth can preserve evidence that never reached a written record. Researchers measured lead in enamel from 15 medieval people buried in England’s Peak District and compared it with dates, isotope evidence and other burial populations. The pattern supports renewed lead production by the mid-seventh century and heavy childhood exposure at Castleton by the mid-eighth century. The sample is small and selected for preservation: it cannot establish everyone’s occupation, social status or cause of death.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "When did post-Roman lead production develop in the Peak District, and what does childhood exposure reveal about the communities around it?",
+        "method": "Mass spectrometry measured enamel lead in five individuals from each of three medieval cemeteries, plus two Iron Age comparisons. Radiocarbon dates and grave-goods chronology placed samples in time. Strontium, oxygen and lead isotopes helped assess childhood origins; historical records and other cemetery datasets supplied comparisons.",
+        "limitations": "Enamel records exposure during tooth formation, approximately ages four to twelve for the teeth sampled, rather than lifetime exposure. Preservation-based selection and small cemetery samples limit population estimates. Mining work, household exposure and polluted surroundings can leave overlapping signals."
+      },
+      "explainer": {
+        "finding": "Fourteen of the 15 medieval individuals had enamel lead above 10 parts per million. Both Castleton cemetery samples had consistently high concentrations, while the earlier Wigber Low sample varied more. The authors interpret this as evidence of an increasingly contaminated production landscape.",
+        "method": "Enamel forms during childhood and does not remodel like bone. Measuring its chemistry gives researchers a record of early exposure; dating the burials lets them compare that record across centuries.",
+        "meaning": "Imagine a person buried near a medieval mine. High enamel lead tells us that exposure occurred in childhood, but not whether the person handled ore or simply lived nearby. Combining that clue with burial dates and production records helps reconstruct industry beyond surviving accounts.",
+        "limits": "Differences between graves suggest possible inequalities and work roles, but do not prove them. The study does not establish lead poisoning as anyone’s cause of death, nor does it measure present-day conditions in the Peak District.",
+        "source": "https://www.cambridge.org/core/journals/antiquity/article/social-dynamics-of-toxic-metal-industry-in-medieval-europe-peak-district-lead-production-ad-6001500/34A2A16AC99B1B12E3EB99CEA1DDB829",
+        "background": "#/history/europe-early-medieval"
+      },
+      "verified": "2026-10-15",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-15",
+        "sourceRead": "https://www.cambridge.org/core/journals/antiquity/article/social-dynamics-of-toxic-metal-industry-in-medieval-europe-peak-district-lead-production-ad-6001500/34A2A16AC99B1B12E3EB99CEA1DDB829",
+        "decision": "include",
+        "reason": "Read the primary article’s sample selection, analytical methods, chronology, comparisons and discussion. A useful example of combining chemical evidence with archaeology and written records. Exposure measurements support historical reconstruction; social roles and health consequences remain interpretations."
+      },
+      "added": "2026-10-15"
     }
   ]
 }
