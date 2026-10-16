@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-16",
   "note": "Curated primary studies checked on 2026-09-08. The collection includes recent work and earlier background studies; publication dates are preserved. Source checks do not establish independent replication.",
   "items": [
     {
@@ -381,6 +381,44 @@
         "reason": "Read the primary article's competing analyses, revised formal account, worked examples and discussion. Teaches the difference between literal meaning, conversational inference and willingness to disclose. This is a theoretical proposal, with no new participant study."
       },
       "added": "2026-10-10"
+    },
+    {
+      "title": "Imperfectum as a window into the interaction between viewpoint aspect and telicity: A view from Torlak",
+      "authors": "Stefan Milosavljevic",
+      "venue": "Glossa: a journal of general linguistics",
+      "date": "2026-10-15",
+      "doi": "10.16995/glossa.27539",
+      "id": "torlak-events-and-habits",
+      "headline": "How completed events can become a recurring habit in grammar",
+      "year": 2026,
+      "url": "https://www.glossa-journal.org/article/id/27539/",
+      "topic": "grammar-and-meaning",
+      "chapter": "meaning",
+      "summary": "A completed action and an ongoing habit are different things. Torlak, a South Slavic variety, can combine perfective verb stems with a past imperfect form when describing habits. A study documents this pattern in speech and proposes that the grammar groups individual bounded events into a recurring series. The observed pattern challenges a simple ban on this combination; the proposed grammatical structure remains a theoretical explanation, not an experimentally established universal.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How can Torlak combine perfective stems with an imperfective viewpoint without losing their meaning as bounded events?",
+        "method": "Analyzed 195 lexical-verb imperfectum tokens from a dataset based on a spoken Timok Torlak corpus, alongside a description of Jablanica Torlak and the author’s native-speaker judgments. Uncertain judgments were checked with two additional speakers. Compared forms, clause types and interpretations, then developed a formal semantic analysis.",
+        "limitations": "This is corpus-supported grammatical analysis, not a representative speaker survey or controlled learning experiment. Repeated common verbs affect token proportions. The data concern particular Torlak varieties; broader cross-language extensions require further investigation."
+      },
+      "explainer": {
+        "finding": "Perfective stems occurred in 26 of 195 tokens, including 19 in main clauses. The author argues that these forms are productive in habitual descriptions rather than merely rare exceptions.",
+        "method": "The analysis separates an event’s internal endpoint from the viewpoint taken on it. A proposed grammatical layer groups bounded events into a series that can support an imperfective description of a habit.",
+        "meaning": "As an English analogy, compare finishing one cake with regularly finishing a cake every Sunday. Each cake-making event has an endpoint, but the recurring habit need not have one. The study asks how Torlak expresses that distinction inside its verb forms.",
+        "limits": "The corpus counts support the existence and distribution of the forms. They do not uniquely prove the proposed hidden grammatical layers. The account’s predictions for other Slavic and Romance languages remain hypotheses.",
+        "source": "https://www.glossa-journal.org/article/id/27539/",
+        "background": "#/linguistics/meaning"
+      },
+      "verified": "2026-10-16",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-16",
+        "sourceRead": "https://www.glossa-journal.org/article/id/27539/",
+        "decision": "include",
+        "reason": "Read corpus counts and annotation description, speaker-judgment provenance, core aspectual analysis and cross-language limitations. Teaches the distinction between bounded events and viewpoint; labels the formal structure as a proposal."
+      },
+      "added": "2026-10-16"
     }
   ]
 }

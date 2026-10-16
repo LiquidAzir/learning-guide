@@ -1,0 +1,39 @@
+{
+  "subject": "psychology",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-16",
+    "sourceRead": "https://www.nature.com/articles/s41593-026-02431-9",
+    "decision": "include",
+    "reason": "Read primary results, interference and replay experiments, behavioral and imaging methods, and discussion. Explains causal circuit testing while preserving the fruit-fly model, behavioral sleep definition and unresolved downstream mechanism."
+  },
+  "item": {
+    "title": "A half-center oscillator regulates sleep pressure",
+    "authors": "Peter S. Hasenhuetl, Raffaele Sarnataro, Eleftheria Vrontou, H. Olof Rorsman, Clifford B. Talbot, Ruth Brain, Gero Miesenböck",
+    "venue": "Nature Neuroscience",
+    "date": "2026-10-15",
+    "doi": "10.1038/s41593-026-02431-9",
+    "id": "fly-sleep-pressure-oscillator",
+    "headline": "A fly brain circuit keeps a running signal of sleep need",
+    "year": 2026,
+    "url": "https://www.nature.com/articles/s41593-026-02431-9",
+    "topic": "sleep-regulation",
+    "chapter": "sleep-states",
+    "summary": "Neural rhythms can do more than accompany sleep. In fruit flies, researchers found that two interacting groups of sleep-control neurons generate slow oscillations whose strength rises after sleep loss. Disrupting their chemical communication reduced normal and recovery sleep; replaying burst-like activity with light increased sleep. The rhythm also persisted during wakefulness, suggesting a signal of sleep need rather than a simple asleep-or-awake indicator. This is evidence from flies, not a demonstrated human sleep mechanism.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "How do sleep-control neurons represent sleep need, and does their rhythmic activity help cause sleep?",
+      "method": "In young adult female Drosophila, combined calcium imaging, electrical recordings, connectome analysis, targeted genetic interference and optogenetic stimulation. Compared rested and sleep-deprived flies and rhythmic versus evenly spaced stimulation. Behavioral sleep was scored from approximately five minutes of inactivity, with arousal and locomotion checks.",
+      "limitations": "Imaging captures only some activity patterns, and sleep is behaviorally defined rather than measured with human sleep-stage criteria. Genetic targeting and stimulation are experimental manipulations; the downstream conversion of continuous sleep pressure into sleep remains unresolved."
+    },
+    "explainer": {
+      "finding": "The two neuronal groups inhibit one another across the brain’s midline and alternate activity. Oscillation strength increased after sleep deprivation and declined during recovery. Interfering with glutamate release weakened both the rhythm and sleep.",
+      "method": "Light-sensitive proteins let researchers stimulate selected neurons. Bursts resembling the natural rhythm promoted sleep more effectively than spreading the same pulse count evenly through time; genetic interference supplied a complementary test of the circuit’s contribution.",
+      "meaning": "Think of a tiredness gauge that keeps running even while an animal is awake. A separate decision is still needed to turn that changing signal into sleep. The experiments help separate those two functions.",
+      "limits": "The study does not show that humans use the same circuit or that changing brain rhythms would treat insomnia. The authors propose several ways downstream neurons might select sleep, but do not establish which one operates.",
+      "source": "https://www.nature.com/articles/s41593-026-02431-9",
+      "background": "#/psychology/sleep-states"
+    }
+  }
+}
