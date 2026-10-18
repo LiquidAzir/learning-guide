@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-18",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -1171,6 +1171,44 @@
         "reason": "Read the primary article’s sample selection, analytical methods, chronology, comparisons and discussion. A useful example of combining chemical evidence with archaeology and written records. Exposure measurements support historical reconstruction; social roles and health consequences remain interpretations."
       },
       "added": "2026-10-15"
+    },
+    {
+      "id": "tudela-medieval-food-access",
+      "title": "Eating under Christian rule: isotopic evidence for food access and resilience among a medieval Muslim minority in Iberia",
+      "headline": "Medieval bones reveal changing diets in a Muslim community under Christian rule",
+      "authors": "Patxi Pérez-Ramallo, Jesús Sesma Sesma, Olatz Villanueva Zubizarreta, Patrick Roberts",
+      "venue": "Antiquity",
+      "year": 2026,
+      "date": "2026-10-16",
+      "url": "https://www.cambridge.org/core/journals/antiquity/article/eating-under-christian-rule-isotopic-evidence-for-food-access-and-resilience-among-a-medieval-muslim-minority-in-iberia/78BC662C95226EBD70E0F89350A678D3",
+      "doi": "10.15184/aqy.2026.10449",
+      "topic": "archaeology-and-everyday-life",
+      "chapter": "europe-high-medieval",
+      "summary": "What people ate can preserve a history that tax records miss. Carbon and nitrogen isotopes from 120 people buried in medieval Tudela, Spain, show dietary changes across several centuries. Models suggest a falling, then recovering contribution from freshwater foods, alongside changing use of terrestrial animal protein. The authors interpret this as adaptation to shifting food access under Christian rule. The bones establish changing chemical patterns; they cannot identify the effects of particular laws or reveal exact menus.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How did food access change within Tudela’s Muslim community between the late eleventh and fifteenth centuries?",
+        "method": "Measured carbon and nitrogen isotopes in rib collagen from 120 people at Torre Monreal. Compared four broad burial phases, using 20 nearby animal specimens and published regional baselines to inform statistical comparisons and Bayesian dietary mixing models. Infants under three were excluded from dietary models because breastfeeding can alter isotope values.",
+        "limitations": "Burial phases overlap and have unequal samples, including only eight people in one phase. Local isotope baselines are incomplete and nitrogen-enriched. Food sources overlap chemically, so modelled shares are approximate; collagen cannot separate meat from dairy. This observational reconstruction cannot isolate causes."
+      },
+      "explainer": {
+        "finding": "Nitrogen isotope values declined from the earliest to the thirteenth–early-fourteenth-century burial group, then rose in the fourteenth–fifteenth centuries. Models are consistent with changing freshwater protein intake, but the within-site chemical pattern is firmer evidence than the estimated food percentages.",
+        "method": "Isotopes are different forms of the same element. Food contributes carbon and nitrogen to the body, leaving patterns in bone collagen. Researchers compared those patterns with animals from the region, then tested which mixtures of protein sources could fit them.",
+        "meaning": "For example, a signal consistent with more cattle-derived protein could reflect cheese or milk as well as beef. Combining chemistry with evidence about markets and fishing rights helps historians explore household choices without assuming that diet directly identifies religion or cultural assimilation.",
+        "limits": "One cemetery cannot represent all medieval Muslim communities. Changes in law, prices, climate and disease provide possible explanations, not separately tested causes. More local animal samples and tighter dating could change the dietary estimates.",
+        "source": "https://www.cambridge.org/core/journals/antiquity/article/eating-under-christian-rule-isotopic-evidence-for-food-access-and-resilience-among-a-medieval-muslim-minority-in-iberia/78BC662C95226EBD70E0F89350A678D3",
+        "background": "#/history/europe-high-medieval"
+      },
+      "verified": "2026-10-18",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-18",
+        "sourceRead": "https://www.cambridge.org/core/journals/antiquity/article/eating-under-christian-rule-isotopic-evidence-for-food-access-and-resilience-among-a-medieval-muslim-minority-in-iberia/78BC662C95226EBD70E0F89350A678D3",
+        "decision": "include",
+        "reason": "Read the primary article methods, results, discussion and interpretative limits. Teaches how isotope measurements, animal baselines and historical context constrain reconstructions of everyday life; avoids treating modelled food proportions or political causes as directly measured."
+      },
+      "added": "2026-10-18"
     }
   ]
 }

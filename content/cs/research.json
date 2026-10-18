@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-10-18",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -899,6 +899,44 @@
       "verified": "2026-09-07",
       "headline": "OSS-Fuzz continuously searches open-source programs for failures",
       "sourceType": "Data or tracker"
+    },
+    {
+      "id": "explanation-interfaces-systematic-review",
+      "title": "Explanation User Interfaces: A Systematic Literature Review",
+      "headline": "An AI explanation needs a usable interface—and evidence that people understand it",
+      "authors": "Eleonora Cappuccio, Andrea Esposito, Francesco Greco, Giuseppe Desolda, Rosa Lanzilotti, Salvatore Rinzivillo",
+      "venue": "ACM Computing Surveys (author manuscript reviewed)",
+      "year": 2026,
+      "date": "2026-10",
+      "url": "https://doi.org/10.1145/3834765",
+      "doi": "10.1145/3834765",
+      "topic": "human-computer-interaction",
+      "chapter": "software-engineering",
+      "summary": "A chart showing why an AI made a prediction is only part of an explanation. A review of 146 publications maps how explanation interfaces combine model information, visual design and user testing. It finds frequent use of visual and interactive explanations, while highlighting the need to match explanations to users’ questions and expertise. This is a map of research practice, not proof that the most common design works best. The authors’ HERMES browsing tool still needs evaluation with users.",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "evidence": {
+        "question": "How are interfaces for AI explanations designed and evaluated, and what guidance can developers draw from that literature?",
+        "method": "The reviewed author manuscript reports searches of ACM, IEEE and Scopus conducted June–December 2024, followed by reference and citation searches. Researchers screened publications and classified 146 retained papers by users, domains, models, explanation formats and evaluation methods.",
+        "limitations": "The search favors English-language academic publications and excludes grey literature and many workshop formats. It does not pool a universal effect on decision quality. This entry uses arXiv v3, dated March 17, 2026, linked by its authors to the October journal publication; final publisher text was not accessible."
+      },
+      "explainer": {
+        "finding": "Visual explanations, including heatmaps and charts, feature prominently. Evaluation spans trust, understanding, usability and task performance: these are different outcomes. The survey organizes design guidance around user needs, interaction, context and the amount of detail presented.",
+        "method": "The researchers compared what published interface studies built and measured. They also organized guidance into HERMES, a searchable collection of recommendations with links to the underlying papers. The review itself did not run a new experiment establishing that HERMES improves designs.",
+        "meaning": "Imagine a model that flags a transaction. An analyst may need to inspect influential inputs, while a customer needs a clear explanation of the flag. A useful test would check whether each person can recognize a mistaken prediction, alongside asking whether the display feels convincing.",
+        "limits": "Common designs are not necessarily the best ones. Findings from one task or user group may not transfer to another, and the authors explicitly leave HERMES usability and usefulness testing to future work. The search period also predates much recent AI interface development.",
+        "source": "https://arxiv.org/html/2505.20085v3",
+        "background": "#/cs/software-engineering"
+      },
+      "verified": "2026-10-18",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-18",
+        "sourceRead": "https://arxiv.org/html/2505.20085v3",
+        "decision": "include",
+        "reason": "Read author manuscript v3 methods, synthesis, proposed design resource and limitations. The authors’ arXiv record links the October 2026 ACM publication; publisher full text was inaccessible. Review explicitly identifies the manuscript checked and distinguishes a descriptive survey from proof that an interface or the HERMES tool improves decisions."
+      },
+      "added": "2026-10-18"
     }
   ]
 }
