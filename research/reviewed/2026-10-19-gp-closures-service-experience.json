@@ -1,0 +1,39 @@
+{
+  "subject": "politics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-19",
+    "sourceRead": "https://www.cambridge.org/core/journals/american-political-science-review/article/public-service-decline-and-support-for-the-populist-right-evidence-from-englands-national-health-service/34A66E5EDD4E356F609D9C99269881B6",
+    "decision": "include",
+    "reason": "Read primary research design, patient and electoral results, moderation analysis, robustness discussion and conclusion. Teaches the public-service/accountability connection and staggered difference-in-differences assumptions. Uses area exposure and stated voting intentions accurately, preserves pre-trend and spillover limits, and does not reproduce campaign messaging or treat migration as an established cause of service decline."
+  },
+  "item": {
+    "id": "gp-closures-service-experience-and-voting",
+    "title": "Public Service Decline and Support for the Populist Right: Evidence from England’s National Health Service",
+    "headline": "When a local medical practice closes, public-service grievances can become political",
+    "authors": "Zachary P. Dickson, Sara B. Hobolt, Catherine De Vries, Simone Cremaschi",
+    "venue": "American Political Science Review",
+    "year": 2026,
+    "date": "2026-10-13",
+    "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/public-service-decline-and-support-for-the-populist-right-evidence-from-englands-national-health-service/34A66E5EDD4E356F609D9C99269881B6",
+    "doi": "10.1017/S0003055426101944",
+    "topic": "public-services-and-accountability",
+    "chapter": "policy",
+    "summary": "A public service is one place where people encounter government in everyday life. This study links medical-practice closures in England to worse reported patient experiences and increased intention to vote for parties classified as the populist right. Two survey panels show increases of roughly 2–4 percentage points several years after a nearby closure. The comparison uses closures at different times, rather than a randomized experiment; its causal interpretation depends on comparable underlying trends and limited spillovers between areas.",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "evidence": {
+      "question": "Do local general-practice closures change patients’ experiences and residents’ political preferences?",
+      "method": "Linked NHS closure records for 2013–2023 to practice-level patient surveys and geographic information in two longitudinal surveys: Understanding Society and the British Election Study. A staggered difference-in-differences analysis compared changes after an area’s first closure with changes in areas not yet exposed or unexposed. Tested alternative estimators and treatment definitions.",
+      "limitations": "Exposure is assigned geographically, not from each respondent’s actual registration at the closed practice. Closures are not randomly assigned. Causal claims require parallel trends and no consequential spillovers; patient-experience outcomes show some pre-trend concerns. Electoral outcomes are self-reported intentions, not directly observed ballots."
+    },
+    "explainer": {
+      "finding": "Reported patient experiences worsened after a closure in the same local area. Both survey panels showed a subsequent increase in intended support for the specified party group. The political response was larger in areas with higher migration measures, but that does not establish that migration caused the closures.",
+      "method": "The design compares changes over time, not simply different places. Earlier survey waves help check whether areas were already moving apart before a closure. The authors also test alternative estimators, reopening rules and unrelated outcomes; these checks strengthen the case without making the assumptions certain.",
+      "meaning": "Imagine two areas where attitudes had followed similar paths. If one loses a medical practice and attitudes then diverge, the closure becomes a plausible explanation. But another local shock occurring at the same time could still matter. This is why the comparison group is as important as the before-and-after change.",
+      "limits": "The study concerns England’s primary-care system and its particular party landscape. It does not show that every service closure produces the same reaction or establish that party messaging caused individual voters to change their minds. Nearby practices absorbing displaced patients can also blur the treated-versus-comparison distinction.",
+      "source": "https://www.cambridge.org/core/journals/american-political-science-review/article/public-service-decline-and-support-for-the-populist-right-evidence-from-englands-national-health-service/34A66E5EDD4E356F609D9C99269881B6",
+      "background": "#/politics/policy"
+    }
+  }
+}
