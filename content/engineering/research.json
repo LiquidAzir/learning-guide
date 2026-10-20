@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-20",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -302,6 +302,44 @@
         "reason": "Read primary routing methods, cost assumptions, results, sensitivity design, European scenarios and discussion limits. Useful example of how system boundaries and local conditions change engineering estimates. Routes and costs are modeled, not construction bids or observed trade flows."
       },
       "added": "2026-10-13"
+    },
+    {
+      "id": "perovskite-crystallization-small-cell-efficiency",
+      "title": "Crystallization control of 2.0-eV bandgap perovskites for all-perovskite triple-junction solar cells",
+      "headline": "Smoother perovskite films improve a tiny three-layer solar cell",
+      "authors": "Yuhong Zhang, Enzuo Wang, Haonan Liu, Dong Zhou, Renxing Lin, Hao Li, Dongdong Xu, Jing Lou, Hesheng Zhu, Manya Li, Yinke Wang, Chenyang Duan, Yanheng Zhu, Anh Dinh Bui, Khoa Nguyen, Daniel MacDonald, Ou Yang, Huanxin Ju, Ludong Li, Chao Chang, Yongxi Li, Hairen Tan",
+      "venue": "Nature Energy",
+      "year": 2026,
+      "date": "2026-09-10",
+      "url": "https://www.nature.com/articles/s41560-026-02135-1",
+      "doi": "10.1038/s41560-026-02135-1",
+      "topic": "solar-cell-fabrication",
+      "chapter": "power",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Three stacked light-absorbing layers can use different parts of sunlight. Researchers improved the top perovskite layer by controlling how its crystals form, reducing wrinkles and uneven composition. They report 30.1% efficiency, with about 29.3% independently certified. The tested area was only about 0.05 cm2: a promising laboratory result, with panel-scale production and outdoor lifetime still separate questions.",
+      "evidence": {
+        "question": "Can controlling the top absorber's crystallization reduce losses in a three-junction perovskite cell?",
+        "method": "Compared treated and control films using microscopy and optical measurements; compared 35 triple-junction devices per group. SIMIT tested a submitted cell at 25 C and 1,000 W/m2 under the AM1.5 reference spectrum.",
+        "limitations": "Main text was subscription-only; this review uses the public abstract, supplement, reporting summary and certificate. Certification measures one submitted sample, not manufacturing yield or future performance."
+      },
+      "explainer": {
+        "finding": "In the paired fabrication runs, mean efficiency rose from 28.0% to 29.6%. The separate certificate reports 29.26% from a voltage sweep and 28.88% during maximum-power tracking. These are different measurements, not interchangeable records.",
+        "method": "A solvent-and-additive treatment reorganizes the still-wet film before heating. The authors checked surface shape, composition and charge behavior, then compared complete devices with controls.",
+        "meaning": "Imagine stacking three light filters that each generate electricity. Improving one layer helps the whole stack only if charge can also move through its interfaces without large losses. The experiment connects material preparation to that device-level problem.",
+        "limits": "The certificate followed power for 300 seconds; it is not a durability test. This entry makes no quantitative lifetime claim. Large-area uniformity, manufacturing cost and long outdoor service require their own evidence.",
+        "source": "https://media.springernature.com/original/springer-static/esm/art:10.1038%2Fs41560-026-02135-1/MediaObjects/41560_2026_2135_MOESM1_ESM.pdf",
+        "background": "#/engineering/power"
+      },
+      "verified": "2026-10-20",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-20",
+        "sourceRead": "https://media.springernature.com/original/springer-static/esm/art:10.1038%2Fs41560-026-02135-1/MediaObjects/41560_2026_2135_MOESM1_ESM.pdf",
+        "decision": "include",
+        "reason": "Reviewed the publisher abstract, supplementary experimental methods and comparisons, reporting summary, and scanned SIMIT certificate. Main article is subscription-only. Scope is fabrication and measured small-cell performance; no quantitative lifetime claim. Certificate and reporting summary give 0.0492 cm2, slightly different from the supplement caption; use rounded area."
+      },
+      "added": "2026-10-20"
     }
   ]
 }
