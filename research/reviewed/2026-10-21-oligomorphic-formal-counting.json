@@ -1,0 +1,39 @@
+{
+  "subject": "mathematics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-21",
+    "sourceRead": "https://link.springer.com/article/10.1007/s00222-026-01452-2",
+    "decision": "include",
+    "reason": "Read definitions, construction, examples, Theorem 13.2 and its proof, and the real-line application and non-interpolation proof in Section 16. Explains formal counting while retaining hypotheses and unresolved classification."
+  },
+  "item": {
+    "id": "oligomorphic-symmetry-formal-counting",
+    "title": "Oligomorphic groups and tensor categories",
+    "headline": "Infinite symmetries can still have finitely many patterns",
+    "authors": "Nate Harman, Andrew Snowden",
+    "venue": "Inventiones mathematicae",
+    "year": 2026,
+    "date": "2026-09-29",
+    "url": "https://link.springer.com/article/10.1007/s00222-026-01452-2",
+    "doi": "10.1007/s00222-026-01452-2",
+    "topic": "symmetry-and-representation",
+    "chapter": "linear-algebra",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Infinite does not always mean unmanageable. Harman and Snowden build algebraic systems from symmetries with only finitely many patterns for ordered lists of each fixed length. Their construction recovers familiar examples and produces new ones. It requires a compatible formal measure, a consistent rule for assigning sizes, rather than ordinary counting.",
+    "evidence": {
+      "question": "Can special infinite symmetry groups generate new tensor categories, systems of objects with consistent rules for combining them?",
+      "method": "Mathematical construction and proofs using formal integration, matrices and modules. Theorem 13.2 requires a quasi-regular measure and condition (P); regularity additionally gives semisimplicity.",
+      "limitations": "The paper classifies suitable measures only in selected cases. This is a theoretical result, not a tested computational speedup."
+    },
+    "explainer": {
+      "finding": "The authors construct new tensor categories: mathematical systems whose objects encode symmetries and can be combined consistently. One comes from transformations that preserve order on the real line; they prove it cannot be built by their specified procedure for extending finite-group representations.",
+      "method": "The authors replace ordinary matrix sums with integration against a formal measure, then prove the resulting operations fit together.",
+      "meaning": "From n labels, there are n(n-1) ordered pairs with different labels. In one example, a formal size t gives t(t-1). The counting rule survives, although t need not count actual objects.",
+      "limits": "The result applies to special symmetry groups and suitable measures, not arbitrary infinite collections. Formal sizes here are not ordinary counts or probabilities. Classifying valid measures remains unresolved in general.",
+      "source": "https://link.springer.com/article/10.1007/s00222-026-01452-2",
+      "background": "#/mathematics/linear-algebra"
+    }
+  }
+}
