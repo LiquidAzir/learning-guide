@@ -1,0 +1,39 @@
+{
+  "subject": "biology",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-22",
+    "sourceRead": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004063",
+    "decision": "include",
+    "reason": "Read primary results, methods and discussion, including rare-variant calibration, trio mutation validation, ancestral sequence comparison, allele-frequency analysis and simulation design. Explains non-adaptive evolution while distinguishing observations from fitted historical inference. Journal page labels the available article an uncorrected proof."
+  },
+  "item": {
+    "id": "human-gene-starts-mutation-conversion-2026",
+    "title": "Non-adaptive evolutionary forces predominantly shape nucleotide composition near human transcription start sites",
+    "headline": "DNA patterns near gene starts need not all be adaptations",
+    "authors": "Yi Qiu, Emilie Hebraud, Fanny Pouyet and Alexander F. Palazzo",
+    "venue": "PLOS Biology",
+    "year": 2026,
+    "date": "2026-10-21",
+    "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004063",
+    "doi": "10.1371/journal.pbio.3004063",
+    "topic": "genome-evolution",
+    "chapter": "evolution",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Human DNA near the places where genes start being copied into RNA is unusually rich in the letters G and C. Does that mean every part of the pattern was favored by natural selection? Genome analyses and simulations suggest another explanation: local mutation biases combined with past and present GC-biased gene conversion, a repair process during genetic recombination that favors G or C over A or T. The researchers also found an excess of new mutations near gene starts in parent-offspring data. The proposed evolutionary history is inferred from models, not directly observed, and the result does not imply that these regions have no function.",
+    "evidence": {
+      "question": "How much of the nucleotide pattern around human transcription start sites can mutation bias and GC-biased gene conversion explain?",
+      "method": "The team mapped rare variants from 71,702 gnomAD genomes against gene starts identified using testis CAGE data, checked mutation peaks against about 1.08 million de novo mutations compiled from seven parent-offspring studies, compared human and chimpanzee substitutions with ancestral references, analyzed allele frequencies, and fitted simulations of 2,000 synthetic gene regions per parameter set.",
+      "limitations": "Historical recombination episodes and their timing are model-based inferences. Rare variants approximate mutation rates under population-genetic assumptions; the trio-data peak was smaller than the rare-variant estimate. Gene-start annotation emphasizes testis expression, simulations fit averaged patterns, and selection or function at particular sites is not excluded. Available journal text is an uncorrected proof."
+    },
+    "explainer": {
+      "finding": "Mutation hotspots near human gene starts were supported by both rare variants and newly arising mutations. Simulations reproduced much of the local DNA-letter pattern when they included mutation biases and GC-biased gene conversion, including stronger conversion in the past.",
+      "method": "Researchers combined population genomes, parent-offspring sequencing data, gene-expression maps and comparisons among primates. They then tested which combinations of mutation and conversion processes reproduced the average nucleotide pattern in simulated gene regions.",
+      "meaning": "Imagine a repair process that resolves a DNA mismatch in favor of G more often than A. Over generations, G can become common even if it gives no survival advantage. This is why a recurring DNA pattern needs an explanation beyond simply assuming that natural selection optimized it.",
+      "limits": "This is an analysis and modeling study of human genomic patterns, not an experiment that recreates ancient evolution. The exact historical mechanism remains uncertain; useful sequences and natural selection still matter. A pattern arising without adaptation can later be used by cellular machinery.",
+      "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004063",
+      "background": "#/biology/evolution"
+    }
+  }
+}

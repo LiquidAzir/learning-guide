@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-10-22",
+    "sourceRead": "https://www.glossa-journal.org/article/id/29677/",
+    "decision": "include",
+    "reason": "Read primary full text, both experiments' methods and results, discussion and limitations. The factorial rating design separates the island penalty from additive structure and dependency-length effects; the negation task supplies a distinct interpretation measure. Publisher citation metadata dates the article October 20, unlike Crossref discovery October 21."
+  },
+  "item": {
+    "id": "english-island-satiation-backgroundedness-2026",
+    "title": "Islands satiate without change in backgroundedness",
+    "headline": "Awkward questions can grow more acceptable without changing their background meaning",
+    "authors": "Xiaohan Yang and Jiayi Lu",
+    "venue": "Glossa: a journal of general linguistics",
+    "year": 2026,
+    "date": "2026-10-20",
+    "url": "https://www.glossa-journal.org/article/id/29677/",
+    "doi": "10.16995/glossa.29677",
+    "topic": "sentence-processing",
+    "chapter": "sentences",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Why does a question sound wrong, and can familiarity change that judgment? In two experiments with native English speakers, repeated exposure reduced the extra acceptability penalty for questions that reach into certain tightly grouped sentence structures, called syntactic islands. A separate task found no corresponding change in whether the information inside those structures was treated as background. That challenges an explanation based entirely on background information, but does not settle the grammatical mechanism: only two specific English constructions were tested, and the penalty did not disappear.",
+    "evidence": {
+      "question": "Does repeated exposure reduce an island penalty by changing how readers interpret the background status of the information inside it?",
+      "method": "Two Prolific experiments recruited 300 native English speakers each; analyses retained 294 and 285. Four exposure blocks crossed island versus non-island structure with shorter versus longer dependencies. Mixed-effects models tested changes in the interaction between those factors. Before and after exposure, interpretation questions compared affirmative and negated sentences; Bayesian analyses assessed evidence for no change in that contrast.",
+      "limitations": "Acceptability ratings and the negation task are operational measures, not direct observations of grammar. Results cover complex noun phrases headed by claim and definite subjects containing by-phrases. Null interpretation results cannot exclude every small change, and familiarity, learning and greater tolerance remain possible explanations."
+    },
+    "explainer": {
+      "finding": "Some questions became less awkward with exposure, even though the measured background status of their information stayed stable. Both construction types retained an island penalty.",
+      "method": "Readers rated questions on a continuous scale. Comparing four sentence types helped isolate the extra penalty for combining a long dependency with an island structure. Separate interpretation questions before and after exposure tested whether background meaning changed too.",
+      "meaning": "Compare ‘What did Mia say that Leo bought?’ with ‘What did Mia discuss the claim that Leo bought?’ The latter asks the reader to connect ‘what’ to a position inside ‘the claim.’ Such contrasts let researchers test why a construction feels awkward, rather than assume that improved ratings mean its interpretation changed.",
+      "limits": "The study concerns particular English sentences in an online task. It neither proves that repetition rewrites grammar nor rules out a role for discourse. The authors report evidence supporting the null interpretation result, while acknowledging that a smaller undetected change remains possible.",
+      "source": "https://www.glossa-journal.org/article/id/29677/",
+      "background": "#/linguistics/sentences"
+    }
+  }
+}
