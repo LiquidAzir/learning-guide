@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-23",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -895,6 +895,44 @@
         "reason": "Read primary methods, characterization, bonding analysis and reactivity limits."
       },
       "added": "2026-10-09"
+    },
+    {
+      "id": "zirconium-aryloxide-spin-control-2026",
+      "title": "Coherent manipulation of Zr(III) aryloxide qudits",
+      "headline": "Chemists control quantum spin states in zirconium molecules",
+      "authors": "Maggie E. Mahaney, Yuxiang Zhu, Samantha Renard, Alexander M. Brown, Adam Brookfield, Conrad A. P. Goodwin, Jerome R. Robinson, Floriana Tuna and Daniel N. Huh",
+      "venue": "Nature Chemistry",
+      "year": 2026,
+      "date": "2026-10-23",
+      "url": "https://www.nature.com/articles/s41557-026-02269-5",
+      "doi": "10.1038/s41557-026-02269-5",
+      "topic": "molecular-quantum-systems",
+      "chapter": "electrons",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Can a molecule become a controllable unit of quantum information? Researchers made three zirconium compounds and used microwave pulses to steer their spin states. The arrangement of oxygen-containing groups around the metal helps keep the unpaired electron concentrated on zirconium. Repeated refocusing pulses extended a measured coherence time to 123 microseconds at 3 kelvin, about −270 °C, in frozen toluene solution. Transitions involving zirconium-91's nuclear spin were also controllable, making these molecules candidates for quantum units with more than two states. This is a laboratory demonstration of molecular spin control; a working quantum processor and full control of the proposed 12-level system remain to be demonstrated.",
+      "evidence": {
+        "question": "Can a trigonal planar chemical environment stabilize zirconium(III) molecules with coherent, controllable electronic and electron-nuclear spin transitions?",
+        "method": "The team synthesized three aryloxide complexes under air-free conditions, characterized them with crystallography and spectroscopy, and used electronic-structure calculations to interpret their orbitals. Pulsed electron paramagnetic resonance measured relaxation and phase memory in frozen solutions. Nutation experiments varied microwave strength and observed the corresponding change in Rabi oscillation frequency. Repeated CPMG refocusing pulses extended phase memory beyond the two-pulse measurement.",
+        "limitations": "The 123-microsecond maximum required refocusing pulses at 3 K and was measured for zirconium isotopes without nuclear spin; it is not a demonstrated 12-level memory lifetime. Room-temperature chemical stability does not establish room-temperature quantum operation. Zirconium-91 is only 11.2% naturally abundant, and the authors call for isotope-enriched studies. Predicted clock-transition improvements and scalable quantum computation were not demonstrated."
+      },
+      "explainer": {
+        "finding": "The molecules showed microwave-driven spin oscillations, including on selected transitions involving zirconium-91 nuclei. Their quantum phase memory could be extended with refocusing pulses. These are useful ingredients for molecular quantum information devices.",
+        "method": "Microwave pulses rotate spin states, and a later echo reveals how much coherent behavior remains. Researchers changed pulse timing, strength and sample temperature to distinguish control of the spin from loss of energy or phase. Calculations and structural measurements connected those properties to the molecule's geometry.",
+        "meaning": "A qubit uses two quantum states; a qudit uses more. Coupling an electron's spin to a zirconium-91 nucleus creates a candidate set of 12 states. Think of expanding the available notes on an instrument: the useful advance is being able to address transitions reliably, not merely having more levels on paper.",
+        "limits": "Controlling selected transitions is not the same as running an algorithm across all 12 states. The headline coherence result came from a different isotope group under very cold, pulse-assisted conditions. Device integration, full qudit control and computational reliability still need testing.",
+        "source": "https://www.nature.com/articles/s41557-026-02269-5",
+        "background": "#/chemistry/electrons"
+      },
+      "verified": "2026-10-23",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-10-23",
+        "sourceRead": "https://www.nature.com/articles/s41557-026-02269-5",
+        "decision": "include",
+        "reason": "Read the open-access primary synthesis, structural and spectroscopic results, spin-relaxation and nutation experiments, EPR methods and conclusion. Explains how molecular geometry affects quantum properties. Keeps pulse-assisted coherence at 3 K distinct from thermal relaxation and from room-temperature chemical stability; does not present proposed clock transitions or full 12-level operation as demonstrated."
+      },
+      "added": "2026-10-23"
     }
   ]
 }
