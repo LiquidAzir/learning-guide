@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-11-14",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -303,6 +303,44 @@
         "reason": "Read primary results, interference and replay experiments, behavioral and imaging methods, and discussion. Explains causal circuit testing while preserving the fruit-fly model, behavioral sleep definition and unresolved downstream mechanism."
       },
       "added": "2026-10-16"
+    },
+    {
+      "id": "long-term-motor-memory-practice-2026",
+      "title": "Long-term development of a motor memory",
+      "headline": "Extended practice makes a motor memory more durable—and more specific",
+      "authors": "David W. Franklin, Pascal Nietschmann and Sae Franklin",
+      "venue": "Nature Human Behaviour",
+      "year": 2026,
+      "date": "2026-11-09",
+      "url": "https://www.nature.com/articles/s41562-026-02622-1",
+      "doi": "10.1038/s41562-026-02622-1",
+      "topic": "motor-learning",
+      "chapter": "learning-memory",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Getting a movement right today and retaining it months later are different achievements. In two experiments with 28 young adults, participants repeatedly reached while a robot pushed their hand sideways. Across eight training sessions, they learned to anticipate nearly all of that push. At a return visit 15 weeks later, they retained about 60% of the learned compensating force before retraining. Practice also narrowed how broadly the response carried over to other reaching directions. The result shows continuing refinement after initial success, but it comes from one laboratory movement task, not a test of sports training or rehabilitation.",
+      "evidence": {
+        "question": "How does extended training change the strength, retention and generalization of adaptation to a predictable sideways force?",
+        "method": "Ten participants trained in eight weekly sessions; a second, preregistered experiment with 18 participants used eight sessions within four weeks. Both groups returned 15 weeks after training. Participants reached with their dominant right hand against a velocity-dependent robotic force. Occasional trials constrained the hand to a straight channel, measuring anticipatory force independently of sideways movement errors. Other probes tested nearby directions and the untrained hand.",
+        "limitations": "The samples were small, young, healthy and right-handed. The task trained a single reaching direction, and no clinical or real-world skill outcome was measured. These behavioral measures cannot identify the neural mechanism or establish an optimal practice schedule. The roughly 60% retention concerns compensating force relative to the previous session, not a percentage of all skill or memory."
+      },
+      "explainer": {
+        "finding": "Compensation improved across training, while retention became stronger and generalization to other directions narrowed. At the 15-week return, about 60% of the learned force pattern remained. Transfer to the untrained left hand stayed limited.",
+        "method": "The robot sometimes acted like a narrow rail. By measuring the force participants applied against it, the researchers could tell whether they anticipated the usual sideways push. Testing this way at the start of the return visit helped separate retained learning from rapid relearning.",
+        "meaning": "Imagine learning to reach straight ahead despite a steady sideways disturbance. You can become better at that precise movement without gaining equally across every other direction. The study illustrates why accuracy, lasting retention and transfer should be measured separately when evaluating practice.",
+        "limits": "This was a robotic reaching task in 28 adults. It does not show how many repetitions a musician, athlete or patient needs, and it did not measure brain activity or compare rehabilitation treatments.",
+        "source": "https://www.nature.com/articles/s41562-026-02622-1",
+        "background": "#/psychology/learning-memory"
+      },
+      "verified": "2026-11-14",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-14",
+        "sourceRead": "https://www.nature.com/articles/s41562-026-02622-1",
+        "decision": "include",
+        "reason": "Read primary participant and task methods, force-channel analysis, adaptation, generalization, retention, transfer and discussion. Teaches the distinction between initial performance, durable retention and transfer. Preserves small healthy samples, task specificity and behavioral rather than neural evidence; does not turn the authors' rehabilitation implications into a tested treatment."
+      },
+      "added": "2026-11-14"
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "subject": "physics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-14",
+    "sourceRead": "https://www.nature.com/articles/s41567-026-03505-y",
+    "decision": "include",
+    "reason": "Read primary experimental results, DNA length and concentration controls, geometry and activity sweeps, active-gel model, preparation, imaging and analysis methods and discussion. Teaches mechanical feedback and emergence in energy-consuming soft matter. Keeps the ATP-powered laboratory composite distinct from living cells, and the model interpretation distinct from direct molecular-scale proof."
+  },
+  "item": {
+    "id": "dna-active-fluid-oscillations-2026",
+    "title": "Active-flow-driven DNA remodelling generates millimetre-scale mechanical oscillations",
+    "headline": "DNA helps a motor-driven fluid organize into a shared rhythm",
+    "authors": "Maya Levanon, Noa S. Goldberg, Dvir Cohen, Eran Bouchbinder, Ram M. Adar and Alexandra M. Tayar",
+    "venue": "Nature Physics",
+    "year": 2026,
+    "date": "2026-11-09",
+    "url": "https://www.nature.com/articles/s41567-026-03505-y",
+    "doi": "10.1038/s41567-026-03505-y",
+    "topic": "active-matter",
+    "chapter": "matter",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Can many tiny motors produce a shared rhythm without a central clock? Researchers mixed microtubule filaments, kinesin motors and DNA in a shallow laboratory channel. With sufficiently long DNA, initially disordered flows developed coordinated, millimetre-scale oscillations. Imaging and an active-gel model support a feedback mechanism: the flow stretches and entangles DNA into a network, whose elastic response then reorganizes the flow. Changing channel width and motor activity changed the rhythm. The system consumes chemical fuel and uses purified components; it is a demonstration of collective material behavior, not evidence that the same mechanism controls rhythms inside cells.",
+    "evidence": {
+      "question": "Can an active fluid build its own mechanically connected polymer network and thereby generate coordinated oscillations?",
+      "method": "The team combined microtubules and kinesin motor clusters with DNA of controlled length distributions, ATP and a fuel-regeneration system. Fluorescence and confocal microscopy, tracer tracking and image-based velocity measurements followed network formation and flow. DNA-free controls, DNA length and concentration scans, channel-width changes and motor-concentration changes tested the conditions for oscillation. A continuum active-gel model connected viscoelastic feedback with the observed trends.",
+      "limitations": "This is a purified-component laboratory system in shallow channels, not an experiment in living cells or a finished device. Channel geometry sets the largest coordinated scale and influences the period. DNA lengths have distributions, samples are sensitive to preparation conditions, and the effective model does not directly measure every molecular interaction. Generalization to other polymers is proposed, not demonstrated here."
+    },
+    "explainer": {
+      "finding": "Long DNA changed locally disordered motion into coordinated flow reversals across millimetres. Short DNA or no DNA did not produce the same sustained collective rhythm under the tested conditions.",
+      "method": "Researchers watched fluorescent filaments and DNA move, tracked small beads and measured how closely motion in different regions matched. They then changed DNA length, channel size and the concentration of molecular motors to see which features controlled the transition and its timing.",
+      "meaning": "Picture many small stirrers moving independently in a liquid. A flexible network can transmit their pushes across the liquid and feed forces back after a delay, allowing a larger rhythm to emerge. Here, the moving fluid helped assemble that network itself. This offers a physical principle for designing active soft materials.",
+      "limits": "The motion needs ATP-based chemical energy; it does not run for free. The experiments establish behavior in this particular material and geometry. Applications to biological rhythms or useful actuators still require separate tests.",
+      "source": "https://www.nature.com/articles/s41567-026-03505-y",
+      "background": "#/physics/matter"
+    }
+  }
+}
