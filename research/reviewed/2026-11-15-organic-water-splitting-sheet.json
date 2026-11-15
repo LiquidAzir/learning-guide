@@ -1,0 +1,39 @@
+{
+  "subject": "engineering",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-15",
+    "sourceRead": "https://www.nature.com/articles/s41560-026-02160-0",
+    "decision": "include",
+    "reason": "Read primary underlayer design, integrated and microdomain device results, domain-size comparison, stated limitations, fabrication and gas-measurement methods. Teaches how charge routing changes device function. Keeps half-cell measurements distinct from unassisted whole-device efficiency, and preserves short duration, declining output, precious-metal catalysts and unproven industrial scale."
+  },
+  "item": {
+    "id": "organic-water-splitting-photocatalyst-sheet-2026",
+    "title": "An organic semiconductor-based photocatalyst sheet for overall solar-driven water splitting",
+    "headline": "A patterned organic film makes hydrogen and oxygen using simulated sunlight",
+    "authors": "Nicolas J. Diercks, Jin Su Park, Jun-Ho Yum, Yan Meng, Arthur E. Bouchez, Fabien Sorin, Han-Hee Cho and Kevin Sivula",
+    "venue": "Nature Energy",
+    "year": 2026,
+    "date": "2026-11-11",
+    "url": "https://www.nature.com/articles/s41560-026-02160-0",
+    "doi": "10.1038/s41560-026-02160-0",
+    "topic": "solar-fuels",
+    "chapter": "power",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "The same light-absorbing organic film can do two different jobs depending on the molecular layer underneath it. Researchers patterned that underlayer so neighboring regions supported hydrogen and oxygen production, then connected them through a conductive substrate. Under simulated sunlight, the completed sheet split water without an external electrical bias, reaching about 0.1% solar-to-hydrogen efficiency. It kept producing gas for over two hours, but output declined substantially. This is a laboratory demonstration of a simpler device architecture; efficiency, durability and large-area production still need improvement.",
+    "evidence": {
+      "question": "Can one organic semiconductor blend drive both halves of water splitting when its underlying charge-selective contact is patterned?",
+      "method": "The team first tested separate hydrogen- and oxygen-producing electrodes, then integrated both reactions on one substrate. Molecular contacts were patterned with stamps into 1,000-, 100- and 10-micrometre domains beneath the same polymer blend. Platinum and iridium-based co-catalysts supported the reactions. Gas chromatography measured hydrogen and oxygen during unbiased operation in pH 9 borate electrolyte under simulated one-sun illumination. Independently made devices tested the domain-size effect; a spray-patterned version was also demonstrated.",
+      "limitations": "The approximately 0.1% efficiency belongs to the 1,000-micrometre-domain device, not an industrial module. Hydrogen output declined from 1.3 micromoles per hour per square centimetre after stabilization to 0.72 after 120 minutes. The spray-patterned version achieved about 0.01%. Smaller domains increased charge-recombination losses. Long outdoor service life, cost competitiveness, large-area manufacture and practical gas separation were not demonstrated."
+    },
+    "explainer": {
+      "finding": "Changing the layer beneath the absorber changed which electrical charges it extracted. Patterning that layer let one continuous light-absorbing film support both water-splitting reactions on the same sheet.",
+      "method": "Researchers measured the separate reactions first, then checked that the integrated device produced hydrogen and oxygen in the expected two-to-one ratio without an added electrical voltage. Comparing several domain sizes showed that making the pattern smaller did not automatically improve performance.",
+      "meaning": "Think of the underlayer as a set of electrical routes: the absorber creates charges, and those routes send them toward different reactions. Sharing one absorber and substrate could simplify construction, but a simpler layout still has to convert enough sunlight and last long enough to be useful.",
+      "limits": "At 0.1% efficiency, about one-thousandth of the incoming solar energy became hydrogen chemical energy under the test conditions. The device used precious-metal catalysts and lost output during a short laboratory run. It is a design advance, not yet a competitive hydrogen-production system.",
+      "source": "https://www.nature.com/articles/s41560-026-02160-0",
+      "background": "#/engineering/power"
+    }
+  }
+}

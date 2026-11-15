@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-11-15",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -409,6 +409,44 @@
         "reason": "Read primary research design, patient and electoral results, moderation analysis, robustness discussion and conclusion. Teaches the public-service/accountability connection and staggered difference-in-differences assumptions. Uses area exposure and stated voting intentions accurately, preserves pre-trend and spillover limits, and does not reproduce campaign messaging or treat migration as an established cause of service decline."
       },
       "added": "2026-10-19"
+    },
+    {
+      "id": "colonial-ghana-bureaucratic-hiring-2026",
+      "title": "The Seeds of State Capture: Merit and Patrimonialism in the Colonial Bureaucracy",
+      "headline": "Colonial hiring records show how insiders can shape a civil service",
+      "authors": "Sarah Brierley, Noah Nathan, George Kwaku Ofosu and Tingxuan Zhu",
+      "venue": "American Political Science Review",
+      "year": 2026,
+      "date": "2026-11-06",
+      "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/seeds-of-state-capture-merit-and-patrimonialism-in-the-colonial-bureaucracy/773077D80D6A09D2DC1B2E70B574DF89",
+      "doi": "10.1017/S0003055426101993",
+      "topic": "bureaucratic-recruitment",
+      "chapter": "bureaucracy",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "A civil service can require qualifications on paper while access to jobs still depends on insiders. Researchers digitized staff records from British-ruled Ghana spanning 1897–1955 and linked them with examination and schooling records. Departments with more senior staff from an ethnic group tended to hire more people from that group the next year. Hiring differences also persisted among people who passed qualifying exams. Together with archival evidence of decentralized recruitment, this supports the authors' explanation that existing bureaucrats helped sustain unequal access. The evidence is historical and observational, and ethnicity was inferred from names; it cannot establish favoritism in every individual appointment.",
+      "evidence": {
+        "question": "How could existing bureaucrats, rather than only political leaders, shape unequal recruitment under formally merit-based colonial rules?",
+        "method": "The study combined colonial staff lists, qualifying-exam records, school locations and spending, and archival hiring correspondence. A name-based classifier linked historical officials to likely ethnic groups using contemporary census and voter-register data, with validation against self-reported ethnicity. Department-year regressions compared subsequent hiring with prior senior representation, controlling for ethnic-group, department and year effects and lagged school access. Exam results provided an additional comparison of qualifications and later employment.",
+        "limitations": "This is an observational study of one colonial setting, not randomized evidence of a hiring mechanism. Staff-list coverage changed across years and ranks. Names do not perfectly identify ethnicity or mixed identities; the main analyses exclude the least distinctive quarter. Modern naming and population data introduce historical comparability assumptions. Exams and school-distance measures capture only parts of qualifications and access, and not every successful examinee necessarily sought a recorded government job."
+      },
+      "explainer": {
+        "finding": "Existing representation predicted later hiring within departments, and formal exam success did not fully account for who obtained posts. The authors interpret the combined evidence as consistent with insider influence reinforcing early advantages.",
+        "method": "The researchers compared several kinds of records rather than relying on unequal group shares alone: who already held senior jobs, who entered later, who passed exams, how schooling expanded and how recruitment actually operated. Each comparison tested a different possible explanation.",
+        "meaning": "Imagine a qualified applicant who must contact many offices separately, while an employee's acquaintance learns immediately when a vacancy opens. Both face the same formal qualification rule, but access to information differs. The study illustrates why assessing merit-based recruitment requires examining the hiring process as well as its written rules.",
+        "limits": "The records do not reveal every applicant's choices or every hiring officer's motives. The proposed mechanism is supported by converging historical evidence, not proven for each appointment. Findings from colonial Ghana should not be treated as a verdict on other countries, modern agencies or any ethnic group's character.",
+        "source": "https://www.cambridge.org/core/journals/american-political-science-review/article/seeds-of-state-capture-merit-and-patrimonialism-in-the-colonial-bureaucracy/773077D80D6A09D2DC1B2E70B574DF89",
+        "background": "#/politics/bureaucracy"
+      },
+      "verified": "2026-11-15",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-15",
+        "sourceRead": "https://www.cambridge.org/core/journals/american-political-science-review/article/seeds-of-state-capture-merit-and-patrimonialism-in-the-colonial-bureaucracy/773077D80D6A09D2DC1B2E70B574DF89",
+        "decision": "include",
+        "reason": "Read primary historical data construction, ethnicity-classification validation, department-year regressions, exam-to-hiring comparisons, archival hiring evidence, alternative explanations and conclusion. Teaches how delegated recruitment and information advantages can sustain institutional exclusion. Preserves observational identification, changing record coverage and uncertain name-based ethnicity; does not turn group-level patterns into claims about individual character or present-day parties."
+      },
+      "added": "2026-11-15"
     }
   ]
 }
