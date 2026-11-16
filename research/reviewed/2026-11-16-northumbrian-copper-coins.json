@@ -1,0 +1,39 @@
+{
+  "subject": "history",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-16",
+    "sourceRead": "https://www.cambridge.org/core/journals/antiquity/article/debasement-and-the-production-of-copperalloy-coins-in-ninthcentury-northumbria/6FF30FF445769AD42D7E990BB2A1BA92",
+    "decision": "include",
+    "reason": "Read primary historical framing, artefact-database construction, certainty categories, results, discussion and conclusion. Teaches how non-monetary finds can test an explanation of coinage change. Keeps measured find counts separate from inferred economic prosperity and proposed royal motives; does not present new metallurgical assays or a quantified bullion stock as part of this study."
+  },
+  "item": {
+    "id": "northumbrian-copper-coins-precious-metals-2026",
+    "title": "Debasement and the production of copper-alloy coins in ninth-century Northumbria",
+    "headline": "Copper coins do not necessarily mean a kingdom ran out of silver",
+    "authors": "John Luke Carson",
+    "venue": "Antiquity",
+    "year": 2026,
+    "date": "2026-11-10",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/debasement-and-the-production-of-copperalloy-coins-in-ninthcentury-northumbria/6FF30FF445769AD42D7E990BB2A1BA92",
+    "doi": "10.15184/aqy.2026.10454",
+    "topic": "medieval-money",
+    "chapter": "europe-early-medieval",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Northumbria gradually removed silver from its ninth-century coins, a change often treated as a sign of economic decline. A new assessment instead asks what happened to silver outside the mint. A catalogue of ornaments, fittings and other finds identifies substantial evidence of silver and gold use during the same period. The author argues that copper-alloy money could have supported more everyday transactions or increased minting revenue, rather than simply reflecting a kingdom stripped of precious metal. These are historical interpretations: surviving objects cannot tell us exactly how much silver rulers could obtain or why they chose to change the coins.",
+    "evidence": {
+      "question": "Does the surviving precious-metal evidence support the claim that Northumbria adopted copper-alloy coins because silver had become unavailable?",
+      "method": "The author compiled published finds and records, over half from the Portable Antiquities Scheme, and classified objects as certainly, likely or possibly relevant to ninth-century Northumbria. The analysis combined find counts with object size, decoration, composition where known and earlier numismatic research. It identified 27 certain and seven likely silver finds, alongside silver-decorated and gold objects. Hoards counted as single finds, with their contents discussed separately.",
+      "limitations": "Find counts are not weights of available bullion: mixed materials and unknown composition prevent a reliable total. Survival, discovery and recording shape the assemblage, and most finds come from the kingdom's southeast. Dates and origins can be uncertain, especially for objects moved by Vikings. Luxury objects show precious-metal use but do not directly establish mint access, population-wide prosperity or royal intentions."
+    },
+    "explainer": {
+      "finding": "Silver and gold continued to appear in Northumbrian objects while coinage became copper-based. That challenges a simple story in which coin debasement necessarily meant the kingdom had lost access to precious metals.",
+      "method": "The study looked beyond coins, bringing together rings, strap-ends, decorated weapons and other artefacts. It separated securely dated finds from uncertain ones and considered the amount and type of metal use rather than treating every find as equivalent.",
+      "meaning": "A silver ornament and a copper coin can coexist because they serve different purposes. Lower-value coins may make small exchanges easier even when valuable metal remains in jewelry. This is a possible explanation of the evidence, illustrating why historians compare several kinds of objects before diagnosing economic decline.",
+      "limits": "The study cannot determine whether minting revenue, easier exchange or other motives drove the change. It also cannot reconstruct the kingdom's total silver supply from surviving finds. The broader claim of economic revival remains an interpretation rather than a direct measurement of incomes or trade.",
+      "source": "https://www.cambridge.org/core/journals/antiquity/article/debasement-and-the-production-of-copperalloy-coins-in-ninthcentury-northumbria/6FF30FF445769AD42D7E990BB2A1BA92",
+      "background": "#/history/europe-early-medieval"
+    }
+  }
+}

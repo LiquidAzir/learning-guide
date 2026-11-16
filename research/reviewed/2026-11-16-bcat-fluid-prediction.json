@@ -1,0 +1,39 @@
+{
+  "subject": "ai",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-16",
+    "sourceRead": "https://jair.org/index.php/jair/article/download/22089/27381/61530",
+    "decision": "include",
+    "reason": "Read the published JAIR version's methods, benchmark setup, baseline retraining, results, ablations, conclusion and appendices on datasets, training, seed variability, noise and physics diagnostics. Uses published 1.18% relative L2 error, not earlier preprint values. Distinguishes held-out trajectories in trained fluid families from unseen physics and lower field error from guaranteed physical fidelity."
+  },
+  "item": {
+    "id": "bcat-block-causal-fluid-prediction-2026",
+    "title": "BCAT: A Block Causal Transformer for PDE Foundation Models for Fluid Dynamics",
+    "headline": "Predicting whole snapshots helps an AI model forecast fluid motion",
+    "authors": "Yuxuan Liu, Jingmin Sun and Hayden Schaeffer",
+    "venue": "Journal of Artificial Intelligence Research",
+    "year": 2026,
+    "date": "2026-11-11",
+    "url": "https://jair.org/index.php/jair/article/view/22089",
+    "doi": "10.1613/jair.1.22089",
+    "topic": "scientific-machine-learning",
+    "chapter": "transformers",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "A fluid changes across space and time, so predicting it patch by patch like words in a sentence may be a poor fit. BCAT lets regions within an observed snapshot exchange information, then predicts the next snapshot as a whole. On six families of two-dimensional fluid simulations, it achieved an average relative field error of 1.18%, compared with 2.16% for the larger DPOT-L baseline under the study's shared testing setup. It performed best on five of the six families. These are benchmark results on simulated data at a common grid resolution, not evidence that the model can replace physical testing or reliably forecast any real fluid.",
+    "evidence": {
+      "question": "Can a transformer that combines spatial interactions within frames with forward-only temporal prediction improve forecasts across several fluid-simulation families?",
+      "method": "BCAT was trained jointly on fluid trajectories from PDEBench, PDEArena and CFDBench, resampled to 128 by 128 spatial grids. Tests used ten observed frames to predict ten future frames, or four for the shorter PDEArena NS dataset. MPP and DPOT baselines were retrained with matched data, context and evaluation metrics. The authors also tested architecture and optimizer variants, five training seeds, noisy inputs, longer prediction sequences and physical diagnostics.",
+      "limitations": "The main comparison tests held-out trajectories in fluid families represented during training, without task-specific fine-tuning; it does not establish transfer to arbitrary new equations. Results are limited to two-dimensional simulations at a shared resolution. Errors can accumulate over longer forecasts and increase with input noise. Lower average field error does not guarantee exact conservation laws, and BCAT was not best on every dataset or physical diagnostic."
+    },
+    "explainer": {
+      "finding": "BCAT reduced the average relative L2 error, a measure of field mismatch, from DPOT-L's 2.16% to 1.18% in this comparison while using fewer parameters. Both its frame-based prediction and its training choices contributed to performance.",
+      "method": "The model divides each snapshot into patches, lets patches within that snapshot interact and uses past snapshots to predict the next one. It cannot look at future observations. Researchers compared its forecasts with held-out simulation trajectories and with other models under a common evaluation setup.",
+      "meaning": "Imagine forecasting the next map of a swirling fluid. Nearby and distant regions can affect one another at the same moment, so forcing them into a word-like sequence adds an artificial ordering. Predicting a whole map at each step better matches this spatial structure while retaining time's direction.",
+      "limits": "The reported 1.18% is an average error measure across six benchmark families, not a probability that a forecast is correct. Three-dimensional flows, new physical regimes and real measurements need further validation. The model also makes mistakes about physical constraints, so a convincing-looking flow is not automatically a trustworthy simulation.",
+      "source": "https://jair.org/index.php/jair/article/download/22089/27381/61530",
+      "background": "#/ai/transformers"
+    }
+  }
+}
