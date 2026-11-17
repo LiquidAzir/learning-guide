@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-11-17",
   "note": "Curated primary studies checked on 2026-09-08. The collection includes recent work and earlier background studies; publication dates are preserved. Source checks do not establish independent replication.",
   "items": [
     {
@@ -457,6 +457,44 @@
         "reason": "Read primary full text, both experiments' methods and results, discussion and limitations. The factorial rating design separates the island penalty from additive structure and dependency-length effects; the negation task supplies a distinct interpretation measure. Publisher citation metadata dates the article October 20, unlike Crossref discovery October 21."
       },
       "added": "2026-10-22"
+    },
+    {
+      "id": "albanian-nga-distributive-quantities-2026",
+      "title": "The role of vagueness in distributive marking: Evidence from Albanian nga",
+      "headline": "In Albanian, a word for distributing quantities pairs better with numbers than with many",
+      "authors": "Bujar Rushiti and Doriane Gras",
+      "venue": "Glossa: a journal of general linguistics",
+      "year": 2026,
+      "date": "2026-10-28",
+      "url": "https://www.glossa-journal.org/article/id/23233/",
+      "doi": "10.16995/glossa.23233",
+      "topic": "quantification-and-meaning",
+      "chapter": "meaning",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "A sentence can say that children read two books together or two books apiece. Albanian nga marks the second kind of meaning, but it does not combine equally well with every quantity word. In a sentence-rating experiment with 33 native Albanian speakers, adding nga reduced acceptability with shumë, meaning many, much more than with numerals. Informal judgments suggest that expressions such as about 100 can still work, so the issue is not simply whether a quantity is exact. The pattern is clear in the tested sentences; its explanation and reach across other languages remain open.",
+      "evidence": {
+        "question": "Does Albanian distributive nga selectively reduce the acceptability of shumë, meaning many, compared with numerals?",
+        "method": "Thirty-four native Albanian speakers were recruited and one was excluded for accepting most ungrammatical fillers. The remaining 33, raised in Albania or Kosovo and educated at Albanian-speaking institutions, rated written sentences on a seven-point scale. Thirty-two experimental items crossed numeral versus shumë with nga present versus absent in two sentence configurations. Four Latin-square lists balanced conditions; ordinal mixed models included participant and item effects.",
+        "limitations": "This is an acceptability task in standard Albanian with a small, educated sample, not a measure of spontaneous speech or every dialect. The experiment tested shumë against numerals. Claims about other quantifiers, modified numerals and other languages rely on informal judgments. The study documents an interaction but does not establish its semantic or pragmatic cause."
+      },
+      "explainer": {
+        "finding": "Adding nga made sentences with shumë less acceptable, while numeral combinations retained high ratings. The selective effect appeared both in simple quantity phrases and in phrases introduced by me, meaning with.",
+        "method": "Participants saw one version of each experimental item, mixed with grammatical and ungrammatical fillers. Comparing four versions separated the effect of the quantity word from the effect of adding nga. Ordinal models analyzed the rating order without assuming that each step on the scale represented an equal difference.",
+        "meaning": "Compare two books apiece with many books apiece. Two supplies a fixed count; what counts as many depends on context. The Albanian results suggest that a grammatical device for distributing quantities can care about this difference. Yet about 100 appears acceptable in informal judgments, showing why vague and approximate are not automatically the same thing.",
+        "limits": "The study does not prove that nga always requires an exact number, that the same restriction holds in English, or that speakers cannot communicate vague quantities. Broader language comparisons and controlled tests of approximate expressions are still needed.",
+        "source": "https://www.glossa-journal.org/article/id/23233/",
+        "background": "#/linguistics/meaning"
+      },
+      "verified": "2026-11-17",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-17",
+        "sourceRead": "https://www.glossa-journal.org/article/id/23233/",
+        "decision": "include",
+        "reason": "Read the primary introduction, participant and material description, Latin-square design, ordinal mixed-model results, discussion, conclusion and notes. Distinguishes the controlled Albanian many-versus-numeral comparison from informal judgments about other expressions and languages. Teaches compositional meaning and contextual vagueness without presenting an unresolved semantic explanation as established."
+      },
+      "added": "2026-11-17"
     }
   ]
 }

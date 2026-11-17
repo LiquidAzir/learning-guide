@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-11-17",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -1133,6 +1133,44 @@
         "reason": "Read primary results, methods and discussion, including rare-variant calibration, trio mutation validation, ancestral sequence comparison, allele-frequency analysis and simulation design. Explains non-adaptive evolution while distinguishing observations from fitted historical inference. Journal page labels the available article an uncorrected proof."
       },
       "added": "2026-10-22"
+    },
+    {
+      "id": "kelp-conditional-asexual-development-2026",
+      "title": "Life-cycle plasticity enables conditional asexual reproduction in a kelp",
+      "headline": "A kelp can start growing without fertilization, but sexual offspring fare better",
+      "authors": "Daniel Liesner, Rémy Luthringer, Lineekela Kandjengo, John J. Bolton, Mark D. Rothman, Myriam Valero, Fabian B. Haas and Susana M. Coelho",
+      "venue": "PLOS Biology",
+      "year": 2026,
+      "date": "2026-11-12",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004065",
+      "doi": "10.1371/journal.pbio.3004065",
+      "topic": "reproductive-plasticity",
+      "chapter": "inheritance",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "The kelp Laminaria pallida can begin its large, blade-forming life stage from an unfertilized egg or even a male gamete. In laboratory cultures, this asexual development became less common when potential mates were present. Yet sexually produced offspring were more numerous and grew better; asexual offspring often developed abnormal shapes. Genetic sampling of 523 wild kelps from Namibia and South Africa found no unambiguous evidence of this asexual route. It may be a fallback when mating fails, but the study does not show that it successfully sustains wild populations.",
+      "evidence": {
+        "question": "Can kelp gametes initiate development without fertilization, and does mate availability alter that pathway?",
+        "method": "Researchers followed four clonal male lines and one female line in separate and mixed cultures, measured development and growth, and examined sex markers, DNA content and gene expression. Mesh-divided dishes tested mate presence while sharing culture water. Ten microsatellite markers characterized 523 wild sporophytes from two populations; newly established cultures also tested whether wild kelps retained the developmental capacity.",
+        "limitations": "Laboratory comparisons used few genetic lines, some maintained for decades. The mesh could not rule out all sperm passage in the female treatment. Gene-expression associations do not identify the causal switch. Two sampled populations cannot establish the route's frequency throughout the species; no reproductive structures formed in the cultured asexual offspring despite three induction attempts."
+      },
+      "explainer": {
+        "finding": "Both male and female gametes could begin blade-forming development without fusion. Asexual offspring grew less well than sexual offspring, and the mate-presence experiment reduced asexual development. The wild population data did not provide clear evidence that such offspring commonly reach adulthood.",
+        "method": "The team compared isolated cultures with sexual crosses, followed growth under a microscope, checked genetic sex and DNA content, and measured gene expression. A separate experiment placed potential mates across a mesh barrier in shared water. Field genotypes supplied a check on whether laboratory capacity translated into a detectable natural pattern.",
+        "meaning": "Picture a microscopic kelp releasing gametes where no compatible partner is nearby. Starting development alone could offer another route forward. But starting a blade is only one step: surviving, growing and reproducing later are separate hurdles. This study shows why finding an ability in the laboratory is different from showing that it matters in an ecosystem.",
+        "limits": "A reproductive fallback is a plausible interpretation, not a demonstrated rescue mechanism in the sea. The signaling system remains unknown, and the asexual offspring's poor growth and failure to form reproductive structures limit claims about long-term success.",
+        "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004065",
+        "background": "#/biology/inheritance"
+      },
+      "verified": "2026-11-17",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-17",
+        "sourceRead": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004065",
+        "decision": "include",
+        "reason": "Read primary developmental experiments, growth and ploidy results, transcriptomic analyses, population genetics, mate-exclusion methods and discussion. Teaches the distinction between a developmental capacity in culture and its contribution to reproduction in nature. Preserves limited cultured lines, uncertain mate-recognition mechanism, possible sperm passage through the mesh and lack of demonstrated field reproductive assurance."
+      },
+      "added": "2026-11-17"
     }
   ]
 }
