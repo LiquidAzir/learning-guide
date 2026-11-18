@@ -1,0 +1,39 @@
+{
+  "subject": "cs",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-18",
+    "sourceRead": "https://dl.acm.org/doi/pdf/10.1145/3863936",
+    "decision": "include",
+    "reason": "Read the accepted manuscript's problem framing, trace-restricted model definitions, detector selection and theoretical comparisons, benchmark and tool configurations, empirical results and limitations, and proposed trace-unrestricted direction. Separates the 15-detector conceptual comparison from nine executed tools on 36 Java benchmarks. Keeps windowing, trace formats, implementation optimizations, resource failures and known soundness caveats attached to performance claims; the future framework is not presented as an evaluated tool."
+  },
+  "item": {
+    "id": "dynamic-data-race-models-comparison-2026",
+    "title": "On Models for Sound Dynamic Data Race Detection: A Survey and An Outlook",
+    "headline": "A stronger model for finding data races can still miss bugs in practice",
+    "authors": "Shihao Zhu, Yuqi Guo, Jinqiu Wang, Yan Cai, Jian Zhang, Shuyang Liu and Jens Palsberg",
+    "venue": "ACM Computing Surveys (accepted manuscript)",
+    "year": 2026,
+    "date": "2026-11-17",
+    "url": "https://dl.acm.org/doi/10.1145/3863936",
+    "doi": "10.1145/3863936",
+    "topic": "concurrency-testing",
+    "chapter": "concurrency",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "A data-race detector can replay the logic of a recorded execution in different orders to look for conflicting memory accesses. This study compares the rules that make those alternative executions plausible, then tests nine available tools on 36 Java benchmarks. SeqC found more races in that setup than the tested constraint-solving tools, even though those tools allowed more possibilities in principle. Their short event windows missed conflicts separated by long stretches of the trace. The lesson is that mathematical coverage, practical search limits and implementation choices must be evaluated together; the results are not a guarantee about every program or configuration.",
+    "evidence": {
+      "question": "How do assumptions about permissible execution traces and practical algorithms affect dynamic data-race detection coverage and cost?",
+      "method": "The authors organized 15 detectors, including a classic happens-before baseline, under a framework of trace consistency models. Nine available implementations were run on 36 Java benchmarks traced with Dirk. Runs used a 12-hour time limit and 80 GB memory limit, with five repetitions per tool and benchmark. The comparison standardized race identity and examined coverage, runtime, preprocessing, failures and event-window effects.",
+      "limitations": "The experiments use Java benchmarks and selected implementations under sequential-consistency assumptions. Trace formats, pruning and optimization differ, and some tools timed out, exhausted memory or crashed. RV and Dirk used 10,000-event windows. The authors acknowledge known soundness issues in Dirk and limits on which happens-before reports are guaranteed sound. Counts are tool reports, not proof that all possible program races were found."
+    },
+    "explainer": {
+      "finding": "SeqC reported the broadest coverage among the tested individual tools. More permissive models in RV and Dirk did not translate into broader measured coverage because their practical search windows excluded some long-distance event pairs. Trace pruning also strongly affected runtime.",
+      "method": "The study first compared the conditions each model preserves when rearranging a recorded execution, then ran available tools on common traces. It examined both all benchmarks and the subset without resource failures, and compared which individual race reports overlapped rather than relying only on totals.",
+      "meaning": "Imagine two threads accessing a shared counter without the required synchronization. The relevant accesses might be far apart in one recorded run but conflict under another schedule. A tool that analyzes only short chunks can miss that pair even if its reasoning inside each chunk is powerful. Search boundaries matter as much as the rule used within them.",
+      "limits": "No clean report proves a program race-free: the recorded run may omit other paths and inputs. The paper's proposed framework for exploring events outside that run is a research direction, not a newly benchmarked detector. The observed ranking depends on workloads, settings and implementations.",
+      "source": "https://dl.acm.org/doi/pdf/10.1145/3863936",
+      "background": "#/cs/concurrency"
+    }
+  }
+}

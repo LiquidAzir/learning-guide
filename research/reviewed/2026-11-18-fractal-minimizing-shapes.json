@@ -1,0 +1,39 @@
+{
+  "subject": "mathematics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-18",
+    "sourceRead": "https://arxiv.org/html/2110.13137v7",
+    "decision": "include",
+    "reason": "Read the author's version 7 theorem statements, assumptions, calibration proof plan, central construction lemma, assembly of the main results and concluding scope discussion; checked the journal landing page for title and online publication date. Teaches the distinction between minimizing area and having simple singularities. Keeps the specially chosen smooth metric, crossing-type singularities and existence-versus-typicality limits explicit. Does not claim independent verification of every proof step or import the separate sequel's stronger results."
+  },
+  "item": {
+    "id": "almgren-fractal-singular-sets-2026",
+    "title": "On a conjecture of Almgren: area-minimizing submanifolds with fractal singular sets",
+    "headline": "Even an area-minimizing shape can have a fractal set of singularities",
+    "authors": "Zhenhua Liu",
+    "venue": "Annals of Mathematics",
+    "year": 2026,
+    "date": "2026-11-05",
+    "url": "https://annals.math.princeton.edu/2026/204-3/p03",
+    "doi": "10.4007/annals.2026.204.3.3",
+    "topic": "geometric-measure-theory",
+    "chapter": "geometry",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Making area as small as possible does not guarantee that the exceptional points form a simple pattern. Zhenhua Liu constructs area-minimizing geometric objects whose singular sets can be fractal, answering a question posed by Frederick Almgren. For a d-dimensional object, the construction permits any singular-set Hausdorff dimension from zero to d minus two, including noninteger values. The surrounding smooth geometry is chosen as part of the proof, and the singularities come from intersecting smooth pieces. This is an existence theorem in curved, higher-dimensional spaces, not a prediction that ordinary soap films have fractal defects.",
+    "evidence": {
+      "question": "Can an area-minimizing integral current have a Cantor-type singular set, possibly with noninteger Hausdorff dimension?",
+      "method": "The proof prescribes a closed set as the zero set of a smooth function, uses that function to control where two smooth pieces intersect, and constructs a smooth ambient metric with a calibration. The calibration supplies a mathematical certificate of area minimization in the relevant homology class. Theorem 1 realizes the stated range of singular-set dimensions in a compact ambient space of dimension d plus three.",
+      "limitations": "The ambient metric is constructed rather than fixed in advance. The examples use crossing-type singularities and do not settle the corresponding problem in standard Euclidean or general real-analytic metrics. An existence construction does not say that these singularities are typical or stable under arbitrary metric perturbations. The detailed source read was the author's November 2025 version 7 manuscript; the journal lists online publication on November 5, 2026."
+    },
+    "explainer": {
+      "finding": "The points where an area-minimizing object fails to be a smooth embedded surface can form a fractal set. Their dimension can attain the full range allowed by the theorem, rather than being restricted to a collection of isolated points or smooth curves.",
+      "method": "Start with two smooth pieces that meet along a simple set. Move one piece by a carefully chosen smooth function so that they meet only on the desired closed set. Then choose the geometry and a calibration that certify that a competitor in the same homology class cannot have less area.",
+      "meaning": "Think of the Cantor construction: repeatedly remove the middle third of each remaining interval. Its limiting set has a dimension between zero and one. The theorem shows that this kind of complexity can occur in the exceptional set of a rigorously area-minimizing object. A simple optimization rule need not produce a simple pattern everywhere.",
+      "limits": "The construction depends on specially chosen smooth geometry and extra dimensions. It establishes what is mathematically possible in that setting; it does not demonstrate a laboratory material, describe every minimizer, or solve the same question for ordinary flat space.",
+      "source": "https://arxiv.org/html/2110.13137v7",
+      "background": "#/mathematics/geometry"
+    }
+  }
+}
