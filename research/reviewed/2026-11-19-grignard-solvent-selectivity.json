@@ -1,0 +1,39 @@
+{
+  "subject": "chemistry",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-19",
+    "sourceRead": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15005835/v3",
+    "decision": "include",
+    "reason": "Read the complete September 21 author manuscript, including experimental Figure 2, competing reaction pathways, interface calculations, interpretation and computational methods, plus the linked computational supplement. The ChemRxiv v3 landing page explicitly links the November 19 JACS version of record; its full text was blocked by a publisher access challenge. The explanation therefore identifies the author version actually read. Teaches solvent participation and selectivity versus yield, keeps the atomistic mechanism a simulation-based interpretation, and does not claim universal yield, safety or environmental benefits."
+  },
+  "item": {
+    "id": "grignard-interface-chloride-selectivity-2026",
+    "title": "Enhancing Grignard Reactions via Anion Borrowing in Deep Eutectic/Organic Biphasic Media",
+    "headline": "A solvent can favor the right reaction without making more product",
+    "authors": "Marco Bortoli, Eva Hevia, Odile Eisenstein and Michele Cascella",
+    "venue": "Journal of the American Chemical Society (author manuscript reviewed)",
+    "year": 2026,
+    "date": "2026-11-19",
+    "url": "https://doi.org/10.1021/jacs.6c18690",
+    "doi": "10.1021/jacs.6c18690",
+    "topic": "reaction-selectivity",
+    "chapter": "organic",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "A solvent does more than hold chemicals together. In a Grignard reaction, which joins carbon atoms, researchers compared an ordinary organic solvent with a mixture containing a separate salt-and-glycerol liquid. The unwanted product fell from a 21% yield to 10%, improving the balance between the two products. But the desired product also fell, from 34% to 28%: better selectivity did not mean a higher yield. Molecular simulations suggest that chloride ions at the boundary between the liquids help reorganize the reacting magnesium compounds. The explanation concerns a particular reaction and solvent system, not a universal improvement.",
+    "evidence": {
+      "question": "Why can a deep eutectic solvent favor carbon-carbon bond formation over a competing hydrogen-transfer reaction in Grignard chemistry?",
+      "method": "The author manuscript reports reactions of organomagnesium chlorides with acetophenone at room temperature under air, including an isopropylmagnesium chloride comparison in THF and in a choline chloride:glycerol system. Atomistic simulations compare bulk THF with the interface between THF and the 1:2 choline chloride:glycerol mixture. Quantum molecular dynamics, combined quantum/classical simulations and enhanced sampling estimate reaction free-energy profiles; analysis of weak interactions examines product stabilization.",
+      "limitations": "The detailed mechanism is calculated for isopropylmagnesium chloride and acetophenone, with results dependent on molecular models and sampling. Experimental product yields do not directly observe the proposed intermediate structures or establish that the mechanism applies to other reagents. This review uses the September 21 ChemRxiv v3 manuscript and its computational supplement, linked by the repository to the November 19 journal article; the publisher's final full text was inaccessible."
+    },
+    "explainer": {
+      "finding": "For the isopropyl reagent, the reported desired-to-unwanted product ratio rose from about 1.6:1 in THF to 2.8:1 in the mixed system. Simulations suggest that chloride borrowed from the salt-containing liquid favors complexes with two magnesium atoms and changes the competition between carbon-carbon bond formation and hydrogen transfer. The calculated addition product becomes more energetically favorable.",
+      "method": "The researchers compared measured product yields with calculations of how individual molecules rearrange in the two environments. They modeled neutral and chloride-enriched magnesium complexes and estimated energy barriers and product free energies for both competing pathways. The experiments establish the product balance; the simulations supply an atomistic explanation.",
+      "meaning": "Suppose a reaction can build the carbon skeleton you want or divert material into a different alcohol. A solvent mixture may suppress that diversion while also reducing the amount of your target product. Selectivity asks which product is favored; yield asks how much target product you actually obtain. Measuring both prevents an apparently cleaner reaction from being mistaken for a more productive one.",
+      "limits": "The desired-product yield was 28% in the mixed system versus 34% in THF. Other reagents did not benefit uniformly. The proposed molecular mechanism comes from simulations, not direct imaging of the reaction, and these results do not establish industrial performance or a net environmental advantage. The accessible author manuscript, rather than the final journal text, is the basis of this explanation.",
+      "source": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15005835/v3",
+      "background": "#/chemistry/organic"
+    }
+  }
+}
