@@ -1,0 +1,39 @@
+{
+  "subject": "physics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-20",
+    "sourceRead": "https://arxiv.org/html/2607.28244v1",
+    "decision": "include",
+    "reason": "Read the author manuscript's neutron-diffraction results, quantum/classical simulation comparison, proton embedding and phonon analysis, plus supplemental experimental, density-simulation, isotope-rescaling and mode-analysis methods. APS lists acceptance on November 19, not version-of-record publication; retain the July 30 arXiv source date and format. Distinguishes heavy-water measurements from ordinary-water simulations, approximate temperature resolution, model-based mechanism and macroscopic observation."
+  },
+  "item": {
+    "id": "cubic-ice-quantum-thermal-contraction-2026",
+    "title": "Negative Thermal Expansion in Cubic Ice: A Collective Quantum Effect of the hydrogen-bond network",
+    "headline": "Why very cold cubic ice can shrink as it warms",
+    "authors": "Loan Renaud, Tomasz Poreba, Richard Gaal, A. Marco Saitta, Michele Casula and Livia Eleonora Bove",
+    "venue": "arXiv author manuscript; accepted by Physical Review Letters on 19 November 2026",
+    "year": 2026,
+    "date": "2026-07-30",
+    "url": "https://arxiv.org/abs/2607.28244",
+    "doi": "10.48550/arXiv.2607.28244",
+    "topic": "quantum-materials",
+    "chapter": "heat",
+    "sourceType": "Preprint or working paper",
+    "status": "reported",
+    "summary": "Warming usually makes a solid expand, but very cold cubic ice shows the opposite trend before reaching a density maximum near 70 kelvin, about −203 °C. Researchers measured the crystal structure of heavy-water ice with neutrons and compared it with molecular simulations. The quantum simulations reproduced the density maximum; classical simulations using the same model of molecular interactions did not. The proposed explanation involves collective vibrations of the hydrogen-bond network. These are cryogenic results for a specially prepared form of ice, not a prediction about an ice cube warming in a kitchen.",
+    "evidence": {
+      "question": "Does low-temperature contraction depend on ice’s hexagonal stacking, or on quantum motion within the hydrogen-bond network shared by cubic and hexagonal ice?",
+      "method": "Researchers produced cubic heavy-water ice by removing deuterium gas from a hydrogen hydrate, then used neutron powder diffraction between 50 and 200 K, at 15 K intervals, to determine lattice parameters. They compared density with classical and path-integral molecular dynamics using the same MB-pol interaction potential. Further calculations examined proton motion and the contributions of different collective vibration modes. Simulations tested the mass rescaling used to compare heavy-water measurements with ordinary-water predictions.",
+      "limitations": "Measurements used heavy water and a sample containing minor residual phases, although no hexagonal contribution was detected in the cubic-ice refinement. The maximum is approximate given the temperature spacing and measurement uncertainty. Above about 200 K, structural disorder prevented reliable cubic-lattice analysis. The mechanism depends on computational approximations; diffraction displacement parameters and simulated quantum spreading are not directly interchangeable. This review uses the July author manuscript, not a final journal version."
+    },
+    "explainer": {
+      "finding": "Cubic ice showed a density maximum near the temperature already known for hexagonal ice. This argues against hexagonal stacking being necessary for the effect. Within the simulations, nuclear quantum effects were needed to reproduce the maximum, and low-frequency transverse vibrations of the hydrogen-bond network supplied the contractive contribution.",
+      "method": "Neutrons measured how the crystal’s repeating spacing changed with temperature. The researchers then compared two treatments of atomic motion while keeping the molecular interaction model the same. Calculations of vibration modes helped identify why the quantum treatment gave a different volume response.",
+      "meaning": "Picture an open framework whose connecting links can move sideways. More motion need not simply push its outer edges apart. In this study, calculations suggest that low-energy collective motions favor contraction at very low temperatures; as more vibration modes become active on warming, expansion takes over. Which motions are populated matters as much as how strongly the atoms interact.",
+      "limits": "This is a comparison of particular ice structures at extremely low temperatures, with heavy-water data and model-based interpretation. The single-proton embedding calculation neglects explicit coupling to its surroundings, and comparisons of diffraction and simulated motion are qualitative. Journal acceptance was recorded on November 19, but the source date remains the manuscript’s July 30 posting date.",
+      "source": "https://arxiv.org/html/2607.28244v1",
+      "background": "#/physics/heat"
+    }
+  }
+}
