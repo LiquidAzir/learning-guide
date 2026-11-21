@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-21",
   "note": "Curated primary sources checked on 2026-09-07. Publication dates retain their available precision. Source checks do not establish independent replication. See RESEARCH_POLICY.md for selection rules.",
   "items": [
     {
@@ -447,6 +447,44 @@
         "reason": "Read primary historical data construction, ethnicity-classification validation, department-year regressions, exam-to-hiring comparisons, archival hiring evidence, alternative explanations and conclusion. Teaches how delegated recruitment and information advantages can sustain institutional exclusion. Preserves observational identification, changing record coverage and uncertain name-based ethnicity; does not turn group-level patterns into claims about individual character or present-day parties."
       },
       "added": "2026-11-15"
+    },
+    {
+      "id": "housing-design-context-survey-support-2026",
+      "title": "How Sociotropic Aesthetic Judgments Drive Opposition to Dense Housing Development",
+      "headline": "The same apartment building drew more support when its style matched its neighbors",
+      "authors": "David E. Broockman, Christopher S. Elmendorf and Joshua L. Kalla",
+      "venue": "American Political Science Review",
+      "year": 2026,
+      "date": "2026-11-19",
+      "url": "https://doi.org/10.1017/S0003055426102226",
+      "doi": "10.1017/S0003055426102226",
+      "topic": "housing-policy",
+      "chapter": "policy",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Would you judge a proposed apartment building differently if only the buildings beside it changed? In a randomized survey of 5,064 U.S. adults, the same traditional-style apartment building received more support when shown among traditional rather than modern neighbors. The proposal, surrounding density and stated rents, amenities and resident information stayed fixed. Across the paper’s surveys, appearance also mattered for developments far from respondents’ own homes. This suggests that visual judgments help shape housing-policy preferences, alongside other concerns. The study measures survey responses, not actual permits, housing supply or a guaranteed way to win public approval.",
+      "evidence": {
+        "question": "Do a building’s appearance and its visual fit with surrounding buildings affect support for housing development, including outside respondents’ own neighborhoods?",
+        "method": "The authors conducted three preregistered U.S. online surveys using Prolific: 5,999 respondents in a survey with randomized project vignettes, 12,595 in a video experiment, and 5,064 in a streetscape experiment. The last randomly varied surrounding architectural style while holding the proposed five-story, 20-unit building, neighborhood density and stated project information constant. Respondents rated support and perceived effects; support was measured on a seven-point scale rescaled to 0–1.",
+        "limitations": "Online survey participants are not a probability sample; the authors note some overrepresentation of educated respondents and Democrats in the first survey. Hypothetical ratings may differ from behavior in real planning disputes. Images can change inferences about traffic, property values or residents as well as visual appeal, so the precise mechanism is not conclusively isolated. Correlations involving homeownership or neighborhood choice are not randomized effects."
+      },
+      "explainer": {
+        "finding": "In the streetscape experiment, a traditional surrounding context raised mean support for the identical traditional-style proposal by 0.074 on the rescaled 0–1 rating scale (p < 0.001). It also improved ratings of how well the building fit its neighborhood. This is a change in average rating, not a 7.4-percentage-point increase in the share voting yes.",
+        "method": "Participants saw before-and-after images of a parking lot replaced by the same apartment building. Only the architectural style of neighboring buildings differed between conditions; their density and the proposal’s stated characteristics were held constant. Other experiments varied building design, location and project attributes to examine whether appearance mattered beyond one image comparison.",
+        "meaning": "A planning proposal is evaluated in context. An image of the same building can provoke different reactions depending on what surrounds it, even when its size and stated uses do not change. That helps explain why evidence about who benefits financially may leave part of public opinion unexplained. It also illustrates why experiments must distinguish a visual change from changes in density or affordability.",
+        "limits": "The study does not show that visual preferences are the sole cause of development opposition, that one architectural style is universally preferred, or that matching a streetscape will secure real approvals. The authors cannot fully separate direct aesthetic preferences from other inferences prompted by appearance. Deciding housing policy still requires evidence about costs, supply, access and other consequences beyond expressed support.",
+        "source": "https://doi.org/10.1017/S0003055426102226",
+        "background": "#/politics/policy"
+      },
+      "verified": "2026-11-21",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-21",
+        "sourceRead": "https://doi.org/10.1017/S0003055426102226",
+        "decision": "include",
+        "reason": "Read primary theory, three survey designs, randomized vignette and video results, descriptive comparisons, and discussion of mechanism and external-validity limits. Focuses on the controlled streetscape experiment and the distinction between survey support and implemented policy. Keeps 0.074 as a change on a rescaled rating, not a percentage-point approval increase. Institutional housing-policy research meets the political-science policy; no campaign coverage, advocacy recommendation or claim that aesthetics explains all opposition."
+      },
+      "added": "2026-11-21"
     }
   ]
 }
