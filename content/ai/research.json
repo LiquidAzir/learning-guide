@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-22",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -1189,6 +1189,44 @@
         "reason": "Read the published JAIR version's methods, benchmark setup, baseline retraining, results, ablations, conclusion and appendices on datasets, training, seed variability, noise and physics diagnostics. Uses published 1.18% relative L2 error, not earlier preprint values. Distinguishes held-out trajectories in trained fluid families from unseen physics and lower field error from guaranteed physical fidelity."
       },
       "added": "2026-11-16"
+    },
+    {
+      "id": "noisy-reward-machines-2026",
+      "title": "Robust Reward Machine Learning and Execution in Noisy Environments",
+      "headline": "AI can learn a task checklist even when its signals are noisy",
+      "authors": "Roko Parac, Lorenzo Nodari, Daniel Furelos-Blanco, Leo Ardon, Federico Cerutti and Alessandra Russo",
+      "venue": "Journal of Artificial Intelligence Research",
+      "year": 2026,
+      "date": "2026-10-22",
+      "url": "https://doi.org/10.1613/jair.1.22539",
+      "doi": "10.1613/jair.1.22539",
+      "topic": "reinforcement-learning",
+      "chapter": "reinforcement",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "Delivering coffee requires remembering whether you picked it up first. Prob-IRM learns a small map of task stages, called a reward machine, while keeping probabilities over which stage it has reached. In two simulated environments it handled noisy event signals better than a comparison method that ignored their uncertainty, and often approached performance with a hand-written task map. These are benchmark results: the system still needs predefined event detectors and reliable information about task completion.",
+      "evidence": {
+        "question": "Can an agent learn and use a multistep task structure when signals about intermediate events are unreliable?",
+        "method": "Prob-IRM alternates weighted logic-based learning of task maps with PPO reinforcement learning. The authors compared it with a noise-unaware task-map learner (ISA), a correct handcrafted map and recurrent PPO using an LSTM. Tests covered three OfficeWorld tasks and three continuous-state WaterWorld tasks, varying sensor noise and reporting returns across repeated runs.",
+        "limitations": "Testing was in simulations with supplied event detectors, known event categories and reliable termination information. Higher noise harmed a difficult navigation task and increased computation. Repeated correlated signals can inflate confidence; learned maps can omit necessary steps, and convergence is not guaranteed. Some ISA failures depended on the authors' batched training implementation."
+      },
+      "explainer": {
+        "finding": "Learning a task map while tracking uncertainty worked well on these benchmarks. Prob-IRM often approached the handcrafted-map baseline; recurrent PPO learned some tasks more slowly and failed on others. The hardest OfficeWorld task deteriorated at the highest tested noise level, so success was not uniform.",
+        "method": "The agent learns both what sequence counts as success and how to act. Uncertain event histories receive weighted treatment when building the map. Experiments included collecting coffee and mail before returning to an office, and touching coloured balls in specified orders, with sensor-confidence settings of 1.0, 0.9 and 0.8.",
+        "meaning": "For the simulated coffee delivery task, reaching the office means little unless coffee was collected earlier. An explicit task map supplies that memory, while probabilities let the agent represent uncertainty about whether a step really happened. This separates remembering progress from choosing the next movement.",
+        "limits": "No physical robot or general-purpose assistant was tested. The model assumes reliable task-ending information and does not learn its event detectors from scratch. Correlated mistakes can produce overconfidence, and the authors show a setting where map revisions can cycle indefinitely.",
+        "source": "https://jair.org/index.php/jair/article/download/22539/27380/60741",
+        "background": "#/ai/reinforcement"
+      },
+      "verified": "2026-11-22",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-22",
+        "sourceRead": "https://jair.org/index.php/jair/article/download/22539/27380/60741",
+        "decision": "include",
+        "reason": "Read the published primary paper's assumptions, algorithm, experimental setup, OfficeWorld and WaterWorld results, computational overhead and discussion of failure modes. Teaches explicit task memory and uncertainty without implying real-world deployment or universal superiority."
+      },
+      "added": "2026-11-22"
     }
   ]
 }

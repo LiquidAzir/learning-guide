@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-22",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -1247,6 +1247,44 @@
         "reason": "Read primary historical framing, artefact-database construction, certainty categories, results, discussion and conclusion. Teaches how non-monetary finds can test an explanation of coinage change. Keeps measured find counts separate from inferred economic prosperity and proposed royal motives; does not present new metallurgical assays or a quantified bullion stock as part of this study."
       },
       "added": "2026-11-16"
+    },
+    {
+      "id": "rodhals-diet-transition-2026",
+      "title": "Rødhals Man: a life at the end of the Mesolithic world",
+      "headline": "One man's teeth trace a changing diet as farming reached Denmark",
+      "authors": "Anders Fischer, John Meadows, Marie Louise Jørkov et al.",
+      "venue": "Antiquity",
+      "year": 2026,
+      "date": "2026-11-16",
+      "url": "https://doi.org/10.15184/aqy.2026.10476",
+      "doi": "10.15184/aqy.2026.10476",
+      "topic": "archaeology",
+      "chapter": "ancient-origins",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "A man buried on a Danish island around 3800 BCE left a record of changing meals in his teeth and bones. Chemical signatures suggest a childhood diet dominated by marine foods, followed by more land-based protein in adolescence and adulthood. Researchers combined these measurements with earlier DNA results and corrected radiocarbon dates. Contact with early farmers is a plausible explanation, but the chemistry cannot distinguish farmed food from wild terrestrial food.",
+      "evidence": {
+        "question": "How did one coastal forager's diet change during Denmark's transition to farming, and when did he live?",
+        "method": "The authors combined skeletal analysis and previously published genomic results with carbon, nitrogen, sulphur and strontium isotope measurements. Successive tooth-dentine samples and adult bone samples trace different life stages; local animal remains provide dietary comparisons. A Bayesian model combines five radiocarbon dates, correcting for marine food and the different ages represented by sampled tissues.",
+        "limitations": "This is one individual. Dietary estimates and dating depend on reference foods and model assumptions. Isotopes do not identify whether terrestrial food was hunted or farmed, and neither genetic ancestry nor burial style alone establishes cultural identity."
+      },
+      "explainer": {
+        "finding": "Marine food remained important throughout his life, but the inferred share of land-based protein rose in his teens and adulthood. The dating model places his death between 3930 and 3710 BCE with 95% probability, overlapping the regional spread of farming.",
+        "method": "Teeth preserve chemical traces from the years when their tissues formed, while bone reflects later diet. Comparing those traces with local animals helps separate land food, shallow-water seafood and offshore fish. Seafood also makes radiocarbon ages look older, so the team adjusted the dates for estimated diet.",
+        "meaning": "A childhood tooth sample and an adult bone can tell different parts of the same story. Here, their contrast lets historians examine a major transition through one person's meals instead of assuming everyone changed livelihood at once.",
+        "limits": "The proposed connection to farmers is an interpretation, not direct evidence of a meal of farmed grain or livestock. Hunting on a larger landmass is another possibility. One skeleton cannot establish how the whole population experienced the transition.",
+        "source": "https://doi.org/10.15184/aqy.2026.10476",
+        "background": "#/history/ancient-origins"
+      },
+      "verified": "2026-11-22",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-22",
+        "sourceRead": "https://doi.org/10.15184/aqy.2026.10476",
+        "decision": "include",
+        "reason": "Read the primary article's burial context, skeletal and genomic evidence, dietary reconstruction, radiocarbon model and discussion. A concrete case teaches how several imperfect traces reconstruct a life, while distinguishing measured dietary change from inferred contact with farmers."
+      },
+      "added": "2026-11-22"
     }
   ]
 }
