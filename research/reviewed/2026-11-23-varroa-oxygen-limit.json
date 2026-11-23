@@ -1,0 +1,39 @@
+{
+  "subject": "biology",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-23",
+    "sourceRead": "https://doi.org/10.1371/journal.pbio.3004091",
+    "decision": "include",
+    "reason": "Read primary results, discussion and methods. Combines colony relocation with low-altitude oxygen manipulation to teach physiological limits in host-parasite interactions. Preserves nonrandom altitude allocation and the five-hive before-after design; does not present a proven beekeeping treatment."
+  },
+  "item": {
+    "id": "varroa-oxygen-limit-2026",
+    "title": "Altitude-induced hypoxia suppresses Varroa mite reproduction in Tibetan honey bees",
+    "headline": "Low oxygen disrupted reproduction in a major honey-bee parasite",
+    "authors": "Ruike Wei, Shangning Yang, Xinlan Chen et al.",
+    "venue": "PLOS Biology",
+    "year": 2026,
+    "date": "2026-11-19",
+    "url": "https://doi.org/10.1371/journal.pbio.3004091",
+    "doi": "10.1371/journal.pbio.3004091",
+    "topic": "host-parasite-interactions",
+    "chapter": "ecology",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "Why were damaging Varroa mites scarce in Tibetan beehives? Colonies moved above roughly 3,500 metres showed sharply reduced mite reproduction, with offspring development often stopping early. Lowering oxygen in five hives near sea level produced a similar pattern, strengthening the case that oxygen availability matters. This identifies a possible weakness in the parasite, but the small before-and-after experiment does not establish a safe, effective treatment for ordinary beekeeping.",
+    "evidence": {
+      "question": "Does reduced oxygen at high altitude explain why Varroa mites reproduce poorly in Tibetan honey-bee colonies?",
+      "method": "The main relocation study divided 60 Apis mellifera ligustica colonies among four altitude groups, with infestation and mite development tracked over time. Allocation was not random: the most infested group went to the highest site. A separate experiment measured the same five modified low-altitude hives first at ambient oxygen and then after 11 days of reduced oxygen; analyses accounted for colony and initial infestation.",
+      "limitations": "Altitude groups differed initially and sites differed beyond altitude. The low-altitude experiment used five hives with a preceding baseline, not randomized simultaneous controls. Short-term worker development observations do not establish long-term colony safety, and the physiological mechanism and practical treatment schedule remain unresolved."
+    },
+    "explainer": {
+      "finding": "Mites produced fewer offspring and their young often failed to mature in high-altitude colonies. In the five-hive low-altitude experiment, average offspring per reproductive mother mite fell from 3.9 under ambient conditions to 1.7 under reduced oxygen, with most eggs failing to develop further.",
+      "method": "Researchers inspected mites inside sealed bee brood cells after moving colonies between elevations. They then changed oxygen availability in low-altitude hives to test whether the mountain pattern could be reproduced without moving the bees. The same hives provided the earlier ambient-oxygen comparison.",
+      "meaning": "A parasite needs more than an adult that can survive: it needs offspring that mature before the host leaves its brood cell. Disrupting that timetable could reduce the next generation of mites even while some adult mites remain alive. The study illustrates how an environmental limit can affect a parasite differently from its host.",
+      "limits": "The work supports oxygen as a contributor, but does not isolate every physiological pathway or validate a ready-to-use control method. Long-term bee health, reliability across colonies and practical operating conditions still need testing.",
+      "source": "https://doi.org/10.1371/journal.pbio.3004091",
+      "background": "#/biology/ecology"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "subject": "linguistics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-23",
+    "sourceRead": "https://doi.org/10.16995/glossa.29715",
+    "decision": "include",
+    "reason": "Read the primary theoretical article's empirical contrasts, proposed structure and open predictions, and followed its evidence to the companion primary study at https://ling.auf.net/lingbuzz/006708/current.pdf. Keeps the grammatical analysis distinct from the 407-speaker rating study; geographic-size restrictions rest on consultant judgments, and age differences do not establish change over time."
+  },
+  "item": {
+    "id": "everywhere-human-meaning-2026",
+    "title": "(Everyone) Everywhere All at Once: A relational account of quantified impersonal -where in English",
+    "headline": "When 'everywhere' refers to people: a proposal about English grammar",
+    "authors": "Benjamin L. Sluckin",
+    "venue": "Glossa: a journal of general linguistics",
+    "year": 2026,
+    "date": "2026-10-28",
+    "url": "https://doi.org/10.16995/glossa.29715",
+    "doi": "10.16995/glossa.29715",
+    "topic": "syntax-and-meaning",
+    "chapter": "meaning",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "For some English speakers, 'Everywhere in the UK loves Marmite' can describe people rather than places. This paper proposes that the expression's grammar contains an unspoken human component linked to a location. It distinguishes that use from talking about places or businesses. The proposal draws on sentence judgments and a separate acceptability study; it is an analysis of a restricted construction, not a rule shared by all English speakers or proof of how their brains represent it.",
+    "evidence": {
+      "question": "How can an expression built from 'where' act as a human subject while retaining its place-related form?",
+      "method": "The article develops a formal syntactic and semantic account using contrasts involving location phrases, pronouns, subject position and interpretation. It draws on a separate online study of 407 native English speakers (339 UK, 68 US/Canada), who rated visually presented sentences on a seven-point scale, analysed with ordinal Bayesian regression, plus author and consultant judgments.",
+      "limitations": "The paper proposes a grammatical structure rather than directly observing one. The companion study tests sentence acceptability, not everyday usage frequency or processing in the brain. Samples are regionally uneven; the claimed need for a large geographic area was not experimentally contrasted with smaller areas. Several structural predictions still require testing."
+    },
+    "explainer": {
+      "finding": "The analysis separates references to locations, place-linked institutions and human inhabitants. For the human reading, it proposes an unspoken person component connected to the location phrase. In the companion experiment, adding a location phrase generally improved ratings, although the effect varied by sentence context.",
+      "method": "The author asks whether the expression behaves like a human subject: for example, whether later pronouns can refer back to its people. The accompanying empirical study compared sentences with and without location phrases and with ordinary person pronouns. It measured acceptability across UK and North American speakers, not a universal correct-versus-incorrect boundary.",
+      "meaning": "Looking for keys in many places and describing what the inhabitants of those places enjoy involve different kinds of reference. This case shows why a dictionary meaning is only a starting point: sentence structure and context help determine whether we are talking about places, institutions or people.",
+      "limits": "A silent human component is the proposed explanation, not a directly measured entity. Regional differences do not rank speakers' abilities. Age differences in a one-time survey do not prove that English is changing, and further experiments are needed to distinguish this account from alternatives.",
+      "source": "https://doi.org/10.16995/glossa.29715",
+      "background": "#/linguistics/meaning"
+    }
+  }
+}
