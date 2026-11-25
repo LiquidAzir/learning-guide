@@ -1,0 +1,39 @@
+{
+  "subject": "mathematics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-25",
+    "sourceRead": "https://link.springer.com/content/pdf/10.1007/s00222-026-01462-0.pdf",
+    "decision": "include",
+    "reason": "Read the primary PDF's main theorem and assumptions, proof strategy using relative entropy and miniflags, general theorem and deduction in section 6.3, and upper-bound comparison in Appendix A. Resolves the missing formulas that prevented review on November 24. Explains a quantitative asymptotic theorem without claiming empirical validation, monotone finite-step growth or unrestricted robustness to noise."
+  },
+  "item": {
+    "id": "noisy-matrix-stretching-gaps-2026",
+    "title": "Effective gaps between singular values of non-stationary matrix products subject to non-degenerate noise",
+    "headline": "Small random perturbations can separate a system's stretching rates",
+    "authors": "Sam Bednarski, Jonathan DeWitt and Anthony Quas",
+    "venue": "Inventiones mathematicae",
+    "year": 2026,
+    "date": "2026-11-10",
+    "url": "https://doi.org/10.1007/s00222-026-01462-0",
+    "doi": "10.1007/s00222-026-01462-0",
+    "topic": "random-matrices",
+    "chapter": "linear-algebra",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "A matrix can stretch a circle into an ellipse; applying many matrices compounds those stretches. This paper proves that adding independent, sufficiently spread-out random perturbations to a bounded sequence of matrices forces their cumulative stretching factors to separate over time. The new result quantifies the minimum long-run separation, even when the underlying matrices keep changing. It is a theorem under specific noise assumptions, not a claim that any kind of noise improves a real system.",
+    "evidence": {
+      "question": "Can one give a quantitative lower bound on the separation of consecutive singular values in changing matrix products perturbed by small random noise?",
+      "method": "The authors prove bounds for products of bounded real square matrices with independent additive matrix noise. Their main formulation uses identically distributed noise drawn from an absolutely continuous distribution with a continuous density and a specified tail bound. A relative-entropy argument on nested subspaces connects accumulated geometric distortion to gaps between consecutive logarithmic singular values.",
+      "limitations": "The theorem depends on bounded matrix norms, independence and distributional conditions on the noise. Its almost-sure conclusion is asymptotic; it does not make every finite product satisfy a deterministic gap bound. The result concerns relative stretching, not necessarily expansion in absolute size, and is not an experimental performance test."
+    },
+    "explainer": {
+      "finding": "For noise amplitude epsilon, the long-run logarithmic separation per multiplication between each pair of consecutive stretching factors has a positive lower bound proportional to epsilon squared, with a factor depending on the noise distribution and the matrix-norm bound. A comparison near the identity shows that the squared-noise order cannot generally be improved.",
+      "method": "This is proved mathematically. The authors track how random transformations distort families of nested subspaces. Relative entropy measures a form of that distortion, and geometric estimates turn its accumulation into lower bounds on the ratios of stretching factors. They also establish bounds in expectation.",
+      "meaning": "Imagine repeatedly transforming a circle. Its longest and shortest radii measure different cumulative stretches. Even if every intended transformation leaves the circle unchanged, suitable independent random perturbations can make the ratio of those stretches grow over many steps. The theorem gives a quantitative version of that separation in any fixed dimension.",
+      "limits": "Halving the noise amplitude quarters the theorem's squared-noise lower-bound scale, not necessarily the actual gap observed in a particular system. Correlated errors or noise confined to a restricted set of matrices need not satisfy the assumptions. Both directions could shrink while their ratio grows; separation alone does not imply instability or useful performance.",
+      "source": "https://link.springer.com/content/pdf/10.1007/s00222-026-01462-0.pdf",
+      "background": "#/mathematics/linear-algebra"
+    }
+  }
+}
