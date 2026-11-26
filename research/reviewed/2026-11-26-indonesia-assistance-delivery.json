@@ -1,0 +1,39 @@
+{
+  "subject": "economics",
+  "review": {
+    "reviewer": "Codex",
+    "checked": "2026-11-26",
+    "sourceRead": "https://www.dropbox.com/scl/fi/5kj4p7ye2s62rd1o26e1k/OnDemandAEJPolicy.pdf?dl=1&rlkey=9fqr3ko9jnz422kt84pah98tb",
+    "decision": "include",
+    "reason": "Read the published paper supplied through coauthor Benjamin Olken's MIT publications page: program design, national-survey matching, online-survey selection and attrition, stacked lottery IV estimation, receipt discrepancies, impact results and conclusion. Visually checked Tables 5 and 7. Teaches the distinction between administrative enrollment, actual receipt and outcome measurement. Keeps national null results separate from selected online-sample gains; intermediary involvement remains suggestive, not a measured fraud rate. The journal dates this article to November 2026, so retain month precision rather than the metadata's first-of-month day."
+  },
+  "item": {
+    "id": "indonesia-on-demand-assistance-delivery-2026",
+    "title": "On-Demand Assistance: Experimental Evidence from Indonesia",
+    "headline": "An assistance program's approval records can miss what people actually receive",
+    "authors": "Rema Hanna, Benjamin A. Olken, Sudarno Sumarto, Achmad Maulana, Vivi Alatas and Elan Satriawan",
+    "venue": "American Economic Journal: Economic Policy",
+    "year": 2026,
+    "date": "2026-11",
+    "url": "https://doi.org/10.1257/pol.20250324",
+    "doi": "10.1257/pol.20250324",
+    "topic": "development",
+    "chapter": "development",
+    "sourceType": "Journal publication",
+    "status": "reported",
+    "summary": "An online application and a recorded payment do not tell the whole story of a benefits program. Studying Indonesia's Prakerja cash-and-training program, researchers found no detectable overall employment or consumption gains in linked national surveys. Many recorded beneficiaries did not report receiving the program. A selected online sample showed higher earnings and more self-employment, but those gains cannot be assumed for all applicants.",
+    "evidence": {
+      "question": "Did Indonesia's on-demand cash-and-training program reach applicants and improve their consumption or employment?",
+      "method": "The study uses 20 randomized enrollment batches from 2020-2021, linking administrative records to national workforce and household welfare surveys. Its instrumental-variables design accounts for weighted lottery chances and repeat applications, clustering uncertainty by person. A separate 2022 online follow-up examines prior survey respondents who reapplied in later batches.",
+      "limitations": "The online sample is selected for reachable, responsive applicants and is not representative of all applicants. Reported nonreceipt can include recall or reporting errors; evidence of intermediaries is suggestive. The bundled program does not isolate cash from training, and these results describe its pandemic-era design."
+    },
+    "explainer": {
+      "finding": "The national-survey analysis detected no overall gains in consumption or employment. In the selected 2022 online sample, the estimated increase in self-employment or business ownership was 6.3 percentage points, and monthly earnings rose about Rp215,000, or 19 percent. Overall employment did not detectably rise in that sample either.",
+      "method": "The researchers used lottery outcomes to compare otherwise comparable applicants, adjusting for different winning chances and later reapplications. They checked enrollment records against independent national surveys, then separately analyzed an online follow-up whose response rates were balanced between lottery winners and losers. The latter still represents a selected population.",
+      "meaning": "Imagine a person listed as approved for training and cash, while somebody else handles the online steps. A payment record alone cannot establish how much help that person received. The practical lesson is to check delivery and outcomes independently, and ask whom a survey actually reaches before generalizing its results.",
+      "limits": "The mismatch is not proof that every unreported payment was diverted. The study cannot establish that intermediaries caused the national null results or separate training effects from cash effects. Online respondents were younger, more educated and more urban; their gains do not establish the program's average impact nationwide.",
+      "source": "https://www.dropbox.com/scl/fi/5kj4p7ye2s62rd1o26e1k/OnDemandAEJPolicy.pdf?dl=1&rlkey=9fqr3ko9jnz422kt84pah98tb",
+      "background": "#/economics/development"
+    }
+  }
+}
