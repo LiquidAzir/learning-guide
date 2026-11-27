@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-27",
   "note": "Source-check dates preserve the checks recorded when these entries were maintained; they are not new replication checks. Source format and claim status are separate. Reported means the cited source reports the result or event, not that independent groups have confirmed it. Preliminary, disputed, and retracted flag the cautions recorded in each summary. Consult the source for methods, publication history, and subsequent updates.",
   "items": [
     {
@@ -1117,6 +1117,44 @@
         "reason": "Read the author manuscript's neutron-diffraction results, quantum/classical simulation comparison, proton embedding and phonon analysis, plus supplemental experimental, density-simulation, isotope-rescaling and mode-analysis methods. APS lists acceptance on November 19, not version-of-record publication; retain the July 30 arXiv source date and format. Distinguishes heavy-water measurements from ordinary-water simulations, approximate temperature resolution, model-based mechanism and macroscopic observation."
       },
       "added": "2026-11-20"
+    },
+    {
+      "id": "bacterial-colony-eversion-2026",
+      "title": "Differential active adhesion and a capillary instability drive global eversion and dissemination of bacterial colonies",
+      "headline": "Some bacterial colonies turn themselves inside out",
+      "authors": "Stephan Wimmi, Isabelle Wielert, Kai Zhou, Marc Hennes, Benedikt Sabass and Berenike Maier",
+      "venue": "Nature Physics",
+      "year": 2026,
+      "date": "2026-11-27",
+      "url": "https://doi.org/10.1038/s41567-026-03530-x",
+      "doi": "10.1038/s41567-026-03530-x",
+      "topic": "active-matter",
+      "chapter": "matter",
+      "sourceType": "Journal publication",
+      "status": "reported",
+      "summary": "A colony can reorganize without each cell changing shape. In laboratory observations of Neisseria gonorrhoeae, cells flowed from the colony's centre to its edge, turning the aggregate inside out. Experiments and simulations link this motion to a weakly cohesive interior surrounded by a more strongly cohesive shell. This is evidence about a living material in the laboratory, not a demonstration of how infections spread in people.",
+      "evidence": {
+        "question": "Can chemical differences inside a growing colony change cell-to-cell forces enough to reorganize the whole aggregate?",
+        "method": "The researchers combined time-lapse microscopy, fluorescent reporters, cell tracking and comparisons of bacterial variants with an idealized three-dimensional particle simulation. The initial eversion observations covered 30 colonies across seven biological replicates; a separate geometry comparison used eight colonies from five replicates.",
+        "limitations": "The experiments used laboratory-strain derivatives with pilin antigenic variation disabled. Internal cohesion was inferred partly from cell motion. The proposed transient channels were visible in simulations, not directly resolved in the experiments. Human infection and treatment outcomes were not tested."
+      },
+      "explainer": {
+        "finding": "Cells from the interior moved outward and around the former surface. The evidence links oxygen depletion inside the colony to weakened cell-to-cell cohesion, creating an imbalance with the outer shell. Some living cells that dispersed formed new colonies in the chamber.",
+        "method": "Microscopy established the flow of cells and spatial differences within colonies. Experimental comparisons tested the role of cell interactions, while simulated cells connected by active, temporary bonds reproduced an inside-out rearrangement. Agreement supports the proposed mechanism, but does not independently verify every detail of the model.",
+        "meaning": "Picture a ball whose outer layer holds together more strongly than its centre. Changing the balance of those forces can reorganize the whole ball. Here the building blocks are living cells that consume energy: an example of active matter, where collective motion depends on interactions as well as individual behaviour.",
+        "limits": "The simulation simplifies cells and their connections, and some parameters were estimated. Other mechanical effects could influence the transition. Whether comparable rearrangements occur in other species or within a host remains an open question.",
+        "source": "https://www.nature.com/articles/s41567-026-03530-x",
+        "background": "#/physics/matter"
+      },
+      "verified": "2026-11-27",
+      "editorialReview": {
+        "reviewer": "Codex",
+        "checked": "2026-11-27",
+        "sourceRead": "https://www.nature.com/articles/s41567-026-03530-x",
+        "decision": "include",
+        "reason": "Read the primary open-access article's results, figure captions, discussion and relevant imaging, strain and simulation methods. The initial web fetch failed, but direct retrieval provided full text. Explains active matter and a collective shape instability; distinguishes observed cell flows from inferred internal cohesion and simulated channels. Keeps the laboratory-strain and in-vitro boundaries explicit without implying clinical or treatment evidence."
+      },
+      "added": "2026-11-27"
     }
   ]
 }
